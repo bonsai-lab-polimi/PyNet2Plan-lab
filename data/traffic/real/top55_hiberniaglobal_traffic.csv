@@ -1,0 +1,63 @@
+# topology: HIBERNIAGLOBAL (real topology #55) (data/topologies/real/top55_hiberniaglobal.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Richmond,Dallas,8
+1,Reading,Moncton,1
+2,Dusseldorf,Moncton,6
+3,L'Ancienne-Lorette,London,5
+4,Amsterdam,Los Angeles,1
+5,Buffalo,Southport,7
+6,Southport,Pittsburgh,7
+7,Ashburn,Frankfurt am Main,2
+8,Atlanta,Moncton,4
+9,Las Vegas,Albany,5
+10,Paris,L'Ancienne-Lorette,8
+11,Phoenix,Dallas,2
+12,Southport,L'Ancienne-Lorette,3
+13,Paris,Frankfurt am Main,3
+14,Ludwigshafen am Rhein,Dusseldorf,2
+15,Moncton,Toronto,6
+16,Atlanta,Chicago,1
+17,Brussels,Rathmines,6
+18,Boston,Montreal,6
+19,Los Angeles,White Plains,3
+20,Reading,"Washington, D.C.",1
+21,New York City,Philadelphia,6
+22,Tampa,Edmundston,7
+23,Montreal,Boston,5
+24,Dusseldorf,Truro,1
+25,Strasbourg,Boston,7
+26,Seattle,Dusseldorf,7
+27,Miami,Portrush,1
+28,Richmond,Edmundston,4
+29,Rathmines,L'Ancienne-Lorette,6
+30,Baltimore,Houston,2
+31,Ashburn,Reading,4
+32,Manchester,Charlotte,2
+33,Manchester,Biache-Saint-Vaast,3
+34,Baltimore,Frankfurt am Main,2
+35,Boston,Raleigh,7
+36,Montreal,Charlotte,1
+37,Rathmines,Edmundston,1
+38,Atlanta,Tampa,3
+39,New York City,Toronto,8
+40,Belfast,McLean,4
+41,Los Angeles,Buffalo,5
+42,"Washington, D.C.",Atlanta,4
+43,Las Vegas,Los Angeles,2
+44,Buffalo,Halifax,5
+45,Dallas,Halifax,1
+46,Houston,Raleigh,4
+47,Newark,Tampa,1
+48,Ludwigshafen am Rhein,Cleveland,5
+49,Pittsburgh,Montreal,5
+50,Truro,Toronto,1
+51,Dallas,Edmundston,7
+52,Belfast,San Diego,8
+53,Strasbourg,San Diego,6
+54,San Diego,Biache-Saint-Vaast,1
+55,Seattle,Buffalo,3
+56,Raleigh,Las Vegas,7
+57,Moncton,San Diego,1
+58,Los Angeles,Pittsburgh,4
+59,Rathmines,Las Vegas,4

@@ -1,0 +1,55 @@
+# topology: RENATER2008 (real topology #27) (data/topologies/real/top27_renater2008.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Vinon-sur-Verdon,Dijon,2
+1,Dijon,Montpellier,4
+2,Lille,Strasbourg,1
+3,Toulouse,Clermont-Ferrand,4
+4,Vinon-sur-Verdon,Lyon,5
+5,Toulouse,Besancon,2
+6,Lille,Pau,4
+7,Corte,Toulouse,5
+8,Bordeaux,Strasbourg,1
+9,Caen,Jarville-la-Malgrange,4
+10,Jarville-la-Malgrange,Pau,3
+11,Orleans,Paris,2
+12,Pau,Paris,8
+13,Jarville-la-Malgrange,Toulouse,8
+14,Vinon-sur-Verdon,Strasbourg,4
+15,Compiegne,Lyon,4
+16,Lyon,Montpellier,8
+17,Strasbourg,Rouen,4
+18,Besancon,Nice,4
+19,Marseille 04,Clermont-Ferrand,1
+20,Lyon,Reims,2
+21,Toulouse,Compiegne,3
+22,Lille,Clermont-Ferrand,6
+23,Strasbourg,Nice,1
+24,Lyon,Toulouse,4
+25,Lyon,Dijon,2
+26,Dijon,Clermont-Ferrand,7
+27,Lyon,Bordeaux,3
+28,Caen,Poitiers,6
+29,Corte,Paris,2
+30,Strasbourg,Toulouse,7
+31,Dijon,Pau,4
+32,Reims,Lyon,5
+33,Clermont-Ferrand,Caen,7
+34,Bordeaux,Lille,4
+35,Bordeaux,Lyon,2
+36,Toulouse,Nice,2
+37,Bordeaux,Orleans,8
+38,Orleans,Nantes,6
+39,Besancon,Vinon-sur-Verdon,5
+40,Corte,Bordeaux,1
+41,Vinon-sur-Verdon,Orleans,2
+42,Rennes,Corte,4
+43,Dijon,Rouen,5
+44,Marseille 04,Pau,4
+45,Clermont-Ferrand,Strasbourg,5
+46,Nantes,Marseille 04,3
+47,Pau,Besancon,2
+48,Paris,Clermont-Ferrand,5
+49,Lyon,Caen,5
+50,Montpellier,Caen,2
+51,Marseille 04,Corte,8

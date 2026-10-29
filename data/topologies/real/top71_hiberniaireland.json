@@ -1,0 +1,142 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "HIBERNIAIRELAND (real topology #71)",
+  "description": "Real-world topology HIBERNIAIRELAND (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Rathmines",
+      "lat": 53.34,
+      "lon": -6.27,
+      "x": -697973.2072738252,
+      "y": 7046138.026164116,
+      "up": true
+    },
+    {
+      "name": "Gaillimh",
+      "lat": 53.27,
+      "lon": -9.05,
+      "x": -1007441.391679126,
+      "y": 7033097.612674585,
+      "up": true
+    },
+    {
+      "name": "Luimneach",
+      "lat": 52.66,
+      "lon": -8.62,
+      "x": -959574.0106380181,
+      "y": 6920353.092365765,
+      "up": true
+    },
+    {
+      "name": "Cork",
+      "lat": 51.9,
+      "lon": -8.5,
+      "x": -946215.6717428254,
+      "y": 6782064.328749425,
+      "up": true
+    },
+    {
+      "name": "Waterford",
+      "lat": 52.26,
+      "lon": -7.11,
+      "x": -791481.5795401752,
+      "y": 6847274.007863812,
+      "up": true
+    },
+    {
+      "name": "Portlaoise",
+      "lat": 53.03,
+      "lon": -7.3,
+      "x": -812632.2827908972,
+      "y": 6988549.037465079,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Rathmines",
+      "destination": "Waterford",
+      "capacity": 40,
+      "length": 199.06,
+      "up": true
+    },
+    {
+      "origin": "Rathmines",
+      "destination": "Portlaoise",
+      "capacity": 40,
+      "length": 115.2,
+      "up": true
+    },
+    {
+      "origin": "Gaillimh",
+      "destination": "Luimneach",
+      "capacity": 40,
+      "length": 110.53,
+      "up": true
+    },
+    {
+      "origin": "Luimneach",
+      "destination": "Gaillimh",
+      "capacity": 40,
+      "length": 110.53,
+      "up": true
+    },
+    {
+      "origin": "Luimneach",
+      "destination": "Cork",
+      "capacity": 40,
+      "length": 127.35,
+      "up": true
+    },
+    {
+      "origin": "Luimneach",
+      "destination": "Portlaoise",
+      "capacity": 40,
+      "length": 146.59,
+      "up": true
+    },
+    {
+      "origin": "Cork",
+      "destination": "Luimneach",
+      "capacity": 40,
+      "length": 127.35,
+      "up": true
+    },
+    {
+      "origin": "Cork",
+      "destination": "Waterford",
+      "capacity": 40,
+      "length": 154.61,
+      "up": true
+    },
+    {
+      "origin": "Waterford",
+      "destination": "Rathmines",
+      "capacity": 40,
+      "length": 199.06,
+      "up": true
+    },
+    {
+      "origin": "Waterford",
+      "destination": "Cork",
+      "capacity": 40,
+      "length": 154.61,
+      "up": true
+    },
+    {
+      "origin": "Portlaoise",
+      "destination": "Rathmines",
+      "capacity": 40,
+      "length": 115.2,
+      "up": true
+    },
+    {
+      "origin": "Portlaoise",
+      "destination": "Luimneach",
+      "capacity": 40,
+      "length": 146.59,
+      "up": true
+    }
+  ]
+}

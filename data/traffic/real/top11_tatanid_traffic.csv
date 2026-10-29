@@ -1,0 +1,63 @@
+# topology: TATANID (real topology #11) (data/topologies/real/top11_tatanid.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Banposh,Bhubaneshwar,4
+1,Dhenkanal,Vadodara,3
+2,Kharagpur,Hyderabad,8
+3,Bareilly,Ghandinagar,4
+4,Pathankot,Trichur,5
+5,Nellore,Hassan,4
+6,Kota,Fatehpur,1
+7,Solapur,New Delhi,3
+8,Hyderabad,Ghaziabad,4
+9,Tirunelveli,Solapur,5
+10,Dhule,Solapur,3
+11,George Town,Sandur,8
+12,Jabalpur,Tiruchirappalli,8
+13,Ghandinagar,Erode,1
+14,Nagpur,Himatnagar,3
+15,Belgaum,Dehradun,5
+16,Chitradurga,Mysore,8
+17,Ramanathapuram,Satara,4
+18,Tirunelveli,Bangalore,1
+19,Kanniyakumari,Jalgaon,1
+20,Anand,George Town,5
+21,Chidambaram,Kolar,3
+22,Gulbarga,Jalgaon,4
+23,Raichur,Nagpur,4
+24,Palakkad,Sonipat,8
+25,Satna,Bhandara,5
+26,Satara,Ongole,8
+27,Madurai,Khandwa,1
+28,Kolhapur,Buldana,8
+29,Kolhapur,Gurgaon,4
+30,Buldana,Jalgaon,4
+31,Mangalore,Akkarampalle,1
+32,Bharuch,Allahabad,7
+33,Palladam,Mysore,1
+34,Tiruchchendur,Aurangabad,7
+35,Mumbai,Bangalore,6
+36,Kollam,Sagar,1
+37,Tirunelveli,Sitapur,5
+38,Akkarampalle,Pathankot,1
+39,Zaidpur,Dhanbad,5
+40,Ranchi,Hoshiarpur,6
+41,Hyderabad,Aurangabad,2
+42,Palladam,Udaipur,3
+43,Ranchi,Dhenkanal,2
+44,Sandur,Kanchipuram,8
+45,Madurai,Chidambaram,2
+46,Raichur,Valsad,7
+47,Bhandara,Kota,7
+48,Talwandi Bhai,Sagar,3
+49,Kharagpur,Kottayam,4
+50,Varanasi,Rajgarh,6
+51,Kollam,Anand,2
+52,Allahabad,Jaunpur,3
+53,Meerut,Chidambaram,3
+54,Erode,Belgaum,2
+55,Kota,Palakkad,2
+56,Trichur,Yarada,5
+57,Kolhapur,Jamshedpur,7
+58,Akkarampalle,Sagar,1
+59,Jalgaon,Pune,6

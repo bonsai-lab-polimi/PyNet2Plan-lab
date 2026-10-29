@@ -1,0 +1,432 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "HOSTWAYINTERNATIONAL (real topology #32)",
+  "description": "Real-world topology HOSTWAYINTERNATIONAL (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Seattle",
+      "lat": 47.61,
+      "lon": -122.33,
+      "x": -13617713.308741156,
+      "y": 6042216.250411431,
+      "up": true
+    },
+    {
+      "name": "Tampa",
+      "lat": 27.95,
+      "lon": -82.46,
+      "x": -9179405.210813338,
+      "y": 3242671.39483981,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.85,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5138536.587247468,
+      "up": true
+    },
+    {
+      "name": "Vancouver",
+      "lat": 49.25,
+      "lon": -123.12,
+      "x": -13705655.706467843,
+      "y": 6317388.117930809,
+      "up": true
+    },
+    {
+      "name": "Miami",
+      "lat": 25.77,
+      "lon": -80.19,
+      "x": -8926709.966712607,
+      "y": 2970622.2326846495,
+      "up": true
+    },
+    {
+      "name": "Austin",
+      "lat": 30.27,
+      "lon": -97.74,
+      "x": -10880367.030134559,
+      "y": 3538303.2529758886,
+      "up": true
+    },
+    {
+      "name": "New York City",
+      "lat": 40.71,
+      "lon": -74.01,
+      "x": -8238755.513610177,
+      "y": 4969660.375061782,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "Bucharest",
+      "lat": 44.43,
+      "lon": 26.11,
+      "x": 2906551.904612373,
+      "y": 5532228.609532126,
+      "up": true
+    },
+    {
+      "name": "Seoul",
+      "lat": 37.57,
+      "lon": 126.98,
+      "x": 14135348.940929879,
+      "y": 4518858.062639962,
+      "up": true
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.87,
+      "lon": 151.21,
+      "x": 16832620.202850897,
+      "y": -4011359.5310524274,
+      "up": true
+    },
+    {
+      "name": "Hannover",
+      "lat": 52.37,
+      "lon": 9.73,
+      "x": 1083138.645418552,
+      "y": 6867304.686766676,
+      "up": true
+    },
+    {
+      "name": "Amsterdam",
+      "lat": 52.37,
+      "lon": 4.89,
+      "x": 544352.3099791077,
+      "y": 6867304.686766676,
+      "up": true
+    },
+    {
+      "name": "Antwerpen",
+      "lat": 51.22,
+      "lon": 4.42,
+      "x": 492032.1493062692,
+      "y": 6660301.826441725,
+      "up": true
+    },
+    {
+      "name": "Frankfurt am Main",
+      "lat": 50.12,
+      "lon": 8.68,
+      "x": 966253.1800856144,
+      "y": 6467083.721426574,
+      "up": true
+    },
+    {
+      "name": "London",
+      "lat": 51.51,
+      "lon": -0.13,
+      "x": -14471.533803125565,
+      "y": 6712007.502309075,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Seattle",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 3485.64,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 287.17,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Austin",
+      "capacity": 40,
+      "length": 3559.81,
+      "up": true
+    },
+    {
+      "origin": "Tampa",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 496.26,
+      "up": true
+    },
+    {
+      "origin": "Tampa",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1006.03,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 3485.64,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Austin",
+      "capacity": 40,
+      "length": 1965.58,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1417.38,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 287.17,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "Tampa",
+      "capacity": 40,
+      "length": 496.26,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "Sydney",
+      "capacity": 40,
+      "length": 18783.1,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 2195.77,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1462.93,
+      "up": true
+    },
+    {
+      "origin": "Austin",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 3559.81,
+      "up": true
+    },
+    {
+      "origin": "Austin",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1965.58,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 2195.77,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Sydney",
+      "capacity": 40,
+      "length": 19985.49,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "London",
+      "capacity": 40,
+      "length": 6963.06,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Tampa",
+      "capacity": 40,
+      "length": 1006.03,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1417.38,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 1462.93,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Bucharest",
+      "destination": "Seoul",
+      "capacity": 40,
+      "length": 9914.6,
+      "up": true
+    },
+    {
+      "origin": "Bucharest",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 1818.25,
+      "up": true
+    },
+    {
+      "origin": "Seoul",
+      "destination": "Bucharest",
+      "capacity": 40,
+      "length": 9914.6,
+      "up": true
+    },
+    {
+      "origin": "Seoul",
+      "destination": "Sydney",
+      "capacity": 40,
+      "length": 10412.13,
+      "up": true
+    },
+    {
+      "origin": "Sydney",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 18783.1,
+      "up": true
+    },
+    {
+      "origin": "Sydney",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 19985.49,
+      "up": true
+    },
+    {
+      "origin": "Sydney",
+      "destination": "Seoul",
+      "capacity": 40,
+      "length": 10412.13,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 492.8,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 390.96,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 492.8,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Antwerpen",
+      "capacity": 40,
+      "length": 197.84,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "London",
+      "capacity": 40,
+      "length": 535.62,
+      "up": true
+    },
+    {
+      "origin": "Antwerpen",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 197.84,
+      "up": true
+    },
+    {
+      "origin": "Antwerpen",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 486.18,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Bucharest",
+      "capacity": 40,
+      "length": 1818.25,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 390.96,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Antwerpen",
+      "capacity": 40,
+      "length": 486.18,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 6963.06,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 535.62,
+      "up": true
+    }
+  ]
+}

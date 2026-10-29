@@ -1,0 +1,55 @@
+# topology: GTSPOLAND (real topology #29) (data/topologies/real/top29_gtspoland.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Olsztyn,Szczecin,5
+1,Warsaw,Pila,2
+2,Katowice,Zielona Gora,4
+3,Zielona Gora,Koszalin,5
+4,Bialystok,Zielona Gora,3
+5,Olsztyn,Poznan,8
+6,Lodz,Zielona Gora,3
+7,Kalisz,Lublin,6
+8,Plock,Wloclawek,2
+9,Wloclawek,Lublin,6
+10,Zielona Gora,Krakow,3
+11,Krakow,Poznan,5
+12,Slupsk,Opole,6
+13,Gdansk,Krakow,8
+14,Gdansk,Bialystok,5
+15,Plock,Kalisz,7
+16,Gdansk,Opole,3
+17,Katowice,Torun,2
+18,Slupsk,Kolobrzeg,4
+19,Kalisz,Krakow,2
+20,Gdansk,Zielona Gora,3
+21,Pila,Kolobrzeg,7
+22,Poznan,Tarnow,4
+23,Wloclawek,Torun,1
+24,Krakow,Koszalin,6
+25,Olsztyn,Tarnow,1
+26,Kolobrzeg,Katowice,6
+27,Radom,Wloclawek,5
+28,Warsaw,Lublin,8
+29,Zielona Gora,Rzeszow,3
+30,Gdansk,Koszalin,6
+31,Radom,Lodz,5
+32,Lublin,Lodz,4
+33,Lublin,Krakow,6
+34,Zielona Gora,Katowice,8
+35,Krakow,Kielce,5
+36,Opole,Wroclaw,6
+37,Pila,Zielona Gora,1
+38,Lublin,Plock,6
+39,Szczecin,Katowice,2
+40,Tarnow,Warsaw,5
+41,Slupsk,Lodz,3
+42,Opole,Rzeszow,3
+43,Gdansk,Radom,2
+44,Katowice,Kielce,1
+45,Lodz,Olsztyn,4
+46,Torun,Radom,6
+47,Koszalin,Rzeszow,6
+48,Rzeszow,Gdansk,7
+49,Zielona Gora,Kalisz,4
+50,Krakow,Wroclaw,2
+51,Lublin,Zielona Gora,6

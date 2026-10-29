@@ -1,0 +1,33 @@
+# topology: CLARANET (real topology #66) (data/topologies/real/top66_claranet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Paris,Rennes,4
+1,Munich,London,2
+2,Porto,Paris,6
+3,Barcelona,Paris,4
+4,Porto,London,2
+5,Munich,Coningsby,4
+6,Lisbon,Frankfurt am Main,6
+7,Porto,Manchester,7
+8,Munich,Porto,4
+9,Eindhoven,Frankfurt am Main,6
+10,Porto,Munich,5
+11,Coningsby,Faro,6
+12,Munich,Rennes,2
+13,Eindhoven,Lisbon,2
+14,Amsterdam,Munich,2
+15,Berlin,Barcelona,8
+16,London,Amsterdam,2
+17,Faro,London,7
+18,Munich,Lisbon,8
+19,Manchester,London,7
+20,Faro,Paris,1
+21,Frankfurt am Main,London,8
+22,Paris,Amsterdam,4
+23,Lisbon,Munich,3
+24,Eindhoven,Manchester,5
+25,Frankfurt am Main,Paris,7
+26,Rennes,Frankfurt am Main,8
+27,Paris,City Center,8
+28,Berlin,Amsterdam,6
+29,Lisbon,Rennes,5

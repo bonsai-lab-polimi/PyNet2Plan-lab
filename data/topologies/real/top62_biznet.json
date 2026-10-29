@@ -1,0 +1,682 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "BIZNET (real topology #62)",
+  "description": "Real-world topology BIZNET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Karangbadar Kidul",
+      "lat": -7.73,
+      "lon": 109.01,
+      "x": 12134937.691374753,
+      "y": -863122.042411046,
+      "up": true
+    },
+    {
+      "name": "Purwokerto",
+      "lat": -7.42,
+      "lon": 109.23,
+      "x": 12159427.979349274,
+      "y": -828309.1499197627,
+      "up": true
+    },
+    {
+      "name": "Sukabumi",
+      "lat": -6.92,
+      "lon": 106.93,
+      "x": 11903393.150524743,
+      "y": -772210.5418420432,
+      "up": true
+    },
+    {
+      "name": "Cilingga",
+      "lat": -7.33,
+      "lon": 108.2,
+      "x": 12044768.9038322,
+      "y": -818206.8207988301,
+      "up": true
+    },
+    {
+      "name": "Pekalongan",
+      "lat": -6.89,
+      "lon": 109.68,
+      "x": 12209521.750206247,
+      "y": -768846.5576109902,
+      "up": true
+    },
+    {
+      "name": "Semarang",
+      "lat": -6.99,
+      "lon": 110.42,
+      "x": 12291898.173393268,
+      "y": -780060.6713924215,
+      "up": true
+    },
+    {
+      "name": "Magelang",
+      "lat": -7.47,
+      "lon": 110.22,
+      "x": 12269634.275234614,
+      "y": -833922.4464114886,
+      "up": true
+    },
+    {
+      "name": "Yogyakarta",
+      "lat": -7.78,
+      "lon": 110.36,
+      "x": 12285219.003945671,
+      "y": -868739.3927139223,
+      "up": true
+    },
+    {
+      "name": "Kudus",
+      "lat": -6.8,
+      "lon": 110.84,
+      "x": 12338652.359526442,
+      "y": -758755.8781112635,
+      "up": true
+    },
+    {
+      "name": "Surakarta",
+      "lat": -7.56,
+      "lon": 110.83,
+      "x": 12337539.164618509,
+      "y": -844028.0017426179,
+      "up": true
+    },
+    {
+      "name": "Naisano Dua",
+      "lat": -9.6,
+      "lon": 123.77,
+      "x": 13778013.375483468,
+      "y": -1073702.7054964132,
+      "up": true
+    },
+    {
+      "name": "Surabaya",
+      "lat": -7.25,
+      "lon": 112.75,
+      "x": 12551272.586941594,
+      "y": -809228.6869812461,
+      "up": true
+    },
+    {
+      "name": "Kediri",
+      "lat": -7.82,
+      "lon": 112.02,
+      "x": 12470009.358662505,
+      "y": -873233.7549962886,
+      "up": true
+    },
+    {
+      "name": "Madiun",
+      "lat": -7.63,
+      "lon": 111.52,
+      "x": 12414349.613265868,
+      "y": -851889.3334496972,
+      "up": true
+    },
+    {
+      "name": "Merik",
+      "lat": -6.9,
+      "lon": 112.05,
+      "x": 12473348.943386303,
+      "y": -769967.8619931866,
+      "up": true
+    },
+    {
+      "name": "Banyuwangi",
+      "lat": -8.22,
+      "lon": 114.36,
+      "x": 12730496.967118764,
+      "y": -918201.4551670653,
+      "up": true
+    },
+    {
+      "name": "Jember",
+      "lat": -8.17,
+      "lon": 113.7,
+      "x": 12657026.103195205,
+      "y": -912578.0581020243,
+      "up": true
+    },
+    {
+      "name": "Probolinggo",
+      "lat": -7.75,
+      "lon": 113.22,
+      "x": 12603592.747614434,
+      "y": -865368.9024406753,
+      "up": true
+    },
+    {
+      "name": "Malang",
+      "lat": -7.98,
+      "lon": 112.63,
+      "x": 12537914.248046402,
+      "y": -891215.5362897702,
+      "up": true
+    },
+    {
+      "name": "Umbulan",
+      "lat": -6.77,
+      "lon": 105.85,
+      "x": 11783168.100468006,
+      "y": -755392.7395134516,
+      "up": true
+    },
+    {
+      "name": "Tegal",
+      "lat": -6.87,
+      "lon": 109.14,
+      "x": 12149409.225177879,
+      "y": -766604.0197552803,
+      "up": true
+    },
+    {
+      "name": "Cirebon",
+      "lat": -6.71,
+      "lon": 108.56,
+      "x": 12084843.920517778,
+      "y": -748667.0884817673,
+      "up": true
+    },
+    {
+      "name": "Bandung",
+      "lat": -6.9,
+      "lon": 107.62,
+      "x": 11980203.599172102,
+      "y": -769967.8619931866,
+      "up": true
+    },
+    {
+      "name": "Rengasdengklok",
+      "lat": -6.3,
+      "lon": 107.31,
+      "x": 11945694.557026187,
+      "y": -702730.2547713714,
+      "up": true
+    },
+    {
+      "name": "Jakarta",
+      "lat": -6.21,
+      "lon": 106.85,
+      "x": 11894487.59126128,
+      "y": -692651.499039373,
+      "up": true
+    },
+    {
+      "name": "Bogor",
+      "lat": -6.59,
+      "lon": 106.79,
+      "x": 11887808.421813685,
+      "y": -735218.2645448737,
+      "up": true
+    },
+    {
+      "name": "Serang",
+      "lat": -6.11,
+      "lon": 106.15,
+      "x": 11816563.947705992,
+      "y": -681454.9006930417,
+      "up": true
+    },
+    {
+      "name": "Ciparay",
+      "lat": -6.07,
+      "lon": 105.88,
+      "x": 11786507.685191805,
+      "y": -676976.8489745433,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Karangbadar Kidul",
+      "destination": "Purwokerto",
+      "capacity": 40,
+      "length": 63.22,
+      "up": true
+    },
+    {
+      "origin": "Karangbadar Kidul",
+      "destination": "Cilingga",
+      "capacity": 40,
+      "length": 149.63,
+      "up": true
+    },
+    {
+      "origin": "Purwokerto",
+      "destination": "Karangbadar Kidul",
+      "capacity": 40,
+      "length": 63.22,
+      "up": true
+    },
+    {
+      "origin": "Purwokerto",
+      "destination": "Magelang",
+      "capacity": 40,
+      "length": 163.94,
+      "up": true
+    },
+    {
+      "origin": "Sukabumi",
+      "destination": "Bogor",
+      "capacity": 40,
+      "length": 59.73,
+      "up": true
+    },
+    {
+      "origin": "Sukabumi",
+      "destination": "Bandung",
+      "capacity": 40,
+      "length": 114.3,
+      "up": true
+    },
+    {
+      "origin": "Cilingga",
+      "destination": "Karangbadar Kidul",
+      "capacity": 40,
+      "length": 149.63,
+      "up": true
+    },
+    {
+      "origin": "Cilingga",
+      "destination": "Bandung",
+      "capacity": 40,
+      "length": 119.83,
+      "up": true
+    },
+    {
+      "origin": "Pekalongan",
+      "destination": "Tegal",
+      "capacity": 40,
+      "length": 89.48,
+      "up": true
+    },
+    {
+      "origin": "Pekalongan",
+      "destination": "Semarang",
+      "capacity": 40,
+      "length": 123.65,
+      "up": true
+    },
+    {
+      "origin": "Semarang",
+      "destination": "Pekalongan",
+      "capacity": 40,
+      "length": 123.65,
+      "up": true
+    },
+    {
+      "origin": "Semarang",
+      "destination": "Kudus",
+      "capacity": 40,
+      "length": 76.43,
+      "up": true
+    },
+    {
+      "origin": "Semarang",
+      "destination": "Surakarta",
+      "capacity": 40,
+      "length": 116.79,
+      "up": true
+    },
+    {
+      "origin": "Magelang",
+      "destination": "Purwokerto",
+      "capacity": 40,
+      "length": 163.94,
+      "up": true
+    },
+    {
+      "origin": "Magelang",
+      "destination": "Yogyakarta",
+      "capacity": 40,
+      "length": 56.65,
+      "up": true
+    },
+    {
+      "origin": "Yogyakarta",
+      "destination": "Magelang",
+      "capacity": 40,
+      "length": 56.65,
+      "up": true
+    },
+    {
+      "origin": "Yogyakarta",
+      "destination": "Surakarta",
+      "capacity": 40,
+      "length": 85.92,
+      "up": true
+    },
+    {
+      "origin": "Kudus",
+      "destination": "Semarang",
+      "capacity": 40,
+      "length": 76.43,
+      "up": true
+    },
+    {
+      "origin": "Kudus",
+      "destination": "Merik",
+      "capacity": 40,
+      "length": 201.07,
+      "up": true
+    },
+    {
+      "origin": "Surakarta",
+      "destination": "Semarang",
+      "capacity": 40,
+      "length": 116.79,
+      "up": true
+    },
+    {
+      "origin": "Surakarta",
+      "destination": "Yogyakarta",
+      "capacity": 40,
+      "length": 85.92,
+      "up": true
+    },
+    {
+      "origin": "Surakarta",
+      "destination": "Madiun",
+      "capacity": 40,
+      "length": 114.67,
+      "up": true
+    },
+    {
+      "origin": "Naisano Dua",
+      "destination": "Banyuwangi",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Surabaya",
+      "destination": "Probolinggo",
+      "capacity": 40,
+      "length": 114.0,
+      "up": true
+    },
+    {
+      "origin": "Surabaya",
+      "destination": "Kediri",
+      "capacity": 40,
+      "length": 153.65,
+      "up": true
+    },
+    {
+      "origin": "Surabaya",
+      "destination": "Merik",
+      "capacity": 40,
+      "length": 129.74,
+      "up": true
+    },
+    {
+      "origin": "Kediri",
+      "destination": "Surabaya",
+      "capacity": 40,
+      "length": 153.65,
+      "up": true
+    },
+    {
+      "origin": "Kediri",
+      "destination": "Malang",
+      "capacity": 40,
+      "length": 104.25,
+      "up": true
+    },
+    {
+      "origin": "Kediri",
+      "destination": "Madiun",
+      "capacity": 40,
+      "length": 88.51,
+      "up": true
+    },
+    {
+      "origin": "Madiun",
+      "destination": "Surakarta",
+      "capacity": 40,
+      "length": 114.67,
+      "up": true
+    },
+    {
+      "origin": "Madiun",
+      "destination": "Kediri",
+      "capacity": 40,
+      "length": 88.51,
+      "up": true
+    },
+    {
+      "origin": "Merik",
+      "destination": "Kudus",
+      "capacity": 40,
+      "length": 201.07,
+      "up": true
+    },
+    {
+      "origin": "Merik",
+      "destination": "Surabaya",
+      "capacity": 40,
+      "length": 129.74,
+      "up": true
+    },
+    {
+      "origin": "Banyuwangi",
+      "destination": "Naisano Dua",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Banyuwangi",
+      "destination": "Jember",
+      "capacity": 40,
+      "length": 109.28,
+      "up": true
+    },
+    {
+      "origin": "Jember",
+      "destination": "Banyuwangi",
+      "capacity": 40,
+      "length": 109.28,
+      "up": true
+    },
+    {
+      "origin": "Jember",
+      "destination": "Probolinggo",
+      "capacity": 40,
+      "length": 105.8,
+      "up": true
+    },
+    {
+      "origin": "Jember",
+      "destination": "Malang",
+      "capacity": 40,
+      "length": 179.52,
+      "up": true
+    },
+    {
+      "origin": "Probolinggo",
+      "destination": "Surabaya",
+      "capacity": 40,
+      "length": 114.0,
+      "up": true
+    },
+    {
+      "origin": "Probolinggo",
+      "destination": "Jember",
+      "capacity": 40,
+      "length": 105.8,
+      "up": true
+    },
+    {
+      "origin": "Malang",
+      "destination": "Kediri",
+      "capacity": 40,
+      "length": 104.25,
+      "up": true
+    },
+    {
+      "origin": "Malang",
+      "destination": "Jember",
+      "capacity": 40,
+      "length": 179.52,
+      "up": true
+    },
+    {
+      "origin": "Umbulan",
+      "destination": "Bogor",
+      "capacity": 40,
+      "length": 158.59,
+      "up": true
+    },
+    {
+      "origin": "Umbulan",
+      "destination": "Ciparay",
+      "capacity": 40,
+      "length": 116.86,
+      "up": true
+    },
+    {
+      "origin": "Tegal",
+      "destination": "Pekalongan",
+      "capacity": 40,
+      "length": 89.48,
+      "up": true
+    },
+    {
+      "origin": "Tegal",
+      "destination": "Cirebon",
+      "capacity": 40,
+      "length": 99.7,
+      "up": true
+    },
+    {
+      "origin": "Cirebon",
+      "destination": "Tegal",
+      "capacity": 40,
+      "length": 99.7,
+      "up": true
+    },
+    {
+      "origin": "Cirebon",
+      "destination": "Bandung",
+      "capacity": 40,
+      "length": 158.87,
+      "up": true
+    },
+    {
+      "origin": "Bandung",
+      "destination": "Sukabumi",
+      "capacity": 40,
+      "length": 114.3,
+      "up": true
+    },
+    {
+      "origin": "Bandung",
+      "destination": "Cilingga",
+      "capacity": 40,
+      "length": 119.83,
+      "up": true
+    },
+    {
+      "origin": "Bandung",
+      "destination": "Cirebon",
+      "capacity": 40,
+      "length": 158.87,
+      "up": true
+    },
+    {
+      "origin": "Bandung",
+      "destination": "Rengasdengklok",
+      "capacity": 40,
+      "length": 112.49,
+      "up": true
+    },
+    {
+      "origin": "Rengasdengklok",
+      "destination": "Bandung",
+      "capacity": 40,
+      "length": 112.49,
+      "up": true
+    },
+    {
+      "origin": "Rengasdengklok",
+      "destination": "Jakarta",
+      "capacity": 40,
+      "length": 77.73,
+      "up": true
+    },
+    {
+      "origin": "Jakarta",
+      "destination": "Rengasdengklok",
+      "capacity": 40,
+      "length": 77.73,
+      "up": true
+    },
+    {
+      "origin": "Jakarta",
+      "destination": "Bogor",
+      "capacity": 40,
+      "length": 64.16,
+      "up": true
+    },
+    {
+      "origin": "Jakarta",
+      "destination": "Serang",
+      "capacity": 40,
+      "length": 117.27,
+      "up": true
+    },
+    {
+      "origin": "Bogor",
+      "destination": "Sukabumi",
+      "capacity": 40,
+      "length": 59.73,
+      "up": true
+    },
+    {
+      "origin": "Bogor",
+      "destination": "Umbulan",
+      "capacity": 40,
+      "length": 158.59,
+      "up": true
+    },
+    {
+      "origin": "Bogor",
+      "destination": "Jakarta",
+      "capacity": 40,
+      "length": 64.16,
+      "up": true
+    },
+    {
+      "origin": "Serang",
+      "destination": "Jakarta",
+      "capacity": 40,
+      "length": 117.27,
+      "up": true
+    },
+    {
+      "origin": "Serang",
+      "destination": "Ciparay",
+      "capacity": 40,
+      "length": 45.27,
+      "up": true
+    },
+    {
+      "origin": "Ciparay",
+      "destination": "Umbulan",
+      "capacity": 40,
+      "length": 116.86,
+      "up": true
+    },
+    {
+      "origin": "Ciparay",
+      "destination": "Serang",
+      "capacity": 40,
+      "length": 45.27,
+      "up": true
+    }
+  ]
+}

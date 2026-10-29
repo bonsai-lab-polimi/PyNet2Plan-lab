@@ -1,0 +1,808 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NOBELEU (real topology #108)",
+  "description": "Real-world topology NOBELEU (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Sassenheim",
+      "lat": 52.2,
+      "lon": 4.51,
+      "x": 502050.9034776638,
+      "y": 6836369.119003472,
+      "up": true
+    },
+    {
+      "name": "Poros",
+      "lat": 37.58,
+      "lon": 23.42,
+      "x": 2607102.4743784675,
+      "y": 4520262.626103478,
+      "up": true
+    },
+    {
+      "name": "Viladecans",
+      "lat": 41.22,
+      "lon": 2.07,
+      "x": 230431.3459420763,
+      "y": 5044845.970577075,
+      "up": true
+    },
+    {
+      "name": "Stepojevac",
+      "lat": 44.47,
+      "lon": 20.25,
+      "x": 2254219.6885637897,
+      "y": 5538466.202957522,
+      "up": true
+    },
+    {
+      "name": "Ludwigsfelde",
+      "lat": 52.31,
+      "lon": 13.21,
+      "x": 1470530.473379144,
+      "y": 6856372.691019389,
+      "up": true
+    },
+    {
+      "name": "Noaillan",
+      "lat": 44.51,
+      "lon": -0.35,
+      "x": -38961.821777645746,
+      "y": 5544708.072683597,
+      "up": true
+    },
+    {
+      "name": "La Louviere",
+      "lat": 50.49,
+      "lon": 4.2,
+      "x": 467541.861331749,
+      "y": 6531571.661853213,
+      "up": true
+    },
+    {
+      "name": "Szigethalom",
+      "lat": 47.29,
+      "lon": 19.02,
+      "x": 2117296.7148880633,
+      "y": 5989538.586038244,
+      "up": true
+    },
+    {
+      "name": "Stroby Egede",
+      "lat": 55.41,
+      "lon": 12.32,
+      "x": 1371456.1265731305,
+      "y": 7441848.833233184,
+      "up": true
+    },
+    {
+      "name": "Enniskerry",
+      "lat": 53.21,
+      "lon": -6.15,
+      "x": -684614.8683786326,
+      "y": 7021937.098468866,
+      "up": true
+    },
+    {
+      "name": "Hochheim am Main",
+      "lat": 50.07,
+      "lon": 8.38,
+      "x": 932857.3328476326,
+      "y": 6458407.444894314,
+      "up": true
+    },
+    {
+      "name": "Muirkirk",
+      "lat": 55.51,
+      "lon": -4.16,
+      "x": -463089.0817000181,
+      "y": 7461482.555829478,
+      "up": true
+    },
+    {
+      "name": "Marxen",
+      "lat": 53.33,
+      "lon": 10.0,
+      "x": 1113194.9079327357,
+      "y": 7044273.80043242,
+      "up": true
+    },
+    {
+      "name": "Whyteleafe",
+      "lat": 51.3,
+      "lon": -0.07,
+      "x": -7792.364355529151,
+      "y": 6674532.798473078,
+      "up": true
+    },
+    {
+      "name": "Saint-Jean-Bonnefonds",
+      "lat": 45.43,
+      "lon": 4.49,
+      "x": 499824.5136617984,
+      "y": 5689472.126792931,
+      "up": true
+    },
+    {
+      "name": "Morata de Tajuna",
+      "lat": 40.25,
+      "lon": -3.42,
+      "x": -380712.6585129956,
+      "y": 4902338.382360279,
+      "up": true
+    },
+    {
+      "name": "Giovenzano",
+      "lat": 45.28,
+      "lon": 9.11,
+      "x": 1014120.5611267221,
+      "y": 5665709.99275991,
+      "up": true
+    },
+    {
+      "name": "Gauting",
+      "lat": 48.07,
+      "lon": 11.33,
+      "x": 1261249.8306877895,
+      "y": 6118508.251452318,
+      "up": true
+    },
+    {
+      "name": "Berger",
+      "lat": 59.54,
+      "lon": 10.45,
+      "x": 1163288.6787897088,
+      "y": 8298028.4172510365,
+      "up": true
+    },
+    {
+      "name": "Etrechy",
+      "lat": 48.51,
+      "lon": 2.2,
+      "x": 244902.87974520188,
+      "y": 6192123.964652928,
+      "up": true
+    },
+    {
+      "name": "Rudna",
+      "lat": 50.04,
+      "lon": 14.25,
+      "x": 1586302.7438041484,
+      "y": 6453206.020306921,
+      "up": true
+    },
+    {
+      "name": "Torvaianica",
+      "lat": 41.53,
+      "lon": 12.29,
+      "x": 1368116.541849332,
+      "y": 5090833.670806819,
+      "up": true
+    },
+    {
+      "name": "Huddinge",
+      "lat": 59.19,
+      "lon": 18.03,
+      "x": 2007090.4190027225,
+      "y": 8221566.99259753,
+      "up": true
+    },
+    {
+      "name": "Epfig",
+      "lat": 48.35,
+      "lon": 7.45,
+      "x": 829330.2064098882,
+      "y": 6165281.144871334,
+      "up": true
+    },
+    {
+      "name": "Kaltenleutgeben",
+      "lat": 48.12,
+      "lon": 16.21,
+      "x": 1804488.9457589646,
+      "y": 6126841.828238955,
+      "up": true
+    },
+    {
+      "name": "Bieniewice",
+      "lat": 52.14,
+      "lon": 20.59,
+      "x": 2292068.315433503,
+      "y": 6825478.942245365,
+      "up": true
+    },
+    {
+      "name": "Karlovac",
+      "lat": 45.48,
+      "lon": 15.57,
+      "x": 1733244.4716512696,
+      "y": 5697406.865501125,
+      "up": true
+    },
+    {
+      "name": "Hohenrain",
+      "lat": 47.22,
+      "lon": 8.32,
+      "x": 926178.1634000362,
+      "y": 5978057.894895317,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Sassenheim",
+      "destination": "La Louviere",
+      "capacity": 40,
+      "length": 287.04,
+      "up": true
+    },
+    {
+      "origin": "Sassenheim",
+      "destination": "Muirkirk",
+      "capacity": 40,
+      "length": 1014.92,
+      "up": true
+    },
+    {
+      "origin": "Sassenheim",
+      "destination": "Marxen",
+      "capacity": 40,
+      "length": 585.07,
+      "up": true
+    },
+    {
+      "origin": "Sassenheim",
+      "destination": "Whyteleafe",
+      "capacity": 40,
+      "length": 496.08,
+      "up": true
+    },
+    {
+      "origin": "Poros",
+      "destination": "Stepojevac",
+      "capacity": 40,
+      "length": 1216.19,
+      "up": true
+    },
+    {
+      "origin": "Poros",
+      "destination": "Torvaianica",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Viladecans",
+      "destination": "Saint-Jean-Bonnefonds",
+      "capacity": 40,
+      "length": 761.02,
+      "up": true
+    },
+    {
+      "origin": "Viladecans",
+      "destination": "Morata de Tajuna",
+      "capacity": 40,
+      "length": 712.33,
+      "up": true
+    },
+    {
+      "origin": "Stepojevac",
+      "destination": "Poros",
+      "capacity": 40,
+      "length": 1216.19,
+      "up": true
+    },
+    {
+      "origin": "Stepojevac",
+      "destination": "Szigethalom",
+      "capacity": 40,
+      "length": 491.54,
+      "up": true
+    },
+    {
+      "origin": "Stepojevac",
+      "destination": "Karlovac",
+      "capacity": 40,
+      "length": 577.22,
+      "up": true
+    },
+    {
+      "origin": "Ludwigsfelde",
+      "destination": "Stroby Egede",
+      "capacity": 40,
+      "length": 524.4,
+      "up": true
+    },
+    {
+      "origin": "Ludwigsfelde",
+      "destination": "Marxen",
+      "capacity": 40,
+      "length": 365.51,
+      "up": true
+    },
+    {
+      "origin": "Ludwigsfelde",
+      "destination": "Gauting",
+      "capacity": 40,
+      "length": 735.08,
+      "up": true
+    },
+    {
+      "origin": "Ludwigsfelde",
+      "destination": "Rudna",
+      "capacity": 40,
+      "length": 393.92,
+      "up": true
+    },
+    {
+      "origin": "Ludwigsfelde",
+      "destination": "Bieniewice",
+      "capacity": 40,
+      "length": 754.23,
+      "up": true
+    },
+    {
+      "origin": "Noaillan",
+      "destination": "Morata de Tajuna",
+      "capacity": 40,
+      "length": 804.79,
+      "up": true
+    },
+    {
+      "origin": "Noaillan",
+      "destination": "Etrechy",
+      "capacity": 40,
+      "length": 728.45,
+      "up": true
+    },
+    {
+      "origin": "La Louviere",
+      "destination": "Sassenheim",
+      "capacity": 40,
+      "length": 287.04,
+      "up": true
+    },
+    {
+      "origin": "La Louviere",
+      "destination": "Hochheim am Main",
+      "capacity": 40,
+      "length": 450.94,
+      "up": true
+    },
+    {
+      "origin": "La Louviere",
+      "destination": "Etrechy",
+      "capacity": 40,
+      "length": 394.93,
+      "up": true
+    },
+    {
+      "origin": "Szigethalom",
+      "destination": "Stepojevac",
+      "capacity": 40,
+      "length": 491.54,
+      "up": true
+    },
+    {
+      "origin": "Szigethalom",
+      "destination": "Rudna",
+      "capacity": 40,
+      "length": 697.24,
+      "up": true
+    },
+    {
+      "origin": "Szigethalom",
+      "destination": "Bieniewice",
+      "capacity": 40,
+      "length": 826.42,
+      "up": true
+    },
+    {
+      "origin": "Stroby Egede",
+      "destination": "Ludwigsfelde",
+      "capacity": 40,
+      "length": 524.4,
+      "up": true
+    },
+    {
+      "origin": "Stroby Egede",
+      "destination": "Berger",
+      "capacity": 40,
+      "length": 708.9,
+      "up": true
+    },
+    {
+      "origin": "Enniskerry",
+      "destination": "Muirkirk",
+      "capacity": 40,
+      "length": 429.58,
+      "up": true
+    },
+    {
+      "origin": "Enniskerry",
+      "destination": "Whyteleafe",
+      "capacity": 40,
+      "length": 697.43,
+      "up": true
+    },
+    {
+      "origin": "Hochheim am Main",
+      "destination": "La Louviere",
+      "capacity": 40,
+      "length": 450.94,
+      "up": true
+    },
+    {
+      "origin": "Hochheim am Main",
+      "destination": "Marxen",
+      "capacity": 40,
+      "length": 568.91,
+      "up": true
+    },
+    {
+      "origin": "Hochheim am Main",
+      "destination": "Gauting",
+      "capacity": 40,
+      "length": 463.81,
+      "up": true
+    },
+    {
+      "origin": "Hochheim am Main",
+      "destination": "Epfig",
+      "capacity": 40,
+      "length": 304.25,
+      "up": true
+    },
+    {
+      "origin": "Muirkirk",
+      "destination": "Sassenheim",
+      "capacity": 40,
+      "length": 1014.92,
+      "up": true
+    },
+    {
+      "origin": "Muirkirk",
+      "destination": "Enniskerry",
+      "capacity": 40,
+      "length": 429.58,
+      "up": true
+    },
+    {
+      "origin": "Marxen",
+      "destination": "Sassenheim",
+      "capacity": 40,
+      "length": 585.07,
+      "up": true
+    },
+    {
+      "origin": "Marxen",
+      "destination": "Ludwigsfelde",
+      "capacity": 40,
+      "length": 365.51,
+      "up": true
+    },
+    {
+      "origin": "Marxen",
+      "destination": "Hochheim am Main",
+      "capacity": 40,
+      "length": 568.91,
+      "up": true
+    },
+    {
+      "origin": "Whyteleafe",
+      "destination": "Sassenheim",
+      "capacity": 40,
+      "length": 496.08,
+      "up": true
+    },
+    {
+      "origin": "Whyteleafe",
+      "destination": "Enniskerry",
+      "capacity": 40,
+      "length": 697.43,
+      "up": true
+    },
+    {
+      "origin": "Whyteleafe",
+      "destination": "Etrechy",
+      "capacity": 40,
+      "length": 525.31,
+      "up": true
+    },
+    {
+      "origin": "Saint-Jean-Bonnefonds",
+      "destination": "Viladecans",
+      "capacity": 40,
+      "length": 761.02,
+      "up": true
+    },
+    {
+      "origin": "Saint-Jean-Bonnefonds",
+      "destination": "Etrechy",
+      "capacity": 40,
+      "length": 575.99,
+      "up": true
+    },
+    {
+      "origin": "Saint-Jean-Bonnefonds",
+      "destination": "Hohenrain",
+      "capacity": 40,
+      "length": 532.58,
+      "up": true
+    },
+    {
+      "origin": "Morata de Tajuna",
+      "destination": "Viladecans",
+      "capacity": 40,
+      "length": 712.33,
+      "up": true
+    },
+    {
+      "origin": "Morata de Tajuna",
+      "destination": "Noaillan",
+      "capacity": 40,
+      "length": 804.79,
+      "up": true
+    },
+    {
+      "origin": "Giovenzano",
+      "destination": "Gauting",
+      "capacity": 40,
+      "length": 530.13,
+      "up": true
+    },
+    {
+      "origin": "Giovenzano",
+      "destination": "Torvaianica",
+      "capacity": 40,
+      "length": 734.5,
+      "up": true
+    },
+    {
+      "origin": "Giovenzano",
+      "destination": "Hohenrain",
+      "capacity": 40,
+      "length": 336.16,
+      "up": true
+    },
+    {
+      "origin": "Gauting",
+      "destination": "Ludwigsfelde",
+      "capacity": 40,
+      "length": 735.08,
+      "up": true
+    },
+    {
+      "origin": "Gauting",
+      "destination": "Hochheim am Main",
+      "capacity": 40,
+      "length": 463.81,
+      "up": true
+    },
+    {
+      "origin": "Gauting",
+      "destination": "Giovenzano",
+      "capacity": 40,
+      "length": 530.13,
+      "up": true
+    },
+    {
+      "origin": "Gauting",
+      "destination": "Kaltenleutgeben",
+      "capacity": 40,
+      "length": 543.61,
+      "up": true
+    },
+    {
+      "origin": "Berger",
+      "destination": "Stroby Egede",
+      "capacity": 40,
+      "length": 708.9,
+      "up": true
+    },
+    {
+      "origin": "Berger",
+      "destination": "Huddinge",
+      "capacity": 40,
+      "length": 646.52,
+      "up": true
+    },
+    {
+      "origin": "Etrechy",
+      "destination": "Noaillan",
+      "capacity": 40,
+      "length": 728.45,
+      "up": true
+    },
+    {
+      "origin": "Etrechy",
+      "destination": "La Louviere",
+      "capacity": 40,
+      "length": 394.93,
+      "up": true
+    },
+    {
+      "origin": "Etrechy",
+      "destination": "Whyteleafe",
+      "capacity": 40,
+      "length": 525.31,
+      "up": true
+    },
+    {
+      "origin": "Etrechy",
+      "destination": "Saint-Jean-Bonnefonds",
+      "capacity": 40,
+      "length": 575.99,
+      "up": true
+    },
+    {
+      "origin": "Etrechy",
+      "destination": "Epfig",
+      "capacity": 40,
+      "length": 581.53,
+      "up": true
+    },
+    {
+      "origin": "Rudna",
+      "destination": "Ludwigsfelde",
+      "capacity": 40,
+      "length": 393.92,
+      "up": true
+    },
+    {
+      "origin": "Rudna",
+      "destination": "Szigethalom",
+      "capacity": 40,
+      "length": 697.24,
+      "up": true
+    },
+    {
+      "origin": "Rudna",
+      "destination": "Kaltenleutgeben",
+      "capacity": 40,
+      "length": 385.2,
+      "up": true
+    },
+    {
+      "origin": "Torvaianica",
+      "destination": "Poros",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Torvaianica",
+      "destination": "Giovenzano",
+      "capacity": 40,
+      "length": 734.5,
+      "up": true
+    },
+    {
+      "origin": "Torvaianica",
+      "destination": "Karlovac",
+      "capacity": 40,
+      "length": 768.93,
+      "up": true
+    },
+    {
+      "origin": "Huddinge",
+      "destination": "Berger",
+      "capacity": 40,
+      "length": 646.52,
+      "up": true
+    },
+    {
+      "origin": "Huddinge",
+      "destination": "Bieniewice",
+      "capacity": 40,
+      "length": 1200.07,
+      "up": true
+    },
+    {
+      "origin": "Epfig",
+      "destination": "Hochheim am Main",
+      "capacity": 40,
+      "length": 304.25,
+      "up": true
+    },
+    {
+      "origin": "Epfig",
+      "destination": "Etrechy",
+      "capacity": 40,
+      "length": 581.53,
+      "up": true
+    },
+    {
+      "origin": "Epfig",
+      "destination": "Hohenrain",
+      "capacity": 40,
+      "length": 212.2,
+      "up": true
+    },
+    {
+      "origin": "Kaltenleutgeben",
+      "destination": "Gauting",
+      "capacity": 40,
+      "length": 543.61,
+      "up": true
+    },
+    {
+      "origin": "Kaltenleutgeben",
+      "destination": "Rudna",
+      "capacity": 40,
+      "length": 385.2,
+      "up": true
+    },
+    {
+      "origin": "Kaltenleutgeben",
+      "destination": "Karlovac",
+      "capacity": 40,
+      "length": 446.35,
+      "up": true
+    },
+    {
+      "origin": "Bieniewice",
+      "destination": "Ludwigsfelde",
+      "capacity": 40,
+      "length": 754.23,
+      "up": true
+    },
+    {
+      "origin": "Bieniewice",
+      "destination": "Szigethalom",
+      "capacity": 40,
+      "length": 826.42,
+      "up": true
+    },
+    {
+      "origin": "Bieniewice",
+      "destination": "Huddinge",
+      "capacity": 40,
+      "length": 1200.07,
+      "up": true
+    },
+    {
+      "origin": "Karlovac",
+      "destination": "Stepojevac",
+      "capacity": 40,
+      "length": 577.22,
+      "up": true
+    },
+    {
+      "origin": "Karlovac",
+      "destination": "Torvaianica",
+      "capacity": 40,
+      "length": 768.93,
+      "up": true
+    },
+    {
+      "origin": "Karlovac",
+      "destination": "Kaltenleutgeben",
+      "capacity": 40,
+      "length": 446.35,
+      "up": true
+    },
+    {
+      "origin": "Hohenrain",
+      "destination": "Saint-Jean-Bonnefonds",
+      "capacity": 40,
+      "length": 532.58,
+      "up": true
+    },
+    {
+      "origin": "Hohenrain",
+      "destination": "Giovenzano",
+      "capacity": 40,
+      "length": 336.16,
+      "up": true
+    },
+    {
+      "origin": "Hohenrain",
+      "destination": "Epfig",
+      "capacity": 40,
+      "length": 212.2,
+      "up": true
+    }
+  ]
+}

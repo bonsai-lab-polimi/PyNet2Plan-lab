@@ -1,0 +1,41 @@
+# topology: ISTAR (real topology #80) (data/topologies/real/top80_istar.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Quebec,Halifax,2
+1,London,Montreal,3
+2,Sherbrooke,Calgary,3
+3,Ottawa,Ancaster,6
+4,Calgary,Toronto,6
+5,Montreal,Sydney,7
+6,Halifax,Ancaster,3
+7,Victoria,Moncton,4
+8,Vancouver,Sydney,5
+9,London,Yarmouth,6
+10,Winnipeg,Ottawa,8
+11,Winnipeg,Montreal,8
+12,Halifax,Victoria,5
+13,Sherbrooke,Saint John,4
+14,Kitchener,Toronto,5
+15,Kitchener,Vancouver,7
+16,Toronto,Ancaster,8
+17,Edmonton,Saint John,6
+18,Ancaster,Toronto,6
+19,Ottawa,Toronto,6
+20,Winnipeg,Edmonton,1
+21,Montreal,Calgary,4
+22,Kitchener,Ottawa,2
+23,Moncton,Sherbrooke,2
+24,Toronto,Moncton,5
+25,Halifax,Calgary,2
+26,Ottawa,Sydney,7
+27,Quebec,Moncton,8
+28,Kitchener,Quebec,1
+29,Quebec,Montreal,8
+30,Edmonton,Victoria,4
+31,Saint John,Sherbrooke,6
+32,Saint John,London,8
+33,Vancouver,Ancaster,8
+34,Sydney,Moncton,3
+35,Kitchener,Sherbrooke,4
+36,Victoria,Vancouver,4
+37,Halifax,Saint John,2

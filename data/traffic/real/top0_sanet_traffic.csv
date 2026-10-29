@@ -1,0 +1,63 @@
+# topology: SANET (real topology #0) (data/topologies/real/top0_sanet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Stropkov,Svidník,8
+1,Ružomberok,Trnava,3
+2,Ružomberok,Sabinov,6
+3,Žilina,Bratislava,3
+4,Senica,Stropkov,3
+5,Senica,Nové Mesto Nad Váhom,5
+6,Sabinov,Ružomberok,3
+7,Stará Ľubovňa,Stropkov,3
+8,Strážske,Nové Mesto Nad Váhom,3
+9,Martin,Zvolen,4
+10,Liptovský Hrádok,Stropkov,7
+11,Strážske,Liptovský Hrádok,5
+12,Košice,Banská Bystrica,5
+13,Trebišov,Rožňava,4
+14,Prievidza,Galanta,7
+15,Liptovský Mikuláš,Trebišov,6
+16,Ružomberok,Bardejov,1
+17,Prievidza,Senec,2
+18,Piešťany,Liptovský Hrádok,2
+19,Dunajská Streda,Trebišov,5
+20,Ružomberok,Senec,6
+21,Rožňava,Liptovský Mikuláš,7
+22,Stará Ľubovňa,Nové Zámky,1
+23,Senica,Komárno,7
+24,Humenné,Komárno,6
+25,Komárno,Senec,3
+26,Liptovský Mikuláš,Spišská Nová Ves,5
+27,Bardejov,Ružomberok,5
+28,Stará Ľubovňa,Strážske,3
+29,Humenné,Bratislava,2
+30,Skalica,Strážske,5
+31,Nové Zámky,Poprad,8
+32,Žilina,Dunajská Streda,1
+33,Senica,Trenčín,6
+34,Prešov,Levoča,5
+35,Revúca,Komárno,6
+36,Žilina,Svidník,7
+37,Senica,Trnava,1
+38,Nitra,Levoča,5
+39,Martin,Ružomberok,2
+40,Humenné,Liptovský Mikuláš,1
+41,Trebišov,Senec,1
+42,Martin,Trebišov,6
+43,Bardejov,Hurbanovo,2
+44,Levoča,Zvolen,6
+45,Michalovce,Trenčín,6
+46,Ružomberok,Liptovský Hrádok,6
+47,Bratislava,Levice,6
+48,Nové Mesto Nad Váhom,Bardejov,5
+49,Nové Mesto Nad Váhom,Banská Bystrica,2
+50,Levoča,Bratislava,5
+51,Komárno,Trenčín,8
+52,Senec,Nitra,1
+53,Liptovský Mikuláš,Topoľčany,4
+54,Michalovce,Prešov,5
+55,Nitra,Poprad,8
+56,Žilina,Hurbanovo,2
+57,Levoča,Liptovský Hrádok,1
+58,Humenné,Topoľčany,1
+59,Stropkov,Bardejov,8

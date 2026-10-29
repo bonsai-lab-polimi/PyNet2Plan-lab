@@ -1,0 +1,498 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "OXFORD (real topology #51)",
+  "description": "Real-world topology OXFORD (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Portsmouth",
+      "lat": 43.07,
+      "lon": -70.76,
+      "x": -7876967.168532038,
+      "y": 5322632.637346129,
+      "up": true
+    },
+    {
+      "name": "Dover",
+      "lat": 43.2,
+      "lon": -70.87,
+      "x": -7889212.312519299,
+      "y": 5342463.601958378,
+      "up": true
+    },
+    {
+      "name": "Biddeford",
+      "lat": 43.49,
+      "lon": -70.45,
+      "x": -7842458.126386124,
+      "y": 5386854.751086166,
+      "up": true
+    },
+    {
+      "name": "Sanford (historical)",
+      "lat": 43.44,
+      "lon": -70.77,
+      "x": -7878080.363439971,
+      "y": 5379185.950497681,
+      "up": true
+    },
+    {
+      "name": "Boston",
+      "lat": 42.36,
+      "lon": -71.06,
+      "x": -7910363.015770021,
+      "y": 5215059.174610623,
+      "up": true
+    },
+    {
+      "name": "Framingham",
+      "lat": 42.28,
+      "lon": -71.42,
+      "x": -7950438.032455598,
+      "y": 5203014.803677966,
+      "up": true
+    },
+    {
+      "name": "Manchester",
+      "lat": 43.0,
+      "lon": -71.45,
+      "x": -7953777.6171793975,
+      "y": 5311971.846945471,
+      "up": true
+    },
+    {
+      "name": "Keene",
+      "lat": 42.93,
+      "lon": -72.28,
+      "x": -8046172.794537814,
+      "y": 5301323.195284924,
+      "up": true
+    },
+    {
+      "name": "Worcester",
+      "lat": 42.26,
+      "lon": -71.8,
+      "x": -7992739.438957042,
+      "y": 5200006.101185862,
+      "up": true
+    },
+    {
+      "name": "Springfield",
+      "lat": 42.1,
+      "lon": -72.59,
+      "x": -8080681.836683729,
+      "y": 5175970.74920631,
+      "up": true
+    },
+    {
+      "name": "Bangor",
+      "lat": 44.8,
+      "lon": -68.78,
+      "x": -7656554.576761356,
+      "y": 5590090.3415273065,
+      "up": true
+    },
+    {
+      "name": "Portland",
+      "lat": 43.66,
+      "lon": -70.26,
+      "x": -7821307.423135402,
+      "y": 5412976.277894228,
+      "up": true
+    },
+    {
+      "name": "Turner",
+      "lat": 44.26,
+      "lon": -70.26,
+      "x": -7821307.423135402,
+      "y": 5505766.338721662,
+      "up": true
+    },
+    {
+      "name": "Bethel",
+      "lat": 44.4,
+      "lon": -70.79,
+      "x": -7880306.753255838,
+      "y": 5527553.215435856,
+      "up": true
+    },
+    {
+      "name": "Norway",
+      "lat": 44.21,
+      "lon": -70.54,
+      "x": -7852476.8805575175,
+      "y": 5497997.888358308,
+      "up": true
+    },
+    {
+      "name": "Buxton",
+      "lat": 43.74,
+      "lon": -70.55,
+      "x": -7853590.07546545,
+      "y": 5425294.349826695,
+      "up": true
+    },
+    {
+      "name": "Buckfield",
+      "lat": 44.29,
+      "lon": -70.37,
+      "x": -7833552.567122662,
+      "y": 5510430.580244221,
+      "up": true
+    },
+    {
+      "name": "Augusta",
+      "lat": 44.31,
+      "lon": -69.78,
+      "x": -7767874.067554629,
+      "y": 5513541.3982585035,
+      "up": true
+    },
+    {
+      "name": "Lewiston",
+      "lat": 44.1,
+      "lon": -70.21,
+      "x": -7815741.448595737,
+      "y": 5480930.477499096,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Portsmouth",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 115.58,
+      "up": true
+    },
+    {
+      "origin": "Portsmouth",
+      "destination": "Sanford (historical)",
+      "capacity": 40,
+      "length": 61.73,
+      "up": true
+    },
+    {
+      "origin": "Portsmouth",
+      "destination": "Manchester",
+      "capacity": 40,
+      "length": 84.93,
+      "up": true
+    },
+    {
+      "origin": "Dover",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 106.52,
+      "up": true
+    },
+    {
+      "origin": "Dover",
+      "destination": "Keene",
+      "capacity": 40,
+      "length": 177.62,
+      "up": true
+    },
+    {
+      "origin": "Biddeford",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 36.48,
+      "up": true
+    },
+    {
+      "origin": "Biddeford",
+      "destination": "Sanford (historical)",
+      "capacity": 40,
+      "length": 39.63,
+      "up": true
+    },
+    {
+      "origin": "Sanford (historical)",
+      "destination": "Portsmouth",
+      "capacity": 40,
+      "length": 61.73,
+      "up": true
+    },
+    {
+      "origin": "Sanford (historical)",
+      "destination": "Biddeford",
+      "capacity": 40,
+      "length": 39.63,
+      "up": true
+    },
+    {
+      "origin": "Boston",
+      "destination": "Framingham",
+      "capacity": 40,
+      "length": 46.36,
+      "up": true
+    },
+    {
+      "origin": "Boston",
+      "destination": "Manchester",
+      "capacity": 40,
+      "length": 116.97,
+      "up": true
+    },
+    {
+      "origin": "Framingham",
+      "destination": "Boston",
+      "capacity": 40,
+      "length": 46.36,
+      "up": true
+    },
+    {
+      "origin": "Framingham",
+      "destination": "Worcester",
+      "capacity": 40,
+      "length": 47.02,
+      "up": true
+    },
+    {
+      "origin": "Manchester",
+      "destination": "Portsmouth",
+      "capacity": 40,
+      "length": 84.93,
+      "up": true
+    },
+    {
+      "origin": "Manchester",
+      "destination": "Boston",
+      "capacity": 40,
+      "length": 116.97,
+      "up": true
+    },
+    {
+      "origin": "Keene",
+      "destination": "Dover",
+      "capacity": 40,
+      "length": 177.62,
+      "up": true
+    },
+    {
+      "origin": "Keene",
+      "destination": "Springfield",
+      "capacity": 40,
+      "length": 143.59,
+      "up": true
+    },
+    {
+      "origin": "Worcester",
+      "destination": "Framingham",
+      "capacity": 40,
+      "length": 47.02,
+      "up": true
+    },
+    {
+      "origin": "Worcester",
+      "destination": "Springfield",
+      "capacity": 40,
+      "length": 101.22,
+      "up": true
+    },
+    {
+      "origin": "Springfield",
+      "destination": "Keene",
+      "capacity": 40,
+      "length": 143.59,
+      "up": true
+    },
+    {
+      "origin": "Springfield",
+      "destination": "Worcester",
+      "capacity": 40,
+      "length": 101.22,
+      "up": true
+    },
+    {
+      "origin": "Bangor",
+      "destination": "Lewiston",
+      "capacity": 40,
+      "length": 206.45,
+      "up": true
+    },
+    {
+      "origin": "Bangor",
+      "destination": "Augusta",
+      "capacity": 40,
+      "length": 144.24,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Portsmouth",
+      "capacity": 40,
+      "length": 115.58,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Dover",
+      "capacity": 40,
+      "length": 106.52,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Biddeford",
+      "capacity": 40,
+      "length": 36.48,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Lewiston",
+      "capacity": 40,
+      "length": 73.63,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Buxton",
+      "capacity": 40,
+      "length": 37.43,
+      "up": true
+    },
+    {
+      "origin": "Turner",
+      "destination": "Augusta",
+      "capacity": 40,
+      "length": 57.92,
+      "up": true
+    },
+    {
+      "origin": "Turner",
+      "destination": "Bethel",
+      "capacity": 40,
+      "length": 67.41,
+      "up": true
+    },
+    {
+      "origin": "Bethel",
+      "destination": "Turner",
+      "capacity": 40,
+      "length": 67.41,
+      "up": true
+    },
+    {
+      "origin": "Bethel",
+      "destination": "Norway",
+      "capacity": 40,
+      "length": 43.53,
+      "up": true
+    },
+    {
+      "origin": "Norway",
+      "destination": "Bethel",
+      "capacity": 40,
+      "length": 43.53,
+      "up": true
+    },
+    {
+      "origin": "Norway",
+      "destination": "Buckfield",
+      "capacity": 40,
+      "length": 24.3,
+      "up": true
+    },
+    {
+      "origin": "Norway",
+      "destination": "Buxton",
+      "capacity": 40,
+      "length": 78.4,
+      "up": true
+    },
+    {
+      "origin": "Buxton",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 37.43,
+      "up": true
+    },
+    {
+      "origin": "Buxton",
+      "destination": "Norway",
+      "capacity": 40,
+      "length": 78.4,
+      "up": true
+    },
+    {
+      "origin": "Buxton",
+      "destination": "Buckfield",
+      "capacity": 40,
+      "length": 94.24,
+      "up": true
+    },
+    {
+      "origin": "Buckfield",
+      "destination": "Norway",
+      "capacity": 40,
+      "length": 24.3,
+      "up": true
+    },
+    {
+      "origin": "Buckfield",
+      "destination": "Buxton",
+      "capacity": 40,
+      "length": 94.24,
+      "up": true
+    },
+    {
+      "origin": "Buckfield",
+      "destination": "Augusta",
+      "capacity": 40,
+      "length": 70.51,
+      "up": true
+    },
+    {
+      "origin": "Augusta",
+      "destination": "Bangor",
+      "capacity": 40,
+      "length": 144.24,
+      "up": true
+    },
+    {
+      "origin": "Augusta",
+      "destination": "Turner",
+      "capacity": 40,
+      "length": 57.92,
+      "up": true
+    },
+    {
+      "origin": "Augusta",
+      "destination": "Buckfield",
+      "capacity": 40,
+      "length": 70.51,
+      "up": true
+    },
+    {
+      "origin": "Augusta",
+      "destination": "Lewiston",
+      "capacity": 40,
+      "length": 62.21,
+      "up": true
+    },
+    {
+      "origin": "Lewiston",
+      "destination": "Bangor",
+      "capacity": 40,
+      "length": 206.45,
+      "up": true
+    },
+    {
+      "origin": "Lewiston",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 73.63,
+      "up": true
+    },
+    {
+      "origin": "Lewiston",
+      "destination": "Augusta",
+      "capacity": 40,
+      "length": 62.21,
+      "up": true
+    }
+  ]
+}

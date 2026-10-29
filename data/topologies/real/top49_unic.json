@@ -1,0 +1,368 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "UNIC (real topology #49)",
+  "description": "Real-world topology UNIC (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Odense",
+      "lat": 55.4,
+      "lon": 10.39,
+      "x": 1156609.5093421126,
+      "y": 7439888.195705472,
+      "up": true
+    },
+    {
+      "name": "Nyborg",
+      "lat": 55.31,
+      "lon": 10.79,
+      "x": 1201137.3056594217,
+      "y": 7422264.739770427,
+      "up": true
+    },
+    {
+      "name": "Vejle",
+      "lat": 55.71,
+      "lon": 9.54,
+      "x": 1061987.9421678297,
+      "y": 7500900.140266802,
+      "up": true
+    },
+    {
+      "name": "Kolding",
+      "lat": 55.49,
+      "lon": 9.47,
+      "x": 1054195.5778123008,
+      "y": 7457551.826028346,
+      "up": true
+    },
+    {
+      "name": "Holbaek",
+      "lat": 55.72,
+      "lon": 11.72,
+      "x": 1304664.4320971663,
+      "y": 7502876.308618947,
+      "up": true
+    },
+    {
+      "name": "Kongens Lyngby",
+      "lat": 55.77,
+      "lon": 12.5,
+      "x": 1391493.6349159195,
+      "y": 7512764.74764447,
+      "up": true
+    },
+    {
+      "name": "Slagelse",
+      "lat": 55.4,
+      "lon": 11.35,
+      "x": 1263476.220503655,
+      "y": 7439888.195705472,
+      "up": true
+    },
+    {
+      "name": "Fuglebjerg",
+      "lat": 55.31,
+      "lon": 11.55,
+      "x": 1285740.1186623098,
+      "y": 7422264.739770427,
+      "up": true
+    },
+    {
+      "name": "Tarnby",
+      "lat": 55.63,
+      "lon": 12.6,
+      "x": 1402625.583995247,
+      "y": 7485108.973291284,
+      "up": true
+    },
+    {
+      "name": "Herning",
+      "lat": 56.14,
+      "lon": 8.97,
+      "x": 998535.832415664,
+      "y": 7586336.327130692,
+      "up": true
+    },
+    {
+      "name": "Aalborg",
+      "lat": 57.05,
+      "lon": 9.92,
+      "x": 1104289.3486692738,
+      "y": 7770345.1127668945,
+      "up": true
+    },
+    {
+      "name": "Farso",
+      "lat": 56.77,
+      "lon": 9.34,
+      "x": 1039724.044009175,
+      "y": 7713253.242388567,
+      "up": true
+    },
+    {
+      "name": "Hobro",
+      "lat": 56.64,
+      "lon": 9.79,
+      "x": 1089817.8148661482,
+      "y": 7686890.99715975,
+      "up": true
+    },
+    {
+      "name": "Silkeborg",
+      "lat": 56.17,
+      "lon": 9.55,
+      "x": 1063101.1370757627,
+      "y": 7592332.550021853,
+      "up": true
+    },
+    {
+      "name": "Arhus",
+      "lat": 56.16,
+      "lon": 10.21,
+      "x": 1136572.0009993233,
+      "y": 7590333.288787036,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Odense",
+      "destination": "Nyborg",
+      "capacity": 40,
+      "length": 40.79,
+      "up": true
+    },
+    {
+      "origin": "Odense",
+      "destination": "Vejle",
+      "capacity": 40,
+      "length": 95.41,
+      "up": true
+    },
+    {
+      "origin": "Odense",
+      "destination": "Kolding",
+      "capacity": 40,
+      "length": 88.32,
+      "up": true
+    },
+    {
+      "origin": "Nyborg",
+      "destination": "Odense",
+      "capacity": 40,
+      "length": 40.79,
+      "up": true
+    },
+    {
+      "origin": "Nyborg",
+      "destination": "Slagelse",
+      "capacity": 40,
+      "length": 55.18,
+      "up": true
+    },
+    {
+      "origin": "Nyborg",
+      "destination": "Fuglebjerg",
+      "capacity": 40,
+      "length": 72.14,
+      "up": true
+    },
+    {
+      "origin": "Vejle",
+      "destination": "Odense",
+      "capacity": 40,
+      "length": 95.41,
+      "up": true
+    },
+    {
+      "origin": "Vejle",
+      "destination": "Herning",
+      "capacity": 40,
+      "length": 89.34,
+      "up": true
+    },
+    {
+      "origin": "Vejle",
+      "destination": "Kolding",
+      "capacity": 40,
+      "length": 37.28,
+      "up": true
+    },
+    {
+      "origin": "Vejle",
+      "destination": "Arhus",
+      "capacity": 40,
+      "length": 97.73,
+      "up": true
+    },
+    {
+      "origin": "Kolding",
+      "destination": "Odense",
+      "capacity": 40,
+      "length": 88.32,
+      "up": true
+    },
+    {
+      "origin": "Kolding",
+      "destination": "Vejle",
+      "capacity": 40,
+      "length": 37.28,
+      "up": true
+    },
+    {
+      "origin": "Holbaek",
+      "destination": "Kongens Lyngby",
+      "capacity": 40,
+      "length": 73.7,
+      "up": true
+    },
+    {
+      "origin": "Holbaek",
+      "destination": "Slagelse",
+      "capacity": 40,
+      "length": 63.77,
+      "up": true
+    },
+    {
+      "origin": "Kongens Lyngby",
+      "destination": "Holbaek",
+      "capacity": 40,
+      "length": 73.7,
+      "up": true
+    },
+    {
+      "origin": "Kongens Lyngby",
+      "destination": "Tarnby",
+      "capacity": 40,
+      "length": 25.17,
+      "up": true
+    },
+    {
+      "origin": "Slagelse",
+      "destination": "Nyborg",
+      "capacity": 40,
+      "length": 55.18,
+      "up": true
+    },
+    {
+      "origin": "Slagelse",
+      "destination": "Holbaek",
+      "capacity": 40,
+      "length": 63.77,
+      "up": true
+    },
+    {
+      "origin": "Fuglebjerg",
+      "destination": "Nyborg",
+      "capacity": 40,
+      "length": 72.14,
+      "up": true
+    },
+    {
+      "origin": "Fuglebjerg",
+      "destination": "Tarnby",
+      "capacity": 40,
+      "length": 112.71,
+      "up": true
+    },
+    {
+      "origin": "Tarnby",
+      "destination": "Kongens Lyngby",
+      "capacity": 40,
+      "length": 25.17,
+      "up": true
+    },
+    {
+      "origin": "Tarnby",
+      "destination": "Fuglebjerg",
+      "capacity": 40,
+      "length": 112.71,
+      "up": true
+    },
+    {
+      "origin": "Herning",
+      "destination": "Vejle",
+      "capacity": 40,
+      "length": 89.34,
+      "up": true
+    },
+    {
+      "origin": "Herning",
+      "destination": "Silkeborg",
+      "capacity": 40,
+      "length": 54.11,
+      "up": true
+    },
+    {
+      "origin": "Aalborg",
+      "destination": "Farso",
+      "capacity": 40,
+      "length": 70.5,
+      "up": true
+    },
+    {
+      "origin": "Aalborg",
+      "destination": "Hobro",
+      "capacity": 40,
+      "length": 69.41,
+      "up": true
+    },
+    {
+      "origin": "Farso",
+      "destination": "Aalborg",
+      "capacity": 40,
+      "length": 70.5,
+      "up": true
+    },
+    {
+      "origin": "Farso",
+      "destination": "Silkeborg",
+      "capacity": 40,
+      "length": 101.93,
+      "up": true
+    },
+    {
+      "origin": "Hobro",
+      "destination": "Aalborg",
+      "capacity": 40,
+      "length": 69.41,
+      "up": true
+    },
+    {
+      "origin": "Hobro",
+      "destination": "Arhus",
+      "capacity": 40,
+      "length": 88.95,
+      "up": true
+    },
+    {
+      "origin": "Silkeborg",
+      "destination": "Herning",
+      "capacity": 40,
+      "length": 54.11,
+      "up": true
+    },
+    {
+      "origin": "Silkeborg",
+      "destination": "Farso",
+      "capacity": 40,
+      "length": 101.93,
+      "up": true
+    },
+    {
+      "origin": "Arhus",
+      "destination": "Vejle",
+      "capacity": 40,
+      "length": 97.73,
+      "up": true
+    },
+    {
+      "origin": "Arhus",
+      "destination": "Hobro",
+      "capacity": 40,
+      "length": 88.95,
+      "up": true
+    }
+  ]
+}

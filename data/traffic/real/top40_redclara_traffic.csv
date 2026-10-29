@@ -1,0 +1,31 @@
+# topology: REDCLARA (real topology #40) (data/topologies/real/top40_redclara.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"Atizapán de Zaragoza, State of Mexico","Durazno, Durazno",4
+1,"São Luís, Maranhão","Aldea Chib'out, Alta Verapaz",5
+2,"São Luís, Maranhão","Caldera, Atacama Region",3
+3,Desembocadura de Río Grande (Municipio),"São Paulo, São Paulo",2
+4,San José,"São Luís, Maranhão",7
+5,"San Luis, San Luis","Atizapán de Zaragoza, State of Mexico",5
+6,"Hialeah, Florida","São Luís, Maranhão",4
+7,"Durazno, Durazno","Distrito Natá, Coclé",3
+8,"Durazno, Durazno","Aldea Chib'out, Alta Verapaz",3
+9,"Durazno, Durazno","Caldera, Atacama Region",3
+10,"Cusca, Cotopaxi","São Paulo, São Paulo",5
+11,Desembocadura de Río Grande (Municipio),"Distrito Natá, Coclé",7
+12,"Aldea Chib'out, Alta Verapaz","Cusca, Cotopaxi",3
+13,Desembocadura de Río Grande (Municipio),"San Martín, Meta",6
+14,"Atizapán de Zaragoza, State of Mexico","San José del Potrero, Comayagua",5
+15,"Distrito Natá, Coclé","Aldea Chib'out, Alta Verapaz",6
+16,San José,"Caldera, Atacama Region",1
+17,San José,"São Paulo, São Paulo",4
+18,"Distrito Natá, Coclé",San José,5
+19,"Hialeah, Florida","Distrito Natá, Coclé",5
+20,"São Paulo, São Paulo","Distrito Natá, Coclé",8
+21,"San Martín, Meta","San Luis, San Luis",5
+22,"Aldea Chib'out, Alta Verapaz","Durazno, Durazno",8
+23,"Hialeah, Florida","San Luis, San Luis",5
+24,"Durazno, Durazno",San José,2
+25,"San Martín, Meta",Desembocadura de Río Grande (Municipio),5
+26,"São Paulo, São Paulo","Caldera, Atacama Region",2
+27,San José,"Aldea Chib'out, Alta Verapaz",6

@@ -1,0 +1,568 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "GTSCZECHREPUBLIC (real topology #24)",
+  "description": "Real-world topology GTSCZECHREPUBLIC (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Klatovy",
+      "lat": 49.4,
+      "lon": 13.3,
+      "x": 1480549.2275505385,
+      "y": 6343007.59142878,
+      "up": true
+    },
+    {
+      "name": "Pisek",
+      "lat": 49.31,
+      "lon": 14.15,
+      "x": 1575170.794724821,
+      "y": 6327626.5443083225,
+      "up": true
+    },
+    {
+      "name": "Chomutov",
+      "lat": 50.46,
+      "lon": 13.42,
+      "x": 1493907.5664457313,
+      "y": 6526324.1650307905,
+      "up": true
+    },
+    {
+      "name": "Pilsen",
+      "lat": 49.75,
+      "lon": 13.38,
+      "x": 1489454.7868140005,
+      "y": 6403092.288424938,
+      "up": true
+    },
+    {
+      "name": "Jindrichuv Hradec",
+      "lat": 49.14,
+      "lon": 15.0,
+      "x": 1669792.3618991035,
+      "y": 6298649.937597165,
+      "up": true
+    },
+    {
+      "name": "Havlickuv Brod",
+      "lat": 49.61,
+      "lon": 15.58,
+      "x": 1734357.6665592024,
+      "y": 6379006.669437,
+      "up": true
+    },
+    {
+      "name": "Ceske Budejovice",
+      "lat": 48.97,
+      "lon": 14.47,
+      "x": 1610793.0317786685,
+      "y": 6269772.553881043,
+      "up": true
+    },
+    {
+      "name": "Tabor",
+      "lat": 49.41,
+      "lon": 14.66,
+      "x": 1631943.7350293905,
+      "y": 6344718.335708385,
+      "up": true
+    },
+    {
+      "name": "Brno",
+      "lat": 49.2,
+      "lon": 16.61,
+      "x": 1849016.742076274,
+      "y": 6308865.597080055,
+      "up": true
+    },
+    {
+      "name": "Usti nad Labem",
+      "lat": 50.66,
+      "lon": 14.03,
+      "x": 1561812.4558296283,
+      "y": 6561370.600232232,
+      "up": true
+    },
+    {
+      "name": "Kolin",
+      "lat": 50.03,
+      "lon": 15.2,
+      "x": 1692056.260057758,
+      "y": 6451472.934445008,
+      "up": true
+    },
+    {
+      "name": "Ostrava",
+      "lat": 49.83,
+      "lon": 18.28,
+      "x": 2034920.291701041,
+      "y": 6416886.722071252,
+      "up": true
+    },
+    {
+      "name": "Zlin",
+      "lat": 49.22,
+      "lon": 17.67,
+      "x": 1967015.4023171442,
+      "y": 6312273.570659753,
+      "up": true
+    },
+    {
+      "name": "Jemnice",
+      "lat": 49.03,
+      "lon": 15.5,
+      "x": 1725452.1072957402,
+      "y": 6279953.300224559,
+      "up": true
+    },
+    {
+      "name": "Hodonin",
+      "lat": 48.85,
+      "lon": 17.13,
+      "x": 1906902.8772887762,
+      "y": 6249447.752791281,
+      "up": true
+    },
+    {
+      "name": "Prostejov",
+      "lat": 49.47,
+      "lon": 17.11,
+      "x": 1904676.487472911,
+      "y": 6354990.127091223,
+      "up": true
+    },
+    {
+      "name": "Beroun",
+      "lat": 49.96,
+      "lon": 14.07,
+      "x": 1566265.2354613591,
+      "y": 6439351.4252469735,
+      "up": true
+    },
+    {
+      "name": "Karlovy Vary",
+      "lat": 50.23,
+      "lon": 12.87,
+      "x": 1432681.8465094308,
+      "y": 6486203.48010797,
+      "up": true
+    },
+    {
+      "name": "Opava",
+      "lat": 49.94,
+      "lon": 17.9,
+      "x": 1992618.8851995969,
+      "y": 6435891.374634048,
+      "up": true
+    },
+    {
+      "name": "Olomouc",
+      "lat": 49.6,
+      "lon": 17.25,
+      "x": 1920261.2161839688,
+      "y": 6377288.917718737,
+      "up": true
+    },
+    {
+      "name": "Ceska Trebova",
+      "lat": 49.9,
+      "lon": 16.44,
+      "x": 1830092.4286414175,
+      "y": 6428975.579877882,
+      "up": true
+    },
+    {
+      "name": "Liberec",
+      "lat": 50.77,
+      "lon": 15.06,
+      "x": 1676471.5313467002,
+      "y": 6580709.785199748,
+      "up": true
+    },
+    {
+      "name": "Semily",
+      "lat": 50.6,
+      "lon": 15.34,
+      "x": 1707640.9887688165,
+      "y": 6550841.042064919,
+      "up": true
+    },
+    {
+      "name": "Kladno",
+      "lat": 50.15,
+      "lon": 14.1,
+      "x": 1569604.8201851572,
+      "y": 6472293.837654887,
+      "up": true
+    },
+    {
+      "name": "Prague",
+      "lat": 50.09,
+      "lon": 14.42,
+      "x": 1605227.0572390049,
+      "y": 6461876.8691552365,
+      "up": true
+    },
+    {
+      "name": "Mlada Boleslav",
+      "lat": 50.41,
+      "lon": 14.9,
+      "x": 1658660.4128197765,
+      "y": 6517585.728185623,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Klatovy",
+      "destination": "Pilsen",
+      "capacity": 40,
+      "length": 59.02,
+      "up": true
+    },
+    {
+      "origin": "Pisek",
+      "destination": "Ceske Budejovice",
+      "capacity": 40,
+      "length": 66.6,
+      "up": true
+    },
+    {
+      "origin": "Chomutov",
+      "destination": "Usti nad Labem",
+      "capacity": 40,
+      "length": 72.73,
+      "up": true
+    },
+    {
+      "origin": "Chomutov",
+      "destination": "Karlovy Vary",
+      "capacity": 40,
+      "length": 69.99,
+      "up": true
+    },
+    {
+      "origin": "Pilsen",
+      "destination": "Klatovy",
+      "capacity": 40,
+      "length": 59.02,
+      "up": true
+    },
+    {
+      "origin": "Pilsen",
+      "destination": "Beroun",
+      "capacity": 40,
+      "length": 82.05,
+      "up": true
+    },
+    {
+      "origin": "Pilsen",
+      "destination": "Karlovy Vary",
+      "capacity": 40,
+      "length": 96.96,
+      "up": true
+    },
+    {
+      "origin": "Jindrichuv Hradec",
+      "destination": "Havlickuv Brod",
+      "capacity": 40,
+      "length": 100.56,
+      "up": true
+    },
+    {
+      "origin": "Jindrichuv Hradec",
+      "destination": "Ceske Budejovice",
+      "capacity": 40,
+      "length": 64.5,
+      "up": true
+    },
+    {
+      "origin": "Havlickuv Brod",
+      "destination": "Jindrichuv Hradec",
+      "capacity": 40,
+      "length": 100.56,
+      "up": true
+    },
+    {
+      "origin": "Havlickuv Brod",
+      "destination": "Brno",
+      "capacity": 40,
+      "length": 131.05,
+      "up": true
+    },
+    {
+      "origin": "Ceske Budejovice",
+      "destination": "Pisek",
+      "capacity": 40,
+      "length": 66.6,
+      "up": true
+    },
+    {
+      "origin": "Ceske Budejovice",
+      "destination": "Jindrichuv Hradec",
+      "capacity": 40,
+      "length": 64.5,
+      "up": true
+    },
+    {
+      "origin": "Ceske Budejovice",
+      "destination": "Prague",
+      "capacity": 40,
+      "length": 186.89,
+      "up": true
+    },
+    {
+      "origin": "Ceske Budejovice",
+      "destination": "Tabor",
+      "capacity": 40,
+      "length": 76.26,
+      "up": true
+    },
+    {
+      "origin": "Tabor",
+      "destination": "Ceske Budejovice",
+      "capacity": 40,
+      "length": 76.26,
+      "up": true
+    },
+    {
+      "origin": "Brno",
+      "destination": "Havlickuv Brod",
+      "capacity": 40,
+      "length": 131.05,
+      "up": true
+    },
+    {
+      "origin": "Brno",
+      "destination": "Hodonin",
+      "capacity": 40,
+      "length": 81.5,
+      "up": true
+    },
+    {
+      "origin": "Usti nad Labem",
+      "destination": "Chomutov",
+      "capacity": 40,
+      "length": 72.73,
+      "up": true
+    },
+    {
+      "origin": "Usti nad Labem",
+      "destination": "Liberec",
+      "capacity": 40,
+      "length": 110.31,
+      "up": true
+    },
+    {
+      "origin": "Kolin",
+      "destination": "Prague",
+      "capacity": 40,
+      "length": 84.12,
+      "up": true
+    },
+    {
+      "origin": "Ostrava",
+      "destination": "Opava",
+      "capacity": 40,
+      "length": 44.77,
+      "up": true
+    },
+    {
+      "origin": "Ostrava",
+      "destination": "Olomouc",
+      "capacity": 40,
+      "length": 117.52,
+      "up": true
+    },
+    {
+      "origin": "Ostrava",
+      "destination": "Zlin",
+      "capacity": 40,
+      "length": 121.3,
+      "up": true
+    },
+    {
+      "origin": "Zlin",
+      "destination": "Ostrava",
+      "capacity": 40,
+      "length": 121.3,
+      "up": true
+    },
+    {
+      "origin": "Zlin",
+      "destination": "Jemnice",
+      "capacity": 40,
+      "length": 238.96,
+      "up": true
+    },
+    {
+      "origin": "Jemnice",
+      "destination": "Zlin",
+      "capacity": 40,
+      "length": 238.96,
+      "up": true
+    },
+    {
+      "origin": "Jemnice",
+      "destination": "Hodonin",
+      "capacity": 40,
+      "length": 181.08,
+      "up": true
+    },
+    {
+      "origin": "Hodonin",
+      "destination": "Brno",
+      "capacity": 40,
+      "length": 81.5,
+      "up": true
+    },
+    {
+      "origin": "Hodonin",
+      "destination": "Jemnice",
+      "capacity": 40,
+      "length": 181.08,
+      "up": true
+    },
+    {
+      "origin": "Prostejov",
+      "destination": "Olomouc",
+      "capacity": 40,
+      "length": 26.45,
+      "up": true
+    },
+    {
+      "origin": "Beroun",
+      "destination": "Pilsen",
+      "capacity": 40,
+      "length": 82.05,
+      "up": true
+    },
+    {
+      "origin": "Beroun",
+      "destination": "Prague",
+      "capacity": 40,
+      "length": 43.32,
+      "up": true
+    },
+    {
+      "origin": "Karlovy Vary",
+      "destination": "Chomutov",
+      "capacity": 40,
+      "length": 69.99,
+      "up": true
+    },
+    {
+      "origin": "Karlovy Vary",
+      "destination": "Pilsen",
+      "capacity": 40,
+      "length": 96.96,
+      "up": true
+    },
+    {
+      "origin": "Opava",
+      "destination": "Ostrava",
+      "capacity": 40,
+      "length": 44.77,
+      "up": true
+    },
+    {
+      "origin": "Olomouc",
+      "destination": "Ostrava",
+      "capacity": 40,
+      "length": 117.52,
+      "up": true
+    },
+    {
+      "origin": "Olomouc",
+      "destination": "Prostejov",
+      "capacity": 40,
+      "length": 26.45,
+      "up": true
+    },
+    {
+      "origin": "Olomouc",
+      "destination": "Ceska Trebova",
+      "capacity": 40,
+      "length": 100.62,
+      "up": true
+    },
+    {
+      "origin": "Ceska Trebova",
+      "destination": "Olomouc",
+      "capacity": 40,
+      "length": 100.62,
+      "up": true
+    },
+    {
+      "origin": "Liberec",
+      "destination": "Usti nad Labem",
+      "capacity": 40,
+      "length": 110.31,
+      "up": true
+    },
+    {
+      "origin": "Liberec",
+      "destination": "Semily",
+      "capacity": 40,
+      "length": 40.98,
+      "up": true
+    },
+    {
+      "origin": "Semily",
+      "destination": "Liberec",
+      "capacity": 40,
+      "length": 40.98,
+      "up": true
+    },
+    {
+      "origin": "Kladno",
+      "destination": "Prague",
+      "capacity": 40,
+      "length": 35.66,
+      "up": true
+    },
+    {
+      "origin": "Prague",
+      "destination": "Ceske Budejovice",
+      "capacity": 40,
+      "length": 186.89,
+      "up": true
+    },
+    {
+      "origin": "Prague",
+      "destination": "Kolin",
+      "capacity": 40,
+      "length": 84.12,
+      "up": true
+    },
+    {
+      "origin": "Prague",
+      "destination": "Beroun",
+      "capacity": 40,
+      "length": 43.32,
+      "up": true
+    },
+    {
+      "origin": "Prague",
+      "destination": "Kladno",
+      "capacity": 40,
+      "length": 35.66,
+      "up": true
+    },
+    {
+      "origin": "Prague",
+      "destination": "Mlada Boleslav",
+      "capacity": 40,
+      "length": 73.96,
+      "up": true
+    },
+    {
+      "origin": "Mlada Boleslav",
+      "destination": "Prague",
+      "capacity": 40,
+      "length": 73.96,
+      "up": true
+    }
+  ]
+}

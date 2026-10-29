@@ -1,0 +1,31 @@
+# topology: MZIMA (real topology #70) (data/topologies/real/top70_mzima.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Dallas,Seattle,6
+1,Salt Lake City,Dallas,1
+2,New York,Las Vegas,7
+3,Seattle,Dallas,3
+4,San Francisco,Las Vegas,6
+5,San Francisco,Miami,7
+6,Los Angeles,Houston,6
+7,Phoenix,Salt Lake City,6
+8,Chicago,New York,6
+9,Ash Burn,Seattle,3
+10,Dallas,Kansas City,8
+11,Phoenix,Kansas City,1
+12,San Francisco,Seattle,4
+13,Los Angeles,Seattle,8
+14,San Francisco,Houston,7
+15,Seattle,Atlanta,1
+16,Salt Lake City,Atlanta,7
+17,Kansas City,Las Vegas,5
+18,Salt Lake City,Las Vegas,5
+19,Dallas,Atlanta,3
+20,Salt Lake City,Phoenix,4
+21,Miami,Ash Burn,5
+22,Seattle,Miami,8
+23,Miami,Salt Lake City,2
+24,Miami,Atlanta,5
+25,Salt Lake City,San Francisco,4
+26,New York,Ash Burn,1
+27,Atlanta,Ash Burn,6

@@ -1,0 +1,35 @@
+# topology: ERNET (real topology #6) (data/topologies/real/top6_ernet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Kanpur,George Town,7
+1,Guwahati,Gorakhpur,3
+2,George Town,Kanpur,3
+3,Bhubaneshwar,Gorakhpur,2
+4,Allahabad,Mumbai,5
+5,Indore,Ahmedabad,5
+6,Ahmedabad,Gorakhpur,7
+7,Guwahati,Jaipur,1
+8,Thiruvananthapuram,New Delhi,4
+9,New Delhi,Guwahati,4
+10,Hyderabad,Kanpur,1
+11,Allahabad,Indore,3
+12,Mumbai,Guwahati,1
+13,Bangalore,Allahabad,7
+14,New Delhi,Bhubaneshwar,2
+15,Mumbai,New Delhi,8
+16,George Town,New Delhi,8
+17,Bangalore,Ahmedabad,8
+18,Thiruvananthapuram,Kolkata,6
+19,Guwahati,Bangalore,4
+20,Pune,Hyderabad,1
+21,Jaipur,Ahmedabad,1
+22,Thiruvananthapuram,Allahabad,8
+23,Kolkata,Guwahati,1
+24,New Delhi,Bangalore,4
+25,Thiruvananthapuram,Guwahati,7
+26,Bhubaneshwar,Bangalore,6
+27,Ahmedabad,George Town,3
+28,Ahmedabad,Guwahati,7
+29,New Delhi,Gorakhpur,2
+30,Mumbai,Hyderabad,7
+31,Ahmedabad,Jaipur,5

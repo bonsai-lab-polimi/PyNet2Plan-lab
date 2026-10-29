@@ -1,0 +1,358 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "POLSKA (real topology #107)",
+  "description": "Real-world topology POLSKA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Legowo",
+      "lat": 54.2,
+      "lon": 18.6,
+      "x": 2070542.5287548886,
+      "y": 7208125.260900678,
+      "up": true
+    },
+    {
+      "name": "Biale Blota",
+      "lat": 53.1,
+      "lon": 17.9,
+      "x": 1992618.8851995969,
+      "y": 7001516.67745022,
+      "up": true
+    },
+    {
+      "name": "Mielno",
+      "lat": 54.2,
+      "lon": 16.1,
+      "x": 1792243.8017717046,
+      "y": 7208125.260900678,
+      "up": true
+    },
+    {
+      "name": "Zabrze",
+      "lat": 50.3,
+      "lon": 18.8,
+      "x": 2092806.4269135431,
+      "y": 6498393.571947581,
+      "up": true
+    },
+    {
+      "name": "Piekary",
+      "lat": 50.0,
+      "lon": 19.8,
+      "x": 2204125.917706817,
+      "y": 6446275.841017158,
+      "up": true
+    },
+    {
+      "name": "Bialystok",
+      "lat": 53.1,
+      "lon": 23.1,
+      "x": 2571480.2373246197,
+      "y": 7001516.67745022,
+      "up": true
+    },
+    {
+      "name": "Ksawerow",
+      "lat": 51.7,
+      "lon": 19.4,
+      "x": 2159598.1213895073,
+      "y": 6746062.317560978,
+      "up": true
+    },
+    {
+      "name": "Plewiska",
+      "lat": 52.4,
+      "lon": 16.8,
+      "x": 1870167.445326996,
+      "y": 6872776.253673738,
+      "up": true
+    },
+    {
+      "name": "Niechobrz",
+      "lat": 50.0,
+      "lon": 21.9,
+      "x": 2437896.848372691,
+      "y": 6446275.841017158,
+      "up": true
+    },
+    {
+      "name": "Przeclaw",
+      "lat": 53.4,
+      "lon": 14.5,
+      "x": 1614132.6165024668,
+      "y": 7057332.571004393,
+      "up": true
+    },
+    {
+      "name": "Ochota",
+      "lat": 52.2,
+      "lon": 21.0,
+      "x": 2337709.3066587453,
+      "y": 6836369.119003472,
+      "up": true
+    },
+    {
+      "name": "Smolec",
+      "lat": 51.1,
+      "lon": 16.9,
+      "x": 1881299.394406323,
+      "y": 6639001.663761313,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Legowo",
+      "destination": "Ochota",
+      "capacity": 40,
+      "length": 410.77,
+      "up": true
+    },
+    {
+      "origin": "Legowo",
+      "destination": "Mielno",
+      "capacity": 40,
+      "length": 243.9,
+      "up": true
+    },
+    {
+      "origin": "Legowo",
+      "destination": "Bialystok",
+      "capacity": 40,
+      "length": 481.11,
+      "up": true
+    },
+    {
+      "origin": "Biale Blota",
+      "destination": "Mielno",
+      "capacity": 40,
+      "length": 255.58,
+      "up": true
+    },
+    {
+      "origin": "Biale Blota",
+      "destination": "Plewiska",
+      "capacity": 40,
+      "length": 161.13,
+      "up": true
+    },
+    {
+      "origin": "Biale Blota",
+      "destination": "Ochota",
+      "capacity": 40,
+      "length": 347.72,
+      "up": true
+    },
+    {
+      "origin": "Mielno",
+      "destination": "Legowo",
+      "capacity": 40,
+      "length": 243.9,
+      "up": true
+    },
+    {
+      "origin": "Mielno",
+      "destination": "Biale Blota",
+      "capacity": 40,
+      "length": 255.58,
+      "up": true
+    },
+    {
+      "origin": "Mielno",
+      "destination": "Przeclaw",
+      "capacity": 40,
+      "length": 206.5,
+      "up": true
+    },
+    {
+      "origin": "Zabrze",
+      "destination": "Piekary",
+      "capacity": 40,
+      "length": 118.01,
+      "up": true
+    },
+    {
+      "origin": "Zabrze",
+      "destination": "Ksawerow",
+      "capacity": 40,
+      "length": 241.85,
+      "up": true
+    },
+    {
+      "origin": "Zabrze",
+      "destination": "Smolec",
+      "capacity": 40,
+      "length": 241.01,
+      "up": true
+    },
+    {
+      "origin": "Piekary",
+      "destination": "Zabrze",
+      "capacity": 40,
+      "length": 118.01,
+      "up": true
+    },
+    {
+      "origin": "Piekary",
+      "destination": "Niechobrz",
+      "capacity": 40,
+      "length": 225.14,
+      "up": true
+    },
+    {
+      "origin": "Piekary",
+      "destination": "Ochota",
+      "capacity": 40,
+      "length": 387.86,
+      "up": true
+    },
+    {
+      "origin": "Bialystok",
+      "destination": "Legowo",
+      "capacity": 40,
+      "length": 481.11,
+      "up": true
+    },
+    {
+      "origin": "Bialystok",
+      "destination": "Niechobrz",
+      "capacity": 40,
+      "length": 531.8,
+      "up": true
+    },
+    {
+      "origin": "Bialystok",
+      "destination": "Ochota",
+      "capacity": 40,
+      "length": 260.16,
+      "up": true
+    },
+    {
+      "origin": "Ksawerow",
+      "destination": "Zabrze",
+      "capacity": 40,
+      "length": 241.85,
+      "up": true
+    },
+    {
+      "origin": "Ksawerow",
+      "destination": "Ochota",
+      "capacity": 40,
+      "length": 184.41,
+      "up": true
+    },
+    {
+      "origin": "Ksawerow",
+      "destination": "Smolec",
+      "capacity": 40,
+      "length": 278.71,
+      "up": true
+    },
+    {
+      "origin": "Plewiska",
+      "destination": "Biale Blota",
+      "capacity": 40,
+      "length": 161.13,
+      "up": true
+    },
+    {
+      "origin": "Plewiska",
+      "destination": "Przeclaw",
+      "capacity": 40,
+      "length": 285.23,
+      "up": true
+    },
+    {
+      "origin": "Plewiska",
+      "destination": "Smolec",
+      "capacity": 40,
+      "length": 217.08,
+      "up": true
+    },
+    {
+      "origin": "Niechobrz",
+      "destination": "Piekary",
+      "capacity": 40,
+      "length": 225.14,
+      "up": true
+    },
+    {
+      "origin": "Niechobrz",
+      "destination": "Bialystok",
+      "capacity": 40,
+      "length": 531.8,
+      "up": true
+    },
+    {
+      "origin": "Przeclaw",
+      "destination": "Mielno",
+      "capacity": 40,
+      "length": 206.5,
+      "up": true
+    },
+    {
+      "origin": "Przeclaw",
+      "destination": "Plewiska",
+      "capacity": 40,
+      "length": 285.23,
+      "up": true
+    },
+    {
+      "origin": "Ochota",
+      "destination": "Legowo",
+      "capacity": 40,
+      "length": 410.77,
+      "up": true
+    },
+    {
+      "origin": "Ochota",
+      "destination": "Biale Blota",
+      "capacity": 40,
+      "length": 347.72,
+      "up": true
+    },
+    {
+      "origin": "Ochota",
+      "destination": "Piekary",
+      "capacity": 40,
+      "length": 387.86,
+      "up": true
+    },
+    {
+      "origin": "Ochota",
+      "destination": "Bialystok",
+      "capacity": 40,
+      "length": 260.16,
+      "up": true
+    },
+    {
+      "origin": "Ochota",
+      "destination": "Ksawerow",
+      "capacity": 40,
+      "length": 184.41,
+      "up": true
+    },
+    {
+      "origin": "Smolec",
+      "destination": "Zabrze",
+      "capacity": 40,
+      "length": 241.01,
+      "up": true
+    },
+    {
+      "origin": "Smolec",
+      "destination": "Ksawerow",
+      "capacity": 40,
+      "length": 278.71,
+      "up": true
+    },
+    {
+      "origin": "Smolec",
+      "destination": "Plewiska",
+      "capacity": 40,
+      "length": 217.08,
+      "up": true
+    }
+  ]
+}

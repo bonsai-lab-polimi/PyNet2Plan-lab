@@ -1,0 +1,390 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "ERNET (real topology #6)",
+  "description": "Real-world topology ERNET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Pune",
+      "lat": 18.52,
+      "lon": 73.86,
+      "x": 8222057.589991186,
+      "y": 2098504.386561686,
+      "up": true
+    },
+    {
+      "name": "Indore",
+      "lat": 22.72,
+      "lon": 75.83,
+      "x": 8441356.986853935,
+      "y": 2598192.311617229,
+      "up": true
+    },
+    {
+      "name": "Thiruvananthapuram",
+      "lat": 8.48,
+      "lon": 76.92,
+      "x": 8562695.231818603,
+      "y": 947454.6489786134,
+      "up": true
+    },
+    {
+      "name": "Mumbai",
+      "lat": 19.01,
+      "lon": 72.85,
+      "x": 8109624.9042899795,
+      "y": 2156113.2884270586,
+      "up": true
+    },
+    {
+      "name": "Ahmedabad",
+      "lat": 23.03,
+      "lon": 72.62,
+      "x": 8084021.421407528,
+      "y": 2635647.0335017336,
+      "up": true
+    },
+    {
+      "name": "Jaipur",
+      "lat": 26.92,
+      "lon": 75.82,
+      "x": 8440243.791946001,
+      "y": 3113480.3567120647,
+      "up": true
+    },
+    {
+      "name": "George Town",
+      "lat": 13.09,
+      "lon": 80.28,
+      "x": 8936728.720884003,
+      "y": 1470016.4295428563,
+      "up": true
+    },
+    {
+      "name": "Bangalore",
+      "lat": 12.98,
+      "lon": 77.6,
+      "x": 8638392.48555803,
+      "y": 1457447.4108857086,
+      "up": true
+    },
+    {
+      "name": "New Delhi",
+      "lat": 28.64,
+      "lon": 77.22,
+      "x": 8596091.079056585,
+      "y": 3329905.408048013,
+      "up": true
+    },
+    {
+      "name": "Guwahati",
+      "lat": 26.19,
+      "lon": 91.75,
+      "x": 10213563.280282851,
+      "y": 3022632.351087543,
+      "up": true
+    },
+    {
+      "name": "Gorakhpur",
+      "lat": 29.45,
+      "lon": 75.68,
+      "x": 8424659.063234946,
+      "y": 3433046.5808244287,
+      "up": true
+    },
+    {
+      "name": "Kanpur",
+      "lat": 26.47,
+      "lon": 80.35,
+      "x": 8944521.085239531,
+      "y": 3057409.8724620524,
+      "up": true
+    },
+    {
+      "name": "Allahabad",
+      "lat": 25.45,
+      "lon": 81.85,
+      "x": 9111500.32142944,
+      "y": 2931119.017630423,
+      "up": true
+    },
+    {
+      "name": "Kolkata",
+      "lat": 22.57,
+      "lon": 88.37,
+      "x": 9837303.401401587,
+      "y": 2580099.5785373063,
+      "up": true
+    },
+    {
+      "name": "Bhubaneshwar",
+      "lat": 20.23,
+      "lon": 85.83,
+      "x": 9554551.89478667,
+      "y": 2300297.5817283336,
+      "up": true
+    },
+    {
+      "name": "Hyderabad",
+      "lat": 17.38,
+      "lon": 78.47,
+      "x": 8735240.442548178,
+      "y": 1965104.5047660684,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Pune",
+      "destination": "Mumbai",
+      "capacity": 40,
+      "length": 179.22,
+      "up": true
+    },
+    {
+      "origin": "Pune",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 1101.79,
+      "up": true
+    },
+    {
+      "origin": "Indore",
+      "destination": "Mumbai",
+      "capacity": 40,
+      "length": 773.63,
+      "up": true
+    },
+    {
+      "origin": "Thiruvananthapuram",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 758.79,
+      "up": true
+    },
+    {
+      "origin": "Mumbai",
+      "destination": "Pune",
+      "capacity": 40,
+      "length": 179.22,
+      "up": true
+    },
+    {
+      "origin": "Mumbai",
+      "destination": "Indore",
+      "capacity": 40,
+      "length": 773.63,
+      "up": true
+    },
+    {
+      "origin": "Mumbai",
+      "destination": "New Delhi",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Ahmedabad",
+      "destination": "New Delhi",
+      "capacity": 40,
+      "length": 1162.64,
+      "up": true
+    },
+    {
+      "origin": "Jaipur",
+      "destination": "New Delhi",
+      "capacity": 40,
+      "length": 353.52,
+      "up": true
+    },
+    {
+      "origin": "George Town",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 435.87,
+      "up": true
+    },
+    {
+      "origin": "George Town",
+      "destination": "Hyderabad",
+      "capacity": 40,
+      "length": 772.52,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "Pune",
+      "capacity": 40,
+      "length": 1101.79,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "Thiruvananthapuram",
+      "capacity": 40,
+      "length": 758.79,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "George Town",
+      "capacity": 40,
+      "length": 435.87,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "New Delhi",
+      "capacity": 40,
+      "length": 2177.2,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "Hyderabad",
+      "capacity": 40,
+      "length": 747.12,
+      "up": true
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Mumbai",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Ahmedabad",
+      "capacity": 40,
+      "length": 1162.64,
+      "up": true
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Jaipur",
+      "capacity": 40,
+      "length": 353.52,
+      "up": true
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 2177.2,
+      "up": true
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kanpur",
+      "capacity": 40,
+      "length": 587.51,
+      "up": true
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkata",
+      "capacity": 40,
+      "length": 1631.2,
+      "up": true
+    },
+    {
+      "origin": "Guwahati",
+      "destination": "Kolkata",
+      "capacity": 40,
+      "length": 792.51,
+      "up": true
+    },
+    {
+      "origin": "Gorakhpur",
+      "destination": "Kanpur",
+      "capacity": 40,
+      "length": 848.61,
+      "up": true
+    },
+    {
+      "origin": "Kanpur",
+      "destination": "New Delhi",
+      "capacity": 40,
+      "length": 587.51,
+      "up": true
+    },
+    {
+      "origin": "Kanpur",
+      "destination": "Gorakhpur",
+      "capacity": 40,
+      "length": 848.61,
+      "up": true
+    },
+    {
+      "origin": "Kanpur",
+      "destination": "Allahabad",
+      "capacity": 40,
+      "length": 282.03,
+      "up": true
+    },
+    {
+      "origin": "Allahabad",
+      "destination": "Kanpur",
+      "capacity": 40,
+      "length": 282.03,
+      "up": true
+    },
+    {
+      "origin": "Kolkata",
+      "destination": "New Delhi",
+      "capacity": 40,
+      "length": 1631.2,
+      "up": true
+    },
+    {
+      "origin": "Kolkata",
+      "destination": "Guwahati",
+      "capacity": 40,
+      "length": 792.51,
+      "up": true
+    },
+    {
+      "origin": "Kolkata",
+      "destination": "Bhubaneshwar",
+      "capacity": 40,
+      "length": 554.87,
+      "up": true
+    },
+    {
+      "origin": "Kolkata",
+      "destination": "Hyderabad",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Bhubaneshwar",
+      "destination": "Kolkata",
+      "capacity": 40,
+      "length": 554.87,
+      "up": true
+    },
+    {
+      "origin": "Hyderabad",
+      "destination": "George Town",
+      "capacity": 40,
+      "length": 772.52,
+      "up": true
+    },
+    {
+      "origin": "Hyderabad",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 747.12,
+      "up": true
+    },
+    {
+      "origin": "Hyderabad",
+      "destination": "Kolkata",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# topology: NOBELUS (real topology #90) (data/topologies/real/top90_nobelus.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Quinta del Cedro,Youngwood,3
+1,Tecumseh,Louisville,7
+2,Alvin,Owego,2
+3,Romulus,Louisville,2
+4,Louisville,Philo,1
+5,La Plata,Quinta del Cedro,7
+6,Midway,Tecumseh,8
+7,Vista Center,Owego,2
+8,Romulus,Auburn,2
+9,Philo,Saratoga,1
+10,Youngwood,Saratoga,3
+11,Romulus,Philo,8
+12,Hampton,Tecumseh,1
+13,Romulus,Youngwood,7
+14,Alvin,Midway,5
+15,Midway,Owego,2
+16,Youngwood,Romulus,4
+17,Auburn,Tecumseh,1
+18,Auburn,Quinta del Cedro,8
+19,Tecumseh,Hampton,7
+20,Quinta del Cedro,Owego,4
+21,Midway,Alvin,4
+22,Auburn,Owego,2
+23,Midway,Quinta del Cedro,2
+24,Midway,Vista Center,2
+25,Louisville,Saratoga,7
+26,Hampton,Louisville,7
+27,Tecumseh,Romulus,8

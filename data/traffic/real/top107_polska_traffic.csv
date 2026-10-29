@@ -1,0 +1,27 @@
+# topology: POLSKA (real topology #107) (data/topologies/real/top107_polska.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Legowo,Plewiska,7
+1,Piekary,Przeclaw,1
+2,Piekary,Legowo,7
+3,Legowo,Przeclaw,8
+4,Mielno,Bialystok,5
+5,Ksawerow,Ochota,3
+6,Zabrze,Legowo,7
+7,Ochota,Zabrze,7
+8,Bialystok,Niechobrz,5
+9,Biale Blota,Bialystok,6
+10,Piekary,Biale Blota,4
+11,Mielno,Zabrze,8
+12,Plewiska,Niechobrz,5
+13,Niechobrz,Smolec,6
+14,Smolec,Bialystok,2
+15,Plewiska,Ochota,5
+16,Smolec,Legowo,7
+17,Mielno,Przeclaw,2
+18,Mielno,Plewiska,6
+19,Ochota,Mielno,8
+20,Piekary,Zabrze,6
+21,Niechobrz,Ksawerow,7
+22,Legowo,Ksawerow,8
+23,Zabrze,Plewiska,8

@@ -1,0 +1,1542 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "JPN48 (real topology #35)",
+  "description": "Real-world topology JPN48 (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Sapporo",
+      "lat": 43.075,
+      "lon": 141.34,
+      "x": 15733896.828721287,
+      "y": 5323394.58801964,
+      "up": true
+    },
+    {
+      "name": "Aomori",
+      "lat": 40.82,
+      "lon": 140.73,
+      "x": 15665991.93933739,
+      "y": 4985827.848782247,
+      "up": true
+    },
+    {
+      "name": "Morioka",
+      "lat": 39.7,
+      "lon": 141.149,
+      "x": 15712634.805979773,
+      "y": 4822442.387442776,
+      "up": true
+    },
+    {
+      "name": "Sendai",
+      "lat": 38.27,
+      "lon": 140.85,
+      "x": 15679350.278232582,
+      "y": 4617638.286128266,
+      "up": true
+    },
+    {
+      "name": "Akita",
+      "lat": 39.72,
+      "lon": 140.09,
+      "x": 15594747.465229696,
+      "y": 4825336.478702346,
+      "up": true
+    },
+    {
+      "name": "Yamagata",
+      "lat": 38.26,
+      "lon": 140.34,
+      "x": 15622577.337928012,
+      "y": 4616220.483072264,
+      "up": true
+    },
+    {
+      "name": "Fukushima",
+      "lat": 37.77,
+      "lon": 140.46,
+      "x": 15635935.676823208,
+      "y": 4546985.28443041,
+      "up": true
+    },
+    {
+      "name": "Mito",
+      "lat": 36.37,
+      "lon": 140.47,
+      "x": 15637048.871731138,
+      "y": 4351652.965578021,
+      "up": true
+    },
+    {
+      "name": "Utsunomiya",
+      "lat": 36.57,
+      "lon": 139.88,
+      "x": 15571370.372163108,
+      "y": 4379338.618708245,
+      "up": true
+    },
+    {
+      "name": "Maebashi",
+      "lat": 36.4,
+      "lon": 139.06,
+      "x": 15480088.389712622,
+      "y": 4355801.264971882,
+      "up": true
+    },
+    {
+      "name": "Omiya",
+      "lat": 35.9,
+      "lon": 139.63,
+      "x": 15543540.499464788,
+      "y": 4286870.23604428,
+      "up": true
+    },
+    {
+      "name": "Chiba",
+      "lat": 35.6,
+      "lon": 140.16,
+      "x": 15602539.829585224,
+      "y": 4245720.660441586,
+      "up": true
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.68,
+      "lon": 139.77,
+      "x": 15559125.228175847,
+      "y": 4256678.731903622,
+      "up": true
+    },
+    {
+      "name": "Hachioji",
+      "lat": 35.66,
+      "lon": 139.28,
+      "x": 15504578.677687144,
+      "y": 4253938.185248514,
+      "up": true
+    },
+    {
+      "name": "Yokohama",
+      "lat": 35.458,
+      "lon": 139.64,
+      "x": 15544653.694372721,
+      "y": 4226297.020267405,
+      "up": true
+    },
+    {
+      "name": "Niigata",
+      "lat": 37.92,
+      "lon": 139.05,
+      "x": 15478975.19480469,
+      "y": 4568130.651996282,
+      "up": true
+    },
+    {
+      "name": "Toyama",
+      "lat": 36.71,
+      "lon": 137.209,
+      "x": 15274036.012254274,
+      "y": 4398761.246766094,
+      "up": true
+    },
+    {
+      "name": "Kanazawa",
+      "lat": 36.58,
+      "lon": 136.65,
+      "x": 15211808.416900832,
+      "y": 4380724.779869891,
+      "up": true
+    },
+    {
+      "name": "Fukui",
+      "lat": 36.07,
+      "lon": 136.22,
+      "x": 15163941.035859726,
+      "y": 4310257.543845529,
+      "up": true
+    },
+    {
+      "name": "Kofu",
+      "lat": 35.67,
+      "lon": 138.56,
+      "x": 15424428.644315986,
+      "y": 4255308.372744811,
+      "up": true
+    },
+    {
+      "name": "Nagano",
+      "lat": 36.66,
+      "lon": 138.19,
+      "x": 15383240.432722475,
+      "y": 4391820.540578916,
+      "up": true
+    },
+    {
+      "name": "Gifu",
+      "lat": 35.45,
+      "lon": 136.76,
+      "x": 15224053.560888093,
+      "y": 4225203.7521830285,
+      "up": true
+    },
+    {
+      "name": "Shizuoka",
+      "lat": 35.013,
+      "lon": 138.4,
+      "x": 15406617.525789063,
+      "y": 4165647.9325025445,
+      "up": true
+    },
+    {
+      "name": "Nagoya",
+      "lat": 35.149,
+      "lon": 136.91,
+      "x": 15240751.484507086,
+      "y": 4184148.1296176505,
+      "up": true
+    },
+    {
+      "name": "Tsu",
+      "lat": 34.73,
+      "lon": 136.509,
+      "x": 15196112.36869898,
+      "y": 4127249.489730511,
+      "up": true
+    },
+    {
+      "name": "Otsu",
+      "lat": 35.03,
+      "lon": 135.85,
+      "x": 15122752.824266214,
+      "y": 4167958.7719500302,
+      "up": true
+    },
+    {
+      "name": "Kyoto",
+      "lat": 35.018,
+      "lon": 135.76,
+      "x": 15112734.07009482,
+      "y": 4166327.5412902753,
+      "up": true
+    },
+    {
+      "name": "Osaka",
+      "lat": 34.67,
+      "lon": 135.5,
+      "x": 15083791.002488568,
+      "y": 4119125.402329641,
+      "up": true
+    },
+    {
+      "name": "Kobe",
+      "lat": 34.69,
+      "lon": 135.18,
+      "x": 15048168.765434723,
+      "y": 4121832.7770276763,
+      "up": true
+    },
+    {
+      "name": "Nara",
+      "lat": 34.67,
+      "lon": 135.89,
+      "x": 15127205.603897944,
+      "y": 4119125.402329641,
+      "up": true
+    },
+    {
+      "name": "Wakayama",
+      "lat": 34.25,
+      "lon": 135.18,
+      "x": 15048168.765434723,
+      "y": 4062420.520415546,
+      "up": true
+    },
+    {
+      "name": "Tottori",
+      "lat": 35.51,
+      "lon": 134.22,
+      "x": 14941302.054273179,
+      "y": 4233405.914789584,
+      "up": true
+    },
+    {
+      "name": "Matsue",
+      "lat": 35.48,
+      "lon": 133.05,
+      "x": 14811058.25004505,
+      "y": 4229304.068216911,
+      "up": true
+    },
+    {
+      "name": "Okayama",
+      "lat": 34.66,
+      "lon": 133.92,
+      "x": 14907906.207035195,
+      "y": 4117771.9601113456,
+      "up": true
+    },
+    {
+      "name": "Hiroshima",
+      "lat": 34.39,
+      "lon": 132.449,
+      "x": 14744155.236078294,
+      "y": 4081290.489187261,
+      "up": true
+    },
+    {
+      "name": "Yamaguchi",
+      "lat": 34.23,
+      "lon": 131.45,
+      "x": 14632947.06477581,
+      "y": 4059727.3762872005,
+      "up": true
+    },
+    {
+      "name": "Tokushima",
+      "lat": 34.05,
+      "lon": 134.52,
+      "x": 14974697.90151116,
+      "y": 4035517.7820847426,
+      "up": true
+    },
+    {
+      "name": "Takamatsu",
+      "lat": 34.34,
+      "lon": 134.05,
+      "x": 14922377.740838323,
+      "y": 4074547.600076717,
+      "up": true
+    },
+    {
+      "name": "Matsuyama",
+      "lat": 33.84,
+      "lon": 132.75,
+      "x": 14777662.402807068,
+      "y": 4007338.115590455,
+      "up": true
+    },
+    {
+      "name": "Kochi",
+      "lat": 33.58,
+      "lon": 133.53,
+      "x": 14864491.605625821,
+      "y": 3972544.749514697,
+      "up": true
+    },
+    {
+      "name": "Hakata",
+      "lat": 33.57,
+      "lon": 130.35,
+      "x": 14510495.624903211,
+      "y": 3971208.641918791,
+      "up": true
+    },
+    {
+      "name": "Saga",
+      "lat": 33.26,
+      "lon": 130.055,
+      "x": 14477656.375119194,
+      "y": 3929865.683824254,
+      "up": true
+    },
+    {
+      "name": "Nagasaki",
+      "lat": 32.75,
+      "lon": 129.88,
+      "x": 14458175.46423037,
+      "y": 3862167.464912445,
+      "up": true
+    },
+    {
+      "name": "Kumamoto",
+      "lat": 32.81,
+      "lon": 130.7,
+      "x": 14549457.446680853,
+      "y": 3870111.711320569,
+      "up": true
+    },
+    {
+      "name": "Oita",
+      "lat": 33.25,
+      "lon": 131.6,
+      "x": 14649644.988394802,
+      "y": 3928534.4904265893,
+      "up": true
+    },
+    {
+      "name": "Miyazaki",
+      "lat": 31.91,
+      "lon": 131.42,
+      "x": 14629607.480052011,
+      "y": 3751502.5178753394,
+      "up": true
+    },
+    {
+      "name": "Kagoshima",
+      "lat": 31.6,
+      "lon": 130.559,
+      "x": 14533761.398479005,
+      "y": 3710918.1820304533,
+      "up": true
+    },
+    {
+      "name": "Naha",
+      "lat": 26.21,
+      "lon": 127.68,
+      "x": 14213272.58448517,
+      "y": 3025113.676319929,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Sapporo",
+      "destination": "Aomori",
+      "capacity": 40,
+      "length": 714.3,
+      "up": true
+    },
+    {
+      "origin": "Sapporo",
+      "destination": "Morioka",
+      "capacity": 40,
+      "length": 614.7,
+      "up": true
+    },
+    {
+      "origin": "Aomori",
+      "destination": "Sapporo",
+      "capacity": 40,
+      "length": 714.3,
+      "up": true
+    },
+    {
+      "origin": "Aomori",
+      "destination": "Morioka",
+      "capacity": 40,
+      "length": 267.6,
+      "up": true
+    },
+    {
+      "origin": "Aomori",
+      "destination": "Akita",
+      "capacity": 40,
+      "length": 272.85,
+      "up": true
+    },
+    {
+      "origin": "Morioka",
+      "destination": "Sapporo",
+      "capacity": 40,
+      "length": 614.7,
+      "up": true
+    },
+    {
+      "origin": "Morioka",
+      "destination": "Aomori",
+      "capacity": 40,
+      "length": 267.6,
+      "up": true
+    },
+    {
+      "origin": "Morioka",
+      "destination": "Akita",
+      "capacity": 40,
+      "length": 190.95,
+      "up": true
+    },
+    {
+      "origin": "Morioka",
+      "destination": "Sendai",
+      "capacity": 40,
+      "length": 275.25,
+      "up": true
+    },
+    {
+      "origin": "Sendai",
+      "destination": "Morioka",
+      "capacity": 40,
+      "length": 275.25,
+      "up": true
+    },
+    {
+      "origin": "Sendai",
+      "destination": "Yamagata",
+      "capacity": 40,
+      "length": 91.65,
+      "up": true
+    },
+    {
+      "origin": "Sendai",
+      "destination": "Fukushima",
+      "capacity": 40,
+      "length": 118.5,
+      "up": true
+    },
+    {
+      "origin": "Sendai",
+      "destination": "Mito",
+      "capacity": 40,
+      "length": 368.1,
+      "up": true
+    },
+    {
+      "origin": "Akita",
+      "destination": "Aomori",
+      "capacity": 40,
+      "length": 272.85,
+      "up": true
+    },
+    {
+      "origin": "Akita",
+      "destination": "Morioka",
+      "capacity": 40,
+      "length": 190.95,
+      "up": true
+    },
+    {
+      "origin": "Akita",
+      "destination": "Yamagata",
+      "capacity": 40,
+      "length": 317.4,
+      "up": true
+    },
+    {
+      "origin": "Akita",
+      "destination": "Niigata",
+      "capacity": 40,
+      "length": 409.5,
+      "up": true
+    },
+    {
+      "origin": "Yamagata",
+      "destination": "Akita",
+      "capacity": 40,
+      "length": 317.4,
+      "up": true
+    },
+    {
+      "origin": "Yamagata",
+      "destination": "Sendai",
+      "capacity": 40,
+      "length": 91.65,
+      "up": true
+    },
+    {
+      "origin": "Yamagata",
+      "destination": "Niigata",
+      "capacity": 40,
+      "length": 280.5,
+      "up": true
+    },
+    {
+      "origin": "Fukushima",
+      "destination": "Sendai",
+      "capacity": 40,
+      "length": 118.5,
+      "up": true
+    },
+    {
+      "origin": "Fukushima",
+      "destination": "Niigata",
+      "capacity": 40,
+      "length": 270.15,
+      "up": true
+    },
+    {
+      "origin": "Fukushima",
+      "destination": "Utsunomiya",
+      "capacity": 40,
+      "length": 244.95,
+      "up": true
+    },
+    {
+      "origin": "Mito",
+      "destination": "Sendai",
+      "capacity": 40,
+      "length": 368.1,
+      "up": true
+    },
+    {
+      "origin": "Mito",
+      "destination": "Utsunomiya",
+      "capacity": 40,
+      "length": 143.4,
+      "up": true
+    },
+    {
+      "origin": "Mito",
+      "destination": "Chiba",
+      "capacity": 40,
+      "length": 191.25,
+      "up": true
+    },
+    {
+      "origin": "Mito",
+      "destination": "Omiya",
+      "capacity": 40,
+      "length": 175.5,
+      "up": true
+    },
+    {
+      "origin": "Utsunomiya",
+      "destination": "Fukushima",
+      "capacity": 40,
+      "length": 244.95,
+      "up": true
+    },
+    {
+      "origin": "Utsunomiya",
+      "destination": "Mito",
+      "capacity": 40,
+      "length": 143.4,
+      "up": true
+    },
+    {
+      "origin": "Utsunomiya",
+      "destination": "Omiya",
+      "capacity": 40,
+      "length": 118.8,
+      "up": true
+    },
+    {
+      "origin": "Utsunomiya",
+      "destination": "Maebashi",
+      "capacity": 40,
+      "length": 159.75,
+      "up": true
+    },
+    {
+      "origin": "Maebashi",
+      "destination": "Utsunomiya",
+      "capacity": 40,
+      "length": 159.75,
+      "up": true
+    },
+    {
+      "origin": "Maebashi",
+      "destination": "Omiya",
+      "capacity": 40,
+      "length": 112.05,
+      "up": true
+    },
+    {
+      "origin": "Maebashi",
+      "destination": "Hachioji",
+      "capacity": 40,
+      "length": 144.6,
+      "up": true
+    },
+    {
+      "origin": "Maebashi",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 176.1,
+      "up": true
+    },
+    {
+      "origin": "Maebashi",
+      "destination": "Niigata",
+      "capacity": 40,
+      "length": 343.35,
+      "up": true
+    },
+    {
+      "origin": "Omiya",
+      "destination": "Mito",
+      "capacity": 40,
+      "length": 175.5,
+      "up": true
+    },
+    {
+      "origin": "Omiya",
+      "destination": "Utsunomiya",
+      "capacity": 40,
+      "length": 118.8,
+      "up": true
+    },
+    {
+      "origin": "Omiya",
+      "destination": "Chiba",
+      "capacity": 40,
+      "length": 99.15,
+      "up": true
+    },
+    {
+      "origin": "Omiya",
+      "destination": "Maebashi",
+      "capacity": 40,
+      "length": 112.05,
+      "up": true
+    },
+    {
+      "origin": "Omiya",
+      "destination": "Tokyo",
+      "capacity": 40,
+      "length": 45.45,
+      "up": true
+    },
+    {
+      "origin": "Chiba",
+      "destination": "Mito",
+      "capacity": 40,
+      "length": 191.25,
+      "up": true
+    },
+    {
+      "origin": "Chiba",
+      "destination": "Omiya",
+      "capacity": 40,
+      "length": 99.15,
+      "up": true
+    },
+    {
+      "origin": "Chiba",
+      "destination": "Tokyo",
+      "capacity": 40,
+      "length": 58.8,
+      "up": true
+    },
+    {
+      "origin": "Tokyo",
+      "destination": "Chiba",
+      "capacity": 40,
+      "length": 58.8,
+      "up": true
+    },
+    {
+      "origin": "Tokyo",
+      "destination": "Omiya",
+      "capacity": 40,
+      "length": 45.45,
+      "up": true
+    },
+    {
+      "origin": "Tokyo",
+      "destination": "Yokohama",
+      "capacity": 40,
+      "length": 43.2,
+      "up": true
+    },
+    {
+      "origin": "Tokyo",
+      "destination": "Hachioji",
+      "capacity": 40,
+      "length": 71.1,
+      "up": true
+    },
+    {
+      "origin": "Hachioji",
+      "destination": "Tokyo",
+      "capacity": 40,
+      "length": 71.1,
+      "up": true
+    },
+    {
+      "origin": "Hachioji",
+      "destination": "Yokohama",
+      "capacity": 40,
+      "length": 54.75,
+      "up": true
+    },
+    {
+      "origin": "Hachioji",
+      "destination": "Maebashi",
+      "capacity": 40,
+      "length": 144.6,
+      "up": true
+    },
+    {
+      "origin": "Hachioji",
+      "destination": "Kofu",
+      "capacity": 40,
+      "length": 130.05,
+      "up": true
+    },
+    {
+      "origin": "Yokohama",
+      "destination": "Tokyo",
+      "capacity": 40,
+      "length": 43.2,
+      "up": true
+    },
+    {
+      "origin": "Yokohama",
+      "destination": "Hachioji",
+      "capacity": 40,
+      "length": 54.75,
+      "up": true
+    },
+    {
+      "origin": "Yokohama",
+      "destination": "Shizuoka",
+      "capacity": 40,
+      "length": 227.1,
+      "up": true
+    },
+    {
+      "origin": "Niigata",
+      "destination": "Akita",
+      "capacity": 40,
+      "length": 409.5,
+      "up": true
+    },
+    {
+      "origin": "Niigata",
+      "destination": "Yamagata",
+      "capacity": 40,
+      "length": 280.5,
+      "up": true
+    },
+    {
+      "origin": "Niigata",
+      "destination": "Fukushima",
+      "capacity": 40,
+      "length": 270.15,
+      "up": true
+    },
+    {
+      "origin": "Niigata",
+      "destination": "Maebashi",
+      "capacity": 40,
+      "length": 343.35,
+      "up": true
+    },
+    {
+      "origin": "Niigata",
+      "destination": "Toyama",
+      "capacity": 40,
+      "length": 381.15,
+      "up": true
+    },
+    {
+      "origin": "Niigata",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 316.95,
+      "up": true
+    },
+    {
+      "origin": "Toyama",
+      "destination": "Niigata",
+      "capacity": 40,
+      "length": 381.15,
+      "up": true
+    },
+    {
+      "origin": "Toyama",
+      "destination": "Kanazawa",
+      "capacity": 40,
+      "length": 89.1,
+      "up": true
+    },
+    {
+      "origin": "Toyama",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 289.2,
+      "up": true
+    },
+    {
+      "origin": "Kanazawa",
+      "destination": "Toyama",
+      "capacity": 40,
+      "length": 89.1,
+      "up": true
+    },
+    {
+      "origin": "Kanazawa",
+      "destination": "Fukui",
+      "capacity": 40,
+      "length": 115.05,
+      "up": true
+    },
+    {
+      "origin": "Fukui",
+      "destination": "Kanazawa",
+      "capacity": 40,
+      "length": 115.05,
+      "up": true
+    },
+    {
+      "origin": "Fukui",
+      "destination": "Kyoto",
+      "capacity": 40,
+      "length": 222.15,
+      "up": true
+    },
+    {
+      "origin": "Kofu",
+      "destination": "Hachioji",
+      "capacity": 40,
+      "length": 130.05,
+      "up": true
+    },
+    {
+      "origin": "Kofu",
+      "destination": "Shizuoka",
+      "capacity": 40,
+      "length": 183.6,
+      "up": true
+    },
+    {
+      "origin": "Kofu",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 246.0,
+      "up": true
+    },
+    {
+      "origin": "Kofu",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 394.2,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Maebashi",
+      "capacity": 40,
+      "length": 176.1,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Niigata",
+      "capacity": 40,
+      "length": 316.95,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Kofu",
+      "capacity": 40,
+      "length": 246.0,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Toyama",
+      "capacity": 40,
+      "length": 289.2,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 376.2,
+      "up": true
+    },
+    {
+      "origin": "Gifu",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 45.45,
+      "up": true
+    },
+    {
+      "origin": "Gifu",
+      "destination": "Otsu",
+      "capacity": 40,
+      "length": 160.95,
+      "up": true
+    },
+    {
+      "origin": "Shizuoka",
+      "destination": "Yokohama",
+      "capacity": 40,
+      "length": 227.1,
+      "up": true
+    },
+    {
+      "origin": "Shizuoka",
+      "destination": "Kofu",
+      "capacity": 40,
+      "length": 183.6,
+      "up": true
+    },
+    {
+      "origin": "Shizuoka",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 278.7,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 376.2,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Kofu",
+      "capacity": 40,
+      "length": 394.2,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Shizuoka",
+      "capacity": 40,
+      "length": 278.7,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Gifu",
+      "capacity": 40,
+      "length": 45.45,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Tsu",
+      "capacity": 40,
+      "length": 99.75,
+      "up": true
+    },
+    {
+      "origin": "Tsu",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 99.75,
+      "up": true
+    },
+    {
+      "origin": "Tsu",
+      "destination": "Otsu",
+      "capacity": 40,
+      "length": 126.6,
+      "up": true
+    },
+    {
+      "origin": "Tsu",
+      "destination": "Wakayama",
+      "capacity": 40,
+      "length": 548.1,
+      "up": true
+    },
+    {
+      "origin": "Tsu",
+      "destination": "Nara",
+      "capacity": 40,
+      "length": 134.25,
+      "up": true
+    },
+    {
+      "origin": "Otsu",
+      "destination": "Gifu",
+      "capacity": 40,
+      "length": 160.95,
+      "up": true
+    },
+    {
+      "origin": "Otsu",
+      "destination": "Tsu",
+      "capacity": 40,
+      "length": 126.6,
+      "up": true
+    },
+    {
+      "origin": "Otsu",
+      "destination": "Kyoto",
+      "capacity": 40,
+      "length": 15.0,
+      "up": true
+    },
+    {
+      "origin": "Kyoto",
+      "destination": "Fukui",
+      "capacity": 40,
+      "length": 222.15,
+      "up": true
+    },
+    {
+      "origin": "Kyoto",
+      "destination": "Otsu",
+      "capacity": 40,
+      "length": 15.0,
+      "up": true
+    },
+    {
+      "origin": "Kyoto",
+      "destination": "Nara",
+      "capacity": 40,
+      "length": 62.55,
+      "up": true
+    },
+    {
+      "origin": "Kyoto",
+      "destination": "Osaka",
+      "capacity": 40,
+      "length": 58.5,
+      "up": true
+    },
+    {
+      "origin": "Kyoto",
+      "destination": "Tottori",
+      "capacity": 40,
+      "length": 380.25,
+      "up": true
+    },
+    {
+      "origin": "Kyoto",
+      "destination": "Kobe",
+      "capacity": 40,
+      "length": 116.1,
+      "up": true
+    },
+    {
+      "origin": "Osaka",
+      "destination": "Nara",
+      "capacity": 40,
+      "length": 78.0,
+      "up": true
+    },
+    {
+      "origin": "Osaka",
+      "destination": "Kyoto",
+      "capacity": 40,
+      "length": 58.5,
+      "up": true
+    },
+    {
+      "origin": "Osaka",
+      "destination": "Kobe",
+      "capacity": 40,
+      "length": 55.35,
+      "up": true
+    },
+    {
+      "origin": "Osaka",
+      "destination": "Wakayama",
+      "capacity": 40,
+      "length": 114.15,
+      "up": true
+    },
+    {
+      "origin": "Kobe",
+      "destination": "Kyoto",
+      "capacity": 40,
+      "length": 116.1,
+      "up": true
+    },
+    {
+      "origin": "Kobe",
+      "destination": "Osaka",
+      "capacity": 40,
+      "length": 55.35,
+      "up": true
+    },
+    {
+      "origin": "Kobe",
+      "destination": "Okayama",
+      "capacity": 40,
+      "length": 215.1,
+      "up": true
+    },
+    {
+      "origin": "Nara",
+      "destination": "Tsu",
+      "capacity": 40,
+      "length": 134.25,
+      "up": true
+    },
+    {
+      "origin": "Nara",
+      "destination": "Kyoto",
+      "capacity": 40,
+      "length": 62.55,
+      "up": true
+    },
+    {
+      "origin": "Nara",
+      "destination": "Osaka",
+      "capacity": 40,
+      "length": 78.0,
+      "up": true
+    },
+    {
+      "origin": "Wakayama",
+      "destination": "Tsu",
+      "capacity": 40,
+      "length": 548.1,
+      "up": true
+    },
+    {
+      "origin": "Wakayama",
+      "destination": "Osaka",
+      "capacity": 40,
+      "length": 114.15,
+      "up": true
+    },
+    {
+      "origin": "Wakayama",
+      "destination": "Tokushima",
+      "capacity": 40,
+      "length": 98.7,
+      "up": true
+    },
+    {
+      "origin": "Tottori",
+      "destination": "Kyoto",
+      "capacity": 40,
+      "length": 380.25,
+      "up": true
+    },
+    {
+      "origin": "Tottori",
+      "destination": "Okayama",
+      "capacity": 40,
+      "length": 212.7,
+      "up": true
+    },
+    {
+      "origin": "Tottori",
+      "destination": "Matsue",
+      "capacity": 40,
+      "length": 182.4,
+      "up": true
+    },
+    {
+      "origin": "Matsue",
+      "destination": "Tottori",
+      "capacity": 40,
+      "length": 182.4,
+      "up": true
+    },
+    {
+      "origin": "Matsue",
+      "destination": "Yamaguchi",
+      "capacity": 40,
+      "length": 384.75,
+      "up": true
+    },
+    {
+      "origin": "Okayama",
+      "destination": "Kobe",
+      "capacity": 40,
+      "length": 215.1,
+      "up": true
+    },
+    {
+      "origin": "Okayama",
+      "destination": "Takamatsu",
+      "capacity": 40,
+      "length": 107.7,
+      "up": true
+    },
+    {
+      "origin": "Okayama",
+      "destination": "Tottori",
+      "capacity": 40,
+      "length": 212.7,
+      "up": true
+    },
+    {
+      "origin": "Okayama",
+      "destination": "Hiroshima",
+      "capacity": 40,
+      "length": 241.95,
+      "up": true
+    },
+    {
+      "origin": "Hiroshima",
+      "destination": "Okayama",
+      "capacity": 40,
+      "length": 241.95,
+      "up": true
+    },
+    {
+      "origin": "Hiroshima",
+      "destination": "Yamaguchi",
+      "capacity": 40,
+      "length": 199.2,
+      "up": true
+    },
+    {
+      "origin": "Hiroshima",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 99.3,
+      "up": true
+    },
+    {
+      "origin": "Yamaguchi",
+      "destination": "Matsue",
+      "capacity": 40,
+      "length": 384.75,
+      "up": true
+    },
+    {
+      "origin": "Yamaguchi",
+      "destination": "Hiroshima",
+      "capacity": 40,
+      "length": 199.2,
+      "up": true
+    },
+    {
+      "origin": "Yamaguchi",
+      "destination": "Hakata",
+      "capacity": 40,
+      "length": 221.85,
+      "up": true
+    },
+    {
+      "origin": "Tokushima",
+      "destination": "Takamatsu",
+      "capacity": 40,
+      "length": 111.75,
+      "up": true
+    },
+    {
+      "origin": "Tokushima",
+      "destination": "Wakayama",
+      "capacity": 40,
+      "length": 98.7,
+      "up": true
+    },
+    {
+      "origin": "Tokushima",
+      "destination": "Kochi",
+      "capacity": 40,
+      "length": 235.05,
+      "up": true
+    },
+    {
+      "origin": "Takamatsu",
+      "destination": "Tokushima",
+      "capacity": 40,
+      "length": 111.75,
+      "up": true
+    },
+    {
+      "origin": "Takamatsu",
+      "destination": "Okayama",
+      "capacity": 40,
+      "length": 107.7,
+      "up": true
+    },
+    {
+      "origin": "Takamatsu",
+      "destination": "Kochi",
+      "capacity": 40,
+      "length": 238.95,
+      "up": true
+    },
+    {
+      "origin": "Takamatsu",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 291.6,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Takamatsu",
+      "capacity": 40,
+      "length": 291.6,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Kochi",
+      "capacity": 40,
+      "length": 376.8,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Hiroshima",
+      "capacity": 40,
+      "length": 99.3,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Oita",
+      "capacity": 40,
+      "length": 249.75,
+      "up": true
+    },
+    {
+      "origin": "Kochi",
+      "destination": "Tokushima",
+      "capacity": 40,
+      "length": 235.05,
+      "up": true
+    },
+    {
+      "origin": "Kochi",
+      "destination": "Takamatsu",
+      "capacity": 40,
+      "length": 238.95,
+      "up": true
+    },
+    {
+      "origin": "Kochi",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 376.8,
+      "up": true
+    },
+    {
+      "origin": "Hakata",
+      "destination": "Yamaguchi",
+      "capacity": 40,
+      "length": 221.85,
+      "up": true
+    },
+    {
+      "origin": "Hakata",
+      "destination": "Oita",
+      "capacity": 40,
+      "length": 297.75,
+      "up": true
+    },
+    {
+      "origin": "Hakata",
+      "destination": "Saga",
+      "capacity": 40,
+      "length": 80.4,
+      "up": true
+    },
+    {
+      "origin": "Hakata",
+      "destination": "Kumamoto",
+      "capacity": 40,
+      "length": 177.6,
+      "up": true
+    },
+    {
+      "origin": "Saga",
+      "destination": "Hakata",
+      "capacity": 40,
+      "length": 80.4,
+      "up": true
+    },
+    {
+      "origin": "Saga",
+      "destination": "Nagasaki",
+      "capacity": 40,
+      "length": 150.45,
+      "up": true
+    },
+    {
+      "origin": "Nagasaki",
+      "destination": "Saga",
+      "capacity": 40,
+      "length": 150.45,
+      "up": true
+    },
+    {
+      "origin": "Nagasaki",
+      "destination": "Naha",
+      "capacity": 40,
+      "length": 1137.0,
+      "up": true
+    },
+    {
+      "origin": "Kumamoto",
+      "destination": "Hakata",
+      "capacity": 40,
+      "length": 177.6,
+      "up": true
+    },
+    {
+      "origin": "Kumamoto",
+      "destination": "Oita",
+      "capacity": 40,
+      "length": 222.0,
+      "up": true
+    },
+    {
+      "origin": "Kumamoto",
+      "destination": "Kagoshima",
+      "capacity": 40,
+      "length": 255.75,
+      "up": true
+    },
+    {
+      "origin": "Oita",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 249.75,
+      "up": true
+    },
+    {
+      "origin": "Oita",
+      "destination": "Hakata",
+      "capacity": 40,
+      "length": 297.75,
+      "up": true
+    },
+    {
+      "origin": "Oita",
+      "destination": "Kumamoto",
+      "capacity": 40,
+      "length": 222.0,
+      "up": true
+    },
+    {
+      "origin": "Oita",
+      "destination": "Miyazaki",
+      "capacity": 40,
+      "length": 310.5,
+      "up": true
+    },
+    {
+      "origin": "Miyazaki",
+      "destination": "Oita",
+      "capacity": 40,
+      "length": 310.5,
+      "up": true
+    },
+    {
+      "origin": "Miyazaki",
+      "destination": "Kagoshima",
+      "capacity": 40,
+      "length": 188.85,
+      "up": true
+    },
+    {
+      "origin": "Kagoshima",
+      "destination": "Kumamoto",
+      "capacity": 40,
+      "length": 255.75,
+      "up": true
+    },
+    {
+      "origin": "Kagoshima",
+      "destination": "Miyazaki",
+      "capacity": 40,
+      "length": 188.85,
+      "up": true
+    },
+    {
+      "origin": "Kagoshima",
+      "destination": "Naha",
+      "capacity": 40,
+      "length": 1010.55,
+      "up": true
+    },
+    {
+      "origin": "Naha",
+      "destination": "Nagasaki",
+      "capacity": 40,
+      "length": 1137.0,
+      "up": true
+    },
+    {
+      "origin": "Naha",
+      "destination": "Kagoshima",
+      "capacity": 40,
+      "length": 1010.55,
+      "up": true
+    }
+  ]
+}

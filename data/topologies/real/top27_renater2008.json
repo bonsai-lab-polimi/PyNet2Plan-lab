@@ -1,0 +1,694 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "RENATER2008 (real topology #27)",
+  "description": "Real-world topology RENATER2008 (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Bordeaux",
+      "lat": 44.83,
+      "lon": -0.57,
+      "x": -63452.109752165925,
+      "y": 5594798.051730436,
+      "up": true
+    },
+    {
+      "name": "Pau",
+      "lat": 43.3,
+      "lon": -0.37,
+      "x": -41188.21159351122,
+      "y": 5357746.958178199,
+      "up": true
+    },
+    {
+      "name": "Orleans",
+      "lat": 47.92,
+      "lon": 1.9,
+      "x": 211507.03250721976,
+      "y": 6093555.989730211,
+      "up": true
+    },
+    {
+      "name": "Limoges",
+      "lat": 45.83,
+      "lon": 1.26,
+      "x": 140262.55839952469,
+      "y": 5753148.326952324,
+      "up": true
+    },
+    {
+      "name": "Clermont-Ferrand",
+      "lat": 45.78,
+      "lon": 3.08,
+      "x": 342864.0316432826,
+      "y": 5745163.88451102,
+      "up": true
+    },
+    {
+      "name": "Dijon",
+      "lat": 47.32,
+      "lon": 5.02,
+      "x": 558823.8437822333,
+      "y": 5994463.533460369,
+      "up": true
+    },
+    {
+      "name": "Toulouse",
+      "lat": 43.6,
+      "lon": 1.44,
+      "x": 160300.06674231394,
+      "y": 5403748.491529243,
+      "up": true
+    },
+    {
+      "name": "Montpellier",
+      "lat": 43.6,
+      "lon": 3.88,
+      "x": 431919.6242779014,
+      "y": 5403748.491529243,
+      "up": true
+    },
+    {
+      "name": "Besancon",
+      "lat": 47.25,
+      "lon": 6.03,
+      "x": 671256.5294834396,
+      "y": 5982976.332951714,
+      "up": true
+    },
+    {
+      "name": "Vinon-sur-Verdon",
+      "lat": 43.7,
+      "lon": 5.75,
+      "x": 640087.0720613231,
+      "y": 5419133.259362271,
+      "up": true
+    },
+    {
+      "name": "Marseille 04",
+      "lat": 43.3,
+      "lon": 5.4,
+      "x": 601125.2502836774,
+      "y": 5357746.958178199,
+      "up": true
+    },
+    {
+      "name": "Nice",
+      "lat": 43.7,
+      "lon": 7.27,
+      "x": 809292.6980670987,
+      "y": 5419133.259362271,
+      "up": true
+    },
+    {
+      "name": "Grenoble",
+      "lat": 45.17,
+      "lon": 5.72,
+      "x": 636747.4873375248,
+      "y": 5648324.32877549,
+      "up": true
+    },
+    {
+      "name": "Lyon",
+      "lat": 45.75,
+      "lon": 4.85,
+      "x": 539899.5303473768,
+      "y": 5740376.655556497,
+      "up": true
+    },
+    {
+      "name": "Paris",
+      "lat": 48.85,
+      "lon": 2.35,
+      "x": 261600.8033641929,
+      "y": 6249447.752791281,
+      "up": true
+    },
+    {
+      "name": "Corte",
+      "lat": 42.3,
+      "lon": 9.15,
+      "x": 1018573.3407584531,
+      "y": 5206024.46129235,
+      "up": true
+    },
+    {
+      "name": "Nantes",
+      "lat": 47.22,
+      "lon": -1.55,
+      "x": -172545.21072957403,
+      "y": 5978057.894895317,
+      "up": true
+    },
+    {
+      "name": "Poitiers",
+      "lat": 46.58,
+      "lon": 0.33,
+      "x": 36735.431961780276,
+      "y": 5873786.820537569,
+      "up": true
+    },
+    {
+      "name": "Strasbourg",
+      "lat": 48.58,
+      "lon": 7.75,
+      "x": 862726.0536478701,
+      "y": 6203894.3482726915,
+      "up": true
+    },
+    {
+      "name": "Jarville-la-Malgrange",
+      "lat": 48.68,
+      "lon": 6.2,
+      "x": 690180.8429182961,
+      "y": 6220737.492200502,
+      "up": true
+    },
+    {
+      "name": "Reims",
+      "lat": 49.25,
+      "lon": 4.03,
+      "x": 448617.54789689253,
+      "y": 6317388.117930809,
+      "up": true
+    },
+    {
+      "name": "Compiegne",
+      "lat": 49.42,
+      "lon": 2.83,
+      "x": 315034.15894496423,
+      "y": 6346429.428507236,
+      "up": true
+    },
+    {
+      "name": "Lille",
+      "lat": 50.63,
+      "lon": 3.07,
+      "x": 341750.83673534985,
+      "y": 6556104.141366613,
+      "up": true
+    },
+    {
+      "name": "Rouen",
+      "lat": 49.44,
+      "lon": 1.1,
+      "x": 122451.43987260094,
+      "y": 6349852.660439515,
+      "up": true
+    },
+    {
+      "name": "Caen",
+      "lat": 49.19,
+      "lon": -0.36,
+      "x": -40075.016685578485,
+      "y": 6307162.127096292,
+      "up": true
+    },
+    {
+      "name": "Rennes",
+      "lat": 48.08,
+      "lon": -1.68,
+      "x": -187016.7445326996,
+      "y": 6120174.318680871,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Bordeaux",
+      "destination": "Poitiers",
+      "capacity": 40,
+      "length": 310.14,
+      "up": true
+    },
+    {
+      "origin": "Bordeaux",
+      "destination": "Pau",
+      "capacity": 40,
+      "length": 256.32,
+      "up": true
+    },
+    {
+      "origin": "Bordeaux",
+      "destination": "Toulouse",
+      "capacity": 40,
+      "length": 315.93,
+      "up": true
+    },
+    {
+      "origin": "Pau",
+      "destination": "Bordeaux",
+      "capacity": 40,
+      "length": 256.32,
+      "up": true
+    },
+    {
+      "origin": "Pau",
+      "destination": "Toulouse",
+      "capacity": 40,
+      "length": 224.8,
+      "up": true
+    },
+    {
+      "origin": "Orleans",
+      "destination": "Poitiers",
+      "capacity": 40,
+      "length": 285.56,
+      "up": true
+    },
+    {
+      "origin": "Orleans",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 162.93,
+      "up": true
+    },
+    {
+      "origin": "Limoges",
+      "destination": "Poitiers",
+      "capacity": 40,
+      "length": 164.84,
+      "up": true
+    },
+    {
+      "origin": "Limoges",
+      "destination": "Clermont-Ferrand",
+      "capacity": 40,
+      "length": 211.77,
+      "up": true
+    },
+    {
+      "origin": "Clermont-Ferrand",
+      "destination": "Limoges",
+      "capacity": 40,
+      "length": 211.77,
+      "up": true
+    },
+    {
+      "origin": "Clermont-Ferrand",
+      "destination": "Lyon",
+      "capacity": 40,
+      "length": 206.0,
+      "up": true
+    },
+    {
+      "origin": "Dijon",
+      "destination": "Besancon",
+      "capacity": 40,
+      "length": 114.87,
+      "up": true
+    },
+    {
+      "origin": "Dijon",
+      "destination": "Lyon",
+      "capacity": 40,
+      "length": 262.59,
+      "up": true
+    },
+    {
+      "origin": "Toulouse",
+      "destination": "Bordeaux",
+      "capacity": 40,
+      "length": 315.93,
+      "up": true
+    },
+    {
+      "origin": "Toulouse",
+      "destination": "Pau",
+      "capacity": 40,
+      "length": 224.8,
+      "up": true
+    },
+    {
+      "origin": "Toulouse",
+      "destination": "Montpellier",
+      "capacity": 40,
+      "length": 294.71,
+      "up": true
+    },
+    {
+      "origin": "Montpellier",
+      "destination": "Toulouse",
+      "capacity": 40,
+      "length": 294.71,
+      "up": true
+    },
+    {
+      "origin": "Montpellier",
+      "destination": "Marseille 04",
+      "capacity": 40,
+      "length": 190.73,
+      "up": true
+    },
+    {
+      "origin": "Montpellier",
+      "destination": "Lyon",
+      "capacity": 40,
+      "length": 376.6,
+      "up": true
+    },
+    {
+      "origin": "Besancon",
+      "destination": "Dijon",
+      "capacity": 40,
+      "length": 114.87,
+      "up": true
+    },
+    {
+      "origin": "Besancon",
+      "destination": "Strasbourg",
+      "capacity": 40,
+      "length": 293.55,
+      "up": true
+    },
+    {
+      "origin": "Besancon",
+      "destination": "Lyon",
+      "capacity": 40,
+      "length": 284.51,
+      "up": true
+    },
+    {
+      "origin": "Vinon-sur-Verdon",
+      "destination": "Marseille 04",
+      "capacity": 40,
+      "length": 79.02,
+      "up": true
+    },
+    {
+      "origin": "Marseille 04",
+      "destination": "Montpellier",
+      "capacity": 40,
+      "length": 190.73,
+      "up": true
+    },
+    {
+      "origin": "Marseille 04",
+      "destination": "Vinon-sur-Verdon",
+      "capacity": 40,
+      "length": 79.02,
+      "up": true
+    },
+    {
+      "origin": "Marseille 04",
+      "destination": "Nice",
+      "capacity": 40,
+      "length": 235.87,
+      "up": true
+    },
+    {
+      "origin": "Marseille 04",
+      "destination": "Corte",
+      "capacity": 40,
+      "length": 488.24,
+      "up": true
+    },
+    {
+      "origin": "Nice",
+      "destination": "Marseille 04",
+      "capacity": 40,
+      "length": 235.87,
+      "up": true
+    },
+    {
+      "origin": "Nice",
+      "destination": "Grenoble",
+      "capacity": 40,
+      "length": 306.9,
+      "up": true
+    },
+    {
+      "origin": "Grenoble",
+      "destination": "Nice",
+      "capacity": 40,
+      "length": 306.9,
+      "up": true
+    },
+    {
+      "origin": "Grenoble",
+      "destination": "Lyon",
+      "capacity": 40,
+      "length": 140.42,
+      "up": true
+    },
+    {
+      "origin": "Lyon",
+      "destination": "Clermont-Ferrand",
+      "capacity": 40,
+      "length": 206.0,
+      "up": true
+    },
+    {
+      "origin": "Lyon",
+      "destination": "Dijon",
+      "capacity": 40,
+      "length": 262.59,
+      "up": true
+    },
+    {
+      "origin": "Lyon",
+      "destination": "Montpellier",
+      "capacity": 40,
+      "length": 376.6,
+      "up": true
+    },
+    {
+      "origin": "Lyon",
+      "destination": "Besancon",
+      "capacity": 40,
+      "length": 284.51,
+      "up": true
+    },
+    {
+      "origin": "Lyon",
+      "destination": "Grenoble",
+      "capacity": 40,
+      "length": 140.42,
+      "up": true
+    },
+    {
+      "origin": "Lyon",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 589.25,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Orleans",
+      "capacity": 40,
+      "length": 162.93,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Lyon",
+      "capacity": 40,
+      "length": 589.25,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Poitiers",
+      "capacity": 40,
+      "length": 441.25,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Reims",
+      "capacity": 40,
+      "length": 195.39,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Compiegne",
+      "capacity": 40,
+      "length": 108.55,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Lille",
+      "capacity": 40,
+      "length": 306.86,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Rouen",
+      "capacity": 40,
+      "length": 168.18,
+      "up": true
+    },
+    {
+      "origin": "Corte",
+      "destination": "Marseille 04",
+      "capacity": 40,
+      "length": 488.24,
+      "up": true
+    },
+    {
+      "origin": "Nantes",
+      "destination": "Poitiers",
+      "capacity": 40,
+      "length": 239.36,
+      "up": true
+    },
+    {
+      "origin": "Nantes",
+      "destination": "Rennes",
+      "capacity": 40,
+      "length": 144.18,
+      "up": true
+    },
+    {
+      "origin": "Poitiers",
+      "destination": "Bordeaux",
+      "capacity": 40,
+      "length": 310.14,
+      "up": true
+    },
+    {
+      "origin": "Poitiers",
+      "destination": "Orleans",
+      "capacity": 40,
+      "length": 285.56,
+      "up": true
+    },
+    {
+      "origin": "Poitiers",
+      "destination": "Limoges",
+      "capacity": 40,
+      "length": 164.84,
+      "up": true
+    },
+    {
+      "origin": "Poitiers",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 441.25,
+      "up": true
+    },
+    {
+      "origin": "Poitiers",
+      "destination": "Nantes",
+      "capacity": 40,
+      "length": 239.36,
+      "up": true
+    },
+    {
+      "origin": "Strasbourg",
+      "destination": "Besancon",
+      "capacity": 40,
+      "length": 293.55,
+      "up": true
+    },
+    {
+      "origin": "Strasbourg",
+      "destination": "Jarville-la-Malgrange",
+      "capacity": 40,
+      "length": 171.68,
+      "up": true
+    },
+    {
+      "origin": "Jarville-la-Malgrange",
+      "destination": "Strasbourg",
+      "capacity": 40,
+      "length": 171.68,
+      "up": true
+    },
+    {
+      "origin": "Jarville-la-Malgrange",
+      "destination": "Reims",
+      "capacity": 40,
+      "length": 255.92,
+      "up": true
+    },
+    {
+      "origin": "Reims",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 195.39,
+      "up": true
+    },
+    {
+      "origin": "Reims",
+      "destination": "Jarville-la-Malgrange",
+      "capacity": 40,
+      "length": 255.92,
+      "up": true
+    },
+    {
+      "origin": "Compiegne",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 108.55,
+      "up": true
+    },
+    {
+      "origin": "Compiegne",
+      "destination": "Lille",
+      "capacity": 40,
+      "length": 203.45,
+      "up": true
+    },
+    {
+      "origin": "Lille",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 306.86,
+      "up": true
+    },
+    {
+      "origin": "Lille",
+      "destination": "Compiegne",
+      "capacity": 40,
+      "length": 203.45,
+      "up": true
+    },
+    {
+      "origin": "Rouen",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 168.18,
+      "up": true
+    },
+    {
+      "origin": "Rouen",
+      "destination": "Caen",
+      "capacity": 40,
+      "length": 164.13,
+      "up": true
+    },
+    {
+      "origin": "Caen",
+      "destination": "Rouen",
+      "capacity": 40,
+      "length": 164.13,
+      "up": true
+    },
+    {
+      "origin": "Caen",
+      "destination": "Rennes",
+      "capacity": 40,
+      "length": 235.46,
+      "up": true
+    },
+    {
+      "origin": "Rennes",
+      "destination": "Nantes",
+      "capacity": 40,
+      "length": 144.18,
+      "up": true
+    },
+    {
+      "origin": "Rennes",
+      "destination": "Caen",
+      "capacity": 40,
+      "length": 235.46,
+      "up": true
+    }
+  ]
+}

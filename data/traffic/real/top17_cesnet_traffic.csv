@@ -1,0 +1,27 @@
+# topology: CESNET (real topology #17) (data/topologies/real/top17_cesnet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Prague,Pardubice,8
+1,Liberec,Jihlava,5
+2,Jihlava,Brno,8
+3,Prague,Jihlava,3
+4,Olomouc,Liberec,4
+5,Jihlava,České Budějovice,1
+6,Brno,Hradec Králové,4
+7,Ostrava,Hradec Králové,7
+8,Ostrava,České Budějovice,5
+9,Brno,Chomutov,7
+10,Plzeň,Prague,8
+11,Kroměříž,Olomouc,2
+12,České Budějovice,Liberec,6
+13,Chomutov,Brno,5
+14,Jihlava,Pardubice,2
+15,Olomouc,Chomutov,7
+16,České Budějovice,Hradec Králové,4
+17,Ostrava,Jihlava,8
+18,Kroměříž,Pardubice,2
+19,Hradec Králové,Plzeň,6
+20,Ostrava,Pardubice,4
+21,Pardubice,Chomutov,8
+22,Hradec Králové,Ostrava,6
+23,Brno,Pardubice,5

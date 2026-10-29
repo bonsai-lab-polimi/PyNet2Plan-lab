@@ -1,0 +1,426 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "ARNES (real topology #10)",
+  "description": "Real-world topology ARNES (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Maribor",
+      "lat": 46.55,
+      "lon": 15.633333333333,
+      "x": 1740294.7060681398,
+      "y": 5868929.46316788,
+      "up": true
+    },
+    {
+      "name": "Dravograd",
+      "lat": 46.59004243,
+      "lon": 15.017967473,
+      "x": 1671792.4918443053,
+      "y": 5875413.40994887,
+      "up": true
+    },
+    {
+      "name": "Velenje",
+      "lat": 46.366666666667,
+      "lon": 15.116666666667,
+      "x": 1682779.6358250226,
+      "y": 5839303.773661503,
+      "up": true
+    },
+    {
+      "name": "Celje",
+      "lat": 46.22909194,
+      "lon": 15.264128741,
+      "x": 1699195.038851092,
+      "y": 5817137.675828088,
+      "up": true
+    },
+    {
+      "name": "Slovenska Bistrica",
+      "lat": 46.394136552,
+      "lon": 15.570726245,
+      "x": 1733325.3168748608,
+      "y": 5843736.414744128,
+      "up": true
+    },
+    {
+      "name": "Lasko",
+      "lat": 46.156303,
+      "lon": 15.238617,
+      "x": 1696355.0848337219,
+      "y": 5805432.362450956,
+      "up": true
+    },
+    {
+      "name": "Trbovlje",
+      "lat": 46.15,
+      "lon": 15.05,
+      "x": 1675358.3364387674,
+      "y": 5804419.495079224,
+      "up": true
+    },
+    {
+      "name": "Kostanjevica na Krki",
+      "lat": 45.846325,
+      "lon": 15.424869,
+      "x": 1717088.5626329507,
+      "y": 5755756.800418636,
+      "up": true
+    },
+    {
+      "name": "Novo Mesto",
+      "lat": 45.798055555556,
+      "lon": 15.162777777778,
+      "x": 1687912.7012338112,
+      "y": 5748046.3288215315,
+      "up": true
+    },
+    {
+      "name": "Koƒçevje",
+      "lat": 45.642961111111,
+      "lon": 14.859383333333,
+      "x": 1654138.9861686856,
+      "y": 5723316.934402582,
+      "up": true
+    },
+    {
+      "name": "Ljubljana",
+      "lat": 46.0513888888889,
+      "lon": 14.5061111111111,
+      "x": 1614812.9022795353,
+      "y": 5788588.153467588,
+      "up": true
+    },
+    {
+      "name": "Kranj",
+      "lat": 46.23887,
+      "lon": 14.35561,
+      "x": 1598059.1952268262,
+      "y": 5818711.284436985,
+      "up": true
+    },
+    {
+      "name": "Bled",
+      "lat": 46.366666666667,
+      "lon": 14.116666666667,
+      "x": 1571460.1450317488,
+      "y": 5839303.773661503,
+      "up": true
+    },
+    {
+      "name": "Tolmin",
+      "lat": 46.183,
+      "lon": 13.733,
+      "x": 1528750.567064026,
+      "y": 5809723.75251176,
+      "up": true
+    },
+    {
+      "name": "Nova Gorica",
+      "lat": 45.966666666667,
+      "lon": 13.65,
+      "x": 1519511.0493281842,
+      "y": 5775009.138320255,
+      "up": true
+    },
+    {
+      "name": "Ajdovscina",
+      "lat": 45.888356136,
+      "lon": 13.905237912,
+      "x": 1547924.0037231627,
+      "y": 5762476.227364935,
+      "up": true
+    },
+    {
+      "name": "Koper / Capodistria",
+      "lat": 45.547542728,
+      "lon": 13.7306571,
+      "x": 1528489.7566290463,
+      "y": 5708136.732386124,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Maribor",
+      "destination": "Dravograd",
+      "capacity": 40,
+      "length": 71.52,
+      "up": true
+    },
+    {
+      "origin": "Maribor",
+      "destination": "Slovenska Bistrica",
+      "capacity": 40,
+      "length": 28.88,
+      "up": true
+    },
+    {
+      "origin": "Dravograd",
+      "destination": "Maribor",
+      "capacity": 40,
+      "length": 71.52,
+      "up": true
+    },
+    {
+      "origin": "Dravograd",
+      "destination": "Velenje",
+      "capacity": 40,
+      "length": 39.83,
+      "up": true
+    },
+    {
+      "origin": "Velenje",
+      "destination": "Dravograd",
+      "capacity": 40,
+      "length": 39.83,
+      "up": true
+    },
+    {
+      "origin": "Velenje",
+      "destination": "Celje",
+      "capacity": 40,
+      "length": 27.48,
+      "up": true
+    },
+    {
+      "origin": "Celje",
+      "destination": "Velenje",
+      "capacity": 40,
+      "length": 27.48,
+      "up": true
+    },
+    {
+      "origin": "Celje",
+      "destination": "Slovenska Bistrica",
+      "capacity": 40,
+      "length": 44.94,
+      "up": true
+    },
+    {
+      "origin": "Celje",
+      "destination": "Lasko",
+      "capacity": 40,
+      "length": 12.96,
+      "up": true
+    },
+    {
+      "origin": "Celje",
+      "destination": "Ljubljana",
+      "capacity": 40,
+      "length": 92.22,
+      "up": true
+    },
+    {
+      "origin": "Slovenska Bistrica",
+      "destination": "Celje",
+      "capacity": 40,
+      "length": 44.94,
+      "up": true
+    },
+    {
+      "origin": "Slovenska Bistrica",
+      "destination": "Maribor",
+      "capacity": 40,
+      "length": 28.88,
+      "up": true
+    },
+    {
+      "origin": "Slovenska Bistrica",
+      "destination": "Kostanjevica na Krki",
+      "capacity": 40,
+      "length": 92.8,
+      "up": true
+    },
+    {
+      "origin": "Lasko",
+      "destination": "Celje",
+      "capacity": 40,
+      "length": 12.96,
+      "up": true
+    },
+    {
+      "origin": "Lasko",
+      "destination": "Trbovlje",
+      "capacity": 40,
+      "length": 20.97,
+      "up": true
+    },
+    {
+      "origin": "Trbovlje",
+      "destination": "Lasko",
+      "capacity": 40,
+      "length": 20.97,
+      "up": true
+    },
+    {
+      "origin": "Trbovlje",
+      "destination": "Ljubljana",
+      "capacity": 40,
+      "length": 65.69,
+      "up": true
+    },
+    {
+      "origin": "Kostanjevica na Krki",
+      "destination": "Slovenska Bistrica",
+      "capacity": 40,
+      "length": 92.8,
+      "up": true
+    },
+    {
+      "origin": "Kostanjevica na Krki",
+      "destination": "Novo Mesto",
+      "capacity": 40,
+      "length": 29.94,
+      "up": true
+    },
+    {
+      "origin": "Novo Mesto",
+      "destination": "Kostanjevica na Krki",
+      "capacity": 40,
+      "length": 29.94,
+      "up": true
+    },
+    {
+      "origin": "Novo Mesto",
+      "destination": "Koƒçevje",
+      "capacity": 40,
+      "length": 45.41,
+      "up": true
+    },
+    {
+      "origin": "Koƒçevje",
+      "destination": "Novo Mesto",
+      "capacity": 40,
+      "length": 45.41,
+      "up": true
+    },
+    {
+      "origin": "Koƒçevje",
+      "destination": "Ljubljana",
+      "capacity": 40,
+      "length": 79.03,
+      "up": true
+    },
+    {
+      "origin": "Ljubljana",
+      "destination": "Trbovlje",
+      "capacity": 40,
+      "length": 65.69,
+      "up": true
+    },
+    {
+      "origin": "Ljubljana",
+      "destination": "Celje",
+      "capacity": 40,
+      "length": 92.22,
+      "up": true
+    },
+    {
+      "origin": "Ljubljana",
+      "destination": "Koƒçevje",
+      "capacity": 40,
+      "length": 79.03,
+      "up": true
+    },
+    {
+      "origin": "Ljubljana",
+      "destination": "Koper / Capodistria",
+      "capacity": 40,
+      "length": 123.14,
+      "up": true
+    },
+    {
+      "origin": "Ljubljana",
+      "destination": "Kranj",
+      "capacity": 40,
+      "length": 36.7,
+      "up": true
+    },
+    {
+      "origin": "Kranj",
+      "destination": "Bled",
+      "capacity": 40,
+      "length": 35.1,
+      "up": true
+    },
+    {
+      "origin": "Kranj",
+      "destination": "Ljubljana",
+      "capacity": 40,
+      "length": 36.7,
+      "up": true
+    },
+    {
+      "origin": "Bled",
+      "destination": "Tolmin",
+      "capacity": 40,
+      "length": 53.33,
+      "up": true
+    },
+    {
+      "origin": "Bled",
+      "destination": "Kranj",
+      "capacity": 40,
+      "length": 35.1,
+      "up": true
+    },
+    {
+      "origin": "Tolmin",
+      "destination": "Nova Gorica",
+      "capacity": 40,
+      "length": 38.8,
+      "up": true
+    },
+    {
+      "origin": "Tolmin",
+      "destination": "Bled",
+      "capacity": 40,
+      "length": 53.33,
+      "up": true
+    },
+    {
+      "origin": "Nova Gorica",
+      "destination": "Ajdovscina",
+      "capacity": 40,
+      "length": 32.04,
+      "up": true
+    },
+    {
+      "origin": "Nova Gorica",
+      "destination": "Tolmin",
+      "capacity": 40,
+      "length": 38.8,
+      "up": true
+    },
+    {
+      "origin": "Ajdovscina",
+      "destination": "Koper / Capodistria",
+      "capacity": 40,
+      "length": 60.33,
+      "up": true
+    },
+    {
+      "origin": "Ajdovscina",
+      "destination": "Nova Gorica",
+      "capacity": 40,
+      "length": 32.04,
+      "up": true
+    },
+    {
+      "origin": "Koper / Capodistria",
+      "destination": "Ljubljana",
+      "capacity": 40,
+      "length": 123.14,
+      "up": true
+    },
+    {
+      "origin": "Koper / Capodistria",
+      "destination": "Ajdovscina",
+      "capacity": 40,
+      "length": 60.33,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# topology: PACKETEXCHANGE (real topology #97) (data/topologies/real/top97_packetexchange.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Las Vegas,Paris,6
+1,Seattle,Las Vegas,2
+2,Milano,Los Angeles,2
+3,Amsterdam,Frankfurt am Main,8
+4,San Jose,San Francisco,1
+5,Miami,Frankfurt am Main,4
+6,Singapore,Dallas,8
+7,Kansas City,Amsterdam,2
+8,Seattle,Dallas,6
+9,Dallas,Las Vegas,7
+10,Dallas,Atlanta,5
+11,Ashburn,Dallas,6
+12,Seattle,Los Angeles,1
+13,Las Vegas,Dallas,4
+14,Phoenix,San Jose,7
+15,Phoenix,San Francisco,1
+16,San Jose,Frankfurt am Main,3
+17,Atlanta,Ashburn,2
+18,Chicago,Milano,4
+19,Milano,Las Vegas,6
+20,Paris,San Francisco,7
+21,New York City,Los Angeles,8
+22,Hong Kong,London,4
+23,Los Angeles,Frankfurt am Main,2
+24,Miami,Seattle,4
+25,Milano,Houston,6
+26,London,Paris,2
+27,Milano,Phoenix,4
+28,San Jose,Phoenix,5
+29,London,Los Angeles,4
+30,Frankfurt am Main,San Jose,4
+31,Los Angeles,Phoenix,6
+32,Houston,San Jose,6
+33,San Jose,Chicago,3
+34,Chicago,Phoenix,1
+35,Paris,Dallas,5
+36,Frankfurt am Main,Dallas,8
+37,Amsterdam,San Francisco,4
+38,Houston,London,5
+39,Miami,Los Angeles,7
+40,San Francisco,Frankfurt am Main,2
+41,Hong Kong,Houston,7

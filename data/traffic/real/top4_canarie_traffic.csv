@@ -1,0 +1,51 @@
+# topology: CANARIE (real topology #4) (data/topologies/real/top4_canarie.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Yellowknife,Ottawa,8
+1,Kelowna,Calgary,6
+2,Montreal,Vancouver,4
+3,Whitehorse,Yellowknife,1
+4,Kamloops,Regina,3
+5,Edmonton,Victoria,6
+6,Thunder Bay,Whitehorse,4
+7,Edmonton,Seattle,1
+8,Whitehorse,Calgary,1
+9,Saskatoon,Regina,8
+10,Saskatoon,Calgary,5
+11,Thunder Bay,Seattle,3
+12,Saskatoon,Halifax,3
+13,Winnipeg,Saskatoon,7
+14,Edmonton,Regina,1
+15,Saskatoon,Fredericton,7
+16,Thunder Bay,Yellowknife,3
+17,Regina,New York City,7
+18,New York City,Fredericton,7
+19,Edmonton,Thunder Bay,6
+20,Kamloops,New York City,5
+21,Victoria,Regina,5
+22,Toronto,Regina,5
+23,New York City,Montreal,7
+24,Boston,Regina,2
+25,Halifax,Ottawa,4
+26,Charlottetown,Vancouver,1
+27,Halifax,Seattle,3
+28,Charlottetown,Edmonton,6
+29,Chicago,Fredericton,7
+30,Edmonton,Chicago,8
+31,St. John's,Saskatoon,3
+32,Victoria,Yellowknife,2
+33,Saskatoon,Whitehorse,5
+34,Toronto,Calgary,7
+35,Fredericton,Vancouver,5
+36,Winnipeg,Montreal,3
+37,Charlottetown,Whitehorse,4
+38,Fredericton,Halifax,8
+39,Chicago,New York City,2
+40,Fredericton,Yellowknife,6
+41,Whitehorse,Saskatoon,5
+42,Toronto,Seattle,7
+43,Regina,Yellowknife,2
+44,Boston,Edmonton,1
+45,Montreal,Kelowna,4
+46,Victoria,Boston,8
+47,Ottawa,Thunder Bay,7

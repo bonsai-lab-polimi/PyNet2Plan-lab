@@ -1,0 +1,512 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NOEL (real topology #105)",
+  "description": "Real-world topology NOEL (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Spokane",
+      "lat": 47.66,
+      "lon": -117.43,
+      "x": -13072247.803854115,
+      "y": 6050476.197754692,
+      "up": true
+    },
+    {
+      "name": "Coeur d'Alene",
+      "lat": 47.68,
+      "lon": -116.78,
+      "x": -12999890.134838488,
+      "y": 6053782.39151094,
+      "up": true
+    },
+    {
+      "name": "Wenatchee",
+      "lat": 47.42,
+      "lon": -120.31,
+      "x": -13392847.937338743,
+      "y": 6010900.252768108,
+      "up": true
+    },
+    {
+      "name": "Othello",
+      "lat": 46.83,
+      "lon": -119.18,
+      "x": -13267056.912742347,
+      "y": 5914369.756134519,
+      "up": true
+    },
+    {
+      "name": "Walla Walla",
+      "lat": 46.06,
+      "lon": -118.34,
+      "x": -13173548.540475996,
+      "y": 5789969.481144516,
+      "up": true
+    },
+    {
+      "name": "Pasco",
+      "lat": 46.24,
+      "lon": -119.1,
+      "x": -13258151.353478882,
+      "y": 5818893.156348764,
+      "up": true
+    },
+    {
+      "name": "Pullman",
+      "lat": 46.73,
+      "lon": -117.18,
+      "x": -13044417.931155799,
+      "y": 5898114.018770956,
+      "up": true
+    },
+    {
+      "name": "Lewiston",
+      "lat": 46.42,
+      "lon": -117.02,
+      "x": -13026606.812628873,
+      "y": 5847911.874984552,
+      "up": true
+    },
+    {
+      "name": "Kennewick",
+      "lat": 46.21,
+      "lon": -119.14,
+      "x": -13262604.133110613,
+      "y": 5814065.968127321,
+      "up": true
+    },
+    {
+      "name": "Yakima",
+      "lat": 46.6,
+      "lon": -120.51,
+      "x": -13415111.8354974,
+      "y": 5877026.552037683,
+      "up": true
+    },
+    {
+      "name": "Ellensburg",
+      "lat": 47.0,
+      "lon": -120.55,
+      "x": -13419564.61512913,
+      "y": 5942074.072431108,
+      "up": true
+    },
+    {
+      "name": "Vancouver",
+      "lat": 49.25,
+      "lon": -123.12,
+      "x": -13705655.706467843,
+      "y": 6317388.117930809,
+      "up": true
+    },
+    {
+      "name": "Bellingham",
+      "lat": 48.76,
+      "lon": -122.49,
+      "x": -13635524.427268079,
+      "y": 6234236.097919989,
+      "up": true
+    },
+    {
+      "name": "Mount Vernon",
+      "lat": 48.42,
+      "lon": -122.33,
+      "x": -13617713.308741156,
+      "y": 6177014.480768718,
+      "up": true
+    },
+    {
+      "name": "Everett",
+      "lat": 47.98,
+      "lon": -122.2,
+      "x": -13603241.77493803,
+      "y": 6103528.192236453,
+      "up": true
+    },
+    {
+      "name": "Seattle",
+      "lat": 47.61,
+      "lon": -122.34,
+      "x": -13618826.503649088,
+      "y": 6042216.250411431,
+      "up": true
+    },
+    {
+      "name": "Tacoma",
+      "lat": 47.25,
+      "lon": -122.44,
+      "x": -13629958.452728415,
+      "y": 5982976.332951714,
+      "up": true
+    },
+    {
+      "name": "Olympia",
+      "lat": 47.04,
+      "lon": -122.9,
+      "x": -13681165.418493323,
+      "y": 5948605.536264386,
+      "up": true
+    },
+    {
+      "name": "Portland",
+      "lat": 45.52,
+      "lon": -122.68,
+      "x": -13656675.130518802,
+      "y": 5703759.727613578,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Spokane",
+      "destination": "Coeur d'Alene",
+      "capacity": 40,
+      "length": 73.08,
+      "up": true
+    },
+    {
+      "origin": "Spokane",
+      "destination": "Wenatchee",
+      "capacity": 40,
+      "length": 326.72,
+      "up": true
+    },
+    {
+      "origin": "Spokane",
+      "destination": "Othello",
+      "capacity": 40,
+      "length": 241.71,
+      "up": true
+    },
+    {
+      "origin": "Spokane",
+      "destination": "Pullman",
+      "capacity": 40,
+      "length": 157.68,
+      "up": true
+    },
+    {
+      "origin": "Coeur d'Alene",
+      "destination": "Spokane",
+      "capacity": 40,
+      "length": 73.08,
+      "up": true
+    },
+    {
+      "origin": "Wenatchee",
+      "destination": "Spokane",
+      "capacity": 40,
+      "length": 326.72,
+      "up": true
+    },
+    {
+      "origin": "Wenatchee",
+      "destination": "Ellensburg",
+      "capacity": 40,
+      "length": 75.15,
+      "up": true
+    },
+    {
+      "origin": "Wenatchee",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 230.86,
+      "up": true
+    },
+    {
+      "origin": "Othello",
+      "destination": "Spokane",
+      "capacity": 40,
+      "length": 241.71,
+      "up": true
+    },
+    {
+      "origin": "Othello",
+      "destination": "Yakima",
+      "capacity": 40,
+      "length": 156.86,
+      "up": true
+    },
+    {
+      "origin": "Walla Walla",
+      "destination": "Kennewick",
+      "capacity": 40,
+      "length": 95.79,
+      "up": true
+    },
+    {
+      "origin": "Walla Walla",
+      "destination": "Pasco",
+      "capacity": 40,
+      "length": 92.81,
+      "up": true
+    },
+    {
+      "origin": "Pasco",
+      "destination": "Walla Walla",
+      "capacity": 40,
+      "length": 92.81,
+      "up": true
+    },
+    {
+      "origin": "Pasco",
+      "destination": "Kennewick",
+      "capacity": 40,
+      "length": 6.81,
+      "up": true
+    },
+    {
+      "origin": "Pasco",
+      "destination": "Yakima",
+      "capacity": 40,
+      "length": 172.88,
+      "up": true
+    },
+    {
+      "origin": "Pullman",
+      "destination": "Spokane",
+      "capacity": 40,
+      "length": 157.68,
+      "up": true
+    },
+    {
+      "origin": "Pullman",
+      "destination": "Lewiston",
+      "capacity": 40,
+      "length": 54.86,
+      "up": true
+    },
+    {
+      "origin": "Lewiston",
+      "destination": "Pullman",
+      "capacity": 40,
+      "length": 54.86,
+      "up": true
+    },
+    {
+      "origin": "Kennewick",
+      "destination": "Walla Walla",
+      "capacity": 40,
+      "length": 95.79,
+      "up": true
+    },
+    {
+      "origin": "Kennewick",
+      "destination": "Pasco",
+      "capacity": 40,
+      "length": 6.81,
+      "up": true
+    },
+    {
+      "origin": "Kennewick",
+      "destination": "Yakima",
+      "capacity": 40,
+      "length": 170.46,
+      "up": true
+    },
+    {
+      "origin": "Kennewick",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 426.92,
+      "up": true
+    },
+    {
+      "origin": "Yakima",
+      "destination": "Othello",
+      "capacity": 40,
+      "length": 156.86,
+      "up": true
+    },
+    {
+      "origin": "Yakima",
+      "destination": "Pasco",
+      "capacity": 40,
+      "length": 172.88,
+      "up": true
+    },
+    {
+      "origin": "Yakima",
+      "destination": "Kennewick",
+      "capacity": 40,
+      "length": 170.46,
+      "up": true
+    },
+    {
+      "origin": "Yakima",
+      "destination": "Ellensburg",
+      "capacity": 40,
+      "length": 66.87,
+      "up": true
+    },
+    {
+      "origin": "Yakima",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 267.46,
+      "up": true
+    },
+    {
+      "origin": "Ellensburg",
+      "destination": "Wenatchee",
+      "capacity": 40,
+      "length": 75.15,
+      "up": true
+    },
+    {
+      "origin": "Ellensburg",
+      "destination": "Yakima",
+      "capacity": 40,
+      "length": 66.87,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Bellingham",
+      "capacity": 40,
+      "length": 106.92,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 286.83,
+      "up": true
+    },
+    {
+      "origin": "Bellingham",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 106.92,
+      "up": true
+    },
+    {
+      "origin": "Bellingham",
+      "destination": "Mount Vernon",
+      "capacity": 40,
+      "length": 59.39,
+      "up": true
+    },
+    {
+      "origin": "Mount Vernon",
+      "destination": "Bellingham",
+      "capacity": 40,
+      "length": 59.39,
+      "up": true
+    },
+    {
+      "origin": "Mount Vernon",
+      "destination": "Everett",
+      "capacity": 40,
+      "length": 74.8,
+      "up": true
+    },
+    {
+      "origin": "Everett",
+      "destination": "Mount Vernon",
+      "capacity": 40,
+      "length": 74.8,
+      "up": true
+    },
+    {
+      "origin": "Everett",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 63.68,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Wenatchee",
+      "capacity": 40,
+      "length": 230.86,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Yakima",
+      "capacity": 40,
+      "length": 267.46,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 286.83,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Everett",
+      "capacity": 40,
+      "length": 63.68,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Tacoma",
+      "capacity": 40,
+      "length": 61.1,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 350.77,
+      "up": true
+    },
+    {
+      "origin": "Tacoma",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 61.1,
+      "up": true
+    },
+    {
+      "origin": "Tacoma",
+      "destination": "Olympia",
+      "capacity": 40,
+      "length": 62.85,
+      "up": true
+    },
+    {
+      "origin": "Olympia",
+      "destination": "Tacoma",
+      "capacity": 40,
+      "length": 62.85,
+      "up": true
+    },
+    {
+      "origin": "Olympia",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 254.79,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Kennewick",
+      "capacity": 40,
+      "length": 426.92,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 350.77,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Olympia",
+      "capacity": 40,
+      "length": 254.79,
+      "up": true
+    }
+  ]
+}

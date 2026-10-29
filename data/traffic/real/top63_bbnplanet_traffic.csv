@@ -1,0 +1,57 @@
+# topology: BBNPLANET (real topology #63) (data/topologies/real/top63_bbnplanet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Los Angeles,"Washington, D.C.",4
+1,Denver,Jackson,3
+2,Palo Alto,Houston,2
+3,San Jose,Chicago,2
+4,Cambridge,Boston,4
+5,Dallas,Palo Alto,1
+6,Palo Alto,Detroit,7
+7,Richmond,Chicago,1
+8,Orange,New York City,2
+9,New York City,Palo Alto,4
+10,Philadelphia,San Jose,6
+11,"Washington, D.C.",Atlanta,4
+12,Sacramento,New York City,6
+13,Boston,Cleveland,1
+14,Detroit,Dallas,2
+15,Richmond,Houston,4
+16,Houston,Columbus,5
+17,Sacramento,Dallas,5
+18,Cleveland,Atlanta,3
+19,San Francisco,Dallas,4
+20,Baltimore,Cincinnati,7
+21,Sacramento,Cleveland,4
+22,Boston,San Francisco,1
+23,Dallas,New York City,5
+24,"Washington, D.C.",Los Angeles,7
+25,Atlanta,Denver,5
+26,Austin,Orange,5
+27,Denver,Dallas,8
+28,"Washington, D.C.",Chicago,5
+29,San Francisco,Los Angeles,5
+30,Columbus,Chicago,2
+31,New York City,Houston,5
+32,Detroit,Austin,6
+33,Cincinnati,Richmond,1
+34,Richmond,Boston,8
+35,Denver,Baltimore,7
+36,Los Angeles,Cambridge,8
+37,Sacramento,Oakland,7
+38,New York City,Cincinnati,3
+39,Richmond,San Diego,8
+40,San Diego,San Jose,4
+41,Oakland,Sacramento,2
+42,Boston,New York City,6
+43,Detroit,Atlanta,3
+44,Oakland,San Francisco,5
+45,Boston,Jackson,2
+46,Dallas,Austin,6
+47,Los Angeles,Jackson,6
+48,Sacramento,"Washington, D.C.",3
+49,Columbus,Cleveland,1
+50,Columbus,San Francisco,8
+51,Sacramento,Los Angeles,8
+52,Columbus,Boston,6
+53,San Jose,Houston,1

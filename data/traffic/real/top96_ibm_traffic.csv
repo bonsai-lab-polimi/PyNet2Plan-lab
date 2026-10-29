@@ -1,0 +1,39 @@
+# topology: IBM (real topology #96) (data/topologies/real/top96_ibm.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Vancouver,Detroit,7
+1,Schaumburg,Chicago,7
+2,Phoenix,Tampa,1
+3,Schaumburg,New York City,5
+4,New York City,Phoenix,1
+5,Tampa,White Plains,4
+6,San Francisco,New York City,7
+7,Dallas,Atlanta,4
+8,Los Angeles,Tampa,8
+9,Schaumburg,Philadelphia,7
+10,Columbus,Dallas,6
+11,Toronto,Columbus,1
+12,Philadelphia,Detroit,8
+13,Columbus,Phoenix,8
+14,Dallas,Bethesda,6
+15,Columbus,White Plains,1
+16,Tampa,Chicago,3
+17,Chicago,San Francisco,2
+18,White Plains,Columbus,3
+19,Philadelphia,Bethesda,1
+20,Dallas,Chicago,2
+21,Chicago,Tampa,2
+22,Schaumburg,St. Louis,4
+23,Schaumburg,Hurley,2
+24,Hurley,Tampa,8
+25,Tampa,Philadelphia,5
+26,Hurley,Schaumburg,4
+27,Columbus,St. Louis,5
+28,Los Angeles,White Plains,7
+29,Atlanta,Columbus,2
+30,New York City,San Francisco,2
+31,Schaumburg,Vancouver,1
+32,Dallas,Los Angeles,4
+33,St. Louis,Philadelphia,7
+34,Dallas,St. Louis,2
+35,Chicago,St. Louis,7

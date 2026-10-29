@@ -1,0 +1,15 @@
+# topology: TELECOMSERBIA (real topology #84) (data/topologies/real/top84_telecomserbia.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Nis,Krusevac,3
+1,Nis,Novi Sad,2
+2,Krusevac,Novi Sad,6
+3,Krusevac,Nis,5
+4,Novi Sad,Podgorica,4
+5,Kragujevac,Krusevac,5
+6,Kragujevac,Novi Sad,5
+7,Podgorica,Belgrade,5
+8,Nis,Belgrade,6
+9,Podgorica,Nis,6
+10,Belgrade,Novi Sad,2
+11,Novi Sad,Kragujevac,5

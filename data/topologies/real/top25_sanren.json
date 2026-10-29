@@ -1,0 +1,164 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "SANREN (real topology #25)",
+  "description": "Real-world topology SANREN (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Johannesburg",
+      "lat": -26.2,
+      "lon": 28.04,
+      "x": 3121398.5218433905,
+      "y": -3023872.960429159,
+      "up": true
+    },
+    {
+      "name": "Pretoria",
+      "lat": -25.74,
+      "lon": 28.19,
+      "x": 3138096.445462382,
+      "y": -2966914.3034099075,
+      "up": true
+    },
+    {
+      "name": "Durban",
+      "lat": -29.85,
+      "lon": 31.02,
+      "x": 3453130.604407346,
+      "y": -3484283.277148617,
+      "up": true
+    },
+    {
+      "name": "Bloemfontein",
+      "lat": -29.13,
+      "lon": 26.2,
+      "x": 2916570.6587837674,
+      "y": -3392202.5498149213,
+      "up": true
+    },
+    {
+      "name": "East London",
+      "lat": -33.02,
+      "lon": 27.91,
+      "x": 3106926.988040265,
+      "y": -3897958.9298730507,
+      "up": true
+    },
+    {
+      "name": "Port Elizabeth",
+      "lat": -33.97,
+      "lon": 25.58,
+      "x": 2847552.5744919376,
+      "y": -4024774.4700838216,
+      "up": true
+    },
+    {
+      "name": "Cape Town",
+      "lat": -33.92,
+      "lon": 18.42,
+      "x": 2050505.0204120993,
+      "y": -4018065.032433214,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Johannesburg",
+      "destination": "Pretoria",
+      "capacity": 40,
+      "length": 79.95,
+      "up": true
+    },
+    {
+      "origin": "Johannesburg",
+      "destination": "Bloemfontein",
+      "capacity": 40,
+      "length": 559.18,
+      "up": true
+    },
+    {
+      "origin": "Pretoria",
+      "destination": "Johannesburg",
+      "capacity": 40,
+      "length": 79.95,
+      "up": true
+    },
+    {
+      "origin": "Pretoria",
+      "destination": "Durban",
+      "capacity": 40,
+      "length": 802.59,
+      "up": true
+    },
+    {
+      "origin": "Durban",
+      "destination": "Pretoria",
+      "capacity": 40,
+      "length": 802.59,
+      "up": true
+    },
+    {
+      "origin": "Durban",
+      "destination": "East London",
+      "capacity": 40,
+      "length": 689.44,
+      "up": true
+    },
+    {
+      "origin": "Bloemfontein",
+      "destination": "Johannesburg",
+      "capacity": 40,
+      "length": 559.18,
+      "up": true
+    },
+    {
+      "origin": "Bloemfontein",
+      "destination": "Cape Town",
+      "capacity": 40,
+      "length": 1363.74,
+      "up": true
+    },
+    {
+      "origin": "East London",
+      "destination": "Durban",
+      "capacity": 40,
+      "length": 689.44,
+      "up": true
+    },
+    {
+      "origin": "East London",
+      "destination": "Port Elizabeth",
+      "capacity": 40,
+      "length": 360.74,
+      "up": true
+    },
+    {
+      "origin": "Port Elizabeth",
+      "destination": "East London",
+      "capacity": 40,
+      "length": 360.74,
+      "up": true
+    },
+    {
+      "origin": "Port Elizabeth",
+      "destination": "Cape Town",
+      "capacity": 40,
+      "length": 990.54,
+      "up": true
+    },
+    {
+      "origin": "Cape Town",
+      "destination": "Bloemfontein",
+      "capacity": 40,
+      "length": 1363.74,
+      "up": true
+    },
+    {
+      "origin": "Cape Town",
+      "destination": "Port Elizabeth",
+      "capacity": 40,
+      "length": 990.54,
+      "up": true
+    }
+  ]
+}

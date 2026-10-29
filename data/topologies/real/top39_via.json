@@ -1,0 +1,250 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "VIA (real topology #39)",
+  "description": "Real-world topology VIA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Lisbon",
+      "lat": 38.7077507,
+      "lon": -9.1365919,
+      "x": -1017080.7578939479,
+      "y": 4679895.405438774,
+      "up": true
+    },
+    {
+      "name": "Madrid",
+      "lat": 40.4167047,
+      "lon": -3.7035825,
+      "x": -412280.91801087913,
+      "y": 4926682.7354862755,
+      "up": true
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.3828939,
+      "lon": 2.1774322,
+      "x": 242390.64374087742,
+      "y": 5068983.531590666,
+      "up": true
+    },
+    {
+      "name": "Paris",
+      "lat": 48.8588897,
+      "lon": 2.32004102172007,
+      "x": 258265.78515738432,
+      "y": 6250951.758420893,
+      "up": true
+    },
+    {
+      "name": "London",
+      "lat": 51.4893335,
+      "lon": -0.144055084527687,
+      "x": -16036.1386558041,
+      "y": 6708311.898461351,
+      "up": true
+    },
+    {
+      "name": "Amsterdam",
+      "lat": 52.3730796,
+      "lon": 4.8924534,
+      "x": 544625.4212178199,
+      "y": 6867866.190138718,
+      "up": true
+    },
+    {
+      "name": "Frankfurt",
+      "lat": 50.1106444,
+      "lon": 8.6820917,
+      "x": 966486.027064507,
+      "y": 6465459.597224545,
+      "up": true
+    },
+    {
+      "name": "Munich",
+      "lat": 48.1371079,
+      "lon": 11.5753822,
+      "x": 1288565.652241523,
+      "y": 6129695.090390113,
+      "up": true
+    },
+    {
+      "name": "Berlin",
+      "lat": 52.5170365,
+      "lon": 13.3888599,
+      "x": 1490441.0663704798,
+      "y": 6894157.660591815,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Lisbon",
+      "destination": "Madrid",
+      "capacity": 40,
+      "length": 754.35,
+      "up": true
+    },
+    {
+      "origin": "Lisbon",
+      "destination": "London",
+      "capacity": 40,
+      "length": 1980.1,
+      "up": true
+    },
+    {
+      "origin": "Madrid",
+      "destination": "Lisbon",
+      "capacity": 40,
+      "length": 754.35,
+      "up": true
+    },
+    {
+      "origin": "Madrid",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 758.58,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "Madrid",
+      "capacity": 40,
+      "length": 758.58,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 1247.06,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 1247.06,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "London",
+      "capacity": 40,
+      "length": 511.57,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 720.03,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Lisbon",
+      "capacity": 40,
+      "length": 1980.1,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 511.57,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 538.42,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 957.76,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "London",
+      "capacity": 40,
+      "length": 538.42,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 546.66,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 720.03,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "London",
+      "capacity": 40,
+      "length": 957.76,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 546.66,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 456.11,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 633.72,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 456.11,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 755.56,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 633.72,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 755.56,
+      "up": true
+    }
+  ]
+}

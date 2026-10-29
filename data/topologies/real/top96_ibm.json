@@ -1,0 +1,490 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "IBM (real topology #96)",
+  "description": "Real-world topology IBM (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Hurley",
+      "lat": 46.43,
+      "lon": -90.25,
+      "x": -10046584.044092938,
+      "y": 5849526.831117611,
+      "up": true
+    },
+    {
+      "name": "White Plains",
+      "lat": 41.03,
+      "lon": -73.76,
+      "x": -8210925.6409118585,
+      "y": 5016767.664541266,
+      "up": true
+    },
+    {
+      "name": "Detroit",
+      "lat": 42.33,
+      "lon": -83.05,
+      "x": -9245083.71038137,
+      "y": 5210540.740698199,
+      "up": true
+    },
+    {
+      "name": "Toronto",
+      "lat": 40.46,
+      "lon": -80.6,
+      "x": -8972350.95793785,
+      "y": 4933015.127800052,
+      "up": true
+    },
+    {
+      "name": "Columbus",
+      "lat": 39.96,
+      "lon": -83.0,
+      "x": -9239517.735841706,
+      "y": 4860131.289920843,
+      "up": true
+    },
+    {
+      "name": "Bethesda",
+      "lat": 38.98,
+      "lon": -77.1,
+      "x": -8582732.740161393,
+      "y": 4718807.14895028,
+      "up": true
+    },
+    {
+      "name": "New York City",
+      "lat": 40.71,
+      "lon": -74.01,
+      "x": -8238755.513610177,
+      "y": 4969660.375061782,
+      "up": true
+    },
+    {
+      "name": "Philadelphia",
+      "lat": 39.95,
+      "lon": -75.16,
+      "x": -8366772.9280224405,
+      "y": 4858679.07377125,
+      "up": true
+    },
+    {
+      "name": "Schaumburg",
+      "lat": 42.03,
+      "lon": -88.08,
+      "x": -9805020.749071537,
+      "y": 5165474.358410812,
+      "up": true
+    },
+    {
+      "name": "St. Louis",
+      "lat": 38.63,
+      "lon": -90.2,
+      "x": -10041018.069553277,
+      "y": 4668809.976312713,
+      "up": true
+    },
+    {
+      "name": "Vancouver",
+      "lat": 45.64,
+      "lon": -122.66,
+      "x": -13654448.740702936,
+      "y": 5722845.460019709,
+      "up": true
+    },
+    {
+      "name": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "x": -13627732.06291255,
+      "y": 4546985.28443041,
+      "up": true
+    },
+    {
+      "name": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "x": -13162416.591396667,
+      "y": 4035517.7820847426,
+      "up": true
+    },
+    {
+      "name": "Phoenix",
+      "lat": 33.45,
+      "lon": -112.07,
+      "x": -12475575.333202168,
+      "y": 3955187.399354617,
+      "up": true
+    },
+    {
+      "name": "Dallas",
+      "lat": 32.78,
+      "lon": -96.81,
+      "x": -10776839.903696815,
+      "y": 3866138.9184606387,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "Tampa",
+      "lat": 27.95,
+      "lon": -82.46,
+      "x": -9179405.210813338,
+      "y": 3242671.39483981,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.85,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5138536.587247468,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Hurley",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Hurley",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 1770.38,
+      "up": true
+    },
+    {
+      "origin": "White Plains",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "White Plains",
+      "destination": "Bethesda",
+      "capacity": 40,
+      "length": 546.74,
+      "up": true
+    },
+    {
+      "origin": "White Plains",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 61.99,
+      "up": true
+    },
+    {
+      "origin": "Detroit",
+      "destination": "St. Louis",
+      "capacity": 40,
+      "length": 1096.51,
+      "up": true
+    },
+    {
+      "origin": "Detroit",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 437.29,
+      "up": true
+    },
+    {
+      "origin": "Detroit",
+      "destination": "Columbus",
+      "capacity": 40,
+      "length": 395.35,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Hurley",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Detroit",
+      "capacity": 40,
+      "length": 437.29,
+      "up": true
+    },
+    {
+      "origin": "Columbus",
+      "destination": "Detroit",
+      "capacity": 40,
+      "length": 395.35,
+      "up": true
+    },
+    {
+      "origin": "Columbus",
+      "destination": "Schaumburg",
+      "capacity": 40,
+      "length": 726.59,
+      "up": true
+    },
+    {
+      "origin": "Columbus",
+      "destination": "Bethesda",
+      "capacity": 40,
+      "length": 776.89,
+      "up": true
+    },
+    {
+      "origin": "Columbus",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 1149.31,
+      "up": true
+    },
+    {
+      "origin": "Bethesda",
+      "destination": "White Plains",
+      "capacity": 40,
+      "length": 546.74,
+      "up": true
+    },
+    {
+      "origin": "Bethesda",
+      "destination": "Columbus",
+      "capacity": 40,
+      "length": 776.89,
+      "up": true
+    },
+    {
+      "origin": "Bethesda",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1310.51,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "White Plains",
+      "capacity": 40,
+      "length": 61.99,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Columbus",
+      "capacity": 40,
+      "length": 1149.31,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Tampa",
+      "capacity": 40,
+      "length": 2018.99,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 193.52,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "Hurley",
+      "capacity": 40,
+      "length": 1770.38,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 193.52,
+      "up": true
+    },
+    {
+      "origin": "Schaumburg",
+      "destination": "Columbus",
+      "capacity": 40,
+      "length": 726.59,
+      "up": true
+    },
+    {
+      "origin": "Schaumburg",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 3461.74,
+      "up": true
+    },
+    {
+      "origin": "St. Louis",
+      "destination": "Detroit",
+      "capacity": 40,
+      "length": 1096.51,
+      "up": true
+    },
+    {
+      "origin": "St. Louis",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 627.5,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 1312.99,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 1312.99,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 3729.54,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 838.76,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Schaumburg",
+      "capacity": 40,
+      "length": 3461.74,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 838.76,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 861.37,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 861.37,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1777.38,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 1777.38,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1614.91,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Bethesda",
+      "capacity": 40,
+      "length": 1310.51,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Tampa",
+      "capacity": 40,
+      "length": 1006.03,
+      "up": true
+    },
+    {
+      "origin": "Tampa",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 2018.99,
+      "up": true
+    },
+    {
+      "origin": "Tampa",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1006.03,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "White Plains",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "St. Louis",
+      "capacity": 40,
+      "length": 627.5,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 3729.54,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1614.91,
+      "up": true
+    }
+  ]
+}

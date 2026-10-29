@@ -1,0 +1,45 @@
+# topology: PIONIER (real topology #102) (data/topologies/real/top102_pionier.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Zielona Gora,Bydgoszcz,1
+1,Radom,Kielce,2
+2,Warsaw,Deblin,4
+3,Radom,Zielona Gora,4
+4,Szcezin,Belostok,3
+5,Gliwice,Lodz,4
+6,Wroclaw,Lodz,2
+7,Warsaw,Radom,1
+8,Chestokhov,Bydgoszcz,6
+9,Rzeszow,Szcezin,8
+10,Belostok,Gdynia,4
+11,Rzeszow,Lublin,2
+12,Olsztyn,Szcezin,3
+13,Warsaw,Lodz,5
+14,Opole,Cracow,4
+15,Lodz,Kielce,4
+16,Kielce,Poznan,1
+17,Gdynia,Radom,1
+18,Szcezin,Opole,2
+19,Wroclaw,Gliwice,8
+20,Gliwice,Kielce,3
+21,Rzeszow,Gliwice,6
+22,Radom,Belostok,8
+23,Warsaw,Cracow,4
+24,Chestokhov,Olsztyn,7
+25,Belostok,Rzeszow,5
+26,Olsztyn,Kielce,2
+27,Poznan,Lublin,1
+28,Radom,Olsztyn,4
+29,Gdynia,Poznan,2
+30,Cracow,Poznan,6
+31,Warsaw,Opole,3
+32,Cracow,Wroclaw,5
+33,Wroclaw,Chestokhov,7
+34,Belostok,Lublin,1
+35,Gdynia,Wroclaw,6
+36,Szcezin,Deblin,7
+37,Gdynia,Belostok,7
+38,Zielona Gora,Deblin,6
+39,Chestokhov,Gdynia,3
+40,Deblin,Olsztyn,5
+41,Radom,Gdynia,6

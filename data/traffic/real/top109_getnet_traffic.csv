@@ -1,0 +1,17 @@
+# topology: GETNET (real topology #109) (data/topologies/real/top109_getnet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Phoenix,Tucson,2
+1,Pittsburgh,Santa Clara,4
+2,Seattle,"Washington, D.C.",7
+3,Tucson,Seattle,8
+4,"Washington, D.C.",Seattle,6
+5,Santa Clara,"Washington, D.C.",3
+6,Santa Clara,Tucson,4
+7,Baltimore,Phoenix,1
+8,Tucson,Santa Clara,4
+9,Pittsburgh,Baltimore,8
+10,"Washington, D.C.",Santa Clara,1
+11,"Washington, D.C.",Tucson,7
+12,Phoenix,Santa Clara,2
+13,"Washington, D.C.",Baltimore,1

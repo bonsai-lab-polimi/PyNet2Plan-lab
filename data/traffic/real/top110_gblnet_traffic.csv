@@ -1,0 +1,19 @@
+# topology: GBLNET (real topology #110) (data/topologies/real/top110_gblnet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Stockholm,London,7
+1,Coningsby,Avtovo,5
+2,Frankfurt am Main,Paris,5
+3,Paris,Stockholm,7
+4,Moscow,Frankfurt am Main,3
+5,Paris,Avtovo,6
+6,Coningsby,Moscow,6
+7,London,Avtovo,6
+8,Avtovo,Paris,7
+9,Paris,Amsterdam,1
+10,Moscow,Amsterdam,8
+11,Coningsby,Frankfurt am Main,5
+12,Frankfurt am Main,Amsterdam,2
+13,Amsterdam,Stockholm,6
+14,Frankfurt am Main,Stockholm,2
+15,Stockholm,Coningsby,2

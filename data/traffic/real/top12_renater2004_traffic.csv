@@ -1,0 +1,51 @@
+# topology: RENATER2004 (real topology #12) (data/topologies/real/top12_renater2004.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Rouen,Lille,5
+1,Clermont-Ferrand,Rennes,4
+2,Clermont-Ferrand,Jarville-la-Malgrange,1
+3,Nantes,Jarville-la-Malgrange,7
+4,Montpellier,Nantes,6
+5,Reims,Nice,4
+6,Corte,Bordeaux,5
+7,Jarville-la-Malgrange,Reims,2
+8,Montpellier,Strasbourg,6
+9,Orleans,Montpellier,6
+10,Reims,Strasbourg,8
+11,Lille,Clermont-Ferrand,6
+12,Compiegne,Clermont-Ferrand,5
+13,Reims,Lille,7
+14,Rouen,Clermont-Ferrand,8
+15,Nice,Montpellier,8
+16,Rennes,Poitiers,3
+17,Besancon,Lyon,4
+18,Grenoble,Rouen,1
+19,Montpellier,Rouen,5
+20,Corte,Rennes,3
+21,Marseille 04,Grenoble,3
+22,Marseille 04,Poitiers,5
+23,Nantes,Clermont-Ferrand,7
+24,Poitiers,Limoges,8
+25,Reims,Lyon,4
+26,Nantes,Toulouse,6
+27,Montpellier,Jarville-la-Malgrange,2
+28,Grenoble,Strasbourg,4
+29,Nice,Rouen,4
+30,Nice,Bordeaux,2
+31,Marseille 04,Orleans,3
+32,Reims,Clermont-Ferrand,6
+33,Bordeaux,Toulouse,5
+34,Caen,Besancon,3
+35,Nantes,Nice,2
+36,Lille,Dijon,6
+37,Lyon,Reims,2
+38,Besancon,Reims,7
+39,Besancon,Corte,7
+40,Lille,Rouen,5
+41,Orleans,Nice,3
+42,Nice,Caen,2
+43,Dijon,Paris,3
+44,Orleans,Paris,6
+45,Reims,Rennes,1
+46,Reims,Caen,4
+47,Limoges,Rouen,8

@@ -1,0 +1,510 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NOBELGERMANY (real topology #88)",
+  "description": "Real-world topology NOBELGERMANY (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Hannover",
+      "lat": 52.39,
+      "lon": 9.8,
+      "x": 1090931.0097740812,
+      "y": 6870951.984870702,
+      "up": true
+    },
+    {
+      "name": "Frankfurt am Main",
+      "lat": 50.14,
+      "lon": 8.66,
+      "x": 964026.7902697491,
+      "y": 6470556.769242779,
+      "up": true
+    },
+    {
+      "name": "Marienthal",
+      "lat": 53.55,
+      "lon": 10.08,
+      "x": 1122100.4671961975,
+      "y": 7085388.165495079,
+      "up": true
+    },
+    {
+      "name": "Norden",
+      "lat": 53.6,
+      "lon": 7.21,
+      "x": 802613.5286195024,
+      "y": 7094762.123545771,
+      "up": true
+    },
+    {
+      "name": "Bremen",
+      "lat": 53.08,
+      "lon": 8.8,
+      "x": 979611.5189808075,
+      "y": 6997809.486403392,
+      "up": true
+    },
+    {
+      "name": "Fennpfuhl",
+      "lat": 52.52,
+      "lon": 13.48,
+      "x": 1500586.7358933277,
+      "y": 6894699.801282422,
+      "up": true
+    },
+    {
+      "name": "Munich",
+      "lat": 48.15,
+      "lon": 11.55,
+      "x": 1285740.1186623098,
+      "y": 6131845.868039043,
+      "up": true
+    },
+    {
+      "name": "Ulm",
+      "lat": 48.4,
+      "lon": 9.99,
+      "x": 1112081.713024803,
+      "y": 6173660.451962929,
+      "up": true
+    },
+    {
+      "name": "Nuernberg",
+      "lat": 49.45,
+      "lon": 11.08,
+      "x": 1233419.9579894713,
+      "y": 6351564.799961716,
+      "up": true
+    },
+    {
+      "name": "Leinfelden-Echterdingen",
+      "lat": 48.73,
+      "lon": 9.12,
+      "x": 1015233.7560346548,
+      "y": 6229171.604426725,
+      "up": true
+    },
+    {
+      "name": "Karlsruhe",
+      "lat": 49.01,
+      "lon": 8.41,
+      "x": 936196.9175714307,
+      "y": 6276558.355150937,
+      "up": true
+    },
+    {
+      "name": "Mannheim",
+      "lat": 49.49,
+      "lon": 8.49,
+      "x": 945102.4768348925,
+      "y": 6358416.852966491,
+      "up": true
+    },
+    {
+      "name": "Essen",
+      "lat": 51.44,
+      "lon": 7.0,
+      "x": 779236.435552915,
+      "y": 6699496.800499528,
+      "up": true
+    },
+    {
+      "name": "Dortmund",
+      "lat": 51.51,
+      "lon": 7.48,
+      "x": 832669.7911336863,
+      "y": 6712007.502309075,
+      "up": true
+    },
+    {
+      "name": "Dusseldorf",
+      "lat": 51.22,
+      "lon": 6.78,
+      "x": 754746.1475783949,
+      "y": 6660301.826441725,
+      "up": true
+    },
+    {
+      "name": "Humboldtkolonie",
+      "lat": 50.92,
+      "lon": 7.01,
+      "x": 780349.6304608476,
+      "y": 6607154.830336354,
+      "up": true
+    },
+    {
+      "name": "Leipzig",
+      "lat": 51.34,
+      "lon": 12.38,
+      "x": 1378135.296020727,
+      "y": 6681657.586228134,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Hannover",
+      "destination": "Fennpfuhl",
+      "capacity": 40,
+      "length": 374.62,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 153.11,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 280.03,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 393.68,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Marienthal",
+      "capacity": 40,
+      "length": 195.51,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 318.22,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 393.68,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Humboldtkolonie",
+      "capacity": 40,
+      "length": 218.01,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 440.65,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Mannheim",
+      "capacity": 40,
+      "length": 109.95,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 284.82,
+      "up": true
+    },
+    {
+      "origin": "Marienthal",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 195.51,
+      "up": true
+    },
+    {
+      "origin": "Marienthal",
+      "destination": "Fennpfuhl",
+      "capacity": 40,
+      "length": 381.78,
+      "up": true
+    },
+    {
+      "origin": "Marienthal",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 149.71,
+      "up": true
+    },
+    {
+      "origin": "Norden",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 180.53,
+      "up": true
+    },
+    {
+      "origin": "Norden",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 349.67,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 153.11,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Marienthal",
+      "capacity": 40,
+      "length": 149.71,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Norden",
+      "capacity": 40,
+      "length": 180.53,
+      "up": true
+    },
+    {
+      "origin": "Fennpfuhl",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 374.62,
+      "up": true
+    },
+    {
+      "origin": "Fennpfuhl",
+      "destination": "Marienthal",
+      "capacity": 40,
+      "length": 381.78,
+      "up": true
+    },
+    {
+      "origin": "Fennpfuhl",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 227.01,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 222.89,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Ulm",
+      "capacity": 40,
+      "length": 178.12,
+      "up": true
+    },
+    {
+      "origin": "Ulm",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 178.12,
+      "up": true
+    },
+    {
+      "origin": "Ulm",
+      "destination": "Leinfelden-Echterdingen",
+      "capacity": 40,
+      "length": 110.68,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 284.82,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 222.89,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 344.2,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Leinfelden-Echterdingen",
+      "capacity": 40,
+      "length": 245.46,
+      "up": true
+    },
+    {
+      "origin": "Leinfelden-Echterdingen",
+      "destination": "Ulm",
+      "capacity": 40,
+      "length": 110.68,
+      "up": true
+    },
+    {
+      "origin": "Leinfelden-Echterdingen",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 245.46,
+      "up": true
+    },
+    {
+      "origin": "Leinfelden-Echterdingen",
+      "destination": "Karlsruhe",
+      "capacity": 40,
+      "length": 90.82,
+      "up": true
+    },
+    {
+      "origin": "Karlsruhe",
+      "destination": "Leinfelden-Echterdingen",
+      "capacity": 40,
+      "length": 90.82,
+      "up": true
+    },
+    {
+      "origin": "Karlsruhe",
+      "destination": "Mannheim",
+      "capacity": 40,
+      "length": 80.53,
+      "up": true
+    },
+    {
+      "origin": "Mannheim",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 109.95,
+      "up": true
+    },
+    {
+      "origin": "Mannheim",
+      "destination": "Karlsruhe",
+      "capacity": 40,
+      "length": 80.53,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 51.21,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Dusseldorf",
+      "capacity": 40,
+      "length": 43.27,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 280.03,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Norden",
+      "capacity": 40,
+      "length": 349.67,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 51.21,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Humboldtkolonie",
+      "capacity": 40,
+      "length": 109.98,
+      "up": true
+    },
+    {
+      "origin": "Dusseldorf",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 43.27,
+      "up": true
+    },
+    {
+      "origin": "Dusseldorf",
+      "destination": "Humboldtkolonie",
+      "capacity": 40,
+      "length": 55.54,
+      "up": true
+    },
+    {
+      "origin": "Humboldtkolonie",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 218.01,
+      "up": true
+    },
+    {
+      "origin": "Humboldtkolonie",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 109.98,
+      "up": true
+    },
+    {
+      "origin": "Humboldtkolonie",
+      "destination": "Dusseldorf",
+      "capacity": 40,
+      "length": 55.54,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 318.22,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 440.65,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Fennpfuhl",
+      "capacity": 40,
+      "length": 227.01,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 344.2,
+      "up": true
+    }
+  ]
+}

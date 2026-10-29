@@ -1,0 +1,15 @@
+# topology: LAYER42 (real topology #1) (data/topologies/real/top1_layer42.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,San Francisco,"Washington, D.C.",7
+1,Seattle,Los Angeles,4
+2,Seattle,"Washington, D.C.",6
+3,New York City,Chicago,5
+4,San Francisco,Los Angeles,2
+5,Los Angeles,New York City,3
+6,New York City,San Francisco,7
+7,New York City,Seattle,4
+8,"Washington, D.C.",Chicago,4
+9,Chicago,New York City,7
+10,New York City,"Washington, D.C.",8
+11,Chicago,"Washington, D.C.",3

@@ -1,0 +1,554 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "RAILTELINDIA (real topology #99)",
+  "description": "Real-world topology RAILTELINDIA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Jalandhar",
+      "lat": 31.3323762,
+      "lon": 75.576889,
+      "x": 8413180.799219757,
+      "y": 3675990.1676315847,
+      "up": true
+    },
+    {
+      "name": "Chandigarh",
+      "lat": 30.72984395,
+      "lon": 76.78414567016054,
+      "x": 8547571.996998813,
+      "y": 3597713.7144300663,
+      "up": true
+    },
+    {
+      "name": "Karol Bagh",
+      "lat": 28.6273928,
+      "lon": 77.1716954,
+      "x": 8590713.835581614,
+      "y": 3328306.4277445558,
+      "up": true
+    },
+    {
+      "name": "Jaipur",
+      "lat": 26.9154576,
+      "lon": 75.8189817,
+      "x": 8440130.435308527,
+      "y": 3112913.2581795184,
+      "up": true
+    },
+    {
+      "name": "Ahmedabad",
+      "lat": 23.0216238,
+      "lon": 72.5797068,
+      "x": 8079536.002901094,
+      "y": 2634633.8799569043,
+      "up": true
+    },
+    {
+      "name": "Lucknow",
+      "lat": 26.8381,
+      "lon": 80.9346001,
+      "x": 9009598.470689228,
+      "y": 3103259.003941347,
+      "up": true
+    },
+    {
+      "name": "Mumbai",
+      "lat": 19.0785451,
+      "lon": 72.878176,
+      "x": 8112761.44226257,
+      "y": 2164185.5139479786,
+      "up": true
+    },
+    {
+      "name": "Patna",
+      "lat": 25.6093239,
+      "lon": 85.1235252,
+      "x": 9475907.47979239,
+      "y": 2950773.943339147,
+      "up": true
+    },
+    {
+      "name": "Nagpur",
+      "lat": 21.1498134,
+      "lon": 79.0820556,
+      "x": 8803374.160277348,
+      "y": 2409751.2264636443,
+      "up": true
+    },
+    {
+      "name": "Kolkata",
+      "lat": 22.5726459,
+      "lon": 88.3638953,
+      "x": 9836623.82930614,
+      "y": 2580418.5513128405,
+      "up": true
+    },
+    {
+      "name": "Bhubaneshwar",
+      "lat": 20.2602964,
+      "lon": 85.8394521,
+      "x": 9555604.097745597,
+      "y": 2303892.2371014,
+      "up": true
+    },
+    {
+      "name": "Pune",
+      "lat": 18.521428,
+      "lon": 73.8544541,
+      "x": 8221440.223227195,
+      "y": 2098672.0334129226,
+      "up": true
+    },
+    {
+      "name": "Hyderabad",
+      "lat": 17.360589,
+      "lon": 78.4740613,
+      "x": 8735692.544396136,
+      "y": 1962840.4295105992,
+      "up": true
+    },
+    {
+      "name": "Bangalore",
+      "lat": 12.98815675,
+      "lon": 77.62260003796,
+      "x": 8640908.310275646,
+      "y": 1458379.2406659173,
+      "up": true
+    },
+    {
+      "name": "Mangalore",
+      "lat": 12.8698101,
+      "lon": 74.8430082,
+      "x": 8331485.562260797,
+      "y": 1444862.268844569,
+      "up": true
+    },
+    {
+      "name": "Mysore",
+      "lat": 12.3051828,
+      "lon": 76.6553609,
+      "x": 8533235.741962614,
+      "y": 1380460.0151896484,
+      "up": true
+    },
+    {
+      "name": "Chennai",
+      "lat": 13.0836939,
+      "lon": 80.270186,
+      "x": 8935636.231401356,
+      "y": 1469295.719397943,
+      "up": true
+    },
+    {
+      "name": "Coimbatore",
+      "lat": 11.0018115,
+      "lon": 76.9628425,
+      "x": 8567464.437102912,
+      "y": 1232312.2321055604,
+      "up": true
+    },
+    {
+      "name": "Cochin",
+      "lat": 9.9674277,
+      "lon": 76.2454436,
+      "x": 8487603.956859259,
+      "y": 1115208.291490692,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Jalandhar",
+      "destination": "Chandigarh",
+      "capacity": 40,
+      "length": 199.68,
+      "up": true
+    },
+    {
+      "origin": "Jalandhar",
+      "destination": "Karol Bagh",
+      "capacity": 40,
+      "length": 506.58,
+      "up": true
+    },
+    {
+      "origin": "Chandigarh",
+      "destination": "Jalandhar",
+      "capacity": 40,
+      "length": 199.68,
+      "up": true
+    },
+    {
+      "origin": "Chandigarh",
+      "destination": "Karol Bagh",
+      "capacity": 40,
+      "length": 355.14,
+      "up": true
+    },
+    {
+      "origin": "Karol Bagh",
+      "destination": "Chandigarh",
+      "capacity": 40,
+      "length": 355.14,
+      "up": true
+    },
+    {
+      "origin": "Karol Bagh",
+      "destination": "Jalandhar",
+      "capacity": 40,
+      "length": 506.58,
+      "up": true
+    },
+    {
+      "origin": "Karol Bagh",
+      "destination": "Jaipur",
+      "capacity": 40,
+      "length": 348.4,
+      "up": true
+    },
+    {
+      "origin": "Karol Bagh",
+      "destination": "Lucknow",
+      "capacity": 40,
+      "length": 630.56,
+      "up": true
+    },
+    {
+      "origin": "Karol Bagh",
+      "destination": "Nagpur",
+      "capacity": 40,
+      "length": 1280.18,
+      "up": true
+    },
+    {
+      "origin": "Jaipur",
+      "destination": "Karol Bagh",
+      "capacity": 40,
+      "length": 348.4,
+      "up": true
+    },
+    {
+      "origin": "Jaipur",
+      "destination": "Ahmedabad",
+      "capacity": 40,
+      "length": 813.35,
+      "up": true
+    },
+    {
+      "origin": "Ahmedabad",
+      "destination": "Jaipur",
+      "capacity": 40,
+      "length": 813.35,
+      "up": true
+    },
+    {
+      "origin": "Ahmedabad",
+      "destination": "Nagpur",
+      "capacity": 40,
+      "length": 1052.2,
+      "up": true
+    },
+    {
+      "origin": "Ahmedabad",
+      "destination": "Mumbai",
+      "capacity": 40,
+      "length": 659.31,
+      "up": true
+    },
+    {
+      "origin": "Lucknow",
+      "destination": "Karol Bagh",
+      "capacity": 40,
+      "length": 630.56,
+      "up": true
+    },
+    {
+      "origin": "Lucknow",
+      "destination": "Nagpur",
+      "capacity": 40,
+      "length": 989.81,
+      "up": true
+    },
+    {
+      "origin": "Lucknow",
+      "destination": "Patna",
+      "capacity": 40,
+      "length": 659.38,
+      "up": true
+    },
+    {
+      "origin": "Mumbai",
+      "destination": "Pune",
+      "capacity": 40,
+      "length": 179.99,
+      "up": true
+    },
+    {
+      "origin": "Mumbai",
+      "destination": "Ahmedabad",
+      "capacity": 40,
+      "length": 659.31,
+      "up": true
+    },
+    {
+      "origin": "Mumbai",
+      "destination": "Mangalore",
+      "capacity": 40,
+      "length": 1082.38,
+      "up": true
+    },
+    {
+      "origin": "Patna",
+      "destination": "Lucknow",
+      "capacity": 40,
+      "length": 659.38,
+      "up": true
+    },
+    {
+      "origin": "Patna",
+      "destination": "Kolkata",
+      "capacity": 40,
+      "length": 707.02,
+      "up": true
+    },
+    {
+      "origin": "Nagpur",
+      "destination": "Karol Bagh",
+      "capacity": 40,
+      "length": 1280.18,
+      "up": true
+    },
+    {
+      "origin": "Nagpur",
+      "destination": "Lucknow",
+      "capacity": 40,
+      "length": 989.81,
+      "up": true
+    },
+    {
+      "origin": "Nagpur",
+      "destination": "Ahmedabad",
+      "capacity": 40,
+      "length": 1052.2,
+      "up": true
+    },
+    {
+      "origin": "Nagpur",
+      "destination": "Bhubaneshwar",
+      "capacity": 40,
+      "length": 1064.58,
+      "up": true
+    },
+    {
+      "origin": "Nagpur",
+      "destination": "Hyderabad",
+      "capacity": 40,
+      "length": 639.22,
+      "up": true
+    },
+    {
+      "origin": "Nagpur",
+      "destination": "Pune",
+      "capacity": 40,
+      "length": 929.89,
+      "up": true
+    },
+    {
+      "origin": "Kolkata",
+      "destination": "Patna",
+      "capacity": 40,
+      "length": 707.02,
+      "up": true
+    },
+    {
+      "origin": "Kolkata",
+      "destination": "Bhubaneshwar",
+      "capacity": 40,
+      "length": 549.88,
+      "up": true
+    },
+    {
+      "origin": "Bhubaneshwar",
+      "destination": "Kolkata",
+      "capacity": 40,
+      "length": 549.88,
+      "up": true
+    },
+    {
+      "origin": "Bhubaneshwar",
+      "destination": "Nagpur",
+      "capacity": 40,
+      "length": 1064.58,
+      "up": true
+    },
+    {
+      "origin": "Bhubaneshwar",
+      "destination": "Chennai",
+      "capacity": 40,
+      "length": 1491.07,
+      "up": true
+    },
+    {
+      "origin": "Pune",
+      "destination": "Hyderabad",
+      "capacity": 40,
+      "length": 758.15,
+      "up": true
+    },
+    {
+      "origin": "Pune",
+      "destination": "Nagpur",
+      "capacity": 40,
+      "length": 929.89,
+      "up": true
+    },
+    {
+      "origin": "Pune",
+      "destination": "Mumbai",
+      "capacity": 40,
+      "length": 179.99,
+      "up": true
+    },
+    {
+      "origin": "Hyderabad",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 742.05,
+      "up": true
+    },
+    {
+      "origin": "Hyderabad",
+      "destination": "Nagpur",
+      "capacity": 40,
+      "length": 639.22,
+      "up": true
+    },
+    {
+      "origin": "Hyderabad",
+      "destination": "Pune",
+      "capacity": 40,
+      "length": 758.15,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "Chennai",
+      "capacity": 40,
+      "length": 430.51,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "Hyderabad",
+      "capacity": 40,
+      "length": 742.05,
+      "up": true
+    },
+    {
+      "origin": "Bangalore",
+      "destination": "Mysore",
+      "capacity": 40,
+      "length": 194.31,
+      "up": true
+    },
+    {
+      "origin": "Mangalore",
+      "destination": "Mumbai",
+      "capacity": 40,
+      "length": 1082.38,
+      "up": true
+    },
+    {
+      "origin": "Mangalore",
+      "destination": "Mysore",
+      "capacity": 40,
+      "length": 309.69,
+      "up": true
+    },
+    {
+      "origin": "Mangalore",
+      "destination": "Cochin",
+      "capacity": 40,
+      "length": 535.64,
+      "up": true
+    },
+    {
+      "origin": "Mysore",
+      "destination": "Mangalore",
+      "capacity": 40,
+      "length": 309.69,
+      "up": true
+    },
+    {
+      "origin": "Mysore",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 194.31,
+      "up": true
+    },
+    {
+      "origin": "Mysore",
+      "destination": "Coimbatore",
+      "capacity": 40,
+      "length": 223.12,
+      "up": true
+    },
+    {
+      "origin": "Chennai",
+      "destination": "Bhubaneshwar",
+      "capacity": 40,
+      "length": 1491.07,
+      "up": true
+    },
+    {
+      "origin": "Chennai",
+      "destination": "Bangalore",
+      "capacity": 40,
+      "length": 430.51,
+      "up": true
+    },
+    {
+      "origin": "Chennai",
+      "destination": "Coimbatore",
+      "capacity": 40,
+      "length": 641.56,
+      "up": true
+    },
+    {
+      "origin": "Coimbatore",
+      "destination": "Chennai",
+      "capacity": 40,
+      "length": 641.56,
+      "up": true
+    },
+    {
+      "origin": "Coimbatore",
+      "destination": "Mysore",
+      "capacity": 40,
+      "length": 223.12,
+      "up": true
+    },
+    {
+      "origin": "Coimbatore",
+      "destination": "Cochin",
+      "capacity": 40,
+      "length": 208.83,
+      "up": true
+    },
+    {
+      "origin": "Cochin",
+      "destination": "Coimbatore",
+      "capacity": 40,
+      "length": 208.83,
+      "up": true
+    },
+    {
+      "origin": "Cochin",
+      "destination": "Mangalore",
+      "capacity": 40,
+      "length": 535.64,
+      "up": true
+    }
+  ]
+}

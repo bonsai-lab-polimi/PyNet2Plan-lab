@@ -1,0 +1,172 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "GBLNET (real topology #110)",
+  "description": "Real-world topology GBLNET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Coningsby",
+      "lat": 53.08,
+      "lon": -0.14,
+      "x": -15584.728711058302,
+      "y": 6997809.486403392,
+      "up": true
+    },
+    {
+      "name": "London",
+      "lat": 51.51,
+      "lon": -0.13,
+      "x": -14471.533803125565,
+      "y": 6712007.502309075,
+      "up": true
+    },
+    {
+      "name": "Stockholm",
+      "lat": 59.33,
+      "lon": 18.06,
+      "x": 2010430.0037265206,
+      "y": 8252056.99630398,
+      "up": true
+    },
+    {
+      "name": "Avtovo",
+      "lat": 59.89,
+      "lon": 30.26,
+      "x": 3368527.791404458,
+      "y": 8375288.215580973,
+      "up": true
+    },
+    {
+      "name": "Moscow",
+      "lat": 55.75,
+      "lon": 37.62,
+      "x": 4187839.243642952,
+      "y": 7508807.851301947,
+      "up": true
+    },
+    {
+      "name": "Amsterdam",
+      "lat": 52.37,
+      "lon": 4.89,
+      "x": 544352.3099791077,
+      "y": 6867304.686766676,
+      "up": true
+    },
+    {
+      "name": "Frankfurt am Main",
+      "lat": 50.12,
+      "lon": 8.68,
+      "x": 966253.1800856144,
+      "y": 6467083.721426574,
+      "up": true
+    },
+    {
+      "name": "Paris",
+      "lat": 48.85,
+      "lon": 2.35,
+      "x": 261600.8033641929,
+      "y": 6249447.752791281,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Coningsby",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 521.61,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 535.62,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Avtovo",
+      "capacity": 40,
+      "length": 1032.15,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Avtovo",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 1032.15,
+      "up": true
+    },
+    {
+      "origin": "Avtovo",
+      "destination": "Moscow",
+      "capacity": 40,
+      "length": 949.87,
+      "up": true
+    },
+    {
+      "origin": "Moscow",
+      "destination": "Avtovo",
+      "capacity": 40,
+      "length": 949.87,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Coningsby",
+      "capacity": 40,
+      "length": 521.61,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "London",
+      "capacity": 40,
+      "length": 535.62,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 545.23,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 645.64,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 545.23,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 645.64,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "GETNET (real topology #109)",
+  "description": "Real-world topology GETNET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Seattle",
+      "lat": 47.61,
+      "lon": -122.33,
+      "x": -13617713.308741156,
+      "y": 6042216.250411431,
+      "up": true
+    },
+    {
+      "name": "Santa Clara",
+      "lat": 37.35,
+      "lon": -121.96,
+      "x": -13576525.097147644,
+      "y": 4488005.209215378,
+      "up": true
+    },
+    {
+      "name": "Phoenix",
+      "lat": 33.45,
+      "lon": -112.07,
+      "x": -12475575.333202168,
+      "y": 3955187.399354617,
+      "up": true
+    },
+    {
+      "name": "Tucson",
+      "lat": 32.22,
+      "lon": -110.93,
+      "x": -12348671.113697838,
+      "y": 3792223.8168781134,
+      "up": true
+    },
+    {
+      "name": "Washington, D.C.",
+      "lat": 38.9,
+      "lon": -77.04,
+      "x": -8576053.570713796,
+      "y": 4707357.536267922,
+      "up": true
+    },
+    {
+      "name": "Baltimore",
+      "lat": 39.29,
+      "lon": -76.61,
+      "x": -8528186.189672688,
+      "y": 4763297.125604976,
+      "up": true
+    },
+    {
+      "name": "Pittsburgh",
+      "lat": 40.44,
+      "lon": -80.0,
+      "x": -8905559.263461886,
+      "y": 4930089.410958573,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Seattle",
+      "destination": "Santa Clara",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Santa Clara",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Santa Clara",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 1492.6,
+      "up": true
+    },
+    {
+      "origin": "Santa Clara",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 4866.29,
+      "up": true
+    },
+    {
+      "origin": "Santa Clara",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 4516.78,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Santa Clara",
+      "capacity": 40,
+      "length": 1492.6,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Tucson",
+      "capacity": 40,
+      "length": 260.02,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 3977.39,
+      "up": true
+    },
+    {
+      "origin": "Tucson",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 260.02,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Santa Clara",
+      "capacity": 40,
+      "length": 4866.29,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 3977.39,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Baltimore",
+      "capacity": 40,
+      "length": 85.61,
+      "up": true
+    },
+    {
+      "origin": "Baltimore",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 85.61,
+      "up": true
+    },
+    {
+      "origin": "Baltimore",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 474.45,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Santa Clara",
+      "capacity": 40,
+      "length": 4516.78,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Baltimore",
+      "capacity": 40,
+      "length": 474.45,
+      "up": true
+    }
+  ]
+}

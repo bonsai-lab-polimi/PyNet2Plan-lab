@@ -1,0 +1,63 @@
+# topology: IRIS (real topology #67) (data/topologies/real/top67_iris.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Franklin,Dunlap,2
+1,Spencer,New Hope,4
+2,Spencer,Bowling Green,5
+3,Chickamauga,Wartburg,3
+4,Ardmore,Trenton,8
+5,Knoxville,Dunlap,4
+6,Pulaski,Henderson,8
+7,Huntsville,Crossville,6
+8,Huntsville,Memphis,8
+9,Scottsboro,Johnson City,8
+10,Camden,Crossville,8
+11,Huntingdon,Greeneville,3
+12,Crossville,Scottsville,4
+13,McMinnville,Rainsville,8
+14,Paris,Nashville,4
+15,Nashville,Mount Juliet,1
+16,Scottsville,Gainesboro,1
+17,Chattanooga,Gate City,8
+18,Glasgow,Gate City,4
+19,Scottsboro,Mount Juliet,7
+20,Johnson City,Camden,3
+21,Nashville,Morristown,6
+22,Brownsville,Camden,5
+23,Rainsville,Millington,2
+24,Ringgold,Nashville,3
+25,Smithville,Nashville,2
+26,Memphis,Ardmore,4
+27,Millington,Ardmore,7
+28,Lafayette,Knoxville,8
+29,Crossville,Martin,1
+30,Scottsville,Scottsboro,6
+31,New Hope,Nashville,6
+32,Nashville,Memphis,6
+33,McMinnville,Martin,4
+34,Nashville,Gate City,4
+35,Scottsboro,Gainesboro,4
+36,Ardmore,Nashville,7
+37,Paducah,Bowling Green,7
+38,Smyrna,Pulaski,2
+39,Greeneville,Mount Juliet,5
+40,Chattanooga,Martin,1
+41,Smyrna,Gainesboro,8
+42,McKenzie,Spencer,4
+43,Knoxville,Loretto,7
+44,Morristown,Henderson,2
+45,Trenton,Knoxville,1
+46,Franklin,Ringgold,2
+47,Dunlap,New Hope,8
+48,Smyrna,Rainsville,5
+49,McKenzie,Smyrna,5
+50,Union City,Spencer,3
+51,Jackson,Chattanooga,5
+52,Brownsville,Johnson City,4
+53,Brownsville,Bowling Green,8
+54,New Johnsonville,Glasgow,1
+55,Lafayette,Huntingdon,8
+56,Rainsville,Chapel Hill,7
+57,Jackson,Lafayette,7
+58,Chapel Hill,New Hope,8
+59,Scottsville,Rainsville,2

@@ -1,0 +1,15 @@
+# topology: HIBERNIAIRELAND (real topology #71) (data/topologies/real/top71_hiberniaireland.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Luimneach,Rathmines,8
+1,Luimneach,Portlaoise,3
+2,Waterford,Rathmines,3
+3,Portlaoise,Cork,6
+4,Gaillimh,Luimneach,5
+5,Portlaoise,Gaillimh,4
+6,Gaillimh,Portlaoise,8
+7,Cork,Rathmines,3
+8,Cork,Waterford,6
+9,Luimneach,Waterford,5
+10,Cork,Gaillimh,1
+11,Portlaoise,Luimneach,7

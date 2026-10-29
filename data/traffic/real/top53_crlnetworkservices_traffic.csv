@@ -1,0 +1,63 @@
+# topology: CRLNETWORKSERVICES (real topology #53) (data/topologies/real/top53_crlnetworkservices.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"Washington, D.C.",Atlanta,5
+1,Detroit,San Francisco,1
+2,Baltimore,Detroit,3
+3,Seattle,Phoenix,2
+4,Boston,New York City,8
+5,Albuquerque,Phoenix,7
+6,Concord,Boston,4
+7,Los Angeles,Portland,8
+8,San Rafael,Albuquerque,2
+9,San Francisco,Portland,6
+10,Kansas City,Austin,2
+11,Boston,Portland,8
+12,Dallas,San Diego,8
+13,"Washington, D.C.",Austin,2
+14,Austin,Denver,4
+15,San Antonio,Cleveland,1
+16,Pittsburgh,Phoenix,3
+17,Tampa,Raleigh,3
+18,Sacramento,Baltimore,3
+19,Houston,Sacramento,1
+20,Houston,San Francisco,2
+21,Raleigh,Philadelphia,5
+22,Sacramento,Dallas,8
+23,Baltimore,St. Louis,8
+24,"Washington, D.C.",Los Angeles,7
+25,Santa Rosa,Boston,8
+26,Dallas,Raleigh,1
+27,Los Angeles,Cleveland,6
+28,San Rafael,Anaheim,5
+29,St. Louis,Philadelphia,7
+30,St. Louis,Stockton,4
+31,Baltimore,Anaheim,1
+32,Houston,Phoenix,2
+33,Houston,Portland,6
+34,Boston,Pittsburgh,2
+35,Austin,San Antonio,8
+36,Austin,Los Angeles,1
+37,San Francisco,Concord,4
+38,Atlanta,Concord,5
+39,Cleveland,Houston,2
+40,Atlanta,Portland,5
+41,Cleveland,Albuquerque,5
+42,Seattle,San Rafael,3
+43,Kansas City,Boston,4
+44,Santa Rosa,Houston,6
+45,Denver,Kansas City,5
+46,Philadelphia,Raleigh,6
+47,Cleveland,Anaheim,1
+48,Detroit,Dallas,7
+49,Tampa,Philadelphia,3
+50,Chicago,"Washington, D.C.",2
+51,Portland,San Rafael,4
+52,San Jose,Santa Rosa,1
+53,Chicago,Concord,7
+54,Seattle,Boston,7
+55,Kansas City,Cleveland,1
+56,Denver,San Rafael,2
+57,Portland,Denver,2
+58,San Antonio,Atlanta,7
+59,Raleigh,Stockton,6

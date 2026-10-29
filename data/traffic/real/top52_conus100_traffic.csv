@@ -1,0 +1,63 @@
+# topology: CONUS100 (real topology #52) (data/topologies/real/top52_conus100.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"City of Albany, New York","London, England",6
+1,Berlin,"San Antonio, Texas",5
+2,"San Jose, California","Mumbai, Maharashtra",2
+3,"Mumbai, Maharashtra","Abilene, Texas",4
+4,"Century Village, Florida","London, England",4
+5,"Amsterdam, North Holland","Oakland, California",7
+6,"Toledo, Ohio","Miami, Florida",1
+7,"Frankfurt, Hesse",Singapore,8
+8,"Greensboro, North Carolina","Tulsa, Oklahoma",2
+9,Bucharest,"Spokane, Washington",8
+10,"Billings, Montana","Austin, Texas",8
+11,Singapore,"Spokane, Washington",3
+12,"Jacksonville, Florida","Mumbai, Maharashtra",4
+13,"Chicago, Illinois",Chuo,2
+14,"Mumbai, Maharashtra","Oklahoma City, Oklahoma",4
+15,"Cecil Township, Pennsylvania",Singapore,3
+16,"Madrid, Community of Madrid",Bucharest,7
+17,"New York, New York","Zurich, Zurich",4
+18,"Charleston, South Carolina","Tampa, Florida",6
+19,"Rome, Lazio","Abilene, Texas",4
+20,"Little Rock, Arkansas",Bucharest,2
+21,"Boston, Massachusetts","Warsaw, Masovian Voivodeship",8
+22,"Shanghai, Shanghai","Dongcheng District, Beijing",7
+23,Seoul,New Taipei,8
+24,"Baltimore, Maryland","San Antonio, Texas",7
+25,"Atlanta, Georgia","Wilmington, Delaware",8
+26,"London, England","Philadelphia, Pennsylvania",1
+27,"St. Louis, Missouri","Cleveland, Ohio",7
+28,"Cecil Township, Pennsylvania","Rome, Lazio",2
+29,"Christian County, Illinois","Abilene, Texas",3
+30,"El Paso, Texas","Century Village, Florida",5
+31,"St. Louis, Missouri","Fresno, California",8
+32,Bucharest,"Dongcheng District, Beijing",2
+33,"Century Village, Florida","Dongcheng District, Beijing",7
+34,"Cecil Township, Pennsylvania","Boston, Massachusetts",1
+35,"Charlotte, North Carolina","Charleston, South Carolina",4
+36,"Detroit, Michigan","Dongcheng District, Beijing",4
+37,"Boston, Massachusetts","City of Rochester, New York",3
+38,"Memphis, Tennessee","Little Rock, Arkansas",5
+39,"Tulsa, Oklahoma","Rome, Lazio",2
+40,"Raleigh, North Carolina","Milwaukee, Wisconsin",6
+41,Chuo,"Tucson, Arizona",8
+42,"Norfolk, Virginia","Tallahassee, Florida",4
+43,"City of Albany, New York","Tulsa, Oklahoma",2
+44,"Austin, Texas",Chuo,6
+45,"Norfolk, Virginia","Las Vegas, Nevada",7
+46,"Hong Kong Island, Hong Kong","Charleston, South Carolina",5
+47,"Abilene, Texas","Kamla Nehru Ridge, Delhi",1
+48,"Billings, Montana","Birmingham, Alabama",1
+49,"Spokane, Washington","Century Village, Florida",2
+50,"Scranton, Pennsylvania","Las Vegas, Nevada",4
+51,"Baton Rouge, Louisiana","Jacksonville, Florida",2
+52,"Richmond, Virginia","Jacksonville, Florida",4
+53,"Louisville, Kentucky","Zurich, Zurich",7
+54,"City of Albany, New York","Salt Lake City, Utah",7
+55,"Madrid, Community of Madrid","Phoenix, Arizona",1
+56,"Fresno, California","Rome, Lazio",2
+57,"Tallahassee, Florida","Norfolk, Virginia",6
+58,"Milwaukee, Wisconsin","Christian County, Illinois",7
+59,Bucharest,"Detroit, Michigan",1

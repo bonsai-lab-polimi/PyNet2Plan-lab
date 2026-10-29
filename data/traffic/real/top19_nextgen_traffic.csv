@@ -1,0 +1,35 @@
+# topology: NEXTGEN (real topology #19) (data/topologies/real/top19_nextgen.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Adelaide,Port Augusta,5
+1,Geelong,Parkes,7
+2,Port Augusta,Coffs Harbour,7
+3,Adelaide,Dubbo,7
+4,Geelong,Newcastle,2
+5,West Leederville,Geelong,2
+6,Coffs Harbour,Adelaide,1
+7,Moree,Canberra,8
+8,Geelong,Kalgoorlie,6
+9,Dubbo,Sydney,1
+10,Melbourne,Coffs Harbour,6
+11,Dubbo,Brisbane,5
+12,West Leederville,Parkes,2
+13,Port Augusta,Albury,1
+14,Albury,Coffs Harbour,8
+15,West Leederville,Melbourne,4
+16,Canberra,Melbourne,8
+17,Port Augusta,Brisbane,5
+18,Parkes,Port Augusta,5
+19,Sydney,Moree,4
+20,Newcastle,Adelaide,4
+21,Coffs Harbour,Dubbo,6
+22,Moree,Coffs Harbour,6
+23,Albury,Canberra,2
+24,Adelaide,Coffs Harbour,2
+25,Dubbo,Geelong,4
+26,Geelong,Albury,5
+27,Dubbo,Albury,2
+28,Sydney,Albury,5
+29,Geelong,Dubbo,6
+30,Shepparton,Geelong,1
+31,Newcastle,Dubbo,8

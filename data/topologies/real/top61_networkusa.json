@@ -1,0 +1,836 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NETWORKUSA (real topology #61)",
+  "description": "Real-world topology NETWORKUSA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "New Orleans",
+      "lat": 29.95,
+      "lon": -90.08,
+      "x": -10027659.730658082,
+      "y": 3497124.427424327,
+      "up": true
+    },
+    {
+      "name": "Thibodaux",
+      "lat": 29.8,
+      "lon": -90.82,
+      "x": -10110036.153845105,
+      "y": 3477867.526706826,
+      "up": true
+    },
+    {
+      "name": "Covington",
+      "lat": 30.48,
+      "lon": -90.1,
+      "x": -10029886.120473947,
+      "y": 3565399.791054783,
+      "up": true
+    },
+    {
+      "name": "Gulfport",
+      "lat": 30.37,
+      "lon": -89.09,
+      "x": -9917453.434772743,
+      "y": 3551199.1073284745,
+      "up": true
+    },
+    {
+      "name": "Baton Rouge",
+      "lat": 30.45,
+      "lon": -91.15,
+      "x": -10146771.585806886,
+      "y": 3561525.2887475435,
+      "up": true
+    },
+    {
+      "name": "Lafayette",
+      "lat": 30.22,
+      "lon": -92.02,
+      "x": -10243619.542797035,
+      "y": 3531860.25361641,
+      "up": true
+    },
+    {
+      "name": "Morgan City",
+      "lat": 29.7,
+      "lon": -91.21,
+      "x": -10153450.755254483,
+      "y": 3465045.6347282114,
+      "up": true
+    },
+    {
+      "name": "Hammond",
+      "lat": 30.5,
+      "lon": -90.46,
+      "x": -10069961.137159526,
+      "y": 3567983.4559358195,
+      "up": true
+    },
+    {
+      "name": "Alexandria",
+      "lat": 31.31,
+      "lon": -92.45,
+      "x": -10291486.923838142,
+      "y": 3673074.3248905605,
+      "up": true
+    },
+    {
+      "name": "Vienna Bend",
+      "lat": 31.53,
+      "lon": -92.95,
+      "x": -10347146.669234779,
+      "y": 3701772.7164792577,
+      "up": true
+    },
+    {
+      "name": "San Antonio",
+      "lat": 29.42,
+      "lon": -98.49,
+      "x": -10963856.648229513,
+      "y": 3429212.005127619,
+      "up": true
+    },
+    {
+      "name": "Austin",
+      "lat": 30.27,
+      "lon": -97.74,
+      "x": -10880367.030134559,
+      "y": 3538303.2529758886,
+      "up": true
+    },
+    {
+      "name": "College Station",
+      "lat": 30.63,
+      "lon": -96.33,
+      "x": -10723406.548116043,
+      "y": 3584790.251873634,
+      "up": true
+    },
+    {
+      "name": "Waco",
+      "lat": 31.55,
+      "lon": -97.15,
+      "x": -10814688.530566528,
+      "y": 3704385.0063570263,
+      "up": true
+    },
+    {
+      "name": "Natchitoches",
+      "lat": 31.76,
+      "lon": -93.09,
+      "x": -10362731.397945838,
+      "y": 3731847.9637193177,
+      "up": true
+    },
+    {
+      "name": "Houston",
+      "lat": 29.76,
+      "lon": -95.36,
+      "x": -10615426.642046567,
+      "y": 3472737.2348179896,
+      "up": true
+    },
+    {
+      "name": "Liberty",
+      "lat": 30.06,
+      "lon": -94.8,
+      "x": -10553087.727202334,
+      "y": 3511264.6178822424,
+      "up": true
+    },
+    {
+      "name": "Opelousas",
+      "lat": 30.53,
+      "lon": -92.08,
+      "x": -10250298.71224463,
+      "y": 3571859.9496044475,
+      "up": true
+    },
+    {
+      "name": "Bunkie",
+      "lat": 30.84,
+      "lon": -92.26,
+      "x": -10270336.220587421,
+      "y": 3611987.4840248586,
+      "up": true
+    },
+    {
+      "name": "Fort Polk South",
+      "lat": 31.05,
+      "lon": -93.21,
+      "x": -10376089.736841029,
+      "y": 3639244.2990106023,
+      "up": true
+    },
+    {
+      "name": "Coushatta",
+      "lat": 32.01,
+      "lon": -93.34,
+      "x": -10390561.270644156,
+      "y": 3764623.3541299687,
+      "up": true
+    },
+    {
+      "name": "China",
+      "lat": 30.04,
+      "lon": -94.42,
+      "x": -10510786.320700891,
+      "y": 3508692.50744769,
+      "up": true
+    },
+    {
+      "name": "Beaumont",
+      "lat": 30.09,
+      "lon": -94.1,
+      "x": -10475164.083647043,
+      "y": 3515123.7580839875,
+      "up": true
+    },
+    {
+      "name": "Lake Charles",
+      "lat": 30.21,
+      "lon": -93.2,
+      "x": -10374976.541933097,
+      "y": 3530572.046913768,
+      "up": true
+    },
+    {
+      "name": "DeRidder",
+      "lat": 30.85,
+      "lon": -93.29,
+      "x": -10384995.296104493,
+      "y": 3613284.071549151,
+      "up": true
+    },
+    {
+      "name": "Jackson",
+      "lat": 32.3,
+      "lon": -90.18,
+      "x": -10038791.679737411,
+      "y": 3802755.0318591143,
+      "up": true
+    },
+    {
+      "name": "Slidell",
+      "lat": 30.28,
+      "lon": -89.78,
+      "x": -9994263.8834201,
+      "y": 3539592.246478634,
+      "up": true
+    },
+    {
+      "name": "Dallas",
+      "lat": 32.78,
+      "lon": -96.81,
+      "x": -10776839.903696815,
+      "y": 3866138.9184606387,
+      "up": true
+    },
+    {
+      "name": "Tyler",
+      "lat": 32.35,
+      "lon": -95.3,
+      "x": -10608747.472598972,
+      "y": 3809341.761436934,
+      "up": true
+    },
+    {
+      "name": "Longview",
+      "lat": 32.5,
+      "lon": -94.74,
+      "x": -10546408.557754738,
+      "y": 3829123.8370284406,
+      "up": true
+    },
+    {
+      "name": "Shreveport",
+      "lat": 32.53,
+      "lon": -93.75,
+      "x": -10436202.261869397,
+      "y": 3833084.206804835,
+      "up": true
+    },
+    {
+      "name": "Bossier City",
+      "lat": 32.52,
+      "lon": -93.73,
+      "x": -10433975.872053532,
+      "y": 3831763.9366649124,
+      "up": true
+    },
+    {
+      "name": "Minden",
+      "lat": 32.62,
+      "lon": -93.29,
+      "x": -10384995.296104493,
+      "y": 3844973.2608519606,
+      "up": true
+    },
+    {
+      "name": "Ruston",
+      "lat": 32.52,
+      "lon": -92.64,
+      "x": -10312637.627088863,
+      "y": 3831763.9366649124,
+      "up": true
+    },
+    {
+      "name": "Monroe",
+      "lat": 32.51,
+      "lon": -92.12,
+      "x": -10254751.491876362,
+      "y": 3830443.8134304113,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "New Orleans",
+      "destination": "Thibodaux",
+      "capacity": 40,
+      "length": 109.91,
+      "up": true
+    },
+    {
+      "origin": "New Orleans",
+      "destination": "Gulfport",
+      "capacity": 40,
+      "length": 159.03,
+      "up": true
+    },
+    {
+      "origin": "New Orleans",
+      "destination": "Hammond",
+      "capacity": 40,
+      "length": 106.84,
+      "up": true
+    },
+    {
+      "origin": "Thibodaux",
+      "destination": "New Orleans",
+      "capacity": 40,
+      "length": 109.91,
+      "up": true
+    },
+    {
+      "origin": "Thibodaux",
+      "destination": "Morgan City",
+      "capacity": 40,
+      "length": 58.89,
+      "up": true
+    },
+    {
+      "origin": "Covington",
+      "destination": "Slidell",
+      "capacity": 40,
+      "length": 56.86,
+      "up": true
+    },
+    {
+      "origin": "Covington",
+      "destination": "Hammond",
+      "capacity": 40,
+      "length": 51.85,
+      "up": true
+    },
+    {
+      "origin": "Gulfport",
+      "destination": "New Orleans",
+      "capacity": 40,
+      "length": 159.03,
+      "up": true
+    },
+    {
+      "origin": "Gulfport",
+      "destination": "Slidell",
+      "capacity": 40,
+      "length": 100.47,
+      "up": true
+    },
+    {
+      "origin": "Baton Rouge",
+      "destination": "Lafayette",
+      "capacity": 40,
+      "length": 130.99,
+      "up": true
+    },
+    {
+      "origin": "Baton Rouge",
+      "destination": "Hammond",
+      "capacity": 40,
+      "length": 99.54,
+      "up": true
+    },
+    {
+      "origin": "Lafayette",
+      "destination": "Baton Rouge",
+      "capacity": 40,
+      "length": 130.99,
+      "up": true
+    },
+    {
+      "origin": "Lafayette",
+      "destination": "Opelousas",
+      "capacity": 40,
+      "length": 52.42,
+      "up": true
+    },
+    {
+      "origin": "Lafayette",
+      "destination": "Morgan City",
+      "capacity": 40,
+      "length": 145.68,
+      "up": true
+    },
+    {
+      "origin": "Lafayette",
+      "destination": "Lake Charles",
+      "capacity": 40,
+      "length": 170.08,
+      "up": true
+    },
+    {
+      "origin": "Morgan City",
+      "destination": "Thibodaux",
+      "capacity": 40,
+      "length": 58.89,
+      "up": true
+    },
+    {
+      "origin": "Morgan City",
+      "destination": "Lafayette",
+      "capacity": 40,
+      "length": 145.68,
+      "up": true
+    },
+    {
+      "origin": "Hammond",
+      "destination": "New Orleans",
+      "capacity": 40,
+      "length": 106.84,
+      "up": true
+    },
+    {
+      "origin": "Hammond",
+      "destination": "Covington",
+      "capacity": 40,
+      "length": 51.85,
+      "up": true
+    },
+    {
+      "origin": "Hammond",
+      "destination": "Baton Rouge",
+      "capacity": 40,
+      "length": 99.54,
+      "up": true
+    },
+    {
+      "origin": "Hammond",
+      "destination": "Jackson",
+      "capacity": 40,
+      "length": 302.86,
+      "up": true
+    },
+    {
+      "origin": "Alexandria",
+      "destination": "Vienna Bend",
+      "capacity": 40,
+      "length": 80.07,
+      "up": true
+    },
+    {
+      "origin": "Alexandria",
+      "destination": "Bunkie",
+      "capacity": 40,
+      "length": 82.96,
+      "up": true
+    },
+    {
+      "origin": "Vienna Bend",
+      "destination": "Alexandria",
+      "capacity": 40,
+      "length": 80.07,
+      "up": true
+    },
+    {
+      "origin": "Vienna Bend",
+      "destination": "Natchitoches",
+      "capacity": 40,
+      "length": 43.21,
+      "up": true
+    },
+    {
+      "origin": "San Antonio",
+      "destination": "Austin",
+      "capacity": 40,
+      "length": 178.53,
+      "up": true
+    },
+    {
+      "origin": "San Antonio",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 457.49,
+      "up": true
+    },
+    {
+      "origin": "Austin",
+      "destination": "San Antonio",
+      "capacity": 40,
+      "length": 178.53,
+      "up": true
+    },
+    {
+      "origin": "Austin",
+      "destination": "College Station",
+      "capacity": 40,
+      "length": 211.44,
+      "up": true
+    },
+    {
+      "origin": "College Station",
+      "destination": "Austin",
+      "capacity": 40,
+      "length": 211.44,
+      "up": true
+    },
+    {
+      "origin": "College Station",
+      "destination": "Waco",
+      "capacity": 40,
+      "length": 193.04,
+      "up": true
+    },
+    {
+      "origin": "Waco",
+      "destination": "College Station",
+      "capacity": 40,
+      "length": 193.04,
+      "up": true
+    },
+    {
+      "origin": "Waco",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 210.7,
+      "up": true
+    },
+    {
+      "origin": "Natchitoches",
+      "destination": "Vienna Bend",
+      "capacity": 40,
+      "length": 43.21,
+      "up": true
+    },
+    {
+      "origin": "Natchitoches",
+      "destination": "Coushatta",
+      "capacity": 40,
+      "length": 54.7,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "San Antonio",
+      "capacity": 40,
+      "length": 457.49,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Liberty",
+      "capacity": 40,
+      "length": 95.18,
+      "up": true
+    },
+    {
+      "origin": "Liberty",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 95.18,
+      "up": true
+    },
+    {
+      "origin": "Liberty",
+      "destination": "China",
+      "capacity": 40,
+      "length": 54.96,
+      "up": true
+    },
+    {
+      "origin": "Opelousas",
+      "destination": "Lafayette",
+      "capacity": 40,
+      "length": 52.42,
+      "up": true
+    },
+    {
+      "origin": "Opelousas",
+      "destination": "Bunkie",
+      "capacity": 40,
+      "length": 57.79,
+      "up": true
+    },
+    {
+      "origin": "Bunkie",
+      "destination": "Alexandria",
+      "capacity": 40,
+      "length": 82.96,
+      "up": true
+    },
+    {
+      "origin": "Bunkie",
+      "destination": "Opelousas",
+      "capacity": 40,
+      "length": 57.79,
+      "up": true
+    },
+    {
+      "origin": "Fort Polk South",
+      "destination": "DeRidder",
+      "capacity": 40,
+      "length": 35.27,
+      "up": true
+    },
+    {
+      "origin": "Coushatta",
+      "destination": "Natchitoches",
+      "capacity": 40,
+      "length": 54.7,
+      "up": true
+    },
+    {
+      "origin": "Coushatta",
+      "destination": "Shreveport",
+      "capacity": 40,
+      "length": 104.24,
+      "up": true
+    },
+    {
+      "origin": "China",
+      "destination": "Liberty",
+      "capacity": 40,
+      "length": 54.96,
+      "up": true
+    },
+    {
+      "origin": "China",
+      "destination": "Beaumont",
+      "capacity": 40,
+      "length": 46.94,
+      "up": true
+    },
+    {
+      "origin": "Beaumont",
+      "destination": "China",
+      "capacity": 40,
+      "length": 46.94,
+      "up": true
+    },
+    {
+      "origin": "Beaumont",
+      "destination": "Lake Charles",
+      "capacity": 40,
+      "length": 131.34,
+      "up": true
+    },
+    {
+      "origin": "Lake Charles",
+      "destination": "Lafayette",
+      "capacity": 40,
+      "length": 170.08,
+      "up": true
+    },
+    {
+      "origin": "Lake Charles",
+      "destination": "Beaumont",
+      "capacity": 40,
+      "length": 131.34,
+      "up": true
+    },
+    {
+      "origin": "Lake Charles",
+      "destination": "DeRidder",
+      "capacity": 40,
+      "length": 107.53,
+      "up": true
+    },
+    {
+      "origin": "DeRidder",
+      "destination": "Fort Polk South",
+      "capacity": 40,
+      "length": 35.27,
+      "up": true
+    },
+    {
+      "origin": "DeRidder",
+      "destination": "Lake Charles",
+      "capacity": 40,
+      "length": 107.53,
+      "up": true
+    },
+    {
+      "origin": "Jackson",
+      "destination": "Hammond",
+      "capacity": 40,
+      "length": 302.86,
+      "up": true
+    },
+    {
+      "origin": "Jackson",
+      "destination": "Shreveport",
+      "capacity": 40,
+      "length": 504.11,
+      "up": true
+    },
+    {
+      "origin": "Slidell",
+      "destination": "Covington",
+      "capacity": 40,
+      "length": 56.86,
+      "up": true
+    },
+    {
+      "origin": "Slidell",
+      "destination": "Gulfport",
+      "capacity": 40,
+      "length": 100.47,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Waco",
+      "capacity": 40,
+      "length": 210.7,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Tyler",
+      "capacity": 40,
+      "length": 224.05,
+      "up": true
+    },
+    {
+      "origin": "Tyler",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 224.05,
+      "up": true
+    },
+    {
+      "origin": "Tyler",
+      "destination": "Longview",
+      "capacity": 40,
+      "length": 82.72,
+      "up": true
+    },
+    {
+      "origin": "Longview",
+      "destination": "Tyler",
+      "capacity": 40,
+      "length": 82.72,
+      "up": true
+    },
+    {
+      "origin": "Longview",
+      "destination": "Shreveport",
+      "capacity": 40,
+      "length": 139.33,
+      "up": true
+    },
+    {
+      "origin": "Shreveport",
+      "destination": "Coushatta",
+      "capacity": 40,
+      "length": 104.24,
+      "up": true
+    },
+    {
+      "origin": "Shreveport",
+      "destination": "Jackson",
+      "capacity": 40,
+      "length": 504.11,
+      "up": true
+    },
+    {
+      "origin": "Shreveport",
+      "destination": "Longview",
+      "capacity": 40,
+      "length": 139.33,
+      "up": true
+    },
+    {
+      "origin": "Shreveport",
+      "destination": "Monroe",
+      "capacity": 40,
+      "length": 229.27,
+      "up": true
+    },
+    {
+      "origin": "Shreveport",
+      "destination": "Bossier City",
+      "capacity": 40,
+      "length": 3.27,
+      "up": true
+    },
+    {
+      "origin": "Bossier City",
+      "destination": "Shreveport",
+      "capacity": 40,
+      "length": 3.27,
+      "up": true
+    },
+    {
+      "origin": "Bossier City",
+      "destination": "Minden",
+      "capacity": 40,
+      "length": 64.06,
+      "up": true
+    },
+    {
+      "origin": "Minden",
+      "destination": "Bossier City",
+      "capacity": 40,
+      "length": 64.06,
+      "up": true
+    },
+    {
+      "origin": "Minden",
+      "destination": "Ruston",
+      "capacity": 40,
+      "length": 92.87,
+      "up": true
+    },
+    {
+      "origin": "Ruston",
+      "destination": "Minden",
+      "capacity": 40,
+      "length": 92.87,
+      "up": true
+    },
+    {
+      "origin": "Ruston",
+      "destination": "Monroe",
+      "capacity": 40,
+      "length": 73.16,
+      "up": true
+    },
+    {
+      "origin": "Monroe",
+      "destination": "Shreveport",
+      "capacity": 40,
+      "length": 229.27,
+      "up": true
+    },
+    {
+      "origin": "Monroe",
+      "destination": "Ruston",
+      "capacity": 40,
+      "length": 73.16,
+      "up": true
+    }
+  ]
+}

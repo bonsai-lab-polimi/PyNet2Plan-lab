@@ -1,0 +1,1596 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "CORONET (real topology #100)",
+  "description": "Real-world topology CORONET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "West Albany",
+      "lat": 42.67,
+      "lon": -73.8,
+      "x": -8215378.42054359,
+      "y": 5261876.613608218,
+      "up": true
+    },
+    {
+      "name": "Lee Acres",
+      "lat": 35.12,
+      "lon": -106.62,
+      "x": -11868884.10837883,
+      "y": 4180200.6459643054,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.76,
+      "lon": -84.42,
+      "x": -9397591.412768155,
+      "y": 3996621.2358357143,
+      "up": true
+    },
+    {
+      "name": "Baltimore",
+      "lat": 39.3,
+      "lon": -76.61,
+      "x": -8528186.189672688,
+      "y": 4764735.556168864,
+      "up": true
+    },
+    {
+      "name": "Baton Rouge",
+      "lat": 30.45,
+      "lon": -91.13,
+      "x": -10144545.195991019,
+      "y": 3561525.2887475435,
+      "up": true
+    },
+    {
+      "name": "Billings",
+      "lat": 45.79,
+      "lon": -108.54,
+      "x": -12082617.530701913,
+      "y": 5746760.199843881,
+      "up": true
+    },
+    {
+      "name": "Birmingham",
+      "lat": 33.53,
+      "lon": -86.8,
+      "x": -9662531.800856145,
+      "y": 3965865.7582634063,
+      "up": true
+    },
+    {
+      "name": "South Boston",
+      "lat": 42.34,
+      "lon": -71.02,
+      "x": -7905910.236138289,
+      "y": 5212046.6457833825,
+      "up": true
+    },
+    {
+      "name": "Buffalo",
+      "lat": 42.89,
+      "lon": -78.86,
+      "x": -8778655.043957554,
+      "y": 5295243.684788868,
+      "up": true
+    },
+    {
+      "name": "Charlotte",
+      "lat": 35.2,
+      "lon": -80.83,
+      "x": -8997954.440820303,
+      "y": 4191093.6702733617,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.84,
+      "lon": -87.68,
+      "x": -9760492.952754227,
+      "y": 5137042.270165925,
+      "up": true
+    },
+    {
+      "name": "Saint Bernard",
+      "lat": 39.14,
+      "lon": -84.51,
+      "x": -9407610.166939551,
+      "y": 4741745.257527567,
+      "up": true
+    },
+    {
+      "name": "Cleveland",
+      "lat": 41.48,
+      "lon": -81.68,
+      "x": -9092576.007994587,
+      "y": 5083401.449349535,
+      "up": true
+    },
+    {
+      "name": "Columbus",
+      "lat": 39.99,
+      "lon": -82.99,
+      "x": -9238404.540933773,
+      "y": 4864489.213147095,
+      "up": true
+    },
+    {
+      "name": "Dallas",
+      "lat": 32.79,
+      "lon": -96.77,
+      "x": -10772387.124065083,
+      "y": 3867463.033836479,
+      "up": true
+    },
+    {
+      "name": "Aurora",
+      "lat": 39.77,
+      "lon": -104.87,
+      "x": -11674074.9994906,
+      "y": 4832575.381175317,
+      "up": true
+    },
+    {
+      "name": "Highland Park",
+      "lat": 42.38,
+      "lon": -83.1,
+      "x": -9250649.684921034,
+      "y": 5218072.6624613535,
+      "up": true
+    },
+    {
+      "name": "Fort Bliss",
+      "lat": 31.85,
+      "lon": -106.44,
+      "x": -11848846.600036038,
+      "y": 3743636.861580953,
+      "up": true
+    },
+    {
+      "name": "Greensboro",
+      "lat": 36.08,
+      "lon": -79.83,
+      "x": -8886634.950027028,
+      "y": 4311634.8394730585,
+      "up": true
+    },
+    {
+      "name": "Hartford",
+      "lat": 41.77,
+      "lon": -72.68,
+      "x": -8090700.5908551235,
+      "y": 5126588.581922749,
+      "up": true
+    },
+    {
+      "name": "Houston",
+      "lat": 29.77,
+      "lon": -95.39,
+      "x": -10618766.226770367,
+      "y": 3474019.61567694,
+      "up": true
+    },
+    {
+      "name": "Jacksonville",
+      "lat": 30.33,
+      "lon": -81.66,
+      "x": -9090349.61817872,
+      "y": 3546039.1857780847,
+      "up": true
+    },
+    {
+      "name": "Shawnee",
+      "lat": 39.12,
+      "lon": -94.73,
+      "x": -10545295.362846807,
+      "y": 4738875.148346363,
+      "up": true
+    },
+    {
+      "name": "Las Vegas",
+      "lat": 36.21,
+      "lon": -115.22,
+      "x": -12826231.729200982,
+      "y": 4329555.654940513,
+      "up": true
+    },
+    {
+      "name": "Little Rock",
+      "lat": 34.72,
+      "lon": -92.35,
+      "x": -10280354.974758813,
+      "y": 4125895.065939439,
+      "up": true
+    },
+    {
+      "name": "Beverly Hills",
+      "lat": 34.11,
+      "lon": -118.41,
+      "x": -13181340.904831521,
+      "y": 4043581.9194533834,
+      "up": true
+    },
+    {
+      "name": "Audubon Park",
+      "lat": 38.22,
+      "lon": -85.74,
+      "x": -9544533.140615275,
+      "y": 4610551.221210517,
+      "up": true
+    },
+    {
+      "name": "Miami",
+      "lat": 25.78,
+      "lon": -80.21,
+      "x": -8928936.356528472,
+      "y": 2971858.417348545,
+      "up": true
+    },
+    {
+      "name": "Wauwatosa",
+      "lat": 43.06,
+      "lon": -87.97,
+      "x": -9792775.605084276,
+      "y": 5321108.922448167,
+      "up": true
+    },
+    {
+      "name": "Minneapolis",
+      "lat": 44.96,
+      "lon": -93.27,
+      "x": -10382768.906288626,
+      "y": 5615226.501443972,
+      "up": true
+    },
+    {
+      "name": "Nashville",
+      "lat": 36.17,
+      "lon": -86.78,
+      "x": -9660305.41104028,
+      "y": 4324038.393311035,
+      "up": true
+    },
+    {
+      "name": "Chalmette",
+      "lat": 30.07,
+      "lon": -89.93,
+      "x": -10010961.807039093,
+      "y": 3512550.867944062,
+      "up": true
+    },
+    {
+      "name": "Brooklyn",
+      "lat": 40.67,
+      "lon": -73.94,
+      "x": -8230963.149254647,
+      "y": 4963787.917700045,
+      "up": true
+    },
+    {
+      "name": "Newark",
+      "lat": 40.72,
+      "lon": -74.17,
+      "x": -8256566.632137101,
+      "y": 4971129.040475636,
+      "up": true
+    },
+    {
+      "name": "Alameda",
+      "lat": 37.77,
+      "lon": -122.22,
+      "x": -13605468.164753897,
+      "y": 4546985.28443041,
+      "up": true
+    },
+    {
+      "name": "Ralston",
+      "lat": 41.26,
+      "lon": -96.01,
+      "x": -10687784.311062196,
+      "y": 5050767.5757392915,
+      "up": true
+    },
+    {
+      "name": "Philadelphia",
+      "lat": 40.01,
+      "lon": -75.13,
+      "x": -8363433.343298643,
+      "y": 4867395.5586771555,
+      "up": true
+    },
+    {
+      "name": "Phoenix",
+      "lat": 33.54,
+      "lon": -112.07,
+      "x": -12475575.333202168,
+      "y": 3967201.247321001,
+      "up": true
+    },
+    {
+      "name": "Thompsonville",
+      "lat": 40.3,
+      "lon": -80.13,
+      "x": -8920030.797265012,
+      "y": 4909633.711705323,
+      "up": true
+    },
+    {
+      "name": "Portland",
+      "lat": 45.54,
+      "lon": -122.66,
+      "x": -13654448.740702936,
+      "y": 5706937.852318865,
+      "up": true
+    },
+    {
+      "name": "Providence",
+      "lat": 41.82,
+      "lon": -71.42,
+      "x": -7950438.032455598,
+      "y": 5134054.336379711,
+      "up": true
+    },
+    {
+      "name": "West Raleigh",
+      "lat": 35.82,
+      "lon": -78.66,
+      "x": -8756391.145798897,
+      "y": 4275881.832240712,
+      "up": true
+    },
+    {
+      "name": "Sacramento",
+      "lat": 38.57,
+      "lon": -121.47,
+      "x": -13521978.54665894,
+      "y": 4660263.597327801,
+      "up": true
+    },
+    {
+      "name": "Salt Lake City",
+      "lat": 40.78,
+      "lon": -111.93,
+      "x": -12459990.60449111,
+      "y": 4979945.670525387,
+      "up": true
+    },
+    {
+      "name": "Olmos Park",
+      "lat": 29.46,
+      "lon": -98.51,
+      "x": -10966083.03804538,
+      "y": 3434325.0245944713,
+      "up": true
+    },
+    {
+      "name": "San Diego",
+      "lat": 32.81,
+      "lon": -117.14,
+      "x": -13039965.151524065,
+      "y": 3870111.711320569,
+      "up": true
+    },
+    {
+      "name": "South San Francisco",
+      "lat": 37.66,
+      "lon": -122.42,
+      "x": -13627732.06291255,
+      "y": 4531505.933488075,
+      "up": true
+    },
+    {
+      "name": "Seven Trees",
+      "lat": 37.3,
+      "lon": -121.85,
+      "x": -13564279.953160385,
+      "y": 4481005.822925863,
+      "up": true
+    },
+    {
+      "name": "Mission Canyon",
+      "lat": 34.43,
+      "lon": -119.72,
+      "x": -13327169.437770713,
+      "y": 4086687.7006957666,
+      "up": true
+    },
+    {
+      "name": "Scranton",
+      "lat": 41.4,
+      "lon": -75.67,
+      "x": -8423545.86832701,
+      "y": 5071521.8114256095,
+      "up": true
+    },
+    {
+      "name": "Seattle",
+      "lat": 47.62,
+      "lon": -122.35,
+      "x": -13619939.698557021,
+      "y": 6043867.607760327,
+      "up": true
+    },
+    {
+      "name": "St. Louis",
+      "lat": 38.64,
+      "lon": -90.24,
+      "x": -10045470.849185007,
+      "y": 4670235.067874197,
+      "up": true
+    },
+    {
+      "name": "Syracuse",
+      "lat": 43.04,
+      "lon": -76.14,
+      "x": -8475866.028999848,
+      "y": 5318062.23800229,
+      "up": true
+    },
+    {
+      "name": "Tallahassee",
+      "lat": 30.46,
+      "lon": -84.28,
+      "x": -9382006.684057096,
+      "y": 3562816.6569368304,
+      "up": true
+    },
+    {
+      "name": "Tampa",
+      "lat": 27.96,
+      "lon": -82.48,
+      "x": -9181631.600629205,
+      "y": 3243931.6401613653,
+      "up": true
+    },
+    {
+      "name": "Toledo",
+      "lat": 41.66,
+      "lon": -83.58,
+      "x": -9304083.040501805,
+      "y": 5110184.376415231,
+      "up": true
+    },
+    {
+      "name": "Tucson",
+      "lat": 32.2,
+      "lon": -110.89,
+      "x": -12344218.334066106,
+      "y": 3789592.461902773,
+      "up": true
+    },
+    {
+      "name": "Tulsa",
+      "lat": 36.13,
+      "lon": -95.92,
+      "x": -10677765.5568908,
+      "y": 4318523.946940986,
+      "up": true
+    },
+    {
+      "name": "Washington, D.C.",
+      "lat": 38.91,
+      "lon": -77.02,
+      "x": -8573827.180897929,
+      "y": 4708788.03174848,
+      "up": true
+    },
+    {
+      "name": "Schall Circle",
+      "lat": 26.75,
+      "lon": -80.13,
+      "x": -8920030.797265012,
+      "y": 3092272.122885534,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "West Albany",
+      "destination": "South Boston",
+      "capacity": 40,
+      "length": 346.22,
+      "up": true
+    },
+    {
+      "origin": "West Albany",
+      "destination": "Syracuse",
+      "capacity": 40,
+      "length": 292.68,
+      "up": true
+    },
+    {
+      "origin": "Lee Acres",
+      "destination": "Aurora",
+      "capacity": 40,
+      "length": 809.41,
+      "up": true
+    },
+    {
+      "origin": "Lee Acres",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 545.99,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 332.68,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 548.88,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Jacksonville",
+      "capacity": 40,
+      "length": 692.42,
+      "up": true
+    },
+    {
+      "origin": "Baltimore",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 223.92,
+      "up": true
+    },
+    {
+      "origin": "Baltimore",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 83.95,
+      "up": true
+    },
+    {
+      "origin": "Baton Rouge",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 624.99,
+      "up": true
+    },
+    {
+      "origin": "Baton Rouge",
+      "destination": "Chalmette",
+      "capacity": 40,
+      "length": 184.13,
+      "up": true
+    },
+    {
+      "origin": "Billings",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Billings",
+      "destination": "Minneapolis",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 332.68,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Nashville",
+      "capacity": 40,
+      "length": 440.34,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Chalmette",
+      "capacity": 40,
+      "length": 727.85,
+      "up": true
+    },
+    {
+      "origin": "South Boston",
+      "destination": "West Albany",
+      "capacity": 40,
+      "length": 346.22,
+      "up": true
+    },
+    {
+      "origin": "South Boston",
+      "destination": "Providence",
+      "capacity": 40,
+      "length": 99.87,
+      "up": true
+    },
+    {
+      "origin": "Buffalo",
+      "destination": "Syracuse",
+      "capacity": 40,
+      "length": 332.91,
+      "up": true
+    },
+    {
+      "origin": "Buffalo",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 420.41,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 548.88,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Greensboro",
+      "capacity": 40,
+      "length": 199.79,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "St. Louis",
+      "capacity": 40,
+      "length": 625.31,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Highland Park",
+      "capacity": 40,
+      "length": 573.75,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Wauwatosa",
+      "capacity": 40,
+      "length": 206.59,
+      "up": true
+    },
+    {
+      "origin": "Saint Bernard",
+      "destination": "Columbus",
+      "capacity": 40,
+      "length": 241.44,
+      "up": true
+    },
+    {
+      "origin": "Saint Bernard",
+      "destination": "Audubon Park",
+      "capacity": 40,
+      "length": 221.8,
+      "up": true
+    },
+    {
+      "origin": "Saint Bernard",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 971.01,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Buffalo",
+      "capacity": 40,
+      "length": 420.41,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Columbus",
+      "capacity": 40,
+      "length": 298.61,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Toledo",
+      "capacity": 40,
+      "length": 238.98,
+      "up": true
+    },
+    {
+      "origin": "Columbus",
+      "destination": "Saint Bernard",
+      "capacity": 40,
+      "length": 241.44,
+      "up": true
+    },
+    {
+      "origin": "Columbus",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 298.61,
+      "up": true
+    },
+    {
+      "origin": "Columbus",
+      "destination": "Thompsonville",
+      "capacity": 40,
+      "length": 368.28,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Tulsa",
+      "capacity": 40,
+      "length": 569.21,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 1371.5,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 540.74,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Little Rock",
+      "capacity": 40,
+      "length": 692.23,
+      "up": true
+    },
+    {
+      "origin": "Aurora",
+      "destination": "Lee Acres",
+      "capacity": 40,
+      "length": 809.41,
+      "up": true
+    },
+    {
+      "origin": "Aurora",
+      "destination": "Ralston",
+      "capacity": 40,
+      "length": 1150.06,
+      "up": true
+    },
+    {
+      "origin": "Aurora",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 913.8,
+      "up": true
+    },
+    {
+      "origin": "Highland Park",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 573.75,
+      "up": true
+    },
+    {
+      "origin": "Highland Park",
+      "destination": "Toledo",
+      "capacity": 40,
+      "length": 134.01,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "Lee Acres",
+      "capacity": 40,
+      "length": 545.99,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1371.5,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "Olmos Park",
+      "capacity": 40,
+      "length": 1205.25,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "Tucson",
+      "capacity": 40,
+      "length": 631.93,
+      "up": true
+    },
+    {
+      "origin": "Greensboro",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 199.79,
+      "up": true
+    },
+    {
+      "origin": "Greensboro",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 600.83,
+      "up": true
+    },
+    {
+      "origin": "Greensboro",
+      "destination": "Audubon Park",
+      "capacity": 40,
+      "length": 862.74,
+      "up": true
+    },
+    {
+      "origin": "Greensboro",
+      "destination": "West Raleigh",
+      "capacity": 40,
+      "length": 163.82,
+      "up": true
+    },
+    {
+      "origin": "Hartford",
+      "destination": "Brooklyn",
+      "capacity": 40,
+      "length": 242.17,
+      "up": true
+    },
+    {
+      "origin": "Hartford",
+      "destination": "Providence",
+      "capacity": 40,
+      "length": 156.9,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Baton Rouge",
+      "capacity": 40,
+      "length": 624.99,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 540.74,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Olmos Park",
+      "capacity": 40,
+      "length": 455.34,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 692.42,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville",
+      "destination": "West Raleigh",
+      "capacity": 40,
+      "length": 1006.97,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville",
+      "destination": "Schall Circle",
+      "capacity": 40,
+      "length": 637.79,
+      "up": true
+    },
+    {
+      "origin": "Shawnee",
+      "destination": "Ralston",
+      "capacity": 40,
+      "length": 392.42,
+      "up": true
+    },
+    {
+      "origin": "Shawnee",
+      "destination": "St. Louis",
+      "capacity": 40,
+      "length": 588.4,
+      "up": true
+    },
+    {
+      "origin": "Shawnee",
+      "destination": "Tulsa",
+      "capacity": 40,
+      "length": 522.88,
+      "up": true
+    },
+    {
+      "origin": "Las Vegas",
+      "destination": "Alameda",
+      "capacity": 40,
+      "length": 967.91,
+      "up": true
+    },
+    {
+      "origin": "Las Vegas",
+      "destination": "Beverly Hills",
+      "capacity": 40,
+      "length": 558.42,
+      "up": true
+    },
+    {
+      "origin": "Las Vegas",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 619.69,
+      "up": true
+    },
+    {
+      "origin": "Las Vegas",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 874.74,
+      "up": true
+    },
+    {
+      "origin": "Little Rock",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 692.23,
+      "up": true
+    },
+    {
+      "origin": "Little Rock",
+      "destination": "Nashville",
+      "capacity": 40,
+      "length": 794.42,
+      "up": true
+    },
+    {
+      "origin": "Beverly Hills",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 558.42,
+      "up": true
+    },
+    {
+      "origin": "Beverly Hills",
+      "destination": "San Diego",
+      "capacity": 40,
+      "length": 279.72,
+      "up": true
+    },
+    {
+      "origin": "Beverly Hills",
+      "destination": "Mission Canyon",
+      "capacity": 40,
+      "length": 188.29,
+      "up": true
+    },
+    {
+      "origin": "Audubon Park",
+      "destination": "Saint Bernard",
+      "capacity": 40,
+      "length": 221.8,
+      "up": true
+    },
+    {
+      "origin": "Audubon Park",
+      "destination": "Greensboro",
+      "capacity": 40,
+      "length": 862.74,
+      "up": true
+    },
+    {
+      "origin": "Audubon Park",
+      "destination": "Nashville",
+      "capacity": 40,
+      "length": 368.78,
+      "up": true
+    },
+    {
+      "origin": "Audubon Park",
+      "destination": "St. Louis",
+      "capacity": 40,
+      "length": 592.07,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "Tampa",
+      "capacity": 40,
+      "length": 496.24,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "Schall Circle",
+      "capacity": 40,
+      "length": 162.23,
+      "up": true
+    },
+    {
+      "origin": "Wauwatosa",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 206.59,
+      "up": true
+    },
+    {
+      "origin": "Wauwatosa",
+      "destination": "Minneapolis",
+      "capacity": 40,
+      "length": 710.19,
+      "up": true
+    },
+    {
+      "origin": "Minneapolis",
+      "destination": "Billings",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Minneapolis",
+      "destination": "Wauwatosa",
+      "capacity": 40,
+      "length": 710.19,
+      "up": true
+    },
+    {
+      "origin": "Minneapolis",
+      "destination": "Ralston",
+      "capacity": 40,
+      "length": 701.44,
+      "up": true
+    },
+    {
+      "origin": "Nashville",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 440.34,
+      "up": true
+    },
+    {
+      "origin": "Nashville",
+      "destination": "Little Rock",
+      "capacity": 40,
+      "length": 794.42,
+      "up": true
+    },
+    {
+      "origin": "Nashville",
+      "destination": "Audubon Park",
+      "capacity": 40,
+      "length": 368.78,
+      "up": true
+    },
+    {
+      "origin": "Chalmette",
+      "destination": "Baton Rouge",
+      "capacity": 40,
+      "length": 184.13,
+      "up": true
+    },
+    {
+      "origin": "Chalmette",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 727.85,
+      "up": true
+    },
+    {
+      "origin": "Chalmette",
+      "destination": "Tallahassee",
+      "capacity": 40,
+      "length": 816.44,
+      "up": true
+    },
+    {
+      "origin": "Brooklyn",
+      "destination": "Hartford",
+      "capacity": 40,
+      "length": 242.17,
+      "up": true
+    },
+    {
+      "origin": "Brooklyn",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 30.26,
+      "up": true
+    },
+    {
+      "origin": "Brooklyn",
+      "destination": "Scranton",
+      "capacity": 40,
+      "length": 249.39,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "Brooklyn",
+      "capacity": 40,
+      "length": 30.26,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 170.02,
+      "up": true
+    },
+    {
+      "origin": "Alameda",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 967.91,
+      "up": true
+    },
+    {
+      "origin": "Alameda",
+      "destination": "Sacramento",
+      "capacity": 40,
+      "length": 165.76,
+      "up": true
+    },
+    {
+      "origin": "Alameda",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 1419.2,
+      "up": true
+    },
+    {
+      "origin": "Alameda",
+      "destination": "South San Francisco",
+      "capacity": 40,
+      "length": 32.14,
+      "up": true
+    },
+    {
+      "origin": "Ralston",
+      "destination": "Aurora",
+      "capacity": 40,
+      "length": 1150.06,
+      "up": true
+    },
+    {
+      "origin": "Ralston",
+      "destination": "Shawnee",
+      "capacity": 40,
+      "length": 392.42,
+      "up": true
+    },
+    {
+      "origin": "Ralston",
+      "destination": "Minneapolis",
+      "capacity": 40,
+      "length": 701.44,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "Baltimore",
+      "capacity": 40,
+      "length": 223.92,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 170.02,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "Scranton",
+      "capacity": 40,
+      "length": 241.68,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 619.69,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "San Diego",
+      "capacity": 40,
+      "length": 718.12,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Tucson",
+      "capacity": 40,
+      "length": 277.99,
+      "up": true
+    },
+    {
+      "origin": "Thompsonville",
+      "destination": "Columbus",
+      "capacity": 40,
+      "length": 368.28,
+      "up": true
+    },
+    {
+      "origin": "Thompsonville",
+      "destination": "Scranton",
+      "capacity": 40,
+      "length": 591.77,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Sacramento",
+      "capacity": 40,
+      "length": 1171.81,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 348.74,
+      "up": true
+    },
+    {
+      "origin": "Providence",
+      "destination": "South Boston",
+      "capacity": 40,
+      "length": 99.87,
+      "up": true
+    },
+    {
+      "origin": "Providence",
+      "destination": "Hartford",
+      "capacity": 40,
+      "length": 156.9,
+      "up": true
+    },
+    {
+      "origin": "West Raleigh",
+      "destination": "Greensboro",
+      "capacity": 40,
+      "length": 163.82,
+      "up": true
+    },
+    {
+      "origin": "West Raleigh",
+      "destination": "Jacksonville",
+      "capacity": 40,
+      "length": 1006.97,
+      "up": true
+    },
+    {
+      "origin": "Sacramento",
+      "destination": "Alameda",
+      "capacity": 40,
+      "length": 165.76,
+      "up": true
+    },
+    {
+      "origin": "Sacramento",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 1171.81,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Aurora",
+      "capacity": 40,
+      "length": 913.8,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 874.74,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Alameda",
+      "capacity": 40,
+      "length": 1419.2,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Olmos Park",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 1205.25,
+      "up": true
+    },
+    {
+      "origin": "Olmos Park",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 455.34,
+      "up": true
+    },
+    {
+      "origin": "San Diego",
+      "destination": "Beverly Hills",
+      "capacity": 40,
+      "length": 279.72,
+      "up": true
+    },
+    {
+      "origin": "San Diego",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 718.12,
+      "up": true
+    },
+    {
+      "origin": "South San Francisco",
+      "destination": "Alameda",
+      "capacity": 40,
+      "length": 32.14,
+      "up": true
+    },
+    {
+      "origin": "South San Francisco",
+      "destination": "Seven Trees",
+      "capacity": 40,
+      "length": 96.42,
+      "up": true
+    },
+    {
+      "origin": "Seven Trees",
+      "destination": "South San Francisco",
+      "capacity": 40,
+      "length": 96.42,
+      "up": true
+    },
+    {
+      "origin": "Seven Trees",
+      "destination": "Mission Canyon",
+      "capacity": 40,
+      "length": 558.56,
+      "up": true
+    },
+    {
+      "origin": "Mission Canyon",
+      "destination": "Beverly Hills",
+      "capacity": 40,
+      "length": 188.29,
+      "up": true
+    },
+    {
+      "origin": "Mission Canyon",
+      "destination": "Seven Trees",
+      "capacity": 40,
+      "length": 558.56,
+      "up": true
+    },
+    {
+      "origin": "Scranton",
+      "destination": "Brooklyn",
+      "capacity": 40,
+      "length": 249.39,
+      "up": true
+    },
+    {
+      "origin": "Scranton",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 241.68,
+      "up": true
+    },
+    {
+      "origin": "Scranton",
+      "destination": "Thompsonville",
+      "capacity": 40,
+      "length": 591.77,
+      "up": true
+    },
+    {
+      "origin": "Scranton",
+      "destination": "Syracuse",
+      "capacity": 40,
+      "length": 279.63,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Billings",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 348.74,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "St. Louis",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 625.31,
+      "up": true
+    },
+    {
+      "origin": "St. Louis",
+      "destination": "Shawnee",
+      "capacity": 40,
+      "length": 588.4,
+      "up": true
+    },
+    {
+      "origin": "St. Louis",
+      "destination": "Audubon Park",
+      "capacity": 40,
+      "length": 592.07,
+      "up": true
+    },
+    {
+      "origin": "Syracuse",
+      "destination": "West Albany",
+      "capacity": 40,
+      "length": 292.68,
+      "up": true
+    },
+    {
+      "origin": "Syracuse",
+      "destination": "Buffalo",
+      "capacity": 40,
+      "length": 332.91,
+      "up": true
+    },
+    {
+      "origin": "Syracuse",
+      "destination": "Scranton",
+      "capacity": 40,
+      "length": 279.63,
+      "up": true
+    },
+    {
+      "origin": "Tallahassee",
+      "destination": "Chalmette",
+      "capacity": 40,
+      "length": 816.44,
+      "up": true
+    },
+    {
+      "origin": "Tallahassee",
+      "destination": "Tampa",
+      "capacity": 40,
+      "length": 492.46,
+      "up": true
+    },
+    {
+      "origin": "Tampa",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 496.24,
+      "up": true
+    },
+    {
+      "origin": "Tampa",
+      "destination": "Tallahassee",
+      "capacity": 40,
+      "length": 492.46,
+      "up": true
+    },
+    {
+      "origin": "Toledo",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 238.98,
+      "up": true
+    },
+    {
+      "origin": "Toledo",
+      "destination": "Highland Park",
+      "capacity": 40,
+      "length": 134.01,
+      "up": true
+    },
+    {
+      "origin": "Tucson",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 631.93,
+      "up": true
+    },
+    {
+      "origin": "Tucson",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 277.99,
+      "up": true
+    },
+    {
+      "origin": "Tulsa",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 569.21,
+      "up": true
+    },
+    {
+      "origin": "Tulsa",
+      "destination": "Shawnee",
+      "capacity": 40,
+      "length": 522.88,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Baltimore",
+      "capacity": 40,
+      "length": 83.95,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Saint Bernard",
+      "capacity": 40,
+      "length": 971.01,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Greensboro",
+      "capacity": 40,
+      "length": 600.83,
+      "up": true
+    },
+    {
+      "origin": "Schall Circle",
+      "destination": "Jacksonville",
+      "capacity": 40,
+      "length": 637.79,
+      "up": true
+    },
+    {
+      "origin": "Schall Circle",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 162.23,
+      "up": true
+    }
+  ]
+}

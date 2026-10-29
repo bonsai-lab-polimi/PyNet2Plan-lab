@@ -1,0 +1,324 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NSFNET13 (real topology #3)",
+  "description": "Real-world topology NSFNET13 (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Houston",
+      "lat": 29.76,
+      "lon": -95.36,
+      "x": -10615426.642046567,
+      "y": 3472737.2348179896,
+      "up": true
+    },
+    {
+      "name": "Princeton",
+      "lat": 40.35,
+      "lon": -74.66,
+      "x": -8311113.182625805,
+      "y": 4916934.4421298485,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "Pittsburgh",
+      "lat": 40.44,
+      "lon": -80.0,
+      "x": -8905559.263461886,
+      "y": 4930089.410958573,
+      "up": true
+    },
+    {
+      "name": "Ithaca",
+      "lat": 42.44,
+      "lon": -76.5,
+      "x": -8515941.045685427,
+      "y": 5227118.889942468,
+      "up": true
+    },
+    {
+      "name": "Seattle",
+      "lat": 47.61,
+      "lon": -122.33,
+      "x": -13617713.308741156,
+      "y": 6042216.250411431,
+      "up": true
+    },
+    {
+      "name": "Palo Alto",
+      "lat": 37.44,
+      "lon": -122.14,
+      "x": -13596562.605490435,
+      "y": 4500615.863368779,
+      "up": true
+    },
+    {
+      "name": "San Diego",
+      "lat": 32.72,
+      "lon": -117.16,
+      "x": -13042191.54133993,
+      "y": 3858197.3486852054,
+      "up": true
+    },
+    {
+      "name": "Salt Lake City",
+      "lat": 40.76,
+      "lon": -111.89,
+      "x": -12455537.824859379,
+      "y": 4977005.9097549105,
+      "up": true
+    },
+    {
+      "name": "Boulder",
+      "lat": 40.01,
+      "lon": -105.27,
+      "x": -11718602.79580791,
+      "y": 4867395.5586771555,
+      "up": true
+    },
+    {
+      "name": "Lincoln",
+      "lat": 40.8,
+      "lon": -96.67,
+      "x": -10761255.174985757,
+      "y": 4982886.316570544,
+      "up": true
+    },
+    {
+      "name": "Champaign",
+      "lat": 40.12,
+      "lon": -88.24,
+      "x": -9822831.86759846,
+      "y": 4883395.706111525,
+      "up": true
+    },
+    {
+      "name": "Ann Arbor",
+      "lat": 42.28,
+      "lon": -83.74,
+      "x": -9321894.159028728,
+      "y": 5203014.803677966,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Houston",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Champaign",
+      "capacity": 40,
+      "length": 1651.35,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "San Diego",
+      "capacity": 40,
+      "length": 2618.38,
+      "up": true
+    },
+    {
+      "origin": "Princeton",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Princeton",
+      "destination": "Ithaca",
+      "capacity": 40,
+      "length": 417.73,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Princeton",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Ann Arbor",
+      "capacity": 40,
+      "length": 559.74,
+      "up": true
+    },
+    {
+      "origin": "Ithaca",
+      "destination": "Princeton",
+      "capacity": 40,
+      "length": 417.73,
+      "up": true
+    },
+    {
+      "origin": "Ithaca",
+      "destination": "Ann Arbor",
+      "capacity": 40,
+      "length": 892.44,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Boulder",
+      "capacity": 40,
+      "length": 2004.36,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Ann Arbor",
+      "capacity": 40,
+      "length": 4116.3,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "San Diego",
+      "capacity": 40,
+      "length": 1039.75,
+      "up": true
+    },
+    {
+      "origin": "San Diego",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 2618.38,
+      "up": true
+    },
+    {
+      "origin": "San Diego",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 1039.75,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Boulder",
+      "capacity": 40,
+      "length": 850.09,
+      "up": true
+    },
+    {
+      "origin": "Boulder",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 2004.36,
+      "up": true
+    },
+    {
+      "origin": "Boulder",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 850.09,
+      "up": true
+    },
+    {
+      "origin": "Boulder",
+      "destination": "Champaign",
+      "capacity": 40,
+      "length": 1808.84,
+      "up": true
+    },
+    {
+      "origin": "Lincoln",
+      "destination": "Champaign",
+      "capacity": 40,
+      "length": 1075.38,
+      "up": true
+    },
+    {
+      "origin": "Champaign",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 1651.35,
+      "up": true
+    },
+    {
+      "origin": "Champaign",
+      "destination": "Boulder",
+      "capacity": 40,
+      "length": 1808.84,
+      "up": true
+    },
+    {
+      "origin": "Champaign",
+      "destination": "Lincoln",
+      "capacity": 40,
+      "length": 1075.38,
+      "up": true
+    },
+    {
+      "origin": "Champaign",
+      "destination": "Ann Arbor",
+      "capacity": 40,
+      "length": 669.72,
+      "up": true
+    },
+    {
+      "origin": "Ann Arbor",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 559.74,
+      "up": true
+    },
+    {
+      "origin": "Ann Arbor",
+      "destination": "Ithaca",
+      "capacity": 40,
+      "length": 892.44,
+      "up": true
+    },
+    {
+      "origin": "Ann Arbor",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 4116.3,
+      "up": true
+    },
+    {
+      "origin": "Ann Arbor",
+      "destination": "Champaign",
+      "capacity": 40,
+      "length": 669.72,
+      "up": true
+    }
+  ]
+}

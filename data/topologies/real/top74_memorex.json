@@ -1,0 +1,498 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "MEMOREX (real topology #74)",
+  "description": "Real-world topology MEMOREX (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Frankfurt",
+      "lat": 50.1106444,
+      "lon": 8.6820917,
+      "x": 966486.027064507,
+      "y": 6465459.597224545,
+      "up": true
+    },
+    {
+      "name": "Wurzburg",
+      "lat": 49.7913804,
+      "lon": 10.0246112,
+      "x": 1115934.6141845472,
+      "y": 6410224.683537233,
+      "up": true
+    },
+    {
+      "name": "Nuremburg",
+      "lat": 49.453872,
+      "lon": 11.077298,
+      "x": 1233119.1727253478,
+      "y": 6352227.834181847,
+      "up": true
+    },
+    {
+      "name": "Stuttgart",
+      "lat": 48.7784485,
+      "lon": 9.1800132,
+      "x": 1021914.3948995298,
+      "y": 6237352.010318624,
+      "up": true
+    },
+    {
+      "name": "Munich",
+      "lat": 48.1371079,
+      "lon": 11.5753822,
+      "x": 1288565.652241523,
+      "y": 6129695.090390113,
+      "up": true
+    },
+    {
+      "name": "Prague",
+      "lat": 50.0596288,
+      "lon": 14.446459273258,
+      "x": 1608172.4900648454,
+      "y": 6456608.909912493,
+      "up": true
+    },
+    {
+      "name": "Brno",
+      "lat": 49.1922443,
+      "lon": 16.6113382,
+      "x": 1849165.7098188535,
+      "y": 6307544.406894854,
+      "up": true
+    },
+    {
+      "name": "Bratislava",
+      "lat": 48.15926025,
+      "lon": 17.1396586914216,
+      "x": 1907978.0778995582,
+      "y": 6133391.08081734,
+      "up": true
+    },
+    {
+      "name": "Vienna",
+      "lat": 48.2083537,
+      "lon": 16.3725042,
+      "x": 1822578.830554733,
+      "y": 6141587.728347871,
+      "up": true
+    },
+    {
+      "name": "Linz",
+      "lat": 48.3059078,
+      "lon": 14.286198,
+      "x": 1590332.2867318834,
+      "y": 6157898.722429973,
+      "up": true
+    },
+    {
+      "name": "Salzburg",
+      "lat": 47.7981346,
+      "lon": 13.0464806,
+      "x": 1452327.5770363223,
+      "y": 6073337.089384007,
+      "up": true
+    },
+    {
+      "name": "Transtein",
+      "lat": 47.8701474,
+      "lon": 12.6423403,
+      "x": 1407338.8846312815,
+      "y": 6085279.112755095,
+      "up": true
+    },
+    {
+      "name": "Budapest",
+      "lat": 47.4978789,
+      "lon": 19.0402383,
+      "x": 2119549.6321385847,
+      "y": 6023722.624961682,
+      "up": true
+    },
+    {
+      "name": "Innsbruck",
+      "lat": 47.2654296,
+      "lon": 11.3927685,
+      "x": 1268237.1881456473,
+      "y": 5985507.068940525,
+      "up": true
+    },
+    {
+      "name": "Villach",
+      "lat": 46.6167284,
+      "lon": 13.8500268,
+      "x": 1541777.9308491922,
+      "y": 5879737.246815535,
+      "up": true
+    },
+    {
+      "name": "klagenfurt",
+      "lat": 46.623943,
+      "lon": 14.3075976,
+      "x": 1592714.479307063,
+      "y": 5880906.569765418,
+      "up": true
+    },
+    {
+      "name": "Graz",
+      "lat": 47.0708678,
+      "lon": 15.4382786,
+      "x": 1718581.3124766925,
+      "y": 5953649.182331658,
+      "up": true
+    },
+    {
+      "name": "Ljubljana",
+      "lat": 46.0500268,
+      "lon": 14.5069289,
+      "x": 1614903.9381222243,
+      "y": 5788369.677457456,
+      "up": true
+    },
+    {
+      "name": "Verona",
+      "lat": 45.4384958,
+      "lon": 10.9924122,
+      "x": 1223669.7286937681,
+      "y": 5690819.869858821,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Frankfurt",
+      "destination": "Wurzburg",
+      "capacity": 40,
+      "length": 153.6,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 228.66,
+      "up": true
+    },
+    {
+      "origin": "Wurzburg",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 153.6,
+      "up": true
+    },
+    {
+      "origin": "Wurzburg",
+      "destination": "Nuremburg",
+      "capacity": 40,
+      "length": 126.92,
+      "up": true
+    },
+    {
+      "origin": "Nuremburg",
+      "destination": "Wurzburg",
+      "capacity": 40,
+      "length": 126.92,
+      "up": true
+    },
+    {
+      "origin": "Nuremburg",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 226.34,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 228.66,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 285.72,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Nuremburg",
+      "capacity": 40,
+      "length": 226.34,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 285.72,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Prague",
+      "capacity": 40,
+      "length": 448.43,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Transtein",
+      "capacity": 40,
+      "length": 127.12,
+      "up": true
+    },
+    {
+      "origin": "Prague",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 448.43,
+      "up": true
+    },
+    {
+      "origin": "Prague",
+      "destination": "Brno",
+      "capacity": 40,
+      "length": 275.01,
+      "up": true
+    },
+    {
+      "origin": "Brno",
+      "destination": "Prague",
+      "capacity": 40,
+      "length": 275.01,
+      "up": true
+    },
+    {
+      "origin": "Brno",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 181.86,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Brno",
+      "capacity": 40,
+      "length": 181.86,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Budapest",
+      "capacity": 40,
+      "length": 239.7,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 85.71,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 85.71,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Budapest",
+      "capacity": 40,
+      "length": 321.21,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Graz",
+      "capacity": 40,
+      "length": 216.84,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Linz",
+      "capacity": 40,
+      "length": 232.25,
+      "up": true
+    },
+    {
+      "origin": "Linz",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 232.25,
+      "up": true
+    },
+    {
+      "origin": "Linz",
+      "destination": "Salzburg",
+      "capacity": 40,
+      "length": 162.1,
+      "up": true
+    },
+    {
+      "origin": "Salzburg",
+      "destination": "Linz",
+      "capacity": 40,
+      "length": 162.1,
+      "up": true
+    },
+    {
+      "origin": "Salzburg",
+      "destination": "Villach",
+      "capacity": 40,
+      "length": 217.06,
+      "up": true
+    },
+    {
+      "origin": "Salzburg",
+      "destination": "Transtein",
+      "capacity": 40,
+      "length": 46.81,
+      "up": true
+    },
+    {
+      "origin": "Transtein",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 127.12,
+      "up": true
+    },
+    {
+      "origin": "Transtein",
+      "destination": "Salzburg",
+      "capacity": 40,
+      "length": 46.81,
+      "up": true
+    },
+    {
+      "origin": "Transtein",
+      "destination": "Innsbruck",
+      "capacity": 40,
+      "length": 173.06,
+      "up": true
+    },
+    {
+      "origin": "Budapest",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 239.7,
+      "up": true
+    },
+    {
+      "origin": "Budapest",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 321.21,
+      "up": true
+    },
+    {
+      "origin": "Innsbruck",
+      "destination": "Transtein",
+      "capacity": 40,
+      "length": 173.06,
+      "up": true
+    },
+    {
+      "origin": "Innsbruck",
+      "destination": "Verona",
+      "capacity": 40,
+      "length": 308.19,
+      "up": true
+    },
+    {
+      "origin": "Villach",
+      "destination": "Salzburg",
+      "capacity": 40,
+      "length": 217.06,
+      "up": true
+    },
+    {
+      "origin": "Villach",
+      "destination": "klagenfurt",
+      "capacity": 40,
+      "length": 52.42,
+      "up": true
+    },
+    {
+      "origin": "Villach",
+      "destination": "Verona",
+      "capacity": 40,
+      "length": 384.84,
+      "up": true
+    },
+    {
+      "origin": "klagenfurt",
+      "destination": "Villach",
+      "capacity": 40,
+      "length": 52.42,
+      "up": true
+    },
+    {
+      "origin": "klagenfurt",
+      "destination": "Ljubljana",
+      "capacity": 40,
+      "length": 98.44,
+      "up": true
+    },
+    {
+      "origin": "klagenfurt",
+      "destination": "Graz",
+      "capacity": 40,
+      "length": 148.98,
+      "up": true
+    },
+    {
+      "origin": "Graz",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 216.84,
+      "up": true
+    },
+    {
+      "origin": "Graz",
+      "destination": "klagenfurt",
+      "capacity": 40,
+      "length": 148.98,
+      "up": true
+    },
+    {
+      "origin": "Graz",
+      "destination": "Ljubljana",
+      "capacity": 40,
+      "length": 201.0,
+      "up": true
+    },
+    {
+      "origin": "Ljubljana",
+      "destination": "klagenfurt",
+      "capacity": 40,
+      "length": 98.44,
+      "up": true
+    },
+    {
+      "origin": "Ljubljana",
+      "destination": "Graz",
+      "capacity": 40,
+      "length": 201.0,
+      "up": true
+    },
+    {
+      "origin": "Verona",
+      "destination": "Innsbruck",
+      "capacity": 40,
+      "length": 308.19,
+      "up": true
+    },
+    {
+      "origin": "Verona",
+      "destination": "Villach",
+      "capacity": 40,
+      "length": 384.84,
+      "up": true
+    }
+  ]
+}

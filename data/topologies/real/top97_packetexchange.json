@@ -1,0 +1,556 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "PACKETEXCHANGE (real topology #97)",
+  "description": "Real-world topology PACKETEXCHANGE (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Miami",
+      "lat": 25.77,
+      "lon": -80.19,
+      "x": -8926709.966712607,
+      "y": 2970622.2326846495,
+      "up": true
+    },
+    {
+      "name": "London",
+      "lat": 51.51,
+      "lon": -0.13,
+      "x": -14471.533803125565,
+      "y": 6712007.502309075,
+      "up": true
+    },
+    {
+      "name": "Ashburn",
+      "lat": 39.04,
+      "lon": -77.49,
+      "x": -8626147.341570769,
+      "y": 4727402.85003283,
+      "up": true
+    },
+    {
+      "name": "New York City",
+      "lat": 40.71,
+      "lon": -74.01,
+      "x": -8238755.513610177,
+      "y": 4969660.375061782,
+      "up": true
+    },
+    {
+      "name": "Paris",
+      "lat": 48.85,
+      "lon": 2.35,
+      "x": 261600.8033641929,
+      "y": 6249447.752791281,
+      "up": true
+    },
+    {
+      "name": "Milano",
+      "lat": 45.46,
+      "lon": 9.19,
+      "x": 1023026.120390184,
+      "y": 5694232.125716738,
+      "up": true
+    },
+    {
+      "name": "Amsterdam",
+      "lat": 52.37,
+      "lon": 4.89,
+      "x": 544352.3099791077,
+      "y": 6867304.686766676,
+      "up": true
+    },
+    {
+      "name": "Frankfurt am Main",
+      "lat": 50.12,
+      "lon": 8.68,
+      "x": 966253.1800856144,
+      "y": 6467083.721426574,
+      "up": true
+    },
+    {
+      "name": "Hong Kong",
+      "lat": 22.29,
+      "lon": 114.16,
+      "x": 12708233.06896011,
+      "y": 2546378.995301972,
+      "up": true
+    },
+    {
+      "name": "Singapore",
+      "lat": 1.29,
+      "lon": 103.85,
+      "x": 11560529.118881458,
+      "y": 143614.27698022302,
+      "up": true
+    },
+    {
+      "name": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "x": -13162416.591396667,
+      "y": 4035517.7820847426,
+      "up": true
+    },
+    {
+      "name": "Kansas City",
+      "lat": 39.11,
+      "lon": -94.63,
+      "x": -10534163.413767477,
+      "y": 4737440.399301178,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.85,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5138536.587247468,
+      "up": true
+    },
+    {
+      "name": "Seattle",
+      "lat": 47.61,
+      "lon": -122.33,
+      "x": -13617713.308741156,
+      "y": 6042216.250411431,
+      "up": true
+    },
+    {
+      "name": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "x": -13627732.06291255,
+      "y": 4546985.28443041,
+      "up": true
+    },
+    {
+      "name": "San Jose",
+      "lat": 9.93,
+      "lon": -84.08,
+      "x": -9359742.785898441,
+      "y": 1110978.2509109413,
+      "up": true
+    },
+    {
+      "name": "Houston",
+      "lat": 29.76,
+      "lon": -95.36,
+      "x": -10615426.642046567,
+      "y": 3472737.2348179896,
+      "up": true
+    },
+    {
+      "name": "Las Vegas",
+      "lat": 36.17,
+      "lon": -115.14,
+      "x": -12817326.16993752,
+      "y": 4324038.393311035,
+      "up": true
+    },
+    {
+      "name": "Phoenix",
+      "lat": 33.45,
+      "lon": -112.07,
+      "x": -12475575.333202168,
+      "y": 3955187.399354617,
+      "up": true
+    },
+    {
+      "name": "Dallas",
+      "lat": 32.78,
+      "lon": -96.81,
+      "x": -10776839.903696815,
+      "y": 3866138.9184606387,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Miami",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 1944.64,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1462.93,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Ashburn",
+      "capacity": 40,
+      "length": 7396.83,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 6963.06,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 516.66,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 535.62,
+      "up": true
+    },
+    {
+      "origin": "Ashburn",
+      "destination": "London",
+      "capacity": 40,
+      "length": 7396.83,
+      "up": true
+    },
+    {
+      "origin": "Ashburn",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1371.12,
+      "up": true
+    },
+    {
+      "origin": "Ashburn",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1278.57,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "London",
+      "capacity": 40,
+      "length": 6963.06,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 7297.27,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "London",
+      "capacity": 40,
+      "length": 516.66,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 7297.27,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 717.6,
+      "up": true
+    },
+    {
+      "origin": "Milano",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 779.35,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "London",
+      "capacity": 40,
+      "length": 535.62,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 545.23,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 717.6,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Milano",
+      "capacity": 40,
+      "length": 779.35,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 545.23,
+      "up": true
+    },
+    {
+      "origin": "Hong Kong",
+      "destination": "Singapore",
+      "capacity": 40,
+      "length": 3234.56,
+      "up": true
+    },
+    {
+      "origin": "Hong Kong",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 13874.11,
+      "up": true
+    },
+    {
+      "origin": "Singapore",
+      "destination": "Hong Kong",
+      "capacity": 40,
+      "length": 3234.56,
+      "up": true
+    },
+    {
+      "origin": "Singapore",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 17655.03,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Singapore",
+      "capacity": 40,
+      "length": 17655.03,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 861.37,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "San Jose",
+      "capacity": 40,
+      "length": 5486.98,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 551.25,
+      "up": true
+    },
+    {
+      "origin": "Kansas City",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1095.96,
+      "up": true
+    },
+    {
+      "origin": "Kansas City",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 996.07,
+      "up": true
+    },
+    {
+      "origin": "Kansas City",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 3017.65,
+      "up": true
+    },
+    {
+      "origin": "Kansas City",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 3019.38,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Ashburn",
+      "capacity": 40,
+      "length": 1371.12,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Kansas City",
+      "capacity": 40,
+      "length": 996.07,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Kansas City",
+      "capacity": 40,
+      "length": 3017.65,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Hong Kong",
+      "capacity": 40,
+      "length": 13874.11,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Kansas City",
+      "capacity": 40,
+      "length": 3019.38,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "San Jose",
+      "capacity": 40,
+      "length": 6150.06,
+      "up": true
+    },
+    {
+      "origin": "San Jose",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 5486.98,
+      "up": true
+    },
+    {
+      "origin": "San Jose",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 6150.06,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 1944.64,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 544.46,
+      "up": true
+    },
+    {
+      "origin": "Las Vegas",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 551.25,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 861.37,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1777.38,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Kansas City",
+      "capacity": 40,
+      "length": 1095.96,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 544.46,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 1777.38,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 1462.93,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Ashburn",
+      "capacity": 40,
+      "length": 1278.57,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    }
+  ]
+}

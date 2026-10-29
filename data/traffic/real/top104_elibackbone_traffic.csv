@@ -1,0 +1,43 @@
+# topology: ELIBACKBONE (real topology #104) (data/topologies/real/top104_elibackbone.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Palo Alto,Las Vegas,8
+1,Seattle,Sacramento,7
+2,Dallas,Atlanta,6
+3,Seattle,Las Vegas,4
+4,Dallas,Seattle,4
+5,Salt Lake City,Las Vegas,6
+6,Sacramento,Los Angeles,7
+7,Seattle,Portland,6
+8,Atlanta,Rochester,8
+9,Houston,"Washington, D.C.",8
+10,Los Angeles,Portland,8
+11,Rochester,Boise,3
+12,Phoenix,Los Angeles,6
+13,Seattle,Chicago,3
+14,Salt Lake City,Houston,5
+15,Portland,Boise,4
+16,"Washington, D.C.",Atlanta,6
+17,Rochester,Newark,2
+18,Dallas,Boise,4
+19,Boise,Los Angeles,3
+20,Los Angeles,Santa Clara,6
+21,Newark,Las Vegas,4
+22,Houston,Portland,7
+23,Atlanta,Palo Alto,1
+24,Palo Alto,Atlanta,7
+25,Chicago,Rochester,8
+26,Atlanta,Las Vegas,7
+27,Chicago,"Washington, D.C.",7
+28,Salt Lake City,Newark,1
+29,Chicago,Tacoma,6
+30,Boise,Santa Clara,2
+31,Atlanta,Los Angeles,8
+32,Spokane,Portland,6
+33,Newark,Minneapolis,3
+34,Seattle,Tacoma,7
+35,Rochester,Dallas,1
+36,Salt Lake City,Minneapolis,2
+37,Tacoma,Las Vegas,6
+38,Salt Lake City,Santa Clara,8
+39,Minneapolis,Newark,4

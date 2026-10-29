@@ -1,0 +1,63 @@
+# topology: RENATER2010 (real topology #76) (data/topologies/real/top76_renater2010.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Brest,Saint-Prex,2
+1,Bordeaux,Vannes,8
+2,Poitiers,Lille,6
+3,Toulouse,Pau,6
+4,Reims,Nantes,5
+5,Brest,Reims,8
+6,Nantes,Paris,6
+7,Rennes,Pau,3
+8,Marseille 04,Besancon,7
+9,Jarville-la-Malgrange,Lille,8
+10,Le Mans,Vierzon,1
+11,Jarville-la-Malgrange,Lyon,1
+12,Clermont-Ferrand,Nice,2
+13,Pau,Orleans,1
+14,Quimper,Jarville-la-Malgrange,5
+15,Vinon-sur-Verdon,Besancon,8
+16,Reims,Caen,7
+17,Grenoble,Compiegne,3
+18,Corte,Brest,4
+19,Poitiers,Jarville-la-Malgrange,8
+20,Vannes,Rennes,8
+21,Lyon,Rennes,7
+22,Le Mans,Rennes,5
+23,Saint-Prex,Brest,4
+24,Nantes,Quimper,1
+25,Besancon,Vinon-sur-Verdon,3
+26,Vinon-sur-Verdon,Marseille 04,3
+27,Lille,Compiegne,1
+28,Quimper,Toulouse,2
+29,Reims,Poitiers,4
+30,Angers,Reims,2
+31,Saint-Brieuc,Lannion,2
+32,Limoges,Toulouse,3
+33,Nantes,Saint-Brieuc,5
+34,Caen,Lannion,5
+35,Angers,Tours,1
+36,Poitiers,Quimper,1
+37,Corte,Clermont-Ferrand,3
+38,Vinon-sur-Verdon,Vannes,5
+39,Grenoble,Poitiers,7
+40,Compiegne,Pau,2
+41,Clermont-Ferrand,Grenoble,1
+42,Vinon-sur-Verdon,Reims,3
+43,Nantes,Reims,1
+44,Corte,Vierzon,7
+45,Vannes,Limoges,2
+46,Nice,Corte,6
+47,Bordeaux,Pau,5
+48,Strasbourg,Toulouse,5
+49,Pau,Vannes,3
+50,Lille,Clermont-Ferrand,1
+51,Montpellier,Grenoble,5
+52,Corte,Saint-Brieuc,6
+53,Clermont-Ferrand,Lorient,1
+54,Corte,Angers,6
+55,Vierzon,Compiegne,7
+56,Clermont-Ferrand,Vannes,4
+57,Vierzon,Montpellier,4
+58,Compiegne,Montpellier,6
+59,Montpellier,Poitiers,5

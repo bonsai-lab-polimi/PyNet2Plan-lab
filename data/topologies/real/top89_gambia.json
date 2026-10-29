@@ -1,0 +1,274 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "GAMBIA (real topology #89)",
+  "description": "Real-world topology GAMBIA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Kerewan",
+      "lat": 13.49,
+      "lon": -16.09,
+      "x": -1791130.6068637718,
+      "y": 1515769.6427589874,
+      "up": true
+    },
+    {
+      "name": "Banjul",
+      "lat": 13.45,
+      "lon": -16.58,
+      "x": -1845677.1573524757,
+      "y": 1511190.9113695114,
+      "up": true
+    },
+    {
+      "name": "Basse Santa Su",
+      "lat": 13.32,
+      "lon": -14.22,
+      "x": -1582963.1590803503,
+      "y": 1496315.30070329,
+      "up": true
+    },
+    {
+      "name": "Bansang",
+      "lat": 13.43,
+      "lon": -14.65,
+      "x": -1630830.540121458,
+      "y": 1508901.8324847363,
+      "up": true
+    },
+    {
+      "name": "Abuko",
+      "lat": 13.4,
+      "lon": -16.66,
+      "x": -1854582.7166159377,
+      "y": 1505468.571795932,
+      "up": true
+    },
+    {
+      "name": "Bakau",
+      "lat": 13.44,
+      "lon": -16.68,
+      "x": -1856809.106431803,
+      "y": 1510046.3480586733,
+      "up": true
+    },
+    {
+      "name": "Bakau (2)",
+      "lat": 13.46,
+      "lon": -16.71,
+      "x": -1860148.6911556013,
+      "y": 1512335.5224560995,
+      "up": true
+    },
+    {
+      "name": "Bakau (3)",
+      "lat": 13.48,
+      "lon": -16.68,
+      "x": -1856809.106431803,
+      "y": 1514624.8881119667,
+      "up": true
+    },
+    {
+      "name": "Brikama",
+      "lat": 13.27,
+      "lon": -16.65,
+      "x": -1853469.5217080046,
+      "y": 1490596.0438480272,
+      "up": true
+    },
+    {
+      "name": "Sukuta",
+      "lat": 13.36,
+      "lon": -16.69,
+      "x": -1857922.301339736,
+      "y": 1500891.5568385422,
+      "up": true
+    },
+    {
+      "name": "Soma",
+      "lat": 13.43,
+      "lon": -15.53,
+      "x": -1728791.6920195387,
+      "y": 1508901.8324847363,
+      "up": true
+    },
+    {
+      "name": "Farafenni",
+      "lat": 13.57,
+      "lon": -15.6,
+      "x": -1736584.0563750677,
+      "y": 1524929.4087271595,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Kerewan",
+      "destination": "Banjul",
+      "capacity": 40,
+      "length": 79.76,
+      "up": true
+    },
+    {
+      "origin": "Kerewan",
+      "destination": "Farafenni",
+      "capacity": 40,
+      "length": 80.57,
+      "up": true
+    },
+    {
+      "origin": "Banjul",
+      "destination": "Kerewan",
+      "capacity": 40,
+      "length": 79.76,
+      "up": true
+    },
+    {
+      "origin": "Banjul",
+      "destination": "Bakau",
+      "capacity": 40,
+      "length": 16.31,
+      "up": true
+    },
+    {
+      "origin": "Basse Santa Su",
+      "destination": "Soma",
+      "capacity": 40,
+      "length": 213.36,
+      "up": true
+    },
+    {
+      "origin": "Basse Santa Su",
+      "destination": "Bansang",
+      "capacity": 40,
+      "length": 72.15,
+      "up": true
+    },
+    {
+      "origin": "Bansang",
+      "destination": "Basse Santa Su",
+      "capacity": 40,
+      "length": 72.15,
+      "up": true
+    },
+    {
+      "origin": "Abuko",
+      "destination": "Bakau",
+      "capacity": 40,
+      "length": 7.42,
+      "up": true
+    },
+    {
+      "origin": "Bakau",
+      "destination": "Banjul",
+      "capacity": 40,
+      "length": 16.31,
+      "up": true
+    },
+    {
+      "origin": "Bakau",
+      "destination": "Abuko",
+      "capacity": 40,
+      "length": 7.42,
+      "up": true
+    },
+    {
+      "origin": "Bakau",
+      "destination": "Bakau (2)",
+      "capacity": 40,
+      "length": 5.9,
+      "up": true
+    },
+    {
+      "origin": "Bakau",
+      "destination": "Bakau (3)",
+      "capacity": 40,
+      "length": 6.67,
+      "up": true
+    },
+    {
+      "origin": "Bakau",
+      "destination": "Brikama",
+      "capacity": 40,
+      "length": 28.77,
+      "up": true
+    },
+    {
+      "origin": "Bakau",
+      "destination": "Sukuta",
+      "capacity": 40,
+      "length": 13.44,
+      "up": true
+    },
+    {
+      "origin": "Bakau (2)",
+      "destination": "Bakau",
+      "capacity": 40,
+      "length": 5.9,
+      "up": true
+    },
+    {
+      "origin": "Bakau (3)",
+      "destination": "Bakau",
+      "capacity": 40,
+      "length": 6.67,
+      "up": true
+    },
+    {
+      "origin": "Brikama",
+      "destination": "Bakau",
+      "capacity": 40,
+      "length": 28.77,
+      "up": true
+    },
+    {
+      "origin": "Sukuta",
+      "destination": "Bakau",
+      "capacity": 40,
+      "length": 13.44,
+      "up": true
+    },
+    {
+      "origin": "Sukuta",
+      "destination": "Soma",
+      "capacity": 40,
+      "length": 188.58,
+      "up": true
+    },
+    {
+      "origin": "Soma",
+      "destination": "Basse Santa Su",
+      "capacity": 40,
+      "length": 213.36,
+      "up": true
+    },
+    {
+      "origin": "Soma",
+      "destination": "Sukuta",
+      "capacity": 40,
+      "length": 188.58,
+      "up": true
+    },
+    {
+      "origin": "Soma",
+      "destination": "Farafenni",
+      "capacity": 40,
+      "length": 25.96,
+      "up": true
+    },
+    {
+      "origin": "Farafenni",
+      "destination": "Kerewan",
+      "capacity": 40,
+      "length": 80.57,
+      "up": true
+    },
+    {
+      "origin": "Farafenni",
+      "destination": "Soma",
+      "capacity": 40,
+      "length": 25.96,
+      "up": true
+    }
+  ]
+}

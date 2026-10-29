@@ -1,0 +1,63 @@
+# topology: CONUS6079 (real topology #28) (data/topologies/real/top28_conus6079.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"Milwaukee, Wisconsin","Santa Barbara, California",8
+1,"Los Angeles, California","Tucson, Arizona",3
+2,"San Diego, California","City of Syracuse, New York",7
+3,"Tulsa, Oklahoma","Jacksonville, Florida",2
+4,"Greensboro, North Carolina","St. Louis, Missouri",6
+5,"Cleveland, Ohio","Providence, Rhode Island",1
+6,"Newark, New Jersey","Omaha, Nebraska",2
+7,"Salt Lake City, Utah","Denver, Colorado",5
+8,"Washington, District of Columbia","Cecil Township, Pennsylvania",7
+9,"Louisville, Kentucky","Cleveland, Ohio",8
+10,"Los Angeles, California","Greensboro, North Carolina",7
+11,"Kansas City, Kansas","Minneapolis, Minnesota",5
+12,"Toledo, Ohio","Little Rock, Arkansas",4
+13,"Denver, Colorado","Milwaukee, Wisconsin",3
+14,"Sacramento, California","Tucson, Arizona",7
+15,"Cincinnati, Ohio","Washington, District of Columbia",8
+16,"Atlanta, Georgia","Billings, Montana",4
+17,"El Paso, Texas","Boston, Massachusetts",3
+18,"Nashville-Davidson, Tennessee","Tampa, Florida",2
+19,"Las Vegas, Nevada","Santa Barbara, California",2
+20,"Seattle, Washington","Columbus, Ohio",4
+21,"City of Albany, New York","Scranton, Pennsylvania",1
+22,"Denver, Colorado","Tucson, Arizona",1
+23,"New Orleans, Louisiana","Atlanta, Georgia",6
+24,"Santa Barbara, California","Sacramento, California",2
+25,"Century Village, Florida","Tampa, Florida",4
+26,"Cleveland, Ohio","Tulsa, Oklahoma",3
+27,"Charlotte, North Carolina","Jacksonville, Florida",5
+28,"Tallahassee, Florida","New York, New York",5
+29,"Kansas City, Kansas","Little Rock, Arkansas",6
+30,"Newark, New Jersey","Los Angeles, California",5
+31,"Tucson, Arizona","Los Angeles, California",7
+32,"Providence, Rhode Island","Little Rock, Arkansas",2
+33,"New Orleans, Louisiana","Newark, New Jersey",2
+34,"Buffalo, New York","Tulsa, Oklahoma",5
+35,"Cecil Township, Pennsylvania","Portland, Oregon",1
+36,"South San Francisco, California","Omaha, Nebraska",3
+37,"Billings, Montana","City of Syracuse, New York",4
+38,"Buffalo, New York","New York, New York",7
+39,"Kansas City, Kansas","Miami, Florida",2
+40,"Sacramento, California","Portland, Oregon",8
+41,"Oakland, California","El Paso, Texas",3
+42,"Tucson, Arizona","Charlotte, North Carolina",8
+43,"Albuquerque, New Mexico","Minneapolis, Minnesota",4
+44,"Miami, Florida","City of Albany, New York",4
+45,"Hartford, Connecticut","City of Albany, New York",7
+46,"Raleigh, North Carolina","Columbus, Ohio",1
+47,"Boston, Massachusetts","Cecil Township, Pennsylvania",3
+48,"Salt Lake City, Utah","City of Albany, New York",5
+49,"Baltimore, Maryland","Scranton, Pennsylvania",3
+50,"Atlanta, Georgia","Little Rock, Arkansas",5
+51,"Boston, Massachusetts","Milwaukee, Wisconsin",8
+52,"San Antonio, Texas","Tampa, Florida",7
+53,"Scranton, Pennsylvania","Miami, Florida",5
+54,"Providence, Rhode Island","Minneapolis, Minnesota",8
+55,"Buffalo, New York","Cincinnati, Ohio",7
+56,"Raleigh, North Carolina","Boston, Massachusetts",2
+57,"Birmingham, Alabama","Nashville-Davidson, Tennessee",3
+58,"Dallas, Texas","Sacramento, California",4
+59,"Phoenix, Arizona","Tampa, Florida",8

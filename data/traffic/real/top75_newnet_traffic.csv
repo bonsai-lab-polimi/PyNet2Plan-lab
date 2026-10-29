@@ -1,0 +1,55 @@
+# topology: NEWNET (real topology #75) (data/topologies/real/top75_newnet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Baton Rouge,New York,1
+1,Los Angeles,Sunnyvale,8
+2,San Diego,Washington,2
+3,Atlanta,Chicago,1
+4,Portland,Denver,7
+5,Sunnyvale,Boise,1
+6,Los Angeles,Raleigh,6
+7,Atlanta,Pittsburgh,7
+8,Denver,San Diego,5
+9,Atlanta,Washington,6
+10,Houston,Philadelphia,5
+11,Chicago,Jacksonville,3
+12,Denver,Kansas City,4
+13,Salt Lake City,Pittsburgh,1
+14,San Diego,Kansas City,3
+15,Raleigh,Boise,6
+16,Jacksonville,Baton Rouge,8
+17,Kansas City,Jacksonville,5
+18,Indianapolis,Houston,8
+19,Los Angeles,Salt Lake City,5
+20,Jacksonville,Tulsa,8
+21,Washington,Tulsa,2
+22,Chicago,Raleigh,4
+23,Chicago,Boise,5
+24,Los Angeles,Seattle,7
+25,Boston,Nashville,1
+26,Los Angeles,Baton Rouge,3
+27,Sunnyvale,Albuquerque,2
+28,New York,Atlanta,6
+29,New York,Chicago,6
+30,Nashville,Kansas City,4
+31,Jacksonville,Chicago,7
+32,Baton Rouge,Chicago,4
+33,Seattle,Denver,3
+34,Albuquerque,El Paso,1
+35,Denver,El Paso,4
+36,Cleveland,New York,7
+37,San Diego,El Paso,6
+38,Portland,Jacksonville,8
+39,Baton Rouge,Cleveland,4
+40,Seattle,Atlanta,6
+41,Seattle,Raleigh,2
+42,Washington,Salt Lake City,4
+43,Jacksonville,Boise,1
+44,Denver,Raleigh,6
+45,San Diego,Salt Lake City,8
+46,Pittsburgh,Indianapolis,5
+47,Raleigh,Boston,1
+48,Tulsa,Seattle,8
+49,Houston,Pittsburgh,1
+50,Houston,Jacksonville,2
+51,New York,Los Angeles,3

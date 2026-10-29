@@ -1,0 +1,23 @@
+# topology: RNPBRAZIL (real topology #94) (data/topologies/real/top94_rnpbrazil.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Belo Horizonte,Curitiba,5
+1,Porto Alegre,São Paulo,1
+2,Curitiba,São Paulo,2
+3,São Paulo,Fortaleza,7
+4,Brasília,Fortaleza,5
+5,Brasília,Recife,5
+6,Brasília,São Paulo,5
+7,Brasília,"Salvador, Bahia",7
+8,"Salvador, Bahia",São Paulo,6
+9,"Salvador, Bahia",Porto Alegre,3
+10,Recife,Belo Horizonte,3
+11,Florianópolis,Porto Alegre,1
+12,"Salvador, Bahia",Recife,5
+13,Florianópolis,"Salvador, Bahia",8
+14,São Paulo,Recife,2
+15,Porto Alegre,Brasília,8
+16,Rio de Janeiro,Recife,3
+17,Porto Alegre,Fortaleza,6
+18,Brasília,Porto Alegre,6
+19,Belo Horizonte,"Salvador, Bahia",2

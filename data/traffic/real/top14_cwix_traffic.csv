@@ -1,0 +1,49 @@
+# topology: CWIX (real topology #14) (data/topologies/real/top14_cwix.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Raleigh,Miami,6
+1,Atlanta,Los Angeles,4
+2,Denver,Akron,4
+3,Chicago,Los Angeles,2
+4,Baltimore,Houston,3
+5,Akron,Cleveland,8
+6,Boston,Denver,4
+7,Richmond,Philadelphia,5
+8,Akron,Raleigh,7
+9,Hartford,Denver,1
+10,Atlanta,Kansas City,3
+11,Atlanta,Tampa,5
+12,Pittsburgh,Atlanta,4
+13,New York City,Jacksonville,4
+14,New York City,Baltimore,2
+15,Kansas City,Baltimore,8
+16,Cleveland,Boston,5
+17,Dallas,Houston,5
+18,Los Angeles,Baltimore,2
+19,Philadelphia,Dallas,7
+20,Tampa,Atlanta,3
+21,Raleigh,Chicago,7
+22,Miami,Philadelphia,5
+23,San Francisco,Dallas,7
+24,Chicago,Baltimore,7
+25,New York City,Hartford,8
+26,Pittsburgh,Dallas,2
+27,Kansas City,Hartford,4
+28,Chicago,Orlando,2
+29,Atlanta,Denver,2
+30,Chicago,Houston,4
+31,Hartford,Los Angeles,1
+32,Tampa,Pittsburgh,6
+33,Pittsburgh,New York City,1
+34,Akron,Dallas,1
+35,Chicago,Kansas City,2
+36,Akron,San Francisco,8
+37,Richmond,Boston,6
+38,Dallas,Boston,7
+39,Cleveland,New York City,3
+40,Boston,Miami,2
+41,Houston,Tampa,5
+42,Fort Lauderdale,Boston,4
+43,Philadelphia,Denver,4
+44,Baltimore,Dallas,8
+45,San Francisco,Richmond,2

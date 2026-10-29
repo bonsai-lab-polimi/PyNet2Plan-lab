@@ -1,0 +1,772 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "LONI (real topology #58)",
+  "description": "Real-world topology LONI (Topology Bench dataset), 40 wavelengths per fiber.",
+  "nodes": [
+    {
+      "name": "Shreveport Louisiana",
+      "lat": 32.5135356,
+      "lon": -93.7477839,
+      "x": -10435955.56674585,
+      "y": 3830910.539417764,
+      "up": true
+    },
+    {
+      "name": "Haughton Louisiana",
+      "lat": 32.5326514,
+      "lon": -93.5040627,
+      "x": -10408824.646866325,
+      "y": 3833434.2878778875,
+      "up": true
+    },
+    {
+      "name": "Ruston Louisiana",
+      "lat": 32.5297498,
+      "lon": -92.6386604,
+      "x": -10312488.503498998,
+      "y": 3833051.171853541,
+      "up": true
+    },
+    {
+      "name": "Monroe Louisiana",
+      "lat": 32.5102427,
+      "lon": -92.1032411,
+      "x": -10252885.899662107,
+      "y": 3830475.851082447,
+      "up": true
+    },
+    {
+      "name": "Tallulah Louisiana",
+      "lat": 32.4084539,
+      "lon": -91.1869112,
+      "x": -10150880.521795454,
+      "y": 3817046.780164639,
+      "up": true
+    },
+    {
+      "name": "Edwards Mississippi",
+      "lat": 32.3301465,
+      "lon": -90.6056548,
+      "x": -10086175.355327124,
+      "y": 3806725.9332976905,
+      "up": true
+    },
+    {
+      "name": "Jackson Mississippi",
+      "lat": 32.2998686,
+      "lon": -90.1830408,
+      "x": -10039130.180045016,
+      "y": 3802737.7267236975,
+      "up": true
+    },
+    {
+      "name": "Mendenhall Mississippi",
+      "lat": 31.9622006,
+      "lon": -89.8702079,
+      "x": -10004305.78091363,
+      "y": 3758349.8905942165,
+      "up": true
+    },
+    {
+      "name": "Seminary Mississipi",
+      "lat": 31.5623892,
+      "lon": -89.4975669,
+      "x": -9962823.574544935,
+      "y": 3706003.4962747027,
+      "up": true
+    },
+    {
+      "name": "Tylertown Mississipi",
+      "lat": 31.1160119,
+      "lon": -90.1420331,
+      "x": -10034565.223762413,
+      "y": 3647824.679706327,
+      "up": true
+    },
+    {
+      "name": "Greensburg Louisiana",
+      "lat": 30.829635,
+      "lon": -90.6677355,
+      "x": -10093086.147239214,
+      "y": 3610643.713649577,
+      "up": true
+    },
+    {
+      "name": "Jackson Louisiana",
+      "lat": 30.83685068,
+      "lon": -91.21575345,
+      "x": -10154091.226378785,
+      "y": 3611579.1751007964,
+      "up": true
+    },
+    {
+      "name": "Louisiana State University",
+      "lat": 30.4057618499999,
+      "lon": -91.1859745026568,
+      "x": -10150776.249124182,
+      "y": 3555814.1033631354,
+      "up": true
+    },
+    {
+      "name": "Hammond Louisiana",
+      "lat": 30.5043583,
+      "lon": -90.4611995,
+      "x": -10070094.664888734,
+      "y": 3568546.5457534445,
+      "up": true
+    },
+    {
+      "name": "Laplace Louisiana",
+      "lat": 30.0715993,
+      "lon": -90.4663589046885,
+      "x": -10070669.007191455,
+      "y": 3512756.58997122,
+      "up": true
+    },
+    {
+      "name": "433 Bolivar St, New Orleans, LA 70112, United States",
+      "lat": 29.957500674438,
+      "lon": -90.0832191878507,
+      "x": -10028018.089010391,
+      "y": 3498088.1203801828,
+      "up": true
+    },
+    {
+      "name": "2000 Lakeshore Dr, New Orleans, LA 70148, United States",
+      "lat": 30.0306062466549,
+      "lon": -90.0718504878483,
+      "x": -10026752.53111514,
+      "y": 3507484.598112607,
+      "up": true
+    },
+    {
+      "name": "Tulane University",
+      "lat": 29.94121955,
+      "lon": -90.1201008917918,
+      "x": -10032123.7415127,
+      "y": 3495996.400176104,
+      "up": true
+    },
+    {
+      "name": "Schriever Louisiana",
+      "lat": 29.7386285,
+      "lon": -90.81026625563359,
+      "x": -10108952.598378725,
+      "y": 3469997.023467082,
+      "up": true
+    },
+    {
+      "name": "Franklin Louisiana",
+      "lat": 29.7970217147616,
+      "lon": -91.5002492235352,
+      "x": -10185761.151021564,
+      "y": 3477485.4692508755,
+      "up": true
+    },
+    {
+      "name": "104 E University Ave, Lafayette, LA 70504, United States",
+      "lat": 30.2171207188979,
+      "lon": -92.0189421205121,
+      "x": -10243501.78019112,
+      "y": 3531489.32927191,
+      "up": true
+    },
+    {
+      "name": "Port Barre Louisiana",
+      "lat": 30.5601953,
+      "lon": -91.9540055,
+      "x": -10236273.068661876,
+      "y": 3575762.888184682,
+      "up": true
+    },
+    {
+      "name": "Ramah Louisiana",
+      "lat": 30.4024175,
+      "lon": -91.5073329,
+      "x": -10186549.70227857,
+      "y": 3555382.4499939205,
+      "up": true
+    },
+    {
+      "name": "Roanoke Louisiana",
+      "lat": 30.2351806,
+      "lon": -92.7478897,
+      "x": -10324647.853554703,
+      "y": 3533816.079023128,
+      "up": true
+    },
+    {
+      "name": "Lake Charles Louisiana",
+      "lat": 30.2305095,
+      "lon": -93.2169807,
+      "x": -10376866.82481041,
+      "y": 3533214.23559956,
+      "up": true
+    },
+    {
+      "name": "Crowley Louisiana",
+      "lat": 30.2140928,
+      "lon": -92.3745761,
+      "x": -10283090.773696499,
+      "y": 3531099.268325124,
+      "up": true
+    },
+    {
+      "name": "Landry Louisiana",
+      "lat": 30.8494554974206,
+      "lon": -92.256466934983,
+      "x": -10269942.921588788,
+      "y": 3613213.46854485,
+      "up": true
+    },
+    {
+      "name": "Alexandria Louisiana",
+      "lat": 31.3119463,
+      "lon": -92.4453558,
+      "x": -10290969.933859,
+      "y": 3673327.919742906,
+      "up": true
+    },
+    {
+      "name": "Derry Louisiana",
+      "lat": 31.5340592,
+      "lon": -92.9476592,
+      "x": -10346886.09257073,
+      "y": 3702302.861569566,
+      "up": true
+    },
+    {
+      "name": "Coushatta Louisiana",
+      "lat": 32.0148834,
+      "lon": -93.3421165,
+      "x": -10390796.878346419,
+      "y": 3765264.4632724123,
+      "up": true
+    },
+    {
+      "name": "801 Harding Blvd, Baton Rouge, LA 70807, United States",
+      "lat": 30.5203641644727,
+      "lon": -91.1883416332004,
+      "x": -10151039.756890936,
+      "y": 3570614.7106633354,
+      "up": true
+    },
+    {
+      "name": "7733 Perkins Rd, Baton Rouge, LA 70810, United States",
+      "lat": 30.394061,
+      "lon": -91.105683219937,
+      "x": -10141838.264416676,
+      "y": 3554303.9458632814,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Shreveport Louisiana",
+      "destination": "Haughton Louisiana",
+      "capacity": 40,
+      "length": 34.42,
+      "up": true
+    },
+    {
+      "origin": "Shreveport Louisiana",
+      "destination": "Coushatta Louisiana",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 100.95,
+      "up": true
+    },
+    {
+      "origin": "Haughton Louisiana",
+      "destination": "Shreveport Louisiana",
+      "capacity": 40,
+      "length": 34.42,
+      "up": true
+    },
+    {
+      "origin": "Haughton Louisiana",
+      "destination": "Ruston Louisiana",
+      "capacity": 40,
+      "length": 121.7,
+      "up": true
+    },
+    {
+      "origin": "Ruston Louisiana",
+      "destination": "Monroe Louisiana",
+      "capacity": 40,
+      "length": 75.37,
+      "up": true
+    },
+    {
+      "origin": "Ruston Louisiana",
+      "destination": "Haughton Louisiana",
+      "capacity": 40,
+      "length": 121.7,
+      "up": true
+    },
+    {
+      "origin": "Monroe Louisiana",
+      "destination": "Ruston Louisiana",
+      "capacity": 40,
+      "length": 75.37,
+      "up": true
+    },
+    {
+      "origin": "Monroe Louisiana",
+      "destination": "Tallulah Louisiana",
+      "capacity": 40,
+      "length": 130.07,
+      "up": true
+    },
+    {
+      "origin": "Tallulah Louisiana",
+      "destination": "Monroe Louisiana",
+      "capacity": 40,
+      "length": 130.07,
+      "up": true
+    },
+    {
+      "origin": "Tallulah Louisiana",
+      "destination": "Edwards Mississippi",
+      "capacity": 40,
+      "length": 82.92,
+      "up": true
+    },
+    {
+      "origin": "Edwards Mississippi",
+      "destination": "Tallulah Louisiana",
+      "capacity": 40,
+      "length": 82.92,
+      "up": true
+    },
+    {
+      "origin": "Edwards Mississippi",
+      "destination": "Jackson Mississippi",
+      "capacity": 40,
+      "length": 59.79,
+      "up": true
+    },
+    {
+      "origin": "Jackson Mississippi",
+      "destination": "Edwards Mississippi",
+      "capacity": 40,
+      "length": 59.79,
+      "up": true
+    },
+    {
+      "origin": "Jackson Mississippi",
+      "destination": "Mendenhall Mississippi",
+      "capacity": 40,
+      "length": 71.59,
+      "up": true
+    },
+    {
+      "origin": "Mendenhall Mississippi",
+      "destination": "Jackson Mississippi",
+      "capacity": 40,
+      "length": 71.59,
+      "up": true
+    },
+    {
+      "origin": "Mendenhall Mississippi",
+      "destination": "Seminary Mississipi",
+      "capacity": 40,
+      "length": 85.09,
+      "up": true
+    },
+    {
+      "origin": "Seminary Mississipi",
+      "destination": "Mendenhall Mississippi",
+      "capacity": 40,
+      "length": 85.09,
+      "up": true
+    },
+    {
+      "origin": "Seminary Mississipi",
+      "destination": "Tylertown Mississipi",
+      "capacity": 40,
+      "length": 118.2,
+      "up": true
+    },
+    {
+      "origin": "Tylertown Mississipi",
+      "destination": "Seminary Mississipi",
+      "capacity": 40,
+      "length": 118.2,
+      "up": true
+    },
+    {
+      "origin": "Tylertown Mississipi",
+      "destination": "Greensburg Louisiana",
+      "capacity": 40,
+      "length": 89.07,
+      "up": true
+    },
+    {
+      "origin": "Greensburg Louisiana",
+      "destination": "Tylertown Mississipi",
+      "capacity": 40,
+      "length": 89.07,
+      "up": true
+    },
+    {
+      "origin": "Greensburg Louisiana",
+      "destination": "Jackson Louisiana",
+      "capacity": 40,
+      "length": 78.5,
+      "up": true
+    },
+    {
+      "origin": "Jackson Louisiana",
+      "destination": "Greensburg Louisiana",
+      "capacity": 40,
+      "length": 78.5,
+      "up": true
+    },
+    {
+      "origin": "Jackson Louisiana",
+      "destination": "Louisiana State University",
+      "capacity": 40,
+      "length": 72.03,
+      "up": true
+    },
+    {
+      "origin": "Louisiana State University",
+      "destination": "Jackson Louisiana",
+      "capacity": 40,
+      "length": 72.03,
+      "up": true
+    },
+    {
+      "origin": "Louisiana State University",
+      "destination": "801 Harding Blvd, Baton Rouge, LA 70807, United States",
+      "capacity": 40,
+      "length": 19.12,
+      "up": true
+    },
+    {
+      "origin": "Louisiana State University",
+      "destination": "7733 Perkins Rd, Baton Rouge, LA 70810, United States",
+      "capacity": 40,
+      "length": 11.71,
+      "up": true
+    },
+    {
+      "origin": "Louisiana State University",
+      "destination": "Hammond Louisiana",
+      "capacity": 40,
+      "length": 105.5,
+      "up": true
+    },
+    {
+      "origin": "Louisiana State University",
+      "destination": "Ramah Louisiana",
+      "capacity": 40,
+      "length": 46.23,
+      "up": true
+    },
+    {
+      "origin": "Louisiana State University",
+      "destination": "Port Barre Louisiana",
+      "capacity": 40,
+      "length": 113.36,
+      "up": true
+    },
+    {
+      "origin": "Hammond Louisiana",
+      "destination": "Louisiana State University",
+      "capacity": 40,
+      "length": 105.5,
+      "up": true
+    },
+    {
+      "origin": "Hammond Louisiana",
+      "destination": "Laplace Louisiana",
+      "capacity": 40,
+      "length": 72.18,
+      "up": true
+    },
+    {
+      "origin": "Laplace Louisiana",
+      "destination": "Hammond Louisiana",
+      "capacity": 40,
+      "length": 72.18,
+      "up": true
+    },
+    {
+      "origin": "Laplace Louisiana",
+      "destination": "433 Bolivar St, New Orleans, LA 70112, United States",
+      "capacity": 40,
+      "length": 58.52,
+      "up": true
+    },
+    {
+      "origin": "433 Bolivar St, New Orleans, LA 70112, United States",
+      "destination": "Laplace Louisiana",
+      "capacity": 40,
+      "length": 58.52,
+      "up": true
+    },
+    {
+      "origin": "433 Bolivar St, New Orleans, LA 70112, United States",
+      "destination": "2000 Lakeshore Dr, New Orleans, LA 70148, United States",
+      "capacity": 40,
+      "length": 12.3,
+      "up": true
+    },
+    {
+      "origin": "2000 Lakeshore Dr, New Orleans, LA 70148, United States",
+      "destination": "433 Bolivar St, New Orleans, LA 70112, United States",
+      "capacity": 40,
+      "length": 12.3,
+      "up": true
+    },
+    {
+      "origin": "2000 Lakeshore Dr, New Orleans, LA 70148, United States",
+      "destination": "Tulane University",
+      "capacity": 40,
+      "length": 16.46,
+      "up": true
+    },
+    {
+      "origin": "Tulane University",
+      "destination": "2000 Lakeshore Dr, New Orleans, LA 70148, United States",
+      "capacity": 40,
+      "length": 16.46,
+      "up": true
+    },
+    {
+      "origin": "Tulane University",
+      "destination": "Schriever Louisiana",
+      "capacity": 40,
+      "length": 105.41,
+      "up": true
+    },
+    {
+      "origin": "Schriever Louisiana",
+      "destination": "Tulane University",
+      "capacity": 40,
+      "length": 105.41,
+      "up": true
+    },
+    {
+      "origin": "Schriever Louisiana",
+      "destination": "Franklin Louisiana",
+      "capacity": 40,
+      "length": 100.37,
+      "up": true
+    },
+    {
+      "origin": "Franklin Louisiana",
+      "destination": "Schriever Louisiana",
+      "capacity": 40,
+      "length": 100.37,
+      "up": true
+    },
+    {
+      "origin": "Franklin Louisiana",
+      "destination": "104 E University Ave, Lafayette, LA 70504, United States",
+      "capacity": 40,
+      "length": 102.58,
+      "up": true
+    },
+    {
+      "origin": "104 E University Ave, Lafayette, LA 70504, United States",
+      "destination": "Franklin Louisiana",
+      "capacity": 40,
+      "length": 102.58,
+      "up": true
+    },
+    {
+      "origin": "104 E University Ave, Lafayette, LA 70504, United States",
+      "destination": "Ramah Louisiana",
+      "capacity": 40,
+      "length": 79.89,
+      "up": true
+    },
+    {
+      "origin": "104 E University Ave, Lafayette, LA 70504, United States",
+      "destination": "Port Barre Louisiana",
+      "capacity": 40,
+      "length": 57.98,
+      "up": true
+    },
+    {
+      "origin": "104 E University Ave, Lafayette, LA 70504, United States",
+      "destination": "Roanoke Louisiana",
+      "capacity": 40,
+      "length": 105.1,
+      "up": true
+    },
+    {
+      "origin": "104 E University Ave, Lafayette, LA 70504, United States",
+      "destination": "Crowley Louisiana",
+      "capacity": 40,
+      "length": 51.26,
+      "up": true
+    },
+    {
+      "origin": "104 E University Ave, Lafayette, LA 70504, United States",
+      "destination": "Landry Louisiana",
+      "capacity": 40,
+      "length": 110.85,
+      "up": true
+    },
+    {
+      "origin": "Port Barre Louisiana",
+      "destination": "104 E University Ave, Lafayette, LA 70504, United States",
+      "capacity": 40,
+      "length": 57.98,
+      "up": true
+    },
+    {
+      "origin": "Port Barre Louisiana",
+      "destination": "Louisiana State University",
+      "capacity": 40,
+      "length": 113.36,
+      "up": true
+    },
+    {
+      "origin": "Ramah Louisiana",
+      "destination": "104 E University Ave, Lafayette, LA 70504, United States",
+      "capacity": 40,
+      "length": 79.89,
+      "up": true
+    },
+    {
+      "origin": "Ramah Louisiana",
+      "destination": "Louisiana State University",
+      "capacity": 40,
+      "length": 46.23,
+      "up": true
+    },
+    {
+      "origin": "Roanoke Louisiana",
+      "destination": "104 E University Ave, Lafayette, LA 70504, United States",
+      "capacity": 40,
+      "length": 105.1,
+      "up": true
+    },
+    {
+      "origin": "Roanoke Louisiana",
+      "destination": "Lake Charles Louisiana",
+      "capacity": 40,
+      "length": 67.6,
+      "up": true
+    },
+    {
+      "origin": "Lake Charles Louisiana",
+      "destination": "Roanoke Louisiana",
+      "capacity": 40,
+      "length": 67.6,
+      "up": true
+    },
+    {
+      "origin": "Lake Charles Louisiana",
+      "destination": "Crowley Louisiana",
+      "capacity": 40,
+      "length": 121.44,
+      "up": true
+    },
+    {
+      "origin": "Crowley Louisiana",
+      "destination": "104 E University Ave, Lafayette, LA 70504, United States",
+      "capacity": 40,
+      "length": 51.26,
+      "up": true
+    },
+    {
+      "origin": "Crowley Louisiana",
+      "destination": "Lake Charles Louisiana",
+      "capacity": 40,
+      "length": 121.44,
+      "up": true
+    },
+    {
+      "origin": "Landry Louisiana",
+      "destination": "104 E University Ave, Lafayette, LA 70504, United States",
+      "capacity": 40,
+      "length": 110.85,
+      "up": true
+    },
+    {
+      "origin": "Landry Louisiana",
+      "destination": "Alexandria Louisiana",
+      "capacity": 40,
+      "length": 81.72,
+      "up": true
+    },
+    {
+      "origin": "Alexandria Louisiana",
+      "destination": "Landry Louisiana",
+      "capacity": 40,
+      "length": 81.72,
+      "up": true
+    },
+    {
+      "origin": "Alexandria Louisiana",
+      "destination": "Derry Louisiana",
+      "capacity": 40,
+      "length": 80.52,
+      "up": true
+    },
+    {
+      "origin": "Derry Louisiana",
+      "destination": "Alexandria Louisiana",
+      "capacity": 40,
+      "length": 80.52,
+      "up": true
+    },
+    {
+      "origin": "Derry Louisiana",
+      "destination": "Coushatta Louisiana",
+      "capacity": 40,
+      "length": 97.78,
+      "up": true
+    },
+    {
+      "origin": "Coushatta Louisiana",
+      "destination": "Shreveport Louisiana",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 100.95,
+      "up": true
+    },
+    {
+      "origin": "Coushatta Louisiana",
+      "destination": "Derry Louisiana",
+      "capacity": 40,
+      "length": 97.78,
+      "up": true
+    },
+    {
+      "origin": "801 Harding Blvd, Baton Rouge, LA 70807, United States",
+      "destination": "Louisiana State University",
+      "capacity": 40,
+      "length": 19.12,
+      "up": true
+    },
+    {
+      "origin": "801 Harding Blvd, Baton Rouge, LA 70807, United States",
+      "destination": "7733 Perkins Rd, Baton Rouge, LA 70810, United States",
+      "capacity": 40,
+      "length": 24.19,
+      "up": true
+    },
+    {
+      "origin": "7733 Perkins Rd, Baton Rouge, LA 70810, United States",
+      "destination": "801 Harding Blvd, Baton Rouge, LA 70807, United States",
+      "capacity": 40,
+      "length": 24.19,
+      "up": true
+    },
+    {
+      "origin": "7733 Perkins Rd, Baton Rouge, LA 70810, United States",
+      "destination": "Louisiana State University",
+      "capacity": 40,
+      "length": 11.71,
+      "up": true
+    }
+  ]
+}

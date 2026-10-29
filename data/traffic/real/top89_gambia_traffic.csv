@@ -1,0 +1,27 @@
+# topology: GAMBIA (real topology #89) (data/topologies/real/top89_gambia.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Farafenni,Kerewan,1
+1,Farafenni,Brikama,1
+2,Banjul,Brikama,7
+3,Bakau (3),Bakau,8
+4,Abuko,Bakau,6
+5,Abuko,Bakau (3),5
+6,Farafenni,Banjul,8
+7,Bakau (2),Bansang,6
+8,Abuko,Kerewan,8
+9,Farafenni,Soma,6
+10,Kerewan,Banjul,3
+11,Farafenni,Abuko,1
+12,Abuko,Banjul,4
+13,Abuko,Soma,5
+14,Bansang,Soma,6
+15,Soma,Abuko,8
+16,Farafenni,Bansang,5
+17,Brikama,Farafenni,8
+18,Abuko,Basse Santa Su,4
+19,Bansang,Basse Santa Su,8
+20,Kerewan,Basse Santa Su,8
+21,Brikama,Basse Santa Su,7
+22,Bakau,Abuko,5
+23,Abuko,Brikama,6

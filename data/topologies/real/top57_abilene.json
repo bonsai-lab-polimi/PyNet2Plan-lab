@@ -1,0 +1,294 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "ABILENE (real topology #57)",
+  "description": "Real-world topology ABILENE (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.3833,
+      "x": -9393505.987456042,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.8333,
+      "lon": -87.6167,
+      "x": -9753446.428987013,
+      "y": 5136041.20835929,
+      "up": true
+    },
+    {
+      "name": "Wellington",
+      "lat": 40.75,
+      "lon": -105.0,
+      "x": -11688546.533293726,
+      "y": 4975536.361069248,
+      "up": true
+    },
+    {
+      "name": "Hedwig Village",
+      "lat": 29.770031,
+      "lon": -95.517364,
+      "x": -10632944.32239576,
+      "y": 3474023.591256634,
+      "up": true
+    },
+    {
+      "name": "Indianapolis",
+      "lat": 39.780622,
+      "lon": -86.159535,
+      "x": -9591235.563185232,
+      "y": 4834113.890524726,
+      "up": true
+    },
+    {
+      "name": "Ogden",
+      "lat": 38.961694,
+      "lon": -96.596704,
+      "x": -10753095.901588572,
+      "y": 4716186.051130505,
+      "up": true
+    },
+    {
+      "name": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.25,
+      "x": -13163529.786304599,
+      "y": 4035517.7820847426,
+      "up": true
+    },
+    {
+      "name": "Manhattan",
+      "lat": 40.7833,
+      "lon": -73.9667,
+      "x": -8233935.379658829,
+      "y": 4980430.8161146315,
+      "up": true
+    },
+    {
+      "name": "Sunnyvale",
+      "lat": 37.38575,
+      "lon": -122.02553,
+      "x": -13583819.863379328,
+      "y": 4493012.628757752,
+      "up": true
+    },
+    {
+      "name": "Seattle",
+      "lat": 47.6,
+      "lon": -122.3,
+      "x": -13614373.724017357,
+      "y": 6040565.208780057,
+      "up": true
+    },
+    {
+      "name": "Washington, D.C.",
+      "lat": 38.897303,
+      "lon": -77.026842,
+      "x": -8574588.828853937,
+      "y": 4706971.766131865,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Atlanta",
+      "destination": "Hedwig Village",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Indianapolis",
+      "capacity": 40,
+      "length": 885.11,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 1348.85,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Indianapolis",
+      "capacity": 40,
+      "length": 388.65,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Manhattan",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Wellington",
+      "destination": "Ogden",
+      "capacity": 40,
+      "length": 1116.02,
+      "up": true
+    },
+    {
+      "origin": "Wellington",
+      "destination": "Sunnyvale",
+      "capacity": 40,
+      "length": 1892.5,
+      "up": true
+    },
+    {
+      "origin": "Wellington",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1963.72,
+      "up": true
+    },
+    {
+      "origin": "Hedwig Village",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Hedwig Village",
+      "destination": "Ogden",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Hedwig Village",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 2741.2,
+      "up": true
+    },
+    {
+      "origin": "Indianapolis",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 885.11,
+      "up": true
+    },
+    {
+      "origin": "Indianapolis",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 388.65,
+      "up": true
+    },
+    {
+      "origin": "Indianapolis",
+      "destination": "Ogden",
+      "capacity": 40,
+      "length": 1351.9,
+      "up": true
+    },
+    {
+      "origin": "Ogden",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 1116.02,
+      "up": true
+    },
+    {
+      "origin": "Ogden",
+      "destination": "Hedwig Village",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Ogden",
+      "destination": "Indianapolis",
+      "capacity": 40,
+      "length": 1351.9,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Hedwig Village",
+      "capacity": 40,
+      "length": 2741.2,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Sunnyvale",
+      "capacity": 40,
+      "length": 755.47,
+      "up": true
+    },
+    {
+      "origin": "Manhattan",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Manhattan",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 502.48,
+      "up": true
+    },
+    {
+      "origin": "Sunnyvale",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 1892.5,
+      "up": true
+    },
+    {
+      "origin": "Sunnyvale",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 755.47,
+      "up": true
+    },
+    {
+      "origin": "Sunnyvale",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 1963.72,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Sunnyvale",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1348.85,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Manhattan",
+      "capacity": 40,
+      "length": 502.48,
+      "up": true
+    }
+  ]
+}

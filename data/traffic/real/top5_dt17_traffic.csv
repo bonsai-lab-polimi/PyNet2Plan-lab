@@ -1,0 +1,31 @@
+# topology: DT17 (real topology #5) (data/topologies/real/top5_dt17.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Dortmund,Frankfurt,1
+1,Berlin,Leipzig,7
+2,Ulm,Leipzig,3
+3,Munich,Frankfurt,1
+4,Frankfurt,Hamburg,7
+5,Berlin,Ulm,1
+6,Hamburg,Essen,3
+7,Nuremberg,Bremen,8
+8,Essen,Leipzig,2
+9,Cologne,Essen,6
+10,Ulm,Essen,3
+11,Dusseldorf,Frankfurt,5
+12,Leipzig,Munich,8
+13,Cologne,Hamburg,8
+14,Cologne,Leipzig,5
+15,Essen,Berlin,8
+16,Frankfurt,Dortmund,7
+17,Stuttgart,Bremen,8
+18,Essen,Hamburg,4
+19,Cologne,Berlin,8
+20,Dortmund,Munich,7
+21,Dortmund,Berlin,4
+22,Bremen,Hamburg,6
+23,Munich,Nuremberg,7
+24,Bremen,Cologne,7
+25,Leipzig,Ulm,6
+26,Hanover,Munich,5
+27,Bremen,Munich,7

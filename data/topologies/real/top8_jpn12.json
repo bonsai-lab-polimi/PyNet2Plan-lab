@@ -1,0 +1,344 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "JPN12 (real topology #8)",
+  "description": "Real-world topology JPN12 (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Sapporo",
+      "lat": 43.075,
+      "lon": 141.34,
+      "x": 15733896.828721287,
+      "y": 5323394.58801964,
+      "up": true
+    },
+    {
+      "name": "Sendai",
+      "lat": 38.27,
+      "lon": 140.85,
+      "x": 15679350.278232582,
+      "y": 4617638.286128266,
+      "up": true
+    },
+    {
+      "name": "Tokyo",
+      "lat": 35.68,
+      "lon": 139.77,
+      "x": 15559125.228175847,
+      "y": 4256678.731903622,
+      "up": true
+    },
+    {
+      "name": "Hachioji",
+      "lat": 35.66,
+      "lon": 139.28,
+      "x": 15504578.677687144,
+      "y": 4253938.185248514,
+      "up": true
+    },
+    {
+      "name": "Kanazawa",
+      "lat": 36.58,
+      "lon": 136.65,
+      "x": 15211808.416900832,
+      "y": 4380724.779869891,
+      "up": true
+    },
+    {
+      "name": "Nagano",
+      "lat": 36.66,
+      "lon": 138.19,
+      "x": 15383240.432722475,
+      "y": 4391820.540578916,
+      "up": true
+    },
+    {
+      "name": "Nagoya",
+      "lat": 35.149,
+      "lon": 136.91,
+      "x": 15240751.484507086,
+      "y": 4184148.1296176505,
+      "up": true
+    },
+    {
+      "name": "Osaka",
+      "lat": 34.67,
+      "lon": 135.5,
+      "x": 15083791.002488568,
+      "y": 4119125.402329641,
+      "up": true
+    },
+    {
+      "name": "Hiroshima",
+      "lat": 34.39,
+      "lon": 132.449,
+      "x": 14744155.236078294,
+      "y": 4081290.489187261,
+      "up": true
+    },
+    {
+      "name": "Matsuyama",
+      "lat": 33.84,
+      "lon": 132.75,
+      "x": 14777662.402807068,
+      "y": 4007338.115590455,
+      "up": true
+    },
+    {
+      "name": "Hakata",
+      "lat": 33.57,
+      "lon": 130.35,
+      "x": 14510495.624903211,
+      "y": 3971208.641918791,
+      "up": true
+    },
+    {
+      "name": "Naha",
+      "lat": 26.21,
+      "lon": 127.68,
+      "x": 14213272.58448517,
+      "y": 3025113.676319929,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Sapporo",
+      "destination": "Sendai",
+      "capacity": 40,
+      "length": 889.95,
+      "up": true
+    },
+    {
+      "origin": "Sapporo",
+      "destination": "Hachioji",
+      "capacity": 40,
+      "length": 1570.5,
+      "up": true
+    },
+    {
+      "origin": "Sendai",
+      "destination": "Sapporo",
+      "capacity": 40,
+      "length": 889.95,
+      "up": true
+    },
+    {
+      "origin": "Sendai",
+      "destination": "Tokyo",
+      "capacity": 40,
+      "length": 527.7,
+      "up": true
+    },
+    {
+      "origin": "Tokyo",
+      "destination": "Sendai",
+      "capacity": 40,
+      "length": 527.7,
+      "up": true
+    },
+    {
+      "origin": "Tokyo",
+      "destination": "Hachioji",
+      "capacity": 40,
+      "length": 71.1,
+      "up": true
+    },
+    {
+      "origin": "Tokyo",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 549.0,
+      "up": true
+    },
+    {
+      "origin": "Hachioji",
+      "destination": "Sapporo",
+      "capacity": 40,
+      "length": 1570.5,
+      "up": true
+    },
+    {
+      "origin": "Hachioji",
+      "destination": "Tokyo",
+      "capacity": 40,
+      "length": 71.1,
+      "up": true
+    },
+    {
+      "origin": "Hachioji",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 376.05,
+      "up": true
+    },
+    {
+      "origin": "Kanazawa",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 378.3,
+      "up": true
+    },
+    {
+      "origin": "Kanazawa",
+      "destination": "Osaka",
+      "capacity": 40,
+      "length": 395.7,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Hachioji",
+      "capacity": 40,
+      "length": 376.05,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Kanazawa",
+      "capacity": 40,
+      "length": 378.3,
+      "up": true
+    },
+    {
+      "origin": "Nagano",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 376.2,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Tokyo",
+      "capacity": 40,
+      "length": 549.0,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Nagano",
+      "capacity": 40,
+      "length": 376.2,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Osaka",
+      "capacity": 40,
+      "length": 279.9,
+      "up": true
+    },
+    {
+      "origin": "Nagoya",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 736.05,
+      "up": true
+    },
+    {
+      "origin": "Osaka",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 279.9,
+      "up": true
+    },
+    {
+      "origin": "Osaka",
+      "destination": "Kanazawa",
+      "capacity": 40,
+      "length": 395.7,
+      "up": true
+    },
+    {
+      "origin": "Osaka",
+      "destination": "Hiroshima",
+      "capacity": 40,
+      "length": 512.4,
+      "up": true
+    },
+    {
+      "origin": "Hiroshima",
+      "destination": "Osaka",
+      "capacity": 40,
+      "length": 512.4,
+      "up": true
+    },
+    {
+      "origin": "Hiroshima",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 99.3,
+      "up": true
+    },
+    {
+      "origin": "Hiroshima",
+      "destination": "Hakata",
+      "capacity": 40,
+      "length": 421.05,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Nagoya",
+      "capacity": 40,
+      "length": 736.05,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Hiroshima",
+      "capacity": 40,
+      "length": 99.3,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Naha",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Matsuyama",
+      "destination": "Hakata",
+      "capacity": 40,
+      "length": 547.5,
+      "up": true
+    },
+    {
+      "origin": "Hakata",
+      "destination": "Hiroshima",
+      "capacity": 40,
+      "length": 421.05,
+      "up": true
+    },
+    {
+      "origin": "Hakata",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 547.5,
+      "up": true
+    },
+    {
+      "origin": "Hakata",
+      "destination": "Naha",
+      "capacity": 40,
+      "length": 1367.85,
+      "up": true
+    },
+    {
+      "origin": "Naha",
+      "destination": "Matsuyama",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Naha",
+      "destination": "Hakata",
+      "capacity": 40,
+      "length": 1367.85,
+      "up": true
+    }
+  ]
+}

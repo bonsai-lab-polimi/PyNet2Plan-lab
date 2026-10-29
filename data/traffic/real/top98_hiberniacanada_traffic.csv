@@ -1,0 +1,23 @@
+# topology: HIBERNIACANADA (real topology #98) (data/topologies/real/top98_hiberniacanada.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Quebec,Montreal,1
+1,Edmundston,Niagara Falls,2
+2,Niagara Falls,Toronto,7
+3,Edmundston,Quebec,4
+4,Niagara Falls,Hope,8
+5,Meadow Lake,Quebec,1
+6,Niagara Falls,Halifax,1
+7,Meadow Lake,Montreal,8
+8,Toronto,Meadow Lake,7
+9,Niagara Falls,Edmundston,6
+10,Moncton,Niagara Falls,6
+11,Hope,Kensington,3
+12,Edmundston,Toronto,6
+13,Quebec,Meadow Lake,8
+14,Quebec,Edmundston,5
+15,Halifax,Moncton,7
+16,Moncton,Meadow Lake,6
+17,Montreal,Niagara Falls,3
+18,Toronto,Halifax,1
+19,Montreal,Kensington,7

@@ -1,0 +1,362 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NEXTGEN (real topology #19)",
+  "description": "Real-world topology NEXTGEN (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Dubbo",
+      "lat": -32.25,
+      "lon": 148.62,
+      "x": 16544302.721696319,
+      "y": -3796171.935018618,
+      "up": true
+    },
+    {
+      "name": "Moree",
+      "lat": -29.47,
+      "lon": 149.85,
+      "x": 16681225.695372043,
+      "y": -3435603.594406353,
+      "up": true
+    },
+    {
+      "name": "Parkes",
+      "lat": -33.13,
+      "lon": 148.18,
+      "x": 16495322.14574728,
+      "y": -3912572.0289339134,
+      "up": true
+    },
+    {
+      "name": "Albury",
+      "lat": -36.08,
+      "lon": 146.92,
+      "x": 16355059.587347751,
+      "y": -4311634.839473059,
+      "up": true
+    },
+    {
+      "name": "Newcastle",
+      "lat": -32.93,
+      "lon": 151.78,
+      "x": 16896072.312603064,
+      "y": -3886016.3157895817,
+      "up": true
+    },
+    {
+      "name": "Coffs Harbour",
+      "lat": -30.3,
+      "lon": 153.13,
+      "x": 17046353.625173982,
+      "y": -3542170.62764302,
+      "up": true
+    },
+    {
+      "name": "Geelong",
+      "lat": -38.15,
+      "lon": 144.36,
+      "x": 16070081.690916976,
+      "y": -4600637.506952159,
+      "up": true
+    },
+    {
+      "name": "Shepparton",
+      "lat": -36.38,
+      "lon": 145.4,
+      "x": 16185853.961341979,
+      "y": -4353035.5542248655,
+      "up": true
+    },
+    {
+      "name": "West Leederville",
+      "lat": -31.93,
+      "lon": 115.83,
+      "x": 12894136.618584877,
+      "y": -3754125.542702461,
+      "up": true
+    },
+    {
+      "name": "Adelaide",
+      "lat": -34.93,
+      "lon": 138.6,
+      "x": 15428881.423947718,
+      "y": -4154372.487888835,
+      "up": true
+    },
+    {
+      "name": "Melbourne",
+      "lat": -37.81,
+      "lon": 144.96,
+      "x": 16136873.385392938,
+      "y": -4552619.846112671,
+      "up": true
+    },
+    {
+      "name": "Sydney",
+      "lat": -33.87,
+      "lon": 151.21,
+      "x": 16832620.202850897,
+      "y": -4011359.5310524274,
+      "up": true
+    },
+    {
+      "name": "Canberra",
+      "lat": -35.28,
+      "lon": 149.13,
+      "x": 16601075.662000885,
+      "y": -4201997.429019859,
+      "up": true
+    },
+    {
+      "name": "Brisbane",
+      "lat": -27.47,
+      "lon": 153.03,
+      "x": 17035221.676094655,
+      "y": -3182315.758680246,
+      "up": true
+    },
+    {
+      "name": "Kalgoorlie",
+      "lat": -30.75,
+      "lon": 121.47,
+      "x": 13521978.54665894,
+      "y": -3600324.2680284064,
+      "up": true
+    },
+    {
+      "name": "Port Augusta",
+      "lat": -32.5,
+      "lon": 137.77,
+      "x": 15336486.2465893,
+      "y": -3829123.837028439,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Dubbo",
+      "destination": "Moree",
+      "capacity": 40,
+      "length": 495.99,
+      "up": true
+    },
+    {
+      "origin": "Dubbo",
+      "destination": "Parkes",
+      "capacity": 40,
+      "length": 159.24,
+      "up": true
+    },
+    {
+      "origin": "Moree",
+      "destination": "Dubbo",
+      "capacity": 40,
+      "length": 495.99,
+      "up": true
+    },
+    {
+      "origin": "Moree",
+      "destination": "Brisbane",
+      "capacity": 40,
+      "length": 573.25,
+      "up": true
+    },
+    {
+      "origin": "Parkes",
+      "destination": "Dubbo",
+      "capacity": 40,
+      "length": 159.24,
+      "up": true
+    },
+    {
+      "origin": "Albury",
+      "destination": "Melbourne",
+      "capacity": 40,
+      "length": 389.24,
+      "up": true
+    },
+    {
+      "origin": "Albury",
+      "destination": "Canberra",
+      "capacity": 40,
+      "length": 327.79,
+      "up": true
+    },
+    {
+      "origin": "Newcastle",
+      "destination": "Sydney",
+      "capacity": 40,
+      "length": 175.73,
+      "up": true
+    },
+    {
+      "origin": "Newcastle",
+      "destination": "Coffs Harbour",
+      "capacity": 40,
+      "length": 478.73,
+      "up": true
+    },
+    {
+      "origin": "Coffs Harbour",
+      "destination": "Newcastle",
+      "capacity": 40,
+      "length": 478.73,
+      "up": true
+    },
+    {
+      "origin": "Coffs Harbour",
+      "destination": "Brisbane",
+      "capacity": 40,
+      "length": 472.25,
+      "up": true
+    },
+    {
+      "origin": "Geelong",
+      "destination": "Adelaide",
+      "capacity": 40,
+      "length": 940.03,
+      "up": true
+    },
+    {
+      "origin": "Geelong",
+      "destination": "Melbourne",
+      "capacity": 40,
+      "length": 97.15,
+      "up": true
+    },
+    {
+      "origin": "Shepparton",
+      "destination": "Melbourne",
+      "capacity": 40,
+      "length": 245.59,
+      "up": true
+    },
+    {
+      "origin": "West Leederville",
+      "destination": "Adelaide",
+      "capacity": 40,
+      "length": 2668.04,
+      "up": true
+    },
+    {
+      "origin": "West Leederville",
+      "destination": "Kalgoorlie",
+      "capacity": 40,
+      "length": 827.1,
+      "up": true
+    },
+    {
+      "origin": "Adelaide",
+      "destination": "Geelong",
+      "capacity": 40,
+      "length": 940.03,
+      "up": true
+    },
+    {
+      "origin": "Adelaide",
+      "destination": "West Leederville",
+      "capacity": 40,
+      "length": 2668.04,
+      "up": true
+    },
+    {
+      "origin": "Adelaide",
+      "destination": "Port Augusta",
+      "capacity": 40,
+      "length": 421.34,
+      "up": true
+    },
+    {
+      "origin": "Melbourne",
+      "destination": "Albury",
+      "capacity": 40,
+      "length": 389.24,
+      "up": true
+    },
+    {
+      "origin": "Melbourne",
+      "destination": "Geelong",
+      "capacity": 40,
+      "length": 97.15,
+      "up": true
+    },
+    {
+      "origin": "Melbourne",
+      "destination": "Shepparton",
+      "capacity": 40,
+      "length": 245.59,
+      "up": true
+    },
+    {
+      "origin": "Sydney",
+      "destination": "Newcastle",
+      "capacity": 40,
+      "length": 175.73,
+      "up": true
+    },
+    {
+      "origin": "Sydney",
+      "destination": "Canberra",
+      "capacity": 40,
+      "length": 369.99,
+      "up": true
+    },
+    {
+      "origin": "Canberra",
+      "destination": "Albury",
+      "capacity": 40,
+      "length": 327.79,
+      "up": true
+    },
+    {
+      "origin": "Canberra",
+      "destination": "Sydney",
+      "capacity": 40,
+      "length": 369.99,
+      "up": true
+    },
+    {
+      "origin": "Brisbane",
+      "destination": "Moree",
+      "capacity": 40,
+      "length": 573.25,
+      "up": true
+    },
+    {
+      "origin": "Brisbane",
+      "destination": "Coffs Harbour",
+      "capacity": 40,
+      "length": 472.25,
+      "up": true
+    },
+    {
+      "origin": "Kalgoorlie",
+      "destination": "West Leederville",
+      "capacity": 40,
+      "length": 827.1,
+      "up": true
+    },
+    {
+      "origin": "Kalgoorlie",
+      "destination": "Port Augusta",
+      "capacity": 40,
+      "length": 1942.48,
+      "up": true
+    },
+    {
+      "origin": "Port Augusta",
+      "destination": "Adelaide",
+      "capacity": 40,
+      "length": 421.34,
+      "up": true
+    },
+    {
+      "origin": "Port Augusta",
+      "destination": "Kalgoorlie",
+      "capacity": 40,
+      "length": 1942.48,
+      "up": true
+    }
+  ]
+}

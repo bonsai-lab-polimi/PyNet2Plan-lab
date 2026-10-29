@@ -1,0 +1,17 @@
+# topology: SANREN (real topology #25) (data/topologies/real/top25_sanren.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Johannesburg,Port Elizabeth,8
+1,Pretoria,Durban,5
+2,Cape Town,Bloemfontein,1
+3,East London,Bloemfontein,8
+4,East London,Durban,5
+5,Pretoria,East London,1
+6,Bloemfontein,Port Elizabeth,7
+7,Durban,Cape Town,5
+8,East London,Cape Town,3
+9,Johannesburg,Bloemfontein,8
+10,Durban,Pretoria,8
+11,Port Elizabeth,Bloemfontein,2
+12,Pretoria,Johannesburg,8
+13,Bloemfontein,Pretoria,7

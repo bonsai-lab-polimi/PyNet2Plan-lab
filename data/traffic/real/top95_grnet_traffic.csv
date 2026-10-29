@@ -1,0 +1,63 @@
+# topology: GRNET (real topology #95) (data/topologies/real/top95_grnet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Larisa,Edessa,6
+1,Kerkyra,Igoumenitsa,3
+2,Xanthi,Pylos,4
+3,Mykonos,Patra,7
+4,Vrontados,Alexandroupoli,5
+5,Kalavryta,Chania,7
+6,Neon Karlovasion,Komotini,2
+7,Tripoli,Mykonos,2
+8,Rodos,Vrontados,2
+9,Volos,Igoumenitsa,1
+10,Xanthi,Chalkida,1
+11,Chania,Serres,7
+12,Serres,Irakleion,1
+13,Patra,Mytilini,7
+14,Mykonos,Larisa,8
+15,Kerkyra,Alexandroupoli,2
+16,Chios,Mykonos,2
+17,Kastoria,Larisa,3
+18,Thessaloniki,Chania,4
+19,Rethymno,Kavala,3
+20,Neon Karlovasion,Volos,7
+21,Kerkyra,Athens,6
+22,Kavala,Rodos,4
+23,Patra,Rodos,5
+24,Pylos,Thessaloniki,6
+25,Serres,Xanthi,4
+26,Kastoria,Chania,1
+27,Kalavryta,Kalamata,8
+28,Mesolongi,Trikala,7
+29,Rodos,Ioannina,6
+30,Igoumenitsa,Karditsa,3
+31,Kalavryta,Serres,5
+32,Athens,Neon Karlovasion,4
+33,Kalamata,Mesolongi,8
+34,Vrontados,Karditsa,3
+35,Kavala,Trikala,5
+36,Irakleion,Volos,7
+37,Ermoupolis,Mesolongi,8
+38,Karditsa,Kalamata,2
+39,Xanthi,Ioannina,4
+40,Karditsa,Pylos,2
+41,Ioannina,Mykonos,3
+42,Kastoria,Mykonos,1
+43,Kalamata,Arkhaia Korinthos,4
+44,Pylos,Chania,2
+45,Tripoli,Larisa,3
+46,Xanthi,Komotini,3
+47,Athens,Kerkyra,2
+48,Mykonos,Igoumenitsa,7
+49,Irakleion,Kavala,3
+50,Karditsa,Chania,7
+51,Arkhaia Korinthos,Patra,6
+52,Serres,Trikala,1
+53,Kalavryta,Vrontados,4
+54,Pylos,Tripoli,6
+55,Mesolongi,Kalamata,1
+56,Thessaloniki,Serres,7
+57,Ermoupolis,Volos,2
+58,Rethymno,Igoumenitsa,6
+59,Athens,Karditsa,5

@@ -1,0 +1,178 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "Spain-7",
+  "description": "7-node Spanish backbone, 16 unidirectional links, 40 wavelengths per link (CND Lab 1 style).",
+  "nodes": [
+    {
+      "name": "Madrid",
+      "lat": 40.4168,
+      "lon": -3.7038,
+      "x": -412305.1300001266,
+      "y": 4926696.669635532,
+      "up": true
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.3874,
+      "lon": 2.1686,
+      "x": 241407.44773429306,
+      "y": 5069652.102124557,
+      "up": true
+    },
+    {
+      "name": "Valencia",
+      "lat": 39.4699,
+      "lon": -0.3763,
+      "x": -41889.52438550885,
+      "y": 4789205.980648418,
+      "up": true
+    },
+    {
+      "name": "Sevilla",
+      "lat": 37.3891,
+      "lon": -5.9845,
+      "x": -666191.4926523457,
+      "y": 4493481.9777948335,
+      "up": true
+    },
+    {
+      "name": "Zaragoza",
+      "lat": 41.6488,
+      "lon": -0.8891,
+      "x": -98974.15926429954,
+      "y": 5108515.703061961,
+      "up": true
+    },
+    {
+      "name": "Malaga",
+      "lat": 36.7213,
+      "lon": -4.4214,
+      "x": -492187.99659337976,
+      "y": 4400330.471851679,
+      "up": true
+    },
+    {
+      "name": "Murcia",
+      "lat": 37.9922,
+      "lon": -1.1307,
+      "x": -125868.94823995442,
+      "y": 4578323.993061129,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Madrid",
+      "destination": "Zaragoza",
+      "capacity": 40,
+      "length": 272.94,
+      "up": true
+    },
+    {
+      "origin": "Madrid",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 390.21,
+      "up": true
+    },
+    {
+      "origin": "Madrid",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 302.56,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "Zaragoza",
+      "capacity": 40,
+      "length": 256.21,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 303.06,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 303.06,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "Murcia",
+      "capacity": 40,
+      "length": 176.86,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "Madrid",
+      "capacity": 40,
+      "length": 302.56,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Malaga",
+      "capacity": 40,
+      "length": 157.33,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Madrid",
+      "capacity": 40,
+      "length": 390.21,
+      "up": true
+    },
+    {
+      "origin": "Zaragoza",
+      "destination": "Madrid",
+      "capacity": 40,
+      "length": 272.94,
+      "up": true
+    },
+    {
+      "origin": "Zaragoza",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 256.21,
+      "up": true
+    },
+    {
+      "origin": "Malaga",
+      "destination": "Murcia",
+      "capacity": 40,
+      "length": 323.34,
+      "up": true
+    },
+    {
+      "origin": "Malaga",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 157.33,
+      "up": true
+    },
+    {
+      "origin": "Murcia",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 176.86,
+      "up": true
+    },
+    {
+      "origin": "Murcia",
+      "destination": "Malaga",
+      "capacity": 40,
+      "length": 323.34,
+      "up": true
+    }
+  ]
+}

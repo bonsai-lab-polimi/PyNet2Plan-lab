@@ -1,0 +1,63 @@
+# topology: NETWORKUSA (real topology #61) (data/topologies/real/top61_networkusa.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Hammond,Morgan City,3
+1,Morgan City,Longview,4
+2,Liberty,Morgan City,6
+3,Beaumont,New Orleans,1
+4,Shreveport,Houston,7
+5,Alexandria,Shreveport,1
+6,Bunkie,Austin,8
+7,College Station,Fort Polk South,5
+8,China,Ruston,7
+9,Bunkie,Natchitoches,1
+10,Waco,San Antonio,5
+11,Covington,Fort Polk South,5
+12,Coushatta,Lake Charles,2
+13,Lake Charles,Austin,8
+14,Liberty,Lake Charles,3
+15,Liberty,Bunkie,2
+16,Jackson,Slidell,4
+17,Slidell,Morgan City,4
+18,Gulfport,Dallas,4
+19,Jackson,Opelousas,7
+20,Natchitoches,China,4
+21,College Station,Hammond,6
+22,Bunkie,China,1
+23,Jackson,Shreveport,1
+24,Baton Rouge,Bunkie,5
+25,New Orleans,Opelousas,1
+26,Morgan City,Slidell,5
+27,Bunkie,Thibodaux,5
+28,Ruston,New Orleans,6
+29,Dallas,Bunkie,8
+30,Alexandria,Liberty,4
+31,Bunkie,Fort Polk South,8
+32,Bunkie,Dallas,7
+33,Opelousas,College Station,7
+34,Alexandria,Fort Polk South,7
+35,Baton Rouge,Tyler,3
+36,Fort Polk South,Shreveport,3
+37,DeRidder,Monroe,3
+38,Covington,Shreveport,5
+39,Tyler,Vienna Bend,4
+40,DeRidder,Hammond,8
+41,Alexandria,Lake Charles,4
+42,New Orleans,Thibodaux,5
+43,Tyler,Longview,1
+44,Thibodaux,San Antonio,3
+45,Jackson,Austin,8
+46,Houston,Liberty,2
+47,Thibodaux,Opelousas,7
+48,Houston,Beaumont,5
+49,Lafayette,Hammond,8
+50,Thibodaux,Fort Polk South,1
+51,Monroe,Morgan City,6
+52,Minden,Jackson,2
+53,Baton Rouge,Houston,6
+54,Tyler,Covington,7
+55,Morgan City,Dallas,4
+56,Lake Charles,Monroe,5
+57,Opelousas,Bossier City,5
+58,Coushatta,Liberty,1
+59,College Station,Baton Rouge,5

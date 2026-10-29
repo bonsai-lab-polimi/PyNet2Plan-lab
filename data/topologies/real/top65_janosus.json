@@ -1,0 +1,806 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "JANOSUS (real topology #65)",
+  "description": "Real-world topology JANOSUS (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "SeaTac",
+      "lat": 47.45,
+      "lon": -122.3,
+      "x": -13614373.724017357,
+      "y": 6015837.3544284385,
+      "up": true
+    },
+    {
+      "name": "El Segundo",
+      "lat": 33.93,
+      "lon": -118.4,
+      "x": -13180227.709923591,
+      "y": 4019406.604750416,
+      "up": true
+    },
+    {
+      "name": "Millbrae",
+      "lat": 37.62,
+      "lon": -122.38,
+      "x": -13623279.28328082,
+      "y": 4525882.767508528,
+      "up": true
+    },
+    {
+      "name": "Paradise",
+      "lat": 36.08,
+      "lon": -115.17,
+      "x": -12820665.754661318,
+      "y": 4311634.8394730585,
+      "up": true
+    },
+    {
+      "name": "Salt Lake City",
+      "lat": 40.78,
+      "lon": -111.97,
+      "x": -12464443.384122843,
+      "y": 4979945.670525387,
+      "up": true
+    },
+    {
+      "name": "Fort Bliss",
+      "lat": 31.8,
+      "lon": -106.4,
+      "x": -11844393.820404308,
+      "y": 3737086.056237239,
+      "up": true
+    },
+    {
+      "name": "University Park",
+      "lat": 32.85,
+      "lon": -96.85,
+      "x": -10781292.683328545,
+      "y": 3875410.8552869544,
+      "up": true
+    },
+    {
+      "name": "Aldine",
+      "lat": 29.97,
+      "lon": -95.35,
+      "x": -10614313.447138635,
+      "y": 3499694.205799757,
+      "up": true
+    },
+    {
+      "name": "Owasso",
+      "lat": 36.2,
+      "lon": -95.9,
+      "x": -10675539.167074936,
+      "y": 4328176.07529828,
+      "up": true
+    },
+    {
+      "name": "New Hope",
+      "lat": 45.07,
+      "lon": -93.38,
+      "x": -10395014.050275885,
+      "y": 5632548.293556316,
+      "up": true
+    },
+    {
+      "name": "Platte City",
+      "lat": 39.32,
+      "lon": -94.72,
+      "x": -10544182.167938873,
+      "y": 4767613.033897954,
+      "up": true
+    },
+    {
+      "name": "Aurora",
+      "lat": 39.75,
+      "lon": -104.87,
+      "x": -11674074.9994906,
+      "y": 4829679.18977684,
+      "up": true
+    },
+    {
+      "name": "Rosemont",
+      "lat": 41.98,
+      "lon": -87.9,
+      "x": -9784983.240728747,
+      "y": 5157984.011691856,
+      "up": true
+    },
+    {
+      "name": "Mooresville",
+      "lat": 39.65,
+      "lon": -86.27,
+      "x": -9603532.470735712,
+      "y": 4815210.826275794,
+      "up": true
+    },
+    {
+      "name": "Hamtramck",
+      "lat": 42.42,
+      "lon": -83.02,
+      "x": -9241744.125657571,
+      "y": 5224102.519147308,
+      "up": true
+    },
+    {
+      "name": "Hazelwood",
+      "lat": 38.75,
+      "lon": -90.37,
+      "x": -10059942.382988133,
+      "y": 4685924.221153926,
+      "up": true
+    },
+    {
+      "name": "Oak Hill",
+      "lat": 36.12,
+      "lon": -86.68,
+      "x": -9649173.461960953,
+      "y": 4317145.774581359,
+      "up": true
+    },
+    {
+      "name": "Cleveland",
+      "lat": 41.52,
+      "lon": -81.68,
+      "x": -9092576.007994587,
+      "y": 5089346.767263695,
+      "up": true
+    },
+    {
+      "name": "Inwood",
+      "lat": 40.65,
+      "lon": -73.78,
+      "x": -8213152.030727725,
+      "y": 4960853.01004374,
+      "up": true
+    },
+    {
+      "name": "Colonie",
+      "lat": 42.75,
+      "lon": -73.8,
+      "x": -8215378.42054359,
+      "y": 5273996.383612197,
+      "up": true
+    },
+    {
+      "name": "Charlotte",
+      "lat": 35.22,
+      "lon": -80.93,
+      "x": -9009086.38989963,
+      "y": 4193818.6019500964,
+      "up": true
+    },
+    {
+      "name": "Belle Chasse",
+      "lat": 29.83,
+      "lon": -90.02,
+      "x": -10020980.561210487,
+      "y": 3481716.5917746318,
+      "up": true
+    },
+    {
+      "name": "Chelsea",
+      "lat": 42.37,
+      "lon": -71.03,
+      "x": -7907023.431046221,
+      "y": 5216565.798596941,
+      "up": true
+    },
+    {
+      "name": "Hapeville",
+      "lat": 33.65,
+      "lon": -84.42,
+      "x": -9397591.412768155,
+      "y": 3981901.8421033667,
+      "up": true
+    },
+    {
+      "name": "Miami Springs",
+      "lat": 25.82,
+      "lon": -80.28,
+      "x": -8936728.720884003,
+      "y": 2976804.1986716264,
+      "up": true
+    },
+    {
+      "name": "Washington, D.C.",
+      "lat": 38.85,
+      "lon": -77.04,
+      "x": -8576053.570713796,
+      "y": 4700208.078504527,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "SeaTac",
+      "destination": "Millbrae",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "SeaTac",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "El Segundo",
+      "destination": "Millbrae",
+      "capacity": 40,
+      "length": 817.66,
+      "up": true
+    },
+    {
+      "origin": "El Segundo",
+      "destination": "Paradise",
+      "capacity": 40,
+      "length": 568.55,
+      "up": true
+    },
+    {
+      "origin": "El Segundo",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Millbrae",
+      "destination": "SeaTac",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Millbrae",
+      "destination": "El Segundo",
+      "capacity": 40,
+      "length": 817.66,
+      "up": true
+    },
+    {
+      "origin": "Millbrae",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 1443.92,
+      "up": true
+    },
+    {
+      "origin": "Paradise",
+      "destination": "El Segundo",
+      "capacity": 40,
+      "length": 568.55,
+      "up": true
+    },
+    {
+      "origin": "Paradise",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 888.29,
+      "up": true
+    },
+    {
+      "origin": "Paradise",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 1407.05,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "SeaTac",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Millbrae",
+      "capacity": 40,
+      "length": 1443.92,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Paradise",
+      "capacity": 40,
+      "length": 888.29,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Aurora",
+      "capacity": 40,
+      "length": 919.55,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "El Segundo",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "Paradise",
+      "capacity": 40,
+      "length": 1407.05,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "University Park",
+      "capacity": 40,
+      "length": 1356.88,
+      "up": true
+    },
+    {
+      "origin": "Fort Bliss",
+      "destination": "Aldine",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "University Park",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 1356.88,
+      "up": true
+    },
+    {
+      "origin": "University Park",
+      "destination": "Aldine",
+      "capacity": 40,
+      "length": 525.66,
+      "up": true
+    },
+    {
+      "origin": "University Park",
+      "destination": "Owasso",
+      "capacity": 40,
+      "length": 573.79,
+      "up": true
+    },
+    {
+      "origin": "University Park",
+      "destination": "Aurora",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "University Park",
+      "destination": "Oak Hill",
+      "capacity": 40,
+      "length": 1499.83,
+      "up": true
+    },
+    {
+      "origin": "Aldine",
+      "destination": "Fort Bliss",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Aldine",
+      "destination": "University Park",
+      "capacity": 40,
+      "length": 525.66,
+      "up": true
+    },
+    {
+      "origin": "Aldine",
+      "destination": "Belle Chasse",
+      "capacity": 40,
+      "length": 770.96,
+      "up": true
+    },
+    {
+      "origin": "Owasso",
+      "destination": "University Park",
+      "capacity": 40,
+      "length": 573.79,
+      "up": true
+    },
+    {
+      "origin": "Owasso",
+      "destination": "Platte City",
+      "capacity": 40,
+      "length": 543.14,
+      "up": true
+    },
+    {
+      "origin": "Owasso",
+      "destination": "Hazelwood",
+      "capacity": 40,
+      "length": 846.36,
+      "up": true
+    },
+    {
+      "origin": "New Hope",
+      "destination": "Platte City",
+      "capacity": 40,
+      "length": 973.2,
+      "up": true
+    },
+    {
+      "origin": "New Hope",
+      "destination": "Rosemont",
+      "capacity": 40,
+      "length": 839.22,
+      "up": true
+    },
+    {
+      "origin": "Platte City",
+      "destination": "Owasso",
+      "capacity": 40,
+      "length": 543.14,
+      "up": true
+    },
+    {
+      "origin": "Platte City",
+      "destination": "New Hope",
+      "capacity": 40,
+      "length": 973.2,
+      "up": true
+    },
+    {
+      "origin": "Platte City",
+      "destination": "Aurora",
+      "capacity": 40,
+      "length": 1306.93,
+      "up": true
+    },
+    {
+      "origin": "Platte City",
+      "destination": "Hazelwood",
+      "capacity": 40,
+      "length": 571.48,
+      "up": true
+    },
+    {
+      "origin": "Aurora",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 919.55,
+      "up": true
+    },
+    {
+      "origin": "Aurora",
+      "destination": "University Park",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Aurora",
+      "destination": "Platte City",
+      "capacity": 40,
+      "length": 1306.93,
+      "up": true
+    },
+    {
+      "origin": "Rosemont",
+      "destination": "New Hope",
+      "capacity": 40,
+      "length": 839.22,
+      "up": true
+    },
+    {
+      "origin": "Rosemont",
+      "destination": "Mooresville",
+      "capacity": 40,
+      "length": 439.71,
+      "up": true
+    },
+    {
+      "origin": "Rosemont",
+      "destination": "Hamtramck",
+      "capacity": 40,
+      "length": 607.34,
+      "up": true
+    },
+    {
+      "origin": "Rosemont",
+      "destination": "Hazelwood",
+      "capacity": 40,
+      "length": 623.45,
+      "up": true
+    },
+    {
+      "origin": "Mooresville",
+      "destination": "Rosemont",
+      "capacity": 40,
+      "length": 439.71,
+      "up": true
+    },
+    {
+      "origin": "Mooresville",
+      "destination": "Hazelwood",
+      "capacity": 40,
+      "length": 550.74,
+      "up": true
+    },
+    {
+      "origin": "Mooresville",
+      "destination": "Oak Hill",
+      "capacity": 40,
+      "length": 591.24,
+      "up": true
+    },
+    {
+      "origin": "Mooresville",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 659.66,
+      "up": true
+    },
+    {
+      "origin": "Hamtramck",
+      "destination": "Rosemont",
+      "capacity": 40,
+      "length": 607.34,
+      "up": true
+    },
+    {
+      "origin": "Hamtramck",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 223.93,
+      "up": true
+    },
+    {
+      "origin": "Hazelwood",
+      "destination": "Owasso",
+      "capacity": 40,
+      "length": 846.36,
+      "up": true
+    },
+    {
+      "origin": "Hazelwood",
+      "destination": "Platte City",
+      "capacity": 40,
+      "length": 571.48,
+      "up": true
+    },
+    {
+      "origin": "Hazelwood",
+      "destination": "Rosemont",
+      "capacity": 40,
+      "length": 623.45,
+      "up": true
+    },
+    {
+      "origin": "Hazelwood",
+      "destination": "Mooresville",
+      "capacity": 40,
+      "length": 550.74,
+      "up": true
+    },
+    {
+      "origin": "Oak Hill",
+      "destination": "University Park",
+      "capacity": 40,
+      "length": 1499.83,
+      "up": true
+    },
+    {
+      "origin": "Oak Hill",
+      "destination": "Mooresville",
+      "capacity": 40,
+      "length": 591.24,
+      "up": true
+    },
+    {
+      "origin": "Oak Hill",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 793.33,
+      "up": true
+    },
+    {
+      "origin": "Oak Hill",
+      "destination": "Hapeville",
+      "capacity": 40,
+      "length": 515.07,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Mooresville",
+      "capacity": 40,
+      "length": 659.66,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Hamtramck",
+      "capacity": 40,
+      "length": 223.93,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Colonie",
+      "capacity": 40,
+      "length": 995.61,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 740.01,
+      "up": true
+    },
+    {
+      "origin": "Inwood",
+      "destination": "Colonie",
+      "capacity": 40,
+      "length": 350.27,
+      "up": true
+    },
+    {
+      "origin": "Inwood",
+      "destination": "Chelsea",
+      "capacity": 40,
+      "length": 447.48,
+      "up": true
+    },
+    {
+      "origin": "Inwood",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 514.63,
+      "up": true
+    },
+    {
+      "origin": "Colonie",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 995.61,
+      "up": true
+    },
+    {
+      "origin": "Colonie",
+      "destination": "Inwood",
+      "capacity": 40,
+      "length": 350.27,
+      "up": true
+    },
+    {
+      "origin": "Colonie",
+      "destination": "Chelsea",
+      "capacity": 40,
+      "length": 346.14,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Oak Hill",
+      "capacity": 40,
+      "length": 793.33,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Hapeville",
+      "capacity": 40,
+      "length": 546.82,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 796.59,
+      "up": true
+    },
+    {
+      "origin": "Belle Chasse",
+      "destination": "Aldine",
+      "capacity": 40,
+      "length": 770.96,
+      "up": true
+    },
+    {
+      "origin": "Belle Chasse",
+      "destination": "Hapeville",
+      "capacity": 40,
+      "length": 1017.99,
+      "up": true
+    },
+    {
+      "origin": "Belle Chasse",
+      "destination": "Miami Springs",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Chelsea",
+      "destination": "Inwood",
+      "capacity": 40,
+      "length": 447.48,
+      "up": true
+    },
+    {
+      "origin": "Chelsea",
+      "destination": "Colonie",
+      "capacity": 40,
+      "length": 346.14,
+      "up": true
+    },
+    {
+      "origin": "Hapeville",
+      "destination": "Oak Hill",
+      "capacity": 40,
+      "length": 515.07,
+      "up": true
+    },
+    {
+      "origin": "Hapeville",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 546.82,
+      "up": true
+    },
+    {
+      "origin": "Hapeville",
+      "destination": "Belle Chasse",
+      "capacity": 40,
+      "length": 1017.99,
+      "up": true
+    },
+    {
+      "origin": "Hapeville",
+      "destination": "Miami Springs",
+      "capacity": 40,
+      "length": 1436.65,
+      "up": true
+    },
+    {
+      "origin": "Miami Springs",
+      "destination": "Belle Chasse",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Miami Springs",
+      "destination": "Hapeville",
+      "capacity": 40,
+      "length": 1436.65,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 740.01,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Inwood",
+      "capacity": 40,
+      "length": 514.63,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 796.59,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+# topology: BICS (real topology #46) (data/topologies/real/top46_bics.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Lyon,Paris,8
+1,London,Birsfelden,4
+2,Strasbourg,Rathmines,2
+3,Marseille,Kiev,3
+4,Budapest,Vienna,7
+5,Strasbourg,Lisbon,1
+6,Budapest,Bucharest,4
+7,Kiev,Strasbourg,4
+8,Milano,Bratislava,5
+9,Paris,Sofia,3
+10,Milano,Budapest,3
+11,Frankfurt am Main,Lisbon,1
+12,Zagreb - Centar,Sofia,5
+13,Geneve,Athens,7
+14,Zagreb - Centar,Marseille,5
+15,Budapest,Strasbourg,1
+16,Zurich,Brussels,8
+17,Milano,Geneve,3
+18,Lisbon,Vienna,5
+19,Amsterdam,Barcelona,6
+20,Vatican City,Vaduz,7
+21,Vaduz,Warsaw,6
+22,Strasbourg,Luxembourg,2
+23,Milano,Vienna,2
+24,Bratislava,Athens,3
+25,City Center,Istanbul,7
+26,Brussels,Lyon,8
+27,Paris,Amsterdam,4
+28,Amsterdam,Brussels,3
+29,Vaduz,Zurich,8
+30,Prague,City Center,2
+31,City Center,Vaduz,1
+32,Athens,Brussels,7
+33,Stockholm,Birsfelden,7
+34,Kiev,Vatican City,7
+35,Milano,Stockholm,8
+36,Vatican City,Marseille,6
+37,Rathmines,Athens,1
+38,Vienna,Ljubljana,2
+39,Amsterdam,Bratislava,5
+40,Vatican City,Zagreb - Centar,1
+41,City Center,Bucharest,2
+42,Lisbon,Bucharest,4
+43,Kiev,Bratislava,6
+44,Marseille,Milano,6
+45,Barcelona,Istanbul,8
+46,Bucharest,Barcelona,8
+47,Ljubljana,Marseille,3
+48,Vatican City,Prague,6
+49,Stockholm,Lyon,8
+50,Stockholm,Kiev,6
+51,Sofia,Bratislava,5
+52,Warsaw,Zagreb - Centar,5
+53,Marseille,Lisbon,5
+54,Prague,Geneve,2
+55,City Center,Rathmines,1
+56,Marseille,Vaduz,1
+57,Amsterdam,Rotterdam,8
+58,Lyon,Athens,4
+59,Rathmines,City Center,7

@@ -1,0 +1,526 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "CANARIE (real topology #7)",
+  "description": "Real-world topology CANARIE (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Vancouver",
+      "lat": 49.2823479514009,
+      "lon": -123.125966385064,
+      "x": -13706319.881415043,
+      "y": 6322906.439014269,
+      "up": true
+    },
+    {
+      "name": "Seattle",
+      "lat": 47.6049578648434,
+      "lon": -122.326211588261,
+      "x": -13617291.584675454,
+      "y": 6041383.733454808,
+      "up": true
+    },
+    {
+      "name": "Kamloops",
+      "lat": 50.6767836790158,
+      "lon": -120.319139574281,
+      "x": -13393865.350093773,
+      "y": 6564318.419725953,
+      "up": true
+    },
+    {
+      "name": "Edmonton",
+      "lat": 53.5473437425427,
+      "lon": -113.514816959252,
+      "x": -12636411.621395588,
+      "y": 7084890.48250313,
+      "up": true
+    },
+    {
+      "name": "Calgary",
+      "lat": 51.0457750458443,
+      "lon": -114.081714898762,
+      "x": -12699518.411353597,
+      "y": 6629394.796099001,
+      "up": true
+    },
+    {
+      "name": "Saskatoon",
+      "lat": 52.1583440859846,
+      "lon": -106.666475088772,
+      "x": -11874057.6915955,
+      "y": 6828806.88958449,
+      "up": true
+    },
+    {
+      "name": "Regina",
+      "lat": 50.4503129242101,
+      "lon": -104.612048365926,
+      "x": -11645359.954936188,
+      "y": 6524630.445980138,
+      "up": true
+    },
+    {
+      "name": "Wimipeg",
+      "lat": 49.8970298284167,
+      "lon": -97.1233236908463,
+      "x": -10811718.937415294,
+      "y": 6428462.281193765,
+      "up": true
+    },
+    {
+      "name": "Thunderbay",
+      "lat": 48.3820754154255,
+      "lon": -89.2433348006063,
+      "x": -9934522.586697124,
+      "y": 6170655.59365297,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.8781096951375,
+      "lon": -87.6488908438788,
+      "x": -9757029.897335807,
+      "y": 5142738.31870422,
+      "up": true
+    },
+    {
+      "name": "Detroit",
+      "lat": 42.3311875808133,
+      "lon": -83.0530290467165,
+      "x": -9245420.90231944,
+      "y": 5210719.566567789,
+      "up": true
+    },
+    {
+      "name": "Toronto",
+      "lat": 43.6530759154005,
+      "lon": -79.3663957638143,
+      "x": -8835026.762525233,
+      "y": 5411910.907956282,
+      "up": true
+    },
+    {
+      "name": "Montreal",
+      "lat": 45.4989357041362,
+      "lon": -73.562881651828,
+      "x": -8188982.5267673405,
+      "y": 5700413.70089047,
+      "up": true
+    },
+    {
+      "name": "Ottawa",
+      "lat": 45.419588393874,
+      "lon": -75.6973013088981,
+      "x": -8426585.036131538,
+      "y": 5687820.743766254,
+      "up": true
+    },
+    {
+      "name": "Fredericton",
+      "lat": 45.9635726858031,
+      "lon": -66.6463414238811,
+      "x": -7419036.790541098,
+      "y": 5774513.63799267,
+      "up": true
+    },
+    {
+      "name": "Halifax",
+      "lat": 44.6504201124915,
+      "lon": -63.6036577586685,
+      "x": -7080326.79428462,
+      "y": 5566654.159501064,
+      "up": true
+    },
+    {
+      "name": "Boston",
+      "lat": 42.3594938804217,
+      "lon": -71.0502809403789,
+      "x": -7909281.0950020095,
+      "y": 5214982.927796321,
+      "up": true
+    },
+    {
+      "name": "New York",
+      "lat": 40.7098639288127,
+      "lon": -74.0099045805336,
+      "x": -8238744.891563765,
+      "y": 4969640.392278247,
+      "up": true
+    },
+    {
+      "name": "Victoria",
+      "lat": 48.4283098463054,
+      "lon": -123.365403310915,
+      "x": -13732973.878077883,
+      "y": 6178408.44200336,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Vancouver",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 289.68,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Victoria",
+      "capacity": 40,
+      "length": 141.57,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Kamloops",
+      "capacity": 40,
+      "length": 379.83,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Victoria",
+      "capacity": 40,
+      "length": 179.56,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 289.68,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 3486.54,
+      "up": true
+    },
+    {
+      "origin": "Kamloops",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 379.83,
+      "up": true
+    },
+    {
+      "origin": "Kamloops",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 664.02,
+      "up": true
+    },
+    {
+      "origin": "Edmonton",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 421.06,
+      "up": true
+    },
+    {
+      "origin": "Edmonton",
+      "destination": "Saskatoon",
+      "capacity": 40,
+      "length": 727.15,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Kamloops",
+      "capacity": 40,
+      "length": 664.02,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Edmonton",
+      "capacity": 40,
+      "length": 421.06,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Regina",
+      "capacity": 40,
+      "length": 1000.56,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Wimipeg",
+      "capacity": 40,
+      "length": 1501.91,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 2812.61,
+      "up": true
+    },
+    {
+      "origin": "Saskatoon",
+      "destination": "Edmonton",
+      "capacity": 40,
+      "length": 727.15,
+      "up": true
+    },
+    {
+      "origin": "Saskatoon",
+      "destination": "Wimipeg",
+      "capacity": 40,
+      "length": 1065.59,
+      "up": true
+    },
+    {
+      "origin": "Regina",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 1000.56,
+      "up": true
+    },
+    {
+      "origin": "Regina",
+      "destination": "Wimipeg",
+      "capacity": 40,
+      "length": 803.91,
+      "up": true
+    },
+    {
+      "origin": "Wimipeg",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 1501.91,
+      "up": true
+    },
+    {
+      "origin": "Wimipeg",
+      "destination": "Saskatoon",
+      "capacity": 40,
+      "length": 1065.59,
+      "up": true
+    },
+    {
+      "origin": "Wimipeg",
+      "destination": "Thunderbay",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Wimipeg",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 1893.31,
+      "up": true
+    },
+    {
+      "origin": "Wimipeg",
+      "destination": "Regina",
+      "capacity": 40,
+      "length": 803.91,
+      "up": true
+    },
+    {
+      "origin": "Thunderbay",
+      "destination": "Wimipeg",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Thunderbay",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 731.91,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 2812.61,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 3486.54,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Detroit",
+      "capacity": 40,
+      "length": 571.5,
+      "up": true
+    },
+    {
+      "origin": "Detroit",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 571.5,
+      "up": true
+    },
+    {
+      "origin": "Detroit",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 498.23,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Wimipeg",
+      "capacity": 40,
+      "length": 1893.31,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Thunderbay",
+      "capacity": 40,
+      "length": 731.91,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Detroit",
+      "capacity": 40,
+      "length": 498.23,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "New York",
+      "capacity": 40,
+      "length": 825.76,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Ottawa",
+      "capacity": 40,
+      "length": 528.84,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Ottawa",
+      "capacity": 40,
+      "length": 248.41,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Boston",
+      "capacity": 40,
+      "length": 605.33,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Fredericton",
+      "capacity": 40,
+      "length": 809.79,
+      "up": true
+    },
+    {
+      "origin": "Ottawa",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 528.84,
+      "up": true
+    },
+    {
+      "origin": "Ottawa",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 248.41,
+      "up": true
+    },
+    {
+      "origin": "Fredericton",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 809.79,
+      "up": true
+    },
+    {
+      "origin": "Fredericton",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 420.31,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "New York",
+      "capacity": 40,
+      "length": 1434.94,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "Fredericton",
+      "capacity": 40,
+      "length": 420.31,
+      "up": true
+    },
+    {
+      "origin": "Boston",
+      "destination": "New York",
+      "capacity": 40,
+      "length": 458.55,
+      "up": true
+    },
+    {
+      "origin": "Boston",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 605.33,
+      "up": true
+    },
+    {
+      "origin": "New York",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 825.76,
+      "up": true
+    },
+    {
+      "origin": "New York",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 1434.94,
+      "up": true
+    },
+    {
+      "origin": "New York",
+      "destination": "Boston",
+      "capacity": 40,
+      "length": 458.55,
+      "up": true
+    },
+    {
+      "origin": "Victoria",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 179.56,
+      "up": true
+    },
+    {
+      "origin": "Victoria",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 141.57,
+      "up": true
+    }
+  ]
+}

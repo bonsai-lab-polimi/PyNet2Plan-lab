@@ -1,0 +1,574 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "REDIRIS (real topology #44)",
+  "description": "Real-world topology REDIRIS (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Pamplona",
+      "lat": 42.82,
+      "lon": -1.64,
+      "x": -182563.96490096865,
+      "y": 5284614.020534911,
+      "up": true
+    },
+    {
+      "name": "Logrono",
+      "lat": 42.47,
+      "lon": -2.45,
+      "x": -272732.7524435203,
+      "y": 5231645.251961134,
+      "up": true
+    },
+    {
+      "name": "Santander",
+      "lat": 43.46,
+      "lon": -3.8,
+      "x": -423014.0650144395,
+      "y": 5382252.709640507,
+      "up": true
+    },
+    {
+      "name": "Murguia",
+      "lat": 43.0,
+      "lon": -2.75,
+      "x": -306128.5996815023,
+      "y": 5311971.846945471,
+      "up": true
+    },
+    {
+      "name": "Palma",
+      "lat": 39.57,
+      "lon": 2.65,
+      "x": 294996.650602175,
+      "y": 4803651.19738861,
+      "up": true
+    },
+    {
+      "name": "Valencia",
+      "lat": 39.47,
+      "lon": -0.38,
+      "x": -42301.406501443955,
+      "y": 4789220.401054572,
+      "up": true
+    },
+    {
+      "name": "Zaragoza",
+      "lat": 41.66,
+      "lon": -0.88,
+      "x": -97961.15189808075,
+      "y": 5110184.376415231,
+      "up": true
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.39,
+      "lon": 2.16,
+      "x": 240450.10011347092,
+      "y": 5070037.885480554,
+      "up": true
+    },
+    {
+      "name": "Murcia",
+      "lat": 37.98,
+      "lon": -1.12,
+      "x": -124677.82968846642,
+      "y": 4576600.868774604,
+      "up": true
+    },
+    {
+      "name": "Santiago de Compostela",
+      "lat": 42.88,
+      "lon": -8.55,
+      "x": -951781.6462824891,
+      "y": 5293724.4233221635,
+      "up": true
+    },
+    {
+      "name": "Oviedo",
+      "lat": 43.36,
+      "lon": -5.84,
+      "x": -650105.8262327176,
+      "y": 5366929.039217242,
+      "up": true
+    },
+    {
+      "name": "Badajoz",
+      "lat": 38.88,
+      "lon": -6.97,
+      "x": -775896.8508291168,
+      "y": 4704497.149535373,
+      "up": true
+    },
+    {
+      "name": "Sevilla",
+      "lat": 37.38,
+      "lon": -5.99,
+      "x": -666803.7498517088,
+      "y": 4492207.0785483075,
+      "up": true
+    },
+    {
+      "name": "Las Palmas de Gran Canaria",
+      "lat": 28.1,
+      "lon": -15.42,
+      "x": -1716546.5480322787,
+      "y": 3261587.3618431212,
+      "up": true
+    },
+    {
+      "name": "La Laguna",
+      "lat": 28.48,
+      "lon": -16.32,
+      "x": -1816734.0897462247,
+      "y": 3309626.706020192,
+      "up": true
+    },
+    {
+      "name": "Ciudad Real",
+      "lat": 38.98,
+      "lon": -3.93,
+      "x": -437485.5988175652,
+      "y": 4718807.14895028,
+      "up": true
+    },
+    {
+      "name": "City Center",
+      "lat": 40.42,
+      "lon": -3.7,
+      "x": -411882.11593511223,
+      "y": 4927164.56438487,
+      "up": true
+    },
+    {
+      "name": "Valladolid",
+      "lat": 41.65,
+      "lon": -4.72,
+      "x": -525427.9965442512,
+      "y": 5108694.47561503,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Pamplona",
+      "destination": "Murguia",
+      "capacity": 40,
+      "length": 138.88,
+      "up": true
+    },
+    {
+      "origin": "Pamplona",
+      "destination": "Zaragoza",
+      "capacity": 40,
+      "length": 215.04,
+      "up": true
+    },
+    {
+      "origin": "Logrono",
+      "destination": "Valladolid",
+      "capacity": 40,
+      "length": 312.59,
+      "up": true
+    },
+    {
+      "origin": "Logrono",
+      "destination": "Zaragoza",
+      "capacity": 40,
+      "length": 236.73,
+      "up": true
+    },
+    {
+      "origin": "Santander",
+      "destination": "Oviedo",
+      "capacity": 40,
+      "length": 247.74,
+      "up": true
+    },
+    {
+      "origin": "Santander",
+      "destination": "Murguia",
+      "capacity": 40,
+      "length": 148.89,
+      "up": true
+    },
+    {
+      "origin": "Murguia",
+      "destination": "Pamplona",
+      "capacity": 40,
+      "length": 138.88,
+      "up": true
+    },
+    {
+      "origin": "Murguia",
+      "destination": "Santander",
+      "capacity": 40,
+      "length": 148.89,
+      "up": true
+    },
+    {
+      "origin": "Murguia",
+      "destination": "Santiago de Compostela",
+      "capacity": 40,
+      "length": 708.34,
+      "up": true
+    },
+    {
+      "origin": "Murguia",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 446.28,
+      "up": true
+    },
+    {
+      "origin": "Palma",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 390.19,
+      "up": true
+    },
+    {
+      "origin": "Palma",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 309.86,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "Palma",
+      "capacity": 40,
+      "length": 390.19,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "Murcia",
+      "capacity": 40,
+      "length": 266.52,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 811.51,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 453.11,
+      "up": true
+    },
+    {
+      "origin": "Valencia",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 454.44,
+      "up": true
+    },
+    {
+      "origin": "Zaragoza",
+      "destination": "Pamplona",
+      "capacity": 40,
+      "length": 215.04,
+      "up": true
+    },
+    {
+      "origin": "Zaragoza",
+      "destination": "Logrono",
+      "capacity": 40,
+      "length": 236.73,
+      "up": true
+    },
+    {
+      "origin": "Zaragoza",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 410.62,
+      "up": true
+    },
+    {
+      "origin": "Zaragoza",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 382.25,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "Palma",
+      "capacity": 40,
+      "length": 309.86,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 454.44,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "Zaragoza",
+      "capacity": 40,
+      "length": 382.25,
+      "up": true
+    },
+    {
+      "origin": "Barcelona",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 756.06,
+      "up": true
+    },
+    {
+      "origin": "Murcia",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 266.52,
+      "up": true
+    },
+    {
+      "origin": "Murcia",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 650.53,
+      "up": true
+    },
+    {
+      "origin": "Santiago de Compostela",
+      "destination": "Murguia",
+      "capacity": 40,
+      "length": 708.34,
+      "up": true
+    },
+    {
+      "origin": "Santiago de Compostela",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 730.37,
+      "up": true
+    },
+    {
+      "origin": "Santiago de Compostela",
+      "destination": "Oviedo",
+      "capacity": 40,
+      "length": 339.49,
+      "up": true
+    },
+    {
+      "origin": "Santiago de Compostela",
+      "destination": "Valladolid",
+      "capacity": 40,
+      "length": 515.28,
+      "up": true
+    },
+    {
+      "origin": "Oviedo",
+      "destination": "Santander",
+      "capacity": 40,
+      "length": 247.74,
+      "up": true
+    },
+    {
+      "origin": "Oviedo",
+      "destination": "Santiago de Compostela",
+      "capacity": 40,
+      "length": 339.49,
+      "up": true
+    },
+    {
+      "origin": "Badajoz",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 492.22,
+      "up": true
+    },
+    {
+      "origin": "Badajoz",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 281.29,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 811.51,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Murcia",
+      "capacity": 40,
+      "length": 650.53,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Badajoz",
+      "capacity": 40,
+      "length": 281.29,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Las Palmas de Gran Canaria",
+      "capacity": 40,
+      "length": 1694.83,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Ciudad Real",
+      "capacity": 40,
+      "length": 379.67,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 587.7,
+      "up": true
+    },
+    {
+      "origin": "Las Palmas de Gran Canaria",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 1694.83,
+      "up": true
+    },
+    {
+      "origin": "Las Palmas de Gran Canaria",
+      "destination": "La Laguna",
+      "capacity": 40,
+      "length": 146.59,
+      "up": true
+    },
+    {
+      "origin": "La Laguna",
+      "destination": "Las Palmas de Gran Canaria",
+      "capacity": 40,
+      "length": 146.59,
+      "up": true
+    },
+    {
+      "origin": "La Laguna",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 2196.69,
+      "up": true
+    },
+    {
+      "origin": "Ciudad Real",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 379.67,
+      "up": true
+    },
+    {
+      "origin": "Ciudad Real",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 241.99,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Murguia",
+      "capacity": 40,
+      "length": 446.28,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Valencia",
+      "capacity": 40,
+      "length": 453.11,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Zaragoza",
+      "capacity": 40,
+      "length": 410.62,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Barcelona",
+      "capacity": 40,
+      "length": 756.06,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Santiago de Compostela",
+      "capacity": 40,
+      "length": 730.37,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Badajoz",
+      "capacity": 40,
+      "length": 492.22,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 587.7,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "La Laguna",
+      "capacity": 40,
+      "length": 2196.69,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Ciudad Real",
+      "capacity": 40,
+      "length": 241.99,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Valladolid",
+      "capacity": 40,
+      "length": 241.98,
+      "up": true
+    },
+    {
+      "origin": "Valladolid",
+      "destination": "Logrono",
+      "capacity": 40,
+      "length": 312.59,
+      "up": true
+    },
+    {
+      "origin": "Valladolid",
+      "destination": "Santiago de Compostela",
+      "capacity": 40,
+      "length": 515.28,
+      "up": true
+    },
+    {
+      "origin": "Valladolid",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 241.98,
+      "up": true
+    }
+  ]
+}

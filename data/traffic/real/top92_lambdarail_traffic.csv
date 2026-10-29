@@ -1,0 +1,41 @@
+# topology: LAMBDARAIL (real topology #92) (data/topologies/real/top92_lambdarail.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"Pittsburgh, Pennsylvania","Kansas City, Missouri",3
+1,"Cleveland, Ohio","Sunnyvale, California",2
+2,"Jersey City, New Jersey","Sunnyvale, California",7
+3,"Atlanta, Georgia","Washington, District of Columbia",8
+4,"Kansas City, Missouri","Cleveland, Ohio",6
+5,"Cambridge, Massachusetts","Albuquerque, New Mexico",8
+6,"Chicago, Illinois","Los Angeles, California",4
+7,"Atlanta, Georgia","El Paso, Texas",7
+8,"Washington, District of Columbia","Sunnyvale, California",8
+9,"Albuquerque, New Mexico","Cleveland, Ohio",2
+10,"Sunnyvale, California","Seattle, Washington",3
+11,"Tulsa, Oklahoma","Albuquerque, New Mexico",3
+12,"Kansas City, Missouri","Cambridge, Massachusetts",1
+13,"Washington, District of Columbia","Houston, Texas",3
+14,"Washington, District of Columbia","Denver, Colorado",6
+15,"Pittsburgh, Pennsylvania","Jacksonville, Alabama",2
+16,"Denver, Colorado","Atlanta, Georgia",5
+17,"El Paso, Texas","Cleveland, Ohio",3
+18,"Cleveland, Ohio","Jacksonville, Alabama",1
+19,"Cambridge, Massachusetts","Washington, District of Columbia",1
+20,"Albuquerque, New Mexico","Chicago, Illinois",3
+21,"Los Angeles, California","Cambridge, Massachusetts",8
+22,"El Paso, Texas","Los Angeles, California",3
+23,"Chicago, Illinois","Albuquerque, New Mexico",4
+24,"Albuquerque, New Mexico","Jacksonville, Alabama",7
+25,"Jacksonville, Alabama","Albuquerque, New Mexico",3
+26,"Cleveland, Ohio","Pittsburgh, Pennsylvania",2
+27,"Seattle, Washington","Raleigh, North Carolina",2
+28,"Chicago, Illinois","Seattle, Washington",8
+29,"Pittsburgh, Pennsylvania","Cleveland, Ohio",5
+30,"Jacksonville, Alabama","Seattle, Washington",4
+31,"Kansas City, Missouri","Jacksonville, Alabama",7
+32,"Cleveland, Ohio","Jersey City, New Jersey",3
+33,"Raleigh, North Carolina","El Paso, Texas",6
+34,"El Paso, Texas","Tulsa, Oklahoma",4
+35,"Tulsa, Oklahoma","Raleigh, North Carolina",4
+36,"Pittsburgh, Pennsylvania","Tulsa, Oklahoma",2
+37,"Baton Rouge, Louisiana","Kansas City, Missouri",5

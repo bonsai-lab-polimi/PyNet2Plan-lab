@@ -1,0 +1,57 @@
+# topology: INTEGRA (real topology #48) (data/topologies/real/top48_integra.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Spokane,Dallas,3
+1,Ogden,Orem,7
+2,Dallas,Minneapolis,8
+3,Spokane,Bend,7
+4,Saint Cloud,Ogden,2
+5,Reno,Los Angeles,4
+6,Rancho Cordova,Salt Lake City,5
+7,Orem,Eugene,3
+8,Denver,Seattle,1
+9,Eugene,Santa Clara,1
+10,Spokane,Reno,3
+11,Sacramento,Seattle,3
+12,Rancho Cordova,Ashburn,7
+13,Chicago,Billings,2
+14,Chicago,Reno,7
+15,Billings,Bend,8
+16,Ashburn,Reno,2
+17,Dallas,Rancho Cordova,4
+18,Dallas,Sacramento,6
+19,New York City,Salt Lake City,5
+20,Minneapolis,Phoenix,4
+21,Sacramento,Orem,7
+22,Fargo,Reno,8
+23,Billings,Salt Lake City,8
+24,Santa Clara,Reno,3
+25,Bend,Denver,5
+26,Fargo,Sacramento,7
+27,Denver,Santa Clara,5
+28,Santa Rosa,Fargo,7
+29,Billings,Los Angeles,1
+30,Salt Lake City,Dallas,1
+31,Reno,Spokane,5
+32,Saint Cloud,New York City,4
+33,Portland,Billings,5
+34,Salt Lake City,Phoenix,3
+35,Sacramento,Spokane,1
+36,Santa Rosa,Phoenix,1
+37,Phoenix,Billings,1
+38,Santa Rosa,Portland,4
+39,Orem,Salem,1
+40,Denver,New York City,6
+41,Dallas,Las Vegas,1
+42,Dallas,Los Angeles,4
+43,Reno,Orem,4
+44,Phoenix,New York City,3
+45,Billings,Santa Rosa,6
+46,Eugene,Los Angeles,2
+47,Denver,Minneapolis,2
+48,Fargo,Bend,3
+49,Seattle,New York City,6
+50,Spokane,Phoenix,4
+51,Reno,Chicago,3
+52,Fargo,Spokane,2
+53,Salt Lake City,New York City,2

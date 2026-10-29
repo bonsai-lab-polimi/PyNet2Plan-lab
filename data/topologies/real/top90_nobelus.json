@@ -1,0 +1,416 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NOBELUS (real topology #90)",
+  "description": "Real-world topology NOBELUS (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Saratoga",
+      "lat": 37.25,
+      "lon": -122.07,
+      "x": -13588770.241134902,
+      "y": 4474011.088229477,
+      "up": true
+    },
+    {
+      "name": "Quinta del Cedro",
+      "lat": 32.42,
+      "lon": -117.08,
+      "x": -13033285.982076468,
+      "y": 3818569.303047574,
+      "up": true
+    },
+    {
+      "name": "Louisville",
+      "lat": 40.0,
+      "lon": -105.16,
+      "x": -11706357.651820648,
+      "y": 4865942.279503176,
+      "up": true
+    },
+    {
+      "name": "La Plata",
+      "lat": 38.52,
+      "lon": -77.02,
+      "x": -8573827.180897929,
+      "y": 4653147.0652073575,
+      "up": true
+    },
+    {
+      "name": "Hampton",
+      "lat": 33.44,
+      "lon": -84.23,
+      "x": -9376440.709517432,
+      "y": 3953853.2975411285,
+      "up": true
+    },
+    {
+      "name": "Philo",
+      "lat": 40.06,
+      "lon": -88.14,
+      "x": -9811699.918519132,
+      "y": 4874665.150549715,
+      "up": true
+    },
+    {
+      "name": "Romulus",
+      "lat": 42.16,
+      "lon": -83.43,
+      "x": -9287385.116882816,
+      "y": 5184976.8815662535,
+      "up": true
+    },
+    {
+      "name": "Tecumseh",
+      "lat": 40.47,
+      "lon": -96.42,
+      "x": -10733425.302287439,
+      "y": 4934478.312844524,
+      "up": true
+    },
+    {
+      "name": "Vista Center",
+      "lat": 40.21,
+      "lon": -74.39,
+      "x": -8281056.920111621,
+      "y": 4896505.998565982,
+      "up": true
+    },
+    {
+      "name": "Owego",
+      "lat": 42.26,
+      "lon": -76.3,
+      "x": -8493677.147526773,
+      "y": 5200006.101185862,
+      "up": true
+    },
+    {
+      "name": "Youngwood",
+      "lat": 40.26,
+      "lon": -79.58,
+      "x": -8858805.07732871,
+      "y": 4903797.016793066,
+      "up": true
+    },
+    {
+      "name": "Alvin",
+      "lat": 29.45,
+      "lon": -95.21,
+      "x": -10598728.718427576,
+      "y": 3433046.5808244287,
+      "up": true
+    },
+    {
+      "name": "Midway",
+      "lat": 40.39,
+      "lon": -111.55,
+      "x": -12417689.197989667,
+      "y": 4922778.924365344,
+      "up": true
+    },
+    {
+      "name": "Auburn",
+      "lat": 47.33,
+      "lon": -122.24,
+      "x": -13607694.554569762,
+      "y": 5996105.803990594,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Saratoga",
+      "destination": "Quinta del Cedro",
+      "capacity": 40,
+      "length": 1055.9,
+      "up": true
+    },
+    {
+      "origin": "Saratoga",
+      "destination": "Midway",
+      "capacity": 40,
+      "length": 1462.8,
+      "up": true
+    },
+    {
+      "origin": "Saratoga",
+      "destination": "Auburn",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Quinta del Cedro",
+      "destination": "Saratoga",
+      "capacity": 40,
+      "length": 1055.9,
+      "up": true
+    },
+    {
+      "origin": "Quinta del Cedro",
+      "destination": "Alvin",
+      "capacity": 40,
+      "length": 2635.09,
+      "up": true
+    },
+    {
+      "origin": "Quinta del Cedro",
+      "destination": "Auburn",
+      "capacity": 40,
+      "length": 2142.99,
+      "up": true
+    },
+    {
+      "origin": "Louisville",
+      "destination": "Tecumseh",
+      "capacity": 40,
+      "length": 1115.16,
+      "up": true
+    },
+    {
+      "origin": "Louisville",
+      "destination": "Alvin",
+      "capacity": 40,
+      "length": 1852.65,
+      "up": true
+    },
+    {
+      "origin": "Louisville",
+      "destination": "Midway",
+      "capacity": 40,
+      "length": 816.53,
+      "up": true
+    },
+    {
+      "origin": "La Plata",
+      "destination": "Vista Center",
+      "capacity": 40,
+      "length": 440.95,
+      "up": true
+    },
+    {
+      "origin": "La Plata",
+      "destination": "Owego",
+      "capacity": 40,
+      "length": 630.47,
+      "up": true
+    },
+    {
+      "origin": "La Plata",
+      "destination": "Alvin",
+      "capacity": 40,
+      "length": 2439.45,
+      "up": true
+    },
+    {
+      "origin": "Hampton",
+      "destination": "Youngwood",
+      "capacity": 40,
+      "length": 1295.32,
+      "up": true
+    },
+    {
+      "origin": "Hampton",
+      "destination": "Alvin",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Philo",
+      "destination": "Tecumseh",
+      "capacity": 40,
+      "length": 1055.65,
+      "up": true
+    },
+    {
+      "origin": "Philo",
+      "destination": "Youngwood",
+      "capacity": 40,
+      "length": 1091.23,
+      "up": true
+    },
+    {
+      "origin": "Philo",
+      "destination": "Auburn",
+      "capacity": 40,
+      "length": 3540.97,
+      "up": true
+    },
+    {
+      "origin": "Romulus",
+      "destination": "Vista Center",
+      "capacity": 40,
+      "length": 1179.78,
+      "up": true
+    },
+    {
+      "origin": "Romulus",
+      "destination": "Owego",
+      "capacity": 40,
+      "length": 880.75,
+      "up": true
+    },
+    {
+      "origin": "Romulus",
+      "destination": "Midway",
+      "capacity": 40,
+      "length": 2934.4,
+      "up": true
+    },
+    {
+      "origin": "Tecumseh",
+      "destination": "Louisville",
+      "capacity": 40,
+      "length": 1115.16,
+      "up": true
+    },
+    {
+      "origin": "Tecumseh",
+      "destination": "Philo",
+      "capacity": 40,
+      "length": 1055.65,
+      "up": true
+    },
+    {
+      "origin": "Vista Center",
+      "destination": "La Plata",
+      "capacity": 40,
+      "length": 440.95,
+      "up": true
+    },
+    {
+      "origin": "Vista Center",
+      "destination": "Romulus",
+      "capacity": 40,
+      "length": 1179.78,
+      "up": true
+    },
+    {
+      "origin": "Vista Center",
+      "destination": "Youngwood",
+      "capacity": 40,
+      "length": 660.8,
+      "up": true
+    },
+    {
+      "origin": "Owego",
+      "destination": "La Plata",
+      "capacity": 40,
+      "length": 630.47,
+      "up": true
+    },
+    {
+      "origin": "Owego",
+      "destination": "Romulus",
+      "capacity": 40,
+      "length": 880.75,
+      "up": true
+    },
+    {
+      "origin": "Owego",
+      "destination": "Youngwood",
+      "capacity": 40,
+      "length": 529.46,
+      "up": true
+    },
+    {
+      "origin": "Youngwood",
+      "destination": "Hampton",
+      "capacity": 40,
+      "length": 1295.32,
+      "up": true
+    },
+    {
+      "origin": "Youngwood",
+      "destination": "Philo",
+      "capacity": 40,
+      "length": 1091.23,
+      "up": true
+    },
+    {
+      "origin": "Youngwood",
+      "destination": "Vista Center",
+      "capacity": 40,
+      "length": 660.8,
+      "up": true
+    },
+    {
+      "origin": "Youngwood",
+      "destination": "Owego",
+      "capacity": 40,
+      "length": 529.46,
+      "up": true
+    },
+    {
+      "origin": "Alvin",
+      "destination": "Quinta del Cedro",
+      "capacity": 40,
+      "length": 2635.09,
+      "up": true
+    },
+    {
+      "origin": "Alvin",
+      "destination": "Louisville",
+      "capacity": 40,
+      "length": 1852.65,
+      "up": true
+    },
+    {
+      "origin": "Alvin",
+      "destination": "La Plata",
+      "capacity": 40,
+      "length": 2439.45,
+      "up": true
+    },
+    {
+      "origin": "Alvin",
+      "destination": "Hampton",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Midway",
+      "destination": "Saratoga",
+      "capacity": 40,
+      "length": 1462.8,
+      "up": true
+    },
+    {
+      "origin": "Midway",
+      "destination": "Louisville",
+      "capacity": 40,
+      "length": 816.53,
+      "up": true
+    },
+    {
+      "origin": "Midway",
+      "destination": "Romulus",
+      "capacity": 40,
+      "length": 2934.4,
+      "up": true
+    },
+    {
+      "origin": "Auburn",
+      "destination": "Saratoga",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Auburn",
+      "destination": "Quinta del Cedro",
+      "capacity": 40,
+      "length": 2142.99,
+      "up": true
+    },
+    {
+      "origin": "Auburn",
+      "destination": "Philo",
+      "capacity": 40,
+      "length": 3540.97,
+      "up": true
+    }
+  ]
+}

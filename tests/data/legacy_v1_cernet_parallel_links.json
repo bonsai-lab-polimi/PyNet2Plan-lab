@@ -1,0 +1,1652 @@
+{
+  "name": "CERNET (36 nodes, 106 unidirectional links; real-world topology, 40 wavelengths/link, synthetic demand matrix)",
+  "nodes": {
+    "0": {
+      "id": 0,
+      "name": "Urumchi, Xinjiang, China",
+      "x": 9720357.934863111,
+      "y": 5376082.502561612,
+      "lat": 43.419754,
+      "lon": 87.319461,
+      "up": true
+    },
+    "1": {
+      "id": 1,
+      "name": "Lasa, Tibet, China",
+      "x": 10143131.605437182,
+      "y": 3459178.163505355,
+      "lat": 29.6542054,
+      "lon": 91.1173015,
+      "up": true
+    },
+    "2": {
+      "id": 2,
+      "name": "Xining, Qinghai, China",
+      "x": 11329674.491707591,
+      "y": 4385901.045101442,
+      "lat": 36.617331,
+      "lon": 101.7761976,
+      "up": true
+    },
+    "3": {
+      "id": 3,
+      "name": "Lanzhou, Gansu, China",
+      "x": 11547529.674024586,
+      "y": 4366100.947787325,
+      "lat": 36.474436,
+      "lon": 103.733224,
+      "up": true
+    },
+    "4": {
+      "id": 4,
+      "name": "Yinchuan, Ningxia, China",
+      "x": 11825045.669140205,
+      "y": 4648197.402436727,
+      "lat": 38.4852037,
+      "lon": 106.2261926,
+      "up": true
+    },
+    "5": {
+      "id": 5,
+      "name": "Xi'an, Shaanxi, China",
+      "x": 12127405.402745564,
+      "y": 4063902.561275861,
+      "lat": 34.261004,
+      "lon": 108.9423363,
+      "up": true
+    },
+    "6": {
+      "id": 6,
+      "name": "Chengdu, Sichuan, China",
+      "x": 11585111.55713046,
+      "y": 3593866.555205627,
+      "lat": 30.7001324,
+      "lon": 104.0708278,
+      "up": true
+    },
+    "7": {
+      "id": 7,
+      "name": "Kunming, Yunnan, China",
+      "x": 11433470.59943094,
+      "y": 2880203.9942008983,
+      "lat": 25.0363006,
+      "lon": 102.7086139,
+      "up": true
+    },
+    "8": {
+      "id": 8,
+      "name": "Guiyang, Guizhou, China",
+      "x": 11877649.505271433,
+      "y": 3068593.9748963686,
+      "lat": 26.559901,
+      "lon": 106.6987409,
+      "up": true
+    },
+    "9": {
+      "id": 9,
+      "name": "Jiulongpo District, Chongqing, China",
+      "x": 11839979.000718938,
+      "y": 3431262.467455574,
+      "lat": 29.436043,
+      "lon": 106.360341,
+      "up": true
+    },
+    "10": {
+      "id": 10,
+      "name": "Wuhan, Hubei, China",
+      "x": 12723810.595300116,
+      "y": 3580276.720603019,
+      "lat": 30.5951051,
+      "lon": 114.2999353,
+      "up": true
+    },
+    "11": {
+      "id": 11,
+      "name": "Zhengzhou, Henan, China",
+      "x": 12652573.13432034,
+      "y": 4130411.2442221767,
+      "lat": 34.7533392,
+      "lon": 113.6599983,
+      "up": true
+    },
+    "12": {
+      "id": 12,
+      "name": "Taiyuan, Shanxi, China",
+      "x": 12528482.581737502,
+      "y": 4561078.684415526,
+      "lat": 37.870009,
+      "lon": 112.5452739,
+      "up": true
+    },
+    "13": {
+      "id": 13,
+      "name": "Hohhot, Inner Mongolia, China",
+      "x": 12431387.29510271,
+      "y": 4987899.616722796,
+      "lat": 40.8340827,
+      "lon": 111.6730521,
+      "up": true
+    },
+    "14": {
+      "id": 14,
+      "name": "Beijing, Beijing, China",
+      "x": 12956619.937072568,
+      "y": 4852250.281614819,
+      "lat": 39.9057136,
+      "lon": 116.3912972,
+      "up": true
+    },
+    "15": {
+      "id": 15,
+      "name": "Shijiazhuang, Hebei, China",
+      "x": 12747065.5931492,
+      "y": 4585498.40604266,
+      "lat": 38.0429742,
+      "lon": 114.5088385,
+      "up": true
+    },
+    "16": {
+      "id": 16,
+      "name": "Liaocheng, Shandong, China",
+      "x": 12909075.77217298,
+      "y": 4361913.354786891,
+      "lat": 36.4441808,
+      "lon": 115.9642007,
+      "up": true
+    },
+    "17": {
+      "id": 17,
+      "name": "Tianjin, Tianjin, China",
+      "x": 13045675.930457354,
+      "y": 4738523.443821786,
+      "lat": 39.1175488,
+      "lon": 117.1913008,
+      "up": true
+    },
+    "18": {
+      "id": 18,
+      "name": "Quingdao, Shandong, China",
+      "x": 13400364.585579474,
+      "y": 4309828.717284327,
+      "lat": 36.0668862,
+      "lon": 120.3775232,
+      "up": true
+    },
+    "19": {
+      "id": 19,
+      "name": "Dalian, Liaoning, China",
+      "x": 13609457.07606749,
+      "y": 4828271.654842931,
+      "lat": 39.740278,
+      "lon": 122.255833,
+      "up": true
+    },
+    "20": {
+      "id": 20,
+      "name": "Shenyang, Liaoning, China",
+      "x": 13739932.146537744,
+      "y": 5131457.011667281,
+      "lat": 41.8026095,
+      "lon": 123.4279105,
+      "up": true
+    },
+    "21": {
+      "id": 21,
+      "name": "Changchun, Jilin, China",
+      "x": 13950347.056916637,
+      "y": 5447573.314446016,
+      "lat": 43.8844201,
+      "lon": 125.3180998,
+      "up": true
+    },
+    "22": {
+      "id": 22,
+      "name": "Harbin, Heilongjiang, China",
+      "x": 14096121.922729317,
+      "y": 5741870.521251077,
+      "lat": 45.7593633,
+      "lon": 126.6276177,
+      "up": true
+    },
+    "23": {
+      "id": 23,
+      "name": "Nanjing, Jiangsu, China",
+      "x": 13222402.557295952,
+      "y": 3769065.161699038,
+      "lat": 32.0438284,
+      "lon": 118.7788631,
+      "up": true
+    },
+    "24": {
+      "id": 24,
+      "name": "Shanghai, Shanghai, China",
+      "x": 13521878.626284005,
+      "y": 3662960.299537875,
+      "lat": 31.2323437,
+      "lon": 121.4691024,
+      "up": true
+    },
+    "25": {
+      "id": 25,
+      "name": "Hefei, Anhui, China",
+      "x": 13055708.844467977,
+      "y": 3745808.267151427,
+      "lat": 31.8665676,
+      "lon": 117.281428,
+      "up": true
+    },
+    "26": {
+      "id": 26,
+      "name": "Hangzhou, Zhejiang, China",
+      "x": 13381185.461830193,
+      "y": 3535592.077450768,
+      "lat": 30.2489634,
+      "lon": 120.2052342,
+      "up": true
+    },
+    "27": {
+      "id": 27,
+      "name": "Fuzhou, Fujian, China",
+      "x": 13279504.825182084,
+      "y": 3008682.2507389747,
+      "lat": 26.0774954,
+      "lon": 119.2918215,
+      "up": true
+    },
+    "28": {
+      "id": 28,
+      "name": "Nanchang, Jiangxi, China",
+      "x": 12896808.753905777,
+      "y": 3335937.5584418727,
+      "lat": 28.687547,
+      "lon": 115.8540042,
+      "up": true
+    },
+    "29": {
+      "id": 29,
+      "name": "Xiamen, Fujian, China",
+      "x": 13144249.974075897,
+      "y": 2819822.867499497,
+      "lat": 24.5438732,
+      "lon": 118.0768065,
+      "up": true
+    },
+    "30": {
+      "id": 30,
+      "name": "Shenzhen, Guangdong, China",
+      "x": 12696493.638287576,
+      "y": 2577034.706673928,
+      "lat": 22.5445741,
+      "lon": 114.0545429,
+      "up": true
+    },
+    "31": {
+      "id": 31,
+      "name": "Guangzhou, Guangdong, China",
+      "x": 12607966.99134541,
+      "y": 2647771.301727856,
+      "lat": 23.1301964,
+      "lon": 113.2592945,
+      "up": true
+    },
+    "32": {
+      "id": 32,
+      "name": "Guilin, Guangxi, China",
+      "x": 12264633.002207844,
+      "y": 2905092.6339183124,
+      "lat": 25.238704,
+      "lon": 110.1750728,
+      "up": true
+    },
+    "33": {
+      "id": 33,
+      "name": "Nanning, Guangxi, China",
+      "x": 12062882.933825523,
+      "y": 2610181.368142963,
+      "lat": 22.8193063,
+      "lon": 108.3627211,
+      "up": true
+    },
+    "34": {
+      "id": 34,
+      "name": "Haikou, Hainan, China",
+      "x": 12266923.667897694,
+      "y": 2278508.641836609,
+      "lat": 20.0462328,
+      "lon": 110.1956502,
+      "up": true
+    },
+    "35": {
+      "id": 35,
+      "name": "Changsha, Hunan, China",
+      "x": 12605645.056010596,
+      "y": 3267277.07407427,
+      "lat": 28.1450774,
+      "lon": 113.2384362,
+      "up": true
+    }
+  },
+  "links": {
+    "0": {
+      "id": 0,
+      "origin": 0,
+      "destination": 4,
+      "capacity": 40,
+      "length": 2094.34,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "1": {
+      "id": 1,
+      "origin": 4,
+      "destination": 0,
+      "capacity": 40,
+      "length": 2094.34,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "2": {
+      "id": 2,
+      "origin": 0,
+      "destination": 5,
+      "capacity": 40,
+      "length": 2653.36,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "3": {
+      "id": 3,
+      "origin": 5,
+      "destination": 0,
+      "capacity": 40,
+      "length": 2653.36,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "4": {
+      "id": 4,
+      "origin": 1,
+      "destination": 14,
+      "capacity": 40,
+      "length": 3202.59,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "5": {
+      "id": 5,
+      "origin": 14,
+      "destination": 1,
+      "capacity": 40,
+      "length": 3202.59,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "6": {
+      "id": 6,
+      "origin": 2,
+      "destination": 3,
+      "capacity": 40,
+      "length": 263.31,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "7": {
+      "id": 7,
+      "origin": 3,
+      "destination": 2,
+      "capacity": 40,
+      "length": 263.31,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "8": {
+      "id": 8,
+      "origin": 2,
+      "destination": 5,
+      "capacity": 40,
+      "length": 1049.77,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "9": {
+      "id": 9,
+      "origin": 5,
+      "destination": 2,
+      "capacity": 40,
+      "length": 1049.77,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "10": {
+      "id": 10,
+      "origin": 3,
+      "destination": 5,
+      "capacity": 40,
+      "length": 798.75,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "11": {
+      "id": 11,
+      "origin": 5,
+      "destination": 3,
+      "capacity": 40,
+      "length": 798.75,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "12": {
+      "id": 12,
+      "origin": 4,
+      "destination": 5,
+      "capacity": 40,
+      "length": 793.29,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "13": {
+      "id": 13,
+      "origin": 5,
+      "destination": 4,
+      "capacity": 40,
+      "length": 793.29,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "14": {
+      "id": 14,
+      "origin": 5,
+      "destination": 14,
+      "capacity": 40,
+      "length": 1366.07,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "15": {
+      "id": 15,
+      "origin": 14,
+      "destination": 5,
+      "capacity": 40,
+      "length": 1366.07,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "16": {
+      "id": 16,
+      "origin": 5,
+      "destination": 6,
+      "capacity": 40,
+      "length": 906.72,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "17": {
+      "id": 17,
+      "origin": 6,
+      "destination": 5,
+      "capacity": 40,
+      "length": 906.72,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "18": {
+      "id": 18,
+      "origin": 6,
+      "destination": 10,
+      "capacity": 40,
+      "length": 1467.42,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "19": {
+      "id": 19,
+      "origin": 10,
+      "destination": 6,
+      "capacity": 40,
+      "length": 1467.42,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "20": {
+      "id": 20,
+      "origin": 6,
+      "destination": 9,
+      "capacity": 40,
+      "length": 392.0,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "21": {
+      "id": 21,
+      "origin": 9,
+      "destination": 6,
+      "capacity": 40,
+      "length": 392.0,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "22": {
+      "id": 22,
+      "origin": 6,
+      "destination": 8,
+      "capacity": 40,
+      "length": 790.42,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "23": {
+      "id": 23,
+      "origin": 8,
+      "destination": 6,
+      "capacity": 40,
+      "length": 790.42,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "24": {
+      "id": 24,
+      "origin": 6,
+      "destination": 7,
+      "capacity": 40,
+      "length": 965.77,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "25": {
+      "id": 25,
+      "origin": 7,
+      "destination": 6,
+      "capacity": 40,
+      "length": 965.77,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "26": {
+      "id": 26,
+      "origin": 7,
+      "destination": 8,
+      "capacity": 40,
+      "length": 650.81,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "27": {
+      "id": 27,
+      "origin": 8,
+      "destination": 7,
+      "capacity": 40,
+      "length": 650.81,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "28": {
+      "id": 28,
+      "origin": 9,
+      "destination": 10,
+      "capacity": 40,
+      "length": 1162.58,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "29": {
+      "id": 29,
+      "origin": 10,
+      "destination": 9,
+      "capacity": 40,
+      "length": 1162.58,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "30": {
+      "id": 30,
+      "origin": 10,
+      "destination": 11,
+      "capacity": 40,
+      "length": 699.35,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "31": {
+      "id": 31,
+      "origin": 11,
+      "destination": 10,
+      "capacity": 40,
+      "length": 699.35,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "32": {
+      "id": 32,
+      "origin": 10,
+      "destination": 35,
+      "capacity": 40,
+      "length": 436.8,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "33": {
+      "id": 33,
+      "origin": 35,
+      "destination": 10,
+      "capacity": 40,
+      "length": 436.8,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "34": {
+      "id": 34,
+      "origin": 10,
+      "destination": 31,
+      "capacity": 40,
+      "length": 1254.66,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "35": {
+      "id": 35,
+      "origin": 31,
+      "destination": 10,
+      "capacity": 40,
+      "length": 1254.66,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "36": {
+      "id": 36,
+      "origin": 10,
+      "destination": 25,
+      "capacity": 40,
+      "length": 475.15,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "37": {
+      "id": 37,
+      "origin": 25,
+      "destination": 10,
+      "capacity": 40,
+      "length": 475.15,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "38": {
+      "id": 38,
+      "origin": 10,
+      "destination": 23,
+      "capacity": 40,
+      "length": 682.33,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "39": {
+      "id": 39,
+      "origin": 23,
+      "destination": 10,
+      "capacity": 40,
+      "length": 682.33,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "40": {
+      "id": 40,
+      "origin": 10,
+      "destination": 14,
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "41": {
+      "id": 41,
+      "origin": 14,
+      "destination": 10,
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "42": {
+      "id": 42,
+      "origin": 11,
+      "destination": 14,
+      "capacity": 40,
+      "length": 932.47,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "43": {
+      "id": 43,
+      "origin": 14,
+      "destination": 11,
+      "capacity": 40,
+      "length": 932.47,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "44": {
+      "id": 44,
+      "origin": 12,
+      "destination": 14,
+      "capacity": 40,
+      "length": 603.73,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "45": {
+      "id": 45,
+      "origin": 14,
+      "destination": 12,
+      "capacity": 40,
+      "length": 603.73,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "46": {
+      "id": 46,
+      "origin": 12,
+      "destination": 13,
+      "capacity": 40,
+      "length": 507.01,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "47": {
+      "id": 47,
+      "origin": 13,
+      "destination": 12,
+      "capacity": 40,
+      "length": 507.01,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "48": {
+      "id": 48,
+      "origin": 13,
+      "destination": 14,
+      "capacity": 40,
+      "length": 619.16,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "49": {
+      "id": 49,
+      "origin": 14,
+      "destination": 13,
+      "capacity": 40,
+      "length": 619.16,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "50": {
+      "id": 50,
+      "origin": 14,
+      "destination": 20,
+      "capacity": 40,
+      "length": 942.07,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "51": {
+      "id": 51,
+      "origin": 20,
+      "destination": 14,
+      "capacity": 40,
+      "length": 942.07,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "52": {
+      "id": 52,
+      "origin": 14,
+      "destination": 17,
+      "capacity": 40,
+      "length": 166.97,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "53": {
+      "id": 53,
+      "origin": 17,
+      "destination": 14,
+      "capacity": 40,
+      "length": 166.97,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "54": {
+      "id": 54,
+      "origin": 14,
+      "destination": 28,
+      "capacity": 40,
+      "length": 1560.47,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "55": {
+      "id": 55,
+      "origin": 28,
+      "destination": 14,
+      "capacity": 40,
+      "length": 1560.47,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "56": {
+      "id": 56,
+      "origin": 14,
+      "destination": 15,
+      "capacity": 40,
+      "length": 395.09,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "57": {
+      "id": 57,
+      "origin": 15,
+      "destination": 14,
+      "capacity": 40,
+      "length": 395.09,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "58": {
+      "id": 58,
+      "origin": 16,
+      "destination": 17,
+      "capacity": 40,
+      "length": 474.32,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "59": {
+      "id": 59,
+      "origin": 17,
+      "destination": 16,
+      "capacity": 40,
+      "length": 474.32,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "60": {
+      "id": 60,
+      "origin": 16,
+      "destination": 18,
+      "capacity": 40,
+      "length": 596.86,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "61": {
+      "id": 61,
+      "origin": 18,
+      "destination": 16,
+      "capacity": 40,
+      "length": 596.86,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "62": {
+      "id": 62,
+      "origin": 16,
+      "destination": 23,
+      "capacity": 40,
+      "length": 830.12,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "63": {
+      "id": 63,
+      "origin": 23,
+      "destination": 16,
+      "capacity": 40,
+      "length": 830.12,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "64": {
+      "id": 64,
+      "origin": 18,
+      "destination": 23,
+      "capacity": 40,
+      "length": 706.41,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "65": {
+      "id": 65,
+      "origin": 23,
+      "destination": 18,
+      "capacity": 40,
+      "length": 706.41,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "66": {
+      "id": 66,
+      "origin": 19,
+      "destination": 20,
+      "capacity": 40,
+      "length": 374.48,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "67": {
+      "id": 67,
+      "origin": 20,
+      "destination": 19,
+      "capacity": 40,
+      "length": 374.48,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "68": {
+      "id": 68,
+      "origin": 20,
+      "destination": 14,
+      "capacity": 40,
+      "length": 942.07,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "69": {
+      "id": 69,
+      "origin": 14,
+      "destination": 20,
+      "capacity": 40,
+      "length": 942.07,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "70": {
+      "id": 70,
+      "origin": 20,
+      "destination": 22,
+      "capacity": 40,
+      "length": 764.05,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "71": {
+      "id": 71,
+      "origin": 22,
+      "destination": 20,
+      "capacity": 40,
+      "length": 764.05,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "72": {
+      "id": 72,
+      "origin": 20,
+      "destination": 21,
+      "capacity": 40,
+      "length": 417.11,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "73": {
+      "id": 73,
+      "origin": 21,
+      "destination": 20,
+      "capacity": 40,
+      "length": 417.11,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "74": {
+      "id": 74,
+      "origin": 23,
+      "destination": 24,
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "75": {
+      "id": 75,
+      "origin": 24,
+      "destination": 23,
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "76": {
+      "id": 76,
+      "origin": 23,
+      "destination": 25,
+      "capacity": 40,
+      "length": 405.28,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "77": {
+      "id": 77,
+      "origin": 25,
+      "destination": 23,
+      "capacity": 40,
+      "length": 405.28,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "78": {
+      "id": 78,
+      "origin": 24,
+      "destination": 28,
+      "capacity": 40,
+      "length": 213.96,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "79": {
+      "id": 79,
+      "origin": 28,
+      "destination": 24,
+      "capacity": 40,
+      "length": 213.96,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "80": {
+      "id": 80,
+      "origin": 24,
+      "destination": 31,
+      "capacity": 40,
+      "length": 915.53,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "81": {
+      "id": 81,
+      "origin": 31,
+      "destination": 24,
+      "capacity": 40,
+      "length": 915.53,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "82": {
+      "id": 82,
+      "origin": 24,
+      "destination": 26,
+      "capacity": 40,
+      "length": 1514.99,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "83": {
+      "id": 83,
+      "origin": 26,
+      "destination": 24,
+      "capacity": 40,
+      "length": 1514.99,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "84": {
+      "id": 84,
+      "origin": 24,
+      "destination": 27,
+      "capacity": 40,
+      "length": 244.39,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "85": {
+      "id": 85,
+      "origin": 27,
+      "destination": 24,
+      "capacity": 40,
+      "length": 244.39,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "86": {
+      "id": 86,
+      "origin": 27,
+      "destination": 29,
+      "capacity": 40,
+      "length": 916.88,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "87": {
+      "id": 87,
+      "origin": 29,
+      "destination": 27,
+      "capacity": 40,
+      "length": 916.88,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "88": {
+      "id": 88,
+      "origin": 27,
+      "destination": 29,
+      "capacity": 40,
+      "length": 314.63,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "89": {
+      "id": 89,
+      "origin": 29,
+      "destination": 27,
+      "capacity": 40,
+      "length": 314.63,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "90": {
+      "id": 90,
+      "origin": 29,
+      "destination": 31,
+      "capacity": 40,
+      "length": 771.82,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "91": {
+      "id": 91,
+      "origin": 31,
+      "destination": 29,
+      "capacity": 40,
+      "length": 771.82,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "92": {
+      "id": 92,
+      "origin": 30,
+      "destination": 31,
+      "capacity": 40,
+      "length": 156.47,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "93": {
+      "id": 93,
+      "origin": 31,
+      "destination": 30,
+      "capacity": 40,
+      "length": 156.47,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "94": {
+      "id": 94,
+      "origin": 31,
+      "destination": 35,
+      "capacity": 40,
+      "length": 836.45,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "95": {
+      "id": 95,
+      "origin": 35,
+      "destination": 31,
+      "capacity": 40,
+      "length": 836.45,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "96": {
+      "id": 96,
+      "origin": 31,
+      "destination": 32,
+      "capacity": 40,
+      "length": 586.39,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "97": {
+      "id": 97,
+      "origin": 32,
+      "destination": 31,
+      "capacity": 40,
+      "length": 586.39,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "98": {
+      "id": 98,
+      "origin": 31,
+      "destination": 33,
+      "capacity": 40,
+      "length": 753.68,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "99": {
+      "id": 99,
+      "origin": 33,
+      "destination": 31,
+      "capacity": 40,
+      "length": 753.68,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "100": {
+      "id": 100,
+      "origin": 31,
+      "destination": 34,
+      "capacity": 40,
+      "length": 700.19,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "101": {
+      "id": 101,
+      "origin": 34,
+      "destination": 31,
+      "capacity": 40,
+      "length": 700.19,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "102": {
+      "id": 102,
+      "origin": 32,
+      "destination": 33,
+      "capacity": 40,
+      "length": 488.93,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "103": {
+      "id": 103,
+      "origin": 33,
+      "destination": 32,
+      "capacity": 40,
+      "length": 488.93,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "104": {
+      "id": 104,
+      "origin": 34,
+      "destination": 30,
+      "capacity": 40,
+      "length": 730.18,
+      "up": true,
+      "carried_traffic": 0
+    },
+    "105": {
+      "id": 105,
+      "origin": 30,
+      "destination": 34,
+      "capacity": 40,
+      "length": 730.18,
+      "up": true,
+      "carried_traffic": 0
+    }
+  },
+  "demands": {
+    "0": {
+      "id": 0,
+      "origin": 13,
+      "destination": 2,
+      "offered_traffic": 3
+    },
+    "1": {
+      "id": 1,
+      "origin": 30,
+      "destination": 12,
+      "offered_traffic": 5
+    },
+    "2": {
+      "id": 2,
+      "origin": 28,
+      "destination": 19,
+      "offered_traffic": 8
+    },
+    "3": {
+      "id": 3,
+      "origin": 3,
+      "destination": 1,
+      "offered_traffic": 2
+    },
+    "4": {
+      "id": 4,
+      "origin": 3,
+      "destination": 0,
+      "offered_traffic": 8
+    },
+    "5": {
+      "id": 5,
+      "origin": 30,
+      "destination": 32,
+      "offered_traffic": 3
+    },
+    "6": {
+      "id": 6,
+      "origin": 35,
+      "destination": 12,
+      "offered_traffic": 7
+    },
+    "7": {
+      "id": 7,
+      "origin": 4,
+      "destination": 25,
+      "offered_traffic": 3
+    },
+    "8": {
+      "id": 8,
+      "origin": 16,
+      "destination": 14,
+      "offered_traffic": 2
+    },
+    "9": {
+      "id": 9,
+      "origin": 16,
+      "destination": 26,
+      "offered_traffic": 2
+    },
+    "10": {
+      "id": 10,
+      "origin": 20,
+      "destination": 24,
+      "offered_traffic": 2
+    },
+    "11": {
+      "id": 11,
+      "origin": 0,
+      "destination": 24,
+      "offered_traffic": 7
+    },
+    "12": {
+      "id": 12,
+      "origin": 9,
+      "destination": 22,
+      "offered_traffic": 2
+    },
+    "13": {
+      "id": 13,
+      "origin": 29,
+      "destination": 24,
+      "offered_traffic": 3
+    },
+    "14": {
+      "id": 14,
+      "origin": 8,
+      "destination": 11,
+      "offered_traffic": 7
+    },
+    "15": {
+      "id": 15,
+      "origin": 20,
+      "destination": 31,
+      "offered_traffic": 5
+    },
+    "16": {
+      "id": 16,
+      "origin": 16,
+      "destination": 33,
+      "offered_traffic": 3
+    },
+    "17": {
+      "id": 17,
+      "origin": 8,
+      "destination": 34,
+      "offered_traffic": 1
+    },
+    "18": {
+      "id": 18,
+      "origin": 23,
+      "destination": 19,
+      "offered_traffic": 8
+    },
+    "19": {
+      "id": 19,
+      "origin": 30,
+      "destination": 14,
+      "offered_traffic": 5
+    },
+    "20": {
+      "id": 20,
+      "origin": 19,
+      "destination": 30,
+      "offered_traffic": 4
+    },
+    "21": {
+      "id": 21,
+      "origin": 20,
+      "destination": 19,
+      "offered_traffic": 5
+    },
+    "22": {
+      "id": 22,
+      "origin": 24,
+      "destination": 11,
+      "offered_traffic": 4
+    },
+    "23": {
+      "id": 23,
+      "origin": 28,
+      "destination": 8,
+      "offered_traffic": 5
+    },
+    "24": {
+      "id": 24,
+      "origin": 19,
+      "destination": 33,
+      "offered_traffic": 3
+    },
+    "25": {
+      "id": 25,
+      "origin": 33,
+      "destination": 35,
+      "offered_traffic": 4
+    },
+    "26": {
+      "id": 26,
+      "origin": 22,
+      "destination": 1,
+      "offered_traffic": 3
+    },
+    "27": {
+      "id": 27,
+      "origin": 31,
+      "destination": 25,
+      "offered_traffic": 6
+    },
+    "28": {
+      "id": 28,
+      "origin": 8,
+      "destination": 24,
+      "offered_traffic": 1
+    },
+    "29": {
+      "id": 29,
+      "origin": 5,
+      "destination": 3,
+      "offered_traffic": 6
+    },
+    "30": {
+      "id": 30,
+      "origin": 21,
+      "destination": 20,
+      "offered_traffic": 4
+    },
+    "31": {
+      "id": 31,
+      "origin": 26,
+      "destination": 21,
+      "offered_traffic": 7
+    },
+    "32": {
+      "id": 32,
+      "origin": 2,
+      "destination": 5,
+      "offered_traffic": 6
+    },
+    "33": {
+      "id": 33,
+      "origin": 26,
+      "destination": 32,
+      "offered_traffic": 4
+    },
+    "34": {
+      "id": 34,
+      "origin": 21,
+      "destination": 9,
+      "offered_traffic": 3
+    },
+    "35": {
+      "id": 35,
+      "origin": 11,
+      "destination": 31,
+      "offered_traffic": 2
+    },
+    "36": {
+      "id": 36,
+      "origin": 18,
+      "destination": 27,
+      "offered_traffic": 6
+    },
+    "37": {
+      "id": 37,
+      "origin": 2,
+      "destination": 30,
+      "offered_traffic": 2
+    },
+    "38": {
+      "id": 38,
+      "origin": 20,
+      "destination": 35,
+      "offered_traffic": 1
+    },
+    "39": {
+      "id": 39,
+      "origin": 32,
+      "destination": 15,
+      "offered_traffic": 3
+    },
+    "40": {
+      "id": 40,
+      "origin": 1,
+      "destination": 32,
+      "offered_traffic": 2
+    },
+    "41": {
+      "id": 41,
+      "origin": 10,
+      "destination": 24,
+      "offered_traffic": 2
+    },
+    "42": {
+      "id": 42,
+      "origin": 0,
+      "destination": 2,
+      "offered_traffic": 4
+    },
+    "43": {
+      "id": 43,
+      "origin": 19,
+      "destination": 24,
+      "offered_traffic": 4
+    },
+    "44": {
+      "id": 44,
+      "origin": 30,
+      "destination": 5,
+      "offered_traffic": 7
+    },
+    "45": {
+      "id": 45,
+      "origin": 22,
+      "destination": 8,
+      "offered_traffic": 4
+    },
+    "46": {
+      "id": 46,
+      "origin": 20,
+      "destination": 32,
+      "offered_traffic": 8
+    },
+    "47": {
+      "id": 47,
+      "origin": 12,
+      "destination": 25,
+      "offered_traffic": 3
+    },
+    "48": {
+      "id": 48,
+      "origin": 30,
+      "destination": 29,
+      "offered_traffic": 4
+    },
+    "49": {
+      "id": 49,
+      "origin": 29,
+      "destination": 18,
+      "offered_traffic": 7
+    },
+    "50": {
+      "id": 50,
+      "origin": 22,
+      "destination": 28,
+      "offered_traffic": 5
+    },
+    "51": {
+      "id": 51,
+      "origin": 35,
+      "destination": 30,
+      "offered_traffic": 4
+    },
+    "52": {
+      "id": 52,
+      "origin": 24,
+      "destination": 30,
+      "offered_traffic": 5
+    },
+    "53": {
+      "id": 53,
+      "origin": 10,
+      "destination": 21,
+      "offered_traffic": 4
+    },
+    "54": {
+      "id": 54,
+      "origin": 16,
+      "destination": 32,
+      "offered_traffic": 3
+    },
+    "55": {
+      "id": 55,
+      "origin": 21,
+      "destination": 16,
+      "offered_traffic": 1
+    },
+    "56": {
+      "id": 56,
+      "origin": 12,
+      "destination": 5,
+      "offered_traffic": 3
+    },
+    "57": {
+      "id": 57,
+      "origin": 25,
+      "destination": 11,
+      "offered_traffic": 8
+    },
+    "58": {
+      "id": 58,
+      "origin": 4,
+      "destination": 26,
+      "offered_traffic": 7
+    },
+    "59": {
+      "id": 59,
+      "origin": 8,
+      "destination": 29,
+      "offered_traffic": 6
+    }
+  },
+  "next_ids": {
+    "node": 36,
+    "link": 106,
+    "demand": 60
+  }
+}

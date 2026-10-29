@@ -1,0 +1,59 @@
+# topology: BIZNET (real topology #62) (data/topologies/real/top62_biznet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Kudus,Serang,5
+1,Kediri,Serang,6
+2,Pekalongan,Yogyakarta,6
+3,Surakarta,Cirebon,5
+4,Ciparay,Malang,8
+5,Karangbadar Kidul,Magelang,3
+6,Kediri,Jakarta,3
+7,Bogor,Magelang,7
+8,Naisano Dua,Magelang,6
+9,Probolinggo,Rengasdengklok,2
+10,Purwokerto,Semarang,3
+11,Tegal,Probolinggo,8
+12,Naisano Dua,Jakarta,2
+13,Merik,Madiun,6
+14,Probolinggo,Malang,7
+15,Bogor,Merik,6
+16,Surakarta,Naisano Dua,3
+17,Surabaya,Merik,4
+18,Kediri,Karangbadar Kidul,8
+19,Karangbadar Kidul,Yogyakarta,6
+20,Yogyakarta,Kediri,4
+21,Tegal,Pekalongan,5
+22,Madiun,Semarang,1
+23,Jember,Umbulan,3
+24,Jakarta,Madiun,4
+25,Naisano Dua,Sukabumi,8
+26,Ciparay,Banyuwangi,3
+27,Tegal,Surabaya,2
+28,Pekalongan,Jember,3
+29,Semarang,Umbulan,6
+30,Rengasdengklok,Naisano Dua,2
+31,Jember,Kediri,7
+32,Kudus,Banyuwangi,3
+33,Bandung,Cilingga,5
+34,Malang,Probolinggo,7
+35,Cirebon,Naisano Dua,3
+36,Kudus,Karangbadar Kidul,7
+37,Serang,Pekalongan,3
+38,Cirebon,Jakarta,3
+39,Bogor,Tegal,2
+40,Purwokerto,Cilingga,2
+41,Ciparay,Serang,7
+42,Jakarta,Kudus,2
+43,Kediri,Malang,2
+44,Tegal,Surakarta,3
+45,Semarang,Sukabumi,7
+46,Madiun,Bogor,6
+47,Jakarta,Kediri,3
+48,Bogor,Naisano Dua,8
+49,Purwokerto,Merik,3
+50,Jember,Tegal,7
+51,Pekalongan,Rengasdengklok,8
+52,Malang,Magelang,4
+53,Serang,Umbulan,7
+54,Rengasdengklok,Cirebon,1
+55,Jakarta,Cilingga,4

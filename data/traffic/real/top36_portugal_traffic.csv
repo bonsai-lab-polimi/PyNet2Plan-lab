@@ -1,0 +1,55 @@
+# topology: PORTUGAL (real topology #36) (data/topologies/real/top36_portugal.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Vila Real,Aveiro,7
+1,Setubal,Viseu,7
+2,Funchal,Portalegre,7
+3,Sines,Setubal,1
+4,Faro,Portimao,2
+5,Portimao,Alcacer do Sal,1
+6,Ponta Delgada,Beja,5
+7,Setubal,Beja,6
+8,Setubal,Braganca,1
+9,Vila Real,Beja,3
+10,Castelo Branco,Sines,3
+11,Aveiro,Beja,1
+12,Beja,Porto,8
+13,Coimbra,Portimao,1
+14,Vila Real,Lisboa,5
+15,Funchal,Guarda,7
+16,Alcacer do Sal,Caldas da Rainha,7
+17,Viseu,Faro,3
+18,Funchal,Viana do Castelo,7
+19,Sao Joao da Madeira,Alcacer do Sal,3
+20,Viana do Castelo,Coimbra,8
+21,Viseu,Funchal,6
+22,Coimbra,Braga,7
+23,Alcacer do Sal,Castelo Branco,4
+24,Funchal,Portimao,7
+25,Beja,Ponta Delgada,6
+26,Sao Joao da Madeira,Guarda,1
+27,Evora,Porto,2
+28,Portalegre,Portimao,4
+29,Guarda,Funchal,6
+30,Ponta Delgada,Viseu,5
+31,Portalegre,Vila Real,2
+32,Evora,Caldas da Rainha,1
+33,Guarda,Viseu,3
+34,Sao Joao da Madeira,Braga,3
+35,Vila Real,Porto,1
+36,Ponta Delgada,Alcacer do Sal,4
+37,Sines,Braganca,5
+38,Lisboa,Sao Joao da Madeira,1
+39,Viana do Castelo,Lisboa,1
+40,Evora,Portimao,6
+41,Santarem,Ponta Delgada,3
+42,Faro,Sines,5
+43,Braganca,Portimao,7
+44,Porto,Elvas,2
+45,Faro,Castelo Branco,3
+46,Santarem,Braganca,8
+47,Leiria,Evora,7
+48,Coimbra,Santarem,5
+49,Sao Joao da Madeira,Viseu,4
+50,Evora,Portalegre,8
+51,Ponta Delgada,Vila Real,6

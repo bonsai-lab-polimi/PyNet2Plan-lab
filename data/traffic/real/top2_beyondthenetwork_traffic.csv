@@ -1,0 +1,61 @@
+# topology: BEYONDTHENETWORK (real topology #2) (data/topologies/real/top2_beyondthenetwork.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,San Diego,Phoenix,4
+1,New Orleans,Chicago,8
+2,Baltimore,Denver,4
+3,Detroit,"Washington, D.C.",7
+4,Sacramento,Kansas City,6
+5,"Washington, D.C.",Portland,7
+6,Philadelphia,Tampa,7
+7,Miami,New York City,3
+8,Sunnyvale,Kansas City,6
+9,Baltimore,Vienna,2
+10,Portland,Raleigh,8
+11,Ashburn,Vienna,6
+12,Dallas,Vienna,1
+13,Phoenix,Pittsburgh,8
+14,Sacramento,Sunnyvale,7
+15,San Antonio,Miami,4
+16,Philadelphia,Atlanta,1
+17,Sunnyvale,Miami,8
+18,Houston,Philadelphia,4
+19,Houston,"Washington, D.C.",4
+20,Tampa,Philadelphia,7
+21,Pittsburgh,Chicago,8
+22,San Jose,Philadelphia,2
+23,Seattle,Los Angeles,7
+24,Kansas City,Atlanta,2
+25,Denver,Detroit,2
+26,Detroit,Raleigh,2
+27,Phoenix,San Diego,6
+28,Portland,Denver,5
+29,Dallas,Pittsburgh,6
+30,Detroit,Los Angeles,1
+31,New Orleans,Pittsburgh,5
+32,San Diego,Minneapolis,7
+33,Kansas City,Houston,5
+34,Philadelphia,Vienna,3
+35,San Jose,Denver,2
+36,Miami,Phoenix,1
+37,Raleigh,Portland,4
+38,Kansas City,Dallas,4
+39,Phoenix,New Orleans,7
+40,Los Angeles,New York City,5
+41,Denver,San Diego,7
+42,Miami,Tampa,6
+43,"Washington, D.C.",New Orleans,4
+44,Phoenix,Kansas City,6
+45,Houston,Kansas City,7
+46,Tampa,Raleigh,2
+47,Phoenix,Vienna,2
+48,San Antonio,Kansas City,2
+49,Atlanta,Seattle,3
+50,San Jose,Atlanta,5
+51,Phoenix,Ashburn,1
+52,Raleigh,Denver,7
+53,Portland,Tampa,5
+54,Dallas,Portland,6
+55,New York City,Kansas City,7
+56,Vienna,Atlanta,5
+57,Los Angeles,Denver,4

@@ -1,0 +1,39 @@
+# topology: SAGO (real topology #15) (data/topologies/real/top15_sago.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Melbourne,Folkston,2
+1,Fort Lauderdale,Melbourne,7
+2,Gordon,Saint Augustine,2
+3,Orlando,West Palm Beach,5
+4,West Palm Beach,Baxley,8
+5,Lake Alfred,Gordon,7
+6,Gordon,Daytona Beach,6
+7,Titusville,Saint Augustine,3
+8,Jacksonville,Soperton,6
+9,Daytona Beach,Orlando,3
+10,Fort Pierce,Tampa,1
+11,Saint Augustine,Miami,5
+12,West Palm Beach,Folkston,2
+13,Atlanta,Gordon,3
+14,Saint Augustine,Soperton,5
+15,Tampa,Indian Springs,4
+16,Lake Alfred,Fort Pierce,3
+17,Soperton,Fort Lauderdale,4
+18,Jacksonville,Daytona Beach,2
+19,West Palm Beach,Fort Lauderdale,3
+20,Daytona Beach,Soperton,8
+21,Orlando,Miami,8
+22,Fort Pierce,Titusville,3
+23,Saint Augustine,Jacksonville,5
+24,Fort Pierce,Jacksonville,8
+25,Miami,Soperton,6
+26,Fort Lauderdale,Folkston,4
+27,Orlando,Daytona Beach,7
+28,Gordon,Lake Alfred,2
+29,Daytona Beach,Jacksonville,5
+30,Indian Springs,Tampa,5
+31,Daytona Beach,Saint Augustine,7
+32,West Palm Beach,Fort Pierce,6
+33,Fort Lauderdale,Jacksonville,2
+34,Folkston,Daytona Beach,2
+35,Gordon,Folkston,3

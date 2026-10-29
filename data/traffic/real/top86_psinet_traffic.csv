@@ -1,0 +1,51 @@
+# topology: PSINET (real topology #86) (data/topologies/real/top86_psinet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Detroit,Atlanta,4
+1,Dallas,Houston,6
+2,Toledo,Santa Clara,8
+3,Toledo,"Washington, D.C.",1
+4,Kansas City,Boston,8
+5,Toledo,Houston,2
+6,Dublin,Atlanta,7
+7,Phoenix,Chicago,2
+8,Toledo,Atlanta,5
+9,Baltimore,New York City,5
+10,Dublin,Austin,3
+11,Newark,Boston,3
+12,Detroit,Baltimore,8
+13,Baltimore,Newark,5
+14,Chicago,Phoenix,2
+15,Chicago,San Francisco,3
+16,Dublin,Herndon,2
+17,"Washington, D.C.",Austin,6
+18,Fort Worth,Dallas,6
+19,Philadelphia,Toledo,6
+20,New York City,Boston,5
+21,Los Angeles,Fort Worth,1
+22,Austin,Dublin,5
+23,Philadelphia,Chicago,1
+24,New York City,"Washington, D.C.",6
+25,Kansas City,Philadelphia,2
+26,Wilmington,Troy,1
+27,Troy,Baltimore,8
+28,Atlanta,Baltimore,4
+29,Baltimore,Philadelphia,2
+30,Wilmington,New York City,2
+31,Houston,Herndon,5
+32,Phoenix,Boston,4
+33,Fort Worth,Houston,6
+34,Philadelphia,Atlanta,3
+35,Houston,New York City,1
+36,Dublin,Los Angeles,7
+37,Kansas City,Fort Worth,5
+38,Los Angeles,San Francisco,1
+39,Kansas City,New York City,4
+40,Santa Clara,Austin,1
+41,Troy,New York City,6
+42,Austin,Phoenix,6
+43,Los Angeles,Newark,5
+44,"Washington, D.C.",Dublin,2
+45,Atlanta,Philadelphia,6
+46,Boston,Philadelphia,5
+47,Santa Clara,Atlanta,2

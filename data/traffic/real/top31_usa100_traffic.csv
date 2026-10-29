@@ -1,0 +1,63 @@
+# topology: USA100 (real topology #31) (data/topologies/real/top31_usa100.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"Charlotte, North Carolina","St Louis, Missouri",3
+1,"Tallahassee, Florida","El Paso, Texas",8
+2,"Allentown, Pennsylvania","Atlanta, Georgia",1
+3,"Washington, DC","Memphis, Tennessee",2
+4,"Macon, Georgia","Portland, Maine",6
+5,"Syracuse, New York","Milwaukee, Wisconsin",6
+6,"Billings, Montana","Toledo, Ohio",5
+7,"Chattanooga, Tennessee","Tallahassee, Florida",6
+8,"Oklahoma City, Oklahoma","Grand Rapids, Michigan",6
+9,"Scranton, Pennsylvania","Rutland, Vermont",5
+10,"Detroit, Michigan","Hartford, Connecticut",7
+11,"Clearwater, Florida","El Paso, Texas",5
+12,"Columbus, Ohio","Kingston, New York",7
+13,"Jackson, Mississippi","New Orleans, Louisiana",5
+14,"Springfield, Illinois","Charlotte, North Carolina",3
+15,"Macon, Georgia","San Antonio, Texas",5
+16,"Spokane, Washington","Fort Collins, Colorado",3
+17,"Grand Rapids, Michigan","Buffalo, New York",3
+18,"St Louis, Missouri","Manchester, New Hampshire",6
+19,"Manchester, New Hampshire","Sacramento, California",1
+20,"Jacksonville, Florida","Columbus, Ohio",2
+21,"Washington, DC","Manchester, New Hampshire",8
+22,"New Orleans, Louisiana","Eugene, Oregon",2
+23,"Knoxville, Tennessee","Houston, Texas",6
+24,"Chicago, Illinois","Indianapolis, Indiana",3
+25,"Manchester, New Hampshire","San Antonio, Texas",5
+26,"Knoxville, Tennessee","Omaha, Nebraska",1
+27,"Fargo, North Dakota","San Antonio, Texas",8
+28,"Miami, Florida","Eugene, Oregon",8
+29,"Columbus, Ohio","Scranton, Pennsylvania",3
+30,"New Orleans, Louisiana","Little Rock, Arkansas",7
+31,"Columbus, Ohio","Detroit, Michigan",5
+32,"Modesto, California","Detroit, Michigan",2
+33,"Macon, Georgia","Toledo, Ohio",6
+34,"Minneapolis, Minnesota","Springfield, Massachusetts",4
+35,"Albany, New York","New Orleans, Louisiana",3
+36,"Wichita, Kansas","Charleston, West Virginia",3
+37,"Waycross, Georgia","New York, New York",3
+38,"Richmond, Virginia","Hartford, Connecticut",2
+39,"Cincinnati, Ohio","Memphis, Tennessee",5
+40,"Milwaukee, Wisconsin","San Jose, California",1
+41,"Indianapolis, Indiana","Kansas City, Missouri",2
+42,"Kansas City, Missouri","Montgomery, Alabama",2
+43,"Indianapolis, Indiana","Omaha, Nebraska",2
+44,"Fort Collins, Colorado","Durham, North Carolina",4
+45,"Boston, Massachusetts","Spokane, Washington",4
+46,"Washington, DC","Salt Lake City, Utah",4
+47,"Fort Collins, Colorado","Trenton, New Jersey",5
+48,"Portland, Oregon","Modesto, California",5
+49,"Billings, Montana","Portland, Oregon",7
+50,"Richmond, Virginia","Seattle, Washington",8
+51,"San Jose, California","Mobile, Alabama",5
+52,"Binghamton, New York","Louisville, Kentucky",5
+53,"New Orleans, Louisiana","New Haven, Connecticut",4
+54,"Birmingham, Alabama","Denver, Colorado",3
+55,"Modesto, California","Shreveport, Louisiana",6
+56,"Toledo, Ohio","Augusta, Georgia",5
+57,"Lubbock, Texas","Springfield, Illinois",8
+58,"Nashville, Tennessee","Gainesville, Florida",2
+59,"Birmingham, Alabama","Lubbock, Texas",6

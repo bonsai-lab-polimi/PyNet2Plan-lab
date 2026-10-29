@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pynet2plan"
+version = "2.0.0"
+description = "A small, didactic network planning tool (NetworkX + PuLP), inspired by Net2Plan"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["networkx>=3.0", "matplotlib>=3.5", "pulp[cbc,highs]>=3.3.2"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+pynet2plan = "pynet2plan.cli:main"
+
+[tool.setuptools]
+packages = ["pynet2plan", "pynet2plan.gui"]

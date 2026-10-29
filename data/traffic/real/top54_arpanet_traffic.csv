@@ -1,0 +1,43 @@
+# topology: ARPANET (real topology #54) (data/topologies/real/top54_arpanet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Nashville,New orleans,4
+1,Jacksonville,Washington,3
+2,Atlanta,Washington,5
+3,Denver,Atlanta,2
+4,Houston,Atlanta,7
+5,New orleans,New york,2
+6,Portland,"Columbia, south carolina",4
+7,Springfield,Detroit,3
+8,Houston,Portland,3
+9,Pittsburgh,Salt Lake City,4
+10,Pittsburgh,Minneapolis,1
+11,Los Angeles,San Diego,3
+12,Denver,Oklahoma City,2
+13,San Francisco,Nashville,6
+14,New orleans,Oklahoma City,5
+15,New orleans,Jacksonville,4
+16,San Diego,Washington,8
+17,Detroit,New orleans,6
+18,New york,San Francisco,8
+19,New york,Nashville,5
+20,Denver,New orleans,6
+21,San Diego,New york,1
+22,Pittsburgh,Springfield,5
+23,Houston,Washington,2
+24,Springfield,Washington,1
+25,Detroit,Jacksonville,3
+26,Salt Lake City,Springfield,2
+27,Oklahoma City,New orleans,1
+28,Jacksonville,Nashville,5
+29,"Columbia, south carolina",Los Angeles,8
+30,Springfield,Portland,8
+31,Jacksonville,Atlanta,4
+32,Indianapolis,New york,1
+33,Minneapolis,New orleans,5
+34,Salt Lake City,Atlanta,1
+35,San Francisco,Oklahoma City,4
+36,Denver,Los Angeles,8
+37,San Francisco,New orleans,7
+38,New york,"Columbia, south carolina",5
+39,Houston,Los Angeles,1

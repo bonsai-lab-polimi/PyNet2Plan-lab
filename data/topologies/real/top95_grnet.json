@@ -1,0 +1,828 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "GRNET (real topology #95)",
+  "description": "Real-world topology GRNET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Karditsa",
+      "lat": 39.37,
+      "lon": 21.92,
+      "x": 2440123.238188557,
+      "y": 4774810.329851823,
+      "up": true
+    },
+    {
+      "name": "Volos",
+      "lat": 39.37,
+      "lon": 22.95,
+      "x": 2554782.3137056283,
+      "y": 4774810.329851823,
+      "up": true
+    },
+    {
+      "name": "Larisa",
+      "lat": 39.64,
+      "lon": 22.42,
+      "x": 2495782.9835851938,
+      "y": 4813765.1418302925,
+      "up": true
+    },
+    {
+      "name": "Trikala",
+      "lat": 39.56,
+      "lon": 21.77,
+      "x": 2423425.3145695655,
+      "y": 4802207.18217088,
+      "up": true
+    },
+    {
+      "name": "Mytilini",
+      "lat": 39.11,
+      "lon": 26.55,
+      "x": 2955532.4805614133,
+      "y": 4737440.399301178,
+      "up": true
+    },
+    {
+      "name": "Chios",
+      "lat": 38.37,
+      "lon": 26.14,
+      "x": 2909891.489336171,
+      "y": 4631827.070357362,
+      "up": true
+    },
+    {
+      "name": "Igoumenitsa",
+      "lat": 39.5,
+      "lon": 20.27,
+      "x": 2256446.0783796553,
+      "y": 4793547.459104806,
+      "up": true
+    },
+    {
+      "name": "Kerkyra",
+      "lat": 39.62,
+      "lon": 19.92,
+      "x": 2217484.2566020098,
+      "y": 4810874.399890768,
+      "up": true
+    },
+    {
+      "name": "Ermoupolis",
+      "lat": 37.44,
+      "lon": 24.94,
+      "x": 2776308.100384243,
+      "y": 4500615.863368779,
+      "up": true
+    },
+    {
+      "name": "Mykonos",
+      "lat": 37.45,
+      "lon": 25.33,
+      "x": 2819722.7017936194,
+      "y": 4502017.982717163,
+      "up": true
+    },
+    {
+      "name": "Mesolongi",
+      "lat": 38.37,
+      "lon": 21.43,
+      "x": 2385576.6876998525,
+      "y": 4631827.070357362,
+      "up": true
+    },
+    {
+      "name": "Chania",
+      "lat": 35.51,
+      "lon": 24.02,
+      "x": 2673894.1688544312,
+      "y": 4233405.914789584,
+      "up": true
+    },
+    {
+      "name": "Irakleion",
+      "lat": 35.33,
+      "lon": 25.14,
+      "x": 2798571.998542898,
+      "y": 4208817.748184834,
+      "up": true
+    },
+    {
+      "name": "Rethymno",
+      "lat": 35.36,
+      "lon": 24.47,
+      "x": 2723987.939711404,
+      "y": 4212911.9646804305,
+      "up": true
+    },
+    {
+      "name": "Pylos",
+      "lat": 36.91,
+      "lon": 21.7,
+      "x": 2415632.9502140363,
+      "y": 4426569.361434692,
+      "up": true
+    },
+    {
+      "name": "Kalamata",
+      "lat": 37.04,
+      "lon": 22.11,
+      "x": 2461273.9414392784,
+      "y": 4444683.738948417,
+      "up": true
+    },
+    {
+      "name": "Chalkida",
+      "lat": 38.46,
+      "lon": 23.6,
+      "x": 2627139.9827212566,
+      "y": 4644613.74870269,
+      "up": true
+    },
+    {
+      "name": "Athens",
+      "lat": 37.98,
+      "lon": 23.72,
+      "x": 2640498.321616449,
+      "y": 4576600.868774604,
+      "up": true
+    },
+    {
+      "name": "Rodos",
+      "lat": 36.44,
+      "lon": 28.22,
+      "x": 3141436.03018618,
+      "y": 4361334.822740955,
+      "up": true
+    },
+    {
+      "name": "Neon Karlovasion",
+      "lat": 37.79,
+      "lon": 26.7,
+      "x": 2972230.4041804043,
+      "y": 4549802.184000932,
+      "up": true
+    },
+    {
+      "name": "Tripoli",
+      "lat": 37.51,
+      "lon": 22.38,
+      "x": 2491330.203953462,
+      "y": 4510434.6385227395,
+      "up": true
+    },
+    {
+      "name": "Patra",
+      "lat": 38.24,
+      "lon": 21.73,
+      "x": 2418972.534937835,
+      "y": 4613385.462262613,
+      "up": true
+    },
+    {
+      "name": "Kalavryta",
+      "lat": 38.03,
+      "lon": 22.11,
+      "x": 2461273.9414392784,
+      "y": 4583664.673985276,
+      "up": true
+    },
+    {
+      "name": "Arkhaia Korinthos",
+      "lat": 37.92,
+      "lon": 22.88,
+      "x": 2546989.949350099,
+      "y": 4568130.651996282,
+      "up": true
+    },
+    {
+      "name": "Vrontados",
+      "lat": 38.47,
+      "lon": 25.91,
+      "x": 2884288.006453718,
+      "y": 4646035.474844425,
+      "up": true
+    },
+    {
+      "name": "Ioannina",
+      "lat": 39.67,
+      "lon": 20.85,
+      "x": 2321011.383039754,
+      "y": 4818102.822640817,
+      "up": true
+    },
+    {
+      "name": "Serres",
+      "lat": 41.09,
+      "lon": 23.55,
+      "x": 2621574.008181593,
+      "y": 5025625.720338281,
+      "up": true
+    },
+    {
+      "name": "Thessaloniki",
+      "lat": 40.64,
+      "lon": 22.94,
+      "x": 2553669.1187976957,
+      "y": 4959385.88608427,
+      "up": true
+    },
+    {
+      "name": "Edessa",
+      "lat": 40.8,
+      "lon": 22.05,
+      "x": 2454594.7719916822,
+      "y": 4982886.316570544,
+      "up": true
+    },
+    {
+      "name": "Kastoria",
+      "lat": 40.52,
+      "lon": 21.27,
+      "x": 2367765.569172929,
+      "y": 4941797.508683524,
+      "up": true
+    },
+    {
+      "name": "Kavala",
+      "lat": 40.94,
+      "lon": 24.4,
+      "x": 2716195.575355875,
+      "y": 5003495.701623468,
+      "up": true
+    },
+    {
+      "name": "Xanthi",
+      "lat": 41.14,
+      "lon": 24.88,
+      "x": 2769628.930936646,
+      "y": 5033013.614565681,
+      "up": true
+    },
+    {
+      "name": "Komotini",
+      "lat": 41.12,
+      "lon": 25.4,
+      "x": 2827515.066149148,
+      "y": 5030057.781555811,
+      "up": true
+    },
+    {
+      "name": "Alexandroupoli",
+      "lat": 40.85,
+      "lon": 25.87,
+      "x": 2879835.2268219874,
+      "y": 4990241.810615548,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Karditsa",
+      "destination": "Larisa",
+      "capacity": 40,
+      "length": 78.54,
+      "up": true
+    },
+    {
+      "origin": "Volos",
+      "destination": "Larisa",
+      "capacity": 40,
+      "length": 81.73,
+      "up": true
+    },
+    {
+      "origin": "Larisa",
+      "destination": "Karditsa",
+      "capacity": 40,
+      "length": 78.54,
+      "up": true
+    },
+    {
+      "origin": "Larisa",
+      "destination": "Volos",
+      "capacity": 40,
+      "length": 81.73,
+      "up": true
+    },
+    {
+      "origin": "Larisa",
+      "destination": "Trikala",
+      "capacity": 40,
+      "length": 84.59,
+      "up": true
+    },
+    {
+      "origin": "Larisa",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 324.35,
+      "up": true
+    },
+    {
+      "origin": "Larisa",
+      "destination": "Thessaloniki",
+      "capacity": 40,
+      "length": 179.49,
+      "up": true
+    },
+    {
+      "origin": "Trikala",
+      "destination": "Larisa",
+      "capacity": 40,
+      "length": 84.59,
+      "up": true
+    },
+    {
+      "origin": "Mytilini",
+      "destination": "Vrontados",
+      "capacity": 40,
+      "length": 135.34,
+      "up": true
+    },
+    {
+      "origin": "Mytilini",
+      "destination": "Chios",
+      "capacity": 40,
+      "length": 134.46,
+      "up": true
+    },
+    {
+      "origin": "Chios",
+      "destination": "Mytilini",
+      "capacity": 40,
+      "length": 134.46,
+      "up": true
+    },
+    {
+      "origin": "Chios",
+      "destination": "Ermoupolis",
+      "capacity": 40,
+      "length": 221.36,
+      "up": true
+    },
+    {
+      "origin": "Igoumenitsa",
+      "destination": "Ioannina",
+      "capacity": 40,
+      "length": 79.76,
+      "up": true
+    },
+    {
+      "origin": "Igoumenitsa",
+      "destination": "Kerkyra",
+      "capacity": 40,
+      "length": 49.26,
+      "up": true
+    },
+    {
+      "origin": "Kerkyra",
+      "destination": "Igoumenitsa",
+      "capacity": 40,
+      "length": 49.26,
+      "up": true
+    },
+    {
+      "origin": "Ermoupolis",
+      "destination": "Chios",
+      "capacity": 40,
+      "length": 221.36,
+      "up": true
+    },
+    {
+      "origin": "Ermoupolis",
+      "destination": "Mykonos",
+      "capacity": 40,
+      "length": 51.67,
+      "up": true
+    },
+    {
+      "origin": "Ermoupolis",
+      "destination": "Xanthi",
+      "capacity": 40,
+      "length": 617.18,
+      "up": true
+    },
+    {
+      "origin": "Ermoupolis",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 184.46,
+      "up": true
+    },
+    {
+      "origin": "Ermoupolis",
+      "destination": "Irakleion",
+      "capacity": 40,
+      "length": 352.95,
+      "up": true
+    },
+    {
+      "origin": "Mykonos",
+      "destination": "Ermoupolis",
+      "capacity": 40,
+      "length": 51.67,
+      "up": true
+    },
+    {
+      "origin": "Mykonos",
+      "destination": "Neon Karlovasion",
+      "capacity": 40,
+      "length": 189.67,
+      "up": true
+    },
+    {
+      "origin": "Mesolongi",
+      "destination": "Patra",
+      "capacity": 40,
+      "length": 44.85,
+      "up": true
+    },
+    {
+      "origin": "Chania",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 413.92,
+      "up": true
+    },
+    {
+      "origin": "Chania",
+      "destination": "Irakleion",
+      "capacity": 40,
+      "length": 155.17,
+      "up": true
+    },
+    {
+      "origin": "Irakleion",
+      "destination": "Ermoupolis",
+      "capacity": 40,
+      "length": 352.95,
+      "up": true
+    },
+    {
+      "origin": "Irakleion",
+      "destination": "Chania",
+      "capacity": 40,
+      "length": 155.17,
+      "up": true
+    },
+    {
+      "origin": "Irakleion",
+      "destination": "Rethymno",
+      "capacity": 40,
+      "length": 91.29,
+      "up": true
+    },
+    {
+      "origin": "Irakleion",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 481.09,
+      "up": true
+    },
+    {
+      "origin": "Irakleion",
+      "destination": "Rodos",
+      "capacity": 40,
+      "length": 455.5,
+      "up": true
+    },
+    {
+      "origin": "Rethymno",
+      "destination": "Irakleion",
+      "capacity": 40,
+      "length": 91.29,
+      "up": true
+    },
+    {
+      "origin": "Pylos",
+      "destination": "Kalamata",
+      "capacity": 40,
+      "length": 58.78,
+      "up": true
+    },
+    {
+      "origin": "Kalamata",
+      "destination": "Pylos",
+      "capacity": 40,
+      "length": 58.78,
+      "up": true
+    },
+    {
+      "origin": "Kalamata",
+      "destination": "Patra",
+      "capacity": 40,
+      "length": 206.35,
+      "up": true
+    },
+    {
+      "origin": "Chalkida",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 81.59,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Larisa",
+      "capacity": 40,
+      "length": 324.35,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Ermoupolis",
+      "capacity": 40,
+      "length": 184.46,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Chania",
+      "capacity": 40,
+      "length": 413.92,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Irakleion",
+      "capacity": 40,
+      "length": 481.09,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Chalkida",
+      "capacity": 40,
+      "length": 81.59,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Patra",
+      "capacity": 40,
+      "length": 264.73,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Arkhaia Korinthos",
+      "capacity": 40,
+      "length": 110.93,
+      "up": true
+    },
+    {
+      "origin": "Athens",
+      "destination": "Thessaloniki",
+      "capacity": 40,
+      "length": 454.94,
+      "up": true
+    },
+    {
+      "origin": "Rodos",
+      "destination": "Irakleion",
+      "capacity": 40,
+      "length": 455.5,
+      "up": true
+    },
+    {
+      "origin": "Rodos",
+      "destination": "Neon Karlovasion",
+      "capacity": 40,
+      "length": 302.6,
+      "up": true
+    },
+    {
+      "origin": "Neon Karlovasion",
+      "destination": "Mykonos",
+      "capacity": 40,
+      "length": 189.67,
+      "up": true
+    },
+    {
+      "origin": "Neon Karlovasion",
+      "destination": "Rodos",
+      "capacity": 40,
+      "length": 302.6,
+      "up": true
+    },
+    {
+      "origin": "Tripoli",
+      "destination": "Arkhaia Korinthos",
+      "capacity": 40,
+      "length": 95.02,
+      "up": true
+    },
+    {
+      "origin": "Patra",
+      "destination": "Mesolongi",
+      "capacity": 40,
+      "length": 44.85,
+      "up": true
+    },
+    {
+      "origin": "Patra",
+      "destination": "Kalamata",
+      "capacity": 40,
+      "length": 206.35,
+      "up": true
+    },
+    {
+      "origin": "Patra",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 264.73,
+      "up": true
+    },
+    {
+      "origin": "Patra",
+      "destination": "Kalavryta",
+      "capacity": 40,
+      "length": 60.93,
+      "up": true
+    },
+    {
+      "origin": "Patra",
+      "destination": "Ioannina",
+      "capacity": 40,
+      "length": 264.41,
+      "up": true
+    },
+    {
+      "origin": "Kalavryta",
+      "destination": "Patra",
+      "capacity": 40,
+      "length": 60.93,
+      "up": true
+    },
+    {
+      "origin": "Arkhaia Korinthos",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 110.93,
+      "up": true
+    },
+    {
+      "origin": "Arkhaia Korinthos",
+      "destination": "Tripoli",
+      "capacity": 40,
+      "length": 95.02,
+      "up": true
+    },
+    {
+      "origin": "Vrontados",
+      "destination": "Mytilini",
+      "capacity": 40,
+      "length": 135.34,
+      "up": true
+    },
+    {
+      "origin": "Ioannina",
+      "destination": "Igoumenitsa",
+      "capacity": 40,
+      "length": 79.76,
+      "up": true
+    },
+    {
+      "origin": "Ioannina",
+      "destination": "Patra",
+      "capacity": 40,
+      "length": 264.41,
+      "up": true
+    },
+    {
+      "origin": "Ioannina",
+      "destination": "Thessaloniki",
+      "capacity": 40,
+      "length": 311.69,
+      "up": true
+    },
+    {
+      "origin": "Serres",
+      "destination": "Thessaloniki",
+      "capacity": 40,
+      "length": 107.49,
+      "up": true
+    },
+    {
+      "origin": "Thessaloniki",
+      "destination": "Larisa",
+      "capacity": 40,
+      "length": 179.49,
+      "up": true
+    },
+    {
+      "origin": "Thessaloniki",
+      "destination": "Athens",
+      "capacity": 40,
+      "length": 454.94,
+      "up": true
+    },
+    {
+      "origin": "Thessaloniki",
+      "destination": "Ioannina",
+      "capacity": 40,
+      "length": 311.69,
+      "up": true
+    },
+    {
+      "origin": "Thessaloniki",
+      "destination": "Serres",
+      "capacity": 40,
+      "length": 107.49,
+      "up": true
+    },
+    {
+      "origin": "Thessaloniki",
+      "destination": "Xanthi",
+      "capacity": 40,
+      "length": 258.43,
+      "up": true
+    },
+    {
+      "origin": "Thessaloniki",
+      "destination": "Edessa",
+      "capacity": 40,
+      "length": 115.63,
+      "up": true
+    },
+    {
+      "origin": "Edessa",
+      "destination": "Thessaloniki",
+      "capacity": 40,
+      "length": 115.63,
+      "up": true
+    },
+    {
+      "origin": "Edessa",
+      "destination": "Kastoria",
+      "capacity": 40,
+      "length": 109.18,
+      "up": true
+    },
+    {
+      "origin": "Kastoria",
+      "destination": "Edessa",
+      "capacity": 40,
+      "length": 109.18,
+      "up": true
+    },
+    {
+      "origin": "Kavala",
+      "destination": "Xanthi",
+      "capacity": 40,
+      "length": 68.99,
+      "up": true
+    },
+    {
+      "origin": "Xanthi",
+      "destination": "Ermoupolis",
+      "capacity": 40,
+      "length": 617.18,
+      "up": true
+    },
+    {
+      "origin": "Xanthi",
+      "destination": "Thessaloniki",
+      "capacity": 40,
+      "length": 258.43,
+      "up": true
+    },
+    {
+      "origin": "Xanthi",
+      "destination": "Kavala",
+      "capacity": 40,
+      "length": 68.99,
+      "up": true
+    },
+    {
+      "origin": "Xanthi",
+      "destination": "Komotini",
+      "capacity": 40,
+      "length": 65.41,
+      "up": true
+    },
+    {
+      "origin": "Komotini",
+      "destination": "Xanthi",
+      "capacity": 40,
+      "length": 65.41,
+      "up": true
+    },
+    {
+      "origin": "Komotini",
+      "destination": "Alexandroupoli",
+      "capacity": 40,
+      "length": 74.36,
+      "up": true
+    },
+    {
+      "origin": "Alexandroupoli",
+      "destination": "Komotini",
+      "capacity": 40,
+      "length": 74.36,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "EPOCH (real topology #26)",
+  "description": "Real-world topology EPOCH (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Palo Alto",
+      "lat": 37.44,
+      "lon": -122.14,
+      "x": -13596562.605490435,
+      "y": 4500615.863368779,
+      "up": true
+    },
+    {
+      "name": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "x": -13162416.591396667,
+      "y": 4035517.7820847426,
+      "up": true
+    },
+    {
+      "name": "Denver",
+      "lat": 39.74,
+      "lon": -104.98,
+      "x": -11686320.14347786,
+      "y": 4828231.409387337,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.85,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5138536.587247468,
+      "up": true
+    },
+    {
+      "name": "Vienna",
+      "lat": 38.9,
+      "lon": -77.27,
+      "x": -8601657.053596249,
+      "y": 4707357.536267922,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Palo Alto",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 773.43,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Denver",
+      "capacity": 40,
+      "length": 1888.45,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 4857.42,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 773.43,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 3887.29,
+      "up": true
+    },
+    {
+      "origin": "Denver",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 1888.45,
+      "up": true
+    },
+    {
+      "origin": "Denver",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1843.72,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Denver",
+      "capacity": 40,
+      "length": 1843.72,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 1406.59,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 4857.42,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1406.59,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1285.01,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 3887.29,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 1285.01,
+      "up": true
+    }
+  ]
+}

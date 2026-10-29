@@ -1,0 +1,55 @@
+# topology: JANOSUS (real topology #65) (data/topologies/real/top65_janosus.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Paradise,Hapeville,7
+1,Millbrae,Platte City,4
+2,Charlotte,Hamtramck,1
+3,New Hope,Inwood,1
+4,New Hope,Charlotte,2
+5,SeaTac,Hapeville,2
+6,Rosemont,El Segundo,8
+7,Fort Bliss,Aldine,7
+8,SeaTac,Oak Hill,3
+9,Charlotte,Owasso,6
+10,Inwood,Colonie,3
+11,Chelsea,Paradise,5
+12,"Washington, D.C.",Inwood,3
+13,Paradise,Cleveland,4
+14,Inwood,Rosemont,2
+15,Paradise,SeaTac,1
+16,Mooresville,Aurora,8
+17,Rosemont,Platte City,3
+18,Paradise,Chelsea,1
+19,SeaTac,Salt Lake City,3
+20,Fort Bliss,New Hope,3
+21,SeaTac,Belle Chasse,3
+22,Rosemont,Belle Chasse,1
+23,New Hope,Hazelwood,7
+24,University Park,Belle Chasse,6
+25,Fort Bliss,Paradise,7
+26,El Segundo,University Park,2
+27,Millbrae,Oak Hill,4
+28,University Park,"Washington, D.C.",1
+29,Miami Springs,SeaTac,3
+30,Owasso,Hamtramck,1
+31,New Hope,Rosemont,2
+32,Oak Hill,Charlotte,4
+33,Miami Springs,Chelsea,1
+34,Owasso,Miami Springs,4
+35,Hamtramck,Rosemont,6
+36,El Segundo,Colonie,1
+37,Rosemont,Chelsea,7
+38,Chelsea,El Segundo,2
+39,Salt Lake City,Oak Hill,6
+40,Rosemont,Charlotte,5
+41,Aurora,Hamtramck,5
+42,Miami Springs,Belle Chasse,4
+43,Aldine,Belle Chasse,1
+44,Hazelwood,Hamtramck,7
+45,Salt Lake City,Hapeville,3
+46,Inwood,Hamtramck,1
+47,Rosemont,Aldine,2
+48,Aurora,Oak Hill,2
+49,Charlotte,Mooresville,4
+50,Aurora,Owasso,7
+51,Miami Springs,El Segundo,7

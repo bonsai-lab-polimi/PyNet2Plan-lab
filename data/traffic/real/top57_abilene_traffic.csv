@@ -1,0 +1,25 @@
+# topology: ABILENE (real topology #57) (data/topologies/real/top57_abilene.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Atlanta,Manhattan,1
+1,Hedwig Village,Manhattan,7
+2,Chicago,Seattle,3
+3,Wellington,Seattle,5
+4,Los Angeles,Manhattan,2
+5,Sunnyvale,Indianapolis,2
+6,Chicago,Indianapolis,7
+7,Chicago,Manhattan,2
+8,Atlanta,Indianapolis,2
+9,Sunnyvale,Wellington,4
+10,Ogden,Seattle,7
+11,Wellington,Los Angeles,6
+12,Hedwig Village,Indianapolis,6
+13,Atlanta,"Washington, D.C.",3
+14,Indianapolis,Hedwig Village,5
+15,Ogden,Chicago,5
+16,Manhattan,Los Angeles,6
+17,Sunnyvale,Chicago,2
+18,Atlanta,Seattle,4
+19,Ogden,Wellington,3
+20,Wellington,Indianapolis,3
+21,Chicago,Atlanta,2

@@ -1,0 +1,238 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "JGN2PLUS (real topology #64)",
+  "description": "Real-world topology JGN2PLUS (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Mihara",
+      "lat": 34.5,
+      "lon": 133.0,
+      "x": 14805492.275505384,
+      "y": 4096139.0404472323,
+      "up": true
+    },
+    {
+      "name": "Kameoka",
+      "lat": 35.0,
+      "lon": 135.5,
+      "x": 15083791.002488568,
+      "y": 4163881.144064294,
+      "up": true
+    },
+    {
+      "name": "Aso",
+      "lat": 33.0,
+      "lon": 131.0,
+      "x": 14582853.293918837,
+      "y": 3895303.9633938945,
+      "up": true
+    },
+    {
+      "name": "Kochi-shi",
+      "lat": 33.75,
+      "lon": 133.5,
+      "x": 14861152.02090202,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "Shibetsu",
+      "lat": 43.66,
+      "lon": 145.13,
+      "x": 16155797.698827794,
+      "y": 5412976.277894228,
+      "up": true
+    },
+    {
+      "name": "Obu",
+      "lat": 35.03,
+      "lon": 136.9,
+      "x": 15239638.289599152,
+      "y": 4167958.7719500302,
+      "up": true
+    },
+    {
+      "name": "Nyuzen",
+      "lat": 37.0,
+      "lon": 137.5,
+      "x": 15306429.984075116,
+      "y": 4439106.787250583,
+      "up": true
+    },
+    {
+      "name": "Okinawa",
+      "lat": 26.34,
+      "lon": 127.8,
+      "x": 14226630.92338036,
+      "y": 3041252.7044292656,
+      "up": true
+    },
+    {
+      "name": "Sapporo",
+      "lat": 43.06,
+      "lon": 141.35,
+      "x": 15735010.023629216,
+      "y": 5321108.922448167,
+      "up": true
+    },
+    {
+      "name": "Sendai-shi",
+      "lat": 38.27,
+      "lon": 140.87,
+      "x": 15681576.668048449,
+      "y": 4617638.286128266,
+      "up": true
+    },
+    {
+      "name": "Chofugaoka",
+      "lat": 35.61,
+      "lon": 139.58,
+      "x": 15537974.524925128,
+      "y": 4247089.819740656,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Mihara",
+      "destination": "Kameoka",
+      "capacity": 40,
+      "length": 352.6,
+      "up": true
+    },
+    {
+      "origin": "Mihara",
+      "destination": "Aso",
+      "capacity": 40,
+      "length": 373.51,
+      "up": true
+    },
+    {
+      "origin": "Kameoka",
+      "destination": "Mihara",
+      "capacity": 40,
+      "length": 352.6,
+      "up": true
+    },
+    {
+      "origin": "Kameoka",
+      "destination": "Kochi-shi",
+      "capacity": 40,
+      "length": 345.35,
+      "up": true
+    },
+    {
+      "origin": "Kameoka",
+      "destination": "Obu",
+      "capacity": 40,
+      "length": 191.31,
+      "up": true
+    },
+    {
+      "origin": "Aso",
+      "destination": "Mihara",
+      "capacity": 40,
+      "length": 373.51,
+      "up": true
+    },
+    {
+      "origin": "Aso",
+      "destination": "Okinawa",
+      "capacity": 40,
+      "length": 1203.55,
+      "up": true
+    },
+    {
+      "origin": "Kochi-shi",
+      "destination": "Kameoka",
+      "capacity": 40,
+      "length": 345.35,
+      "up": true
+    },
+    {
+      "origin": "Shibetsu",
+      "destination": "Chofugaoka",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Obu",
+      "destination": "Kameoka",
+      "capacity": 40,
+      "length": 191.31,
+      "up": true
+    },
+    {
+      "origin": "Obu",
+      "destination": "Chofugaoka",
+      "capacity": 40,
+      "length": 377.32,
+      "up": true
+    },
+    {
+      "origin": "Nyuzen",
+      "destination": "Chofugaoka",
+      "capacity": 40,
+      "length": 363.18,
+      "up": true
+    },
+    {
+      "origin": "Okinawa",
+      "destination": "Aso",
+      "capacity": 40,
+      "length": 1203.55,
+      "up": true
+    },
+    {
+      "origin": "Sapporo",
+      "destination": "Sendai-shi",
+      "capacity": 40,
+      "length": 801.24,
+      "up": true
+    },
+    {
+      "origin": "Sendai-shi",
+      "destination": "Sapporo",
+      "capacity": 40,
+      "length": 801.24,
+      "up": true
+    },
+    {
+      "origin": "Sendai-shi",
+      "destination": "Chofugaoka",
+      "capacity": 40,
+      "length": 475.82,
+      "up": true
+    },
+    {
+      "origin": "Chofugaoka",
+      "destination": "Shibetsu",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Chofugaoka",
+      "destination": "Obu",
+      "capacity": 40,
+      "length": 377.32,
+      "up": true
+    },
+    {
+      "origin": "Chofugaoka",
+      "destination": "Nyuzen",
+      "capacity": 40,
+      "length": 363.18,
+      "up": true
+    },
+    {
+      "origin": "Chofugaoka",
+      "destination": "Sendai-shi",
+      "capacity": 40,
+      "length": 475.82,
+      "up": true
+    }
+  ]
+}

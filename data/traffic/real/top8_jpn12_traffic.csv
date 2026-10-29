@@ -1,0 +1,27 @@
+# topology: JPN12 (real topology #8) (data/topologies/real/top8_jpn12.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Sapporo,Hakata,4
+1,Hakata,Sendai,8
+2,Naha,Hakata,5
+3,Osaka,Sapporo,7
+4,Nagano,Tokyo,3
+5,Tokyo,Matsuyama,5
+6,Hakata,Kanazawa,6
+7,Nagano,Naha,5
+8,Kanazawa,Matsuyama,5
+9,Sapporo,Hiroshima,7
+10,Nagano,Matsuyama,8
+11,Hakata,Nagoya,1
+12,Hachioji,Hiroshima,6
+13,Matsuyama,Sendai,8
+14,Hakata,Hachioji,7
+15,Nagoya,Kanazawa,2
+16,Sapporo,Naha,3
+17,Matsuyama,Hakata,7
+18,Nagoya,Hakata,5
+19,Nagano,Nagoya,6
+20,Matsuyama,Nagano,1
+21,Matsuyama,Hachioji,5
+22,Hachioji,Sendai,4
+23,Matsuyama,Kanazawa,5

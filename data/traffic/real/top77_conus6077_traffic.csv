@@ -1,0 +1,63 @@
+# topology: CONUS6077 (real topology #77) (data/topologies/real/top77_conus6077.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"Wake County, North Carolina","Des Moines, Iowa",3
+1,"Billings, Montana","Arlington, Virginia",7
+2,"Fairview Park, Ohio","Buffalo, New York",4
+3,"Wichita, Kansas","Columbus, Ohio",7
+4,"Garden, Ohio","Des Moines, Iowa",2
+5,"Goleta, California","Etowah, West Virginia",1
+6,"St. Louis, Missouri","Phoenix, Arizona",5
+7,"Leon County, Florida","Henrico County, Virginia",8
+8,"Phoenix, Arizona","Oakland, California",5
+9,"Henrico County, Virginia","Oklahoma City, Oklahoma",1
+10,"San Francisco, California","Buffalo, New York",2
+11,"Eugene, Oregon","Moon Township, Pennsylvania",8
+12,"Miami Springs, Florida","Orlando, Florida",8
+13,"Chicago, Illinois","Garden, Ohio",8
+14,"Miami Springs, Florida","El Paso, Texas",3
+15,"Moon Township, Pennsylvania","Wake County, North Carolina",7
+16,"Billings, Montana","Chicago, Illinois",1
+17,"Miami Springs, Florida","Glen Burnie, Maryland",4
+18,"Columbus, Ohio","St. Louis, Missouri",4
+19,"Jacksonville, Florida","Etowah, West Virginia",7
+20,"Salt Lake City, Utah","Atlanta, Georgia",3
+21,"Town of Colonie, New York","Boone County, Kentucky",5
+22,"Des Moines, Iowa","Columbus, Ohio",1
+23,"Sacramento, California","SeaTac, Washington",2
+24,"Wake County, North Carolina","Aurora, Colorado",3
+25,"Town of Colonie, New York","Riverside, California",2
+26,"San Diego, California","San Francisco, California",4
+27,"Billings, Montana","SeaTac, Washington",2
+28,"Phoenix, Arizona","El Segundo, California",7
+29,"Leon County, Florida","Jacksonville, Arkansas",2
+30,"San Diego, California","SeaTac, Washington",1
+31,"Fairview Park, Ohio","Phoenix, Arizona",8
+32,"St. Louis, Missouri","Jacksonville, Arkansas",5
+33,"Wayne County, Michigan","Chicago, Illinois",4
+34,"Wayne County, Michigan","Aurora, Colorado",3
+35,"Columbus, Ohio","Birmingham, Alabama",3
+36,"Billings, Montana","San Francisco, California",2
+37,"Wake County, North Carolina","El Segundo, California",6
+38,"Houston, Texas","Eugene, Oregon",8
+39,"Henrico County, Virginia","Aurora, Colorado",6
+40,"Fairview Park, Ohio","Garden, Ohio",6
+41,"Fairview Park, Ohio","St. Louis, Missouri",4
+42,"Birmingham, Alabama","Arlington, Virginia",6
+43,"Wake County, North Carolina","St. Louis, Missouri",7
+44,"Birmingham, Alabama","Etowah, West Virginia",2
+45,"Arlington, Virginia","Portland, Oregon",3
+46,"Nashville-Davidson, Tennessee","New York, New York",6
+47,"Tampa, Florida","Jacksonville, Florida",5
+48,"New York, New York","Baton Rouge, Louisiana",4
+49,"Aurora, Colorado","Baton Rouge, Louisiana",5
+50,"Jacksonville, Florida","Aurora, Colorado",5
+51,"Albuquerque, New Mexico","Phoenix, Arizona",4
+52,"Miami Springs, Florida","Spokane Valley, Washington",1
+53,"Oakland, California","El Segundo, California",6
+54,"SeaTac, Washington","Atlanta, Georgia",3
+55,"Spokane Valley, Washington","Nashville-Davidson, Tennessee",4
+56,"Moon Township, Pennsylvania","Jacksonville, Florida",7
+57,"Baton Rouge, Louisiana","Glen Burnie, Maryland",5
+58,"Newark, New Jersey","Wichita, Kansas",7
+59,"Jacksonville, Arkansas","Spokane Valley, Washington",5

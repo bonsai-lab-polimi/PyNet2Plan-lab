@@ -1,0 +1,59 @@
+# topology: NOBELEU (real topology #108) (data/topologies/real/top108_nobeleu.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Hochheim am Main,Ludwigsfelde,1
+1,Giovenzano,La Louviere,3
+2,Stroby Egede,Bieniewice,8
+3,La Louviere,Marxen,3
+4,Viladecans,Stroby Egede,8
+5,Huddinge,Bieniewice,1
+6,Sassenheim,Bieniewice,3
+7,Giovenzano,Epfig,1
+8,La Louviere,Szigethalom,2
+9,Giovenzano,Muirkirk,8
+10,Hochheim am Main,Whyteleafe,1
+11,Gauting,Marxen,8
+12,Etrechy,Muirkirk,7
+13,Stepojevac,Enniskerry,2
+14,Saint-Jean-Bonnefonds,Bieniewice,2
+15,Huddinge,Ludwigsfelde,5
+16,Rudna,Gauting,7
+17,Bieniewice,Hohenrain,1
+18,Hochheim am Main,Morata de Tajuna,2
+19,Noaillan,Viladecans,6
+20,Hohenrain,Stepojevac,4
+21,Huddinge,Karlovac,3
+22,Szigethalom,Etrechy,1
+23,Hohenrain,Berger,7
+24,Etrechy,Epfig,3
+25,Saint-Jean-Bonnefonds,Hohenrain,3
+26,Karlovac,Morata de Tajuna,5
+27,Sassenheim,Morata de Tajuna,2
+28,Kaltenleutgeben,Viladecans,7
+29,Saint-Jean-Bonnefonds,Karlovac,8
+30,Marxen,Stepojevac,8
+31,Sassenheim,Hochheim am Main,7
+32,Kaltenleutgeben,Enniskerry,4
+33,Epfig,Rudna,7
+34,Whyteleafe,Morata de Tajuna,5
+35,La Louviere,Ludwigsfelde,1
+36,Berger,Stroby Egede,5
+37,Poros,Muirkirk,6
+38,Rudna,Saint-Jean-Bonnefonds,3
+39,Marxen,Enniskerry,5
+40,Karlovac,Saint-Jean-Bonnefonds,5
+41,Hochheim am Main,La Louviere,4
+42,Berger,Epfig,8
+43,Rudna,Etrechy,7
+44,Bieniewice,Gauting,4
+45,Saint-Jean-Bonnefonds,Marxen,6
+46,Huddinge,Poros,8
+47,Karlovac,Szigethalom,1
+48,Viladecans,Rudna,8
+49,Hohenrain,Bieniewice,3
+50,Ludwigsfelde,Noaillan,2
+51,Etrechy,Kaltenleutgeben,6
+52,Torvaianica,Whyteleafe,2
+53,Poros,Berger,5
+54,Torvaianica,Berger,4
+55,Kaltenleutgeben,Epfig,5

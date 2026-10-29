@@ -1,0 +1,258 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "RNPBRAZIL (real topology #94)",
+  "description": "Real-world topology RNPBRAZIL (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Fortaleza",
+      "lat": -3.7275,
+      "lon": -38.5275,
+      "x": -4288861.681537848,
+      "y": -415236.4153475187,
+      "up": true
+    },
+    {
+      "name": "Recife",
+      "lat": -8.0539,
+      "lon": -34.8808,
+      "x": -3882912.894462017,
+      "y": -899523.2396553896,
+      "up": true
+    },
+    {
+      "name": "Salvador, Bahia",
+      "lat": -12.9831,
+      "lon": -38.4928,
+      "x": -4284998.895207321,
+      "y": -1457801.5522934226,
+      "up": true
+    },
+    {
+      "name": "Belo Horizonte",
+      "lat": -19.9281,
+      "lon": -43.9419,
+      "x": -4891589.932488947,
+      "y": -2264515.3273013257,
+      "up": true
+    },
+    {
+      "name": "Rio de Janeiro",
+      "lat": -22.9111,
+      "lon": -43.2056,
+      "x": -4809625.39141786,
+      "y": -2621271.220916463,
+      "up": true
+    },
+    {
+      "name": "São Paulo",
+      "lat": -23.5504,
+      "lon": -46.6339,
+      "x": -5191262.0017044395,
+      "y": -2698717.3127654917,
+      "up": true
+    },
+    {
+      "name": "Brasília",
+      "lat": -15.7939,
+      "lon": -47.8828,
+      "x": -5330288.91375616,
+      "y": -1780867.4807053881,
+      "up": true
+    },
+    {
+      "name": "Curitiba",
+      "lat": -25.4297,
+      "lon": -49.2719,
+      "x": -5484922.8184170965,
+      "y": -2928616.5882498343,
+      "up": true
+    },
+    {
+      "name": "Florianópolis",
+      "lat": -27.5933,
+      "lon": -48.553,
+      "x": -5404895.236485812,
+      "y": -3197794.3153951894,
+      "up": true
+    },
+    {
+      "name": "Porto Alegre",
+      "lat": -30.0328,
+      "lon": -51.23,
+      "x": -5702897.513339405,
+      "y": -3507766.6748063606,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Fortaleza",
+      "destination": "Recife",
+      "capacity": 40,
+      "length": 941.6,
+      "up": true
+    },
+    {
+      "origin": "Fortaleza",
+      "destination": "Belo Horizonte",
+      "capacity": 40,
+      "length": 2368.33,
+      "up": true
+    },
+    {
+      "origin": "Recife",
+      "destination": "Salvador, Bahia",
+      "capacity": 40,
+      "length": 1013.19,
+      "up": true
+    },
+    {
+      "origin": "Recife",
+      "destination": "Fortaleza",
+      "capacity": 40,
+      "length": 941.6,
+      "up": true
+    },
+    {
+      "origin": "Salvador, Bahia",
+      "destination": "Rio de Janeiro",
+      "capacity": 40,
+      "length": 1513.69,
+      "up": true
+    },
+    {
+      "origin": "Salvador, Bahia",
+      "destination": "Recife",
+      "capacity": 40,
+      "length": 1013.19,
+      "up": true
+    },
+    {
+      "origin": "Belo Horizonte",
+      "destination": "Brasília",
+      "capacity": 40,
+      "length": 930.95,
+      "up": true
+    },
+    {
+      "origin": "Belo Horizonte",
+      "destination": "Rio de Janeiro",
+      "capacity": 40,
+      "length": 510.5,
+      "up": true
+    },
+    {
+      "origin": "Belo Horizonte",
+      "destination": "Fortaleza",
+      "capacity": 40,
+      "length": 2368.33,
+      "up": true
+    },
+    {
+      "origin": "Rio de Janeiro",
+      "destination": "São Paulo",
+      "capacity": 40,
+      "length": 536.15,
+      "up": true
+    },
+    {
+      "origin": "Rio de Janeiro",
+      "destination": "Belo Horizonte",
+      "capacity": 40,
+      "length": 510.5,
+      "up": true
+    },
+    {
+      "origin": "Rio de Janeiro",
+      "destination": "Salvador, Bahia",
+      "capacity": 40,
+      "length": 1513.69,
+      "up": true
+    },
+    {
+      "origin": "São Paulo",
+      "destination": "Curitiba",
+      "capacity": 40,
+      "length": 508.48,
+      "up": true
+    },
+    {
+      "origin": "São Paulo",
+      "destination": "Brasília",
+      "capacity": 40,
+      "length": 1308.48,
+      "up": true
+    },
+    {
+      "origin": "São Paulo",
+      "destination": "Rio de Janeiro",
+      "capacity": 40,
+      "length": 536.15,
+      "up": true
+    },
+    {
+      "origin": "Brasília",
+      "destination": "Porto Alegre",
+      "capacity": 40,
+      "length": 2024.62,
+      "up": true
+    },
+    {
+      "origin": "Brasília",
+      "destination": "São Paulo",
+      "capacity": 40,
+      "length": 1308.48,
+      "up": true
+    },
+    {
+      "origin": "Brasília",
+      "destination": "Belo Horizonte",
+      "capacity": 40,
+      "length": 930.95,
+      "up": true
+    },
+    {
+      "origin": "Curitiba",
+      "destination": "Florianópolis",
+      "capacity": 40,
+      "length": 376.48,
+      "up": true
+    },
+    {
+      "origin": "Curitiba",
+      "destination": "São Paulo",
+      "capacity": 40,
+      "length": 508.48,
+      "up": true
+    },
+    {
+      "origin": "Florianópolis",
+      "destination": "Porto Alegre",
+      "capacity": 40,
+      "length": 564.42,
+      "up": true
+    },
+    {
+      "origin": "Florianópolis",
+      "destination": "Curitiba",
+      "capacity": 40,
+      "length": 376.48,
+      "up": true
+    },
+    {
+      "origin": "Porto Alegre",
+      "destination": "Brasília",
+      "capacity": 40,
+      "length": 2024.62,
+      "up": true
+    },
+    {
+      "origin": "Porto Alegre",
+      "destination": "Florianópolis",
+      "capacity": 40,
+      "length": 564.42,
+      "up": true
+    }
+  ]
+}

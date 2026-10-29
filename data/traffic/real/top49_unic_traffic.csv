@@ -1,0 +1,33 @@
+# topology: UNIC (real topology #49) (data/topologies/real/top49_unic.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Odense,Kongens Lyngby,2
+1,Nyborg,Kongens Lyngby,3
+2,Herning,Aalborg,4
+3,Hobro,Silkeborg,1
+4,Herning,Slagelse,6
+5,Farso,Odense,7
+6,Vejle,Silkeborg,3
+7,Tarnby,Odense,1
+8,Nyborg,Herning,2
+9,Aalborg,Nyborg,7
+10,Tarnby,Fuglebjerg,8
+11,Nyborg,Vejle,7
+12,Nyborg,Hobro,3
+13,Farso,Fuglebjerg,2
+14,Fuglebjerg,Holbaek,8
+15,Aalborg,Herning,4
+16,Tarnby,Herning,7
+17,Silkeborg,Arhus,6
+18,Silkeborg,Vejle,3
+19,Slagelse,Fuglebjerg,6
+20,Nyborg,Silkeborg,2
+21,Odense,Herning,6
+22,Aalborg,Silkeborg,4
+23,Fuglebjerg,Silkeborg,3
+24,Slagelse,Aalborg,1
+25,Kolding,Silkeborg,5
+26,Slagelse,Arhus,3
+27,Slagelse,Vejle,1
+28,Hobro,Farso,3
+29,Farso,Silkeborg,1

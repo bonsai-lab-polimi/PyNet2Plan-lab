@@ -1,0 +1,354 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "HIBERNIANIRELAND (real topology #33)",
+  "description": "Real-world topology HIBERNIANIRELAND (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Drogheda",
+      "lat": 53.72,
+      "lon": -6.35,
+      "x": -706878.766537287,
+      "y": 7117304.983205458,
+      "up": true
+    },
+    {
+      "name": "Southport",
+      "lat": 53.65,
+      "lon": -3.01,
+      "x": -335071.66728775343,
+      "y": 7104147.183689982,
+      "up": true
+    },
+    {
+      "name": "Portadown",
+      "lat": 54.41,
+      "lon": -6.45,
+      "x": -718010.7156166146,
+      "y": 7248190.976656152,
+      "up": true
+    },
+    {
+      "name": "Castleblayney",
+      "lat": 54.12,
+      "lon": -6.73,
+      "x": -749180.1730387312,
+      "y": 7192915.694112974,
+      "up": true
+    },
+    {
+      "name": "Monaghan",
+      "lat": 54.25,
+      "lon": -6.97,
+      "x": -775896.8508291168,
+      "y": 7217646.198160249,
+      "up": true
+    },
+    {
+      "name": "Dundalk",
+      "lat": 54.0,
+      "lon": -6.42,
+      "x": -714671.1308928163,
+      "y": 7170156.2939999495,
+      "up": true
+    },
+    {
+      "name": "Rathmines",
+      "lat": 53.34,
+      "lon": -6.27,
+      "x": -697973.2072738252,
+      "y": 7046138.026164116,
+      "up": true
+    },
+    {
+      "name": "Armagh",
+      "lat": 54.35,
+      "lon": -6.67,
+      "x": -742501.0035911347,
+      "y": 7236722.753077583,
+      "up": true
+    },
+    {
+      "name": "Ballymena",
+      "lat": 54.86,
+      "lon": -6.28,
+      "x": -699086.4021817581,
+      "y": 7334742.239333946,
+      "up": true
+    },
+    {
+      "name": "Belfast",
+      "lat": 54.58,
+      "lon": -5.93,
+      "x": -660124.5804041122,
+      "y": 7280775.678628011,
+      "up": true
+    },
+    {
+      "name": "Omagh",
+      "lat": 54.6,
+      "lon": -7.3,
+      "x": -812632.2827908972,
+      "y": 7284618.101554008,
+      "up": true
+    },
+    {
+      "name": "Strabane",
+      "lat": 54.82,
+      "lon": -7.47,
+      "x": -831556.5962257535,
+      "y": 7327009.861787303,
+      "up": true
+    },
+    {
+      "name": "Letterkenny",
+      "lat": 54.95,
+      "lon": -7.73,
+      "x": -860499.6638320048,
+      "y": 7352168.173333723,
+      "up": true
+    },
+    {
+      "name": "Derry",
+      "lat": 55.0,
+      "lon": -7.31,
+      "x": -813745.4776988298,
+      "y": 7361866.113051185,
+      "up": true
+    },
+    {
+      "name": "Coleraine",
+      "lat": 55.13,
+      "lon": -6.67,
+      "x": -742501.0035911347,
+      "y": 7387137.4503156915,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Drogheda",
+      "destination": "Dundalk",
+      "capacity": 40,
+      "length": 47.21,
+      "up": true
+    },
+    {
+      "origin": "Drogheda",
+      "destination": "Rathmines",
+      "capacity": 40,
+      "length": 63.88,
+      "up": true
+    },
+    {
+      "origin": "Southport",
+      "destination": "Rathmines",
+      "capacity": 40,
+      "length": 327.55,
+      "up": true
+    },
+    {
+      "origin": "Portadown",
+      "destination": "Belfast",
+      "capacity": 40,
+      "length": 57.8,
+      "up": true
+    },
+    {
+      "origin": "Portadown",
+      "destination": "Armagh",
+      "capacity": 40,
+      "length": 23.6,
+      "up": true
+    },
+    {
+      "origin": "Castleblayney",
+      "destination": "Monaghan",
+      "capacity": 40,
+      "length": 31.92,
+      "up": true
+    },
+    {
+      "origin": "Castleblayney",
+      "destination": "Dundalk",
+      "capacity": 40,
+      "length": 36.35,
+      "up": true
+    },
+    {
+      "origin": "Monaghan",
+      "destination": "Castleblayney",
+      "capacity": 40,
+      "length": 31.92,
+      "up": true
+    },
+    {
+      "origin": "Monaghan",
+      "destination": "Armagh",
+      "capacity": 40,
+      "length": 33.63,
+      "up": true
+    },
+    {
+      "origin": "Dundalk",
+      "destination": "Drogheda",
+      "capacity": 40,
+      "length": 47.21,
+      "up": true
+    },
+    {
+      "origin": "Dundalk",
+      "destination": "Castleblayney",
+      "capacity": 40,
+      "length": 36.35,
+      "up": true
+    },
+    {
+      "origin": "Rathmines",
+      "destination": "Drogheda",
+      "capacity": 40,
+      "length": 63.88,
+      "up": true
+    },
+    {
+      "origin": "Rathmines",
+      "destination": "Southport",
+      "capacity": 40,
+      "length": 327.55,
+      "up": true
+    },
+    {
+      "origin": "Armagh",
+      "destination": "Portadown",
+      "capacity": 40,
+      "length": 23.6,
+      "up": true
+    },
+    {
+      "origin": "Armagh",
+      "destination": "Monaghan",
+      "capacity": 40,
+      "length": 33.63,
+      "up": true
+    },
+    {
+      "origin": "Armagh",
+      "destination": "Omagh",
+      "capacity": 40,
+      "length": 73.94,
+      "up": true
+    },
+    {
+      "origin": "Ballymena",
+      "destination": "Belfast",
+      "capacity": 40,
+      "length": 57.6,
+      "up": true
+    },
+    {
+      "origin": "Ballymena",
+      "destination": "Coleraine",
+      "capacity": 40,
+      "length": 58.48,
+      "up": true
+    },
+    {
+      "origin": "Belfast",
+      "destination": "Portadown",
+      "capacity": 40,
+      "length": 57.8,
+      "up": true
+    },
+    {
+      "origin": "Belfast",
+      "destination": "Ballymena",
+      "capacity": 40,
+      "length": 57.6,
+      "up": true
+    },
+    {
+      "origin": "Omagh",
+      "destination": "Armagh",
+      "capacity": 40,
+      "length": 73.94,
+      "up": true
+    },
+    {
+      "origin": "Omagh",
+      "destination": "Strabane",
+      "capacity": 40,
+      "length": 40.18,
+      "up": true
+    },
+    {
+      "origin": "Strabane",
+      "destination": "Omagh",
+      "capacity": 40,
+      "length": 40.18,
+      "up": true
+    },
+    {
+      "origin": "Strabane",
+      "destination": "Derry",
+      "capacity": 40,
+      "length": 33.72,
+      "up": true
+    },
+    {
+      "origin": "Strabane",
+      "destination": "Letterkenny",
+      "capacity": 40,
+      "length": 33.05,
+      "up": true
+    },
+    {
+      "origin": "Letterkenny",
+      "destination": "Strabane",
+      "capacity": 40,
+      "length": 33.05,
+      "up": true
+    },
+    {
+      "origin": "Letterkenny",
+      "destination": "Derry",
+      "capacity": 40,
+      "length": 41.06,
+      "up": true
+    },
+    {
+      "origin": "Derry",
+      "destination": "Strabane",
+      "capacity": 40,
+      "length": 33.72,
+      "up": true
+    },
+    {
+      "origin": "Derry",
+      "destination": "Letterkenny",
+      "capacity": 40,
+      "length": 41.06,
+      "up": true
+    },
+    {
+      "origin": "Derry",
+      "destination": "Coleraine",
+      "capacity": 40,
+      "length": 64.86,
+      "up": true
+    },
+    {
+      "origin": "Coleraine",
+      "destination": "Ballymena",
+      "capacity": 40,
+      "length": 58.48,
+      "up": true
+    },
+    {
+      "origin": "Coleraine",
+      "destination": "Derry",
+      "capacity": 40,
+      "length": 64.86,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+# topology: GTSCZECHREPUBLIC (real topology #24) (data/topologies/real/top24_gtsczechrepublic.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Pilsen,Zlin,5
+1,Liberec,Opava,7
+2,Havlickuv Brod,Klatovy,3
+3,Hodonin,Prague,1
+4,Kolin,Jemnice,6
+5,Prostejov,Chomutov,8
+6,Kladno,Semily,2
+7,Havlickuv Brod,Tabor,3
+8,Usti nad Labem,Chomutov,3
+9,Hodonin,Beroun,6
+10,Mlada Boleslav,Karlovy Vary,8
+11,Opava,Olomouc,2
+12,Karlovy Vary,Havlickuv Brod,3
+13,Mlada Boleslav,Klatovy,1
+14,Kolin,Usti nad Labem,1
+15,Semily,Brno,7
+16,Zlin,Havlickuv Brod,2
+17,Kolin,Klatovy,5
+18,Prague,Jemnice,4
+19,Klatovy,Tabor,7
+20,Opava,Karlovy Vary,4
+21,Jindrichuv Hradec,Tabor,6
+22,Zlin,Prostejov,8
+23,Tabor,Jindrichuv Hradec,7
+24,Ceska Trebova,Karlovy Vary,7
+25,Opava,Kolin,5
+26,Tabor,Semily,4
+27,Ceska Trebova,Opava,3
+28,Prague,Chomutov,7
+29,Opava,Jindrichuv Hradec,5
+30,Pilsen,Prague,3
+31,Ceska Trebova,Mlada Boleslav,6
+32,Mlada Boleslav,Prostejov,4
+33,Opava,Pilsen,5
+34,Mlada Boleslav,Ceska Trebova,2
+35,Semily,Kladno,7
+36,Prague,Olomouc,6
+37,Olomouc,Prague,2
+38,Usti nad Labem,Karlovy Vary,2
+39,Zlin,Ceske Budejovice,2
+40,Havlickuv Brod,Zlin,2
+41,Ceske Budejovice,Olomouc,2
+42,Brno,Olomouc,7
+43,Semily,Klatovy,8
+44,Klatovy,Pilsen,5
+45,Mlada Boleslav,Jindrichuv Hradec,2
+46,Prague,Semily,3
+47,Kolin,Kladno,1
+48,Kolin,Olomouc,4
+49,Havlickuv Brod,Jindrichuv Hradec,6
+50,Usti nad Labem,Ceska Trebova,7
+51,Havlickuv Brod,Kladno,2

@@ -1,0 +1,58 @@
+\documentclass[border=2pt]{standalone}
+% Computer Modern, the font of the handouts (pdflatex)
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{arrows.meta,calc}
+\definecolor{cA}{HTML}{2A78D6}
+\definecolor{cB}{HTML}{EB6834}
+\definecolor{cC}{HTML}{1BAF7A}
+\definecolor{cD}{HTML}{EDA100}
+\definecolor{cE}{HTML}{E87BA4}
+\definecolor{nodeblue}{HTML}{1565C0}
+\definecolor{linkgray}{HTML}{546E7A}
+\definecolor{lightgray}{HTML}{CFD8DC}
+\definecolor{txt}{HTML}{263238}
+\definecolor{band}{HTML}{EEEEEE}
+\definecolor{uUnused}{HTML}{BDBDBD}
+\definecolor{uLow}{HTML}{2E7D32}
+\definecolor{uMid}{HTML}{F9A825}
+\definecolor{uHigh}{HTML}{EF6C00}
+\definecolor{uFull}{HTML}{C62828}
+\definecolor{uOver}{HTML}{7B1FA2}
+\tikzset{
+  nd/.style={circle, fill=nodeblue, draw=white, line width=0.7pt, minimum size=#1, inner sep=0pt},
+  nd/.default=3.2mm,
+  nlab/.style={font=\footnotesize\bfseries, text=txt, inner sep=1pt},
+  lbl/.style={font=\scriptsize, text=txt, fill=white, fill opacity=0.85, text opacity=1, inner sep=0.7pt},
+  arr/.style={-{Stealth[length=1.9mm, width=1.5mm]}},
+}
+\pgfplotsset{
+  lab/.style={
+    scale only axis, axis lines*=left, grid=major, grid style={black!12},
+    tick label style={font=\small}, label style={font=\normalsize},
+    ylabel style={align=center},
+    legend style={draw=none, fill=none, font=\small},
+    legend cell align=left, tick align=outside, axis line style={black!60},
+    every axis plot/.append style={line width=1.1pt},
+  },
+  % the series differ in color, marker and line style (readable in black and white);
+  % the second series has hollow markers, visible where the two curves overlap
+  s1/.style={cA, solid, mark=*, mark size=1.7pt},
+  s2/.style={cB, densely dashed, mark=square*, mark size=1.6pt, mark options={solid, fill=white}},
+  s3/.style={cC, dashdotted, mark=diamond*, mark size=2.1pt, mark options={solid}},
+  s4/.style={cD, densely dotted, mark=triangle*, mark size=2.1pt, mark options={solid, fill=white}},
+  s5/.style={cE, dashed, mark=triangle*, mark size=2.1pt, mark options={solid, rotate=180}},
+  ebars/.style={error bars/.cd, y dir=both, y explicit,
+    error bar style={solid, line width=0.9pt}, error mark options={solid, rotate=90, mark size=2.2pt}},
+}
+\begin{document}
+\begin{tikzpicture}\begin{axis}[lab, width=128mm, height=42mm, xmin=29, xmax=61, ymin=-0.3, ymax=4.6, ytick distance=1, xlabel={capacity of every link, $C$ (wavelengths)}, ylabel={number of\\demands or links}, legend pos=north east]
+\fill[band] ({axis cs:29.5,0}|-{rel axis cs:0,0}) rectangle ({axis cs:33.5,0}|-{rel axis cs:0,1});
+\addplot[s1] coordinates {(34,2) (35,2) (36,2) (37,2) (38,2) (39,2) (40,2) (41,2) (42,2) (43,2) (44,2) (45,2) (46,2) (47,2) (48,2) (49,2) (50,1) (51,1) (52,1) (53,1) (54,1) (55,1) (56,1) (57,0) (58,0) (59,0) (60,0)};
+\addlegendentry{split demands}
+\addplot[s2] coordinates {(34,4) (35,2) (36,2) (37,2) (38,2) (39,3) (40,2) (41,2) (42,2) (43,2) (44,2) (45,2) (46,2) (47,2) (48,2) (49,2) (50,2) (51,1) (52,1) (53,1) (54,1) (55,1) (56,1) (57,1) (58,0) (59,0) (60,0)};
+\addlegendentry{full links}
+\end{axis}\end{tikzpicture}
+\end{document}

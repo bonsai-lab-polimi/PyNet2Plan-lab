@@ -1,0 +1,59 @@
+# topology: DARKSTRAND (real topology #106) (data/topologies/real/top106_darkstrand.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Albuquerque,El Paso,6
+1,Syracuse,New York City,7
+2,Chicago,Dallas,6
+3,Tulsa,Chicago,7
+4,Sunnyvale,Chicago,6
+5,Denver,Atlanta,1
+6,Syracuse,Salt Lake City,1
+7,Phoenix,Syracuse,3
+8,Cleveland,Seattle,8
+9,Houston,Tulsa,5
+10,"Washington, D.C.",Albuquerque,8
+11,San Antonio,Pensacola,4
+12,Raleigh,Denver,1
+13,Portland,Tulsa,7
+14,Phoenix,Seattle,1
+15,Sunnyvale,Houston,7
+16,El Paso,Raton,8
+17,Tulsa,Albuquerque,2
+18,Philadelphia,Atlanta,8
+19,Atlanta,Salt Lake City,3
+20,Albuquerque,Chicago,8
+21,Sunnyvale,Syracuse,3
+22,Boise,Kansas City,1
+23,Albuquerque,Philadelphia,3
+24,Pittsburgh,San Antonio,8
+25,Salt Lake City,Dallas,7
+26,Cleveland,Pittsburgh,8
+27,Atlanta,Syracuse,4
+28,Seattle,Chicago,4
+29,"Washington, D.C.",Cleveland,2
+30,Kansas City,Tulsa,6
+31,Cleveland,Los Angeles,6
+32,New York City,Cleveland,4
+33,Houston,Pittsburgh,4
+34,Tulsa,Seattle,4
+35,Atlanta,Albuquerque,3
+36,Albuquerque,Phoenix,6
+37,Atlanta,Dallas,2
+38,Baton Rouge,Seattle,4
+39,Cleveland,Raleigh,1
+40,Dallas,Pensacola,6
+41,Chicago,Cleveland,7
+42,Raleigh,Boise,4
+43,El Paso,Pittsburgh,7
+44,Raleigh,Chicago,7
+45,Dallas,Philadelphia,7
+46,El Paso,Tulsa,4
+47,"Washington, D.C.",Pensacola,5
+48,Philadelphia,Pensacola,8
+49,Cleveland,San Antonio,5
+50,Pittsburgh,Dallas,8
+51,Tulsa,Boise,3
+52,Pittsburgh,Seattle,6
+53,Salt Lake City,New York City,1
+54,Boise,Denver,4
+55,Kansas City,El Paso,3

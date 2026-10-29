@@ -1,0 +1,848 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "METRONA (real topology #83)",
+  "description": "Real-world topology METRONA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Plymouth",
+      "lat": 50.3714122,
+      "lon": -4.1424451,
+      "x": -461134.8791710912,
+      "y": 6510848.089515585,
+      "up": true
+    },
+    {
+      "name": "Exmouth",
+      "lat": 50.6190962,
+      "lon": -3.4146801,
+      "x": -380120.44995392446,
+      "y": 6554190.826966631,
+      "up": true
+    },
+    {
+      "name": "Taunton",
+      "lat": 51.0147895,
+      "lon": -3.1029086,
+      "x": -345414.2053300694,
+      "y": 6623910.231122946,
+      "up": true
+    },
+    {
+      "name": "Bristol",
+      "lat": 51.4538022,
+      "lon": -2.5972985,
+      "x": -289129.9464581332,
+      "y": 6701962.070298673,
+      "up": true
+    },
+    {
+      "name": "Southampton",
+      "lat": 50.9025349,
+      "lon": -1.404189,
+      "x": -156313.60445751602,
+      "y": 6604071.349628804,
+      "up": true
+    },
+    {
+      "name": "Brighton",
+      "lat": 50.8214626,
+      "lon": -0.1400561,
+      "x": -15590.9737344918,
+      "y": 6589773.08007451,
+      "up": true
+    },
+    {
+      "name": "Swansea",
+      "lat": 51.6195955,
+      "lon": -3.9459248,
+      "x": -439258.3394445498,
+      "y": 6731633.549147258,
+      "up": true
+    },
+    {
+      "name": "Cardiff",
+      "lat": 51.4816546,
+      "lon": -3.1791934,
+      "x": -353906.1904213361,
+      "y": 6706939.17687504,
+      "up": true
+    },
+    {
+      "name": "Reading",
+      "lat": 51.4564242,
+      "lon": -0.9700664,
+      "x": -107987.29768366403,
+      "y": 6702430.481141782,
+      "up": true
+    },
+    {
+      "name": "Colchester",
+      "lat": 51.8896903,
+      "lon": 0.8994651,
+      "x": 100127.99691832089,
+      "y": 6780204.568335236,
+      "up": true
+    },
+    {
+      "name": "Norwich",
+      "lat": 52.6285576,
+      "lon": 1.2923954,
+      "x": 143868.7978315691,
+      "y": 6914584.514683608,
+      "up": true
+    },
+    {
+      "name": "London",
+      "lat": 51.5074456,
+      "lon": -0.1277653,
+      "x": -14222.768137049836,
+      "y": 6711550.631212277,
+      "up": true
+    },
+    {
+      "name": "Bedford",
+      "lat": 52.1386636948156,
+      "lon": -0.463515128822325,
+      "x": -51598.26811547982,
+      "y": 6825236.566002601,
+      "up": true
+    },
+    {
+      "name": "Northampton",
+      "lat": 52.23433665,
+      "lon": -0.902807276818582,
+      "x": -100500.04633990652,
+      "y": 6842607.937637001,
+      "up": true
+    },
+    {
+      "name": "Peterborough",
+      "lat": 52.5725769,
+      "lon": -0.2427336,
+      "x": -27020.98075041815,
+      "y": 6904324.269866688,
+      "up": true
+    },
+    {
+      "name": "Coventry",
+      "lat": 52.4081812,
+      "lon": -1.510477,
+      "x": -168145.5304949515,
+      "y": 6874269.031977634,
+      "up": true
+    },
+    {
+      "name": "Lutterworth",
+      "lat": 52.4552224,
+      "lon": -1.1997815,
+      "x": -133559.06564318997,
+      "y": 6882857.756865355,
+      "up": true
+    },
+    {
+      "name": "Leicester",
+      "lat": 52.6362,
+      "lon": -1.1331969,
+      "x": -126146.90187651613,
+      "y": 6915986.245618995,
+      "up": true
+    },
+    {
+      "name": "Sheffield",
+      "lat": 53.3806626,
+      "lon": -1.4702278,
+      "x": -163665.01004611485,
+      "y": 7053722.958803029,
+      "up": true
+    },
+    {
+      "name": "Birmingham",
+      "lat": 52.4796992,
+      "lon": -1.9026911,
+      "x": -211806.60438889352,
+      "y": 6887330.330451564,
+      "up": true
+    },
+    {
+      "name": "Worcester",
+      "lat": 52.1911849,
+      "lon": -2.2206585,
+      "x": -247202.57344575468,
+      "y": 6834768.231663824,
+      "up": true
+    },
+    {
+      "name": "Stoke-on-Trent",
+      "lat": 53.0162014,
+      "lon": -2.1812607,
+      "x": -242816.8304113795,
+      "y": 6985995.3033414055,
+      "up": true
+    },
+    {
+      "name": "Manchester",
+      "lat": 53.4794892,
+      "lon": -2.2451148,
+      "x": -249925.03630844224,
+      "y": 7072187.663046756,
+      "up": true
+    },
+    {
+      "name": "Liverpool",
+      "lat": 53.4071991,
+      "lon": -2.99168,
+      "x": -333032.2942164207,
+      "y": 7058676.808694047,
+      "up": true
+    },
+    {
+      "name": "Preston",
+      "lat": 53.7593363,
+      "lon": -2.6992717,
+      "x": -300481.5511566939,
+      "y": 7124708.5842264835,
+      "up": true
+    },
+    {
+      "name": "Bradford",
+      "lat": 53.7944229,
+      "lon": -1.7519186,
+      "x": -195022.68646326472,
+      "y": 7131318.1902253935,
+      "up": true
+    },
+    {
+      "name": "Leeds",
+      "lat": 53.7974185,
+      "lon": -1.5437941,
+      "x": -171854.37310166005,
+      "y": 7131882.756821509,
+      "up": true
+    },
+    {
+      "name": "Middlesbrough",
+      "lat": 54.5760419,
+      "lon": -1.2344047,
+      "x": -137413.30263682362,
+      "y": 7280015.467488663,
+      "up": true
+    },
+    {
+      "name": "Sunderland",
+      "lat": 54.9058512,
+      "lon": -1.3828727,
+      "x": -153940.68479591937,
+      "y": 7343615.149289336,
+      "up": true
+    },
+    {
+      "name": "Newcastle",
+      "lat": 54.9738474,
+      "lon": -1.6131572,
+      "x": -179575.83807350296,
+      "y": 7356792.08012155,
+      "up": true
+    },
+    {
+      "name": "Dumfries",
+      "lat": 55.0691397,
+      "lon": -3.6107936,
+      "x": -401951.7049116111,
+      "y": 7375296.298193783,
+      "up": true
+    },
+    {
+      "name": "Edinburgh",
+      "lat": 55.9533456,
+      "lon": -3.1883749,
+      "x": -354928.27032605454,
+      "y": 7549133.685109551,
+      "up": true
+    },
+    {
+      "name": "Glasgow",
+      "lat": 55.861155,
+      "lon": -4.2501687,
+      "x": -473126.6154695095,
+      "y": 7530825.049386453,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Plymouth",
+      "destination": "Exmouth",
+      "capacity": 40,
+      "length": 87.57,
+      "up": true
+    },
+    {
+      "origin": "Plymouth",
+      "destination": "Southampton",
+      "capacity": 40,
+      "length": 302.89,
+      "up": true
+    },
+    {
+      "origin": "Exmouth",
+      "destination": "Plymouth",
+      "capacity": 40,
+      "length": 87.57,
+      "up": true
+    },
+    {
+      "origin": "Exmouth",
+      "destination": "Taunton",
+      "capacity": 40,
+      "length": 73.72,
+      "up": true
+    },
+    {
+      "origin": "Taunton",
+      "destination": "Exmouth",
+      "capacity": 40,
+      "length": 73.72,
+      "up": true
+    },
+    {
+      "origin": "Taunton",
+      "destination": "Bristol",
+      "capacity": 40,
+      "length": 90.27,
+      "up": true
+    },
+    {
+      "origin": "Bristol",
+      "destination": "Taunton",
+      "capacity": 40,
+      "length": 90.27,
+      "up": true
+    },
+    {
+      "origin": "Bristol",
+      "destination": "Reading",
+      "capacity": 40,
+      "length": 169.12,
+      "up": true
+    },
+    {
+      "origin": "Bristol",
+      "destination": "Worcester",
+      "capacity": 40,
+      "length": 128.97,
+      "up": true
+    },
+    {
+      "origin": "Southampton",
+      "destination": "Plymouth",
+      "capacity": 40,
+      "length": 302.89,
+      "up": true
+    },
+    {
+      "origin": "Southampton",
+      "destination": "Brighton",
+      "capacity": 40,
+      "length": 133.77,
+      "up": true
+    },
+    {
+      "origin": "Brighton",
+      "destination": "Southampton",
+      "capacity": 40,
+      "length": 133.77,
+      "up": true
+    },
+    {
+      "origin": "Brighton",
+      "destination": "London",
+      "capacity": 40,
+      "length": 114.42,
+      "up": true
+    },
+    {
+      "origin": "Swansea",
+      "destination": "Cardiff",
+      "capacity": 40,
+      "length": 82.78,
+      "up": true
+    },
+    {
+      "origin": "Swansea",
+      "destination": "Worcester",
+      "capacity": 40,
+      "length": 201.51,
+      "up": true
+    },
+    {
+      "origin": "Cardiff",
+      "destination": "Swansea",
+      "capacity": 40,
+      "length": 82.78,
+      "up": true
+    },
+    {
+      "origin": "Cardiff",
+      "destination": "Worcester",
+      "capacity": 40,
+      "length": 154.16,
+      "up": true
+    },
+    {
+      "origin": "Reading",
+      "destination": "Bristol",
+      "capacity": 40,
+      "length": 169.12,
+      "up": true
+    },
+    {
+      "origin": "Reading",
+      "destination": "Worcester",
+      "capacity": 40,
+      "length": 177.87,
+      "up": true
+    },
+    {
+      "origin": "Reading",
+      "destination": "London",
+      "capacity": 40,
+      "length": 87.9,
+      "up": true
+    },
+    {
+      "origin": "Colchester",
+      "destination": "London",
+      "capacity": 40,
+      "length": 123.86,
+      "up": true
+    },
+    {
+      "origin": "Colchester",
+      "destination": "Norwich",
+      "capacity": 40,
+      "length": 129.6,
+      "up": true
+    },
+    {
+      "origin": "Norwich",
+      "destination": "Colchester",
+      "capacity": 40,
+      "length": 129.6,
+      "up": true
+    },
+    {
+      "origin": "Norwich",
+      "destination": "Peterborough",
+      "capacity": 40,
+      "length": 155.79,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Brighton",
+      "capacity": 40,
+      "length": 114.42,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Reading",
+      "capacity": 40,
+      "length": 87.9,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Colchester",
+      "capacity": 40,
+      "length": 123.86,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Bedford",
+      "capacity": 40,
+      "length": 7392.17,
+      "up": true
+    },
+    {
+      "origin": "Bedford",
+      "destination": "London",
+      "capacity": 40,
+      "length": 7392.17,
+      "up": true
+    },
+    {
+      "origin": "Bedford",
+      "destination": "Peterborough",
+      "capacity": 40,
+      "length": 7332.21,
+      "up": true
+    },
+    {
+      "origin": "Bedford",
+      "destination": "Northampton",
+      "capacity": 40,
+      "length": 7295.18,
+      "up": true
+    },
+    {
+      "origin": "Northampton",
+      "destination": "Bedford",
+      "capacity": 40,
+      "length": 7295.18,
+      "up": true
+    },
+    {
+      "origin": "Northampton",
+      "destination": "Coventry",
+      "capacity": 40,
+      "length": 68.4,
+      "up": true
+    },
+    {
+      "origin": "Peterborough",
+      "destination": "Norwich",
+      "capacity": 40,
+      "length": 155.79,
+      "up": true
+    },
+    {
+      "origin": "Peterborough",
+      "destination": "Bedford",
+      "capacity": 40,
+      "length": 7332.21,
+      "up": true
+    },
+    {
+      "origin": "Coventry",
+      "destination": "Northampton",
+      "capacity": 40,
+      "length": 68.4,
+      "up": true
+    },
+    {
+      "origin": "Coventry",
+      "destination": "Lutterworth",
+      "capacity": 40,
+      "length": 32.55,
+      "up": true
+    },
+    {
+      "origin": "Coventry",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 41.62,
+      "up": true
+    },
+    {
+      "origin": "Lutterworth",
+      "destination": "Coventry",
+      "capacity": 40,
+      "length": 32.55,
+      "up": true
+    },
+    {
+      "origin": "Lutterworth",
+      "destination": "Leicester",
+      "capacity": 40,
+      "length": 30.93,
+      "up": true
+    },
+    {
+      "origin": "Leicester",
+      "destination": "Lutterworth",
+      "capacity": 40,
+      "length": 30.93,
+      "up": true
+    },
+    {
+      "origin": "Leicester",
+      "destination": "Sheffield",
+      "capacity": 40,
+      "length": 128.7,
+      "up": true
+    },
+    {
+      "origin": "Sheffield",
+      "destination": "Leicester",
+      "capacity": 40,
+      "length": 128.7,
+      "up": true
+    },
+    {
+      "origin": "Sheffield",
+      "destination": "Leeds",
+      "capacity": 40,
+      "length": 69.89,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Coventry",
+      "capacity": 40,
+      "length": 41.62,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Worcester",
+      "capacity": 40,
+      "length": 58.02,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Stoke-on-Trent",
+      "capacity": 40,
+      "length": 93.8,
+      "up": true
+    },
+    {
+      "origin": "Worcester",
+      "destination": "Bristol",
+      "capacity": 40,
+      "length": 128.97,
+      "up": true
+    },
+    {
+      "origin": "Worcester",
+      "destination": "Swansea",
+      "capacity": 40,
+      "length": 201.51,
+      "up": true
+    },
+    {
+      "origin": "Worcester",
+      "destination": "Cardiff",
+      "capacity": 40,
+      "length": 154.16,
+      "up": true
+    },
+    {
+      "origin": "Worcester",
+      "destination": "Reading",
+      "capacity": 40,
+      "length": 177.87,
+      "up": true
+    },
+    {
+      "origin": "Worcester",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 58.02,
+      "up": true
+    },
+    {
+      "origin": "Stoke-on-Trent",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 93.8,
+      "up": true
+    },
+    {
+      "origin": "Stoke-on-Trent",
+      "destination": "Manchester",
+      "capacity": 40,
+      "length": 77.53,
+      "up": true
+    },
+    {
+      "origin": "Manchester",
+      "destination": "Stoke-on-Trent",
+      "capacity": 40,
+      "length": 77.53,
+      "up": true
+    },
+    {
+      "origin": "Manchester",
+      "destination": "Liverpool",
+      "capacity": 40,
+      "length": 75.14,
+      "up": true
+    },
+    {
+      "origin": "Manchester",
+      "destination": "Bradford",
+      "capacity": 40,
+      "length": 71.69,
+      "up": true
+    },
+    {
+      "origin": "Manchester",
+      "destination": "Preston",
+      "capacity": 40,
+      "length": 64.78,
+      "up": true
+    },
+    {
+      "origin": "Liverpool",
+      "destination": "Manchester",
+      "capacity": 40,
+      "length": 75.14,
+      "up": true
+    },
+    {
+      "origin": "Liverpool",
+      "destination": "Preston",
+      "capacity": 40,
+      "length": 65.47,
+      "up": true
+    },
+    {
+      "origin": "Preston",
+      "destination": "Manchester",
+      "capacity": 40,
+      "length": 64.78,
+      "up": true
+    },
+    {
+      "origin": "Preston",
+      "destination": "Liverpool",
+      "capacity": 40,
+      "length": 65.47,
+      "up": true
+    },
+    {
+      "origin": "Preston",
+      "destination": "Dumfries",
+      "capacity": 40,
+      "length": 235.69,
+      "up": true
+    },
+    {
+      "origin": "Bradford",
+      "destination": "Manchester",
+      "capacity": 40,
+      "length": 71.69,
+      "up": true
+    },
+    {
+      "origin": "Bradford",
+      "destination": "Leeds",
+      "capacity": 40,
+      "length": 20.5,
+      "up": true
+    },
+    {
+      "origin": "Bradford",
+      "destination": "Middlesbrough",
+      "capacity": 40,
+      "length": 139.81,
+      "up": true
+    },
+    {
+      "origin": "Leeds",
+      "destination": "Sheffield",
+      "capacity": 40,
+      "length": 69.89,
+      "up": true
+    },
+    {
+      "origin": "Leeds",
+      "destination": "Bradford",
+      "capacity": 40,
+      "length": 20.5,
+      "up": true
+    },
+    {
+      "origin": "Middlesbrough",
+      "destination": "Bradford",
+      "capacity": 40,
+      "length": 139.81,
+      "up": true
+    },
+    {
+      "origin": "Middlesbrough",
+      "destination": "Sunderland",
+      "capacity": 40,
+      "length": 56.84,
+      "up": true
+    },
+    {
+      "origin": "Sunderland",
+      "destination": "Middlesbrough",
+      "capacity": 40,
+      "length": 56.84,
+      "up": true
+    },
+    {
+      "origin": "Sunderland",
+      "destination": "Newcastle",
+      "capacity": 40,
+      "length": 24.81,
+      "up": true
+    },
+    {
+      "origin": "Newcastle",
+      "destination": "Sunderland",
+      "capacity": 40,
+      "length": 24.81,
+      "up": true
+    },
+    {
+      "origin": "Newcastle",
+      "destination": "Dumfries",
+      "capacity": 40,
+      "length": 191.66,
+      "up": true
+    },
+    {
+      "origin": "Newcastle",
+      "destination": "Edinburgh",
+      "capacity": 40,
+      "length": 221.07,
+      "up": true
+    },
+    {
+      "origin": "Dumfries",
+      "destination": "Preston",
+      "capacity": 40,
+      "length": 235.69,
+      "up": true
+    },
+    {
+      "origin": "Dumfries",
+      "destination": "Newcastle",
+      "capacity": 40,
+      "length": 191.66,
+      "up": true
+    },
+    {
+      "origin": "Dumfries",
+      "destination": "Glasgow",
+      "capacity": 40,
+      "length": 145.28,
+      "up": true
+    },
+    {
+      "origin": "Edinburgh",
+      "destination": "Newcastle",
+      "capacity": 40,
+      "length": 221.07,
+      "up": true
+    },
+    {
+      "origin": "Edinburgh",
+      "destination": "Glasgow",
+      "capacity": 40,
+      "length": 100.45,
+      "up": true
+    },
+    {
+      "origin": "Glasgow",
+      "destination": "Edinburgh",
+      "capacity": 40,
+      "length": 100.45,
+      "up": true
+    },
+    {
+      "origin": "Glasgow",
+      "destination": "Dumfries",
+      "capacity": 40,
+      "length": 145.28,
+      "up": true
+    }
+  ]
+}

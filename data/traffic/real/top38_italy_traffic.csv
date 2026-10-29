@@ -1,0 +1,45 @@
+# topology: ITALY (real topology #38) (data/topologies/real/top38_italy.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Bari,Bologna,6
+1,Palermo,Pescara,2
+2,Verona,Vibo Valentia,5
+3,Pescara,Pisa,1
+4,Pescara,Perugia,4
+5,Rome,Cagliari,4
+6,Turin,Venice,1
+7,Verona,Pisa,6
+8,Catania,Palermo,4
+9,Potenza,Naples,6
+10,Verona,Bolzano,3
+11,Potenza,Palermo,4
+12,Naples,Ancona,8
+13,Bari,Genoa,6
+14,Potenza,Verona,6
+15,Potenza,Bari,2
+16,Milan,Verona,1
+17,Milan,Perugia,5
+18,Bari,Bolzano,6
+19,Catania,Naples,1
+20,Bologna,Palermo,8
+21,Naples,Bolzano,4
+22,Venice,Bari,1
+23,Trieste,Pescara,3
+24,Venice,Pisa,6
+25,Catania,Ancona,4
+26,Potenza,Perugia,3
+27,Potenza,Bologna,3
+28,Trieste,Verona,7
+29,Pisa,Vibo Valentia,3
+30,Florence,Naples,5
+31,Naples,Palermo,2
+32,Palermo,Potenza,8
+33,Naples,Vibo Valentia,2
+34,Bolzano,Perugia,7
+35,Turin,Vibo Valentia,7
+36,Pisa,Milan,2
+37,Milan,Naples,2
+38,Catania,Potenza,3
+39,Milan,Bolzano,2
+40,Milan,Pisa,4
+41,Milan,Trieste,8

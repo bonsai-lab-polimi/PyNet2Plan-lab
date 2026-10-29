@@ -1,0 +1,10 @@
+# Line endings: text files are stored with LF and checked out with the native
+# line ending of each computer (Windows, macOS, Linux).
+* text=auto
+
+# Data files are kept byte for byte (the CSV writer uses CRLF on every platform).
+*.csv -text
+*.n2p -text
+*.png binary
+*.pdf binary
+*.xlsx binary

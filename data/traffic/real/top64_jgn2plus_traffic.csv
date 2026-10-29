@@ -1,0 +1,25 @@
+# topology: JGN2PLUS (real topology #64) (data/topologies/real/top64_jgn2plus.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Mihara,Sendai-shi,1
+1,Kameoka,Sendai-shi,6
+2,Kochi-shi,Kameoka,2
+3,Kameoka,Kochi-shi,3
+4,Obu,Mihara,4
+5,Kochi-shi,Nyuzen,4
+6,Aso,Kochi-shi,5
+7,Okinawa,Mihara,5
+8,Nyuzen,Chofugaoka,1
+9,Sapporo,Obu,8
+10,Chofugaoka,Kochi-shi,7
+11,Sendai-shi,Nyuzen,1
+12,Kochi-shi,Sapporo,1
+13,Sapporo,Shibetsu,6
+14,Obu,Okinawa,5
+15,Sapporo,Chofugaoka,8
+16,Nyuzen,Sendai-shi,4
+17,Shibetsu,Mihara,6
+18,Obu,Kochi-shi,6
+19,Sapporo,Sendai-shi,4
+20,Okinawa,Aso,4
+21,Sendai-shi,Mihara,1

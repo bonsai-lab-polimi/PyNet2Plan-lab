@@ -1,0 +1,33 @@
+# topology: HIBERNIANIRELAND (real topology #33) (data/topologies/real/top33_hibernianireland.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Coleraine,Derry,2
+1,Coleraine,Dundalk,6
+2,Belfast,Ballymena,5
+3,Drogheda,Derry,7
+4,Dundalk,Ballymena,7
+5,Monaghan,Belfast,3
+6,Dundalk,Monaghan,1
+7,Castleblayney,Letterkenny,5
+8,Southport,Ballymena,6
+9,Strabane,Belfast,8
+10,Ballymena,Armagh,1
+11,Omagh,Coleraine,6
+12,Derry,Dundalk,6
+13,Armagh,Southport,4
+14,Ballymena,Portadown,8
+15,Letterkenny,Derry,6
+16,Monaghan,Castleblayney,4
+17,Coleraine,Armagh,8
+18,Omagh,Derry,7
+19,Omagh,Drogheda,8
+20,Derry,Southport,3
+21,Drogheda,Ballymena,2
+22,Ballymena,Southport,3
+23,Coleraine,Belfast,2
+24,Letterkenny,Rathmines,7
+25,Letterkenny,Ballymena,7
+26,Belfast,Dundalk,8
+27,Coleraine,Letterkenny,1
+28,Castleblayney,Southport,3
+29,Derry,Ballymena,3

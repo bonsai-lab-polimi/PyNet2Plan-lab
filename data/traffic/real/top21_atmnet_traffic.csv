@@ -1,0 +1,45 @@
+# topology: ATMNET (real topology #21) (data/topologies/real/top21_atmnet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,San Diego,Santa Clara,6
+1,"Washington, D.C.",Dallas,7
+2,Santa Clara,Kansas City,6
+3,Kansas City,Seattle,4
+4,Pittsburgh,Seattle,4
+5,New York City,Atlanta,5
+6,Detroit,Kansas City,7
+7,St. Louis,San Diego,5
+8,Atlanta,Tucson,7
+9,Minneapolis,Phoenix,6
+10,Kansas City,Denver,3
+11,Pittsburgh,Denver,3
+12,Phoenix,Dallas,5
+13,Minneapolis,Chicago,4
+14,Salt Lake City,Philadelphia,7
+15,Denver,Oakland,8
+16,Dallas,Phoenix,8
+17,Chicago,Tucson,7
+18,"Washington, D.C.",Pittsburgh,8
+19,Pittsburgh,Detroit,5
+20,Pittsburgh,St. Louis,1
+21,Santa Clara,Minneapolis,4
+22,Tucson,San Diego,8
+23,Atlanta,Detroit,6
+24,Oakland,Santa Clara,4
+25,Seattle,Detroit,5
+26,"Washington, D.C.",Tucson,8
+27,Chicago,New York City,5
+28,San Diego,Oakland,4
+29,St. Louis,Philadelphia,5
+30,"Washington, D.C.",Kansas City,4
+31,Phoenix,San Diego,3
+32,Kansas City,New York City,8
+33,New York City,Salt Lake City,5
+34,Chicago,St. Louis,7
+35,Oakland,Kansas City,1
+36,Oakland,Salt Lake City,5
+37,Dallas,San Diego,3
+38,Houston,Salt Lake City,6
+39,St. Louis,Atlanta,6
+40,Pittsburgh,Phoenix,3
+41,Dallas,Kansas City,2

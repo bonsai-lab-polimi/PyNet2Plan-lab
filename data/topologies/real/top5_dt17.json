@@ -1,0 +1,432 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "DT17 (real topology #5)",
+  "description": "Real-world topology DT17 (Topology Bench dataset), 40 wavelengths per fiber.",
+  "nodes": [
+    {
+      "name": "Berlin",
+      "lat": 52.516667,
+      "lon": 13.4,
+      "x": 1491681.1766298658,
+      "y": 6894090.067074986,
+      "up": true
+    },
+    {
+      "name": "Bremen",
+      "lat": 53.073789,
+      "lon": 8.826754,
+      "x": 982589.7606374907,
+      "y": 6996658.568711885,
+      "up": true
+    },
+    {
+      "name": "Dortmund",
+      "lat": 51.514942,
+      "lon": 7.465997,
+      "x": 831110.9843041081,
+      "y": 6712891.483961076,
+      "up": true
+    },
+    {
+      "name": "Dusseldorf",
+      "lat": 51.228304,
+      "lon": 6.793849,
+      "x": 756287.8112063908,
+      "y": 6661777.850074802,
+      "up": true
+    },
+    {
+      "name": "Essen",
+      "lat": 51.45657,
+      "lon": 7.012282,
+      "x": 780603.661538838,
+      "y": 6702456.528575582,
+      "up": true
+    },
+    {
+      "name": "Frankfurt",
+      "lat": 50.11552,
+      "lon": 8.684167,
+      "x": 966717.0484037502,
+      "y": 6466305.957640059,
+      "up": true
+    },
+    {
+      "name": "Hamburg",
+      "lat": 53.575323,
+      "lon": 10.01534,
+      "x": 1114902.5489215045,
+      "y": 7090134.314838074,
+      "up": true
+    },
+    {
+      "name": "Hanover",
+      "lat": 52.38497,
+      "lon": 9.737141,
+      "x": 1083933.5779023066,
+      "y": 6870034.53388768,
+      "up": true
+    },
+    {
+      "name": "Cologne",
+      "lat": 50.933333,
+      "lon": 6.95,
+      "x": 773670.4610132513,
+      "y": 6609509.563821727,
+      "up": true
+    },
+    {
+      "name": "Leipzig",
+      "lat": 51.34419,
+      "lon": 12.386504,
+      "x": 1378859.3179888462,
+      "y": 6682404.267408097,
+      "up": true
+    },
+    {
+      "name": "Munich",
+      "lat": 48.15,
+      "lon": 11.583333,
+      "x": 1289450.731248922,
+      "y": 6131845.868039043,
+      "up": true
+    },
+    {
+      "name": "Nuremberg",
+      "lat": 49.447778,
+      "lon": 11.068333,
+      "x": 1232121.193490386,
+      "y": 6351184.332382748,
+      "up": true
+    },
+    {
+      "name": "Stuttgart",
+      "lat": 48.782343,
+      "lon": 9.180819,
+      "x": 1022004.0961452111,
+      "y": 6238009.9294605,
+      "up": true
+    },
+    {
+      "name": "Ulm",
+      "lat": 48.397053,
+      "lon": 9.968956,
+      "x": 1109739.1056605494,
+      "y": 6173166.347300381,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Berlin",
+      "destination": "Hamburg",
+      "capacity": 40,
+      "length": 306.3,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Hanover",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 160.9,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 173.3,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Hamburg",
+      "capacity": 40,
+      "length": 114.7,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Hanover",
+      "capacity": 40,
+      "length": 121.3,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 278.5,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 37.4,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Hanover",
+      "capacity": 40,
+      "length": 230.4,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Cologne",
+      "capacity": 40,
+      "length": 84.3,
+      "up": true
+    },
+    {
+      "origin": "Dusseldorf",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 36.9,
+      "up": true
+    },
+    {
+      "origin": "Dusseldorf",
+      "destination": "Cologne",
+      "capacity": 40,
+      "length": 40.9,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 278.5,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 37.4,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Dusseldorf",
+      "capacity": 40,
+      "length": 36.9,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Hanover",
+      "capacity": 40,
+      "length": 313.9,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Cologne",
+      "capacity": 40,
+      "length": 182.0,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 352.6,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 207.4,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Nuremberg",
+      "capacity": 40,
+      "length": 224.1,
+      "up": true
+    },
+    {
+      "origin": "Hamburg",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 306.3,
+      "up": true
+    },
+    {
+      "origin": "Hamburg",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 114.7,
+      "up": true
+    },
+    {
+      "origin": "Hanover",
+      "destination": "Berlin",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 160.9,
+      "up": true
+    },
+    {
+      "origin": "Hanover",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 121.3,
+      "up": true
+    },
+    {
+      "origin": "Hanover",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 230.4,
+      "up": true
+    },
+    {
+      "origin": "Hanover",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 313.9,
+      "up": true
+    },
+    {
+      "origin": "Hanover",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 257.2,
+      "up": true
+    },
+    {
+      "origin": "Cologne",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 84.3,
+      "up": true
+    },
+    {
+      "origin": "Cologne",
+      "destination": "Dusseldorf",
+      "capacity": 40,
+      "length": 40.9,
+      "up": true
+    },
+    {
+      "origin": "Cologne",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 182.0,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 173.3,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 352.6,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Hanover",
+      "capacity": 40,
+      "length": 257.2,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Nuremberg",
+      "capacity": 40,
+      "length": 274.4,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Nuremberg",
+      "capacity": 40,
+      "length": 180.8,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Ulm",
+      "capacity": 40,
+      "length": 145.6,
+      "up": true
+    },
+    {
+      "origin": "Nuremberg",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 224.1,
+      "up": true
+    },
+    {
+      "origin": "Nuremberg",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 274.4,
+      "up": true
+    },
+    {
+      "origin": "Nuremberg",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 180.8,
+      "up": true
+    },
+    {
+      "origin": "Nuremberg",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 188.7,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 207.4,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Nuremberg",
+      "capacity": 40,
+      "length": 188.7,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Ulm",
+      "capacity": 40,
+      "length": 37.1,
+      "up": true
+    },
+    {
+      "origin": "Ulm",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 145.6,
+      "up": true
+    },
+    {
+      "origin": "Ulm",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 37.1,
+      "up": true
+    }
+  ]
+}

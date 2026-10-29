@@ -1,0 +1,1148 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "SANET (real topology #0)",
+  "description": "Real-world topology SANET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Košice",
+      "lat": 48.7172272,
+      "lon": 21.2496774,
+      "x": 2365503.2676893333,
+      "y": 6227016.262805244,
+      "up": true
+    },
+    {
+      "name": "Bratislava",
+      "lat": 48.1516988,
+      "lon": 17.1093063,
+      "x": 1904599.2651421477,
+      "y": 6132129.317628115,
+      "up": true
+    },
+    {
+      "name": "Galanta",
+      "lat": 48.1910498,
+      "lon": 17.7270629,
+      "x": 1973367.6152883314,
+      "y": 6138697.771393328,
+      "up": true
+    },
+    {
+      "name": "Dunajská Streda",
+      "lat": 47.9958371,
+      "lon": 17.6153028,
+      "x": 1960926.537865326,
+      "y": 6106162.304595498,
+      "up": true
+    },
+    {
+      "name": "Nové Zámky",
+      "lat": 47.9861843,
+      "lon": 18.1631415,
+      "x": 2021911.662986175,
+      "y": 6104556.702364261,
+      "up": true
+    },
+    {
+      "name": "Hurbanovo",
+      "lat": 47.8761227,
+      "lon": 18.198313,
+      "x": 2025826.9364566107,
+      "y": 6086270.7536264565,
+      "up": true
+    },
+    {
+      "name": "Komárno",
+      "lat": 47.7574079,
+      "lon": 18.1298249,
+      "x": 2018202.8760392116,
+      "y": 6066590.627728049,
+      "up": true
+    },
+    {
+      "name": "Levice",
+      "lat": 48.2163194,
+      "lon": 18.6000869,
+      "x": 2070552.2024186384,
+      "y": 6142918.4231325835,
+      "up": true
+    },
+    {
+      "name": "Nitra",
+      "lat": 48.31295,
+      "lon": 18.0894593,
+      "x": 2013709.398001647,
+      "y": 6159077.380240054,
+      "up": true
+    },
+    {
+      "name": "Trnava",
+      "lat": 48.374218,
+      "lon": 17.5809299,
+      "x": 1957100.164140238,
+      "y": 6169338.718470851,
+      "up": true
+    },
+    {
+      "name": "Trenčín",
+      "lat": 48.8922719,
+      "lon": 18.0387465,
+      "x": 2008064.0749289459,
+      "y": 6256601.918541616,
+      "up": true
+    },
+    {
+      "name": "Prievidza",
+      "lat": 48.7718361,
+      "lon": 18.6234916,
+      "x": 2073157.601704808,
+      "y": 6236235.058393866,
+      "up": true
+    },
+    {
+      "name": "Topoľčany",
+      "lat": 48.5594345,
+      "lon": 18.1754394,
+      "x": 2023280.6589520015,
+      "y": 6200434.604353319,
+      "up": true
+    },
+    {
+      "name": "Zvolen",
+      "lat": 48.5782517,
+      "lon": 19.1247135,
+      "x": 2128953.3683872446,
+      "y": 6203600.17619318,
+      "up": true
+    },
+    {
+      "name": "Martin",
+      "lat": 49.0724921,
+      "lon": 18.929193,
+      "x": 2107188.125887599,
+      "y": 6287170.75010215,
+      "up": true
+    },
+    {
+      "name": "Ružomberok",
+      "lat": 49.0815718,
+      "lon": 19.3034168,
+      "x": 2148846.5287463227,
+      "y": 6288713.773100372,
+      "up": true
+    },
+    {
+      "name": "Liptovský Mikuláš",
+      "lat": 49.0835785,
+      "lon": 19.612785,
+      "x": 2183285.239237954,
+      "y": 6289054.833910854,
+      "up": true
+    },
+    {
+      "name": "Banská Bystrica",
+      "lat": 48.7383895,
+      "lon": 19.1585805,
+      "x": 2132723.4255819404,
+      "y": 6230587.585561126,
+      "up": true
+    },
+    {
+      "name": "Púchov",
+      "lat": 49.123928,
+      "lon": 18.3239559,
+      "x": 2039813.440106401,
+      "y": 6295915.603469405,
+      "up": true
+    },
+    {
+      "name": "Žilina",
+      "lat": 49.2234674,
+      "lon": 18.7393139,
+      "x": 2086050.8811633133,
+      "y": 6312864.551302625,
+      "up": true
+    },
+    {
+      "name": "Kysucké Nové Mesto",
+      "lat": 49.2999184,
+      "lon": 18.7865084,
+      "x": 2091304.5488715565,
+      "y": 6325905.3446761845,
+      "up": true
+    },
+    {
+      "name": "Stará Ľubovňa",
+      "lat": 49.3001533,
+      "lon": 20.6889231,
+      "x": 2303080.384553195,
+      "y": 6325945.444402321,
+      "up": true
+    },
+    {
+      "name": "Bardejov",
+      "lat": 49.2926871,
+      "lon": 21.2756031,
+      "x": 2368389.303411793,
+      "y": 6324670.984577168,
+      "up": true
+    },
+    {
+      "name": "Svidník",
+      "lat": 49.3085082,
+      "lon": 21.5733508,
+      "x": 2401534.4257606613,
+      "y": 6327371.831818544,
+      "up": true
+    },
+    {
+      "name": "Stropkov",
+      "lat": 49.2020091,
+      "lon": 21.6521343,
+      "x": 2410304.564863573,
+      "y": 6309207.882784758,
+      "up": true
+    },
+    {
+      "name": "Humenné",
+      "lat": 48.9350033,
+      "lon": 21.9020268,
+      "x": 2438122.4707166315,
+      "y": 6263840.001364675,
+      "up": true
+    },
+    {
+      "name": "Vranov nad Topľou",
+      "lat": 48.8891513,
+      "lon": 21.6822318,
+      "x": 2413655.0032377234,
+      "y": 6256073.576371317,
+      "up": true
+    },
+    {
+      "name": "Trebišov",
+      "lat": 48.6286222,
+      "lon": 21.7201711,
+      "x": 2417878.386794777,
+      "y": 6212079.686249563,
+      "up": true
+    },
+    {
+      "name": "Michalovce",
+      "lat": 48.7514383,
+      "lon": 21.9211949,
+      "x": 2440256.253848105,
+      "y": 6232790.433803528,
+      "up": true
+    },
+    {
+      "name": "Tatranská Lomnica",
+      "lat": 49.1655267,
+      "lon": 20.2791933,
+      "x": 2257469.471854365,
+      "y": 6302994.625825671,
+      "up": true
+    },
+    {
+      "name": "Poprad",
+      "lat": 49.0541521,
+      "lon": 20.2976401,
+      "x": 2259522.96023713,
+      "y": 6284054.872458932,
+      "up": true
+    },
+    {
+      "name": "Spišská Nová Ves",
+      "lat": 48.9435344,
+      "lon": 20.562964,
+      "x": 2289058.681680416,
+      "y": 6265285.788449623,
+      "up": true
+    },
+    {
+      "name": "Levoča",
+      "lat": 49.0251116,
+      "lon": 20.587999,
+      "x": 2291845.565132425,
+      "y": 6279123.381766819,
+      "up": true
+    },
+    {
+      "name": "Sabinov",
+      "lat": 49.1086665,
+      "lon": 21.0947649,
+      "x": 2348258.487071821,
+      "y": 6293319.980121113,
+      "up": true
+    },
+    {
+      "name": "Prešov",
+      "lat": 49.0000074,
+      "lon": 21.2392122,
+      "x": 2364338.2869542837,
+      "y": 6274862.649631842,
+      "up": true
+    },
+    {
+      "name": "Rožňava",
+      "lat": 48.6620675,
+      "lon": 20.5328607,
+      "x": 2285707.597653219,
+      "y": 6217714.637789331,
+      "up": true
+    },
+    {
+      "name": "Revúca",
+      "lat": 48.6833333,
+      "lon": 20.1166667,
+      "x": 2239377.093502003,
+      "y": 6221299.500141043,
+      "up": true
+    },
+    {
+      "name": "Lučenec",
+      "lat": 48.3303886,
+      "lon": 19.6634149,
+      "x": 2188921.333924868,
+      "y": 6161996.790943729,
+      "up": true
+    },
+    {
+      "name": "Senec",
+      "lat": 48.2199473,
+      "lon": 17.3969901,
+      "x": 1936624.0792676215,
+      "y": 6143524.543648998,
+      "up": true
+    },
+    {
+      "name": "Malacky",
+      "lat": 48.4362992,
+      "lon": 17.0200447,
+      "x": 1894662.7092827547,
+      "y": 6179748.8561374685,
+      "up": true
+    },
+    {
+      "name": "Skalica",
+      "lat": 48.8461007,
+      "lon": 17.2287837,
+      "x": 1917899.4284714519,
+      "y": 6248788.133210838,
+      "up": true
+    },
+    {
+      "name": "Senica",
+      "lat": 48.6787557,
+      "lon": 17.3661529,
+      "x": 1933191.297866131,
+      "y": 6220527.707691282,
+      "up": true
+    },
+    {
+      "name": "Piešťany",
+      "lat": 48.5895247,
+      "lon": 17.8213848,
+      "x": 1983867.4811669858,
+      "y": 6205497.170034425,
+      "up": true
+    },
+    {
+      "name": "Nové Mesto Nad Váhom",
+      "lat": 48.7633248,
+      "lon": 17.8303857,
+      "x": 1984869.4567716666,
+      "y": 6234797.5650082035,
+      "up": true
+    },
+    {
+      "name": "Liptovský Hrádok",
+      "lat": 49.0371787,
+      "lon": 19.7217331,
+      "x": 2195413.286252849,
+      "y": 6281172.197651491,
+      "up": true
+    },
+    {
+      "name": "Strážske",
+      "lat": 48.8746597,
+      "lon": 21.8337692,
+      "x": 2430524.06944186,
+      "y": 6253620.466304336,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Košice",
+      "destination": "Trebišov",
+      "capacity": 40,
+      "length": 36.0,
+      "up": true
+    },
+    {
+      "origin": "Košice",
+      "destination": "Prešov",
+      "capacity": 40,
+      "length": 31.0,
+      "up": true
+    },
+    {
+      "origin": "Košice",
+      "destination": "Rožňava",
+      "capacity": 40,
+      "length": 53.0,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Malacky",
+      "capacity": 40,
+      "length": 32.0,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Trnava",
+      "capacity": 40,
+      "length": 43.0,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Senec",
+      "capacity": 40,
+      "length": 23.0,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Galanta",
+      "capacity": 40,
+      "length": 46.0,
+      "up": true
+    },
+    {
+      "origin": "Bratislava",
+      "destination": "Dunajská Streda",
+      "capacity": 40,
+      "length": 41.0,
+      "up": true
+    },
+    {
+      "origin": "Galanta",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 46.0,
+      "up": true
+    },
+    {
+      "origin": "Galanta",
+      "destination": "Nové Zámky",
+      "capacity": 40,
+      "length": 40.0,
+      "up": true
+    },
+    {
+      "origin": "Galanta",
+      "destination": "Senec",
+      "capacity": 40,
+      "length": 25.0,
+      "up": true
+    },
+    {
+      "origin": "Dunajská Streda",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 41.0,
+      "up": true
+    },
+    {
+      "origin": "Dunajská Streda",
+      "destination": "Komárno",
+      "capacity": 40,
+      "length": 47.0,
+      "up": true
+    },
+    {
+      "origin": "Nové Zámky",
+      "destination": "Galanta",
+      "capacity": 40,
+      "length": 40.0,
+      "up": true
+    },
+    {
+      "origin": "Nové Zámky",
+      "destination": "Levice",
+      "capacity": 40,
+      "length": 41.0,
+      "up": true
+    },
+    {
+      "origin": "Hurbanovo",
+      "destination": "Komárno",
+      "capacity": 40,
+      "length": 14.0,
+      "up": true
+    },
+    {
+      "origin": "Hurbanovo",
+      "destination": "Nitra",
+      "capacity": 40,
+      "length": 49.0,
+      "up": true
+    },
+    {
+      "origin": "Komárno",
+      "destination": "Dunajská Streda",
+      "capacity": 40,
+      "length": 47.0,
+      "up": true
+    },
+    {
+      "origin": "Komárno",
+      "destination": "Hurbanovo",
+      "capacity": 40,
+      "length": 14.0,
+      "up": true
+    },
+    {
+      "origin": "Levice",
+      "destination": "Zvolen",
+      "capacity": 40,
+      "length": 56.0,
+      "up": true
+    },
+    {
+      "origin": "Levice",
+      "destination": "Nové Zámky",
+      "capacity": 40,
+      "length": 41.0,
+      "up": true
+    },
+    {
+      "origin": "Nitra",
+      "destination": "Hurbanovo",
+      "capacity": 40,
+      "length": 49.0,
+      "up": true
+    },
+    {
+      "origin": "Nitra",
+      "destination": "Trnava",
+      "capacity": 40,
+      "length": 38.0,
+      "up": true
+    },
+    {
+      "origin": "Nitra",
+      "destination": "Topoľčany",
+      "capacity": 40,
+      "length": 28.0,
+      "up": true
+    },
+    {
+      "origin": "Trnava",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 43.0,
+      "up": true
+    },
+    {
+      "origin": "Trnava",
+      "destination": "Nitra",
+      "capacity": 40,
+      "length": 38.0,
+      "up": true
+    },
+    {
+      "origin": "Trnava",
+      "destination": "Senica",
+      "capacity": 40,
+      "length": 37.0,
+      "up": true
+    },
+    {
+      "origin": "Trnava",
+      "destination": "Piešťany",
+      "capacity": 40,
+      "length": 30.0,
+      "up": true
+    },
+    {
+      "origin": "Trenčín",
+      "destination": "Nové Mesto Nad Váhom",
+      "capacity": 40,
+      "length": 21.0,
+      "up": true
+    },
+    {
+      "origin": "Trenčín",
+      "destination": "Púchov",
+      "capacity": 40,
+      "length": 33.0,
+      "up": true
+    },
+    {
+      "origin": "Trenčín",
+      "destination": "Žilina",
+      "capacity": 40,
+      "length": 63.0,
+      "up": true
+    },
+    {
+      "origin": "Trenčín",
+      "destination": "Piešťany",
+      "capacity": 40,
+      "length": 37.0,
+      "up": true
+    },
+    {
+      "origin": "Prievidza",
+      "destination": "Zvolen",
+      "capacity": 40,
+      "length": 43.0,
+      "up": true
+    },
+    {
+      "origin": "Prievidza",
+      "destination": "Topoľčany",
+      "capacity": 40,
+      "length": 41.0,
+      "up": true
+    },
+    {
+      "origin": "Topoľčany",
+      "destination": "Nitra",
+      "capacity": 40,
+      "length": 28.0,
+      "up": true
+    },
+    {
+      "origin": "Topoľčany",
+      "destination": "Prievidza",
+      "capacity": 40,
+      "length": 41.0,
+      "up": true
+    },
+    {
+      "origin": "Zvolen",
+      "destination": "Banská Bystrica",
+      "capacity": 40,
+      "length": 18.0,
+      "up": true
+    },
+    {
+      "origin": "Zvolen",
+      "destination": "Prievidza",
+      "capacity": 40,
+      "length": 43.0,
+      "up": true
+    },
+    {
+      "origin": "Zvolen",
+      "destination": "Lučenec",
+      "capacity": 40,
+      "length": 48.0,
+      "up": true
+    },
+    {
+      "origin": "Zvolen",
+      "destination": "Levice",
+      "capacity": 40,
+      "length": 56.0,
+      "up": true
+    },
+    {
+      "origin": "Martin",
+      "destination": "Žilina",
+      "capacity": 40,
+      "length": 22.0,
+      "up": true
+    },
+    {
+      "origin": "Martin",
+      "destination": "Ružomberok",
+      "capacity": 40,
+      "length": 27.0,
+      "up": true
+    },
+    {
+      "origin": "Ružomberok",
+      "destination": "Martin",
+      "capacity": 40,
+      "length": 27.0,
+      "up": true
+    },
+    {
+      "origin": "Ružomberok",
+      "destination": "Liptovský Mikuláš",
+      "capacity": 40,
+      "length": 23.0,
+      "up": true
+    },
+    {
+      "origin": "Ružomberok",
+      "destination": "Banská Bystrica",
+      "capacity": 40,
+      "length": 40.0,
+      "up": true
+    },
+    {
+      "origin": "Liptovský Mikuláš",
+      "destination": "Ružomberok",
+      "capacity": 40,
+      "length": 23.0,
+      "up": true
+    },
+    {
+      "origin": "Liptovský Mikuláš",
+      "destination": "Liptovský Hrádok",
+      "capacity": 40,
+      "length": 9.0,
+      "up": true
+    },
+    {
+      "origin": "Liptovský Mikuláš",
+      "destination": "Poprad",
+      "capacity": 40,
+      "length": 50.0,
+      "up": true
+    },
+    {
+      "origin": "Banská Bystrica",
+      "destination": "Ružomberok",
+      "capacity": 40,
+      "length": 40.0,
+      "up": true
+    },
+    {
+      "origin": "Banská Bystrica",
+      "destination": "Zvolen",
+      "capacity": 40,
+      "length": 18.0,
+      "up": true
+    },
+    {
+      "origin": "Púchov",
+      "destination": "Trenčín",
+      "capacity": 40,
+      "length": 33.0,
+      "up": true
+    },
+    {
+      "origin": "Púchov",
+      "destination": "Žilina",
+      "capacity": 40,
+      "length": 32.0,
+      "up": true
+    },
+    {
+      "origin": "Žilina",
+      "destination": "Trenčín",
+      "capacity": 40,
+      "length": 63.0,
+      "up": true
+    },
+    {
+      "origin": "Žilina",
+      "destination": "Kysucké Nové Mesto",
+      "capacity": 40,
+      "length": 9.0,
+      "up": true
+    },
+    {
+      "origin": "Žilina",
+      "destination": "Martin",
+      "capacity": 40,
+      "length": 22.0,
+      "up": true
+    },
+    {
+      "origin": "Žilina",
+      "destination": "Púchov",
+      "capacity": 40,
+      "length": 32.0,
+      "up": true
+    },
+    {
+      "origin": "Kysucké Nové Mesto",
+      "destination": "Žilina",
+      "capacity": 40,
+      "length": 9.0,
+      "up": true
+    },
+    {
+      "origin": "Stará Ľubovňa",
+      "destination": "Sabinov",
+      "capacity": 40,
+      "length": 36.0,
+      "up": true
+    },
+    {
+      "origin": "Bardejov",
+      "destination": "Prešov",
+      "capacity": 40,
+      "length": 33.0,
+      "up": true
+    },
+    {
+      "origin": "Bardejov",
+      "destination": "Svidník",
+      "capacity": 40,
+      "length": 22.0,
+      "up": true
+    },
+    {
+      "origin": "Svidník",
+      "destination": "Bardejov",
+      "capacity": 40,
+      "length": 22.0,
+      "up": true
+    },
+    {
+      "origin": "Svidník",
+      "destination": "Stropkov",
+      "capacity": 40,
+      "length": 13.0,
+      "up": true
+    },
+    {
+      "origin": "Stropkov",
+      "destination": "Svidník",
+      "capacity": 40,
+      "length": 13.0,
+      "up": true
+    },
+    {
+      "origin": "Stropkov",
+      "destination": "Humenné",
+      "capacity": 40,
+      "length": 35.0,
+      "up": true
+    },
+    {
+      "origin": "Humenné",
+      "destination": "Stropkov",
+      "capacity": 40,
+      "length": 35.0,
+      "up": true
+    },
+    {
+      "origin": "Humenné",
+      "destination": "Vranov nad Topľou",
+      "capacity": 40,
+      "length": 17.0,
+      "up": true
+    },
+    {
+      "origin": "Humenné",
+      "destination": "Strážske",
+      "capacity": 40,
+      "length": 8.0,
+      "up": true
+    },
+    {
+      "origin": "Humenné",
+      "destination": "Michalovce",
+      "capacity": 40,
+      "length": 20.0,
+      "up": true
+    },
+    {
+      "origin": "Vranov nad Topľou",
+      "destination": "Humenné",
+      "capacity": 40,
+      "length": 17.0,
+      "up": true
+    },
+    {
+      "origin": "Vranov nad Topľou",
+      "destination": "Prešov",
+      "capacity": 40,
+      "length": 35.0,
+      "up": true
+    },
+    {
+      "origin": "Trebišov",
+      "destination": "Michalovce",
+      "capacity": 40,
+      "length": 20.0,
+      "up": true
+    },
+    {
+      "origin": "Trebišov",
+      "destination": "Košice",
+      "capacity": 40,
+      "length": 36.0,
+      "up": true
+    },
+    {
+      "origin": "Michalovce",
+      "destination": "Trebišov",
+      "capacity": 40,
+      "length": 20.0,
+      "up": true
+    },
+    {
+      "origin": "Michalovce",
+      "destination": "Humenné",
+      "capacity": 40,
+      "length": 20.0,
+      "up": true
+    },
+    {
+      "origin": "Tatranská Lomnica",
+      "destination": "Poprad",
+      "capacity": 40,
+      "length": 12.0,
+      "up": true
+    },
+    {
+      "origin": "Poprad",
+      "destination": "Liptovský Mikuláš",
+      "capacity": 40,
+      "length": 50.0,
+      "up": true
+    },
+    {
+      "origin": "Poprad",
+      "destination": "Tatranská Lomnica",
+      "capacity": 40,
+      "length": 12.0,
+      "up": true
+    },
+    {
+      "origin": "Poprad",
+      "destination": "Spišská Nová Ves",
+      "capacity": 40,
+      "length": 23.0,
+      "up": true
+    },
+    {
+      "origin": "Poprad",
+      "destination": "Prešov",
+      "capacity": 40,
+      "length": 69.0,
+      "up": true
+    },
+    {
+      "origin": "Spišská Nová Ves",
+      "destination": "Poprad",
+      "capacity": 40,
+      "length": 23.0,
+      "up": true
+    },
+    {
+      "origin": "Spišská Nová Ves",
+      "destination": "Levoča",
+      "capacity": 40,
+      "length": 9.0,
+      "up": true
+    },
+    {
+      "origin": "Spišská Nová Ves",
+      "destination": "Prešov",
+      "capacity": 40,
+      "length": 50.0,
+      "up": true
+    },
+    {
+      "origin": "Levoča",
+      "destination": "Spišská Nová Ves",
+      "capacity": 40,
+      "length": 9.0,
+      "up": true
+    },
+    {
+      "origin": "Sabinov",
+      "destination": "Prešov",
+      "capacity": 40,
+      "length": 16.0,
+      "up": true
+    },
+    {
+      "origin": "Sabinov",
+      "destination": "Stará Ľubovňa",
+      "capacity": 40,
+      "length": 36.0,
+      "up": true
+    },
+    {
+      "origin": "Prešov",
+      "destination": "Spišská Nová Ves",
+      "capacity": 40,
+      "length": 50.0,
+      "up": true
+    },
+    {
+      "origin": "Prešov",
+      "destination": "Sabinov",
+      "capacity": 40,
+      "length": 16.0,
+      "up": true
+    },
+    {
+      "origin": "Prešov",
+      "destination": "Bardejov",
+      "capacity": 40,
+      "length": 33.0,
+      "up": true
+    },
+    {
+      "origin": "Prešov",
+      "destination": "Vranov nad Topľou",
+      "capacity": 40,
+      "length": 35.0,
+      "up": true
+    },
+    {
+      "origin": "Prešov",
+      "destination": "Košice",
+      "capacity": 40,
+      "length": 31.0,
+      "up": true
+    },
+    {
+      "origin": "Prešov",
+      "destination": "Poprad",
+      "capacity": 40,
+      "length": 69.0,
+      "up": true
+    },
+    {
+      "origin": "Rožňava",
+      "destination": "Košice",
+      "capacity": 40,
+      "length": 53.0,
+      "up": true
+    },
+    {
+      "origin": "Rožňava",
+      "destination": "Revúca",
+      "capacity": 40,
+      "length": 31.0,
+      "up": true
+    },
+    {
+      "origin": "Rožňava",
+      "destination": "Lučenec",
+      "capacity": 40,
+      "length": 74.0,
+      "up": true
+    },
+    {
+      "origin": "Revúca",
+      "destination": "Rožňava",
+      "capacity": 40,
+      "length": 31.0,
+      "up": true
+    },
+    {
+      "origin": "Lučenec",
+      "destination": "Zvolen",
+      "capacity": 40,
+      "length": 48.0,
+      "up": true
+    },
+    {
+      "origin": "Lučenec",
+      "destination": "Rožňava",
+      "capacity": 40,
+      "length": 74.0,
+      "up": true
+    },
+    {
+      "origin": "Senec",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 23.0,
+      "up": true
+    },
+    {
+      "origin": "Senec",
+      "destination": "Galanta",
+      "capacity": 40,
+      "length": 25.0,
+      "up": true
+    },
+    {
+      "origin": "Malacky",
+      "destination": "Bratislava",
+      "capacity": 40,
+      "length": 32.0,
+      "up": true
+    },
+    {
+      "origin": "Skalica",
+      "destination": "Senica",
+      "capacity": 40,
+      "length": 21.0,
+      "up": true
+    },
+    {
+      "origin": "Senica",
+      "destination": "Trnava",
+      "capacity": 40,
+      "length": 37.0,
+      "up": true
+    },
+    {
+      "origin": "Senica",
+      "destination": "Skalica",
+      "capacity": 40,
+      "length": 21.0,
+      "up": true
+    },
+    {
+      "origin": "Piešťany",
+      "destination": "Nové Mesto Nad Váhom",
+      "capacity": 40,
+      "length": 19.0,
+      "up": true
+    },
+    {
+      "origin": "Piešťany",
+      "destination": "Trenčín",
+      "capacity": 40,
+      "length": 37.0,
+      "up": true
+    },
+    {
+      "origin": "Piešťany",
+      "destination": "Trnava",
+      "capacity": 40,
+      "length": 30.0,
+      "up": true
+    },
+    {
+      "origin": "Nové Mesto Nad Váhom",
+      "destination": "Piešťany",
+      "capacity": 40,
+      "length": 19.0,
+      "up": true
+    },
+    {
+      "origin": "Nové Mesto Nad Váhom",
+      "destination": "Trenčín",
+      "capacity": 40,
+      "length": 21.0,
+      "up": true
+    },
+    {
+      "origin": "Liptovský Hrádok",
+      "destination": "Liptovský Mikuláš",
+      "capacity": 40,
+      "length": 9.0,
+      "up": true
+    },
+    {
+      "origin": "Strážske",
+      "destination": "Humenné",
+      "capacity": 40,
+      "length": 8.0,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# topology: ARNES (real topology #10) (data/topologies/real/top10_arnes.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Tolmin,Ljubljana,5
+1,Kostanjevica na Krki,Trbovlje,5
+2,Novo Mesto,Tolmin,3
+3,Ljubljana,Koƒçevje,8
+4,Tolmin,Dravograd,3
+5,Dravograd,Ljubljana,6
+6,Ljubljana,Bled,2
+7,Trbovlje,Ljubljana,2
+8,Tolmin,Trbovlje,3
+9,Dravograd,Nova Gorica,6
+10,Lasko,Koƒçevje,7
+11,Velenje,Slovenska Bistrica,4
+12,Trbovlje,Ajdovscina,4
+13,Bled,Tolmin,3
+14,Novo Mesto,Koper / Capodistria,6
+15,Tolmin,Koper / Capodistria,4
+16,Bled,Slovenska Bistrica,4
+17,Celje,Ajdovscina,5
+18,Kostanjevica na Krki,Novo Mesto,2
+19,Koper / Capodistria,Novo Mesto,8
+20,Velenje,Kostanjevica na Krki,3
+21,Trbovlje,Maribor,6
+22,Ljubljana,Ajdovscina,5
+23,Kranj,Dravograd,3
+24,Novo Mesto,Koƒçevje,8
+25,Ajdovscina,Celje,8
+26,Celje,Nova Gorica,3
+27,Kostanjevica na Krki,Slovenska Bistrica,7
+28,Koƒçevje,Trbovlje,7
+29,Velenje,Bled,4
+30,Slovenska Bistrica,Koƒçevje,5
+31,Slovenska Bistrica,Kranj,6
+32,Celje,Bled,6
+33,Koƒçevje,Tolmin,1

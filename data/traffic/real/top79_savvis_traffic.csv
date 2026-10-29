@@ -1,0 +1,41 @@
+# topology: SAVVIS (real topology #79) (data/topologies/real/top79_savvis.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,San Diego,"Washington, D.C.",5
+1,"Washington, D.C.",Kansas City,3
+2,San Francisco,Houston,3
+3,New York City,"Washington, D.C.",5
+4,Pittsburgh,St. Louis,1
+5,Detroit,Champaign,6
+6,Kansas City,New York City,5
+7,San Francisco,St. Louis,7
+8,Pittsburgh,Chicago,5
+9,Champaign,Denver,7
+10,San Francisco,Detroit,1
+11,Austin,Denver,1
+12,Dallas,New York City,2
+13,Detroit,Salt Lake City,5
+14,Salt Lake City,Pittsburgh,5
+15,Detroit,Houston,7
+16,Chicago,Denver,8
+17,Detroit,"Washington, D.C.",2
+18,Phoenix,Champaign,6
+19,Houston,Detroit,4
+20,Philadelphia,Kansas City,3
+21,St. Louis,San Francisco,1
+22,Philadelphia,Chicago,8
+23,Champaign,Chicago,4
+24,San Diego,Phoenix,3
+25,Kansas City,St. Louis,4
+26,Atlanta,Chicago,3
+27,Philadelphia,Los Angeles,4
+28,New York City,Chicago,1
+29,Chicago,Houston,1
+30,Chicago,Pittsburgh,4
+31,St. Louis,Kansas City,3
+32,San Diego,New York City,3
+33,Phoenix,Chicago,7
+34,New York City,Dallas,7
+35,Atlanta,Pittsburgh,5
+36,Phoenix,San Diego,8
+37,Phoenix,New York City,2

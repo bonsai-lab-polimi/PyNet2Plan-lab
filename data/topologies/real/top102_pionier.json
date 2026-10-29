@@ -1,0 +1,530 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "PIONIER (real topology #102)",
+  "description": "Real-world topology PIONIER (Topology Bench dataset), 40 wavelengths per fiber.",
+  "nodes": [
+    {
+      "name": "Szcezin",
+      "lat": 53.4301818,
+      "lon": 14.5509623,
+      "x": 1619805.713788121,
+      "y": 7062969.730785385,
+      "up": true
+    },
+    {
+      "name": "Koszalin",
+      "lat": 54.20717985,
+      "lon": 16.2175410869958,
+      "x": 1805328.415723365,
+      "y": 7209491.730177896,
+      "up": true
+    },
+    {
+      "name": "Gdynia",
+      "lat": 54.52333035,
+      "lon": 18.6040278920418,
+      "x": 2070990.9116459517,
+      "y": 7269898.472947358,
+      "up": true
+    },
+    {
+      "name": "Thorn",
+      "lat": 53.0145361,
+      "lon": 18.5965831446515,
+      "x": 2070162.166157379,
+      "y": 6985687.158215216,
+      "up": true
+    },
+    {
+      "name": "Bydgoszcz",
+      "lat": 53.12974625,
+      "lon": 18.0293696585348,
+      "x": 2007020.2497117906,
+      "y": 7007033.61839365,
+      "up": true
+    },
+    {
+      "name": "Poznan",
+      "lat": 52.4006632,
+      "lon": 16.9197325917808,
+      "x": 1883496.0164753937,
+      "y": 6872897.253798786,
+      "up": true
+    },
+    {
+      "name": "Zielona Gora",
+      "lat": 51.9383777,
+      "lon": 15.5050408,
+      "x": 1726013.2465849312,
+      "y": 6788991.012124268,
+      "up": true
+    },
+    {
+      "name": "Wroclaw",
+      "lat": 51.1263106,
+      "lon": 16.9781963305126,
+      "x": 1890004.1701008882,
+      "y": 6643667.091755988,
+      "up": true
+    },
+    {
+      "name": "Opole",
+      "lat": 50.6787929,
+      "lon": 17.9298844360335,
+      "x": 1995945.6054014903,
+      "y": 6564671.382054378,
+      "up": true
+    },
+    {
+      "name": "Gliwice",
+      "lat": 50.30113145,
+      "lon": 18.6623472279719,
+      "x": 2077482.9904250922,
+      "y": 6498590.754605171,
+      "up": true
+    },
+    {
+      "name": "Chestokhov",
+      "lat": 50.8089997,
+      "lon": 19.1244089281233,
+      "x": 2128919.4636010206,
+      "y": 6587577.2703442415,
+      "up": true
+    },
+    {
+      "name": "Lodz",
+      "lat": 51.7728245,
+      "lon": 19.4784859313079,
+      "x": 2168335.1352971387,
+      "y": 6759152.981435855,
+      "up": true
+    },
+    {
+      "name": "Warsaw",
+      "lat": 52.2319581,
+      "lon": 21.0067249,
+      "x": 2338457.9191023805,
+      "y": 6842175.610015434,
+      "up": true
+    },
+    {
+      "name": "Belostok",
+      "lat": 53.132398,
+      "lon": 23.1591679,
+      "x": 2578066.777823927,
+      "y": 7007525.615263286,
+      "up": true
+    },
+    {
+      "name": "Olsztyn",
+      "lat": 53.77664395,
+      "lon": 20.4777530921921,
+      "x": 2279573.0468132077,
+      "y": 7127968.304955905,
+      "up": true
+    },
+    {
+      "name": "Cracow",
+      "lat": 50.0469432,
+      "lon": 19.9971534358366,
+      "x": 2226072.9377922914,
+      "y": 6454409.548829105,
+      "up": true
+    },
+    {
+      "name": "Kielce",
+      "lat": 50.85402845,
+      "lon": 20.6099156873451,
+      "x": 2294285.3196075577,
+      "y": 6595513.550391934,
+      "up": true
+    },
+    {
+      "name": "Radom",
+      "lat": 51.4022557,
+      "lon": 21.1541546,
+      "x": 2354869.7182341856,
+      "y": 6692758.932104614,
+      "up": true
+    },
+    {
+      "name": "Deblin",
+      "lat": 51.56723175,
+      "lon": 21.856244041776,
+      "x": 2433025.957384024,
+      "y": 6722250.497719489,
+      "up": true
+    },
+    {
+      "name": "Lublin",
+      "lat": 51.2181944999999,
+      "lon": 22.5546775621451,
+      "x": 2510775.2212244654,
+      "y": 6659980.936745814,
+      "up": true
+    },
+    {
+      "name": "Rzeszow",
+      "lat": 50.013064,
+      "lon": 22.0161434572943,
+      "x": 2450825.878897663,
+      "y": 6448538.603150045,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Szcezin",
+      "destination": "Koszalin",
+      "capacity": 40,
+      "length": 209.1,
+      "up": true
+    },
+    {
+      "origin": "Szcezin",
+      "destination": "Poznan",
+      "capacity": 40,
+      "length": 293.65,
+      "up": true
+    },
+    {
+      "origin": "Koszalin",
+      "destination": "Szcezin",
+      "capacity": 40,
+      "length": 209.1,
+      "up": true
+    },
+    {
+      "origin": "Koszalin",
+      "destination": "Gdynia",
+      "capacity": 40,
+      "length": 237.81,
+      "up": true
+    },
+    {
+      "origin": "Gdynia",
+      "destination": "Koszalin",
+      "capacity": 40,
+      "length": 237.81,
+      "up": true
+    },
+    {
+      "origin": "Gdynia",
+      "destination": "Olsztyn",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 221.37,
+      "up": true
+    },
+    {
+      "origin": "Gdynia",
+      "destination": "Thorn",
+      "capacity": 40,
+      "length": 251.66,
+      "up": true
+    },
+    {
+      "origin": "Thorn",
+      "destination": "Gdynia",
+      "capacity": 40,
+      "length": 251.66,
+      "up": true
+    },
+    {
+      "origin": "Thorn",
+      "destination": "Bydgoszcz",
+      "capacity": 40,
+      "length": 60.0,
+      "up": true
+    },
+    {
+      "origin": "Bydgoszcz",
+      "destination": "Thorn",
+      "capacity": 40,
+      "length": 60.0,
+      "up": true
+    },
+    {
+      "origin": "Bydgoszcz",
+      "destination": "Poznan",
+      "capacity": 40,
+      "length": 165.31,
+      "up": true
+    },
+    {
+      "origin": "Poznan",
+      "destination": "Szcezin",
+      "capacity": 40,
+      "length": 293.65,
+      "up": true
+    },
+    {
+      "origin": "Poznan",
+      "destination": "Bydgoszcz",
+      "capacity": 40,
+      "length": 165.31,
+      "up": true
+    },
+    {
+      "origin": "Poznan",
+      "destination": "Warsaw",
+      "capacity": 40,
+      "length": 417.6,
+      "up": true
+    },
+    {
+      "origin": "Poznan",
+      "destination": "Zielona Gora",
+      "capacity": 40,
+      "length": 163.98,
+      "up": true
+    },
+    {
+      "origin": "Zielona Gora",
+      "destination": "Poznan",
+      "capacity": 40,
+      "length": 163.98,
+      "up": true
+    },
+    {
+      "origin": "Zielona Gora",
+      "destination": "Wroclaw",
+      "capacity": 40,
+      "length": 204.22,
+      "up": true
+    },
+    {
+      "origin": "Wroclaw",
+      "destination": "Zielona Gora",
+      "capacity": 40,
+      "length": 204.22,
+      "up": true
+    },
+    {
+      "origin": "Wroclaw",
+      "destination": "Opole",
+      "capacity": 40,
+      "length": 124.88,
+      "up": true
+    },
+    {
+      "origin": "Opole",
+      "destination": "Wroclaw",
+      "capacity": 40,
+      "length": 124.88,
+      "up": true
+    },
+    {
+      "origin": "Opole",
+      "destination": "Gliwice",
+      "capacity": 40,
+      "length": 100.05,
+      "up": true
+    },
+    {
+      "origin": "Gliwice",
+      "destination": "Opole",
+      "capacity": 40,
+      "length": 100.05,
+      "up": true
+    },
+    {
+      "origin": "Gliwice",
+      "destination": "Chestokhov",
+      "capacity": 40,
+      "length": 97.84,
+      "up": true
+    },
+    {
+      "origin": "Gliwice",
+      "destination": "Cracow",
+      "capacity": 40,
+      "length": 148.75,
+      "up": true
+    },
+    {
+      "origin": "Chestokhov",
+      "destination": "Gliwice",
+      "capacity": 40,
+      "length": 97.84,
+      "up": true
+    },
+    {
+      "origin": "Chestokhov",
+      "destination": "Lodz",
+      "capacity": 40,
+      "length": 164.94,
+      "up": true
+    },
+    {
+      "origin": "Lodz",
+      "destination": "Chestokhov",
+      "capacity": 40,
+      "length": 164.94,
+      "up": true
+    },
+    {
+      "origin": "Lodz",
+      "destination": "Warsaw",
+      "capacity": 40,
+      "length": 174.6,
+      "up": true
+    },
+    {
+      "origin": "Warsaw",
+      "destination": "Poznan",
+      "capacity": 40,
+      "length": 417.6,
+      "up": true
+    },
+    {
+      "origin": "Warsaw",
+      "destination": "Lodz",
+      "capacity": 40,
+      "length": 174.6,
+      "up": true
+    },
+    {
+      "origin": "Warsaw",
+      "destination": "Belostok",
+      "capacity": 40,
+      "length": 264.42,
+      "up": true
+    },
+    {
+      "origin": "Warsaw",
+      "destination": "Radom",
+      "capacity": 40,
+      "length": 139.22,
+      "up": true
+    },
+    {
+      "origin": "Belostok",
+      "destination": "Warsaw",
+      "capacity": 40,
+      "length": 264.42,
+      "up": true
+    },
+    {
+      "origin": "Belostok",
+      "destination": "Olsztyn",
+      "capacity": 40,
+      "length": 287.16,
+      "up": true
+    },
+    {
+      "origin": "Olsztyn",
+      "destination": "Gdynia",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 221.37,
+      "up": true
+    },
+    {
+      "origin": "Olsztyn",
+      "destination": "Belostok",
+      "capacity": 40,
+      "length": 287.16,
+      "up": true
+    },
+    {
+      "origin": "Cracow",
+      "destination": "Gliwice",
+      "capacity": 40,
+      "length": 148.75,
+      "up": true
+    },
+    {
+      "origin": "Cracow",
+      "destination": "Kielce",
+      "capacity": 40,
+      "length": 149.52,
+      "up": true
+    },
+    {
+      "origin": "Cracow",
+      "destination": "Rzeszow",
+      "capacity": 40,
+      "length": 216.39,
+      "up": true
+    },
+    {
+      "origin": "Kielce",
+      "destination": "Cracow",
+      "capacity": 40,
+      "length": 149.52,
+      "up": true
+    },
+    {
+      "origin": "Kielce",
+      "destination": "Radom",
+      "capacity": 40,
+      "length": 107.73,
+      "up": true
+    },
+    {
+      "origin": "Radom",
+      "destination": "Warsaw",
+      "capacity": 40,
+      "length": 139.22,
+      "up": true
+    },
+    {
+      "origin": "Radom",
+      "destination": "Kielce",
+      "capacity": 40,
+      "length": 107.73,
+      "up": true
+    },
+    {
+      "origin": "Radom",
+      "destination": "Deblin",
+      "capacity": 40,
+      "length": 77.94,
+      "up": true
+    },
+    {
+      "origin": "Deblin",
+      "destination": "Radom",
+      "capacity": 40,
+      "length": 77.94,
+      "up": true
+    },
+    {
+      "origin": "Deblin",
+      "destination": "Lublin",
+      "capacity": 40,
+      "length": 93.14,
+      "up": true
+    },
+    {
+      "origin": "Lublin",
+      "destination": "Deblin",
+      "capacity": 40,
+      "length": 93.14,
+      "up": true
+    },
+    {
+      "origin": "Lublin",
+      "destination": "Rzeszow",
+      "capacity": 40,
+      "length": 208.94,
+      "up": true
+    },
+    {
+      "origin": "Rzeszow",
+      "destination": "Cracow",
+      "capacity": 40,
+      "length": 216.39,
+      "up": true
+    },
+    {
+      "origin": "Rzeszow",
+      "destination": "Lublin",
+      "capacity": 40,
+      "length": 208.94,
+      "up": true
+    }
+  ]
+}

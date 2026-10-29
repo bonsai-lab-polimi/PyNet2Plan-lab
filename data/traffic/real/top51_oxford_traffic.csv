@@ -1,0 +1,41 @@
+# topology: OXFORD (real topology #51) (data/topologies/real/top51_oxford.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Bethel,Buckfield,5
+1,Dover,Manchester,1
+2,Buxton,Biddeford,4
+3,Augusta,Biddeford,3
+4,Framingham,Lewiston,1
+5,Keene,Worcester,5
+6,Turner,Buckfield,1
+7,Buxton,Augusta,1
+8,Portland,Boston,5
+9,Framingham,Bethel,2
+10,Framingham,Buxton,4
+11,Worcester,Norway,2
+12,Biddeford,Dover,4
+13,Buckfield,Augusta,2
+14,Buckfield,Sanford (historical),4
+15,Buxton,Dover,6
+16,Boston,Portsmouth,7
+17,Norway,Keene,6
+18,Springfield,Framingham,4
+19,Boston,Bethel,5
+20,Worcester,Portsmouth,6
+21,Springfield,Boston,8
+22,Bangor,Buxton,3
+23,Biddeford,Bethel,2
+24,Buckfield,Portland,4
+25,Bethel,Sanford (historical),4
+26,Portland,Keene,5
+27,Worcester,Lewiston,2
+28,Bethel,Portland,1
+29,Norway,Worcester,4
+30,Portland,Turner,2
+31,Augusta,Worcester,3
+32,Buxton,Bethel,4
+33,Portland,Portsmouth,2
+34,Manchester,Buckfield,6
+35,Framingham,Bangor,5
+36,Buxton,Framingham,1
+37,Springfield,Portsmouth,5

@@ -1,0 +1,580 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "FUNET (real topology #9)",
+  "description": "Real-world topology FUNET (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Kouvola",
+      "lat": 60.87,
+      "lon": 26.7,
+      "x": 2972230.4041804043,
+      "y": 8596034.16901935,
+      "up": true
+    },
+    {
+      "name": "Lahti",
+      "lat": 60.98,
+      "lon": 25.66,
+      "x": 2856458.1337554,
+      "y": 8621232.348354956,
+      "up": true
+    },
+    {
+      "name": "Mikkeli",
+      "lat": 61.69,
+      "lon": 27.27,
+      "x": 3035682.51393257,
+      "y": 8786007.777722688,
+      "up": true
+    },
+    {
+      "name": "Jyvaeskylae",
+      "lat": 62.23,
+      "lon": 25.73,
+      "x": 2864250.498110929,
+      "y": 8913886.672447903,
+      "up": true
+    },
+    {
+      "name": "Seinaejoki",
+      "lat": 62.8,
+      "lon": 22.83,
+      "x": 2541423.9748104354,
+      "y": 9051377.578790793,
+      "up": true
+    },
+    {
+      "name": "Pori",
+      "lat": 61.48,
+      "lon": 21.78,
+      "x": 2424538.5094774985,
+      "y": 8736881.004034907,
+      "up": true
+    },
+    {
+      "name": "Tampere",
+      "lat": 61.5,
+      "lon": 23.79,
+      "x": 2648290.685971978,
+      "y": 8741545.435835699,
+      "up": true
+    },
+    {
+      "name": "Haemeenlinna",
+      "lat": 61.0,
+      "lon": 24.46,
+      "x": 2722874.7448034715,
+      "y": 8625823.200203592,
+      "up": true
+    },
+    {
+      "name": "Rauma",
+      "lat": 61.13,
+      "lon": 21.51,
+      "x": 2394482.2469633147,
+      "y": 8655734.416039115,
+      "up": true
+    },
+    {
+      "name": "Turku",
+      "lat": 60.45,
+      "lon": 22.27,
+      "x": 2479085.0599662024,
+      "y": 8500614.173537267,
+      "up": true
+    },
+    {
+      "name": "Kotka",
+      "lat": 60.47,
+      "lon": 26.92,
+      "x": 2996720.692154925,
+      "y": 8505129.892859729,
+      "up": true
+    },
+    {
+      "name": "Helsinki",
+      "lat": 60.17,
+      "lon": 24.94,
+      "x": 2776308.100384243,
+      "y": 8437684.160972923,
+      "up": true
+    },
+    {
+      "name": "Espoo",
+      "lat": 60.21,
+      "lon": 24.65,
+      "x": 2744025.4480541935,
+      "y": 8446641.217300178,
+      "up": true
+    },
+    {
+      "name": "Salo",
+      "lat": 60.38,
+      "lon": 23.13,
+      "x": 2574819.8220484173,
+      "y": 8484831.018853588,
+      "up": true
+    },
+    {
+      "name": "Joensuu",
+      "lat": 62.6,
+      "lon": 29.77,
+      "x": 3313981.240915754,
+      "y": 9002835.082445009,
+      "up": true
+    },
+    {
+      "name": "Lappeenranta",
+      "lat": 61.06,
+      "lon": 28.19,
+      "x": 3138096.445462382,
+      "y": 8639613.124070946,
+      "up": true
+    },
+    {
+      "name": "Oulu",
+      "lat": 65.01,
+      "lon": 25.47,
+      "x": 2835307.430504678,
+      "y": 9611006.046567798,
+      "up": true
+    },
+    {
+      "name": "Haukipudas",
+      "lat": 65.18,
+      "lon": 25.35,
+      "x": 2821949.091609485,
+      "y": 9655944.80746646,
+      "up": true
+    },
+    {
+      "name": "Rovaniemi",
+      "lat": 66.5,
+      "lon": 25.72,
+      "x": 2863137.303202996,
+      "y": 10015051.24417033,
+      "up": true
+    },
+    {
+      "name": "Sodankylae",
+      "lat": 67.42,
+      "lon": 26.6,
+      "x": 2961098.455101077,
+      "y": 10276763.282564731,
+      "up": true
+    },
+    {
+      "name": "Ristijaervi",
+      "lat": 64.5,
+      "lon": 28.22,
+      "x": 3141436.03018618,
+      "y": 9477884.896855224,
+      "up": true
+    },
+    {
+      "name": "Kokkola",
+      "lat": 63.84,
+      "lon": 23.13,
+      "x": 2574819.8220484173,
+      "y": 9309249.768938093,
+      "up": true
+    },
+    {
+      "name": "Vaasa",
+      "lat": 63.1,
+      "lon": 21.62,
+      "x": 2406727.3909505745,
+      "y": 9124813.23624914,
+      "up": true
+    },
+    {
+      "name": "Kuopio",
+      "lat": 62.89,
+      "lon": 27.68,
+      "x": 3081323.505157812,
+      "y": 9073329.331005545,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Kouvola",
+      "destination": "Lahti",
+      "capacity": 40,
+      "length": 86.27,
+      "up": true
+    },
+    {
+      "origin": "Kouvola",
+      "destination": "Kotka",
+      "capacity": 40,
+      "length": 69.1,
+      "up": true
+    },
+    {
+      "origin": "Kouvola",
+      "destination": "Mikkeli",
+      "capacity": 40,
+      "length": 144.2,
+      "up": true
+    },
+    {
+      "origin": "Kouvola",
+      "destination": "Lappeenranta",
+      "capacity": 40,
+      "length": 124.71,
+      "up": true
+    },
+    {
+      "origin": "Lahti",
+      "destination": "Kouvola",
+      "capacity": 40,
+      "length": 86.27,
+      "up": true
+    },
+    {
+      "origin": "Lahti",
+      "destination": "Helsinki",
+      "capacity": 40,
+      "length": 147.42,
+      "up": true
+    },
+    {
+      "origin": "Mikkeli",
+      "destination": "Kouvola",
+      "capacity": 40,
+      "length": 144.2,
+      "up": true
+    },
+    {
+      "origin": "Mikkeli",
+      "destination": "Kuopio",
+      "capacity": 40,
+      "length": 202.66,
+      "up": true
+    },
+    {
+      "origin": "Mikkeli",
+      "destination": "Jyvaeskylae",
+      "capacity": 40,
+      "length": 150.63,
+      "up": true
+    },
+    {
+      "origin": "Jyvaeskylae",
+      "destination": "Mikkeli",
+      "capacity": 40,
+      "length": 150.63,
+      "up": true
+    },
+    {
+      "origin": "Jyvaeskylae",
+      "destination": "Tampere",
+      "capacity": 40,
+      "length": 195.2,
+      "up": true
+    },
+    {
+      "origin": "Seinaejoki",
+      "destination": "Vaasa",
+      "capacity": 40,
+      "length": 104.53,
+      "up": true
+    },
+    {
+      "origin": "Seinaejoki",
+      "destination": "Pori",
+      "capacity": 40,
+      "length": 234.88,
+      "up": true
+    },
+    {
+      "origin": "Pori",
+      "destination": "Seinaejoki",
+      "capacity": 40,
+      "length": 234.88,
+      "up": true
+    },
+    {
+      "origin": "Pori",
+      "destination": "Rauma",
+      "capacity": 40,
+      "length": 62.25,
+      "up": true
+    },
+    {
+      "origin": "Tampere",
+      "destination": "Jyvaeskylae",
+      "capacity": 40,
+      "length": 195.2,
+      "up": true
+    },
+    {
+      "origin": "Tampere",
+      "destination": "Haemeenlinna",
+      "capacity": 40,
+      "length": 99.22,
+      "up": true
+    },
+    {
+      "origin": "Haemeenlinna",
+      "destination": "Tampere",
+      "capacity": 40,
+      "length": 99.22,
+      "up": true
+    },
+    {
+      "origin": "Haemeenlinna",
+      "destination": "Espoo",
+      "capacity": 40,
+      "length": 132.68,
+      "up": true
+    },
+    {
+      "origin": "Rauma",
+      "destination": "Pori",
+      "capacity": 40,
+      "length": 62.25,
+      "up": true
+    },
+    {
+      "origin": "Rauma",
+      "destination": "Turku",
+      "capacity": 40,
+      "length": 129.19,
+      "up": true
+    },
+    {
+      "origin": "Turku",
+      "destination": "Rauma",
+      "capacity": 40,
+      "length": 129.19,
+      "up": true
+    },
+    {
+      "origin": "Turku",
+      "destination": "Salo",
+      "capacity": 40,
+      "length": 71.77,
+      "up": true
+    },
+    {
+      "origin": "Kotka",
+      "destination": "Kouvola",
+      "capacity": 40,
+      "length": 69.1,
+      "up": true
+    },
+    {
+      "origin": "Helsinki",
+      "destination": "Lahti",
+      "capacity": 40,
+      "length": 147.42,
+      "up": true
+    },
+    {
+      "origin": "Helsinki",
+      "destination": "Espoo",
+      "capacity": 40,
+      "length": 24.95,
+      "up": true
+    },
+    {
+      "origin": "Espoo",
+      "destination": "Haemeenlinna",
+      "capacity": 40,
+      "length": 132.68,
+      "up": true
+    },
+    {
+      "origin": "Espoo",
+      "destination": "Helsinki",
+      "capacity": 40,
+      "length": 24.95,
+      "up": true
+    },
+    {
+      "origin": "Espoo",
+      "destination": "Salo",
+      "capacity": 40,
+      "length": 128.79,
+      "up": true
+    },
+    {
+      "origin": "Salo",
+      "destination": "Turku",
+      "capacity": 40,
+      "length": 71.77,
+      "up": true
+    },
+    {
+      "origin": "Salo",
+      "destination": "Espoo",
+      "capacity": 40,
+      "length": 128.79,
+      "up": true
+    },
+    {
+      "origin": "Joensuu",
+      "destination": "Lappeenranta",
+      "capacity": 40,
+      "length": 285.38,
+      "up": true
+    },
+    {
+      "origin": "Joensuu",
+      "destination": "Kuopio",
+      "capacity": 40,
+      "length": 166.8,
+      "up": true
+    },
+    {
+      "origin": "Lappeenranta",
+      "destination": "Kouvola",
+      "capacity": 40,
+      "length": 124.71,
+      "up": true
+    },
+    {
+      "origin": "Lappeenranta",
+      "destination": "Joensuu",
+      "capacity": 40,
+      "length": 285.38,
+      "up": true
+    },
+    {
+      "origin": "Oulu",
+      "destination": "Haukipudas",
+      "capacity": 40,
+      "length": 29.58,
+      "up": true
+    },
+    {
+      "origin": "Oulu",
+      "destination": "Ristijaervi",
+      "capacity": 40,
+      "length": 213.29,
+      "up": true
+    },
+    {
+      "origin": "Oulu",
+      "destination": "Kokkola",
+      "capacity": 40,
+      "length": 257.79,
+      "up": true
+    },
+    {
+      "origin": "Haukipudas",
+      "destination": "Oulu",
+      "capacity": 40,
+      "length": 29.58,
+      "up": true
+    },
+    {
+      "origin": "Haukipudas",
+      "destination": "Rovaniemi",
+      "capacity": 40,
+      "length": 221.61,
+      "up": true
+    },
+    {
+      "origin": "Rovaniemi",
+      "destination": "Haukipudas",
+      "capacity": 40,
+      "length": 221.61,
+      "up": true
+    },
+    {
+      "origin": "Rovaniemi",
+      "destination": "Sodankylae",
+      "capacity": 40,
+      "length": 163.85,
+      "up": true
+    },
+    {
+      "origin": "Rovaniemi",
+      "destination": "Ristijaervi",
+      "capacity": 40,
+      "length": 375.67,
+      "up": true
+    },
+    {
+      "origin": "Sodankylae",
+      "destination": "Rovaniemi",
+      "capacity": 40,
+      "length": 163.85,
+      "up": true
+    },
+    {
+      "origin": "Ristijaervi",
+      "destination": "Oulu",
+      "capacity": 40,
+      "length": 213.29,
+      "up": true
+    },
+    {
+      "origin": "Ristijaervi",
+      "destination": "Rovaniemi",
+      "capacity": 40,
+      "length": 375.67,
+      "up": true
+    },
+    {
+      "origin": "Ristijaervi",
+      "destination": "Kuopio",
+      "capacity": 40,
+      "length": 271.48,
+      "up": true
+    },
+    {
+      "origin": "Kokkola",
+      "destination": "Oulu",
+      "capacity": 40,
+      "length": 257.79,
+      "up": true
+    },
+    {
+      "origin": "Kokkola",
+      "destination": "Vaasa",
+      "capacity": 40,
+      "length": 166.99,
+      "up": true
+    },
+    {
+      "origin": "Vaasa",
+      "destination": "Seinaejoki",
+      "capacity": 40,
+      "length": 104.53,
+      "up": true
+    },
+    {
+      "origin": "Vaasa",
+      "destination": "Kokkola",
+      "capacity": 40,
+      "length": 166.99,
+      "up": true
+    },
+    {
+      "origin": "Kuopio",
+      "destination": "Mikkeli",
+      "capacity": 40,
+      "length": 202.66,
+      "up": true
+    },
+    {
+      "origin": "Kuopio",
+      "destination": "Joensuu",
+      "capacity": 40,
+      "length": 166.8,
+      "up": true
+    },
+    {
+      "origin": "Kuopio",
+      "destination": "Ristijaervi",
+      "capacity": 40,
+      "length": 271.48,
+      "up": true
+    }
+  ]
+}

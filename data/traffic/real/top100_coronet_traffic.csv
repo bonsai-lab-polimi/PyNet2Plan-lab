@@ -1,0 +1,63 @@
+# topology: CORONET (real topology #100) (data/topologies/real/top100_coronet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Seattle,Little Rock,5
+1,Tucson,Las Vegas,6
+2,San Diego,Billings,6
+3,Beverly Hills,West Albany,8
+4,Tallahassee,West Raleigh,1
+5,Phoenix,Billings,8
+6,Little Rock,Portland,2
+7,Birmingham,Olmos Park,4
+8,Olmos Park,Buffalo,5
+9,Schall Circle,Lee Acres,5
+10,Chalmette,Jacksonville,7
+11,Thompsonville,Beverly Hills,7
+12,Newark,Phoenix,4
+13,Columbus,Cleveland,3
+14,Sacramento,Las Vegas,5
+15,Chicago,Tulsa,4
+16,Baltimore,Toledo,8
+17,West Raleigh,Ralston,8
+18,Syracuse,Minneapolis,1
+19,Columbus,West Raleigh,1
+20,Lee Acres,Tucson,8
+21,Birmingham,Columbus,2
+22,Hartford,West Raleigh,6
+23,Thompsonville,Greensboro,2
+24,Seattle,West Albany,8
+25,Chicago,Little Rock,7
+26,West Albany,Minneapolis,8
+27,Seattle,Sacramento,4
+28,Portland,Jacksonville,3
+29,Phoenix,Toledo,4
+30,Baton Rouge,South Boston,6
+31,Brooklyn,Phoenix,8
+32,Syracuse,Billings,2
+33,Brooklyn,Tucson,5
+34,Ralston,Syracuse,4
+35,Baton Rouge,Shawnee,1
+36,Audubon Park,Seven Trees,8
+37,Baton Rouge,Schall Circle,7
+38,Tucson,Tampa,5
+39,Baltimore,West Albany,1
+40,Providence,Little Rock,1
+41,Saint Bernard,Charlotte,4
+42,San Diego,Portland,7
+43,Miami,Toledo,6
+44,Mission Canyon,Portland,5
+45,Shawnee,Hartford,2
+46,Shawnee,Thompsonville,4
+47,Wauwatosa,West Raleigh,1
+48,Tallahassee,Aurora,3
+49,Aurora,Salt Lake City,8
+50,Las Vegas,Highland Park,2
+51,West Albany,San Diego,6
+52,Sacramento,Tulsa,1
+53,Lee Acres,Ralston,5
+54,"Washington, D.C.",Aurora,7
+55,Miami,Nashville,4
+56,Dallas,West Raleigh,5
+57,Billings,Alameda,5
+58,Nashville,Tampa,8
+59,Toledo,West Albany,5

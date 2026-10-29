@@ -1,0 +1,1016 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "CERNET (real topology #101)",
+  "description": "Real-world topology CERNET (Topology Bench dataset), 40 wavelengths per fiber.",
+  "nodes": [
+    {
+      "name": "Urumchi, Xinjiang, China",
+      "lat": 43.419754,
+      "lon": 87.319461,
+      "x": 9720357.934863111,
+      "y": 5376082.502561612,
+      "up": true
+    },
+    {
+      "name": "Lasa, Tibet, China",
+      "lat": 29.6542054,
+      "lon": 91.1173015,
+      "x": 10143131.605437182,
+      "y": 3459178.163505355,
+      "up": true
+    },
+    {
+      "name": "Xining, Qinghai, China",
+      "lat": 36.617331,
+      "lon": 101.7761976,
+      "x": 11329674.491707591,
+      "y": 4385901.045101442,
+      "up": true
+    },
+    {
+      "name": "Lanzhou, Gansu, China",
+      "lat": 36.474436,
+      "lon": 103.733224,
+      "x": 11547529.674024586,
+      "y": 4366100.947787325,
+      "up": true
+    },
+    {
+      "name": "Yinchuan, Ningxia, China",
+      "lat": 38.4852037,
+      "lon": 106.2261926,
+      "x": 11825045.669140205,
+      "y": 4648197.402436727,
+      "up": true
+    },
+    {
+      "name": "Xi'an, Shaanxi, China",
+      "lat": 34.261004,
+      "lon": 108.9423363,
+      "x": 12127405.402745564,
+      "y": 4063902.561275861,
+      "up": true
+    },
+    {
+      "name": "Chengdu, Sichuan, China",
+      "lat": 30.7001324,
+      "lon": 104.0708278,
+      "x": 11585111.55713046,
+      "y": 3593866.555205627,
+      "up": true
+    },
+    {
+      "name": "Kunming, Yunnan, China",
+      "lat": 25.0363006,
+      "lon": 102.7086139,
+      "x": 11433470.59943094,
+      "y": 2880203.9942008983,
+      "up": true
+    },
+    {
+      "name": "Guiyang, Guizhou, China",
+      "lat": 26.559901,
+      "lon": 106.6987409,
+      "x": 11877649.505271433,
+      "y": 3068593.9748963686,
+      "up": true
+    },
+    {
+      "name": "Jiulongpo District, Chongqing, China",
+      "lat": 29.436043,
+      "lon": 106.360341,
+      "x": 11839979.000718938,
+      "y": 3431262.467455574,
+      "up": true
+    },
+    {
+      "name": "Wuhan, Hubei, China",
+      "lat": 30.5951051,
+      "lon": 114.2999353,
+      "x": 12723810.595300116,
+      "y": 3580276.720603019,
+      "up": true
+    },
+    {
+      "name": "Zhengzhou, Henan, China",
+      "lat": 34.7533392,
+      "lon": 113.6599983,
+      "x": 12652573.13432034,
+      "y": 4130411.2442221767,
+      "up": true
+    },
+    {
+      "name": "Taiyuan, Shanxi, China",
+      "lat": 37.870009,
+      "lon": 112.5452739,
+      "x": 12528482.581737502,
+      "y": 4561078.684415526,
+      "up": true
+    },
+    {
+      "name": "Hohhot, Inner Mongolia, China",
+      "lat": 40.8340827,
+      "lon": 111.6730521,
+      "x": 12431387.29510271,
+      "y": 4987899.616722796,
+      "up": true
+    },
+    {
+      "name": "Beijing, Beijing, China",
+      "lat": 39.9057136,
+      "lon": 116.3912972,
+      "x": 12956619.937072568,
+      "y": 4852250.281614819,
+      "up": true
+    },
+    {
+      "name": "Shijiazhuang, Hebei, China",
+      "lat": 38.0429742,
+      "lon": 114.5088385,
+      "x": 12747065.5931492,
+      "y": 4585498.40604266,
+      "up": true
+    },
+    {
+      "name": "Liaocheng, Shandong, China",
+      "lat": 36.4441808,
+      "lon": 115.9642007,
+      "x": 12909075.77217298,
+      "y": 4361913.354786891,
+      "up": true
+    },
+    {
+      "name": "Tianjin, Tianjin, China",
+      "lat": 39.1175488,
+      "lon": 117.1913008,
+      "x": 13045675.930457354,
+      "y": 4738523.443821786,
+      "up": true
+    },
+    {
+      "name": "Quingdao, Shandong, China",
+      "lat": 36.0668862,
+      "lon": 120.3775232,
+      "x": 13400364.585579474,
+      "y": 4309828.717284327,
+      "up": true
+    },
+    {
+      "name": "Dalian, Liaoning, China",
+      "lat": 39.740278,
+      "lon": 122.255833,
+      "x": 13609457.07606749,
+      "y": 4828271.654842931,
+      "up": true
+    },
+    {
+      "name": "Shenyang, Liaoning, China",
+      "lat": 41.8026095,
+      "lon": 123.4279105,
+      "x": 13739932.146537744,
+      "y": 5131457.011667281,
+      "up": true
+    },
+    {
+      "name": "Changchun, Jilin, China",
+      "lat": 43.8844201,
+      "lon": 125.3180998,
+      "x": 13950347.056916637,
+      "y": 5447573.314446016,
+      "up": true
+    },
+    {
+      "name": "Harbin, Heilongjiang, China",
+      "lat": 45.7593633,
+      "lon": 126.6276177,
+      "x": 14096121.922729317,
+      "y": 5741870.521251077,
+      "up": true
+    },
+    {
+      "name": "Nanjing, Jiangsu, China",
+      "lat": 32.0438284,
+      "lon": 118.7788631,
+      "x": 13222402.557295952,
+      "y": 3769065.161699038,
+      "up": true
+    },
+    {
+      "name": "Shanghai, Shanghai, China",
+      "lat": 31.2323437,
+      "lon": 121.4691024,
+      "x": 13521878.626284005,
+      "y": 3662960.299537875,
+      "up": true
+    },
+    {
+      "name": "Hefei, Anhui, China",
+      "lat": 31.8665676,
+      "lon": 117.281428,
+      "x": 13055708.844467977,
+      "y": 3745808.267151427,
+      "up": true
+    },
+    {
+      "name": "Hangzhou, Zhejiang, China",
+      "lat": 30.2489634,
+      "lon": 120.2052342,
+      "x": 13381185.461830193,
+      "y": 3535592.077450768,
+      "up": true
+    },
+    {
+      "name": "Fuzhou, Fujian, China",
+      "lat": 26.0774954,
+      "lon": 119.2918215,
+      "x": 13279504.825182084,
+      "y": 3008682.2507389747,
+      "up": true
+    },
+    {
+      "name": "Nanchang, Jiangxi, China",
+      "lat": 28.687547,
+      "lon": 115.8540042,
+      "x": 12896808.753905777,
+      "y": 3335937.5584418727,
+      "up": true
+    },
+    {
+      "name": "Xiamen, Fujian, China",
+      "lat": 24.5438732,
+      "lon": 118.0768065,
+      "x": 13144249.974075897,
+      "y": 2819822.867499497,
+      "up": true
+    },
+    {
+      "name": "Shenzhen, Guangdong, China",
+      "lat": 22.5445741,
+      "lon": 114.0545429,
+      "x": 12696493.638287576,
+      "y": 2577034.706673928,
+      "up": true
+    },
+    {
+      "name": "Guangzhou, Guangdong, China",
+      "lat": 23.1301964,
+      "lon": 113.2592945,
+      "x": 12607966.99134541,
+      "y": 2647771.301727856,
+      "up": true
+    },
+    {
+      "name": "Guilin, Guangxi, China",
+      "lat": 25.238704,
+      "lon": 110.1750728,
+      "x": 12264633.002207844,
+      "y": 2905092.6339183124,
+      "up": true
+    },
+    {
+      "name": "Nanning, Guangxi, China",
+      "lat": 22.8193063,
+      "lon": 108.3627211,
+      "x": 12062882.933825523,
+      "y": 2610181.368142963,
+      "up": true
+    },
+    {
+      "name": "Haikou, Hainan, China",
+      "lat": 20.0462328,
+      "lon": 110.1956502,
+      "x": 12266923.667897694,
+      "y": 2278508.641836609,
+      "up": true
+    },
+    {
+      "name": "Changsha, Hunan, China",
+      "lat": 28.1450774,
+      "lon": 113.2384362,
+      "x": 12605645.056010596,
+      "y": 3267277.07407427,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Urumchi, Xinjiang, China",
+      "destination": "Yinchuan, Ningxia, China",
+      "capacity": 40,
+      "length": 2094.34,
+      "up": true
+    },
+    {
+      "origin": "Urumchi, Xinjiang, China",
+      "destination": "Xi'an, Shaanxi, China",
+      "capacity": 40,
+      "length": 2653.36,
+      "up": true
+    },
+    {
+      "origin": "Lasa, Tibet, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 3202.59,
+      "up": true
+    },
+    {
+      "origin": "Xining, Qinghai, China",
+      "destination": "Lanzhou, Gansu, China",
+      "capacity": 40,
+      "length": 263.31,
+      "up": true
+    },
+    {
+      "origin": "Xining, Qinghai, China",
+      "destination": "Xi'an, Shaanxi, China",
+      "capacity": 40,
+      "length": 1049.77,
+      "up": true
+    },
+    {
+      "origin": "Lanzhou, Gansu, China",
+      "destination": "Xining, Qinghai, China",
+      "capacity": 40,
+      "length": 263.31,
+      "up": true
+    },
+    {
+      "origin": "Lanzhou, Gansu, China",
+      "destination": "Xi'an, Shaanxi, China",
+      "capacity": 40,
+      "length": 798.75,
+      "up": true
+    },
+    {
+      "origin": "Yinchuan, Ningxia, China",
+      "destination": "Urumchi, Xinjiang, China",
+      "capacity": 40,
+      "length": 2094.34,
+      "up": true
+    },
+    {
+      "origin": "Yinchuan, Ningxia, China",
+      "destination": "Xi'an, Shaanxi, China",
+      "capacity": 40,
+      "length": 793.29,
+      "up": true
+    },
+    {
+      "origin": "Xi'an, Shaanxi, China",
+      "destination": "Urumchi, Xinjiang, China",
+      "capacity": 40,
+      "length": 2653.36,
+      "up": true
+    },
+    {
+      "origin": "Xi'an, Shaanxi, China",
+      "destination": "Xining, Qinghai, China",
+      "capacity": 40,
+      "length": 1049.77,
+      "up": true
+    },
+    {
+      "origin": "Xi'an, Shaanxi, China",
+      "destination": "Lanzhou, Gansu, China",
+      "capacity": 40,
+      "length": 798.75,
+      "up": true
+    },
+    {
+      "origin": "Xi'an, Shaanxi, China",
+      "destination": "Yinchuan, Ningxia, China",
+      "capacity": 40,
+      "length": 793.29,
+      "up": true
+    },
+    {
+      "origin": "Xi'an, Shaanxi, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 1366.07,
+      "up": true
+    },
+    {
+      "origin": "Xi'an, Shaanxi, China",
+      "destination": "Chengdu, Sichuan, China",
+      "capacity": 40,
+      "length": 906.72,
+      "up": true
+    },
+    {
+      "origin": "Chengdu, Sichuan, China",
+      "destination": "Xi'an, Shaanxi, China",
+      "capacity": 40,
+      "length": 906.72,
+      "up": true
+    },
+    {
+      "origin": "Chengdu, Sichuan, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 1467.42,
+      "up": true
+    },
+    {
+      "origin": "Chengdu, Sichuan, China",
+      "destination": "Jiulongpo District, Chongqing, China",
+      "capacity": 40,
+      "length": 392.0,
+      "up": true
+    },
+    {
+      "origin": "Chengdu, Sichuan, China",
+      "destination": "Guiyang, Guizhou, China",
+      "capacity": 40,
+      "length": 790.42,
+      "up": true
+    },
+    {
+      "origin": "Chengdu, Sichuan, China",
+      "destination": "Kunming, Yunnan, China",
+      "capacity": 40,
+      "length": 965.77,
+      "up": true
+    },
+    {
+      "origin": "Kunming, Yunnan, China",
+      "destination": "Chengdu, Sichuan, China",
+      "capacity": 40,
+      "length": 965.77,
+      "up": true
+    },
+    {
+      "origin": "Kunming, Yunnan, China",
+      "destination": "Guiyang, Guizhou, China",
+      "capacity": 40,
+      "length": 650.81,
+      "up": true
+    },
+    {
+      "origin": "Guiyang, Guizhou, China",
+      "destination": "Chengdu, Sichuan, China",
+      "capacity": 40,
+      "length": 790.42,
+      "up": true
+    },
+    {
+      "origin": "Guiyang, Guizhou, China",
+      "destination": "Kunming, Yunnan, China",
+      "capacity": 40,
+      "length": 650.81,
+      "up": true
+    },
+    {
+      "origin": "Jiulongpo District, Chongqing, China",
+      "destination": "Chengdu, Sichuan, China",
+      "capacity": 40,
+      "length": 392.0,
+      "up": true
+    },
+    {
+      "origin": "Jiulongpo District, Chongqing, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 1162.58,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Chengdu, Sichuan, China",
+      "capacity": 40,
+      "length": 1467.42,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Jiulongpo District, Chongqing, China",
+      "capacity": 40,
+      "length": 1162.58,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Zhengzhou, Henan, China",
+      "capacity": 40,
+      "length": 699.35,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Changsha, Hunan, China",
+      "capacity": 40,
+      "length": 436.8,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 1254.66,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Hefei, Anhui, China",
+      "capacity": 40,
+      "length": 475.15,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Nanjing, Jiangsu, China",
+      "capacity": 40,
+      "length": 682.33,
+      "up": true
+    },
+    {
+      "origin": "Wuhan, Hubei, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Zhengzhou, Henan, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 699.35,
+      "up": true
+    },
+    {
+      "origin": "Zhengzhou, Henan, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 932.47,
+      "up": true
+    },
+    {
+      "origin": "Taiyuan, Shanxi, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 603.73,
+      "up": true
+    },
+    {
+      "origin": "Taiyuan, Shanxi, China",
+      "destination": "Hohhot, Inner Mongolia, China",
+      "capacity": 40,
+      "length": 507.01,
+      "up": true
+    },
+    {
+      "origin": "Hohhot, Inner Mongolia, China",
+      "destination": "Taiyuan, Shanxi, China",
+      "capacity": 40,
+      "length": 507.01,
+      "up": true
+    },
+    {
+      "origin": "Hohhot, Inner Mongolia, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 619.16,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Lasa, Tibet, China",
+      "capacity": 40,
+      "length": 3202.59,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Xi'an, Shaanxi, China",
+      "capacity": 40,
+      "length": 1366.07,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Zhengzhou, Henan, China",
+      "capacity": 40,
+      "length": 932.47,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Taiyuan, Shanxi, China",
+      "capacity": 40,
+      "length": 603.73,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Hohhot, Inner Mongolia, China",
+      "capacity": 40,
+      "length": 619.16,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Shenyang, Liaoning, China",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 942.07,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Tianjin, Tianjin, China",
+      "capacity": 40,
+      "length": 166.97,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Nanchang, Jiangxi, China",
+      "capacity": 40,
+      "length": 1560.47,
+      "up": true
+    },
+    {
+      "origin": "Beijing, Beijing, China",
+      "destination": "Shijiazhuang, Hebei, China",
+      "capacity": 40,
+      "length": 395.09,
+      "up": true
+    },
+    {
+      "origin": "Shijiazhuang, Hebei, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 395.09,
+      "up": true
+    },
+    {
+      "origin": "Liaocheng, Shandong, China",
+      "destination": "Tianjin, Tianjin, China",
+      "capacity": 40,
+      "length": 474.32,
+      "up": true
+    },
+    {
+      "origin": "Liaocheng, Shandong, China",
+      "destination": "Quingdao, Shandong, China",
+      "capacity": 40,
+      "length": 596.86,
+      "up": true
+    },
+    {
+      "origin": "Liaocheng, Shandong, China",
+      "destination": "Nanjing, Jiangsu, China",
+      "capacity": 40,
+      "length": 830.12,
+      "up": true
+    },
+    {
+      "origin": "Tianjin, Tianjin, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 166.97,
+      "up": true
+    },
+    {
+      "origin": "Tianjin, Tianjin, China",
+      "destination": "Liaocheng, Shandong, China",
+      "capacity": 40,
+      "length": 474.32,
+      "up": true
+    },
+    {
+      "origin": "Quingdao, Shandong, China",
+      "destination": "Liaocheng, Shandong, China",
+      "capacity": 40,
+      "length": 596.86,
+      "up": true
+    },
+    {
+      "origin": "Quingdao, Shandong, China",
+      "destination": "Nanjing, Jiangsu, China",
+      "capacity": 40,
+      "length": 706.41,
+      "up": true
+    },
+    {
+      "origin": "Dalian, Liaoning, China",
+      "destination": "Shenyang, Liaoning, China",
+      "capacity": 40,
+      "length": 374.48,
+      "up": true
+    },
+    {
+      "origin": "Shenyang, Liaoning, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 942.07,
+      "up": true
+    },
+    {
+      "origin": "Shenyang, Liaoning, China",
+      "destination": "Dalian, Liaoning, China",
+      "capacity": 40,
+      "length": 374.48,
+      "up": true
+    },
+    {
+      "origin": "Shenyang, Liaoning, China",
+      "destination": "Harbin, Heilongjiang, China",
+      "capacity": 40,
+      "length": 764.05,
+      "up": true
+    },
+    {
+      "origin": "Shenyang, Liaoning, China",
+      "destination": "Changchun, Jilin, China",
+      "capacity": 40,
+      "length": 417.11,
+      "up": true
+    },
+    {
+      "origin": "Changchun, Jilin, China",
+      "destination": "Shenyang, Liaoning, China",
+      "capacity": 40,
+      "length": 417.11,
+      "up": true
+    },
+    {
+      "origin": "Harbin, Heilongjiang, China",
+      "destination": "Shenyang, Liaoning, China",
+      "capacity": 40,
+      "length": 764.05,
+      "up": true
+    },
+    {
+      "origin": "Nanjing, Jiangsu, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 682.33,
+      "up": true
+    },
+    {
+      "origin": "Nanjing, Jiangsu, China",
+      "destination": "Liaocheng, Shandong, China",
+      "capacity": 40,
+      "length": 830.12,
+      "up": true
+    },
+    {
+      "origin": "Nanjing, Jiangsu, China",
+      "destination": "Quingdao, Shandong, China",
+      "capacity": 40,
+      "length": 706.41,
+      "up": true
+    },
+    {
+      "origin": "Nanjing, Jiangsu, China",
+      "destination": "Shanghai, Shanghai, China",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Nanjing, Jiangsu, China",
+      "destination": "Hefei, Anhui, China",
+      "capacity": 40,
+      "length": 405.28,
+      "up": true
+    },
+    {
+      "origin": "Shanghai, Shanghai, China",
+      "destination": "Nanjing, Jiangsu, China",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Shanghai, Shanghai, China",
+      "destination": "Nanchang, Jiangxi, China",
+      "capacity": 40,
+      "length": 213.96,
+      "up": true
+    },
+    {
+      "origin": "Shanghai, Shanghai, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 915.53,
+      "up": true
+    },
+    {
+      "origin": "Shanghai, Shanghai, China",
+      "destination": "Hangzhou, Zhejiang, China",
+      "capacity": 40,
+      "length": 1514.99,
+      "up": true
+    },
+    {
+      "origin": "Shanghai, Shanghai, China",
+      "destination": "Fuzhou, Fujian, China",
+      "capacity": 40,
+      "length": 244.39,
+      "up": true
+    },
+    {
+      "origin": "Hefei, Anhui, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 475.15,
+      "up": true
+    },
+    {
+      "origin": "Hefei, Anhui, China",
+      "destination": "Nanjing, Jiangsu, China",
+      "capacity": 40,
+      "length": 405.28,
+      "up": true
+    },
+    {
+      "origin": "Hangzhou, Zhejiang, China",
+      "destination": "Shanghai, Shanghai, China",
+      "capacity": 40,
+      "length": 1514.99,
+      "up": true
+    },
+    {
+      "origin": "Fuzhou, Fujian, China",
+      "destination": "Shanghai, Shanghai, China",
+      "capacity": 40,
+      "length": 244.39,
+      "up": true
+    },
+    {
+      "origin": "Fuzhou, Fujian, China",
+      "destination": "Xiamen, Fujian, China",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 916.88,
+      "up": true
+    },
+    {
+      "origin": "Nanchang, Jiangxi, China",
+      "destination": "Beijing, Beijing, China",
+      "capacity": 40,
+      "length": 1560.47,
+      "up": true
+    },
+    {
+      "origin": "Nanchang, Jiangxi, China",
+      "destination": "Shanghai, Shanghai, China",
+      "capacity": 40,
+      "length": 213.96,
+      "up": true
+    },
+    {
+      "origin": "Xiamen, Fujian, China",
+      "destination": "Fuzhou, Fujian, China",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 916.88,
+      "up": true
+    },
+    {
+      "origin": "Xiamen, Fujian, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 771.82,
+      "up": true
+    },
+    {
+      "origin": "Shenzhen, Guangdong, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 156.47,
+      "up": true
+    },
+    {
+      "origin": "Shenzhen, Guangdong, China",
+      "destination": "Haikou, Hainan, China",
+      "capacity": 40,
+      "length": 730.18,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 1254.66,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Shanghai, Shanghai, China",
+      "capacity": 40,
+      "length": 915.53,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Xiamen, Fujian, China",
+      "capacity": 40,
+      "length": 771.82,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Shenzhen, Guangdong, China",
+      "capacity": 40,
+      "length": 156.47,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Changsha, Hunan, China",
+      "capacity": 40,
+      "length": 836.45,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Guilin, Guangxi, China",
+      "capacity": 40,
+      "length": 586.39,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Nanning, Guangxi, China",
+      "capacity": 40,
+      "length": 753.68,
+      "up": true
+    },
+    {
+      "origin": "Guangzhou, Guangdong, China",
+      "destination": "Haikou, Hainan, China",
+      "capacity": 40,
+      "length": 700.19,
+      "up": true
+    },
+    {
+      "origin": "Guilin, Guangxi, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 586.39,
+      "up": true
+    },
+    {
+      "origin": "Guilin, Guangxi, China",
+      "destination": "Nanning, Guangxi, China",
+      "capacity": 40,
+      "length": 488.93,
+      "up": true
+    },
+    {
+      "origin": "Nanning, Guangxi, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 753.68,
+      "up": true
+    },
+    {
+      "origin": "Nanning, Guangxi, China",
+      "destination": "Guilin, Guangxi, China",
+      "capacity": 40,
+      "length": 488.93,
+      "up": true
+    },
+    {
+      "origin": "Haikou, Hainan, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 700.19,
+      "up": true
+    },
+    {
+      "origin": "Haikou, Hainan, China",
+      "destination": "Shenzhen, Guangdong, China",
+      "capacity": 40,
+      "length": 730.18,
+      "up": true
+    },
+    {
+      "origin": "Changsha, Hunan, China",
+      "destination": "Wuhan, Hubei, China",
+      "capacity": 40,
+      "length": 436.8,
+      "up": true
+    },
+    {
+      "origin": "Changsha, Hunan, China",
+      "destination": "Guangzhou, Guangdong, China",
+      "capacity": 40,
+      "length": 836.45,
+      "up": true
+    }
+  ]
+}

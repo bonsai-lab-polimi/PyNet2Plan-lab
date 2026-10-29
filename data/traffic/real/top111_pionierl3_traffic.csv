@@ -1,0 +1,57 @@
+# topology: PIONIERL3 (real topology #111) (data/topologies/real/top111_pionierl3.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Gliwice,Rzeszow,1
+1,Torun,Sochaczew,1
+2,Zielona Gora,Bydgoszcz,7
+3,Bydgoszcz,Gdansk,8
+4,Elblag,Olsztyn,4
+5,Suwalki,Opole,7
+6,Szczecin,Lodz,3
+7,Olsztyn,Lublin,2
+8,Czestochowa,Lublin,7
+9,Lodz,Kielce,8
+10,Rzeszow,Warsaw,7
+11,Zamosc,Gliwice,7
+12,Koszalin,Warsaw,7
+13,Krakow,Gorzow Wielkopolski,3
+14,Szczecin,Kielce,2
+15,Bielsko-Biala,Wroclaw,6
+16,Sochaczew,Kielce,6
+17,Warsaw,Wroclaw,3
+18,Pulawy,Zielona Gora,8
+19,Opole,Wroclaw,8
+20,Pulawy,Torun,4
+21,Gorzow Wielkopolski,Krakow,8
+22,Opole,Poznan,1
+23,Szczecin,Rzeszow,6
+24,Torun,Olsztyn,7
+25,Bielsko-Biala,Krakow,3
+26,Radom,Bydgoszcz,1
+27,Bialystok,Sochaczew,6
+28,Wroclaw,Opole,6
+29,Bydgoszcz,Pulawy,8
+30,Zielona Gora,Lodz,1
+31,Zamosc,Bielsko-Biala,6
+32,Krakow,Poznan,3
+33,Koszalin,Krakow,7
+34,Krakow,Gdansk,7
+35,Pulawy,Radom,3
+36,Lublin,Kielce,3
+37,Lodz,Opole,1
+38,Czestochowa,Bialystok,8
+39,Suwalki,Rzeszow,2
+40,Warsaw,Lodz,8
+41,Koszalin,Wroclaw,5
+42,Warsaw,Zielona Gora,4
+43,Czestochowa,Wroclaw,1
+44,Suwalki,Olsztyn,8
+45,Bielsko-Biala,Gdansk,5
+46,Gliwice,Olsztyn,2
+47,Bielsko-Biala,Warsaw,4
+48,Elblag,Krakow,4
+49,Bialystok,Lodz,5
+50,Gdansk,Gorzow Wielkopolski,4
+51,Olsztyn,Bydgoszcz,3
+52,Elblag,Opole,4
+53,Czestochowa,Torun,5

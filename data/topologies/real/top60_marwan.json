@@ -1,0 +1,142 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "MARWAN (real topology #60)",
+  "description": "Real-world topology MARWAN (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Marrakesh",
+      "lat": 31.63,
+      "lon": -8.01,
+      "x": -891669.1212541212,
+      "y": 3714839.7709010197,
+      "up": true
+    },
+    {
+      "name": "Fes",
+      "lat": 34.04,
+      "lon": -5.0,
+      "x": -556597.4539663679,
+      "y": 4034174.3142765807,
+      "up": true
+    },
+    {
+      "name": "Rabat",
+      "lat": 34.01,
+      "lon": -6.83,
+      "x": -760312.1221180585,
+      "y": 4030144.860862808,
+      "up": true
+    },
+    {
+      "name": "Agadir",
+      "lat": 30.42,
+      "lon": -9.6,
+      "x": -1068667.1116154261,
+      "y": 3557651.9788600733,
+      "up": true
+    },
+    {
+      "name": "Tangier",
+      "lat": 35.78,
+      "lon": -5.81,
+      "x": -646766.2415089194,
+      "y": 4270391.783600916,
+      "up": true
+    },
+    {
+      "name": "Casablanca",
+      "lat": 33.59,
+      "lon": -7.62,
+      "x": -848254.5198447446,
+      "y": 3973881.011936503,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Marrakesh",
+      "destination": "Fes",
+      "capacity": 40,
+      "length": 582.63,
+      "up": true
+    },
+    {
+      "origin": "Marrakesh",
+      "destination": "Agadir",
+      "capacity": 40,
+      "length": 303.93,
+      "up": true
+    },
+    {
+      "origin": "Fes",
+      "destination": "Marrakesh",
+      "capacity": 40,
+      "length": 582.63,
+      "up": true
+    },
+    {
+      "origin": "Fes",
+      "destination": "Tangier",
+      "capacity": 40,
+      "length": 310.64,
+      "up": true
+    },
+    {
+      "origin": "Rabat",
+      "destination": "Agadir",
+      "capacity": 40,
+      "length": 715.0,
+      "up": true
+    },
+    {
+      "origin": "Rabat",
+      "destination": "Casablanca",
+      "capacity": 40,
+      "length": 129.99,
+      "up": true
+    },
+    {
+      "origin": "Agadir",
+      "destination": "Marrakesh",
+      "capacity": 40,
+      "length": 303.93,
+      "up": true
+    },
+    {
+      "origin": "Agadir",
+      "destination": "Rabat",
+      "capacity": 40,
+      "length": 715.0,
+      "up": true
+    },
+    {
+      "origin": "Tangier",
+      "destination": "Fes",
+      "capacity": 40,
+      "length": 310.64,
+      "up": true
+    },
+    {
+      "origin": "Tangier",
+      "destination": "Casablanca",
+      "capacity": 40,
+      "length": 441.62,
+      "up": true
+    },
+    {
+      "origin": "Casablanca",
+      "destination": "Rabat",
+      "capacity": 40,
+      "length": 129.99,
+      "up": true
+    },
+    {
+      "origin": "Casablanca",
+      "destination": "Tangier",
+      "capacity": 40,
+      "length": 441.62,
+      "up": true
+    }
+  ]
+}

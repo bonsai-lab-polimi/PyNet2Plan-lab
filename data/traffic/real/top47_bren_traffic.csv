@@ -1,0 +1,23 @@
+# topology: BREN (real topology #47) (data/topologies/real/top47_bren.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Varna,Plovdiv,1
+1,Gabrovo,Trnovo,7
+2,Gabrovo,Burgas,4
+3,StaraZagora,Trnovo,6
+4,Trnovo,Gabrovo,5
+5,Plovdiv,Burgas,8
+6,Plovdiv,Trnovo,4
+7,Plovdiv,Sofia,1
+8,Gabrovo,Plovdiv,3
+9,Varna,Burgas,2
+10,Varna,Sofia,8
+11,Trnovo,Choumen,7
+12,Gabrovo,Pleven,8
+13,Sofia,Plovdiv,4
+14,Ruse,Sofia,6
+15,Choumen,StaraZagora,7
+16,Sofia,StaraZagora,7
+17,StaraZagora,Ruse,8
+18,Trnovo,StaraZagora,4
+19,Choumen,Ruse,2

@@ -1,0 +1,63 @@
+# topology: CONUS30 (real topology #87) (data/topologies/real/top87_conus30.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"New Orleans, Louisiana","Saint Louis, Missouri",2
+1,"Indianapolis, Indiana","Washington, District of Columbia",8
+2,"Kansas City, Missouri","Denver, Colorado",5
+3,"New Orleans, Louisiana","Tallahassee, Florida",4
+4,"Philadelphia, Pennsylvania","Indianapolis, Indiana",7
+5,"Sacramento, California","Seattle, Washington",5
+6,"Saint Louis, Missouri","Charlotte, North Carolina",7
+7,"Tallahassee, Florida","New Orleans, Louisiana",5
+8,"Tampa, Florida","Houston, Texas",3
+9,"Tampa, Florida","Webster County, West Virginia",1
+10,"Phoenix, Arizona","Cleveland, Ohio",3
+11,"El Paso, Texas","Dallas, Texas",5
+12,"Webster County, West Virginia","El Paso, Texas",4
+13,"Philadelphia, Pennsylvania","San Antonio, Texas",6
+14,"Washington, District of Columbia","Tallahassee, Florida",3
+15,"San Jose, California","Kansas City, Missouri",8
+16,"Paradise, Nevada","Atlanta, Georgia",5
+17,"Charlotte, North Carolina","San Jose, California",2
+18,"Sacramento, California","Boston, Massachusetts",6
+19,"El Paso, Texas","Houston, Texas",7
+20,"Tallahassee, Florida","Salt Lake City, Utah",7
+21,"Phoenix, Arizona","Sacramento, California",4
+22,"Salt Lake City, Utah","San Antonio, Texas",1
+23,"El Paso, Texas","Denver, Colorado",4
+24,"Dallas, Texas","Atlanta, Georgia",5
+25,"Houston, Texas","Tampa, Florida",8
+26,"Dallas, Texas","Washington, District of Columbia",3
+27,"San Jose, California","Webster County, West Virginia",2
+28,"San Francisco, California","Phoenix, Arizona",6
+29,"Baltimore, Maryland","Sacramento, California",7
+30,"Boston, Massachusetts","Paradise, Nevada",3
+31,"San Jose, California","Boston, Massachusetts",3
+32,"Charlotte, North Carolina","Kansas City, Missouri",4
+33,"City of New York, New York","Salt Lake City, Utah",4
+34,"El Paso, Texas","Miami, Florida",2
+35,"Washington, District of Columbia","City of New York, New York",2
+36,"Denver, Colorado","Boston, Massachusetts",1
+37,"Tallahassee, Florida","Tampa, Florida",6
+38,"New Orleans, Louisiana","Chicago, Illinois",3
+39,"Paradise, Nevada","Saint Louis, Missouri",4
+40,"New Orleans, Louisiana","Philadelphia, Pennsylvania",2
+41,"Boston, Massachusetts","Indianapolis, Indiana",1
+42,"Tallahassee, Florida","Indianapolis, Indiana",7
+43,"Phoenix, Arizona","Seattle, Washington",3
+44,"Houston, Texas","Boston, Massachusetts",6
+45,"Denver, Colorado","Tampa, Florida",4
+46,"Webster County, West Virginia","Chicago, Illinois",3
+47,"Tampa, Florida","Washington, District of Columbia",3
+48,"Washington, District of Columbia","Los Angeles, California",2
+49,"Atlanta, Georgia","Salt Lake City, Utah",7
+50,"Webster County, West Virginia","Phoenix, Arizona",5
+51,"Tampa, Florida","New Orleans, Louisiana",6
+52,"Houston, Texas","Philadelphia, Pennsylvania",6
+53,"Saint Louis, Missouri","Seattle, Washington",1
+54,"Houston, Texas","San Jose, California",8
+55,"Atlanta, Georgia","Baltimore, Maryland",2
+56,"Tallahassee, Florida","Phoenix, Arizona",2
+57,"San Jose, California","Miami, Florida",5
+58,"Webster County, West Virginia","Cleveland, Ohio",5
+59,"Boston, Massachusetts","Atlanta, Georgia",1

@@ -1,0 +1,354 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "SPIRALIGHT (real topology #93)",
+  "description": "Real-world topology SPIRALIGHT (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Milwaukee",
+      "lat": 43.04,
+      "lon": -87.91,
+      "x": -9786096.43563668,
+      "y": 5318062.23800229,
+      "up": true
+    },
+    {
+      "name": "Rockford",
+      "lat": 42.27,
+      "lon": -89.09,
+      "x": -9917453.434772743,
+      "y": 5201510.333102431,
+      "up": true
+    },
+    {
+      "name": "Janesville",
+      "lat": 42.68,
+      "lon": -89.02,
+      "x": -9909661.070417212,
+      "y": 5263390.731021563,
+      "up": true
+    },
+    {
+      "name": "Waukesha",
+      "lat": 43.01,
+      "lon": -88.23,
+      "x": -9821718.672690528,
+      "y": 5313494.07279835,
+      "up": true
+    },
+    {
+      "name": "Kenosha",
+      "lat": 42.59,
+      "lon": -87.82,
+      "x": -9776077.681465285,
+      "y": 5249772.432719681,
+      "up": true
+    },
+    {
+      "name": "Madison",
+      "lat": 43.07,
+      "lon": -89.4,
+      "x": -9951962.476918658,
+      "y": 5322632.637346129,
+      "up": true
+    },
+    {
+      "name": "New Lisbon",
+      "lat": 43.92,
+      "lon": -90.27,
+      "x": -10048810.433908805,
+      "y": 5453070.334013303,
+      "up": true
+    },
+    {
+      "name": "Minneapolis",
+      "lat": 44.98,
+      "lon": -93.26,
+      "x": -10381655.711380694,
+      "y": 5618373.44486032,
+      "up": true
+    },
+    {
+      "name": "Eau Claire",
+      "lat": 44.81,
+      "lon": -91.5,
+      "x": -10185733.407584531,
+      "y": 5591659.306164869,
+      "up": true
+    },
+    {
+      "name": "Wausau",
+      "lat": 44.96,
+      "lon": -89.63,
+      "x": -9977565.95980111,
+      "y": 5615226.501443972,
+      "up": true
+    },
+    {
+      "name": "Green Bay",
+      "lat": 44.52,
+      "lon": -88.02,
+      "x": -9798341.57962394,
+      "y": 5546269.209331187,
+      "up": true
+    },
+    {
+      "name": "Appleton",
+      "lat": 44.26,
+      "lon": -88.42,
+      "x": -9842869.37594125,
+      "y": 5505766.338721662,
+      "up": true
+    },
+    {
+      "name": "Oshkosh",
+      "lat": 44.02,
+      "lon": -88.54,
+      "x": -9856227.714836443,
+      "y": 5468537.7512172675,
+      "up": true
+    },
+    {
+      "name": "Fond du Lac",
+      "lat": 43.77,
+      "lon": -88.44,
+      "x": -9845095.765757114,
+      "y": 5429917.869313355,
+      "up": true
+    },
+    {
+      "name": "Beaver Dam",
+      "lat": 43.46,
+      "lon": -88.84,
+      "x": -9889623.562074425,
+      "y": 5382252.709640507,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Milwaukee",
+      "destination": "Waukesha",
+      "capacity": 40,
+      "length": 39.34,
+      "up": true
+    },
+    {
+      "origin": "Milwaukee",
+      "destination": "Kenosha",
+      "capacity": 40,
+      "length": 75.86,
+      "up": true
+    },
+    {
+      "origin": "Rockford",
+      "destination": "Janesville",
+      "capacity": 40,
+      "length": 68.92,
+      "up": true
+    },
+    {
+      "origin": "Rockford",
+      "destination": "Kenosha",
+      "capacity": 40,
+      "length": 165.21,
+      "up": true
+    },
+    {
+      "origin": "Janesville",
+      "destination": "Rockford",
+      "capacity": 40,
+      "length": 68.92,
+      "up": true
+    },
+    {
+      "origin": "Janesville",
+      "destination": "Madison",
+      "capacity": 40,
+      "length": 79.93,
+      "up": true
+    },
+    {
+      "origin": "Waukesha",
+      "destination": "Milwaukee",
+      "capacity": 40,
+      "length": 39.34,
+      "up": true
+    },
+    {
+      "origin": "Waukesha",
+      "destination": "Madison",
+      "capacity": 40,
+      "length": 142.98,
+      "up": true
+    },
+    {
+      "origin": "Kenosha",
+      "destination": "Milwaukee",
+      "capacity": 40,
+      "length": 75.86,
+      "up": true
+    },
+    {
+      "origin": "Kenosha",
+      "destination": "Rockford",
+      "capacity": 40,
+      "length": 165.21,
+      "up": true
+    },
+    {
+      "origin": "Madison",
+      "destination": "Janesville",
+      "capacity": 40,
+      "length": 79.93,
+      "up": true
+    },
+    {
+      "origin": "Madison",
+      "destination": "Waukesha",
+      "capacity": 40,
+      "length": 142.98,
+      "up": true
+    },
+    {
+      "origin": "Madison",
+      "destination": "New Lisbon",
+      "capacity": 40,
+      "length": 176.58,
+      "up": true
+    },
+    {
+      "origin": "Madison",
+      "destination": "Beaver Dam",
+      "capacity": 40,
+      "length": 94.11,
+      "up": true
+    },
+    {
+      "origin": "New Lisbon",
+      "destination": "Madison",
+      "capacity": 40,
+      "length": 176.58,
+      "up": true
+    },
+    {
+      "origin": "New Lisbon",
+      "destination": "Eau Claire",
+      "capacity": 40,
+      "length": 208.67,
+      "up": true
+    },
+    {
+      "origin": "Minneapolis",
+      "destination": "Eau Claire",
+      "capacity": 40,
+      "length": 209.87,
+      "up": true
+    },
+    {
+      "origin": "Minneapolis",
+      "destination": "Wausau",
+      "capacity": 40,
+      "length": 428.32,
+      "up": true
+    },
+    {
+      "origin": "Eau Claire",
+      "destination": "New Lisbon",
+      "capacity": 40,
+      "length": 208.67,
+      "up": true
+    },
+    {
+      "origin": "Eau Claire",
+      "destination": "Minneapolis",
+      "capacity": 40,
+      "length": 209.87,
+      "up": true
+    },
+    {
+      "origin": "Wausau",
+      "destination": "Minneapolis",
+      "capacity": 40,
+      "length": 428.32,
+      "up": true
+    },
+    {
+      "origin": "Wausau",
+      "destination": "Green Bay",
+      "capacity": 40,
+      "length": 204.37,
+      "up": true
+    },
+    {
+      "origin": "Green Bay",
+      "destination": "Wausau",
+      "capacity": 40,
+      "length": 204.37,
+      "up": true
+    },
+    {
+      "origin": "Green Bay",
+      "destination": "Appleton",
+      "capacity": 40,
+      "length": 64.45,
+      "up": true
+    },
+    {
+      "origin": "Appleton",
+      "destination": "Green Bay",
+      "capacity": 40,
+      "length": 64.45,
+      "up": true
+    },
+    {
+      "origin": "Appleton",
+      "destination": "Oshkosh",
+      "capacity": 40,
+      "length": 42.53,
+      "up": true
+    },
+    {
+      "origin": "Oshkosh",
+      "destination": "Appleton",
+      "capacity": 40,
+      "length": 42.53,
+      "up": true
+    },
+    {
+      "origin": "Oshkosh",
+      "destination": "Fond du Lac",
+      "capacity": 40,
+      "length": 43.4,
+      "up": true
+    },
+    {
+      "origin": "Fond du Lac",
+      "destination": "Oshkosh",
+      "capacity": 40,
+      "length": 43.4,
+      "up": true
+    },
+    {
+      "origin": "Fond du Lac",
+      "destination": "Beaver Dam",
+      "capacity": 40,
+      "length": 70.76,
+      "up": true
+    },
+    {
+      "origin": "Beaver Dam",
+      "destination": "Madison",
+      "capacity": 40,
+      "length": 94.11,
+      "up": true
+    },
+    {
+      "origin": "Beaver Dam",
+      "destination": "Fond du Lac",
+      "capacity": 40,
+      "length": 70.76,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+# topology: CERNET (real topology #101) (data/topologies/real/top101_cernet.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,"Hohhot, Inner Mongolia, China","Xining, Qinghai, China",3
+1,"Shenzhen, Guangdong, China","Taiyuan, Shanxi, China",5
+2,"Nanchang, Jiangxi, China","Dalian, Liaoning, China",8
+3,"Lanzhou, Gansu, China","Lasa, Tibet, China",2
+4,"Lanzhou, Gansu, China","Urumchi, Xinjiang, China",8
+5,"Shenzhen, Guangdong, China","Guilin, Guangxi, China",3
+6,"Changsha, Hunan, China","Taiyuan, Shanxi, China",7
+7,"Yinchuan, Ningxia, China","Hefei, Anhui, China",3
+8,"Liaocheng, Shandong, China","Beijing, Beijing, China",2
+9,"Liaocheng, Shandong, China","Hangzhou, Zhejiang, China",2
+10,"Shenyang, Liaoning, China","Shanghai, Shanghai, China",2
+11,"Urumchi, Xinjiang, China","Shanghai, Shanghai, China",7
+12,"Jiulongpo District, Chongqing, China","Harbin, Heilongjiang, China",2
+13,"Xiamen, Fujian, China","Shanghai, Shanghai, China",3
+14,"Guiyang, Guizhou, China","Zhengzhou, Henan, China",7
+15,"Shenyang, Liaoning, China","Guangzhou, Guangdong, China",5
+16,"Liaocheng, Shandong, China","Nanning, Guangxi, China",3
+17,"Guiyang, Guizhou, China","Haikou, Hainan, China",1
+18,"Nanjing, Jiangsu, China","Dalian, Liaoning, China",8
+19,"Shenzhen, Guangdong, China","Beijing, Beijing, China",5
+20,"Dalian, Liaoning, China","Shenzhen, Guangdong, China",4
+21,"Shenyang, Liaoning, China","Dalian, Liaoning, China",5
+22,"Shanghai, Shanghai, China","Zhengzhou, Henan, China",4
+23,"Nanchang, Jiangxi, China","Guiyang, Guizhou, China",5
+24,"Dalian, Liaoning, China","Nanning, Guangxi, China",3
+25,"Nanning, Guangxi, China","Changsha, Hunan, China",4
+26,"Harbin, Heilongjiang, China","Lasa, Tibet, China",3
+27,"Guangzhou, Guangdong, China","Hefei, Anhui, China",6
+28,"Guiyang, Guizhou, China","Shanghai, Shanghai, China",1
+29,"Xi'an, Shaanxi, China","Lanzhou, Gansu, China",6
+30,"Changchun, Jilin, China","Shenyang, Liaoning, China",4
+31,"Hangzhou, Zhejiang, China","Changchun, Jilin, China",7
+32,"Xining, Qinghai, China","Xi'an, Shaanxi, China",6
+33,"Hangzhou, Zhejiang, China","Guilin, Guangxi, China",4
+34,"Changchun, Jilin, China","Jiulongpo District, Chongqing, China",3
+35,"Zhengzhou, Henan, China","Guangzhou, Guangdong, China",2
+36,"Quingdao, Shandong, China","Fuzhou, Fujian, China",6
+37,"Xining, Qinghai, China","Shenzhen, Guangdong, China",2
+38,"Shenyang, Liaoning, China","Changsha, Hunan, China",1
+39,"Guilin, Guangxi, China","Shijiazhuang, Hebei, China",3
+40,"Lasa, Tibet, China","Guilin, Guangxi, China",2
+41,"Wuhan, Hubei, China","Shanghai, Shanghai, China",2
+42,"Urumchi, Xinjiang, China","Xining, Qinghai, China",4
+43,"Dalian, Liaoning, China","Shanghai, Shanghai, China",4
+44,"Shenzhen, Guangdong, China","Xi'an, Shaanxi, China",7
+45,"Harbin, Heilongjiang, China","Guiyang, Guizhou, China",4
+46,"Shenyang, Liaoning, China","Guilin, Guangxi, China",8
+47,"Taiyuan, Shanxi, China","Hefei, Anhui, China",3
+48,"Shenzhen, Guangdong, China","Xiamen, Fujian, China",4
+49,"Xiamen, Fujian, China","Quingdao, Shandong, China",7
+50,"Harbin, Heilongjiang, China","Nanchang, Jiangxi, China",5
+51,"Changsha, Hunan, China","Shenzhen, Guangdong, China",4
+52,"Shanghai, Shanghai, China","Shenzhen, Guangdong, China",5
+53,"Wuhan, Hubei, China","Changchun, Jilin, China",4
+54,"Liaocheng, Shandong, China","Guilin, Guangxi, China",3
+55,"Changchun, Jilin, China","Liaocheng, Shandong, China",1
+56,"Taiyuan, Shanxi, China","Xi'an, Shaanxi, China",3
+57,"Hefei, Anhui, China","Zhengzhou, Henan, China",8
+58,"Yinchuan, Ningxia, China","Hangzhou, Zhejiang, China",7
+59,"Guiyang, Guizhou, China","Xiamen, Fujian, China",6

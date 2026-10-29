@@ -1,0 +1,142 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "TELECOMSERBIA (real topology #84)",
+  "description": "Real-world topology TELECOMSERBIA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Novi Sad",
+      "lat": 45.25,
+      "lon": 19.84,
+      "x": 2208578.6973385476,
+      "y": 5660965.110251664,
+      "up": true
+    },
+    {
+      "name": "Belgrade",
+      "lat": 44.8,
+      "lon": 20.47,
+      "x": 2278709.97653831,
+      "y": 5590090.3415273065,
+      "up": true
+    },
+    {
+      "name": "Kragujevac",
+      "lat": 44.02,
+      "lon": 20.92,
+      "x": 2328803.7473952835,
+      "y": 5468537.7512172675,
+      "up": true
+    },
+    {
+      "name": "Nis",
+      "lat": 43.32,
+      "lon": 21.9,
+      "x": 2437896.848372691,
+      "y": 5360806.644180017,
+      "up": true
+    },
+    {
+      "name": "Krusevac",
+      "lat": 43.58,
+      "lon": 21.33,
+      "x": 2374444.738620525,
+      "y": 5400674.608072232,
+      "up": true
+    },
+    {
+      "name": "Podgorica",
+      "lat": 42.44,
+      "lon": 19.26,
+      "x": 2144013.392678449,
+      "y": 5227118.889942468,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Novi Sad",
+      "destination": "Belgrade",
+      "capacity": 40,
+      "length": 105.59,
+      "up": true
+    },
+    {
+      "origin": "Novi Sad",
+      "destination": "Podgorica",
+      "capacity": 40,
+      "length": 473.85,
+      "up": true
+    },
+    {
+      "origin": "Belgrade",
+      "destination": "Novi Sad",
+      "capacity": 40,
+      "length": 105.59,
+      "up": true
+    },
+    {
+      "origin": "Belgrade",
+      "destination": "Kragujevac",
+      "capacity": 40,
+      "length": 140.71,
+      "up": true
+    },
+    {
+      "origin": "Kragujevac",
+      "destination": "Belgrade",
+      "capacity": 40,
+      "length": 140.71,
+      "up": true
+    },
+    {
+      "origin": "Kragujevac",
+      "destination": "Nis",
+      "capacity": 40,
+      "length": 166.16,
+      "up": true
+    },
+    {
+      "origin": "Nis",
+      "destination": "Kragujevac",
+      "capacity": 40,
+      "length": 166.16,
+      "up": true
+    },
+    {
+      "origin": "Nis",
+      "destination": "Krusevac",
+      "capacity": 40,
+      "length": 81.51,
+      "up": true
+    },
+    {
+      "origin": "Krusevac",
+      "destination": "Nis",
+      "capacity": 40,
+      "length": 81.51,
+      "up": true
+    },
+    {
+      "origin": "Krusevac",
+      "destination": "Podgorica",
+      "capacity": 40,
+      "length": 316.04,
+      "up": true
+    },
+    {
+      "origin": "Podgorica",
+      "destination": "Novi Sad",
+      "capacity": 40,
+      "length": 473.85,
+      "up": true
+    },
+    {
+      "origin": "Podgorica",
+      "destination": "Krusevac",
+      "capacity": 40,
+      "length": 316.04,
+      "up": true
+    }
+  ]
+}

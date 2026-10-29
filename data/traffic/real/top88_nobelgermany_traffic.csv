@@ -1,0 +1,37 @@
+# topology: NOBELGERMANY (real topology #88) (data/topologies/real/top88_nobelgermany.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Fennpfuhl,Essen,6
+1,Hannover,Bremen,8
+2,Marienthal,Hannover,3
+3,Nuernberg,Bremen,3
+4,Leinfelden-Echterdingen,Dortmund,8
+5,Leipzig,Mannheim,1
+6,Marienthal,Nuernberg,8
+7,Frankfurt am Main,Marienthal,3
+8,Dusseldorf,Norden,2
+9,Dusseldorf,Fennpfuhl,7
+10,Munich,Fennpfuhl,8
+11,Karlsruhe,Marienthal,2
+12,Dusseldorf,Ulm,6
+13,Dusseldorf,Leinfelden-Echterdingen,5
+14,Fennpfuhl,Dusseldorf,8
+15,Dusseldorf,Leipzig,3
+16,Mannheim,Leipzig,5
+17,Nuernberg,Hannover,3
+18,Nuernberg,Marienthal,6
+19,Hannover,Munich,8
+20,Norden,Ulm,8
+21,Bremen,Norden,6
+22,Ulm,Hannover,8
+23,Leinfelden-Echterdingen,Essen,5
+24,Dusseldorf,Frankfurt am Main,6
+25,Ulm,Dusseldorf,2
+26,Essen,Marienthal,6
+27,Leinfelden-Echterdingen,Karlsruhe,7
+28,Essen,Norden,4
+29,Bremen,Leipzig,2
+30,Bremen,Munich,2
+31,Leinfelden-Echterdingen,Munich,8
+32,Frankfurt am Main,Hannover,2
+33,Munich,Dusseldorf,5

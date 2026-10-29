@@ -1,0 +1,15 @@
+# topology: MARWAN (real topology #60) (data/topologies/real/top60_marwan.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Casablanca,Agadir,7
+1,Agadir,Fes,6
+2,Agadir,Tangier,4
+3,Rabat,Tangier,7
+4,Casablanca,Marrakesh,5
+5,Fes,Marrakesh,3
+6,Marrakesh,Rabat,6
+7,Marrakesh,Fes,3
+8,Marrakesh,Agadir,2
+9,Casablanca,Tangier,8
+10,Casablanca,Rabat,5
+11,Marrakesh,Casablanca,6

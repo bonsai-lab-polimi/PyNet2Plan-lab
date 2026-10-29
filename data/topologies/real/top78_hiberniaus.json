@@ -1,0 +1,548 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "HIBERNIAUS (real topology #78)",
+  "description": "Real-world topology HIBERNIAUS (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Pittsburgh",
+      "lat": 40.44,
+      "lon": -80.0,
+      "x": -8905559.263461886,
+      "y": 4930089.410958573,
+      "up": true
+    },
+    {
+      "name": "Philadelphia",
+      "lat": 39.95,
+      "lon": -75.16,
+      "x": -8366772.9280224405,
+      "y": 4858679.07377125,
+      "up": true
+    },
+    {
+      "name": "Newark",
+      "lat": 40.74,
+      "lon": -74.17,
+      "x": -8256566.632137101,
+      "y": 4974067.033368267,
+      "up": true
+    },
+    {
+      "name": "Ashburn",
+      "lat": 39.04,
+      "lon": -77.49,
+      "x": -8626147.341570769,
+      "y": 4727402.85003283,
+      "up": true
+    },
+    {
+      "name": "Raleigh",
+      "lat": 35.77,
+      "lon": -78.64,
+      "x": -8754164.755983034,
+      "y": 4269019.703147485,
+      "up": true
+    },
+    {
+      "name": "Charlotte",
+      "lat": 35.23,
+      "lon": -80.84,
+      "x": -8999067.635728236,
+      "y": 4195181.319583607,
+      "up": true
+    },
+    {
+      "name": "McLean",
+      "lat": 38.93,
+      "lon": -77.18,
+      "x": -8591638.299424855,
+      "y": 4711649.627439852,
+      "up": true
+    },
+    {
+      "name": "Richmond",
+      "lat": 37.55,
+      "lon": -77.46,
+      "x": -8622807.75684697,
+      "y": 4516049.501323953,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "New York City",
+      "lat": 40.71,
+      "lon": -74.01,
+      "x": -8238755.513610177,
+      "y": 4969660.375061782,
+      "up": true
+    },
+    {
+      "name": "White Plains",
+      "lat": 41.03,
+      "lon": -73.76,
+      "x": -8210925.6409118585,
+      "y": 5016767.664541266,
+      "up": true
+    },
+    {
+      "name": "Stamford",
+      "lat": 41.05,
+      "lon": -73.54,
+      "x": -8186435.352937339,
+      "y": 5019719.4521032935,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.85,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5138536.587247468,
+      "up": true
+    },
+    {
+      "name": "Cleveland",
+      "lat": 41.5,
+      "lon": -81.7,
+      "x": -9094802.397810452,
+      "y": 5086373.649287362,
+      "up": true
+    },
+    {
+      "name": "Buffalo",
+      "lat": 42.89,
+      "lon": -78.88,
+      "x": -8780881.433773419,
+      "y": 5295243.684788868,
+      "up": true
+    },
+    {
+      "name": "Toronto",
+      "lat": 43.7,
+      "lon": -79.42,
+      "x": -8840993.958801787,
+      "y": 5419133.259362271,
+      "up": true
+    },
+    {
+      "name": "Montreal",
+      "lat": 45.51,
+      "lon": -73.59,
+      "x": -8192001.3274770025,
+      "y": 5702171.08889624,
+      "up": true
+    },
+    {
+      "name": "Albany",
+      "lat": 42.65,
+      "lon": -73.76,
+      "x": -8210925.6409118585,
+      "y": 5258849.10939568,
+      "up": true
+    },
+    {
+      "name": "Boston",
+      "lat": 42.36,
+      "lon": -71.06,
+      "x": -7910363.015770021,
+      "y": 5215059.174610623,
+      "up": true
+    },
+    {
+      "name": "Halifax",
+      "lat": 44.65,
+      "lon": -63.57,
+      "x": -7076580.029728401,
+      "y": 5566588.421489562,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Pittsburgh",
+      "destination": "Ashburn",
+      "capacity": 40,
+      "length": 397.66,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 988.84,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 277.65,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 193.52,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 182.21,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia",
+      "destination": "Ashburn",
+      "capacity": 40,
+      "length": 336.1,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 182.21,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "Ashburn",
+      "capacity": 40,
+      "length": 510.74,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "White Plains",
+      "capacity": 40,
+      "length": 70.8,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 20.83,
+      "up": true
+    },
+    {
+      "origin": "Ashburn",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 397.66,
+      "up": true
+    },
+    {
+      "origin": "Ashburn",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 336.1,
+      "up": true
+    },
+    {
+      "origin": "Ashburn",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 510.74,
+      "up": true
+    },
+    {
+      "origin": "Ashburn",
+      "destination": "McLean",
+      "capacity": 40,
+      "length": 44.18,
+      "up": true
+    },
+    {
+      "origin": "Raleigh",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 312.01,
+      "up": true
+    },
+    {
+      "origin": "Raleigh",
+      "destination": "Richmond",
+      "capacity": 40,
+      "length": 336.25,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Raleigh",
+      "capacity": 40,
+      "length": 312.01,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 546.86,
+      "up": true
+    },
+    {
+      "origin": "McLean",
+      "destination": "Ashburn",
+      "capacity": 40,
+      "length": 44.18,
+      "up": true
+    },
+    {
+      "origin": "McLean",
+      "destination": "Richmond",
+      "capacity": 40,
+      "length": 233.08,
+      "up": true
+    },
+    {
+      "origin": "Richmond",
+      "destination": "Raleigh",
+      "capacity": 40,
+      "length": 336.25,
+      "up": true
+    },
+    {
+      "origin": "Richmond",
+      "destination": "McLean",
+      "capacity": 40,
+      "length": 233.08,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 546.86,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Philadelphia",
+      "capacity": 40,
+      "length": 193.52,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 20.83,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Albany",
+      "capacity": 40,
+      "length": 325.07,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Stamford",
+      "capacity": 40,
+      "length": 82.03,
+      "up": true
+    },
+    {
+      "origin": "White Plains",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 70.8,
+      "up": true
+    },
+    {
+      "origin": "White Plains",
+      "destination": "Stamford",
+      "capacity": 40,
+      "length": 27.88,
+      "up": true
+    },
+    {
+      "origin": "Stamford",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 82.03,
+      "up": true
+    },
+    {
+      "origin": "Stamford",
+      "destination": "White Plains",
+      "capacity": 40,
+      "length": 27.88,
+      "up": true
+    },
+    {
+      "origin": "Stamford",
+      "destination": "Boston",
+      "capacity": 40,
+      "length": 378.27,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 988.84,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 743.41,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 277.65,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 743.41,
+      "up": true
+    },
+    {
+      "origin": "Cleveland",
+      "destination": "Buffalo",
+      "capacity": 40,
+      "length": 418.51,
+      "up": true
+    },
+    {
+      "origin": "Buffalo",
+      "destination": "Cleveland",
+      "capacity": 40,
+      "length": 418.51,
+      "up": true
+    },
+    {
+      "origin": "Buffalo",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 150.17,
+      "up": true
+    },
+    {
+      "origin": "Buffalo",
+      "destination": "Albany",
+      "capacity": 40,
+      "length": 628.07,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Buffalo",
+      "capacity": 40,
+      "length": 150.17,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 755.04,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 755.04,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Albany",
+      "capacity": 40,
+      "length": 477.46,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 1188.0,
+      "up": true
+    },
+    {
+      "origin": "Albany",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 325.07,
+      "up": true
+    },
+    {
+      "origin": "Albany",
+      "destination": "Buffalo",
+      "capacity": 40,
+      "length": 628.07,
+      "up": true
+    },
+    {
+      "origin": "Albany",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 477.46,
+      "up": true
+    },
+    {
+      "origin": "Albany",
+      "destination": "Boston",
+      "capacity": 40,
+      "length": 335.49,
+      "up": true
+    },
+    {
+      "origin": "Boston",
+      "destination": "Stamford",
+      "capacity": 40,
+      "length": 378.27,
+      "up": true
+    },
+    {
+      "origin": "Boston",
+      "destination": "Albany",
+      "capacity": 40,
+      "length": 335.49,
+      "up": true
+    },
+    {
+      "origin": "Boston",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 982.84,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 1188.0,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "Boston",
+      "capacity": 40,
+      "length": 982.84,
+      "up": true
+    }
+  ]
+}

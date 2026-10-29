@@ -1,0 +1,47 @@
+# topology: GEANT (real topology #103) (data/topologies/real/top103_geant.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Giv`atayim,Zagreb - Centar,6
+1,Luxembourg,Bratislava,2
+2,Lisbon,Milano,5
+3,Geneve,Madrid,2
+4,Perama,Giv`atayim,5
+5,Zagreb - Centar,Brooklyn,7
+6,Vienna,Giv`atayim,5
+7,Frankfurt am Main,Ljubljana,4
+8,Bromma,Giv`atayim,7
+9,Geneve,Poznan,6
+10,Lisbon,Paris,4
+11,Bratislava,Lisbon,4
+12,Frankfurt am Main,Lisbon,2
+13,Dublin,Paris,3
+14,Bromma,Duivendrecht,1
+15,Karlin,Zagreb - Centar,2
+16,London,Poznan,3
+17,Poznan,Luxembourg,7
+18,Frankfurt am Main,Zagreb - Centar,5
+19,Giv`atayim,Madrid,6
+20,Budapest VIII. keruelet,Milano,5
+21,Vienna,Karlin,3
+22,Brooklyn,Karlin,7
+23,Poznan,Perama,7
+24,Paris,Budapest VIII. keruelet,3
+25,Geneve,Perama,4
+26,Giv`atayim,Poznan,5
+27,Milano,Bratislava,5
+28,Luxembourg,Vienna,4
+29,Poznan,Lisbon,2
+30,Giv`atayim,Brooklyn,7
+31,Milano,Karlin,1
+32,Giv`atayim,Bratislava,4
+33,Milano,Ljubljana,4
+34,Perama,Milano,6
+35,Paris,Brooklyn,1
+36,Madrid,Brussels,3
+37,Brussels,Brooklyn,1
+38,Madrid,London,3
+39,Madrid,Vienna,2
+40,Bromma,London,7
+41,Paris,Duivendrecht,4
+42,Madrid,Paris,2
+43,Paris,Perama,6

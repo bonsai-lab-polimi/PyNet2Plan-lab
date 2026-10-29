@@ -1,0 +1,156 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "LAYER42 (real topology #1)",
+  "description": "Real-world topology LAYER42 (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Seattle",
+      "lat": 47.61,
+      "lon": -122.33,
+      "x": -13617713.308741156,
+      "y": 6042216.250411431,
+      "up": true
+    },
+    {
+      "name": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "x": -13627732.06291255,
+      "y": 4546985.28443041,
+      "up": true
+    },
+    {
+      "name": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "x": -13162416.591396667,
+      "y": 4035517.7820847426,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.85,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5138536.587247468,
+      "up": true
+    },
+    {
+      "name": "New York City",
+      "lat": 40.71,
+      "lon": -74.01,
+      "x": -8238755.513610177,
+      "y": 4969660.375061782,
+      "up": true
+    },
+    {
+      "name": "Washington, D.C.",
+      "lat": 38.9,
+      "lon": -77.04,
+      "x": -8576053.570713796,
+      "y": 4707357.536267922,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Seattle",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 838.76,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 3729.54,
+      "up": true
+    },
+    {
+      "origin": "San Francisco",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 4898.33,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 838.76,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 3729.54,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 1433.95,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "New York City",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 491.76,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "San Francisco",
+      "capacity": 40,
+      "length": 4898.33,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1433.95,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "New York City",
+      "capacity": 40,
+      "length": 491.76,
+      "up": true
+    }
+  ]
+}

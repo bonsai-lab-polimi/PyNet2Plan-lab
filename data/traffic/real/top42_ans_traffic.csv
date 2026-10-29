@@ -1,0 +1,39 @@
+# topology: ANS (real topology #42) (data/topologies/real/top42_ans.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,St. Louis,Denver,6
+1,Seattle,Albuquerque,6
+2,Hartford,Dallas,8
+3,St. Louis,San Francisco,5
+4,San Francisco,Dallas,1
+5,Honolulu,Seattle,2
+6,Houston,Albuquerque,8
+7,Denver,St. Louis,3
+8,Atlanta,Los Angeles,2
+9,Los Angeles,Cleveland,2
+10,New York City,San Jose,8
+11,Denver,Seattle,4
+12,New York City,Cleveland,2
+13,Chicago,"Washington, D.C.",6
+14,San Jose,Seattle,3
+15,Houston,Dallas,3
+16,Hartford,Honolulu,7
+17,San Francisco,San Jose,8
+18,Atlanta,Houston,4
+19,Los Angeles,Honolulu,2
+20,Atlanta,Greensboro,2
+21,San Francisco,"Washington, D.C.",6
+22,"Washington, D.C.",Dallas,7
+23,"Washington, D.C.",Greensboro,5
+24,Seattle,Chicago,3
+25,Cleveland,New York City,5
+26,Reston,Greensboro,4
+27,Denver,New York City,3
+28,Albuquerque,"Washington, D.C.",1
+29,Greensboro,Denver,8
+30,Hartford,Reston,2
+31,Denver,Albuquerque,2
+32,Albuquerque,Denver,7
+33,Houston,Denver,2
+34,Seattle,Cleveland,5
+35,Hartford,San Jose,5

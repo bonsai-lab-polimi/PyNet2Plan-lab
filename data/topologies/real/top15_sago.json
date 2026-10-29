@@ -1,0 +1,392 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "SAGO (real topology #15)",
+  "description": "Real-world topology SAGO (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Fort Pierce",
+      "lat": 27.45,
+      "lon": -80.33,
+      "x": -8942294.695423666,
+      "y": 3179806.6782249636,
+      "up": true
+    },
+    {
+      "name": "Melbourne",
+      "lat": 28.08,
+      "lon": -80.61,
+      "x": -8973464.152845781,
+      "y": 3259063.7085103635,
+      "up": true
+    },
+    {
+      "name": "Lake Alfred",
+      "lat": 28.09,
+      "lon": -81.72,
+      "x": -9097028.787626317,
+      "y": 3260325.476405423,
+      "up": true
+    },
+    {
+      "name": "Orlando",
+      "lat": 28.54,
+      "lon": -81.38,
+      "x": -9059180.160756603,
+      "y": 3317227.608347721,
+      "up": true
+    },
+    {
+      "name": "West Palm Beach",
+      "lat": 26.72,
+      "lon": -80.05,
+      "x": -8911125.238001548,
+      "y": 3088532.7914103647,
+      "up": true
+    },
+    {
+      "name": "Tampa",
+      "lat": 27.95,
+      "lon": -82.46,
+      "x": -9179405.210813338,
+      "y": 3242671.39483981,
+      "up": true
+    },
+    {
+      "name": "Miami",
+      "lat": 25.77,
+      "lon": -80.19,
+      "x": -8926709.966712607,
+      "y": 2970622.2326846495,
+      "up": true
+    },
+    {
+      "name": "Fort Lauderdale",
+      "lat": 26.12,
+      "lon": -80.14,
+      "x": -8921143.992172943,
+      "y": 3013951.064364246,
+      "up": true
+    },
+    {
+      "name": "Indian Springs",
+      "lat": 33.25,
+      "lon": -83.9,
+      "x": -9339705.277555654,
+      "y": 3928534.4904265893,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "Soperton",
+      "lat": 32.32,
+      "lon": -82.56,
+      "x": -9190537.159892667,
+      "y": 3805389.287256367,
+      "up": true
+    },
+    {
+      "name": "Gordon",
+      "lat": 32.88,
+      "lon": -83.33,
+      "x": -9276253.167803487,
+      "y": 3879386.7809649725,
+      "up": true
+    },
+    {
+      "name": "Folkston",
+      "lat": 30.94,
+      "lon": -82.02,
+      "x": -9130424.634864299,
+      "y": 3624959.450275222,
+      "up": true
+    },
+    {
+      "name": "Baxley",
+      "lat": 31.72,
+      "lon": -82.2,
+      "x": -9150462.143207088,
+      "y": 3726612.1345404414,
+      "up": true
+    },
+    {
+      "name": "Saint Augustine",
+      "lat": 29.89,
+      "lon": -81.31,
+      "x": -9051387.796401074,
+      "y": 3489418.191019431,
+      "up": true
+    },
+    {
+      "name": "Jacksonville",
+      "lat": 30.33,
+      "lon": -81.66,
+      "x": -9090349.61817872,
+      "y": 3546039.1857780847,
+      "up": true
+    },
+    {
+      "name": "Titusville",
+      "lat": 28.61,
+      "lon": -80.81,
+      "x": -8995728.051004438,
+      "y": 3326100.801512995,
+      "up": true
+    },
+    {
+      "name": "Daytona Beach",
+      "lat": 29.21,
+      "lon": -81.02,
+      "x": -9019105.144071024,
+      "y": 3402401.5774517003,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Fort Pierce",
+      "destination": "Melbourne",
+      "capacity": 40,
+      "length": 112.91,
+      "up": true
+    },
+    {
+      "origin": "Fort Pierce",
+      "destination": "West Palm Beach",
+      "capacity": 40,
+      "length": 128.66,
+      "up": true
+    },
+    {
+      "origin": "Melbourne",
+      "destination": "Fort Pierce",
+      "capacity": 40,
+      "length": 112.91,
+      "up": true
+    },
+    {
+      "origin": "Melbourne",
+      "destination": "Titusville",
+      "capacity": 40,
+      "length": 93.15,
+      "up": true
+    },
+    {
+      "origin": "Lake Alfred",
+      "destination": "Orlando",
+      "capacity": 40,
+      "length": 90.14,
+      "up": true
+    },
+    {
+      "origin": "Lake Alfred",
+      "destination": "Tampa",
+      "capacity": 40,
+      "length": 111.43,
+      "up": true
+    },
+    {
+      "origin": "Orlando",
+      "destination": "Lake Alfred",
+      "capacity": 40,
+      "length": 90.14,
+      "up": true
+    },
+    {
+      "origin": "Orlando",
+      "destination": "Daytona Beach",
+      "capacity": 40,
+      "length": 123.5,
+      "up": true
+    },
+    {
+      "origin": "West Palm Beach",
+      "destination": "Fort Pierce",
+      "capacity": 40,
+      "length": 128.66,
+      "up": true
+    },
+    {
+      "origin": "West Palm Beach",
+      "destination": "Fort Lauderdale",
+      "capacity": 40,
+      "length": 100.97,
+      "up": true
+    },
+    {
+      "origin": "Tampa",
+      "destination": "Lake Alfred",
+      "capacity": 40,
+      "length": 111.43,
+      "up": true
+    },
+    {
+      "origin": "Miami",
+      "destination": "Fort Lauderdale",
+      "capacity": 40,
+      "length": 58.86,
+      "up": true
+    },
+    {
+      "origin": "Fort Lauderdale",
+      "destination": "West Palm Beach",
+      "capacity": 40,
+      "length": 100.97,
+      "up": true
+    },
+    {
+      "origin": "Fort Lauderdale",
+      "destination": "Miami",
+      "capacity": 40,
+      "length": 58.86,
+      "up": true
+    },
+    {
+      "origin": "Indian Springs",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 107.7,
+      "up": true
+    },
+    {
+      "origin": "Indian Springs",
+      "destination": "Gordon",
+      "capacity": 40,
+      "length": 100.78,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Indian Springs",
+      "capacity": 40,
+      "length": 107.7,
+      "up": true
+    },
+    {
+      "origin": "Soperton",
+      "destination": "Gordon",
+      "capacity": 40,
+      "length": 142.94,
+      "up": true
+    },
+    {
+      "origin": "Soperton",
+      "destination": "Baxley",
+      "capacity": 40,
+      "length": 112.28,
+      "up": true
+    },
+    {
+      "origin": "Gordon",
+      "destination": "Indian Springs",
+      "capacity": 40,
+      "length": 100.78,
+      "up": true
+    },
+    {
+      "origin": "Gordon",
+      "destination": "Soperton",
+      "capacity": 40,
+      "length": 142.94,
+      "up": true
+    },
+    {
+      "origin": "Folkston",
+      "destination": "Baxley",
+      "capacity": 40,
+      "length": 132.6,
+      "up": true
+    },
+    {
+      "origin": "Folkston",
+      "destination": "Jacksonville",
+      "capacity": 40,
+      "length": 114.11,
+      "up": true
+    },
+    {
+      "origin": "Baxley",
+      "destination": "Soperton",
+      "capacity": 40,
+      "length": 112.28,
+      "up": true
+    },
+    {
+      "origin": "Baxley",
+      "destination": "Folkston",
+      "capacity": 40,
+      "length": 132.6,
+      "up": true
+    },
+    {
+      "origin": "Saint Augustine",
+      "destination": "Daytona Beach",
+      "capacity": 40,
+      "length": 120.97,
+      "up": true
+    },
+    {
+      "origin": "Saint Augustine",
+      "destination": "Jacksonville",
+      "capacity": 40,
+      "length": 89.08,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville",
+      "destination": "Folkston",
+      "capacity": 40,
+      "length": 114.11,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville",
+      "destination": "Saint Augustine",
+      "capacity": 40,
+      "length": 89.08,
+      "up": true
+    },
+    {
+      "origin": "Titusville",
+      "destination": "Melbourne",
+      "capacity": 40,
+      "length": 93.15,
+      "up": true
+    },
+    {
+      "origin": "Titusville",
+      "destination": "Daytona Beach",
+      "capacity": 40,
+      "length": 104.67,
+      "up": true
+    },
+    {
+      "origin": "Daytona Beach",
+      "destination": "Orlando",
+      "capacity": 40,
+      "length": 123.5,
+      "up": true
+    },
+    {
+      "origin": "Daytona Beach",
+      "destination": "Saint Augustine",
+      "capacity": 40,
+      "length": 120.97,
+      "up": true
+    },
+    {
+      "origin": "Daytona Beach",
+      "destination": "Titusville",
+      "capacity": 40,
+      "length": 104.67,
+      "up": true
+    }
+  ]
+}

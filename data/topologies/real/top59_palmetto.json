@@ -1,0 +1,1266 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "PALMETTO (real topology #59)",
+  "description": "Real-world topology PALMETTO (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Rock Hill",
+      "lat": 34.92,
+      "lon": -81.03,
+      "x": -9020218.338978957,
+      "y": 4153014.771107749,
+      "up": true
+    },
+    {
+      "name": "Charlotte",
+      "lat": 35.23,
+      "lon": -80.84,
+      "x": -8999067.635728236,
+      "y": 4195181.319583607,
+      "up": true
+    },
+    {
+      "name": "Bishopville",
+      "lat": 34.41,
+      "lon": -80.35,
+      "x": -8944521.085239531,
+      "y": 4083988.772323353,
+      "up": true
+    },
+    {
+      "name": "Lancaster",
+      "lat": 34.72,
+      "lon": -80.77,
+      "x": -8991275.271372706,
+      "y": 4125895.065939439,
+      "up": true
+    },
+    {
+      "name": "Yadkinville",
+      "lat": 36.06,
+      "lon": -80.62,
+      "x": -8974577.347753717,
+      "y": 4308880.423304767,
+      "up": true
+    },
+    {
+      "name": "Lexington",
+      "lat": 35.82,
+      "lon": -80.25,
+      "x": -8933389.136160204,
+      "y": 4275881.832240712,
+      "up": true
+    },
+    {
+      "name": "Concord",
+      "lat": 35.41,
+      "lon": -80.58,
+      "x": -8970124.568121985,
+      "y": 4219739.041061547,
+      "up": true
+    },
+    {
+      "name": "Granite Quarry",
+      "lat": 35.64,
+      "lon": -80.46,
+      "x": -8956766.22922679,
+      "y": 4251198.324904582,
+      "up": true
+    },
+    {
+      "name": "High Point",
+      "lat": 35.96,
+      "lon": -80.01,
+      "x": -8906672.45836982,
+      "y": 4295118.828672308,
+      "up": true
+    },
+    {
+      "name": "Asheboro",
+      "lat": 35.71,
+      "lon": -79.81,
+      "x": -8884408.560211163,
+      "y": 4260790.840203072,
+      "up": true
+    },
+    {
+      "name": "Orangeburg",
+      "lat": 33.49,
+      "lon": -80.86,
+      "x": -9001294.0255441,
+      "y": 3960525.345703738,
+      "up": true
+    },
+    {
+      "name": "Aiken",
+      "lat": 33.56,
+      "lon": -81.72,
+      "x": -9097028.787626317,
+      "y": 3969872.6890722183,
+      "up": true
+    },
+    {
+      "name": "Chester",
+      "lat": 34.7,
+      "lon": -81.21,
+      "x": -9040255.847321747,
+      "y": 4123186.709668859,
+      "up": true
+    },
+    {
+      "name": "Columbia",
+      "lat": 34.0,
+      "lon": -81.03,
+      "x": -9020218.338978957,
+      "y": 4028802.0261344067,
+      "up": true
+    },
+    {
+      "name": "Sumter",
+      "lat": 33.92,
+      "lon": -80.34,
+      "x": -8943407.890331598,
+      "y": 4018065.032433213,
+      "up": true
+    },
+    {
+      "name": "Georgetown",
+      "lat": 33.38,
+      "lon": -79.29,
+      "x": -8826522.424998662,
+      "y": 3945851.9129018546,
+      "up": true
+    },
+    {
+      "name": "Moncks Corner",
+      "lat": 33.2,
+      "lon": -80.01,
+      "x": -8906672.45836982,
+      "y": 3921880.806703243,
+      "up": true
+    },
+    {
+      "name": "Charleston",
+      "lat": 32.78,
+      "lon": -79.93,
+      "x": -8897766.899106357,
+      "y": 3866138.9184606387,
+      "up": true
+    },
+    {
+      "name": "Saint George",
+      "lat": 33.19,
+      "lon": -80.58,
+      "x": -8970124.568121985,
+      "y": 3920550.5260843327,
+      "up": true
+    },
+    {
+      "name": "Walterboro",
+      "lat": 32.91,
+      "lon": -80.67,
+      "x": -8980143.32229338,
+      "y": 3883364.0526105496,
+      "up": true
+    },
+    {
+      "name": "Yemassee",
+      "lat": 32.69,
+      "lon": -80.85,
+      "x": -9000180.830636168,
+      "y": 3854228.567790888,
+      "up": true
+    },
+    {
+      "name": "North Augusta",
+      "lat": 33.5,
+      "lon": -81.97,
+      "x": -9124858.660324635,
+      "y": 3961860.2174457465,
+      "up": true
+    },
+    {
+      "name": "Hilton Head Island",
+      "lat": 32.22,
+      "lon": -80.75,
+      "x": -8989048.88155684,
+      "y": 3792223.8168781134,
+      "up": true
+    },
+    {
+      "name": "Beaufort",
+      "lat": 32.43,
+      "lon": -80.67,
+      "x": -8980143.32229338,
+      "y": 3819888.1074094605,
+      "up": true
+    },
+    {
+      "name": "Savannah",
+      "lat": 32.08,
+      "lon": -81.1,
+      "x": -9028010.703334486,
+      "y": 3773816.457454082,
+      "up": true
+    },
+    {
+      "name": "Greenwood",
+      "lat": 34.2,
+      "lon": -82.16,
+      "x": -9146009.363575356,
+      "y": 4055688.8590062363,
+      "up": true
+    },
+    {
+      "name": "Due West",
+      "lat": 34.33,
+      "lon": -82.39,
+      "x": -9171612.84645781,
+      "y": 4073199.5048293457,
+      "up": true
+    },
+    {
+      "name": "Spartanburg",
+      "lat": 34.95,
+      "lon": -81.93,
+      "x": -9120405.880692905,
+      "y": 4157088.41804648,
+      "up": true
+    },
+    {
+      "name": "Asheville",
+      "lat": 35.6,
+      "lon": -82.55,
+      "x": -9189423.964984732,
+      "y": 4245720.660441586,
+      "up": true
+    },
+    {
+      "name": "Boone",
+      "lat": 36.22,
+      "lon": -81.67,
+      "x": -9091462.813086653,
+      "y": 4330935.410884395,
+      "up": true
+    },
+    {
+      "name": "Hickory",
+      "lat": 35.73,
+      "lon": -81.34,
+      "x": -9054727.381124873,
+      "y": 4263533.1056039,
+      "up": true
+    },
+    {
+      "name": "Anderson",
+      "lat": 34.5,
+      "lon": -82.65,
+      "x": -9200555.91406406,
+      "y": 4096139.0404472323,
+      "up": true
+    },
+    {
+      "name": "Clemson",
+      "lat": 34.68,
+      "lon": -82.84,
+      "x": -9221706.617314782,
+      "y": 4120479.007941516,
+      "up": true
+    },
+    {
+      "name": "Toccoa",
+      "lat": 34.58,
+      "lon": -83.33,
+      "x": -9276253.167803487,
+      "y": 4106950.294863089,
+      "up": true
+    },
+    {
+      "name": "Greenville",
+      "lat": 34.85,
+      "lon": -82.39,
+      "x": -9171612.84645781,
+      "y": 4143515.3809116273,
+      "up": true
+    },
+    {
+      "name": "Myrtle Beach",
+      "lat": 33.69,
+      "lon": -78.89,
+      "x": -8781994.628681352,
+      "y": 3987252.1684489786,
+      "up": true
+    },
+    {
+      "name": "Florence",
+      "lat": 34.2,
+      "lon": -79.76,
+      "x": -8878842.5856715,
+      "y": 4055688.8590062363,
+      "up": true
+    },
+    {
+      "name": "West Jefferson",
+      "lat": 36.35,
+      "lon": -81.53,
+      "x": -9075878.084375594,
+      "y": 4348888.321298579,
+      "up": true
+    },
+    {
+      "name": "Sparta",
+      "lat": 36.51,
+      "lon": -81.12,
+      "x": -9030237.093150353,
+      "y": 4371025.417413116,
+      "up": true
+    },
+    {
+      "name": "Mount Airy",
+      "lat": 36.5,
+      "lon": -80.61,
+      "x": -8973464.152845781,
+      "y": 4369640.510649828,
+      "up": true
+    },
+    {
+      "name": "Greensboro",
+      "lat": 36.07,
+      "lon": -79.79,
+      "x": -8882182.1703953,
+      "y": 4310257.543845529,
+      "up": true
+    },
+    {
+      "name": "Raleigh",
+      "lat": 35.77,
+      "lon": -78.64,
+      "x": -8754164.755983034,
+      "y": 4269019.703147485,
+      "up": true
+    },
+    {
+      "name": "Rocky Mount",
+      "lat": 35.92,
+      "lon": -77.8,
+      "x": -8660656.383716684,
+      "y": 4289619.071512859,
+      "up": true
+    },
+    {
+      "name": "Fayetteville",
+      "lat": 35.05,
+      "lon": -78.88,
+      "x": -8780881.433773419,
+      "y": 4170678.022022106,
+      "up": true
+    },
+    {
+      "name": "Wilmington",
+      "lat": 34.23,
+      "lon": -77.94,
+      "x": -8676241.112427741,
+      "y": 4059727.3762872005,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Rock Hill",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 57.85,
+      "up": true
+    },
+    {
+      "origin": "Rock Hill",
+      "destination": "Lancaster",
+      "capacity": 40,
+      "length": 48.79,
+      "up": true
+    },
+    {
+      "origin": "Rock Hill",
+      "destination": "Chester",
+      "capacity": 40,
+      "length": 44.21,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Rock Hill",
+      "capacity": 40,
+      "length": 57.85,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Spartanburg",
+      "capacity": 40,
+      "length": 155.92,
+      "up": true
+    },
+    {
+      "origin": "Charlotte",
+      "destination": "Concord",
+      "capacity": 40,
+      "length": 46.4,
+      "up": true
+    },
+    {
+      "origin": "Bishopville",
+      "destination": "Lancaster",
+      "capacity": 40,
+      "length": 77.47,
+      "up": true
+    },
+    {
+      "origin": "Bishopville",
+      "destination": "Florence",
+      "capacity": 40,
+      "length": 88.51,
+      "up": true
+    },
+    {
+      "origin": "Bishopville",
+      "destination": "Sumter",
+      "capacity": 40,
+      "length": 81.74,
+      "up": true
+    },
+    {
+      "origin": "Lancaster",
+      "destination": "Rock Hill",
+      "capacity": 40,
+      "length": 48.79,
+      "up": true
+    },
+    {
+      "origin": "Lancaster",
+      "destination": "Bishopville",
+      "capacity": 40,
+      "length": 77.47,
+      "up": true
+    },
+    {
+      "origin": "Yadkinville",
+      "destination": "Lexington",
+      "capacity": 40,
+      "length": 64.02,
+      "up": true
+    },
+    {
+      "origin": "Yadkinville",
+      "destination": "West Jefferson",
+      "capacity": 40,
+      "length": 131.68,
+      "up": true
+    },
+    {
+      "origin": "Yadkinville",
+      "destination": "Mount Airy",
+      "capacity": 40,
+      "length": 73.4,
+      "up": true
+    },
+    {
+      "origin": "Lexington",
+      "destination": "Yadkinville",
+      "capacity": 40,
+      "length": 64.02,
+      "up": true
+    },
+    {
+      "origin": "Lexington",
+      "destination": "High Point",
+      "capacity": 40,
+      "length": 39.96,
+      "up": true
+    },
+    {
+      "origin": "Lexington",
+      "destination": "Asheboro",
+      "capacity": 40,
+      "length": 62.31,
+      "up": true
+    },
+    {
+      "origin": "Lexington",
+      "destination": "Concord",
+      "capacity": 40,
+      "length": 81.72,
+      "up": true
+    },
+    {
+      "origin": "Lexington",
+      "destination": "Granite Quarry",
+      "capacity": 40,
+      "length": 41.35,
+      "up": true
+    },
+    {
+      "origin": "Concord",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 46.4,
+      "up": true
+    },
+    {
+      "origin": "Concord",
+      "destination": "Lexington",
+      "capacity": 40,
+      "length": 81.72,
+      "up": true
+    },
+    {
+      "origin": "Concord",
+      "destination": "Granite Quarry",
+      "capacity": 40,
+      "length": 41.68,
+      "up": true
+    },
+    {
+      "origin": "Granite Quarry",
+      "destination": "Lexington",
+      "capacity": 40,
+      "length": 41.35,
+      "up": true
+    },
+    {
+      "origin": "Granite Quarry",
+      "destination": "Concord",
+      "capacity": 40,
+      "length": 41.68,
+      "up": true
+    },
+    {
+      "origin": "High Point",
+      "destination": "Lexington",
+      "capacity": 40,
+      "length": 39.96,
+      "up": true
+    },
+    {
+      "origin": "High Point",
+      "destination": "Greensboro",
+      "capacity": 40,
+      "length": 34.89,
+      "up": true
+    },
+    {
+      "origin": "High Point",
+      "destination": "Asheboro",
+      "capacity": 40,
+      "length": 49.7,
+      "up": true
+    },
+    {
+      "origin": "Asheboro",
+      "destination": "Lexington",
+      "capacity": 40,
+      "length": 62.31,
+      "up": true
+    },
+    {
+      "origin": "Asheboro",
+      "destination": "High Point",
+      "capacity": 40,
+      "length": 49.7,
+      "up": true
+    },
+    {
+      "origin": "Orangeburg",
+      "destination": "Saint George",
+      "capacity": 40,
+      "length": 63.45,
+      "up": true
+    },
+    {
+      "origin": "Orangeburg",
+      "destination": "Columbia",
+      "capacity": 40,
+      "length": 88.27,
+      "up": true
+    },
+    {
+      "origin": "Aiken",
+      "destination": "North Augusta",
+      "capacity": 40,
+      "length": 36.17,
+      "up": true
+    },
+    {
+      "origin": "Aiken",
+      "destination": "Columbia",
+      "capacity": 40,
+      "length": 120.57,
+      "up": true
+    },
+    {
+      "origin": "Chester",
+      "destination": "Rock Hill",
+      "capacity": 40,
+      "length": 44.21,
+      "up": true
+    },
+    {
+      "origin": "Chester",
+      "destination": "Due West",
+      "capacity": 40,
+      "length": 173.52,
+      "up": true
+    },
+    {
+      "origin": "Chester",
+      "destination": "Columbia",
+      "capacity": 40,
+      "length": 119.36,
+      "up": true
+    },
+    {
+      "origin": "Columbia",
+      "destination": "Orangeburg",
+      "capacity": 40,
+      "length": 88.27,
+      "up": true
+    },
+    {
+      "origin": "Columbia",
+      "destination": "Aiken",
+      "capacity": 40,
+      "length": 120.57,
+      "up": true
+    },
+    {
+      "origin": "Columbia",
+      "destination": "Chester",
+      "capacity": 40,
+      "length": 119.36,
+      "up": true
+    },
+    {
+      "origin": "Columbia",
+      "destination": "North Augusta",
+      "capacity": 40,
+      "length": 154.75,
+      "up": true
+    },
+    {
+      "origin": "Columbia",
+      "destination": "Sumter",
+      "capacity": 40,
+      "length": 96.38,
+      "up": true
+    },
+    {
+      "origin": "Sumter",
+      "destination": "Bishopville",
+      "capacity": 40,
+      "length": 81.74,
+      "up": true
+    },
+    {
+      "origin": "Sumter",
+      "destination": "Columbia",
+      "capacity": 40,
+      "length": 96.38,
+      "up": true
+    },
+    {
+      "origin": "Sumter",
+      "destination": "Moncks Corner",
+      "capacity": 40,
+      "length": 128.55,
+      "up": true
+    },
+    {
+      "origin": "Sumter",
+      "destination": "Florence",
+      "capacity": 40,
+      "length": 92.76,
+      "up": true
+    },
+    {
+      "origin": "Sumter",
+      "destination": "Georgetown",
+      "capacity": 40,
+      "length": 171.36,
+      "up": true
+    },
+    {
+      "origin": "Georgetown",
+      "destination": "Sumter",
+      "capacity": 40,
+      "length": 171.36,
+      "up": true
+    },
+    {
+      "origin": "Georgetown",
+      "destination": "Myrtle Beach",
+      "capacity": 40,
+      "length": 75.94,
+      "up": true
+    },
+    {
+      "origin": "Moncks Corner",
+      "destination": "Sumter",
+      "capacity": 40,
+      "length": 128.55,
+      "up": true
+    },
+    {
+      "origin": "Moncks Corner",
+      "destination": "Charleston",
+      "capacity": 40,
+      "length": 70.94,
+      "up": true
+    },
+    {
+      "origin": "Charleston",
+      "destination": "Moncks Corner",
+      "capacity": 40,
+      "length": 70.94,
+      "up": true
+    },
+    {
+      "origin": "Charleston",
+      "destination": "Savannah",
+      "capacity": 40,
+      "length": 201.89,
+      "up": true
+    },
+    {
+      "origin": "Charleston",
+      "destination": "Saint George",
+      "capacity": 40,
+      "length": 113.78,
+      "up": true
+    },
+    {
+      "origin": "Charleston",
+      "destination": "Myrtle Beach",
+      "capacity": 40,
+      "length": 209.97,
+      "up": true
+    },
+    {
+      "origin": "Saint George",
+      "destination": "Orangeburg",
+      "capacity": 40,
+      "length": 63.45,
+      "up": true
+    },
+    {
+      "origin": "Saint George",
+      "destination": "Charleston",
+      "capacity": 40,
+      "length": 113.78,
+      "up": true
+    },
+    {
+      "origin": "Saint George",
+      "destination": "Walterboro",
+      "capacity": 40,
+      "length": 48.37,
+      "up": true
+    },
+    {
+      "origin": "Walterboro",
+      "destination": "Saint George",
+      "capacity": 40,
+      "length": 48.37,
+      "up": true
+    },
+    {
+      "origin": "Walterboro",
+      "destination": "Yemassee",
+      "capacity": 40,
+      "length": 44.53,
+      "up": true
+    },
+    {
+      "origin": "Yemassee",
+      "destination": "Walterboro",
+      "capacity": 40,
+      "length": 44.53,
+      "up": true
+    },
+    {
+      "origin": "Yemassee",
+      "destination": "Savannah",
+      "capacity": 40,
+      "length": 107.66,
+      "up": true
+    },
+    {
+      "origin": "Yemassee",
+      "destination": "Hilton Head Island",
+      "capacity": 40,
+      "length": 79.65,
+      "up": true
+    },
+    {
+      "origin": "Yemassee",
+      "destination": "Beaufort",
+      "capacity": 40,
+      "length": 50.21,
+      "up": true
+    },
+    {
+      "origin": "North Augusta",
+      "destination": "Aiken",
+      "capacity": 40,
+      "length": 36.17,
+      "up": true
+    },
+    {
+      "origin": "North Augusta",
+      "destination": "Columbia",
+      "capacity": 40,
+      "length": 154.75,
+      "up": true
+    },
+    {
+      "origin": "North Augusta",
+      "destination": "Savannah",
+      "capacity": 40,
+      "length": 266.41,
+      "up": true
+    },
+    {
+      "origin": "North Augusta",
+      "destination": "Anderson",
+      "capacity": 40,
+      "length": 191.47,
+      "up": true
+    },
+    {
+      "origin": "Hilton Head Island",
+      "destination": "Yemassee",
+      "capacity": 40,
+      "length": 79.65,
+      "up": true
+    },
+    {
+      "origin": "Hilton Head Island",
+      "destination": "Savannah",
+      "capacity": 40,
+      "length": 54.66,
+      "up": true
+    },
+    {
+      "origin": "Beaufort",
+      "destination": "Yemassee",
+      "capacity": 40,
+      "length": 50.21,
+      "up": true
+    },
+    {
+      "origin": "Savannah",
+      "destination": "Charleston",
+      "capacity": 40,
+      "length": 201.89,
+      "up": true
+    },
+    {
+      "origin": "Savannah",
+      "destination": "Yemassee",
+      "capacity": 40,
+      "length": 107.66,
+      "up": true
+    },
+    {
+      "origin": "Savannah",
+      "destination": "North Augusta",
+      "capacity": 40,
+      "length": 266.41,
+      "up": true
+    },
+    {
+      "origin": "Savannah",
+      "destination": "Hilton Head Island",
+      "capacity": 40,
+      "length": 54.66,
+      "up": true
+    },
+    {
+      "origin": "Greenwood",
+      "destination": "Due West",
+      "capacity": 40,
+      "length": 38.41,
+      "up": true
+    },
+    {
+      "origin": "Due West",
+      "destination": "Chester",
+      "capacity": 40,
+      "length": 173.52,
+      "up": true
+    },
+    {
+      "origin": "Due West",
+      "destination": "Greenwood",
+      "capacity": 40,
+      "length": 38.41,
+      "up": true
+    },
+    {
+      "origin": "Due West",
+      "destination": "Anderson",
+      "capacity": 40,
+      "length": 45.65,
+      "up": true
+    },
+    {
+      "origin": "Spartanburg",
+      "destination": "Charlotte",
+      "capacity": 40,
+      "length": 155.92,
+      "up": true
+    },
+    {
+      "origin": "Spartanburg",
+      "destination": "Greenville",
+      "capacity": 40,
+      "length": 65.1,
+      "up": true
+    },
+    {
+      "origin": "Spartanburg",
+      "destination": "Hickory",
+      "capacity": 40,
+      "length": 152.87,
+      "up": true
+    },
+    {
+      "origin": "Asheville",
+      "destination": "Greenville",
+      "capacity": 40,
+      "length": 126.98,
+      "up": true
+    },
+    {
+      "origin": "Asheville",
+      "destination": "Hickory",
+      "capacity": 40,
+      "length": 165.39,
+      "up": true
+    },
+    {
+      "origin": "Boone",
+      "destination": "West Jefferson",
+      "capacity": 40,
+      "length": 28.71,
+      "up": true
+    },
+    {
+      "origin": "Hickory",
+      "destination": "Spartanburg",
+      "capacity": 40,
+      "length": 152.87,
+      "up": true
+    },
+    {
+      "origin": "Hickory",
+      "destination": "Asheville",
+      "capacity": 40,
+      "length": 165.39,
+      "up": true
+    },
+    {
+      "origin": "Anderson",
+      "destination": "North Augusta",
+      "capacity": 40,
+      "length": 191.47,
+      "up": true
+    },
+    {
+      "origin": "Anderson",
+      "destination": "Due West",
+      "capacity": 40,
+      "length": 45.65,
+      "up": true
+    },
+    {
+      "origin": "Anderson",
+      "destination": "Clemson",
+      "capacity": 40,
+      "length": 39.77,
+      "up": true
+    },
+    {
+      "origin": "Anderson",
+      "destination": "Toccoa",
+      "capacity": 40,
+      "length": 94.37,
+      "up": true
+    },
+    {
+      "origin": "Clemson",
+      "destination": "Anderson",
+      "capacity": 40,
+      "length": 39.77,
+      "up": true
+    },
+    {
+      "origin": "Clemson",
+      "destination": "Toccoa",
+      "capacity": 40,
+      "length": 69.29,
+      "up": true
+    },
+    {
+      "origin": "Clemson",
+      "destination": "Greenville",
+      "capacity": 40,
+      "length": 67.87,
+      "up": true
+    },
+    {
+      "origin": "Toccoa",
+      "destination": "Anderson",
+      "capacity": 40,
+      "length": 94.37,
+      "up": true
+    },
+    {
+      "origin": "Toccoa",
+      "destination": "Clemson",
+      "capacity": 40,
+      "length": 69.29,
+      "up": true
+    },
+    {
+      "origin": "Toccoa",
+      "destination": "Greenville",
+      "capacity": 40,
+      "length": 136.52,
+      "up": true
+    },
+    {
+      "origin": "Greenville",
+      "destination": "Spartanburg",
+      "capacity": 40,
+      "length": 65.1,
+      "up": true
+    },
+    {
+      "origin": "Greenville",
+      "destination": "Asheville",
+      "capacity": 40,
+      "length": 126.98,
+      "up": true
+    },
+    {
+      "origin": "Greenville",
+      "destination": "Clemson",
+      "capacity": 40,
+      "length": 67.87,
+      "up": true
+    },
+    {
+      "origin": "Greenville",
+      "destination": "Toccoa",
+      "capacity": 40,
+      "length": 136.52,
+      "up": true
+    },
+    {
+      "origin": "Myrtle Beach",
+      "destination": "Georgetown",
+      "capacity": 40,
+      "length": 75.94,
+      "up": true
+    },
+    {
+      "origin": "Myrtle Beach",
+      "destination": "Charleston",
+      "capacity": 40,
+      "length": 209.97,
+      "up": true
+    },
+    {
+      "origin": "Myrtle Beach",
+      "destination": "Florence",
+      "capacity": 40,
+      "length": 147.4,
+      "up": true
+    },
+    {
+      "origin": "Myrtle Beach",
+      "destination": "Wilmington",
+      "capacity": 40,
+      "length": 159.32,
+      "up": true
+    },
+    {
+      "origin": "Florence",
+      "destination": "Bishopville",
+      "capacity": 40,
+      "length": 88.51,
+      "up": true
+    },
+    {
+      "origin": "Florence",
+      "destination": "Sumter",
+      "capacity": 40,
+      "length": 92.76,
+      "up": true
+    },
+    {
+      "origin": "Florence",
+      "destination": "Myrtle Beach",
+      "capacity": 40,
+      "length": 147.4,
+      "up": true
+    },
+    {
+      "origin": "Florence",
+      "destination": "Fayetteville",
+      "capacity": 40,
+      "length": 186.24,
+      "up": true
+    },
+    {
+      "origin": "West Jefferson",
+      "destination": "Yadkinville",
+      "capacity": 40,
+      "length": 131.68,
+      "up": true
+    },
+    {
+      "origin": "West Jefferson",
+      "destination": "Boone",
+      "capacity": 40,
+      "length": 28.71,
+      "up": true
+    },
+    {
+      "origin": "West Jefferson",
+      "destination": "Sparta",
+      "capacity": 40,
+      "length": 61.15,
+      "up": true
+    },
+    {
+      "origin": "Sparta",
+      "destination": "West Jefferson",
+      "capacity": 40,
+      "length": 61.15,
+      "up": true
+    },
+    {
+      "origin": "Sparta",
+      "destination": "Mount Airy",
+      "capacity": 40,
+      "length": 68.4,
+      "up": true
+    },
+    {
+      "origin": "Mount Airy",
+      "destination": "Yadkinville",
+      "capacity": 40,
+      "length": 73.4,
+      "up": true
+    },
+    {
+      "origin": "Mount Airy",
+      "destination": "Sparta",
+      "capacity": 40,
+      "length": 68.4,
+      "up": true
+    },
+    {
+      "origin": "Greensboro",
+      "destination": "High Point",
+      "capacity": 40,
+      "length": 34.89,
+      "up": true
+    },
+    {
+      "origin": "Greensboro",
+      "destination": "Raleigh",
+      "capacity": 40,
+      "length": 163.19,
+      "up": true
+    },
+    {
+      "origin": "Raleigh",
+      "destination": "Greensboro",
+      "capacity": 40,
+      "length": 163.19,
+      "up": true
+    },
+    {
+      "origin": "Raleigh",
+      "destination": "Rocky Mount",
+      "capacity": 40,
+      "length": 116.29,
+      "up": true
+    },
+    {
+      "origin": "Raleigh",
+      "destination": "Fayetteville",
+      "capacity": 40,
+      "length": 124.44,
+      "up": true
+    },
+    {
+      "origin": "Rocky Mount",
+      "destination": "Raleigh",
+      "capacity": 40,
+      "length": 116.29,
+      "up": true
+    },
+    {
+      "origin": "Rocky Mount",
+      "destination": "Fayetteville",
+      "capacity": 40,
+      "length": 206.33,
+      "up": true
+    },
+    {
+      "origin": "Fayetteville",
+      "destination": "Florence",
+      "capacity": 40,
+      "length": 186.24,
+      "up": true
+    },
+    {
+      "origin": "Fayetteville",
+      "destination": "Raleigh",
+      "capacity": 40,
+      "length": 124.44,
+      "up": true
+    },
+    {
+      "origin": "Fayetteville",
+      "destination": "Rocky Mount",
+      "capacity": 40,
+      "length": 206.33,
+      "up": true
+    },
+    {
+      "origin": "Fayetteville",
+      "destination": "Wilmington",
+      "capacity": 40,
+      "length": 188.0,
+      "up": true
+    },
+    {
+      "origin": "Wilmington",
+      "destination": "Myrtle Beach",
+      "capacity": 40,
+      "length": 159.32,
+      "up": true
+    },
+    {
+      "origin": "Wilmington",
+      "destination": "Fayetteville",
+      "capacity": 40,
+      "length": 188.0,
+      "up": true
+    }
+  ]
+}

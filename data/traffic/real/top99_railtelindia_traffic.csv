@@ -1,0 +1,41 @@
+# topology: RAILTELINDIA (real topology #99) (data/topologies/real/top99_railtelindia.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Ahmedabad,Nagpur,1
+1,Patna,Bangalore,7
+2,Bhubaneshwar,Jalandhar,3
+3,Jalandhar,Hyderabad,4
+4,Hyderabad,Bangalore,4
+5,Kolkata,Chandigarh,3
+6,Hyderabad,Mumbai,1
+7,Chandigarh,Chennai,2
+8,Bangalore,Bhubaneshwar,6
+9,Mysore,Jaipur,4
+10,Lucknow,Cochin,3
+11,Cochin,Bangalore,6
+12,Bhubaneshwar,Mangalore,5
+13,Chandigarh,Pune,1
+14,Mumbai,Cochin,6
+15,Coimbatore,Patna,4
+16,Bhubaneshwar,Mysore,4
+17,Hyderabad,Patna,4
+18,Mumbai,Karol Bagh,7
+19,Mysore,Chandigarh,5
+20,Patna,Ahmedabad,8
+21,Karol Bagh,Chandigarh,1
+22,Pune,Jaipur,1
+23,Nagpur,Mangalore,5
+24,Chandigarh,Nagpur,1
+25,Nagpur,Mumbai,1
+26,Pune,Chennai,4
+27,Mysore,Lucknow,4
+28,Karol Bagh,Cochin,3
+29,Coimbatore,Mumbai,7
+30,Nagpur,Hyderabad,7
+31,Mangalore,Bhubaneshwar,6
+32,Coimbatore,Nagpur,8
+33,Jaipur,Chandigarh,6
+34,Hyderabad,Cochin,6
+35,Bhubaneshwar,Cochin,8
+36,Mangalore,Karol Bagh,6
+37,Chennai,Bangalore,1

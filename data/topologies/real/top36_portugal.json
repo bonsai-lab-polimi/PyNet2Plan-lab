@@ -1,0 +1,722 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "PORTUGAL (real topology #36)",
+  "description": "Real-world topology PORTUGAL (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Ponta Delgada",
+      "lat": 37.74757445,
+      "lon": -25.6726782661463,
+      "x": -2857869.4718869478,
+      "y": 4543827.664254904,
+      "up": true
+    },
+    {
+      "name": "Funchal",
+      "lat": 32.6496497,
+      "lon": -16.9086783,
+      "x": -1882265.4583432744,
+      "y": 3848892.620171038,
+      "up": true
+    },
+    {
+      "name": "Faro",
+      "lat": 37.0162727,
+      "lon": -7.9351771,
+      "x": -883339.8741264453,
+      "y": 4441375.234559776,
+      "up": true
+    },
+    {
+      "name": "Portimao",
+      "lat": 37.1375808,
+      "lon": -8.5368426,
+      "x": -950316.9712143256,
+      "y": 4458301.165961572,
+      "up": true
+    },
+    {
+      "name": "Sines",
+      "lat": 37.956549,
+      "lon": -8.8689639,
+      "x": -987288.5452119258,
+      "y": 4573289.460971985,
+      "up": true
+    },
+    {
+      "name": "Beja",
+      "lat": 38.0154479,
+      "lon": -7.8650368,
+      "x": -875531.8916463578,
+      "y": 4581608.312944635,
+      "up": true
+    },
+    {
+      "name": "Evora",
+      "lat": 38.5707742,
+      "lon": -7.9092808,
+      "x": -880457.1111970155,
+      "y": 4660373.828627568,
+      "up": true
+    },
+    {
+      "name": "Alcacer do Sal",
+      "lat": 38.36584625,
+      "lon": -8.53125903367014,
+      "x": -949695.4114536754,
+      "y": 4631237.313843871,
+      "up": true
+    },
+    {
+      "name": "Setubal",
+      "lat": 38.5241783,
+      "lon": -8.8932341,
+      "x": -989990.2915173767,
+      "y": 4653741.575934018,
+      "up": true
+    },
+    {
+      "name": "Elvas",
+      "lat": 38.8806123,
+      "lon": -7.1637237,
+      "x": -797462.0744677057,
+      "y": 4704584.708326267,
+      "up": true
+    },
+    {
+      "name": "Lisboa",
+      "lat": 38.7077507,
+      "lon": -9.1365919,
+      "x": -1017080.7578939479,
+      "y": 4679895.405438774,
+      "up": true
+    },
+    {
+      "name": "Santarem",
+      "lat": 39.2363637,
+      "lon": -8.6867081,
+      "x": -966999.9223618051,
+      "y": 4755585.419060321,
+      "up": true
+    },
+    {
+      "name": "Caldas da Rainha",
+      "lat": 39.4071857,
+      "lon": -9.1346004,
+      "x": -1016859.065128033,
+      "y": 4780166.401771971,
+      "up": true
+    },
+    {
+      "name": "Leiria",
+      "lat": 39.7437902,
+      "lon": -8.8071119,
+      "x": -980403.2120673801,
+      "y": 4828780.122383871,
+      "up": true
+    },
+    {
+      "name": "Portalegre",
+      "lat": 39.2076447,
+      "lon": -7.72151335401534,
+      "x": -859554.9347224495,
+      "y": 4751458.689352461,
+      "up": true
+    },
+    {
+      "name": "Castelo Branco",
+      "lat": 39.97675825,
+      "lon": -7.4460599299667,
+      "x": -828891.5998200914,
+      "y": 4862565.426309048,
+      "up": true
+    },
+    {
+      "name": "Coimbra",
+      "lat": 40.2111931,
+      "lon": -8.4294632,
+      "x": -938363.5510846385,
+      "y": 4896679.914170096,
+      "up": true
+    },
+    {
+      "name": "Guarda",
+      "lat": 40.7046066,
+      "lon": -7.1951392360713,
+      "x": -800959.2359461605,
+      "y": 4968868.356613861,
+      "up": true
+    },
+    {
+      "name": "Viseu",
+      "lat": 40.6574713,
+      "lon": -7.9138664,
+      "x": -880967.5778539971,
+      "y": 4961949.285866949,
+      "up": true
+    },
+    {
+      "name": "Aveiro",
+      "lat": 40.640496,
+      "lon": -8.6537841,
+      "x": -963334.8394469272,
+      "y": 4959458.650251901,
+      "up": true
+    },
+    {
+      "name": "Porto",
+      "lat": 41.1494512,
+      "lon": -8.6107884,
+      "x": -958548.5800166269,
+      "y": 5034410.736617059,
+      "up": true
+    },
+    {
+      "name": "Sao Joao da Madeira",
+      "lat": 40.9020813,
+      "lon": -8.4896358,
+      "x": -945061.9342763458,
+      "y": 4997909.3886727085,
+      "up": true
+    },
+    {
+      "name": "Vila Real",
+      "lat": 41.5229299,
+      "lon": -7.54663124811733,
+      "x": -840087.1477450278,
+      "y": 5089782.391332429,
+      "up": true
+    },
+    {
+      "name": "Braga",
+      "lat": 41.5510583,
+      "lon": -8.4280045,
+      "x": -938201.1693434182,
+      "y": 5093965.588712468,
+      "up": true
+    },
+    {
+      "name": "Viana do Castelo",
+      "lat": 41.8803257,
+      "lon": -8.52325529355434,
+      "x": -948804.4391795426,
+      "y": 5143069.637347756,
+      "up": true
+    },
+    {
+      "name": "Braganca",
+      "lat": 41.8071182,
+      "lon": -6.7589839,
+      "x": -752406.6460279343,
+      "y": 5132130.332187819,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Ponta Delgada",
+      "destination": "Lisboa",
+      "capacity": 40,
+      "length": 1808.0,
+      "up": true
+    },
+    {
+      "origin": "Ponta Delgada",
+      "destination": "Funchal",
+      "capacity": 40,
+      "length": 1465.11,
+      "up": true
+    },
+    {
+      "origin": "Funchal",
+      "destination": "Ponta Delgada",
+      "capacity": 40,
+      "length": 1465.11,
+      "up": true
+    },
+    {
+      "origin": "Funchal",
+      "destination": "Lisboa",
+      "capacity": 40,
+      "length": 1458.29,
+      "up": true
+    },
+    {
+      "origin": "Funchal",
+      "destination": "Portimao",
+      "capacity": 40,
+      "length": 1367.36,
+      "up": true
+    },
+    {
+      "origin": "Faro",
+      "destination": "Portimao",
+      "capacity": 40,
+      "length": 82.58,
+      "up": true
+    },
+    {
+      "origin": "Faro",
+      "destination": "Beja",
+      "capacity": 40,
+      "length": 166.91,
+      "up": true
+    },
+    {
+      "origin": "Portimao",
+      "destination": "Funchal",
+      "capacity": 40,
+      "length": 1367.36,
+      "up": true
+    },
+    {
+      "origin": "Portimao",
+      "destination": "Faro",
+      "capacity": 40,
+      "length": 82.58,
+      "up": true
+    },
+    {
+      "origin": "Portimao",
+      "destination": "Sines",
+      "capacity": 40,
+      "length": 143.48,
+      "up": true
+    },
+    {
+      "origin": "Sines",
+      "destination": "Portimao",
+      "capacity": 40,
+      "length": 143.48,
+      "up": true
+    },
+    {
+      "origin": "Sines",
+      "destination": "Alcacer do Sal",
+      "capacity": 40,
+      "length": 81.38,
+      "up": true
+    },
+    {
+      "origin": "Beja",
+      "destination": "Faro",
+      "capacity": 40,
+      "length": 166.91,
+      "up": true
+    },
+    {
+      "origin": "Beja",
+      "destination": "Evora",
+      "capacity": 40,
+      "length": 92.81,
+      "up": true
+    },
+    {
+      "origin": "Evora",
+      "destination": "Beja",
+      "capacity": 40,
+      "length": 92.81,
+      "up": true
+    },
+    {
+      "origin": "Evora",
+      "destination": "Elvas",
+      "capacity": 40,
+      "length": 109.92,
+      "up": true
+    },
+    {
+      "origin": "Evora",
+      "destination": "Alcacer do Sal",
+      "capacity": 40,
+      "length": 88.12,
+      "up": true
+    },
+    {
+      "origin": "Alcacer do Sal",
+      "destination": "Sines",
+      "capacity": 40,
+      "length": 81.38,
+      "up": true
+    },
+    {
+      "origin": "Alcacer do Sal",
+      "destination": "Evora",
+      "capacity": 40,
+      "length": 88.12,
+      "up": true
+    },
+    {
+      "origin": "Alcacer do Sal",
+      "destination": "Setubal",
+      "capacity": 40,
+      "length": 54.16,
+      "up": true
+    },
+    {
+      "origin": "Setubal",
+      "destination": "Alcacer do Sal",
+      "capacity": 40,
+      "length": 54.16,
+      "up": true
+    },
+    {
+      "origin": "Setubal",
+      "destination": "Lisboa",
+      "capacity": 40,
+      "length": 44.08,
+      "up": true
+    },
+    {
+      "origin": "Elvas",
+      "destination": "Evora",
+      "capacity": 40,
+      "length": 109.92,
+      "up": true
+    },
+    {
+      "origin": "Elvas",
+      "destination": "Portalegre",
+      "capacity": 40,
+      "length": 90.53,
+      "up": true
+    },
+    {
+      "origin": "Lisboa",
+      "destination": "Ponta Delgada",
+      "capacity": 40,
+      "length": 1808.0,
+      "up": true
+    },
+    {
+      "origin": "Lisboa",
+      "destination": "Funchal",
+      "capacity": 40,
+      "length": 1458.29,
+      "up": true
+    },
+    {
+      "origin": "Lisboa",
+      "destination": "Setubal",
+      "capacity": 40,
+      "length": 44.08,
+      "up": true
+    },
+    {
+      "origin": "Lisboa",
+      "destination": "Santarem",
+      "capacity": 40,
+      "length": 105.72,
+      "up": true
+    },
+    {
+      "origin": "Lisboa",
+      "destination": "Caldas da Rainha",
+      "capacity": 40,
+      "length": 116.66,
+      "up": true
+    },
+    {
+      "origin": "Santarem",
+      "destination": "Lisboa",
+      "capacity": 40,
+      "length": 105.72,
+      "up": true
+    },
+    {
+      "origin": "Santarem",
+      "destination": "Portalegre",
+      "capacity": 40,
+      "length": 124.81,
+      "up": true
+    },
+    {
+      "origin": "Santarem",
+      "destination": "Coimbra",
+      "capacity": 40,
+      "length": 165.91,
+      "up": true
+    },
+    {
+      "origin": "Santarem",
+      "destination": "Leiria",
+      "capacity": 40,
+      "length": 86.04,
+      "up": true
+    },
+    {
+      "origin": "Caldas da Rainha",
+      "destination": "Lisboa",
+      "capacity": 40,
+      "length": 116.66,
+      "up": true
+    },
+    {
+      "origin": "Caldas da Rainha",
+      "destination": "Leiria",
+      "capacity": 40,
+      "length": 70.18,
+      "up": true
+    },
+    {
+      "origin": "Leiria",
+      "destination": "Santarem",
+      "capacity": 40,
+      "length": 86.04,
+      "up": true
+    },
+    {
+      "origin": "Leiria",
+      "destination": "Caldas da Rainha",
+      "capacity": 40,
+      "length": 70.18,
+      "up": true
+    },
+    {
+      "origin": "Leiria",
+      "destination": "Aveiro",
+      "capacity": 40,
+      "length": 150.83,
+      "up": true
+    },
+    {
+      "origin": "Portalegre",
+      "destination": "Elvas",
+      "capacity": 40,
+      "length": 90.53,
+      "up": true
+    },
+    {
+      "origin": "Portalegre",
+      "destination": "Santarem",
+      "capacity": 40,
+      "length": 124.81,
+      "up": true
+    },
+    {
+      "origin": "Portalegre",
+      "destination": "Castelo Branco",
+      "capacity": 40,
+      "length": 133.08,
+      "up": true
+    },
+    {
+      "origin": "Castelo Branco",
+      "destination": "Portalegre",
+      "capacity": 40,
+      "length": 133.08,
+      "up": true
+    },
+    {
+      "origin": "Castelo Branco",
+      "destination": "Guarda",
+      "capacity": 40,
+      "length": 125.52,
+      "up": true
+    },
+    {
+      "origin": "Coimbra",
+      "destination": "Santarem",
+      "capacity": 40,
+      "length": 165.91,
+      "up": true
+    },
+    {
+      "origin": "Coimbra",
+      "destination": "Viseu",
+      "capacity": 40,
+      "length": 99.12,
+      "up": true
+    },
+    {
+      "origin": "Coimbra",
+      "destination": "Sao Joao da Madeira",
+      "capacity": 40,
+      "length": 115.49,
+      "up": true
+    },
+    {
+      "origin": "Coimbra",
+      "destination": "Aveiro",
+      "capacity": 40,
+      "length": 77.06,
+      "up": true
+    },
+    {
+      "origin": "Guarda",
+      "destination": "Castelo Branco",
+      "capacity": 40,
+      "length": 125.52,
+      "up": true
+    },
+    {
+      "origin": "Guarda",
+      "destination": "Viseu",
+      "capacity": 40,
+      "length": 91.25,
+      "up": true
+    },
+    {
+      "origin": "Viseu",
+      "destination": "Coimbra",
+      "capacity": 40,
+      "length": 99.12,
+      "up": true
+    },
+    {
+      "origin": "Viseu",
+      "destination": "Guarda",
+      "capacity": 40,
+      "length": 91.25,
+      "up": true
+    },
+    {
+      "origin": "Viseu",
+      "destination": "Vila Real",
+      "capacity": 40,
+      "length": 151.55,
+      "up": true
+    },
+    {
+      "origin": "Aveiro",
+      "destination": "Leiria",
+      "capacity": 40,
+      "length": 150.83,
+      "up": true
+    },
+    {
+      "origin": "Aveiro",
+      "destination": "Coimbra",
+      "capacity": 40,
+      "length": 77.06,
+      "up": true
+    },
+    {
+      "origin": "Aveiro",
+      "destination": "Porto",
+      "capacity": 40,
+      "length": 85.06,
+      "up": true
+    },
+    {
+      "origin": "Porto",
+      "destination": "Aveiro",
+      "capacity": 40,
+      "length": 85.06,
+      "up": true
+    },
+    {
+      "origin": "Porto",
+      "destination": "Sao Joao da Madeira",
+      "capacity": 40,
+      "length": 43.99,
+      "up": true
+    },
+    {
+      "origin": "Porto",
+      "destination": "Braga",
+      "capacity": 40,
+      "length": 70.79,
+      "up": true
+    },
+    {
+      "origin": "Porto",
+      "destination": "Viana do Castelo",
+      "capacity": 40,
+      "length": 122.39,
+      "up": true
+    },
+    {
+      "origin": "Sao Joao da Madeira",
+      "destination": "Coimbra",
+      "capacity": 40,
+      "length": 115.49,
+      "up": true
+    },
+    {
+      "origin": "Sao Joao da Madeira",
+      "destination": "Porto",
+      "capacity": 40,
+      "length": 43.99,
+      "up": true
+    },
+    {
+      "origin": "Sao Joao da Madeira",
+      "destination": "Braga",
+      "capacity": 40,
+      "length": 108.52,
+      "up": true
+    },
+    {
+      "origin": "Vila Real",
+      "destination": "Viseu",
+      "capacity": 40,
+      "length": 151.55,
+      "up": true
+    },
+    {
+      "origin": "Vila Real",
+      "destination": "Braganca",
+      "capacity": 40,
+      "length": 108.99,
+      "up": true
+    },
+    {
+      "origin": "Braga",
+      "destination": "Porto",
+      "capacity": 40,
+      "length": 70.79,
+      "up": true
+    },
+    {
+      "origin": "Braga",
+      "destination": "Sao Joao da Madeira",
+      "capacity": 40,
+      "length": 108.52,
+      "up": true
+    },
+    {
+      "origin": "Braga",
+      "destination": "Braganca",
+      "capacity": 40,
+      "length": 212.25,
+      "up": true
+    },
+    {
+      "origin": "Braga",
+      "destination": "Viana do Castelo",
+      "capacity": 40,
+      "length": 56.19,
+      "up": true
+    },
+    {
+      "origin": "Viana do Castelo",
+      "destination": "Porto",
+      "capacity": 40,
+      "length": 122.39,
+      "up": true
+    },
+    {
+      "origin": "Viana do Castelo",
+      "destination": "Braga",
+      "capacity": 40,
+      "length": 56.19,
+      "up": true
+    },
+    {
+      "origin": "Braganca",
+      "destination": "Vila Real",
+      "capacity": 40,
+      "length": 108.99,
+      "up": true
+    },
+    {
+      "origin": "Braganca",
+      "destination": "Braga",
+      "capacity": 40,
+      "length": 212.25,
+      "up": true
+    }
+  ]
+}

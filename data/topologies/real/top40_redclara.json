@@ -1,0 +1,362 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "REDCLARA (real topology #40)",
+  "description": "Real-world topology REDCLARA (Topology Bench dataset), 40 wavelengths per fiber.",
+  "nodes": [
+    {
+      "name": "San Luis, San Luis",
+      "lat": -35.119,
+      "lon": -65.27,
+      "x": -7265823.164076965,
+      "y": -4180064.550909521,
+      "up": true
+    },
+    {
+      "name": "São Paulo, São Paulo",
+      "lat": -23.59,
+      "lon": -46.57,
+      "x": -5184148.686242751,
+      "y": -2703526.8177272347,
+      "up": true
+    },
+    {
+      "name": "São Luís, Maranhão",
+      "lat": -2.51,
+      "lon": -44.26,
+      "x": -4927000.662510288,
+      "y": -279501.33563758386,
+      "up": true
+    },
+    {
+      "name": "Durazno, Durazno",
+      "lat": -32.76,
+      "lon": -55.94,
+      "x": -6227212.314975724,
+      "y": -3863491.1340723727,
+      "up": true
+    },
+    {
+      "name": "Caldera, Atacama Region",
+      "lat": -26.81,
+      "lon": -70.5,
+      "x": -7848024.100925787,
+      "y": -3099753.748376696,
+      "up": true
+    },
+    {
+      "name": "Cusca, Cotopaxi",
+      "lat": -0.94,
+      "lon": -78.93,
+      "x": -8786447.408313084,
+      "y": -104645.015825554,
+      "up": true
+    },
+    {
+      "name": "San Martín, Meta",
+      "lat": 3.62,
+      "lon": -73.48,
+      "x": -8179756.183489743,
+      "y": 403244.9267551567,
+      "up": true
+    },
+    {
+      "name": "Distrito Natá, Coclé",
+      "lat": 8.51,
+      "lon": -80.78,
+      "x": -8992388.46628064,
+      "y": 950831.2795722984,
+      "up": true
+    },
+    {
+      "name": "San José",
+      "lat": 9.92585175723692,
+      "lon": -84.0899827564916,
+      "x": -9360854.0612678,
+      "y": 1110509.4505460486,
+      "up": true
+    },
+    {
+      "name": "Aldea Chib'out, Alta Verapaz",
+      "lat": 15.73,
+      "lon": -90.18,
+      "x": -10038791.679737411,
+      "y": 1773476.243982903,
+      "up": true
+    },
+    {
+      "name": "Desembocadura de Río Grande (Municipio)",
+      "lat": 13.006,
+      "lon": -83.59,
+      "x": -9305196.235409738,
+      "y": 1460417.7660722674,
+      "up": true
+    },
+    {
+      "name": "San José del Potrero, Comayagua",
+      "lat": 14.81,
+      "lon": -87.3,
+      "x": -9718191.546252783,
+      "y": 1667313.0027310615,
+      "up": true
+    },
+    {
+      "name": "Atizapán de Zaragoza, State of Mexico",
+      "lat": 19.54,
+      "lon": -99.28,
+      "x": -11051799.0459562,
+      "y": 2218616.492724687,
+      "up": true
+    },
+    {
+      "name": "Hialeah, Florida",
+      "lat": 25.88,
+      "lon": -80.298,
+      "x": -8938732.471718282,
+      "y": 2984226.004741046,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "San Luis, San Luis",
+      "destination": "São Paulo, São Paulo",
+      "capacity": 40,
+      "length": 2882.51,
+      "up": true
+    },
+    {
+      "origin": "San Luis, San Luis",
+      "destination": "Caldera, Atacama Region",
+      "capacity": 40,
+      "length": 1149.45,
+      "up": true
+    },
+    {
+      "origin": "São Paulo, São Paulo",
+      "destination": "São Luís, Maranhão",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 2937.57,
+      "up": true
+    },
+    {
+      "origin": "São Paulo, São Paulo",
+      "destination": "San Luis, San Luis",
+      "capacity": 40,
+      "length": 2882.51,
+      "up": true
+    },
+    {
+      "origin": "São Paulo, São Paulo",
+      "destination": "Durazno, Durazno",
+      "capacity": 40,
+      "length": 1674.88,
+      "up": true
+    },
+    {
+      "origin": "São Paulo, São Paulo",
+      "destination": "Caldera, Atacama Region",
+      "capacity": 40,
+      "length": 3434.86,
+      "up": true
+    },
+    {
+      "origin": "São Luís, Maranhão",
+      "destination": "Hialeah, Florida",
+      "capacity": 40,
+      "length": 6227.96,
+      "up": true
+    },
+    {
+      "origin": "São Luís, Maranhão",
+      "destination": "San Martín, Meta",
+      "capacity": 40,
+      "length": 4284.04,
+      "up": true
+    },
+    {
+      "origin": "São Luís, Maranhão",
+      "destination": "São Paulo, São Paulo",
+      "capacity": 40,
+      "fibers": 2,
+      "length": 2937.57,
+      "up": true
+    },
+    {
+      "origin": "Durazno, Durazno",
+      "destination": "São Paulo, São Paulo",
+      "capacity": 40,
+      "length": 1674.88,
+      "up": true
+    },
+    {
+      "origin": "Caldera, Atacama Region",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 6294.59,
+      "up": true
+    },
+    {
+      "origin": "Caldera, Atacama Region",
+      "destination": "São Paulo, São Paulo",
+      "capacity": 40,
+      "length": 3434.86,
+      "up": true
+    },
+    {
+      "origin": "Caldera, Atacama Region",
+      "destination": "San Luis, San Luis",
+      "capacity": 40,
+      "length": 1149.45,
+      "up": true
+    },
+    {
+      "origin": "Cusca, Cotopaxi",
+      "destination": "Hialeah, Florida",
+      "capacity": 40,
+      "length": 3844.74,
+      "up": true
+    },
+    {
+      "origin": "Cusca, Cotopaxi",
+      "destination": "San Martín, Meta",
+      "capacity": 40,
+      "length": 1248.87,
+      "up": true
+    },
+    {
+      "origin": "San Martín, Meta",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 1135.45,
+      "up": true
+    },
+    {
+      "origin": "San Martín, Meta",
+      "destination": "Cusca, Cotopaxi",
+      "capacity": 40,
+      "length": 1248.87,
+      "up": true
+    },
+    {
+      "origin": "San Martín, Meta",
+      "destination": "São Luís, Maranhão",
+      "capacity": 40,
+      "length": 4284.04,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "San José",
+      "capacity": 40,
+      "length": 708.33,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "Hialeah, Florida",
+      "capacity": 40,
+      "length": 2333.9,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "Desembocadura de Río Grande (Municipio)",
+      "capacity": 40,
+      "length": 1134.29,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "San José del Potrero, Comayagua",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "Atizapán de Zaragoza, State of Mexico",
+      "capacity": 40,
+      "length": 3676.05,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "Aldea Chib'out, Alta Verapaz",
+      "capacity": 40,
+      "length": 1733.47,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "Caldera, Atacama Region",
+      "capacity": 40,
+      "length": 6294.59,
+      "up": true
+    },
+    {
+      "origin": "Distrito Natá, Coclé",
+      "destination": "San Martín, Meta",
+      "capacity": 40,
+      "length": 1135.45,
+      "up": true
+    },
+    {
+      "origin": "San José",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 708.33,
+      "up": true
+    },
+    {
+      "origin": "Aldea Chib'out, Alta Verapaz",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 1733.47,
+      "up": true
+    },
+    {
+      "origin": "Desembocadura de Río Grande (Municipio)",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 1134.29,
+      "up": true
+    },
+    {
+      "origin": "San José del Potrero, Comayagua",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Atizapán de Zaragoza, State of Mexico",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 3676.05,
+      "up": true
+    },
+    {
+      "origin": "Hialeah, Florida",
+      "destination": "Distrito Natá, Coclé",
+      "capacity": 40,
+      "length": 2333.9,
+      "up": true
+    },
+    {
+      "origin": "Hialeah, Florida",
+      "destination": "Cusca, Cotopaxi",
+      "capacity": 40,
+      "length": 3844.74,
+      "up": true
+    },
+    {
+      "origin": "Hialeah, Florida",
+      "destination": "São Luís, Maranhão",
+      "capacity": 40,
+      "length": 6227.96,
+      "up": true
+    }
+  ]
+}

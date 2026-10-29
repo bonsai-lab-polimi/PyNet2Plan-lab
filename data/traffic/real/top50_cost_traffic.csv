@@ -1,0 +1,63 @@
+# topology: COST (real topology #50) (data/topologies/real/top50_cost.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Wola,Birmingham,4
+1,Glasgow,Bordeaux,4
+2,Palilula,La Mulatiere,7
+3,Dusseldorf,Ciutat Vella,1
+4,Wola,Kipseli,7
+5,Palilula,Palermo,7
+6,Charlottenlund,Glasgow,7
+7,Budapest VII. keruelet,Chelsea,1
+8,Zuerich (Kreis 6) / Oberstrass,Helsinki,4
+9,Hamburg-Mitte,Birmingham,2
+10,Ciutat Vella,Frankfurt am Main,2
+11,Krakow,Helsinki,3
+12,Marseille 02,Bordeaux,8
+13,Zuerich (Kreis 6) / Oberstrass,Dubrava,1
+14,Palilula,Chelsea,2
+15,Marseille 02,Dubrava,8
+16,Stockholm,City Center,7
+17,Palilula,Charlottenlund,3
+18,Sevilla,Oslo,3
+19,Mitte,Helsinki,1
+20,Stockholm,Wola,4
+21,Lisbon,Ciutat Vella,6
+22,Brussels,Palilula,6
+23,Vienna,Marseille 02,6
+24,Marseille 02,Mitte,2
+25,Frankfurt am Main,Lisbon,2
+26,Krakow,Frankfurt am Main,1
+27,City Center,Sofia,1
+28,Chelsea,Amsterdam,3
+29,Milano,Stare Mesto,6
+30,Vienna,Ciutat Vella,2
+31,Bordeaux,City Center,5
+32,La Mulatiere,Budapest VII. keruelet,1
+33,Ciutat Vella,Vienna,8
+34,Paris,Charlottenlund,7
+35,Amsterdam,Sofia,7
+36,Dublin,Helsinki,1
+37,Amsterdam,Marseille 02,3
+38,Charlottenlund,Munich,2
+39,Wola,Paris,7
+40,Marseille 02,City Center,2
+41,Kipseli,Krakow,3
+42,Glasgow,Dusseldorf,7
+43,Glasgow,Vienna,3
+44,Bordeaux,Palilula,7
+45,Stockholm,La Mulatiere,5
+46,Frankfurt am Main,Kipseli,5
+47,Stare Mesto,Frankfurt am Main,2
+48,Stare Mesto,Sofia,1
+49,Kipseli,Munich,4
+50,Brussels,Krakow,1
+51,Lisbon,Dusseldorf,3
+52,Strasbourg,Wola,7
+53,La Mulatiere,Milano,8
+54,Hamburg-Mitte,Dubrava,5
+55,Hamburg-Mitte,Paris,2
+56,Paris,Birmingham,4
+57,Stockholm,Rome,1
+58,Helsinki,Palilula,7
+59,Birmingham,Strasbourg,8

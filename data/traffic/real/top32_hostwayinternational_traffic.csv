@@ -1,0 +1,35 @@
+# topology: HOSTWAYINTERNATIONAL (real topology #32) (data/topologies/real/top32_hostwayinternational.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Sydney,Tampa,3
+1,Frankfurt am Main,Antwerpen,1
+2,Austin,Sydney,7
+3,Frankfurt am Main,Chicago,4
+4,Vancouver,Frankfurt am Main,3
+5,Seoul,New York City,2
+6,London,Atlanta,4
+7,Miami,Chicago,5
+8,Tampa,Chicago,4
+9,Tampa,Bucharest,5
+10,New York City,Vancouver,6
+11,Atlanta,Frankfurt am Main,2
+12,London,Sydney,3
+13,Chicago,Hannover,4
+14,Frankfurt am Main,London,4
+15,Sydney,Chicago,1
+16,New York City,Chicago,4
+17,London,Frankfurt am Main,2
+18,Seattle,Austin,1
+19,Chicago,Miami,2
+20,Frankfurt am Main,Sydney,6
+21,New York City,Amsterdam,1
+22,Atlanta,Amsterdam,3
+23,Bucharest,New York City,4
+24,Atlanta,Austin,4
+25,Bucharest,Chicago,7
+26,Bucharest,Hannover,6
+27,Sydney,Amsterdam,7
+28,London,Miami,2
+29,New York City,Seoul,7
+30,Tampa,London,6
+31,Austin,Miami,3

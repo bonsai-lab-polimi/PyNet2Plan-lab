@@ -1,0 +1,63 @@
+# topology: DIGEX (real topology #37) (data/topologies/real/top37_digex.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Baltimore,Austin,2
+1,Nashville,Philadelphia,2
+2,Charlotte,Houston,5
+3,Richmond,Baltimore,2
+4,Detroit,Boston,8
+5,Hayward,Charlotte,2
+6,Boston,St. Louis,1
+7,Fort Worth,St. Louis,3
+8,Newark,Houston,3
+9,San Francisco,Omaha,6
+10,San Francisco,Charlotte,8
+11,Jacksonville,Tampa,3
+12,Columbus,Kansas City,6
+13,Nashville,Cincinnati,6
+14,Chicago,St. Louis,4
+15,Miami,Dallas,4
+16,Miami,Richmond,5
+17,Hayward,Austin,3
+18,Houston,Kansas City,7
+19,Atlanta,Baltimore,6
+20,Jacksonville,Chicago,5
+21,Boston,Houston,5
+22,Boston,Charlotte,2
+23,New York City,Los Angeles,6
+24,San Francisco,Boston,1
+25,Nashville,Miami,1
+26,Tampa,Atlanta,1
+27,Baltimore,St. Louis,7
+28,St. Louis,"Washington, D.C.",8
+29,"Washington, D.C.",Hayward,4
+30,Kansas City,Hayward,7
+31,Columbus,Hayward,8
+32,Hayward,Orlando,2
+33,Columbus,Atlanta,3
+34,Kansas City,Fort Worth,3
+35,Columbus,Tampa,8
+36,New York City,Columbus,7
+37,Boston,Baltimore,5
+38,Los Angeles,Cincinnati,4
+39,St. Louis,Louisville,6
+40,Dallas,Omaha,5
+41,San Francisco,Atlanta,7
+42,Chicago,Austin,5
+43,San Francisco,Fort Worth,8
+44,Miami,Omaha,2
+45,Cincinnati,Louisville,1
+46,Omaha,San Francisco,8
+47,Chicago,Charlotte,7
+48,Jacksonville,Hayward,1
+49,San Francisco,New York City,4
+50,Baltimore,Los Angeles,3
+51,New York City,Tampa,3
+52,Orlando,Newark,3
+53,Austin,Detroit,6
+54,Los Angeles,Baltimore,5
+55,Tampa,Detroit,4
+56,Trenton,Newark,5
+57,Boston,Cincinnati,3
+58,Richmond,Orlando,7
+59,Miami,Nashville,2

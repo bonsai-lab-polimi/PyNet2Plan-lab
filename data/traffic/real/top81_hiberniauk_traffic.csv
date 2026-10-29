@@ -1,0 +1,29 @@
+# topology: HIBERNIAUK (real topology #81) (data/topologies/real/top81_hiberniauk.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Southport,Reading,8
+1,Barnoldswick,Bristol,8
+2,Barnoldswick,Liverpool,3
+3,Peterborough,Liverpool,8
+4,Southport,Leicester,1
+5,Peterborough,Bristol,3
+6,Birmingham,Reading,6
+7,Cambridge,Manchester,5
+8,Leeds,Bristol,6
+9,Liverpool,Barnoldswick,3
+10,Manchester,Bristol,4
+11,Southport,Peterborough,8
+12,Reading,Cambridge,3
+13,Liverpool,Peterborough,7
+14,London,Manchester,3
+15,Liverpool,London,8
+16,Peterborough,Sheffield,1
+17,Bristol,Leicester,3
+18,Manchester,Barnoldswick,2
+19,Barnoldswick,Peterborough,8
+20,Bristol,London,4
+21,Sheffield,Leeds,6
+22,Southport,Leeds,2
+23,Leicester,Peterborough,6
+24,Liverpool,Sheffield,5
+25,Southport,Birmingham,7

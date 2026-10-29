@@ -1,0 +1,262 @@
+{
+ "size": [
+  1360,
+  720
+ ],
+ "text_scale": 1.25,
+ "facts": {
+  "split_demand": 10,
+  "split_origin": "Zaragoza",
+  "split_destination": "Malaga",
+  "split_routes": "Zaragoza > Madrid > Sevilla > Malaga (4 λ) and Zaragoza > Barcelona > Valencia > Murcia > Malaga (10 λ)",
+  "split_count": 2,
+  "full_link": "Madrid → Sevilla",
+  "full_links": 2
+ },
+ "shots": [
+  {
+   "name": "01_main_window",
+   "title": "The main window",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "name": "02_open_example_menu",
+   "title": "File > Open example",
+   "size": [
+    1360,
+    757
+   ],
+   "callouts": []
+  },
+  {
+   "name": "03_network_links",
+   "title": "Spain-7 loaded: the Links tab",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "04_traffic",
+   "title": "The Traffic tab",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "05_random_traffic_dialog",
+   "title": "Traffic > Generate random traffic...",
+   "size": [
+    545,
+    478
+   ],
+   "callouts": []
+  },
+  {
+   "name": "06_info",
+   "title": "The Info tab",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1
+   ]
+  },
+  {
+   "name": "07_failed_link",
+   "title": "Madrid-Valencia failed (both directions)",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "08_algorithms",
+   "title": "Choosing the algorithm",
+   "size": [
+    1360,
+    757
+   ],
+   "callouts": []
+  },
+  {
+   "name": "09_parameters",
+   "title": "Parameters of splittable_flow",
+   "size": [
+    463,
+    194
+   ],
+   "callouts": []
+  },
+  {
+   "name": "10_check_not_completed",
+   "title": "Check of an exercise that still has TODOs",
+   "size": [
+    932,
+    353
+   ],
+   "callouts": []
+  },
+  {
+   "name": "11_run_finished",
+   "title": "Run finished",
+   "size": [
+    952,
+    329
+   ],
+   "callouts": []
+  },
+  {
+   "name": "12_results_report",
+   "title": "Results tab: map and report",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "name": "13_results_routes",
+   "title": "Routes of demand 10",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2
+   ]
+  },
+  {
+   "name": "14_results_links",
+   "title": "Links: the most loaded link",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2
+   ]
+  },
+  {
+   "name": "15_occupancy_chart",
+   "title": "Occupancy",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1
+   ]
+  },
+  {
+   "name": "16_results_demands",
+   "title": "Demands",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1
+   ]
+  },
+  {
+   "name": "17_results_validation",
+   "title": "Validation",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1
+   ]
+  },
+  {
+   "name": "18_sweep_dialog",
+   "title": "Compare (sweep)...",
+   "size": [
+    1329,
+    396
+   ],
+   "callouts": []
+  },
+  {
+   "name": "19_sweep_results",
+   "title": "Sweep results",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2
+   ]
+  },
+  {
+   "name": "20_sweep_charts",
+   "title": "Sweep charts (large window)",
+   "size": [
+    1202,
+    562
+   ],
+   "callouts": []
+  },
+  {
+   "name": "21_results_browser",
+   "title": "Results > Browse results...",
+   "size": [
+    1227,
+    577
+   ],
+   "callouts": []
+  },
+  {
+   "name": "22_failure_c60",
+   "title": "C = 60 with Madrid-Valencia failed",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2
+   ]
+  }
+ ]
+}

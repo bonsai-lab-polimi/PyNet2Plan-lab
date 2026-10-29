@@ -1,0 +1,39 @@
+# topology: REDIRIS (real topology #44) (data/topologies/real/top44_rediris.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Oviedo,City Center,8
+1,Palma,Barcelona,4
+2,Barcelona,Sevilla,5
+3,Las Palmas de Gran Canaria,Valencia,5
+4,Las Palmas de Gran Canaria,Ciudad Real,5
+5,Pamplona,Badajoz,8
+6,Sevilla,La Laguna,3
+7,Santander,Badajoz,5
+8,Murcia,Murguia,4
+9,Logrono,Zaragoza,2
+10,Badajoz,Las Palmas de Gran Canaria,5
+11,Valencia,Barcelona,4
+12,Murguia,Barcelona,2
+13,Zaragoza,Barcelona,4
+14,Ciudad Real,Logrono,5
+15,Murguia,Zaragoza,2
+16,Ciudad Real,Murguia,8
+17,Palma,Murcia,8
+18,Murguia,La Laguna,6
+19,Oviedo,Barcelona,2
+20,Murguia,Sevilla,6
+21,Palma,Valladolid,8
+22,Oviedo,Murguia,1
+23,Las Palmas de Gran Canaria,La Laguna,4
+24,Valencia,Murguia,6
+25,Las Palmas de Gran Canaria,Sevilla,7
+26,Palma,Santander,5
+27,Zaragoza,Badajoz,2
+28,Pamplona,Logrono,2
+29,Pamplona,Sevilla,6
+30,Oviedo,Ciudad Real,8
+31,City Center,Las Palmas de Gran Canaria,1
+32,Oviedo,Murcia,2
+33,Pamplona,Ciudad Real,7
+34,Logrono,Pamplona,3
+35,City Center,Sevilla,7

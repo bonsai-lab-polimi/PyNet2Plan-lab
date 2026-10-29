@@ -1,0 +1,616 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "OPTUNETSWEDEN (real topology #72)",
+  "description": "Real-world topology OPTUNETSWEDEN (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Goeteborg",
+      "lat": 57.70716,
+      "lon": 11.96679,
+      "x": 1332136.969230038,
+      "y": 7906050.948787856,
+      "up": true
+    },
+    {
+      "name": "Skoevde",
+      "lat": 58.39118,
+      "lon": 13.84506,
+      "x": 1541225.0292023204,
+      "y": 8049945.106875296,
+      "up": true
+    },
+    {
+      "name": "Orebro",
+      "lat": 59.27412,
+      "lon": 15.2066,
+      "x": 1692790.9686969938,
+      "y": 8239872.102004263,
+      "up": true
+    },
+    {
+      "name": "Karlstad",
+      "lat": 59.3793,
+      "lon": 13.50357,
+      "x": 1503210.5362913252,
+      "y": 8262823.740180779,
+      "up": true
+    },
+    {
+      "name": "Halmstad",
+      "lat": 56.67446,
+      "lon": 12.85676,
+      "x": 1431207.976451328,
+      "y": 7693870.1545741325,
+      "up": true
+    },
+    {
+      "name": "Linkoping",
+      "lat": 58.41667,
+      "lon": 15.61667,
+      "x": 1738439.7522865913,
+      "y": 8055360.996772046,
+      "up": true
+    },
+    {
+      "name": "Boras",
+      "lat": 57.72101,
+      "lon": 12.9401,
+      "x": 1440485.3428140392,
+      "y": 7908937.386533399,
+      "up": true
+    },
+    {
+      "name": "Trollhattan",
+      "lat": 58.28365,
+      "lon": 12.28864,
+      "x": 1367965.1473418532,
+      "y": 8027141.082888895,
+      "up": true
+    },
+    {
+      "name": "Jonkoping",
+      "lat": 57.78145,
+      "lon": 14.15618,
+      "x": 1575858.7491779234,
+      "y": 7921546.452872854,
+      "up": true
+    },
+    {
+      "name": "Vaexjoe",
+      "lat": 56.86667,
+      "lon": 14.81667,
+      "x": 1649384.1596519728,
+      "y": 7732915.8631866565,
+      "up": true
+    },
+    {
+      "name": "Lund",
+      "lat": 55.70584,
+      "lon": 13.19321,
+      "x": 1468661.4191287248,
+      "y": 7500078.203204852,
+      "up": true
+    },
+    {
+      "name": "Kristianstad",
+      "lat": 56.03129,
+      "lon": 14.15242,
+      "x": 1575440.1878925406,
+      "y": 7564647.133368719,
+      "up": true
+    },
+    {
+      "name": "Ronneby",
+      "lat": 56.20999,
+      "lon": 15.27602,
+      "x": 1700518.767747863,
+      "y": 7600332.803814642,
+      "up": true
+    },
+    {
+      "name": "Kalmar",
+      "lat": 56.66157,
+      "lon": 16.36163,
+      "x": 1821368.3201479488,
+      "y": 7691258.805799465,
+      "up": true
+    },
+    {
+      "name": "Visby",
+      "lat": 57.64089,
+      "lon": 18.29602,
+      "x": 2036703.6299435487,
+      "y": 7892255.071737908,
+      "up": true
+    },
+    {
+      "name": "Malmoe",
+      "lat": 55.60587,
+      "lon": 13.00073,
+      "x": 1447234.6435408355,
+      "y": 7480352.291762546,
+      "up": true
+    },
+    {
+      "name": "Stockholm",
+      "lat": 59.33258,
+      "lon": 18.0649,
+      "x": 2010975.4692314079,
+      "y": 8252620.061075654,
+      "up": true
+    },
+    {
+      "name": "Kalix",
+      "lat": 65.85,
+      "lon": 23.16667,
+      "x": 2578901.907775807,
+      "y": 9835912.673716098,
+      "up": true
+    },
+    {
+      "name": "Kiruna",
+      "lat": 67.85572,
+      "lon": 20.22513,
+      "x": 2251451.172827761,
+      "y": 10404255.547073193,
+      "up": true
+    },
+    {
+      "name": "Lulea",
+      "lat": 65.58415,
+      "lon": 22.15465,
+      "x": 2466244.3567031985,
+      "y": 9763948.911243755,
+      "up": true
+    },
+    {
+      "name": "Umea",
+      "lat": 63.82842,
+      "lon": 20.25972,
+      "x": 2255301.7140143006,
+      "y": 9306326.48707775,
+      "up": true
+    },
+    {
+      "name": "Sundsvall",
+      "lat": 62.39129,
+      "lon": 17.3063,
+      "x": 1926528.5035156303,
+      "y": 8952525.875124667,
+      "up": true
+    },
+    {
+      "name": "Gavle",
+      "lat": 60.67452,
+      "lon": 17.14174,
+      "x": 1908209.7681106892,
+      "y": 8551468.11549281,
+      "up": true
+    },
+    {
+      "name": "Borlaenge",
+      "lat": 60.4858,
+      "lon": 15.43714,
+      "x": 1718454.564104475,
+      "y": 8508699.279021394,
+      "up": true
+    },
+    {
+      "name": "Uppsala",
+      "lat": 59.8585,
+      "lon": 17.64543,
+      "x": 1964280.2824283533,
+      "y": 8368301.629157316,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Goeteborg",
+      "destination": "Halmstad",
+      "capacity": 40,
+      "length": 190.1,
+      "up": true
+    },
+    {
+      "origin": "Goeteborg",
+      "destination": "Boras",
+      "capacity": 40,
+      "length": 86.74,
+      "up": true
+    },
+    {
+      "origin": "Goeteborg",
+      "destination": "Trollhattan",
+      "capacity": 40,
+      "length": 100.27,
+      "up": true
+    },
+    {
+      "origin": "Skoevde",
+      "destination": "Orebro",
+      "capacity": 40,
+      "length": 188.41,
+      "up": true
+    },
+    {
+      "origin": "Skoevde",
+      "destination": "Boras",
+      "capacity": 40,
+      "length": 137.37,
+      "up": true
+    },
+    {
+      "origin": "Skoevde",
+      "destination": "Trollhattan",
+      "capacity": 40,
+      "length": 137.44,
+      "up": true
+    },
+    {
+      "origin": "Orebro",
+      "destination": "Skoevde",
+      "capacity": 40,
+      "length": 188.41,
+      "up": true
+    },
+    {
+      "origin": "Orebro",
+      "destination": "Borlaenge",
+      "capacity": 40,
+      "length": 203.02,
+      "up": true
+    },
+    {
+      "origin": "Orebro",
+      "destination": "Karlstad",
+      "capacity": 40,
+      "length": 145.96,
+      "up": true
+    },
+    {
+      "origin": "Orebro",
+      "destination": "Kalix",
+      "capacity": 40,
+      "length": 1253.71,
+      "up": true
+    },
+    {
+      "origin": "Karlstad",
+      "destination": "Orebro",
+      "capacity": 40,
+      "length": 145.96,
+      "up": true
+    },
+    {
+      "origin": "Karlstad",
+      "destination": "Trollhattan",
+      "capacity": 40,
+      "length": 210.69,
+      "up": true
+    },
+    {
+      "origin": "Halmstad",
+      "destination": "Goeteborg",
+      "capacity": 40,
+      "length": 190.1,
+      "up": true
+    },
+    {
+      "origin": "Halmstad",
+      "destination": "Lund",
+      "capacity": 40,
+      "length": 164.55,
+      "up": true
+    },
+    {
+      "origin": "Linkoping",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 260.53,
+      "up": true
+    },
+    {
+      "origin": "Linkoping",
+      "destination": "Jonkoping",
+      "capacity": 40,
+      "length": 166.72,
+      "up": true
+    },
+    {
+      "origin": "Boras",
+      "destination": "Goeteborg",
+      "capacity": 40,
+      "length": 86.74,
+      "up": true
+    },
+    {
+      "origin": "Boras",
+      "destination": "Skoevde",
+      "capacity": 40,
+      "length": 137.37,
+      "up": true
+    },
+    {
+      "origin": "Trollhattan",
+      "destination": "Goeteborg",
+      "capacity": 40,
+      "length": 100.27,
+      "up": true
+    },
+    {
+      "origin": "Trollhattan",
+      "destination": "Skoevde",
+      "capacity": 40,
+      "length": 137.44,
+      "up": true
+    },
+    {
+      "origin": "Trollhattan",
+      "destination": "Karlstad",
+      "capacity": 40,
+      "length": 210.69,
+      "up": true
+    },
+    {
+      "origin": "Jonkoping",
+      "destination": "Linkoping",
+      "capacity": 40,
+      "length": 166.72,
+      "up": true
+    },
+    {
+      "origin": "Jonkoping",
+      "destination": "Vaexjoe",
+      "capacity": 40,
+      "length": 163.76,
+      "up": true
+    },
+    {
+      "origin": "Vaexjoe",
+      "destination": "Jonkoping",
+      "capacity": 40,
+      "length": 163.76,
+      "up": true
+    },
+    {
+      "origin": "Vaexjoe",
+      "destination": "Lund",
+      "capacity": 40,
+      "length": 245.09,
+      "up": true
+    },
+    {
+      "origin": "Vaexjoe",
+      "destination": "Kalmar",
+      "capacity": 40,
+      "length": 145.32,
+      "up": true
+    },
+    {
+      "origin": "Lund",
+      "destination": "Halmstad",
+      "capacity": 40,
+      "length": 164.55,
+      "up": true
+    },
+    {
+      "origin": "Lund",
+      "destination": "Vaexjoe",
+      "capacity": 40,
+      "length": 245.09,
+      "up": true
+    },
+    {
+      "origin": "Lund",
+      "destination": "Malmoe",
+      "capacity": 40,
+      "length": 24.62,
+      "up": true
+    },
+    {
+      "origin": "Kristianstad",
+      "destination": "Ronneby",
+      "capacity": 40,
+      "length": 108.64,
+      "up": true
+    },
+    {
+      "origin": "Kristianstad",
+      "destination": "Malmoe",
+      "capacity": 40,
+      "length": 129.16,
+      "up": true
+    },
+    {
+      "origin": "Ronneby",
+      "destination": "Kristianstad",
+      "capacity": 40,
+      "length": 108.64,
+      "up": true
+    },
+    {
+      "origin": "Ronneby",
+      "destination": "Kalmar",
+      "capacity": 40,
+      "length": 125.28,
+      "up": true
+    },
+    {
+      "origin": "Kalmar",
+      "destination": "Vaexjoe",
+      "capacity": 40,
+      "length": 145.32,
+      "up": true
+    },
+    {
+      "origin": "Kalmar",
+      "destination": "Ronneby",
+      "capacity": 40,
+      "length": 125.28,
+      "up": true
+    },
+    {
+      "origin": "Visby",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 282.88,
+      "up": true
+    },
+    {
+      "origin": "Malmoe",
+      "destination": "Lund",
+      "capacity": 40,
+      "length": 24.62,
+      "up": true
+    },
+    {
+      "origin": "Malmoe",
+      "destination": "Kristianstad",
+      "capacity": 40,
+      "length": 129.16,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Linkoping",
+      "capacity": 40,
+      "length": 260.53,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Visby",
+      "capacity": 40,
+      "length": 282.88,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Kalix",
+      "capacity": 40,
+      "length": 1154.57,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Uppsala",
+      "capacity": 40,
+      "length": 94.6,
+      "up": true
+    },
+    {
+      "origin": "Kalix",
+      "destination": "Orebro",
+      "capacity": 40,
+      "length": 1253.71,
+      "up": true
+    },
+    {
+      "origin": "Kalix",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 1154.57,
+      "up": true
+    },
+    {
+      "origin": "Kiruna",
+      "destination": "Lulea",
+      "capacity": 40,
+      "length": 399.61,
+      "up": true
+    },
+    {
+      "origin": "Lulea",
+      "destination": "Kiruna",
+      "capacity": 40,
+      "length": 399.61,
+      "up": true
+    },
+    {
+      "origin": "Lulea",
+      "destination": "Umea",
+      "capacity": 40,
+      "length": 322.44,
+      "up": true
+    },
+    {
+      "origin": "Umea",
+      "destination": "Lulea",
+      "capacity": 40,
+      "length": 322.44,
+      "up": true
+    },
+    {
+      "origin": "Umea",
+      "destination": "Sundsvall",
+      "capacity": 40,
+      "length": 327.19,
+      "up": true
+    },
+    {
+      "origin": "Sundsvall",
+      "destination": "Umea",
+      "capacity": 40,
+      "length": 327.19,
+      "up": true
+    },
+    {
+      "origin": "Sundsvall",
+      "destination": "Gavle",
+      "capacity": 40,
+      "length": 286.64,
+      "up": true
+    },
+    {
+      "origin": "Gavle",
+      "destination": "Sundsvall",
+      "capacity": 40,
+      "length": 286.64,
+      "up": true
+    },
+    {
+      "origin": "Gavle",
+      "destination": "Borlaenge",
+      "capacity": 40,
+      "length": 143.16,
+      "up": true
+    },
+    {
+      "origin": "Gavle",
+      "destination": "Uppsala",
+      "capacity": 40,
+      "length": 142.34,
+      "up": true
+    },
+    {
+      "origin": "Borlaenge",
+      "destination": "Orebro",
+      "capacity": 40,
+      "length": 203.02,
+      "up": true
+    },
+    {
+      "origin": "Borlaenge",
+      "destination": "Gavle",
+      "capacity": 40,
+      "length": 143.16,
+      "up": true
+    },
+    {
+      "origin": "Uppsala",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 94.6,
+      "up": true
+    },
+    {
+      "origin": "Uppsala",
+      "destination": "Gavle",
+      "capacity": 40,
+      "length": 142.34,
+      "up": true
+    }
+  ]
+}

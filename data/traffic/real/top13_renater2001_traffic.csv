@@ -1,0 +1,51 @@
+# topology: RENATER2001 (real topology #13) (data/topologies/real/top13_renater2001.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Bordeaux,Lyon,5
+1,Caen,Vallauris,1
+2,Besancon,Rennes,8
+3,Rennes,Lyon,5
+4,Paris,Nantes,1
+5,Rouen,Toulouse,3
+6,Marseille 04,Orleans,6
+7,Jarville-la-Malgrange,Marseille 04,1
+8,Paris,Rouen,2
+9,Caen,Clermont-Ferrand,2
+10,Rennes,Rouen,1
+11,Rennes,Reims,3
+12,Clermont-Ferrand,Montpellier,4
+13,Bordeaux,Paris,3
+14,Nantes,Marseille 04,4
+15,Orleans,Dijon,2
+16,Corte,Bordeaux,7
+17,Besancon,Montpellier,2
+18,Lyon,Paris,2
+19,Limoges,Paris,1
+20,Montpellier,Vallauris,6
+21,Grenoble,Lyon,6
+22,Montpellier,Caen,8
+23,Lille,Clermont-Ferrand,3
+24,Rouen,Grenoble,7
+25,Orleans,Reims,2
+26,Grenoble,Orleans,8
+27,Clermont-Ferrand,Rennes,7
+28,Bordeaux,Clermont-Ferrand,6
+29,Bordeaux,Orleans,3
+30,Marseille 04,Jarville-la-Malgrange,4
+31,Caen,Jarville-la-Malgrange,4
+32,Besancon,Limoges,2
+33,Jarville-la-Malgrange,Lille,1
+34,Nantes,Vallauris,4
+35,Lille,Montpellier,1
+36,Nantes,Strasbourg,3
+37,Orleans,Rouen,5
+38,Rennes,Jarville-la-Malgrange,8
+39,Bordeaux,Strasbourg,7
+40,Paris,Bordeaux,8
+41,Dijon,Clermont-Ferrand,4
+42,Poitiers,Paris,5
+43,Montpellier,Limoges,7
+44,Poitiers,Dijon,1
+45,Reims,Marseille 04,4
+46,Orleans,Corte,1
+47,Caen,Strasbourg,4

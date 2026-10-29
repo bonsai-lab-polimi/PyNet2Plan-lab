@@ -1,0 +1,244 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "BREN (real topology #47)",
+  "description": "Real-world topology BREN (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Ruse",
+      "lat": 43.835571,
+      "lon": 25.965654,
+      "x": 2890483.381394327,
+      "y": 5440031.57675508,
+      "up": true
+    },
+    {
+      "name": "Choumen",
+      "lat": 43.27,
+      "lon": 26.93,
+      "x": 2997833.8870628574,
+      "y": 5353159.31565891,
+      "up": true
+    },
+    {
+      "name": "Varna",
+      "lat": 43.21405,
+      "lon": 27.914734,
+      "x": 3107453.9745096806,
+      "y": 5344609.399335982,
+      "up": true
+    },
+    {
+      "name": "Burgas",
+      "lat": 42.504791,
+      "lon": 27.462637,
+      "x": 3057126.766680514,
+      "y": 5236897.191637432,
+      "up": true
+    },
+    {
+      "name": "Trnovo",
+      "lat": 43.0756647759984,
+      "lon": 25.6181872309471,
+      "x": 2851803.5575957745,
+      "y": 5323495.898005713,
+      "up": true
+    },
+    {
+      "name": "Gabrovo",
+      "lat": 42.8838819691562,
+      "lon": 25.3149737976083,
+      "x": 2818049.9925948186,
+      "y": 5294314.166693117,
+      "up": true
+    },
+    {
+      "name": "StaraZagora",
+      "lat": 42.4272119485047,
+      "lon": 25.632925398511,
+      "x": 2853444.202904213,
+      "y": 5225190.103740026,
+      "up": true
+    },
+    {
+      "name": "Pleven",
+      "lat": 43.25,
+      "lon": 24.37,
+      "x": 2712855.990632077,
+      "y": 5350102.143460672,
+      "up": true
+    },
+    {
+      "name": "Sofia",
+      "lat": 42.700196738745,
+      "lon": 23.3218840373449,
+      "x": 2596180.2553770095,
+      "y": 5266449.497679247,
+      "up": true
+    },
+    {
+      "name": "Plovdiv",
+      "lat": 42.1355852008223,
+      "lon": 24.7470533705177,
+      "x": 2754829.379839995,
+      "y": 5181311.136873311,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Ruse",
+      "destination": "Choumen",
+      "capacity": 40,
+      "length": 345.3,
+      "up": true
+    },
+    {
+      "origin": "Ruse",
+      "destination": "Trnovo",
+      "capacity": 40,
+      "length": 133.54,
+      "up": true
+    },
+    {
+      "origin": "Choumen",
+      "destination": "Ruse",
+      "capacity": 40,
+      "length": 345.3,
+      "up": true
+    },
+    {
+      "origin": "Choumen",
+      "destination": "Varna",
+      "capacity": 40,
+      "length": 251.85,
+      "up": true
+    },
+    {
+      "origin": "Varna",
+      "destination": "Choumen",
+      "capacity": 40,
+      "length": 251.85,
+      "up": true
+    },
+    {
+      "origin": "Varna",
+      "destination": "Burgas",
+      "capacity": 40,
+      "length": 130.57,
+      "up": true
+    },
+    {
+      "origin": "Burgas",
+      "destination": "Varna",
+      "capacity": 40,
+      "length": 130.57,
+      "up": true
+    },
+    {
+      "origin": "Burgas",
+      "destination": "StaraZagora",
+      "capacity": 40,
+      "length": 225.45,
+      "up": true
+    },
+    {
+      "origin": "Trnovo",
+      "destination": "Ruse",
+      "capacity": 40,
+      "length": 133.54,
+      "up": true
+    },
+    {
+      "origin": "Trnovo",
+      "destination": "Gabrovo",
+      "capacity": 40,
+      "length": 48.91,
+      "up": true
+    },
+    {
+      "origin": "Trnovo",
+      "destination": "Pleven",
+      "capacity": 40,
+      "length": 135.79,
+      "up": true
+    },
+    {
+      "origin": "Gabrovo",
+      "destination": "StaraZagora",
+      "capacity": 40,
+      "length": 85.57,
+      "up": true
+    },
+    {
+      "origin": "Gabrovo",
+      "destination": "Trnovo",
+      "capacity": 40,
+      "length": 48.91,
+      "up": true
+    },
+    {
+      "origin": "StaraZagora",
+      "destination": "Burgas",
+      "capacity": 40,
+      "length": 225.45,
+      "up": true
+    },
+    {
+      "origin": "StaraZagora",
+      "destination": "Gabrovo",
+      "capacity": 40,
+      "length": 85.57,
+      "up": true
+    },
+    {
+      "origin": "StaraZagora",
+      "destination": "Plovdiv",
+      "capacity": 40,
+      "length": 119.66,
+      "up": true
+    },
+    {
+      "origin": "Pleven",
+      "destination": "Trnovo",
+      "capacity": 40,
+      "length": 135.79,
+      "up": true
+    },
+    {
+      "origin": "Pleven",
+      "destination": "Sofia",
+      "capacity": 40,
+      "length": 197.1,
+      "up": true
+    },
+    {
+      "origin": "Sofia",
+      "destination": "Pleven",
+      "capacity": 40,
+      "length": 197.1,
+      "up": true
+    },
+    {
+      "origin": "Sofia",
+      "destination": "Plovdiv",
+      "capacity": 40,
+      "length": 199.2,
+      "up": true
+    },
+    {
+      "origin": "Plovdiv",
+      "destination": "StaraZagora",
+      "capacity": 40,
+      "length": 119.66,
+      "up": true
+    },
+    {
+      "origin": "Plovdiv",
+      "destination": "Sofia",
+      "capacity": 40,
+      "length": 199.2,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "ISTAR (real topology #80)",
+  "description": "Real-world topology ISTAR (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Montreal",
+      "lat": 45.51,
+      "lon": -73.59,
+      "x": -8192001.3274770025,
+      "y": 5702171.08889624,
+      "up": true
+    },
+    {
+      "name": "Quebec",
+      "lat": 46.81,
+      "lon": -71.21,
+      "x": -7927060.939389011,
+      "y": 5911116.192041105,
+      "up": true
+    },
+    {
+      "name": "London",
+      "lat": 42.98,
+      "lon": -81.23,
+      "x": -9042482.237137614,
+      "y": 5308928.138299991,
+      "up": true
+    },
+    {
+      "name": "Moncton",
+      "lat": 46.12,
+      "lon": -64.8,
+      "x": -7213503.003404127,
+      "y": 5799600.201864343,
+      "up": true
+    },
+    {
+      "name": "Halifax",
+      "lat": 44.65,
+      "lon": -63.57,
+      "x": -7076580.029728401,
+      "y": 5566588.421489562,
+      "up": true
+    },
+    {
+      "name": "Sherbrooke",
+      "lat": 45.4,
+      "lon": -71.9,
+      "x": -8003871.38803637,
+      "y": 5684714.657219866,
+      "up": true
+    },
+    {
+      "name": "Saint John",
+      "lat": 45.27,
+      "lon": -66.07,
+      "x": -7354878.7567115845,
+      "y": 5664128.08662131,
+      "up": true
+    },
+    {
+      "name": "Sydney",
+      "lat": 46.14,
+      "lon": -60.18,
+      "x": -6699206.9559392035,
+      "y": 5802812.772272479,
+      "up": true
+    },
+    {
+      "name": "Yarmouth",
+      "lat": 43.83,
+      "lon": -66.12,
+      "x": -7360444.731251249,
+      "y": 5439171.870925074,
+      "up": true
+    },
+    {
+      "name": "Victoria",
+      "lat": 48.43,
+      "lon": -123.37,
+      "x": -13733485.57916616,
+      "y": 6178691.99003051,
+      "up": true
+    },
+    {
+      "name": "Toronto",
+      "lat": 43.7,
+      "lon": -79.42,
+      "x": -8840993.958801787,
+      "y": 5419133.259362271,
+      "up": true
+    },
+    {
+      "name": "Ancaster",
+      "lat": 43.23,
+      "lon": -79.95,
+      "x": -8899993.288922222,
+      "y": 5347045.974976321,
+      "up": true
+    },
+    {
+      "name": "Vancouver",
+      "lat": 49.25,
+      "lon": -123.12,
+      "x": -13705655.706467843,
+      "y": 6317388.117930809,
+      "up": true
+    },
+    {
+      "name": "Calgary",
+      "lat": 51.05,
+      "lon": -114.09,
+      "x": -12700440.704604581,
+      "y": 6630142.913981801,
+      "up": true
+    },
+    {
+      "name": "Edmonton",
+      "lat": 53.55,
+      "lon": -113.47,
+      "x": -12631422.620312752,
+      "y": 7085388.165495079,
+      "up": true
+    },
+    {
+      "name": "Lethbridge",
+      "lat": 49.7,
+      "lon": -112.82,
+      "x": -12559064.951297123,
+      "y": 6394482.317900557,
+      "up": true
+    },
+    {
+      "name": "Winnipeg",
+      "lat": 49.88,
+      "lon": -97.15,
+      "x": -10814688.530566528,
+      "y": 6425519.83251186,
+      "up": true
+    },
+    {
+      "name": "Ottawa",
+      "lat": 45.41,
+      "lon": -75.7,
+      "x": -8426885.453050809,
+      "y": 5686300.199618344,
+      "up": true
+    },
+    {
+      "name": "Kitchener",
+      "lat": 43.45,
+      "lon": -80.48,
+      "x": -8958992.619042657,
+      "y": 5380719.2033074135,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Montreal",
+      "destination": "Quebec",
+      "capacity": 40,
+      "length": 350.14,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Moncton",
+      "capacity": 40,
+      "length": 1026.36,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 755.04,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Sherbrooke",
+      "capacity": 40,
+      "length": 198.58,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Ottawa",
+      "capacity": 40,
+      "length": 247.4,
+      "up": true
+    },
+    {
+      "origin": "Quebec",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 350.14,
+      "up": true
+    },
+    {
+      "origin": "London",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 250.25,
+      "up": true
+    },
+    {
+      "origin": "Moncton",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 1026.36,
+      "up": true
+    },
+    {
+      "origin": "Moncton",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 284.38,
+      "up": true
+    },
+    {
+      "origin": "Moncton",
+      "destination": "Saint John",
+      "capacity": 40,
+      "length": 204.91,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "Moncton",
+      "capacity": 40,
+      "length": 284.38,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "Sydney",
+      "capacity": 40,
+      "length": 468.35,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "Yarmouth",
+      "capacity": 40,
+      "length": 333.98,
+      "up": true
+    },
+    {
+      "origin": "Sherbrooke",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 198.58,
+      "up": true
+    },
+    {
+      "origin": "Saint John",
+      "destination": "Moncton",
+      "capacity": 40,
+      "length": 204.91,
+      "up": true
+    },
+    {
+      "origin": "Sydney",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 468.35,
+      "up": true
+    },
+    {
+      "origin": "Yarmouth",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 333.98,
+      "up": true
+    },
+    {
+      "origin": "Victoria",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 139.5,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 755.04,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "London",
+      "capacity": 40,
+      "length": 250.25,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Ancaster",
+      "capacity": 40,
+      "length": 101.3,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Ottawa",
+      "capacity": 40,
+      "length": 526.06,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Kitchener",
+      "capacity": 40,
+      "length": 134.7,
+      "up": true
+    },
+    {
+      "origin": "Ancaster",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 101.3,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Victoria",
+      "capacity": 40,
+      "length": 139.5,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 1009.96,
+      "up": true
+    },
+    {
+      "origin": "Vancouver",
+      "destination": "Ottawa",
+      "capacity": 40,
+      "length": 4424.97,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 1009.96,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Edmonton",
+      "capacity": 40,
+      "length": 421.74,
+      "up": true
+    },
+    {
+      "origin": "Calgary",
+      "destination": "Lethbridge",
+      "capacity": 40,
+      "length": 262.58,
+      "up": true
+    },
+    {
+      "origin": "Edmonton",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 421.74,
+      "up": true
+    },
+    {
+      "origin": "Lethbridge",
+      "destination": "Calgary",
+      "capacity": 40,
+      "length": 262.58,
+      "up": true
+    },
+    {
+      "origin": "Winnipeg",
+      "destination": "Ottawa",
+      "capacity": 40,
+      "length": 2094.14,
+      "up": true
+    },
+    {
+      "origin": "Ottawa",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 247.4,
+      "up": true
+    },
+    {
+      "origin": "Ottawa",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 526.06,
+      "up": true
+    },
+    {
+      "origin": "Ottawa",
+      "destination": "Vancouver",
+      "capacity": 40,
+      "length": 4424.97,
+      "up": true
+    },
+    {
+      "origin": "Ottawa",
+      "destination": "Winnipeg",
+      "capacity": 40,
+      "length": 2094.14,
+      "up": true
+    },
+    {
+      "origin": "Kitchener",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 134.7,
+      "up": true
+    }
+  ]
+}

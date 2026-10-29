@@ -1,0 +1,590 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "ELIBACKBONE (real topology #104)",
+  "description": "Real-world topology ELIBACKBONE (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Las Vegas",
+      "lat": 36.17,
+      "lon": -115.14,
+      "x": -12817326.16993752,
+      "y": 4324038.393311035,
+      "up": true
+    },
+    {
+      "name": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "x": -13162416.591396667,
+      "y": 4035517.7820847426,
+      "up": true
+    },
+    {
+      "name": "Dallas",
+      "lat": 32.78,
+      "lon": -96.81,
+      "x": -10776839.903696815,
+      "y": 3866138.9184606387,
+      "up": true
+    },
+    {
+      "name": "Phoenix",
+      "lat": 33.45,
+      "lon": -112.07,
+      "x": -12475575.333202168,
+      "y": 3955187.399354617,
+      "up": true
+    },
+    {
+      "name": "Santa Clara",
+      "lat": 37.35,
+      "lon": -121.96,
+      "x": -13576525.097147644,
+      "y": 4488005.209215378,
+      "up": true
+    },
+    {
+      "name": "Portland",
+      "lat": 45.52,
+      "lon": -122.68,
+      "x": -13656675.130518802,
+      "y": 5703759.727613578,
+      "up": true
+    },
+    {
+      "name": "Sacramento",
+      "lat": 38.58,
+      "lon": -121.49,
+      "x": -13524204.936474806,
+      "y": 4661687.49784459,
+      "up": true
+    },
+    {
+      "name": "Palo Alto",
+      "lat": 37.44,
+      "lon": -122.14,
+      "x": -13596562.605490435,
+      "y": 4500615.863368779,
+      "up": true
+    },
+    {
+      "name": "Tacoma",
+      "lat": 47.25,
+      "lon": -122.44,
+      "x": -13629958.452728415,
+      "y": 5982976.332951714,
+      "up": true
+    },
+    {
+      "name": "Seattle",
+      "lat": 47.61,
+      "lon": -122.33,
+      "x": -13617713.308741156,
+      "y": 6042216.250411431,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "x": -9394251.828044357,
+      "y": 3995282.329624237,
+      "up": true
+    },
+    {
+      "name": "Houston",
+      "lat": 29.76,
+      "lon": -95.36,
+      "x": -10615426.642046567,
+      "y": 3472737.2348179896,
+      "up": true
+    },
+    {
+      "name": "Spokane",
+      "lat": 47.66,
+      "lon": -117.43,
+      "x": -13072247.803854115,
+      "y": 6050476.197754692,
+      "up": true
+    },
+    {
+      "name": "Boise",
+      "lat": 43.61,
+      "lon": -116.2,
+      "x": -12935324.83017839,
+      "y": 5405285.816427727,
+      "up": true
+    },
+    {
+      "name": "Salt Lake City",
+      "lat": 40.76,
+      "lon": -111.89,
+      "x": -12455537.824859379,
+      "y": 4977005.9097549105,
+      "up": true
+    },
+    {
+      "name": "Minneapolis",
+      "lat": 44.98,
+      "lon": -93.26,
+      "x": -10381655.711380694,
+      "y": 5618373.44486032,
+      "up": true
+    },
+    {
+      "name": "Chicago",
+      "lat": 41.85,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5138536.587247468,
+      "up": true
+    },
+    {
+      "name": "Rochester",
+      "lat": 43.15,
+      "lon": -77.62,
+      "x": -8640618.875373894,
+      "y": 5334831.3175768005,
+      "up": true
+    },
+    {
+      "name": "Newark",
+      "lat": 40.74,
+      "lon": -74.17,
+      "x": -8256566.632137101,
+      "y": 4974067.033368267,
+      "up": true
+    },
+    {
+      "name": "Washington, D.C.",
+      "lat": 38.9,
+      "lon": -77.04,
+      "x": -8576053.570713796,
+      "y": 4707357.536267922,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Las Vegas",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 551.25,
+      "up": true
+    },
+    {
+      "origin": "Las Vegas",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 618.45,
+      "up": true
+    },
+    {
+      "origin": "Las Vegas",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 875.19,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 551.25,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 861.37,
+      "up": true
+    },
+    {
+      "origin": "Los Angeles",
+      "destination": "Santa Clara",
+      "capacity": 40,
+      "length": 746.08,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1614.91,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 544.46,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Phoenix",
+      "capacity": 40,
+      "length": 1777.38,
+      "up": true
+    },
+    {
+      "origin": "Dallas",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 2378.38,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 618.45,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 861.37,
+      "up": true
+    },
+    {
+      "origin": "Phoenix",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1777.38,
+      "up": true
+    },
+    {
+      "origin": "Santa Clara",
+      "destination": "Los Angeles",
+      "capacity": 40,
+      "length": 746.08,
+      "up": true
+    },
+    {
+      "origin": "Santa Clara",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 28.18,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Tacoma",
+      "capacity": 40,
+      "length": 289.87,
+      "up": true
+    },
+    {
+      "origin": "Portland",
+      "destination": "Sacramento",
+      "capacity": 40,
+      "length": 1166.85,
+      "up": true
+    },
+    {
+      "origin": "Sacramento",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 1166.85,
+      "up": true
+    },
+    {
+      "origin": "Sacramento",
+      "destination": "Tacoma",
+      "capacity": 40,
+      "length": 1450.71,
+      "up": true
+    },
+    {
+      "origin": "Sacramento",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 1284.24,
+      "up": true
+    },
+    {
+      "origin": "Sacramento",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 208.45,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Santa Clara",
+      "capacity": 40,
+      "length": 28.18,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Sacramento",
+      "capacity": 40,
+      "length": 208.45,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Tacoma",
+      "destination": "Portland",
+      "capacity": 40,
+      "length": 289.87,
+      "up": true
+    },
+    {
+      "origin": "Tacoma",
+      "destination": "Sacramento",
+      "capacity": 40,
+      "length": 1450.71,
+      "up": true
+    },
+    {
+      "origin": "Tacoma",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 61.31,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Tacoma",
+      "capacity": 40,
+      "length": 61.31,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Spokane",
+      "capacity": 40,
+      "length": 550.7,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Boise",
+      "capacity": 40,
+      "length": 977.53,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Minneapolis",
+      "capacity": 40,
+      "length": 2798.9,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 1308.12,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 544.46,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Spokane",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 550.7,
+      "up": true
+    },
+    {
+      "origin": "Spokane",
+      "destination": "Boise",
+      "capacity": 40,
+      "length": 690.55,
+      "up": true
+    },
+    {
+      "origin": "Boise",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 977.53,
+      "up": true
+    },
+    {
+      "origin": "Boise",
+      "destination": "Spokane",
+      "capacity": 40,
+      "length": 690.55,
+      "up": true
+    },
+    {
+      "origin": "Boise",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 713.75,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Las Vegas",
+      "capacity": 40,
+      "length": 875.19,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Sacramento",
+      "capacity": 40,
+      "length": 1284.24,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Boise",
+      "capacity": 40,
+      "length": 713.75,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 2527.09,
+      "up": true
+    },
+    {
+      "origin": "Minneapolis",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 2798.9,
+      "up": true
+    },
+    {
+      "origin": "Minneapolis",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 856.7,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 1614.91,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 2527.09,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Minneapolis",
+      "capacity": 40,
+      "length": 856.7,
+      "up": true
+    },
+    {
+      "origin": "Chicago",
+      "destination": "Rochester",
+      "capacity": 40,
+      "length": 1251.52,
+      "up": true
+    },
+    {
+      "origin": "Rochester",
+      "destination": "Chicago",
+      "capacity": 40,
+      "length": 1251.52,
+      "up": true
+    },
+    {
+      "origin": "Rochester",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 587.07,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "Rochester",
+      "capacity": 40,
+      "length": 587.07,
+      "up": true
+    },
+    {
+      "origin": "Newark",
+      "destination": "Washington, D.C.",
+      "capacity": 40,
+      "length": 478.87,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Dallas",
+      "capacity": 40,
+      "length": 2378.38,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1308.12,
+      "up": true
+    },
+    {
+      "origin": "Washington, D.C.",
+      "destination": "Newark",
+      "capacity": 40,
+      "length": 478.87,
+      "up": true
+    }
+  ]
+}

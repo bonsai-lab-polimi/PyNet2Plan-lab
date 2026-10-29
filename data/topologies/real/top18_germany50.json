@@ -1,0 +1,1642 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "GERMANY50 (real topology #18)",
+  "description": "Real-world topology GERMANY50 (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Aachen",
+      "lat": 50.76,
+      "lon": 6.04,
+      "x": 672369.7243913724,
+      "y": 6578949.800396546,
+      "up": true
+    },
+    {
+      "name": "Augsburg",
+      "lat": 48.33,
+      "lon": 10.9,
+      "x": 1213382.449646682,
+      "y": 6161931.724216562,
+      "up": true
+    },
+    {
+      "name": "Bayreuth",
+      "lat": 49.93,
+      "lon": 11.59,
+      "x": 1290192.8982940407,
+      "y": 6434161.887938707,
+      "up": true
+    },
+    {
+      "name": "Berlin",
+      "lat": 52.52,
+      "lon": 13.39,
+      "x": 1490567.9817219332,
+      "y": 6894699.801282422,
+      "up": true
+    },
+    {
+      "name": "Bielefeld",
+      "lat": 52.04,
+      "lon": 8.5,
+      "x": 946215.6717428254,
+      "y": 6807361.2012949325,
+      "up": true
+    },
+    {
+      "name": "Braunschweig",
+      "lat": 52.28,
+      "lon": 10.55,
+      "x": 1174420.6278690363,
+      "y": 6850912.249118616,
+      "up": true
+    },
+    {
+      "name": "Bremen",
+      "lat": 53.11,
+      "lon": 8.85,
+      "x": 985177.493520471,
+      "y": 7003370.919314693,
+      "up": true
+    },
+    {
+      "name": "Bremerhaven",
+      "lat": 53.54,
+      "lon": 8.58,
+      "x": 955121.2310062873,
+      "y": 7083514.703198341,
+      "up": true
+    },
+    {
+      "name": "Chemnitz",
+      "lat": 50.84,
+      "lon": 12.93,
+      "x": 1439361.0159570272,
+      "y": 6593040.226464508,
+      "up": true
+    },
+    {
+      "name": "Darmstadt",
+      "lat": 49.89,
+      "lon": 8.65,
+      "x": 962913.5953618165,
+      "y": 6427247.527194839,
+      "up": true
+    },
+    {
+      "name": "Dortmund",
+      "lat": 51.51,
+      "lon": 7.45,
+      "x": 829330.2064098882,
+      "y": 6712007.502309075,
+      "up": true
+    },
+    {
+      "name": "Dresden",
+      "lat": 51.03,
+      "lon": 13.73,
+      "x": 1528416.6085916462,
+      "y": 6626602.091993362,
+      "up": true
+    },
+    {
+      "name": "Duesseldorf",
+      "lat": 51.25,
+      "lon": 6.77,
+      "x": 753632.952670462,
+      "y": 6665635.539174074,
+      "up": true
+    },
+    {
+      "name": "Erfurt",
+      "lat": 50.98,
+      "lon": 11.04,
+      "x": 1228967.1783577402,
+      "y": 6617756.716508852,
+      "up": true
+    },
+    {
+      "name": "Essen",
+      "lat": 51.46,
+      "lon": 7.02,
+      "x": 781462.8253687804,
+      "y": 6703069.328284811,
+      "up": true
+    },
+    {
+      "name": "Flensburg",
+      "lat": 54.77,
+      "lon": 9.45,
+      "x": 1051969.1879964352,
+      "y": 7317355.151563978,
+      "up": true
+    },
+    {
+      "name": "Frankfurt",
+      "lat": 50.12,
+      "lon": 8.71,
+      "x": 969592.7648094129,
+      "y": 6467083.721426574,
+      "up": true
+    },
+    {
+      "name": "Freiburg",
+      "lat": 47.98,
+      "lon": 7.8,
+      "x": 868292.0281875338,
+      "y": 6103528.192236453,
+      "up": true
+    },
+    {
+      "name": "Fulda",
+      "lat": 50.56,
+      "lon": 9.69,
+      "x": 1078685.8657868209,
+      "y": 6543828.792425151,
+      "up": true
+    },
+    {
+      "name": "Giessen",
+      "lat": 50.57,
+      "lon": 8.67,
+      "x": 965139.9851776818,
+      "y": 6545581.296602564,
+      "up": true
+    },
+    {
+      "name": "Greifswald",
+      "lat": 54.09,
+      "lon": 13.4,
+      "x": 1491681.1766298658,
+      "y": 7187219.675993347,
+      "up": true
+    },
+    {
+      "name": "Hamburg",
+      "lat": 53.57,
+      "lon": 9.99,
+      "x": 1112081.713024803,
+      "y": 7089136.418602032,
+      "up": true
+    },
+    {
+      "name": "Hannover",
+      "lat": 52.38,
+      "lon": 9.72,
+      "x": 1082025.4505106192,
+      "y": 6869128.12931592,
+      "up": true
+    },
+    {
+      "name": "Kaiserslautern",
+      "lat": 49.43,
+      "lon": 7.75,
+      "x": 862726.0536478701,
+      "y": 6348140.870019507,
+      "up": true
+    },
+    {
+      "name": "Karlsruhe",
+      "lat": 49.01,
+      "lon": 8.41,
+      "x": 936196.9175714307,
+      "y": 6276558.355150937,
+      "up": true
+    },
+    {
+      "name": "Kassel",
+      "lat": 51.32,
+      "lon": 9.51,
+      "x": 1058648.3574440316,
+      "y": 6678094.415718013,
+      "up": true
+    },
+    {
+      "name": "Kempten",
+      "lat": 47.72,
+      "lon": 10.32,
+      "x": 1148817.1449865834,
+      "y": 6060398.583411098,
+      "up": true
+    },
+    {
+      "name": "Kiel",
+      "lat": 54.34,
+      "lon": 10.12,
+      "x": 1126553.2468279283,
+      "y": 7234813.010822257,
+      "up": true
+    },
+    {
+      "name": "Koblenz",
+      "lat": 50.4,
+      "lon": 7.52,
+      "x": 837122.5707654172,
+      "y": 6515839.14761188,
+      "up": true
+    },
+    {
+      "name": "Koeln",
+      "lat": 50.94,
+      "lon": 6.87,
+      "x": 764764.9017497895,
+      "y": 6610687.272047493,
+      "up": true
+    },
+    {
+      "name": "Konstanz",
+      "lat": 47.66,
+      "lon": 9.18,
+      "x": 1021912.9254822513,
+      "y": 6050476.197754692,
+      "up": true
+    },
+    {
+      "name": "Leipzig",
+      "lat": 51.34,
+      "lon": 12.38,
+      "x": 1378135.296020727,
+      "y": 6681657.586228134,
+      "up": true
+    },
+    {
+      "name": "Magdeburg",
+      "lat": 52.14,
+      "lon": 11.64,
+      "x": 1295758.8728337046,
+      "y": 6825478.942245365,
+      "up": true
+    },
+    {
+      "name": "Mannheim",
+      "lat": 49.49,
+      "lon": 8.49,
+      "x": 945102.4768348925,
+      "y": 6358416.852966491,
+      "up": true
+    },
+    {
+      "name": "Muenchen",
+      "lat": 48.15,
+      "lon": 11.57,
+      "x": 1287966.5084781754,
+      "y": 6131845.868039043,
+      "up": true
+    },
+    {
+      "name": "Muenster",
+      "lat": 51.97,
+      "lon": 7.6,
+      "x": 846028.130028879,
+      "y": 6794702.886224315,
+      "up": true
+    },
+    {
+      "name": "Norden",
+      "lat": 53.6,
+      "lon": 7.21,
+      "x": 802613.5286195024,
+      "y": 7094762.123545771,
+      "up": true
+    },
+    {
+      "name": "Nuernberg",
+      "lat": 49.57,
+      "lon": 11.03,
+      "x": 1227853.9834498074,
+      "y": 6372137.775173236,
+      "up": true
+    },
+    {
+      "name": "Oldenburg",
+      "lat": 53.11,
+      "lon": 8.21,
+      "x": 913933.0194127761,
+      "y": 7003370.919314693,
+      "up": true
+    },
+    {
+      "name": "Osnabrueck",
+      "lat": 52.28,
+      "lon": 8.03,
+      "x": 893895.5110699867,
+      "y": 6850912.249118616,
+      "up": true
+    },
+    {
+      "name": "Passau",
+      "lat": 48.57,
+      "lon": 13.46,
+      "x": 1498360.3460774624,
+      "y": 6202211.867728726,
+      "up": true
+    },
+    {
+      "name": "Regensburg",
+      "lat": 49.0,
+      "lon": 12.09,
+      "x": 1345852.6436906774,
+      "y": 6274861.394006577,
+      "up": true
+    },
+    {
+      "name": "Saarbruecken",
+      "lat": 49.23,
+      "lon": 7.03,
+      "x": 782576.0202767132,
+      "y": 6313978.07463836,
+      "up": true
+    },
+    {
+      "name": "Schwerin",
+      "lat": 53.55,
+      "lon": 11.45,
+      "x": 1274608.1695829823,
+      "y": 7085388.165495079,
+      "up": true
+    },
+    {
+      "name": "Siegen",
+      "lat": 50.91,
+      "lon": 8.03,
+      "x": 893895.5110699867,
+      "y": 6605389.178850466,
+      "up": true
+    },
+    {
+      "name": "Stuttgart",
+      "lat": 48.74,
+      "lon": 9.1,
+      "x": 1013007.3662187895,
+      "y": 6230859.433041598,
+      "up": true
+    },
+    {
+      "name": "Trier",
+      "lat": 49.75,
+      "lon": 6.68,
+      "x": 743614.1984990673,
+      "y": 6403092.288424938,
+      "up": true
+    },
+    {
+      "name": "Ulm",
+      "lat": 48.4,
+      "lon": 9.99,
+      "x": 1112081.713024803,
+      "y": 6173660.451962929,
+      "up": true
+    },
+    {
+      "name": "Wesel",
+      "lat": 51.39,
+      "lon": 6.37,
+      "x": 709105.1563531527,
+      "y": 6690572.319791752,
+      "up": true
+    },
+    {
+      "name": "Wuerzburg",
+      "lat": 49.78,
+      "lon": 9.97,
+      "x": 1109855.3232089374,
+      "y": 6408262.531558042,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Aachen",
+      "destination": "Koeln",
+      "capacity": 40,
+      "length": 141.62,
+      "up": true
+    },
+    {
+      "origin": "Aachen",
+      "destination": "Wesel",
+      "capacity": 40,
+      "length": 118.08,
+      "up": true
+    },
+    {
+      "origin": "Aachen",
+      "destination": "Trier",
+      "capacity": 40,
+      "length": 198.56,
+      "up": true
+    },
+    {
+      "origin": "Augsburg",
+      "destination": "Ulm",
+      "capacity": 40,
+      "length": 152.21,
+      "up": true
+    },
+    {
+      "origin": "Augsburg",
+      "destination": "Muenchen",
+      "capacity": 40,
+      "length": 115.57,
+      "up": true
+    },
+    {
+      "origin": "Augsburg",
+      "destination": "Wuerzburg",
+      "capacity": 40,
+      "length": 283.96,
+      "up": true
+    },
+    {
+      "origin": "Bayreuth",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 265.11,
+      "up": true
+    },
+    {
+      "origin": "Bayreuth",
+      "destination": "Chemnitz",
+      "capacity": 40,
+      "length": 268.24,
+      "up": true
+    },
+    {
+      "origin": "Bayreuth",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 110.41,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 255.32,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Dresden",
+      "capacity": 40,
+      "length": 248.16,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Schwerin",
+      "capacity": 40,
+      "length": 364.48,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Magdeburg",
+      "capacity": 40,
+      "length": 298.37,
+      "up": true
+    },
+    {
+      "origin": "Berlin",
+      "destination": "Greifswald",
+      "capacity": 40,
+      "length": 254.75,
+      "up": true
+    },
+    {
+      "origin": "Bielefeld",
+      "destination": "Muenster",
+      "capacity": 40,
+      "length": 150.56,
+      "up": true
+    },
+    {
+      "origin": "Bielefeld",
+      "destination": "Siegen",
+      "capacity": 40,
+      "length": 202.32,
+      "up": true
+    },
+    {
+      "origin": "Bielefeld",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 211.05,
+      "up": true
+    },
+    {
+      "origin": "Bielefeld",
+      "destination": "Braunschweig",
+      "capacity": 40,
+      "length": 344.2,
+      "up": true
+    },
+    {
+      "origin": "Braunschweig",
+      "destination": "Magdeburg",
+      "capacity": 40,
+      "length": 183.24,
+      "up": true
+    },
+    {
+      "origin": "Braunschweig",
+      "destination": "Hamburg",
+      "capacity": 40,
+      "length": 231.4,
+      "up": true
+    },
+    {
+      "origin": "Braunschweig",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 139.41,
+      "up": true
+    },
+    {
+      "origin": "Braunschweig",
+      "destination": "Bielefeld",
+      "capacity": 40,
+      "length": 344.2,
+      "up": true
+    },
+    {
+      "origin": "Braunschweig",
+      "destination": "Kassel",
+      "capacity": 40,
+      "length": 234.41,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Oldenburg",
+      "capacity": 40,
+      "length": 106.75,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Bremerhaven",
+      "capacity": 40,
+      "length": 83.99,
+      "up": true
+    },
+    {
+      "origin": "Bremen",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 188.4,
+      "up": true
+    },
+    {
+      "origin": "Bremerhaven",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 83.99,
+      "up": true
+    },
+    {
+      "origin": "Bremerhaven",
+      "destination": "Flensburg",
+      "capacity": 40,
+      "length": 249.22,
+      "up": true
+    },
+    {
+      "origin": "Chemnitz",
+      "destination": "Dresden",
+      "capacity": 40,
+      "length": 136.95,
+      "up": true
+    },
+    {
+      "origin": "Chemnitz",
+      "destination": "Erfurt",
+      "capacity": 40,
+      "length": 316.06,
+      "up": true
+    },
+    {
+      "origin": "Chemnitz",
+      "destination": "Bayreuth",
+      "capacity": 40,
+      "length": 268.24,
+      "up": true
+    },
+    {
+      "origin": "Darmstadt",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 39.22,
+      "up": true
+    },
+    {
+      "origin": "Darmstadt",
+      "destination": "Mannheim",
+      "capacity": 40,
+      "length": 71.17,
+      "up": true
+    },
+    {
+      "origin": "Darmstadt",
+      "destination": "Kaiserslautern",
+      "capacity": 40,
+      "length": 168.23,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 72.2,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Muenster",
+      "capacity": 40,
+      "length": 80.07,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Siegen",
+      "capacity": 40,
+      "length": 138.53,
+      "up": true
+    },
+    {
+      "origin": "Dortmund",
+      "destination": "Kassel",
+      "capacity": 40,
+      "length": 345.02,
+      "up": true
+    },
+    {
+      "origin": "Dresden",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 248.16,
+      "up": true
+    },
+    {
+      "origin": "Dresden",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 230.73,
+      "up": true
+    },
+    {
+      "origin": "Dresden",
+      "destination": "Erfurt",
+      "capacity": 40,
+      "length": 448.75,
+      "up": true
+    },
+    {
+      "origin": "Dresden",
+      "destination": "Chemnitz",
+      "capacity": 40,
+      "length": 136.95,
+      "up": true
+    },
+    {
+      "origin": "Duesseldorf",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 54.29,
+      "up": true
+    },
+    {
+      "origin": "Duesseldorf",
+      "destination": "Koeln",
+      "capacity": 40,
+      "length": 53.98,
+      "up": true
+    },
+    {
+      "origin": "Erfurt",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 231.11,
+      "up": true
+    },
+    {
+      "origin": "Erfurt",
+      "destination": "Dresden",
+      "capacity": 40,
+      "length": 448.75,
+      "up": true
+    },
+    {
+      "origin": "Erfurt",
+      "destination": "Chemnitz",
+      "capacity": 40,
+      "length": 316.06,
+      "up": true
+    },
+    {
+      "origin": "Erfurt",
+      "destination": "Kassel",
+      "capacity": 40,
+      "length": 261.22,
+      "up": true
+    },
+    {
+      "origin": "Erfurt",
+      "destination": "Wuerzburg",
+      "capacity": 40,
+      "length": 265.67,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Duesseldorf",
+      "capacity": 40,
+      "length": 54.29,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 72.2,
+      "up": true
+    },
+    {
+      "origin": "Essen",
+      "destination": "Wesel",
+      "capacity": 40,
+      "length": 109.03,
+      "up": true
+    },
+    {
+      "origin": "Flensburg",
+      "destination": "Kiel",
+      "capacity": 40,
+      "length": 132.23,
+      "up": true
+    },
+    {
+      "origin": "Flensburg",
+      "destination": "Bremerhaven",
+      "capacity": 40,
+      "length": 249.22,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Koblenz",
+      "capacity": 40,
+      "length": 203.8,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Darmstadt",
+      "capacity": 40,
+      "length": 39.22,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Giessen",
+      "capacity": 40,
+      "length": 74.49,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt",
+      "destination": "Fulda",
+      "capacity": 40,
+      "length": 178.79,
+      "up": true
+    },
+    {
+      "origin": "Freiburg",
+      "destination": "Karlsruhe",
+      "capacity": 40,
+      "length": 198.19,
+      "up": true
+    },
+    {
+      "origin": "Freiburg",
+      "destination": "Konstanz",
+      "capacity": 40,
+      "length": 236.15,
+      "up": true
+    },
+    {
+      "origin": "Fulda",
+      "destination": "Kassel",
+      "capacity": 40,
+      "length": 128.54,
+      "up": true
+    },
+    {
+      "origin": "Fulda",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 178.79,
+      "up": true
+    },
+    {
+      "origin": "Fulda",
+      "destination": "Giessen",
+      "capacity": 40,
+      "length": 170.14,
+      "up": true
+    },
+    {
+      "origin": "Fulda",
+      "destination": "Wuerzburg",
+      "capacity": 40,
+      "length": 136.43,
+      "up": true
+    },
+    {
+      "origin": "Giessen",
+      "destination": "Siegen",
+      "capacity": 40,
+      "length": 120.59,
+      "up": true
+    },
+    {
+      "origin": "Giessen",
+      "destination": "Kassel",
+      "capacity": 40,
+      "length": 186.78,
+      "up": true
+    },
+    {
+      "origin": "Giessen",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 74.49,
+      "up": true
+    },
+    {
+      "origin": "Giessen",
+      "destination": "Fulda",
+      "capacity": 40,
+      "length": 170.14,
+      "up": true
+    },
+    {
+      "origin": "Greifswald",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 254.75,
+      "up": true
+    },
+    {
+      "origin": "Greifswald",
+      "destination": "Schwerin",
+      "capacity": 40,
+      "length": 336.93,
+      "up": true
+    },
+    {
+      "origin": "Hamburg",
+      "destination": "Schwerin",
+      "capacity": 40,
+      "length": 243.54,
+      "up": true
+    },
+    {
+      "origin": "Hamburg",
+      "destination": "Kiel",
+      "capacity": 40,
+      "length": 128.3,
+      "up": true
+    },
+    {
+      "origin": "Hamburg",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 200.67,
+      "up": true
+    },
+    {
+      "origin": "Hamburg",
+      "destination": "Braunschweig",
+      "capacity": 40,
+      "length": 231.4,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Hamburg",
+      "capacity": 40,
+      "length": 200.67,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 188.4,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Bielefeld",
+      "capacity": 40,
+      "length": 211.05,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Braunschweig",
+      "capacity": 40,
+      "length": 139.41,
+      "up": true
+    },
+    {
+      "origin": "Hannover",
+      "destination": "Osnabrueck",
+      "capacity": 40,
+      "length": 282.36,
+      "up": true
+    },
+    {
+      "origin": "Kaiserslautern",
+      "destination": "Koblenz",
+      "capacity": 40,
+      "length": 164.88,
+      "up": true
+    },
+    {
+      "origin": "Kaiserslautern",
+      "destination": "Darmstadt",
+      "capacity": 40,
+      "length": 168.23,
+      "up": true
+    },
+    {
+      "origin": "Kaiserslautern",
+      "destination": "Saarbruecken",
+      "capacity": 40,
+      "length": 124.56,
+      "up": true
+    },
+    {
+      "origin": "Kaiserslautern",
+      "destination": "Karlsruhe",
+      "capacity": 40,
+      "length": 130.11,
+      "up": true
+    },
+    {
+      "origin": "Karlsruhe",
+      "destination": "Mannheim",
+      "capacity": 40,
+      "length": 80.31,
+      "up": true
+    },
+    {
+      "origin": "Karlsruhe",
+      "destination": "Kaiserslautern",
+      "capacity": 40,
+      "length": 130.11,
+      "up": true
+    },
+    {
+      "origin": "Karlsruhe",
+      "destination": "Saarbruecken",
+      "capacity": 40,
+      "length": 233.03,
+      "up": true
+    },
+    {
+      "origin": "Karlsruhe",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 123.39,
+      "up": true
+    },
+    {
+      "origin": "Karlsruhe",
+      "destination": "Freiburg",
+      "capacity": 40,
+      "length": 198.19,
+      "up": true
+    },
+    {
+      "origin": "Kassel",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 345.02,
+      "up": true
+    },
+    {
+      "origin": "Kassel",
+      "destination": "Erfurt",
+      "capacity": 40,
+      "length": 261.22,
+      "up": true
+    },
+    {
+      "origin": "Kassel",
+      "destination": "Braunschweig",
+      "capacity": 40,
+      "length": 234.41,
+      "up": true
+    },
+    {
+      "origin": "Kassel",
+      "destination": "Giessen",
+      "capacity": 40,
+      "length": 186.78,
+      "up": true
+    },
+    {
+      "origin": "Kassel",
+      "destination": "Fulda",
+      "capacity": 40,
+      "length": 128.54,
+      "up": true
+    },
+    {
+      "origin": "Kempten",
+      "destination": "Konstanz",
+      "capacity": 40,
+      "length": 190.4,
+      "up": true
+    },
+    {
+      "origin": "Kempten",
+      "destination": "Muenchen",
+      "capacity": 40,
+      "length": 220.06,
+      "up": true
+    },
+    {
+      "origin": "Kiel",
+      "destination": "Schwerin",
+      "capacity": 40,
+      "length": 256.83,
+      "up": true
+    },
+    {
+      "origin": "Kiel",
+      "destination": "Hamburg",
+      "capacity": 40,
+      "length": 128.3,
+      "up": true
+    },
+    {
+      "origin": "Kiel",
+      "destination": "Flensburg",
+      "capacity": 40,
+      "length": 132.23,
+      "up": true
+    },
+    {
+      "origin": "Koblenz",
+      "destination": "Koeln",
+      "capacity": 40,
+      "length": 140.49,
+      "up": true
+    },
+    {
+      "origin": "Koblenz",
+      "destination": "Siegen",
+      "capacity": 40,
+      "length": 119.75,
+      "up": true
+    },
+    {
+      "origin": "Koblenz",
+      "destination": "Frankfurt",
+      "capacity": 40,
+      "length": 203.8,
+      "up": true
+    },
+    {
+      "origin": "Koblenz",
+      "destination": "Kaiserslautern",
+      "capacity": 40,
+      "length": 164.88,
+      "up": true
+    },
+    {
+      "origin": "Koblenz",
+      "destination": "Trier",
+      "capacity": 40,
+      "length": 176.65,
+      "up": true
+    },
+    {
+      "origin": "Koeln",
+      "destination": "Duesseldorf",
+      "capacity": 40,
+      "length": 53.98,
+      "up": true
+    },
+    {
+      "origin": "Koeln",
+      "destination": "Aachen",
+      "capacity": 40,
+      "length": 141.62,
+      "up": true
+    },
+    {
+      "origin": "Koeln",
+      "destination": "Koblenz",
+      "capacity": 40,
+      "length": 140.49,
+      "up": true
+    },
+    {
+      "origin": "Konstanz",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 178.35,
+      "up": true
+    },
+    {
+      "origin": "Konstanz",
+      "destination": "Freiburg",
+      "capacity": 40,
+      "length": 236.15,
+      "up": true
+    },
+    {
+      "origin": "Konstanz",
+      "destination": "Kempten",
+      "capacity": 40,
+      "length": 190.4,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 255.32,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Dresden",
+      "capacity": 40,
+      "length": 230.73,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Erfurt",
+      "capacity": 40,
+      "length": 231.11,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Magdeburg",
+      "capacity": 40,
+      "length": 179.63,
+      "up": true
+    },
+    {
+      "origin": "Leipzig",
+      "destination": "Bayreuth",
+      "capacity": 40,
+      "length": 265.11,
+      "up": true
+    },
+    {
+      "origin": "Magdeburg",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 298.37,
+      "up": true
+    },
+    {
+      "origin": "Magdeburg",
+      "destination": "Leipzig",
+      "capacity": 40,
+      "length": 179.63,
+      "up": true
+    },
+    {
+      "origin": "Magdeburg",
+      "destination": "Schwerin",
+      "capacity": 40,
+      "length": 232.59,
+      "up": true
+    },
+    {
+      "origin": "Magdeburg",
+      "destination": "Braunschweig",
+      "capacity": 40,
+      "length": 183.24,
+      "up": true
+    },
+    {
+      "origin": "Mannheim",
+      "destination": "Darmstadt",
+      "capacity": 40,
+      "length": 71.17,
+      "up": true
+    },
+    {
+      "origin": "Mannheim",
+      "destination": "Karlsruhe",
+      "capacity": 40,
+      "length": 80.31,
+      "up": true
+    },
+    {
+      "origin": "Muenchen",
+      "destination": "Augsburg",
+      "capacity": 40,
+      "length": 115.57,
+      "up": true
+    },
+    {
+      "origin": "Muenchen",
+      "destination": "Kempten",
+      "capacity": 40,
+      "length": 220.06,
+      "up": true
+    },
+    {
+      "origin": "Muenchen",
+      "destination": "Passau",
+      "capacity": 40,
+      "length": 322.57,
+      "up": true
+    },
+    {
+      "origin": "Muenchen",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 249.11,
+      "up": true
+    },
+    {
+      "origin": "Muenchen",
+      "destination": "Regensburg",
+      "capacity": 40,
+      "length": 163.64,
+      "up": true
+    },
+    {
+      "origin": "Muenster",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 80.07,
+      "up": true
+    },
+    {
+      "origin": "Muenster",
+      "destination": "Bielefeld",
+      "capacity": 40,
+      "length": 150.56,
+      "up": true
+    },
+    {
+      "origin": "Muenster",
+      "destination": "Osnabrueck",
+      "capacity": 40,
+      "length": 88.14,
+      "up": true
+    },
+    {
+      "origin": "Norden",
+      "destination": "Wesel",
+      "capacity": 40,
+      "length": 391.92,
+      "up": true
+    },
+    {
+      "origin": "Norden",
+      "destination": "Oldenburg",
+      "capacity": 40,
+      "length": 185.42,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Muenchen",
+      "capacity": 40,
+      "length": 249.11,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Bayreuth",
+      "capacity": 40,
+      "length": 110.41,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Wuerzburg",
+      "capacity": 40,
+      "length": 180.12,
+      "up": true
+    },
+    {
+      "origin": "Nuernberg",
+      "destination": "Regensburg",
+      "capacity": 40,
+      "length": 199.83,
+      "up": true
+    },
+    {
+      "origin": "Oldenburg",
+      "destination": "Wesel",
+      "capacity": 40,
+      "length": 418.52,
+      "up": true
+    },
+    {
+      "origin": "Oldenburg",
+      "destination": "Bremen",
+      "capacity": 40,
+      "length": 106.75,
+      "up": true
+    },
+    {
+      "origin": "Oldenburg",
+      "destination": "Norden",
+      "capacity": 40,
+      "length": 185.42,
+      "up": true
+    },
+    {
+      "origin": "Oldenburg",
+      "destination": "Osnabrueck",
+      "capacity": 40,
+      "length": 140.3,
+      "up": true
+    },
+    {
+      "origin": "Osnabrueck",
+      "destination": "Muenster",
+      "capacity": 40,
+      "length": 88.14,
+      "up": true
+    },
+    {
+      "origin": "Osnabrueck",
+      "destination": "Oldenburg",
+      "capacity": 40,
+      "length": 140.3,
+      "up": true
+    },
+    {
+      "origin": "Osnabrueck",
+      "destination": "Hannover",
+      "capacity": 40,
+      "length": 282.36,
+      "up": true
+    },
+    {
+      "origin": "Passau",
+      "destination": "Muenchen",
+      "capacity": 40,
+      "length": 322.57,
+      "up": true
+    },
+    {
+      "origin": "Passau",
+      "destination": "Regensburg",
+      "capacity": 40,
+      "length": 238.97,
+      "up": true
+    },
+    {
+      "origin": "Regensburg",
+      "destination": "Muenchen",
+      "capacity": 40,
+      "length": 163.64,
+      "up": true
+    },
+    {
+      "origin": "Regensburg",
+      "destination": "Passau",
+      "capacity": 40,
+      "length": 238.97,
+      "up": true
+    },
+    {
+      "origin": "Regensburg",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 199.83,
+      "up": true
+    },
+    {
+      "origin": "Saarbruecken",
+      "destination": "Kaiserslautern",
+      "capacity": 40,
+      "length": 124.56,
+      "up": true
+    },
+    {
+      "origin": "Saarbruecken",
+      "destination": "Trier",
+      "capacity": 40,
+      "length": 104.03,
+      "up": true
+    },
+    {
+      "origin": "Saarbruecken",
+      "destination": "Karlsruhe",
+      "capacity": 40,
+      "length": 233.03,
+      "up": true
+    },
+    {
+      "origin": "Schwerin",
+      "destination": "Berlin",
+      "capacity": 40,
+      "length": 364.48,
+      "up": true
+    },
+    {
+      "origin": "Schwerin",
+      "destination": "Magdeburg",
+      "capacity": 40,
+      "length": 232.59,
+      "up": true
+    },
+    {
+      "origin": "Schwerin",
+      "destination": "Greifswald",
+      "capacity": 40,
+      "length": 336.93,
+      "up": true
+    },
+    {
+      "origin": "Schwerin",
+      "destination": "Hamburg",
+      "capacity": 40,
+      "length": 243.54,
+      "up": true
+    },
+    {
+      "origin": "Schwerin",
+      "destination": "Kiel",
+      "capacity": 40,
+      "length": 256.83,
+      "up": true
+    },
+    {
+      "origin": "Siegen",
+      "destination": "Dortmund",
+      "capacity": 40,
+      "length": 138.53,
+      "up": true
+    },
+    {
+      "origin": "Siegen",
+      "destination": "Koblenz",
+      "capacity": 40,
+      "length": 119.75,
+      "up": true
+    },
+    {
+      "origin": "Siegen",
+      "destination": "Bielefeld",
+      "capacity": 40,
+      "length": 202.32,
+      "up": true
+    },
+    {
+      "origin": "Siegen",
+      "destination": "Giessen",
+      "capacity": 40,
+      "length": 120.59,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Karlsruhe",
+      "capacity": 40,
+      "length": 123.39,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Ulm",
+      "capacity": 40,
+      "length": 158.63,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Konstanz",
+      "capacity": 40,
+      "length": 178.35,
+      "up": true
+    },
+    {
+      "origin": "Stuttgart",
+      "destination": "Wuerzburg",
+      "capacity": 40,
+      "length": 224.32,
+      "up": true
+    },
+    {
+      "origin": "Trier",
+      "destination": "Aachen",
+      "capacity": 40,
+      "length": 198.56,
+      "up": true
+    },
+    {
+      "origin": "Trier",
+      "destination": "Koblenz",
+      "capacity": 40,
+      "length": 176.65,
+      "up": true
+    },
+    {
+      "origin": "Trier",
+      "destination": "Saarbruecken",
+      "capacity": 40,
+      "length": 104.03,
+      "up": true
+    },
+    {
+      "origin": "Ulm",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 158.63,
+      "up": true
+    },
+    {
+      "origin": "Ulm",
+      "destination": "Augsburg",
+      "capacity": 40,
+      "length": 152.21,
+      "up": true
+    },
+    {
+      "origin": "Wesel",
+      "destination": "Essen",
+      "capacity": 40,
+      "length": 109.03,
+      "up": true
+    },
+    {
+      "origin": "Wesel",
+      "destination": "Aachen",
+      "capacity": 40,
+      "length": 118.08,
+      "up": true
+    },
+    {
+      "origin": "Wesel",
+      "destination": "Oldenburg",
+      "capacity": 40,
+      "length": 418.52,
+      "up": true
+    },
+    {
+      "origin": "Wesel",
+      "destination": "Norden",
+      "capacity": 40,
+      "length": 391.92,
+      "up": true
+    },
+    {
+      "origin": "Wuerzburg",
+      "destination": "Erfurt",
+      "capacity": 40,
+      "length": 265.67,
+      "up": true
+    },
+    {
+      "origin": "Wuerzburg",
+      "destination": "Fulda",
+      "capacity": 40,
+      "length": 136.43,
+      "up": true
+    },
+    {
+      "origin": "Wuerzburg",
+      "destination": "Stuttgart",
+      "capacity": 40,
+      "length": 224.32,
+      "up": true
+    },
+    {
+      "origin": "Wuerzburg",
+      "destination": "Augsburg",
+      "capacity": 40,
+      "length": 283.96,
+      "up": true
+    },
+    {
+      "origin": "Wuerzburg",
+      "destination": "Nuernberg",
+      "capacity": 40,
+      "length": 180.12,
+      "up": true
+    }
+  ]
+}

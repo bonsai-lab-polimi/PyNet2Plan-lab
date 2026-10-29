@@ -1,0 +1,416 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "NSFNET-14",
+  "description": "NSFNET T1 backbone (a common 14-node / 21-link variant), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Seattle",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "x": -13617947.079671822,
+      "y": 6041588.817409255,
+      "up": true
+    },
+    {
+      "name": "Palo Alto",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "x": -13596896.563962815,
+      "y": 4500882.251624951,
+      "up": true
+    },
+    {
+      "name": "San Diego",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "x": -13042313.992779806,
+      "y": 3857628.4081548112,
+      "up": true
+    },
+    {
+      "name": "Salt Lake City",
+      "lat": 40.7608,
+      "lon": -111.891,
+      "x": -12455649.144350175,
+      "y": 4977123.483199634,
+      "up": true
+    },
+    {
+      "name": "Boulder",
+      "lat": 40.015,
+      "lon": -105.2705,
+      "x": -11718658.455553304,
+      "y": 4868122.278104177,
+      "up": true
+    },
+    {
+      "name": "Houston",
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "x": -10616517.57305634,
+      "y": 3472788.5275949375,
+      "up": true
+    },
+    {
+      "name": "Lincoln",
+      "lat": 40.8136,
+      "lon": -96.7026,
+      "x": -10764884.190385617,
+      "y": 4984886.462005199,
+      "up": true
+    },
+    {
+      "name": "Champaign",
+      "lat": 40.1164,
+      "lon": -88.2434,
+      "x": -9823210.353867156,
+      "y": 4882871.65565284,
+      "up": true
+    },
+    {
+      "name": "Pittsburgh",
+      "lat": 40.4406,
+      "lon": -79.9959,
+      "x": -8905102.853549633,
+      "y": 4930177.1697970545,
+      "up": true
+    },
+    {
+      "name": "Atlanta",
+      "lat": 33.749,
+      "lon": -84.388,
+      "x": -9394029.18906277,
+      "y": 3995148.447591681,
+      "up": true
+    },
+    {
+      "name": "Ann Arbor",
+      "lat": 42.2808,
+      "lon": -83.743,
+      "x": -9322228.117501108,
+      "y": 5203135.171637715,
+      "up": true
+    },
+    {
+      "name": "Ithaca",
+      "lat": 42.444,
+      "lon": -76.5019,
+      "x": -8516152.552717935,
+      "y": 5227722.279623266,
+      "up": true
+    },
+    {
+      "name": "Princeton",
+      "lat": 40.3573,
+      "lon": -74.6672,
+      "x": -8311914.682959516,
+      "y": 4918000.801426997,
+      "up": true
+    },
+    {
+      "name": "College Park",
+      "lat": 38.9807,
+      "lon": -76.9369,
+      "x": -8564576.531213008,
+      "y": 4718907.390110828,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Seattle",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 1130.33,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "San Diego",
+      "capacity": 40,
+      "length": 1712.05,
+      "up": true
+    },
+    {
+      "origin": "Seattle",
+      "destination": "Champaign",
+      "capacity": 40,
+      "length": 2831.22,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1130.33,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "San Diego",
+      "capacity": 40,
+      "length": 693.81,
+      "up": true
+    },
+    {
+      "origin": "Palo Alto",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 957.77,
+      "up": true
+    },
+    {
+      "origin": "San Diego",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 1712.05,
+      "up": true
+    },
+    {
+      "origin": "San Diego",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 693.81,
+      "up": true
+    },
+    {
+      "origin": "San Diego",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 2093.86,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Palo Alto",
+      "capacity": 40,
+      "length": 957.77,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Boulder",
+      "capacity": 40,
+      "length": 566.68,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City",
+      "destination": "Ann Arbor",
+      "capacity": 40,
+      "length": 2338.82,
+      "up": true
+    },
+    {
+      "origin": "Boulder",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 566.68,
+      "up": true
+    },
+    {
+      "origin": "Boulder",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 1452.47,
+      "up": true
+    },
+    {
+      "origin": "Boulder",
+      "destination": "Lincoln",
+      "capacity": 40,
+      "length": 730.48,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "San Diego",
+      "capacity": 40,
+      "length": 2093.86,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Boulder",
+      "capacity": 40,
+      "length": 1452.47,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 1128.27,
+      "up": true
+    },
+    {
+      "origin": "Houston",
+      "destination": "College Park",
+      "capacity": 40,
+      "length": 1972.43,
+      "up": true
+    },
+    {
+      "origin": "Lincoln",
+      "destination": "Boulder",
+      "capacity": 40,
+      "length": 730.48,
+      "up": true
+    },
+    {
+      "origin": "Lincoln",
+      "destination": "Champaign",
+      "capacity": 40,
+      "length": 719.53,
+      "up": true
+    },
+    {
+      "origin": "Champaign",
+      "destination": "Seattle",
+      "capacity": 40,
+      "length": 2831.22,
+      "up": true
+    },
+    {
+      "origin": "Champaign",
+      "destination": "Lincoln",
+      "capacity": 40,
+      "length": 719.53,
+      "up": true
+    },
+    {
+      "origin": "Champaign",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 700.32,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Champaign",
+      "capacity": 40,
+      "length": 700.32,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Atlanta",
+      "capacity": 40,
+      "length": 839.58,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Ithaca",
+      "capacity": 40,
+      "length": 366.61,
+      "up": true
+    },
+    {
+      "origin": "Pittsburgh",
+      "destination": "Princeton",
+      "capacity": 40,
+      "length": 451.26,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 1128.27,
+      "up": true
+    },
+    {
+      "origin": "Atlanta",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 839.58,
+      "up": true
+    },
+    {
+      "origin": "Ann Arbor",
+      "destination": "Salt Lake City",
+      "capacity": 40,
+      "length": 2338.82,
+      "up": true
+    },
+    {
+      "origin": "Ann Arbor",
+      "destination": "Ithaca",
+      "capacity": 40,
+      "length": 595.04,
+      "up": true
+    },
+    {
+      "origin": "Ann Arbor",
+      "destination": "Princeton",
+      "capacity": 40,
+      "length": 787.1,
+      "up": true
+    },
+    {
+      "origin": "Ithaca",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 366.61,
+      "up": true
+    },
+    {
+      "origin": "Ithaca",
+      "destination": "Ann Arbor",
+      "capacity": 40,
+      "length": 595.04,
+      "up": true
+    },
+    {
+      "origin": "Ithaca",
+      "destination": "College Park",
+      "capacity": 40,
+      "length": 386.84,
+      "up": true
+    },
+    {
+      "origin": "Princeton",
+      "destination": "Pittsburgh",
+      "capacity": 40,
+      "length": 451.26,
+      "up": true
+    },
+    {
+      "origin": "Princeton",
+      "destination": "Ann Arbor",
+      "capacity": 40,
+      "length": 787.1,
+      "up": true
+    },
+    {
+      "origin": "Princeton",
+      "destination": "College Park",
+      "capacity": 40,
+      "length": 247.31,
+      "up": true
+    },
+    {
+      "origin": "College Park",
+      "destination": "Houston",
+      "capacity": 40,
+      "length": 1972.43,
+      "up": true
+    },
+    {
+      "origin": "College Park",
+      "destination": "Ithaca",
+      "capacity": 40,
+      "length": 386.84,
+      "up": true
+    },
+    {
+      "origin": "College Park",
+      "destination": "Princeton",
+      "capacity": 40,
+      "length": 247.31,
+      "up": true
+    }
+  ]
+}

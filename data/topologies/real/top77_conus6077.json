@@ -1,0 +1,1568 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "CONUS6077 (real topology #77)",
+  "description": "Real-world topology CONUS6077 (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Akron, Ohio",
+      "lat": 41.1,
+      "lon": -81.5,
+      "x": -9072538.499651797,
+      "y": 5027102.849122582,
+      "up": true
+    },
+    {
+      "name": "Town of Colonie, New York",
+      "lat": 42.75,
+      "lon": -73.8,
+      "x": -8215378.42054359,
+      "y": 5273996.383612197,
+      "up": true
+    },
+    {
+      "name": "Albuquerque, New Mexico",
+      "lat": 35.05,
+      "lon": -106.6,
+      "x": -11866657.718562962,
+      "y": 4170678.022022106,
+      "up": true
+    },
+    {
+      "name": "Atlanta, Georgia",
+      "lat": 33.65,
+      "lon": -84.42,
+      "x": -9397591.412768155,
+      "y": 3981901.8421033667,
+      "up": true
+    },
+    {
+      "name": "Glen Burnie, Maryland",
+      "lat": 39.18,
+      "lon": -76.67,
+      "x": -8534865.359120285,
+      "y": 4747487.92309871,
+      "up": true
+    },
+    {
+      "name": "Baton Rouge, Louisiana",
+      "lat": 30.53,
+      "lon": -91.15,
+      "x": -10146771.585806886,
+      "y": 3571859.9496044475,
+      "up": true
+    },
+    {
+      "name": "Billings, Montana",
+      "lat": 45.8,
+      "lon": -108.53,
+      "x": -12081504.335793981,
+      "y": 5748356.801602935,
+      "up": true
+    },
+    {
+      "name": "Birmingham, Alabama",
+      "lat": 33.57,
+      "lon": -86.75,
+      "x": -9656965.826316481,
+      "y": 3971208.641918791,
+      "up": true
+    },
+    {
+      "name": "Boston, Massachusetts",
+      "lat": 42.37,
+      "lon": -71.03,
+      "x": -7907023.431046221,
+      "y": 5216565.798596941,
+      "up": true
+    },
+    {
+      "name": "Buffalo, New York",
+      "lat": 42.93,
+      "lon": -78.73,
+      "x": -8764183.510154428,
+      "y": 5301323.195284924,
+      "up": true
+    },
+    {
+      "name": "Etowah, West Virginia",
+      "lat": 38.37,
+      "lon": -81.6,
+      "x": -9083670.448731123,
+      "y": 4631827.070357362,
+      "up": true
+    },
+    {
+      "name": "Charlotte, North Carolina",
+      "lat": 35.22,
+      "lon": -80.93,
+      "x": -9009086.38989963,
+      "y": 4193818.6019500964,
+      "up": true
+    },
+    {
+      "name": "Chicago, Illinois",
+      "lat": 41.9,
+      "lon": -87.65,
+      "x": -9757153.368030429,
+      "y": 5146011.679282784,
+      "up": true
+    },
+    {
+      "name": "Boone County, Kentucky",
+      "lat": 39.05,
+      "lon": -84.67,
+      "x": -9425421.285466474,
+      "y": 4728836.176275141,
+      "up": true
+    },
+    {
+      "name": "Fairview Park, Ohio",
+      "lat": 41.42,
+      "lon": -81.87,
+      "x": -9113726.711245308,
+      "y": 5074490.3484855555,
+      "up": true
+    },
+    {
+      "name": "Columbus, Ohio",
+      "lat": 40.0,
+      "lon": -82.88,
+      "x": -9226159.396946512,
+      "y": 4865942.279503176,
+      "up": true
+    },
+    {
+      "name": "Dallas, Texas",
+      "lat": 32.85,
+      "lon": -96.85,
+      "x": -10781292.683328545,
+      "y": 3875410.8552869544,
+      "up": true
+    },
+    {
+      "name": "Aurora, Colorado",
+      "lat": 39.75,
+      "lon": -104.87,
+      "x": -11674074.9994906,
+      "y": 4829679.18977684,
+      "up": true
+    },
+    {
+      "name": "Des Moines, Iowa",
+      "lat": 41.53,
+      "lon": -93.65,
+      "x": -10425070.31279007,
+      "y": 5090833.670806819,
+      "up": true
+    },
+    {
+      "name": "Wayne County, Michigan",
+      "lat": 42.23,
+      "lon": -83.33,
+      "x": -9276253.167803487,
+      "y": 5195494.836175202,
+      "up": true
+    },
+    {
+      "name": "El Paso, Texas",
+      "lat": 31.8,
+      "lon": -106.4,
+      "x": -11844393.820404308,
+      "y": 3737086.056237239,
+      "up": true
+    },
+    {
+      "name": "Eugene, Oregon",
+      "lat": 44.12,
+      "lon": -123.22,
+      "x": -13716787.655547168,
+      "y": 5484031.27816824,
+      "up": true
+    },
+    {
+      "name": "Houston, Texas",
+      "lat": 29.97,
+      "lon": -95.35,
+      "x": -10614313.447138635,
+      "y": 3499694.205799757,
+      "up": true
+    },
+    {
+      "name": "Indianapolis, Indiana",
+      "lat": 39.73,
+      "lon": -86.27,
+      "x": -9603532.470735712,
+      "y": 4826783.839064184,
+      "up": true
+    },
+    {
+      "name": "Jacksonville, Florida",
+      "lat": 30.33,
+      "lon": -81.52,
+      "x": -9074764.88946766,
+      "y": 3546039.1857780847,
+      "up": true
+    },
+    {
+      "name": "Kansas City, Missouri",
+      "lat": 39.12,
+      "lon": -94.6,
+      "x": -10530823.829043679,
+      "y": 4738875.148346363,
+      "up": true
+    },
+    {
+      "name": "Paradise, Nevada",
+      "lat": 36.08,
+      "lon": -115.17,
+      "x": -12820665.754661318,
+      "y": 4311634.8394730585,
+      "up": true
+    },
+    {
+      "name": "Jacksonville, Arkansas",
+      "lat": 34.92,
+      "lon": -92.15,
+      "x": -10258091.07660016,
+      "y": 4153014.771107749,
+      "up": true
+    },
+    {
+      "name": "El Segundo, California",
+      "lat": 33.93,
+      "lon": -118.4,
+      "x": -13180227.709923591,
+      "y": 4019406.604750416,
+      "up": true
+    },
+    {
+      "name": "Louisville, Kentucky",
+      "lat": 38.18,
+      "lon": -85.73,
+      "x": -9543419.945707344,
+      "y": 4604885.075283921,
+      "up": true
+    },
+    {
+      "name": "Miami Springs, Florida",
+      "lat": 25.82,
+      "lon": -80.28,
+      "x": -8936728.720884003,
+      "y": 2976804.1986716264,
+      "up": true
+    },
+    {
+      "name": "Nashville-Davidson, Tennessee",
+      "lat": 36.12,
+      "lon": -86.68,
+      "x": -9649173.461960953,
+      "y": 4317145.774581359,
+      "up": true
+    },
+    {
+      "name": "New York, New York",
+      "lat": 40.77,
+      "lon": -73.98,
+      "x": -8235415.928886379,
+      "y": 4978475.679536514,
+      "up": true
+    },
+    {
+      "name": "Newark, New Jersey",
+      "lat": 40.7,
+      "lon": -74.17,
+      "x": -8256566.632137101,
+      "y": 4968191.930188206,
+      "up": true
+    },
+    {
+      "name": "Oakland, California",
+      "lat": 37.73,
+      "lon": -122.22,
+      "x": -13605468.164753897,
+      "y": 4541353.769891148,
+      "up": true
+    },
+    {
+      "name": "Oklahoma City, Oklahoma",
+      "lat": 35.4,
+      "lon": -97.6,
+      "x": -10864782.3014235,
+      "y": 4218373.287173398,
+      "up": true
+    },
+    {
+      "name": "Orlando, Florida",
+      "lat": 28.55,
+      "lon": -81.33,
+      "x": -9053614.18621694,
+      "y": 3318494.8460324183,
+      "up": true
+    },
+    {
+      "name": "Philadelphia, Pennsylvania",
+      "lat": 39.88,
+      "lon": -75.25,
+      "x": -8376791.682193836,
+      "y": 4848519.498774978,
+      "up": true
+    },
+    {
+      "name": "Phoenix, Arizona",
+      "lat": 33.43,
+      "lon": -112.02,
+      "x": -12470009.358662505,
+      "y": 3952519.349484906,
+      "up": true
+    },
+    {
+      "name": "Moon Township, Pennsylvania",
+      "lat": 40.5,
+      "lon": -80.22,
+      "x": -8930049.551436406,
+      "y": 4938869.175786295,
+      "up": true
+    },
+    {
+      "name": "Portland, Oregon",
+      "lat": 45.6,
+      "lon": -122.6,
+      "x": -13647769.571255341,
+      "y": 5716479.015326831,
+      "up": true
+    },
+    {
+      "name": "Wake County, North Carolina",
+      "lat": 35.87,
+      "lon": -78.78,
+      "x": -8769749.484694092,
+      "y": 4282748.284800132,
+      "up": true
+    },
+    {
+      "name": "Henrico County, Virginia",
+      "lat": 37.5,
+      "lon": -77.33,
+      "x": -8608336.223043844,
+      "y": 4509031.393076654,
+      "up": true
+    },
+    {
+      "name": "Riverside, California",
+      "lat": 33.95,
+      "lon": -117.45,
+      "x": -13074474.19366998,
+      "y": 4022090.2220483846,
+      "up": true
+    },
+    {
+      "name": "Sacramento, California",
+      "lat": 38.52,
+      "lon": -121.5,
+      "x": -13525318.13138274,
+      "y": 4653147.0652073575,
+      "up": true
+    },
+    {
+      "name": "Salt Lake City, Utah",
+      "lat": 40.78,
+      "lon": -111.97,
+      "x": -12464443.384122843,
+      "y": 4979945.670525387,
+      "up": true
+    },
+    {
+      "name": "San Antonio, Texas",
+      "lat": 29.53,
+      "lon": -98.47,
+      "x": -10961630.258413648,
+      "y": 3443277.6637314833,
+      "up": true
+    },
+    {
+      "name": "San Diego, California",
+      "lat": 32.73,
+      "lon": -117.17,
+      "x": -13043304.736247865,
+      "y": 3859520.5722925095,
+      "up": true
+    },
+    {
+      "name": "San Francisco, California",
+      "lat": 37.62,
+      "lon": -122.38,
+      "x": -13623279.28328082,
+      "y": 4525882.767508528,
+      "up": true
+    },
+    {
+      "name": "San Jose, California",
+      "lat": 37.37,
+      "lon": -121.92,
+      "x": -13572072.317515913,
+      "y": 4490806.268758584,
+      "up": true
+    },
+    {
+      "name": "Goleta, California",
+      "lat": 34.43,
+      "lon": -119.83,
+      "x": -13339414.581757972,
+      "y": 4086687.7006957666,
+      "up": true
+    },
+    {
+      "name": "SeaTac, Washington",
+      "lat": 47.45,
+      "lon": -122.3,
+      "x": -13614373.724017357,
+      "y": 6015837.3544284385,
+      "up": true
+    },
+    {
+      "name": "Shreveport, Louisiana",
+      "lat": 32.47,
+      "lon": -93.82,
+      "x": -10443994.626224926,
+      "y": 3825164.7880892744,
+      "up": true
+    },
+    {
+      "name": "Spokane Valley, Washington",
+      "lat": 47.67,
+      "lon": -117.33,
+      "x": -13061115.854774788,
+      "y": 6052129.136259906,
+      "up": true
+    },
+    {
+      "name": "St. Louis, Missouri",
+      "lat": 38.75,
+      "lon": -90.37,
+      "x": -10059942.382988133,
+      "y": 4685924.221153926,
+      "up": true
+    },
+    {
+      "name": "Leon County, Florida",
+      "lat": 30.38,
+      "lon": -84.37,
+      "x": -9392025.438228492,
+      "y": 3552489.417449885,
+      "up": true
+    },
+    {
+      "name": "Tampa, Florida",
+      "lat": 27.97,
+      "lon": -82.53,
+      "x": -9187197.575168869,
+      "y": 3245192.0022432087,
+      "up": true
+    },
+    {
+      "name": "Garden, Ohio",
+      "lat": 41.6,
+      "lon": -83.8,
+      "x": -9328573.328476325,
+      "y": 5101248.438166104,
+      "up": true
+    },
+    {
+      "name": "Arlington, Virginia",
+      "lat": 38.85,
+      "lon": -77.04,
+      "x": -8576053.570713796,
+      "y": 4700208.078504527,
+      "up": true
+    },
+    {
+      "name": "Wichita, Kansas",
+      "lat": 37.65,
+      "lon": -97.43,
+      "x": -10845857.987988645,
+      "y": 4530099.858111375,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Akron, Ohio",
+      "destination": "Moon Township, Pennsylvania",
+      "capacity": 40,
+      "length": 190.08,
+      "up": true
+    },
+    {
+      "origin": "Akron, Ohio",
+      "destination": "Fairview Park, Ohio",
+      "capacity": 40,
+      "length": 70.71,
+      "up": true
+    },
+    {
+      "origin": "Akron, Ohio",
+      "destination": "Columbus, Ohio",
+      "capacity": 40,
+      "length": 253.47,
+      "up": true
+    },
+    {
+      "origin": "Town of Colonie, New York",
+      "destination": "Buffalo, New York",
+      "capacity": 40,
+      "length": 603.6,
+      "up": true
+    },
+    {
+      "origin": "Town of Colonie, New York",
+      "destination": "Boston, Massachusetts",
+      "capacity": 40,
+      "length": 346.14,
+      "up": true
+    },
+    {
+      "origin": "Albuquerque, New Mexico",
+      "destination": "El Paso, Texas",
+      "capacity": 40,
+      "length": 542.79,
+      "up": true
+    },
+    {
+      "origin": "Albuquerque, New Mexico",
+      "destination": "Aurora, Colorado",
+      "capacity": 40,
+      "length": 816.71,
+      "up": true
+    },
+    {
+      "origin": "Atlanta, Georgia",
+      "destination": "Charlotte, North Carolina",
+      "capacity": 40,
+      "length": 546.83,
+      "up": true
+    },
+    {
+      "origin": "Atlanta, Georgia",
+      "destination": "Birmingham, Alabama",
+      "capacity": 40,
+      "length": 323.93,
+      "up": true
+    },
+    {
+      "origin": "Glen Burnie, Maryland",
+      "destination": "Arlington, Virginia",
+      "capacity": 40,
+      "length": 73.0,
+      "up": true
+    },
+    {
+      "origin": "Glen Burnie, Maryland",
+      "destination": "Philadelphia, Pennsylvania",
+      "capacity": 40,
+      "length": 216.79,
+      "up": true
+    },
+    {
+      "origin": "Baton Rouge, Louisiana",
+      "destination": "Leon County, Florida",
+      "capacity": 40,
+      "length": 975.0,
+      "up": true
+    },
+    {
+      "origin": "Baton Rouge, Louisiana",
+      "destination": "Houston, Texas",
+      "capacity": 40,
+      "length": 612.27,
+      "up": true
+    },
+    {
+      "origin": "Billings, Montana",
+      "destination": "Des Moines, Iowa",
+      "capacity": 40,
+      "length": 1606.49,
+      "up": true
+    },
+    {
+      "origin": "Billings, Montana",
+      "destination": "Aurora, Colorado",
+      "capacity": 40,
+      "length": 1103.79,
+      "up": true
+    },
+    {
+      "origin": "Billings, Montana",
+      "destination": "Spokane Valley, Washington",
+      "capacity": 40,
+      "length": 1052.54,
+      "up": true
+    },
+    {
+      "origin": "Birmingham, Alabama",
+      "destination": "Atlanta, Georgia",
+      "capacity": 40,
+      "length": 323.93,
+      "up": true
+    },
+    {
+      "origin": "Birmingham, Alabama",
+      "destination": "Nashville-Davidson, Tennessee",
+      "capacity": 40,
+      "length": 425.43,
+      "up": true
+    },
+    {
+      "origin": "Birmingham, Alabama",
+      "destination": "Shreveport, Louisiana",
+      "capacity": 40,
+      "length": 1005.42,
+      "up": true
+    },
+    {
+      "origin": "Boston, Massachusetts",
+      "destination": "Town of Colonie, New York",
+      "capacity": 40,
+      "length": 346.14,
+      "up": true
+    },
+    {
+      "origin": "Boston, Massachusetts",
+      "destination": "New York, New York",
+      "capacity": 40,
+      "length": 454.62,
+      "up": true
+    },
+    {
+      "origin": "Buffalo, New York",
+      "destination": "Town of Colonie, New York",
+      "capacity": 40,
+      "length": 603.6,
+      "up": true
+    },
+    {
+      "origin": "Buffalo, New York",
+      "destination": "Fairview Park, Ohio",
+      "capacity": 40,
+      "length": 462.63,
+      "up": true
+    },
+    {
+      "origin": "Etowah, West Virginia",
+      "destination": "Louisville, Kentucky",
+      "capacity": 40,
+      "length": 541.66,
+      "up": true
+    },
+    {
+      "origin": "Etowah, West Virginia",
+      "destination": "Columbus, Ohio",
+      "capacity": 40,
+      "length": 318.27,
+      "up": true
+    },
+    {
+      "origin": "Etowah, West Virginia",
+      "destination": "Arlington, Virginia",
+      "capacity": 40,
+      "length": 599.62,
+      "up": true
+    },
+    {
+      "origin": "Etowah, West Virginia",
+      "destination": "Charlotte, North Carolina",
+      "capacity": 40,
+      "length": 532.97,
+      "up": true
+    },
+    {
+      "origin": "Charlotte, North Carolina",
+      "destination": "Atlanta, Georgia",
+      "capacity": 40,
+      "length": 546.83,
+      "up": true
+    },
+    {
+      "origin": "Charlotte, North Carolina",
+      "destination": "Etowah, West Virginia",
+      "capacity": 40,
+      "length": 532.97,
+      "up": true
+    },
+    {
+      "origin": "Charlotte, North Carolina",
+      "destination": "Nashville-Davidson, Tennessee",
+      "capacity": 40,
+      "length": 793.34,
+      "up": true
+    },
+    {
+      "origin": "Charlotte, North Carolina",
+      "destination": "Jacksonville, Florida",
+      "capacity": 40,
+      "length": 819.79,
+      "up": true
+    },
+    {
+      "origin": "Charlotte, North Carolina",
+      "destination": "Wake County, North Carolina",
+      "capacity": 40,
+      "length": 311.26,
+      "up": true
+    },
+    {
+      "origin": "Chicago, Illinois",
+      "destination": "Indianapolis, Indiana",
+      "capacity": 40,
+      "length": 401.67,
+      "up": true
+    },
+    {
+      "origin": "Chicago, Illinois",
+      "destination": "Wayne County, Michigan",
+      "capacity": 40,
+      "length": 537.69,
+      "up": true
+    },
+    {
+      "origin": "Chicago, Illinois",
+      "destination": "Des Moines, Iowa",
+      "capacity": 40,
+      "length": 749.41,
+      "up": true
+    },
+    {
+      "origin": "Boone County, Kentucky",
+      "destination": "Louisville, Kentucky",
+      "capacity": 40,
+      "length": 200.35,
+      "up": true
+    },
+    {
+      "origin": "Boone County, Kentucky",
+      "destination": "Garden, Ohio",
+      "capacity": 40,
+      "length": 439.47,
+      "up": true
+    },
+    {
+      "origin": "Fairview Park, Ohio",
+      "destination": "Akron, Ohio",
+      "capacity": 40,
+      "length": 70.71,
+      "up": true
+    },
+    {
+      "origin": "Fairview Park, Ohio",
+      "destination": "Buffalo, New York",
+      "capacity": 40,
+      "length": 462.63,
+      "up": true
+    },
+    {
+      "origin": "Fairview Park, Ohio",
+      "destination": "Garden, Ohio",
+      "capacity": 40,
+      "length": 242.91,
+      "up": true
+    },
+    {
+      "origin": "Columbus, Ohio",
+      "destination": "Akron, Ohio",
+      "capacity": 40,
+      "length": 253.47,
+      "up": true
+    },
+    {
+      "origin": "Columbus, Ohio",
+      "destination": "Etowah, West Virginia",
+      "capacity": 40,
+      "length": 318.27,
+      "up": true
+    },
+    {
+      "origin": "Dallas, Texas",
+      "destination": "Oklahoma City, Oklahoma",
+      "capacity": 40,
+      "length": 437.75,
+      "up": true
+    },
+    {
+      "origin": "Dallas, Texas",
+      "destination": "San Antonio, Texas",
+      "capacity": 40,
+      "length": 600.03,
+      "up": true
+    },
+    {
+      "origin": "Dallas, Texas",
+      "destination": "Shreveport, Louisiana",
+      "capacity": 40,
+      "length": 430.15,
+      "up": true
+    },
+    {
+      "origin": "Dallas, Texas",
+      "destination": "El Paso, Texas",
+      "capacity": 40,
+      "length": 1356.88,
+      "up": true
+    },
+    {
+      "origin": "Aurora, Colorado",
+      "destination": "Albuquerque, New Mexico",
+      "capacity": 40,
+      "length": 816.71,
+      "up": true
+    },
+    {
+      "origin": "Aurora, Colorado",
+      "destination": "Billings, Montana",
+      "capacity": 40,
+      "length": 1103.79,
+      "up": true
+    },
+    {
+      "origin": "Aurora, Colorado",
+      "destination": "Salt Lake City, Utah",
+      "capacity": 40,
+      "length": 919.54,
+      "up": true
+    },
+    {
+      "origin": "Aurora, Colorado",
+      "destination": "Wichita, Kansas",
+      "capacity": 40,
+      "length": 1029.46,
+      "up": true
+    },
+    {
+      "origin": "Des Moines, Iowa",
+      "destination": "Billings, Montana",
+      "capacity": 40,
+      "length": 1606.49,
+      "up": true
+    },
+    {
+      "origin": "Des Moines, Iowa",
+      "destination": "Chicago, Illinois",
+      "capacity": 40,
+      "length": 749.41,
+      "up": true
+    },
+    {
+      "origin": "Des Moines, Iowa",
+      "destination": "Kansas City, Missouri",
+      "capacity": 40,
+      "length": 419.71,
+      "up": true
+    },
+    {
+      "origin": "Wayne County, Michigan",
+      "destination": "Chicago, Illinois",
+      "capacity": 40,
+      "length": 537.69,
+      "up": true
+    },
+    {
+      "origin": "Wayne County, Michigan",
+      "destination": "Garden, Ohio",
+      "capacity": 40,
+      "length": 120.18,
+      "up": true
+    },
+    {
+      "origin": "El Paso, Texas",
+      "destination": "Albuquerque, New Mexico",
+      "capacity": 40,
+      "length": 542.79,
+      "up": true
+    },
+    {
+      "origin": "El Paso, Texas",
+      "destination": "Dallas, Texas",
+      "capacity": 40,
+      "length": 1356.88,
+      "up": true
+    },
+    {
+      "origin": "El Paso, Texas",
+      "destination": "Phoenix, Arizona",
+      "capacity": 40,
+      "length": 834.91,
+      "up": true
+    },
+    {
+      "origin": "Eugene, Oregon",
+      "destination": "Portland, Oregon",
+      "capacity": 40,
+      "length": 257.5,
+      "up": true
+    },
+    {
+      "origin": "Eugene, Oregon",
+      "destination": "Sacramento, California",
+      "capacity": 40,
+      "length": 958.5,
+      "up": true
+    },
+    {
+      "origin": "Houston, Texas",
+      "destination": "Baton Rouge, Louisiana",
+      "capacity": 40,
+      "length": 612.27,
+      "up": true
+    },
+    {
+      "origin": "Houston, Texas",
+      "destination": "San Antonio, Texas",
+      "capacity": 40,
+      "length": 457.71,
+      "up": true
+    },
+    {
+      "origin": "Indianapolis, Indiana",
+      "destination": "Chicago, Illinois",
+      "capacity": 40,
+      "length": 401.67,
+      "up": true
+    },
+    {
+      "origin": "Indianapolis, Indiana",
+      "destination": "Louisville, Kentucky",
+      "capacity": 40,
+      "length": 267.84,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville, Florida",
+      "destination": "Charlotte, North Carolina",
+      "capacity": 40,
+      "length": 819.79,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville, Florida",
+      "destination": "Leon County, Florida",
+      "capacity": 40,
+      "length": 410.26,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville, Florida",
+      "destination": "Orlando, Florida",
+      "capacity": 40,
+      "length": 298.17,
+      "up": true
+    },
+    {
+      "origin": "Kansas City, Missouri",
+      "destination": "Des Moines, Iowa",
+      "capacity": 40,
+      "length": 419.71,
+      "up": true
+    },
+    {
+      "origin": "Kansas City, Missouri",
+      "destination": "St. Louis, Missouri",
+      "capacity": 40,
+      "length": 552.21,
+      "up": true
+    },
+    {
+      "origin": "Kansas City, Missouri",
+      "destination": "Wichita, Kansas",
+      "capacity": 40,
+      "length": 443.82,
+      "up": true
+    },
+    {
+      "origin": "Paradise, Nevada",
+      "destination": "Riverside, California",
+      "capacity": 40,
+      "length": 472.43,
+      "up": true
+    },
+    {
+      "origin": "Paradise, Nevada",
+      "destination": "Salt Lake City, Utah",
+      "capacity": 40,
+      "length": 888.29,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville, Arkansas",
+      "destination": "Shreveport, Louisiana",
+      "capacity": 40,
+      "length": 469.75,
+      "up": true
+    },
+    {
+      "origin": "Jacksonville, Arkansas",
+      "destination": "St. Louis, Missouri",
+      "capacity": 40,
+      "length": 681.54,
+      "up": true
+    },
+    {
+      "origin": "El Segundo, California",
+      "destination": "Goleta, California",
+      "capacity": 40,
+      "length": 214.22,
+      "up": true
+    },
+    {
+      "origin": "El Segundo, California",
+      "destination": "San Diego, California",
+      "capacity": 40,
+      "length": 263.52,
+      "up": true
+    },
+    {
+      "origin": "El Segundo, California",
+      "destination": "Riverside, California",
+      "capacity": 40,
+      "length": 131.5,
+      "up": true
+    },
+    {
+      "origin": "Louisville, Kentucky",
+      "destination": "Etowah, West Virginia",
+      "capacity": 40,
+      "length": 541.66,
+      "up": true
+    },
+    {
+      "origin": "Louisville, Kentucky",
+      "destination": "Boone County, Kentucky",
+      "capacity": 40,
+      "length": 200.35,
+      "up": true
+    },
+    {
+      "origin": "Louisville, Kentucky",
+      "destination": "Indianapolis, Indiana",
+      "capacity": 40,
+      "length": 267.84,
+      "up": true
+    },
+    {
+      "origin": "Louisville, Kentucky",
+      "destination": "Nashville-Davidson, Tennessee",
+      "capacity": 40,
+      "length": 366.06,
+      "up": true
+    },
+    {
+      "origin": "Louisville, Kentucky",
+      "destination": "St. Louis, Missouri",
+      "capacity": 40,
+      "length": 613.31,
+      "up": true
+    },
+    {
+      "origin": "Miami Springs, Florida",
+      "destination": "Tampa, Florida",
+      "capacity": 40,
+      "length": 490.5,
+      "up": true
+    },
+    {
+      "origin": "Miami Springs, Florida",
+      "destination": "Orlando, Florida",
+      "capacity": 40,
+      "length": 481.25,
+      "up": true
+    },
+    {
+      "origin": "Nashville-Davidson, Tennessee",
+      "destination": "Birmingham, Alabama",
+      "capacity": 40,
+      "length": 425.43,
+      "up": true
+    },
+    {
+      "origin": "Nashville-Davidson, Tennessee",
+      "destination": "Charlotte, North Carolina",
+      "capacity": 40,
+      "length": 793.34,
+      "up": true
+    },
+    {
+      "origin": "Nashville-Davidson, Tennessee",
+      "destination": "Louisville, Kentucky",
+      "capacity": 40,
+      "length": 366.06,
+      "up": true
+    },
+    {
+      "origin": "New York, New York",
+      "destination": "Boston, Massachusetts",
+      "capacity": 40,
+      "length": 454.62,
+      "up": true
+    },
+    {
+      "origin": "New York, New York",
+      "destination": "Moon Township, Pennsylvania",
+      "capacity": 40,
+      "length": 790.93,
+      "up": true
+    },
+    {
+      "origin": "New York, New York",
+      "destination": "Newark, New Jersey",
+      "capacity": 40,
+      "length": 26.7,
+      "up": true
+    },
+    {
+      "origin": "Newark, New Jersey",
+      "destination": "New York, New York",
+      "capacity": 40,
+      "length": 26.7,
+      "up": true
+    },
+    {
+      "origin": "Newark, New Jersey",
+      "destination": "Philadelphia, Pennsylvania",
+      "capacity": 40,
+      "length": 193.88,
+      "up": true
+    },
+    {
+      "origin": "Oakland, California",
+      "destination": "Sacramento, California",
+      "capacity": 40,
+      "length": 162.13,
+      "up": true
+    },
+    {
+      "origin": "Oakland, California",
+      "destination": "San Francisco, California",
+      "capacity": 40,
+      "length": 27.98,
+      "up": true
+    },
+    {
+      "origin": "Oklahoma City, Oklahoma",
+      "destination": "Dallas, Texas",
+      "capacity": 40,
+      "length": 437.75,
+      "up": true
+    },
+    {
+      "origin": "Oklahoma City, Oklahoma",
+      "destination": "Wichita, Kansas",
+      "capacity": 40,
+      "length": 375.98,
+      "up": true
+    },
+    {
+      "origin": "Orlando, Florida",
+      "destination": "Jacksonville, Florida",
+      "capacity": 40,
+      "length": 298.17,
+      "up": true
+    },
+    {
+      "origin": "Orlando, Florida",
+      "destination": "Miami Springs, Florida",
+      "capacity": 40,
+      "length": 481.25,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia, Pennsylvania",
+      "destination": "Glen Burnie, Maryland",
+      "capacity": 40,
+      "length": 216.79,
+      "up": true
+    },
+    {
+      "origin": "Philadelphia, Pennsylvania",
+      "destination": "Newark, New Jersey",
+      "capacity": 40,
+      "length": 193.88,
+      "up": true
+    },
+    {
+      "origin": "Phoenix, Arizona",
+      "destination": "El Paso, Texas",
+      "capacity": 40,
+      "length": 834.91,
+      "up": true
+    },
+    {
+      "origin": "Phoenix, Arizona",
+      "destination": "San Diego, California",
+      "capacity": 40,
+      "length": 729.08,
+      "up": true
+    },
+    {
+      "origin": "Moon Township, Pennsylvania",
+      "destination": "Akron, Ohio",
+      "capacity": 40,
+      "length": 190.08,
+      "up": true
+    },
+    {
+      "origin": "Moon Township, Pennsylvania",
+      "destination": "New York, New York",
+      "capacity": 40,
+      "length": 790.93,
+      "up": true
+    },
+    {
+      "origin": "Portland, Oregon",
+      "destination": "Eugene, Oregon",
+      "capacity": 40,
+      "length": 257.5,
+      "up": true
+    },
+    {
+      "origin": "Portland, Oregon",
+      "destination": "SeaTac, Washington",
+      "capacity": 40,
+      "length": 310.49,
+      "up": true
+    },
+    {
+      "origin": "Wake County, North Carolina",
+      "destination": "Charlotte, North Carolina",
+      "capacity": 40,
+      "length": 311.26,
+      "up": true
+    },
+    {
+      "origin": "Wake County, North Carolina",
+      "destination": "Henrico County, Virginia",
+      "capacity": 40,
+      "length": 333.94,
+      "up": true
+    },
+    {
+      "origin": "Henrico County, Virginia",
+      "destination": "Wake County, North Carolina",
+      "capacity": 40,
+      "length": 333.94,
+      "up": true
+    },
+    {
+      "origin": "Henrico County, Virginia",
+      "destination": "Arlington, Virginia",
+      "capacity": 40,
+      "length": 228.36,
+      "up": true
+    },
+    {
+      "origin": "Riverside, California",
+      "destination": "Paradise, Nevada",
+      "capacity": 40,
+      "length": 472.43,
+      "up": true
+    },
+    {
+      "origin": "Riverside, California",
+      "destination": "El Segundo, California",
+      "capacity": 40,
+      "length": 131.5,
+      "up": true
+    },
+    {
+      "origin": "Riverside, California",
+      "destination": "Sacramento, California",
+      "capacity": 40,
+      "length": 936.72,
+      "up": true
+    },
+    {
+      "origin": "Sacramento, California",
+      "destination": "Eugene, Oregon",
+      "capacity": 40,
+      "length": 958.5,
+      "up": true
+    },
+    {
+      "origin": "Sacramento, California",
+      "destination": "Oakland, California",
+      "capacity": 40,
+      "length": 162.13,
+      "up": true
+    },
+    {
+      "origin": "Sacramento, California",
+      "destination": "Riverside, California",
+      "capacity": 40,
+      "length": 936.72,
+      "up": true
+    },
+    {
+      "origin": "Sacramento, California",
+      "destination": "Salt Lake City, Utah",
+      "capacity": 40,
+      "length": 1279.83,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City, Utah",
+      "destination": "Aurora, Colorado",
+      "capacity": 40,
+      "length": 919.54,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City, Utah",
+      "destination": "Paradise, Nevada",
+      "capacity": 40,
+      "length": 888.29,
+      "up": true
+    },
+    {
+      "origin": "Salt Lake City, Utah",
+      "destination": "Sacramento, California",
+      "capacity": 40,
+      "length": 1279.83,
+      "up": true
+    },
+    {
+      "origin": "San Antonio, Texas",
+      "destination": "Dallas, Texas",
+      "capacity": 40,
+      "length": 600.03,
+      "up": true
+    },
+    {
+      "origin": "San Antonio, Texas",
+      "destination": "Houston, Texas",
+      "capacity": 40,
+      "length": 457.71,
+      "up": true
+    },
+    {
+      "origin": "San Diego, California",
+      "destination": "El Segundo, California",
+      "capacity": 40,
+      "length": 263.52,
+      "up": true
+    },
+    {
+      "origin": "San Diego, California",
+      "destination": "Phoenix, Arizona",
+      "capacity": 40,
+      "length": 729.08,
+      "up": true
+    },
+    {
+      "origin": "San Francisco, California",
+      "destination": "Oakland, California",
+      "capacity": 40,
+      "length": 27.98,
+      "up": true
+    },
+    {
+      "origin": "San Francisco, California",
+      "destination": "San Jose, California",
+      "capacity": 40,
+      "length": 73.78,
+      "up": true
+    },
+    {
+      "origin": "San Jose, California",
+      "destination": "San Francisco, California",
+      "capacity": 40,
+      "length": 73.78,
+      "up": true
+    },
+    {
+      "origin": "San Jose, California",
+      "destination": "Goleta, California",
+      "capacity": 40,
+      "length": 565.81,
+      "up": true
+    },
+    {
+      "origin": "Goleta, California",
+      "destination": "El Segundo, California",
+      "capacity": 40,
+      "length": 214.22,
+      "up": true
+    },
+    {
+      "origin": "Goleta, California",
+      "destination": "San Jose, California",
+      "capacity": 40,
+      "length": 565.81,
+      "up": true
+    },
+    {
+      "origin": "SeaTac, Washington",
+      "destination": "Portland, Oregon",
+      "capacity": 40,
+      "length": 310.49,
+      "up": true
+    },
+    {
+      "origin": "SeaTac, Washington",
+      "destination": "Spokane Valley, Washington",
+      "capacity": 40,
+      "length": 560.5,
+      "up": true
+    },
+    {
+      "origin": "Shreveport, Louisiana",
+      "destination": "Birmingham, Alabama",
+      "capacity": 40,
+      "length": 1005.42,
+      "up": true
+    },
+    {
+      "origin": "Shreveport, Louisiana",
+      "destination": "Dallas, Texas",
+      "capacity": 40,
+      "length": 430.15,
+      "up": true
+    },
+    {
+      "origin": "Shreveport, Louisiana",
+      "destination": "Jacksonville, Arkansas",
+      "capacity": 40,
+      "length": 469.75,
+      "up": true
+    },
+    {
+      "origin": "Spokane Valley, Washington",
+      "destination": "Billings, Montana",
+      "capacity": 40,
+      "length": 1052.54,
+      "up": true
+    },
+    {
+      "origin": "Spokane Valley, Washington",
+      "destination": "SeaTac, Washington",
+      "capacity": 40,
+      "length": 560.5,
+      "up": true
+    },
+    {
+      "origin": "St. Louis, Missouri",
+      "destination": "Kansas City, Missouri",
+      "capacity": 40,
+      "length": 552.21,
+      "up": true
+    },
+    {
+      "origin": "St. Louis, Missouri",
+      "destination": "Jacksonville, Arkansas",
+      "capacity": 40,
+      "length": 681.54,
+      "up": true
+    },
+    {
+      "origin": "St. Louis, Missouri",
+      "destination": "Louisville, Kentucky",
+      "capacity": 40,
+      "length": 613.31,
+      "up": true
+    },
+    {
+      "origin": "Leon County, Florida",
+      "destination": "Baton Rouge, Louisiana",
+      "capacity": 40,
+      "length": 975.0,
+      "up": true
+    },
+    {
+      "origin": "Leon County, Florida",
+      "destination": "Jacksonville, Florida",
+      "capacity": 40,
+      "length": 410.26,
+      "up": true
+    },
+    {
+      "origin": "Leon County, Florida",
+      "destination": "Tampa, Florida",
+      "capacity": 40,
+      "length": 483.07,
+      "up": true
+    },
+    {
+      "origin": "Tampa, Florida",
+      "destination": "Miami Springs, Florida",
+      "capacity": 40,
+      "length": 490.5,
+      "up": true
+    },
+    {
+      "origin": "Tampa, Florida",
+      "destination": "Leon County, Florida",
+      "capacity": 40,
+      "length": 483.07,
+      "up": true
+    },
+    {
+      "origin": "Garden, Ohio",
+      "destination": "Boone County, Kentucky",
+      "capacity": 40,
+      "length": 439.47,
+      "up": true
+    },
+    {
+      "origin": "Garden, Ohio",
+      "destination": "Fairview Park, Ohio",
+      "capacity": 40,
+      "length": 242.91,
+      "up": true
+    },
+    {
+      "origin": "Garden, Ohio",
+      "destination": "Wayne County, Michigan",
+      "capacity": 40,
+      "length": 120.18,
+      "up": true
+    },
+    {
+      "origin": "Arlington, Virginia",
+      "destination": "Glen Burnie, Maryland",
+      "capacity": 40,
+      "length": 73.0,
+      "up": true
+    },
+    {
+      "origin": "Arlington, Virginia",
+      "destination": "Etowah, West Virginia",
+      "capacity": 40,
+      "length": 599.62,
+      "up": true
+    },
+    {
+      "origin": "Arlington, Virginia",
+      "destination": "Henrico County, Virginia",
+      "capacity": 40,
+      "length": 228.36,
+      "up": true
+    },
+    {
+      "origin": "Wichita, Kansas",
+      "destination": "Aurora, Colorado",
+      "capacity": 40,
+      "length": 1029.46,
+      "up": true
+    },
+    {
+      "origin": "Wichita, Kansas",
+      "destination": "Kansas City, Missouri",
+      "capacity": 40,
+      "length": 443.82,
+      "up": true
+    },
+    {
+      "origin": "Wichita, Kansas",
+      "destination": "Oklahoma City, Oklahoma",
+      "capacity": 40,
+      "length": 375.98,
+      "up": true
+    }
+  ]
+}

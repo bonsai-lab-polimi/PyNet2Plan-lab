@@ -1,0 +1,43 @@
+# topology: HIBERNIAUS (real topology #78) (data/topologies/real/top78_hiberniaus.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Charlotte,Boston,8
+1,Chicago,Philadelphia,1
+2,Toronto,Chicago,4
+3,Charlotte,Stamford,7
+4,Atlanta,Cleveland,5
+5,Raleigh,Buffalo,3
+6,Albany,Chicago,2
+7,Charlotte,Ashburn,6
+8,Halifax,Buffalo,2
+9,Newark,New York City,8
+10,White Plains,Ashburn,4
+11,New York City,Atlanta,4
+12,Newark,Buffalo,8
+13,Newark,Atlanta,3
+14,Toronto,Philadelphia,2
+15,Richmond,Cleveland,3
+16,Raleigh,Toronto,5
+17,Albany,Charlotte,1
+18,New York City,Stamford,2
+19,Richmond,Pittsburgh,5
+20,Chicago,Toronto,7
+21,Atlanta,Buffalo,2
+22,Charlotte,New York City,1
+23,Raleigh,Chicago,6
+24,Montreal,Boston,2
+25,White Plains,New York City,7
+26,Buffalo,Toronto,8
+27,Raleigh,Richmond,8
+28,Halifax,Atlanta,5
+29,Albany,Stamford,5
+30,Philadelphia,Atlanta,7
+31,Philadelphia,Newark,6
+32,Buffalo,White Plains,4
+33,Raleigh,Boston,5
+34,Buffalo,McLean,5
+35,Montreal,Albany,2
+36,New York City,Raleigh,2
+37,Stamford,Philadelphia,5
+38,Cleveland,Newark,8
+39,Chicago,Buffalo,1

@@ -1,0 +1,230 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "HIBERNIACANADA (real topology #98)",
+  "description": "Real-world topology HIBERNIACANADA (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Niagara Falls",
+      "lat": 43.08,
+      "lon": -79.07,
+      "x": -8802032.13702414,
+      "y": 5324156.600864097,
+      "up": true
+    },
+    {
+      "name": "Moncton",
+      "lat": 46.12,
+      "lon": -64.8,
+      "x": -7213503.003404127,
+      "y": 5799600.201864343,
+      "up": true
+    },
+    {
+      "name": "Edmundston",
+      "lat": 47.37,
+      "lon": -68.33,
+      "x": -7606460.805904383,
+      "y": 6002677.997532715,
+      "up": true
+    },
+    {
+      "name": "Quebec",
+      "lat": 46.81,
+      "lon": -71.21,
+      "x": -7927060.939389011,
+      "y": 5911116.192041105,
+      "up": true
+    },
+    {
+      "name": "Montreal",
+      "lat": 45.51,
+      "lon": -73.59,
+      "x": -8192001.3274770025,
+      "y": 5702171.08889624,
+      "up": true
+    },
+    {
+      "name": "Toronto",
+      "lat": 43.7,
+      "lon": -79.42,
+      "x": -8840993.958801787,
+      "y": 5419133.259362271,
+      "up": true
+    },
+    {
+      "name": "Meadow Lake",
+      "lat": 55.85,
+      "lon": -108.48,
+      "x": -12075938.361254318,
+      "y": 7528612.665052536,
+      "up": true
+    },
+    {
+      "name": "Kensington",
+      "lat": 46.28,
+      "lon": -63.65,
+      "x": -7085485.588991863,
+      "y": 5825333.514815996,
+      "up": true
+    },
+    {
+      "name": "Hope",
+      "lat": 49.87,
+      "lon": -121.44,
+      "x": -13518638.961935142,
+      "y": 6423792.495628039,
+      "up": true
+    },
+    {
+      "name": "Halifax",
+      "lat": 44.65,
+      "lon": -63.57,
+      "x": -7076580.029728401,
+      "y": 5566588.421489562,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Niagara Falls",
+      "destination": "Kensington",
+      "capacity": 40,
+      "length": 1584.61,
+      "up": true
+    },
+    {
+      "origin": "Niagara Falls",
+      "destination": "Hope",
+      "capacity": 40,
+      "length": 4105.62,
+      "up": true
+    },
+    {
+      "origin": "Moncton",
+      "destination": "Halifax",
+      "capacity": 40,
+      "length": 284.38,
+      "up": true
+    },
+    {
+      "origin": "Moncton",
+      "destination": "Edmundston",
+      "capacity": 40,
+      "length": 454.08,
+      "up": true
+    },
+    {
+      "origin": "Edmundston",
+      "destination": "Moncton",
+      "capacity": 40,
+      "length": 454.08,
+      "up": true
+    },
+    {
+      "origin": "Edmundston",
+      "destination": "Quebec",
+      "capacity": 40,
+      "length": 340.11,
+      "up": true
+    },
+    {
+      "origin": "Quebec",
+      "destination": "Edmundston",
+      "capacity": 40,
+      "length": 340.11,
+      "up": true
+    },
+    {
+      "origin": "Quebec",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 350.14,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Quebec",
+      "capacity": 40,
+      "length": 350.14,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 755.04,
+      "up": true
+    },
+    {
+      "origin": "Montreal",
+      "destination": "Kensington",
+      "capacity": 40,
+      "length": 1160.22,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 755.04,
+      "up": true
+    },
+    {
+      "origin": "Toronto",
+      "destination": "Meadow Lake",
+      "capacity": 40,
+      "length": 3072.18,
+      "up": true
+    },
+    {
+      "origin": "Meadow Lake",
+      "destination": "Toronto",
+      "capacity": 40,
+      "length": 3072.18,
+      "up": true
+    },
+    {
+      "origin": "Meadow Lake",
+      "destination": "Kensington",
+      "capacity": 40,
+      "length": 4053.09,
+      "up": true
+    },
+    {
+      "origin": "Kensington",
+      "destination": "Niagara Falls",
+      "capacity": 40,
+      "length": 1584.61,
+      "up": true
+    },
+    {
+      "origin": "Kensington",
+      "destination": "Montreal",
+      "capacity": 40,
+      "length": 1160.22,
+      "up": true
+    },
+    {
+      "origin": "Kensington",
+      "destination": "Meadow Lake",
+      "capacity": 40,
+      "length": 4053.09,
+      "up": true
+    },
+    {
+      "origin": "Hope",
+      "destination": "Niagara Falls",
+      "capacity": 40,
+      "length": 4105.62,
+      "up": true
+    },
+    {
+      "origin": "Halifax",
+      "destination": "Moncton",
+      "capacity": 40,
+      "length": 284.38,
+      "up": true
+    }
+  ]
+}

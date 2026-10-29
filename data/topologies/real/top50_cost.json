@@ -1,0 +1,1104 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "COST (real topology #50)",
+  "description": "Real-world topology COST (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Amsterdam",
+      "lat": 52.35,
+      "lon": 4.9,
+      "x": 545465.5048870406,
+      "y": 6863659.039714891,
+      "up": true
+    },
+    {
+      "name": "Kipseli",
+      "lat": 38.0,
+      "lon": 23.73,
+      "x": 2641611.516524382,
+      "y": 4579425.812870097,
+      "up": true
+    },
+    {
+      "name": "Ciutat Vella",
+      "lat": 41.37,
+      "lon": 2.18,
+      "x": 242676.4899293364,
+      "y": 5067070.718183044,
+      "up": true
+    },
+    {
+      "name": "Palilula",
+      "lat": 44.83,
+      "lon": 20.5,
+      "x": 2282049.5612621084,
+      "y": 5594798.051730436,
+      "up": true
+    },
+    {
+      "name": "Mitte",
+      "lat": 52.52,
+      "lon": 13.4,
+      "x": 1491681.1766298658,
+      "y": 6894699.801282422,
+      "up": true
+    },
+    {
+      "name": "Birmingham",
+      "lat": 52.47,
+      "lon": -1.88,
+      "x": -209280.6426913543,
+      "y": 6885557.726674134,
+      "up": true
+    },
+    {
+      "name": "Bordeaux",
+      "lat": 44.85,
+      "lon": -0.57,
+      "x": -63452.109752165925,
+      "y": 5597937.886631572,
+      "up": true
+    },
+    {
+      "name": "Brussels",
+      "lat": 50.83,
+      "lon": 4.35,
+      "x": 484239.78495074,
+      "y": 6591277.603245917,
+      "up": true
+    },
+    {
+      "name": "Budapest VII. keruelet",
+      "lat": 47.5,
+      "lon": 19.08,
+      "x": 2123975.8843356594,
+      "y": 6024072.119373783,
+      "up": true
+    },
+    {
+      "name": "Charlottenlund",
+      "lat": 55.72,
+      "lon": 12.57,
+      "x": 1399285.999271449,
+      "y": 7502876.308618947,
+      "up": true
+    },
+    {
+      "name": "Dublin",
+      "lat": 53.33,
+      "lon": -6.25,
+      "x": -695746.8174579598,
+      "y": 7044273.80043242,
+      "up": true
+    },
+    {
+      "name": "Dusseldorf",
+      "lat": 51.23,
+      "lon": 6.78,
+      "x": 754746.1475783949,
+      "y": 6662079.344300821,
+      "up": true
+    },
+    {
+      "name": "Frankfurt am Main",
+      "lat": 50.1,
+      "lon": 8.67,
+      "x": 965139.9851776818,
+      "y": 6463612.124257667,
+      "up": true
+    },
+    {
+      "name": "Glasgow",
+      "lat": 55.85,
+      "lon": -4.25,
+      "x": -473107.8358714127,
+      "y": 7528612.665052536,
+      "up": true
+    },
+    {
+      "name": "Hamburg-Mitte",
+      "lat": 53.55,
+      "lon": 10.02,
+      "x": 1115421.297748601,
+      "y": 7085388.165495079,
+      "up": true
+    },
+    {
+      "name": "Helsinki",
+      "lat": 60.17,
+      "lon": 24.97,
+      "x": 2779647.685108041,
+      "y": 8437684.160972923,
+      "up": true
+    },
+    {
+      "name": "Krakow",
+      "lat": 50.05,
+      "lon": 19.95,
+      "x": 2220823.841325808,
+      "y": 6454939.467200235,
+      "up": true
+    },
+    {
+      "name": "Lisbon",
+      "lat": 38.73,
+      "lon": -9.13,
+      "x": -1016346.9509425878,
+      "y": 4683069.8522050865,
+      "up": true
+    },
+    {
+      "name": "Chelsea",
+      "lat": 51.5,
+      "lon": -0.17,
+      "x": -18924.313434856507,
+      "y": 6710219.083220741,
+      "up": true
+    },
+    {
+      "name": "La Mulatiere",
+      "lat": 45.73,
+      "lon": 4.83,
+      "x": 537673.1405315114,
+      "y": 5737186.598945498,
+      "up": true
+    },
+    {
+      "name": "City Center",
+      "lat": 40.42,
+      "lon": -3.72,
+      "x": -414108.50575097767,
+      "y": 4927164.56438487,
+      "up": true
+    },
+    {
+      "name": "Marseille 02",
+      "lat": 43.3,
+      "lon": 5.37,
+      "x": 597785.665559879,
+      "y": 5357746.958178199,
+      "up": true
+    },
+    {
+      "name": "Milano",
+      "lat": 45.47,
+      "lon": 9.17,
+      "x": 1020799.7305743187,
+      "y": 5695819.354793287,
+      "up": true
+    },
+    {
+      "name": "Munich",
+      "lat": 48.13,
+      "lon": 11.57,
+      "x": 1287966.5084781754,
+      "y": 6128509.51667404,
+      "up": true
+    },
+    {
+      "name": "Oslo",
+      "lat": 59.93,
+      "lon": 10.75,
+      "x": 1196684.5260276909,
+      "y": 8384169.623431628,
+      "up": true
+    },
+    {
+      "name": "Palermo",
+      "lat": 38.12,
+      "lon": 13.35,
+      "x": 1486115.2020902021,
+      "y": 4596391.685253259,
+      "up": true
+    },
+    {
+      "name": "Paris",
+      "lat": 48.87,
+      "lon": 2.33,
+      "x": 259374.41354832743,
+      "y": 6252831.832272197,
+      "up": true
+    },
+    {
+      "name": "Stare Mesto",
+      "lat": 50.08,
+      "lon": 14.43,
+      "x": 1606340.2521469374,
+      "y": 6460141.976102077,
+      "up": true
+    },
+    {
+      "name": "Rome",
+      "lat": 41.88,
+      "lon": 12.5,
+      "x": 1391493.6349159195,
+      "y": 5143020.940668396,
+      "up": true
+    },
+    {
+      "name": "Sevilla",
+      "lat": 37.38,
+      "lon": -5.98,
+      "x": -665690.554943776,
+      "y": 4492207.0785483075,
+      "up": true
+    },
+    {
+      "name": "Sofia",
+      "lat": 42.75,
+      "lon": 23.33,
+      "x": 2597083.7202070723,
+      "y": 5273996.383612197,
+      "up": true
+    },
+    {
+      "name": "Stockholm",
+      "lat": 59.33,
+      "lon": 18.05,
+      "x": 2009316.8088185878,
+      "y": 8252056.99630398,
+      "up": true
+    },
+    {
+      "name": "Strasbourg",
+      "lat": 48.58,
+      "lon": 7.77,
+      "x": 864952.4434637356,
+      "y": 6203894.3482726915,
+      "up": true
+    },
+    {
+      "name": "Vienna",
+      "lat": 48.22,
+      "lon": 16.37,
+      "x": 1822300.0642858886,
+      "y": 6143533.348660014,
+      "up": true
+    },
+    {
+      "name": "Wola",
+      "lat": 52.25,
+      "lon": 21.0,
+      "x": 2337709.3066587453,
+      "y": 6845455.502518217,
+      "up": true
+    },
+    {
+      "name": "Dubrava",
+      "lat": 45.83,
+      "lon": 16.02,
+      "x": 1783338.2425082424,
+      "y": 5753148.326952324,
+      "up": true
+    },
+    {
+      "name": "Zuerich (Kreis 6) / Oberstrass",
+      "lat": 47.38,
+      "lon": 8.55,
+      "x": 951781.6462824891,
+      "y": 6004321.824613644,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Amsterdam",
+      "destination": "Brussels",
+      "capacity": 40,
+      "length": 259.85,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Glasgow",
+      "capacity": 40,
+      "length": 1067.16,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Hamburg-Mitte",
+      "capacity": 40,
+      "length": 551.93,
+      "up": true
+    },
+    {
+      "origin": "Amsterdam",
+      "destination": "Chelsea",
+      "capacity": 40,
+      "length": 540.3,
+      "up": true
+    },
+    {
+      "origin": "Kipseli",
+      "destination": "Palermo",
+      "capacity": 40,
+      "length": 1362.61,
+      "up": true
+    },
+    {
+      "origin": "Kipseli",
+      "destination": "Sofia",
+      "capacity": 40,
+      "length": 793.89,
+      "up": true
+    },
+    {
+      "origin": "Kipseli",
+      "destination": "Dubrava",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Ciutat Vella",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 760.4,
+      "up": true
+    },
+    {
+      "origin": "Ciutat Vella",
+      "destination": "Marseille 02",
+      "capacity": 40,
+      "length": 508.19,
+      "up": true
+    },
+    {
+      "origin": "Ciutat Vella",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 1244.06,
+      "up": true
+    },
+    {
+      "origin": "Palilula",
+      "destination": "Budapest VII. keruelet",
+      "capacity": 40,
+      "length": 474.56,
+      "up": true
+    },
+    {
+      "origin": "Palilula",
+      "destination": "Sofia",
+      "capacity": 40,
+      "length": 486.22,
+      "up": true
+    },
+    {
+      "origin": "Palilula",
+      "destination": "Dubrava",
+      "capacity": 40,
+      "length": 551.07,
+      "up": true
+    },
+    {
+      "origin": "Mitte",
+      "destination": "Charlottenlund",
+      "capacity": 40,
+      "length": 539.86,
+      "up": true
+    },
+    {
+      "origin": "Mitte",
+      "destination": "Hamburg-Mitte",
+      "capacity": 40,
+      "length": 380.0,
+      "up": true
+    },
+    {
+      "origin": "Mitte",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 757.64,
+      "up": true
+    },
+    {
+      "origin": "Mitte",
+      "destination": "Stare Mesto",
+      "capacity": 40,
+      "length": 420.9,
+      "up": true
+    },
+    {
+      "origin": "Mitte",
+      "destination": "Wola",
+      "capacity": 40,
+      "length": 774.65,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Glasgow",
+      "capacity": 40,
+      "length": 609.33,
+      "up": true
+    },
+    {
+      "origin": "Birmingham",
+      "destination": "Chelsea",
+      "capacity": 40,
+      "length": 238.8,
+      "up": true
+    },
+    {
+      "origin": "Bordeaux",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 833.71,
+      "up": true
+    },
+    {
+      "origin": "Bordeaux",
+      "destination": "Marseille 02",
+      "capacity": 40,
+      "length": 757.06,
+      "up": true
+    },
+    {
+      "origin": "Bordeaux",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 747.5,
+      "up": true
+    },
+    {
+      "origin": "Brussels",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 259.85,
+      "up": true
+    },
+    {
+      "origin": "Brussels",
+      "destination": "Dusseldorf",
+      "capacity": 40,
+      "length": 263.47,
+      "up": true
+    },
+    {
+      "origin": "Brussels",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 392.48,
+      "up": true
+    },
+    {
+      "origin": "Budapest VII. keruelet",
+      "destination": "Palilula",
+      "capacity": 40,
+      "length": 474.56,
+      "up": true
+    },
+    {
+      "origin": "Budapest VII. keruelet",
+      "destination": "Krakow",
+      "capacity": 40,
+      "length": 435.93,
+      "up": true
+    },
+    {
+      "origin": "Budapest VII. keruelet",
+      "destination": "Stare Mesto",
+      "capacity": 40,
+      "length": 667.81,
+      "up": true
+    },
+    {
+      "origin": "Charlottenlund",
+      "destination": "Mitte",
+      "capacity": 40,
+      "length": 539.86,
+      "up": true
+    },
+    {
+      "origin": "Charlottenlund",
+      "destination": "Oslo",
+      "capacity": 40,
+      "length": 720.49,
+      "up": true
+    },
+    {
+      "origin": "Charlottenlund",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 776.27,
+      "up": true
+    },
+    {
+      "origin": "Dublin",
+      "destination": "Glasgow",
+      "capacity": 40,
+      "length": 462.58,
+      "up": true
+    },
+    {
+      "origin": "Dublin",
+      "destination": "Chelsea",
+      "capacity": 40,
+      "length": 689.44,
+      "up": true
+    },
+    {
+      "origin": "Dusseldorf",
+      "destination": "Brussels",
+      "capacity": 40,
+      "length": 263.47,
+      "up": true
+    },
+    {
+      "origin": "Dusseldorf",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 274.66,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Dusseldorf",
+      "capacity": 40,
+      "length": 274.66,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Hamburg-Mitte",
+      "capacity": 40,
+      "length": 591.99,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 456.22,
+      "up": true
+    },
+    {
+      "origin": "Frankfurt am Main",
+      "destination": "Strasbourg",
+      "capacity": 40,
+      "length": 271.73,
+      "up": true
+    },
+    {
+      "origin": "Glasgow",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 1067.16,
+      "up": true
+    },
+    {
+      "origin": "Glasgow",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 609.33,
+      "up": true
+    },
+    {
+      "origin": "Glasgow",
+      "destination": "Dublin",
+      "capacity": 40,
+      "length": 462.58,
+      "up": true
+    },
+    {
+      "origin": "Hamburg-Mitte",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 551.93,
+      "up": true
+    },
+    {
+      "origin": "Hamburg-Mitte",
+      "destination": "Mitte",
+      "capacity": 40,
+      "length": 380.0,
+      "up": true
+    },
+    {
+      "origin": "Hamburg-Mitte",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 591.99,
+      "up": true
+    },
+    {
+      "origin": "Helsinki",
+      "destination": "Oslo",
+      "capacity": 40,
+      "length": 1182.49,
+      "up": true
+    },
+    {
+      "origin": "Helsinki",
+      "destination": "Stockholm",
+      "capacity": 40,
+      "length": 597.79,
+      "up": true
+    },
+    {
+      "origin": "Helsinki",
+      "destination": "Wola",
+      "capacity": 40,
+      "length": 1370.75,
+      "up": true
+    },
+    {
+      "origin": "Krakow",
+      "destination": "Budapest VII. keruelet",
+      "capacity": 40,
+      "length": 435.93,
+      "up": true
+    },
+    {
+      "origin": "Krakow",
+      "destination": "Wola",
+      "capacity": 40,
+      "length": 383.02,
+      "up": true
+    },
+    {
+      "origin": "Lisbon",
+      "destination": "Chelsea",
+      "capacity": 40,
+      "length": 1977.15,
+      "up": true
+    },
+    {
+      "origin": "Lisbon",
+      "destination": "City Center",
+      "capacity": 40,
+      "length": 750.3,
+      "up": true
+    },
+    {
+      "origin": "Lisbon",
+      "destination": "Sevilla",
+      "capacity": 40,
+      "length": 470.97,
+      "up": true
+    },
+    {
+      "origin": "Chelsea",
+      "destination": "Amsterdam",
+      "capacity": 40,
+      "length": 540.3,
+      "up": true
+    },
+    {
+      "origin": "Chelsea",
+      "destination": "Birmingham",
+      "capacity": 40,
+      "length": 238.8,
+      "up": true
+    },
+    {
+      "origin": "Chelsea",
+      "destination": "Dublin",
+      "capacity": 40,
+      "length": 689.44,
+      "up": true
+    },
+    {
+      "origin": "Chelsea",
+      "destination": "Lisbon",
+      "capacity": 40,
+      "length": 1977.15,
+      "up": true
+    },
+    {
+      "origin": "Chelsea",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 513.46,
+      "up": true
+    },
+    {
+      "origin": "La Mulatiere",
+      "destination": "Marseille 02",
+      "capacity": 40,
+      "length": 410.36,
+      "up": true
+    },
+    {
+      "origin": "La Mulatiere",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 595.11,
+      "up": true
+    },
+    {
+      "origin": "La Mulatiere",
+      "destination": "Zuerich (Kreis 6) / Oberstrass",
+      "capacity": 40,
+      "length": 507.64,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Ciutat Vella",
+      "capacity": 40,
+      "length": 760.4,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Bordeaux",
+      "capacity": 40,
+      "length": 833.71,
+      "up": true
+    },
+    {
+      "origin": "City Center",
+      "destination": "Lisbon",
+      "capacity": 40,
+      "length": 750.3,
+      "up": true
+    },
+    {
+      "origin": "Marseille 02",
+      "destination": "Ciutat Vella",
+      "capacity": 40,
+      "length": 508.19,
+      "up": true
+    },
+    {
+      "origin": "Marseille 02",
+      "destination": "Bordeaux",
+      "capacity": 40,
+      "length": 757.06,
+      "up": true
+    },
+    {
+      "origin": "Marseille 02",
+      "destination": "La Mulatiere",
+      "capacity": 40,
+      "length": 410.36,
+      "up": true
+    },
+    {
+      "origin": "Marseille 02",
+      "destination": "Rome",
+      "capacity": 40,
+      "length": 906.67,
+      "up": true
+    },
+    {
+      "origin": "Milano",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 521.41,
+      "up": true
+    },
+    {
+      "origin": "Milano",
+      "destination": "Rome",
+      "capacity": 40,
+      "length": 720.9,
+      "up": true
+    },
+    {
+      "origin": "Milano",
+      "destination": "Zuerich (Kreis 6) / Oberstrass",
+      "capacity": 40,
+      "length": 326.45,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Mitte",
+      "capacity": 40,
+      "length": 757.64,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 456.22,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Milano",
+      "capacity": 40,
+      "length": 521.41,
+      "up": true
+    },
+    {
+      "origin": "Munich",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 534.01,
+      "up": true
+    },
+    {
+      "origin": "Oslo",
+      "destination": "Charlottenlund",
+      "capacity": 40,
+      "length": 720.49,
+      "up": true
+    },
+    {
+      "origin": "Oslo",
+      "destination": "Helsinki",
+      "capacity": 40,
+      "length": 1182.49,
+      "up": true
+    },
+    {
+      "origin": "Palermo",
+      "destination": "Kipseli",
+      "capacity": 40,
+      "length": 1362.61,
+      "up": true
+    },
+    {
+      "origin": "Palermo",
+      "destination": "Rome",
+      "capacity": 40,
+      "length": 636.46,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Bordeaux",
+      "capacity": 40,
+      "length": 747.5,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Brussels",
+      "capacity": 40,
+      "length": 392.48,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Chelsea",
+      "capacity": 40,
+      "length": 513.46,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "La Mulatiere",
+      "capacity": 40,
+      "length": 595.11,
+      "up": true
+    },
+    {
+      "origin": "Paris",
+      "destination": "Strasbourg",
+      "capacity": 40,
+      "length": 600.38,
+      "up": true
+    },
+    {
+      "origin": "Stare Mesto",
+      "destination": "Mitte",
+      "capacity": 40,
+      "length": 420.9,
+      "up": true
+    },
+    {
+      "origin": "Stare Mesto",
+      "destination": "Budapest VII. keruelet",
+      "capacity": 40,
+      "length": 667.81,
+      "up": true
+    },
+    {
+      "origin": "Stare Mesto",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 375.52,
+      "up": true
+    },
+    {
+      "origin": "Rome",
+      "destination": "Marseille 02",
+      "capacity": 40,
+      "length": 906.67,
+      "up": true
+    },
+    {
+      "origin": "Rome",
+      "destination": "Milano",
+      "capacity": 40,
+      "length": 720.9,
+      "up": true
+    },
+    {
+      "origin": "Rome",
+      "destination": "Palermo",
+      "capacity": 40,
+      "length": 636.46,
+      "up": true
+    },
+    {
+      "origin": "Rome",
+      "destination": "Dubrava",
+      "capacity": 40,
+      "length": 782.94,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Ciutat Vella",
+      "capacity": 40,
+      "length": 1244.06,
+      "up": true
+    },
+    {
+      "origin": "Sevilla",
+      "destination": "Lisbon",
+      "capacity": 40,
+      "length": 470.97,
+      "up": true
+    },
+    {
+      "origin": "Sofia",
+      "destination": "Kipseli",
+      "capacity": 40,
+      "length": 793.89,
+      "up": true
+    },
+    {
+      "origin": "Sofia",
+      "destination": "Palilula",
+      "capacity": 40,
+      "length": 486.22,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Charlottenlund",
+      "capacity": 40,
+      "length": 776.27,
+      "up": true
+    },
+    {
+      "origin": "Stockholm",
+      "destination": "Helsinki",
+      "capacity": 40,
+      "length": 597.79,
+      "up": true
+    },
+    {
+      "origin": "Strasbourg",
+      "destination": "Frankfurt am Main",
+      "capacity": 40,
+      "length": 271.73,
+      "up": true
+    },
+    {
+      "origin": "Strasbourg",
+      "destination": "Paris",
+      "capacity": 40,
+      "length": 600.38,
+      "up": true
+    },
+    {
+      "origin": "Strasbourg",
+      "destination": "Zuerich (Kreis 6) / Oberstrass",
+      "capacity": 40,
+      "length": 218.27,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Munich",
+      "capacity": 40,
+      "length": 534.01,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Stare Mesto",
+      "capacity": 40,
+      "length": 375.52,
+      "up": true
+    },
+    {
+      "origin": "Vienna",
+      "destination": "Dubrava",
+      "capacity": 40,
+      "length": 400.61,
+      "up": true
+    },
+    {
+      "origin": "Wola",
+      "destination": "Mitte",
+      "capacity": 40,
+      "length": 774.65,
+      "up": true
+    },
+    {
+      "origin": "Wola",
+      "destination": "Helsinki",
+      "capacity": 40,
+      "length": 1370.75,
+      "up": true
+    },
+    {
+      "origin": "Wola",
+      "destination": "Krakow",
+      "capacity": 40,
+      "length": 383.02,
+      "up": true
+    },
+    {
+      "origin": "Dubrava",
+      "destination": "Kipseli",
+      "capacity": 40,
+      "length": 1500.0,
+      "up": true
+    },
+    {
+      "origin": "Dubrava",
+      "destination": "Palilula",
+      "capacity": 40,
+      "length": 551.07,
+      "up": true
+    },
+    {
+      "origin": "Dubrava",
+      "destination": "Rome",
+      "capacity": 40,
+      "length": 782.94,
+      "up": true
+    },
+    {
+      "origin": "Dubrava",
+      "destination": "Vienna",
+      "capacity": 40,
+      "length": 400.61,
+      "up": true
+    },
+    {
+      "origin": "Zuerich (Kreis 6) / Oberstrass",
+      "destination": "La Mulatiere",
+      "capacity": 40,
+      "length": 507.64,
+      "up": true
+    },
+    {
+      "origin": "Zuerich (Kreis 6) / Oberstrass",
+      "destination": "Milano",
+      "capacity": 40,
+      "length": 326.45,
+      "up": true
+    },
+    {
+      "origin": "Zuerich (Kreis 6) / Oberstrass",
+      "destination": "Strasbourg",
+      "capacity": 40,
+      "length": 218.27,
+      "up": true
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "KAREN (real topology #82)",
+  "description": "Real-world topology KAREN (Topology Bench dataset), 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Wellington",
+      "lat": -41.29,
+      "lon": 174.78,
+      "x": 19456420.600848354,
+      "y": -5055211.159994206,
+      "up": true
+    },
+    {
+      "name": "Dunedin",
+      "lat": -45.87,
+      "lon": 170.5,
+      "x": 18979973.180253144,
+      "y": -5759541.046584649,
+      "up": true
+    },
+    {
+      "name": "Lower Hutt",
+      "lat": -41.2,
+      "lon": 174.92,
+      "x": 19472005.32955941,
+      "y": -5041886.5261552585,
+      "up": true
+    },
+    {
+      "name": "Palmerston North",
+      "lat": -40.35,
+      "lon": 175.62,
+      "x": 19549928.973114707,
+      "y": -4916934.4421298485,
+      "up": true
+    },
+    {
+      "name": "Lincoln",
+      "lat": -43.65,
+      "lon": 172.48,
+      "x": 19200385.772023823,
+      "y": -5411437.673564395,
+      "up": true
+    },
+    {
+      "name": "Christchurch",
+      "lat": -43.53,
+      "lon": 172.63,
+      "x": 19217083.695642818,
+      "y": -5392994.363605281,
+      "up": true
+    },
+    {
+      "name": "Dunedin (2)",
+      "lat": -45.85,
+      "lon": 170.38,
+      "x": 18966614.84135795,
+      "y": -5756344.112095584,
+      "up": true
+    },
+    {
+      "name": "Invercargill",
+      "lat": -46.4,
+      "lon": 168.35,
+      "x": 18740636.275047604,
+      "y": -5844682.851056052,
+      "up": true
+    },
+    {
+      "name": "Pleasant Point",
+      "lat": -44.02,
+      "lon": 170.5,
+      "x": 18979973.180253144,
+      "y": -5468537.751217268,
+      "up": true
+    },
+    {
+      "name": "Nelson",
+      "lat": -41.28,
+      "lon": 173.28,
+      "x": 19289441.364658445,
+      "y": -5053729.738310279,
+      "up": true
+    },
+    {
+      "name": "Auckland",
+      "lat": -36.88,
+      "lon": 174.72,
+      "x": 19449741.431400757,
+      "y": -4422393.507888047,
+      "up": true
+    },
+    {
+      "name": "New Plymouth",
+      "lat": -39.07,
+      "lon": 174.08,
+      "x": 19378496.957293063,
+      "y": -4731703.437722286,
+      "up": true
+    },
+    {
+      "name": "Wanganui",
+      "lat": -39.93,
+      "lon": 175.05,
+      "x": 19486476.86336254,
+      "y": -4855775.278222719,
+      "up": true
+    },
+    {
+      "name": "North Shore",
+      "lat": -36.8,
+      "lon": 174.75,
+      "x": 19453081.016124554,
+      "y": -4411265.910262687,
+      "up": true
+    },
+    {
+      "name": "Warkworth",
+      "lat": -36.4,
+      "lon": 174.67,
+      "x": 19444175.456861094,
+      "y": -4355801.264971884,
+      "up": true
+    },
+    {
+      "name": "Tauranga",
+      "lat": -37.69,
+      "lon": 176.17,
+      "x": 19611154.693051003,
+      "y": -4535725.296459141,
+      "up": true
+    },
+    {
+      "name": "Gisborne",
+      "lat": -38.65,
+      "lon": 178.0,
+      "x": 19814869.361202694,
+      "y": -4671660.358288896,
+      "up": true
+    },
+    {
+      "name": "Porirua",
+      "lat": -41.13,
+      "lon": 174.85,
+      "x": 19464212.96520388,
+      "y": -5031535.585431851,
+      "up": true
+    },
+    {
+      "name": "Napier",
+      "lat": -39.48,
+      "lon": 176.92,
+      "x": 19694644.311145958,
+      "y": -4790662.54634909,
+      "up": true
+    },
+    {
+      "name": "Rotorua",
+      "lat": -38.14,
+      "lon": 176.25,
+      "x": 19620060.252314467,
+      "y": -4599222.039110635,
+      "up": true
+    },
+    {
+      "name": "Hamilton",
+      "lat": -37.78,
+      "lon": 175.28,
+      "x": 19512080.34624499,
+      "y": -4548393.6389452685,
+      "up": true
+    },
+    {
+      "name": "Auckland (2)",
+      "lat": -36.87,
+      "lon": 174.77,
+      "x": 19455307.405940425,
+      "y": -4421001.921300264,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Wellington",
+      "destination": "Dunedin",
+      "capacity": 40,
+      "length": 614.78,
+      "up": true
+    },
+    {
+      "origin": "Wellington",
+      "destination": "Lower Hutt",
+      "capacity": 40,
+      "length": 15.4,
+      "up": true
+    },
+    {
+      "origin": "Wellington",
+      "destination": "Palmerston North",
+      "capacity": 40,
+      "length": 126.18,
+      "up": true
+    },
+    {
+      "origin": "Wellington",
+      "destination": "Christchurch",
+      "capacity": 40,
+      "length": 305.26,
+      "up": true
+    },
+    {
+      "origin": "Wellington",
+      "destination": "Nelson",
+      "capacity": 40,
+      "length": 125.34,
+      "up": true
+    },
+    {
+      "origin": "Dunedin",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 614.78,
+      "up": true
+    },
+    {
+      "origin": "Dunedin",
+      "destination": "Lincoln",
+      "capacity": 40,
+      "length": 292.17,
+      "up": true
+    },
+    {
+      "origin": "Dunedin",
+      "destination": "Dunedin (2)",
+      "capacity": 40,
+      "length": 9.55,
+      "up": true
+    },
+    {
+      "origin": "Dunedin",
+      "destination": "Invercargill",
+      "capacity": 40,
+      "length": 175.83,
+      "up": true
+    },
+    {
+      "origin": "Lower Hutt",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 15.4,
+      "up": true
+    },
+    {
+      "origin": "Lower Hutt",
+      "destination": "Porirua",
+      "capacity": 40,
+      "length": 9.74,
+      "up": true
+    },
+    {
+      "origin": "Lower Hutt",
+      "destination": "Palmerston North",
+      "capacity": 40,
+      "length": 111.39,
+      "up": true
+    },
+    {
+      "origin": "Palmerston North",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 126.18,
+      "up": true
+    },
+    {
+      "origin": "Palmerston North",
+      "destination": "Lower Hutt",
+      "capacity": 40,
+      "length": 111.39,
+      "up": true
+    },
+    {
+      "origin": "Palmerston North",
+      "destination": "Auckland (2)",
+      "capacity": 40,
+      "length": 393.94,
+      "up": true
+    },
+    {
+      "origin": "Palmerston North",
+      "destination": "New Plymouth",
+      "capacity": 40,
+      "length": 193.93,
+      "up": true
+    },
+    {
+      "origin": "Palmerston North",
+      "destination": "Wanganui",
+      "capacity": 40,
+      "length": 67.3,
+      "up": true
+    },
+    {
+      "origin": "Palmerston North",
+      "destination": "Napier",
+      "capacity": 40,
+      "length": 147.14,
+      "up": true
+    },
+    {
+      "origin": "Lincoln",
+      "destination": "Dunedin",
+      "capacity": 40,
+      "length": 292.17,
+      "up": true
+    },
+    {
+      "origin": "Lincoln",
+      "destination": "Christchurch",
+      "capacity": 40,
+      "length": 18.0,
+      "up": true
+    },
+    {
+      "origin": "Christchurch",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 305.26,
+      "up": true
+    },
+    {
+      "origin": "Christchurch",
+      "destination": "Lincoln",
+      "capacity": 40,
+      "length": 18.0,
+      "up": true
+    },
+    {
+      "origin": "Christchurch",
+      "destination": "Pleasant Point",
+      "capacity": 40,
+      "length": 179.48,
+      "up": true
+    },
+    {
+      "origin": "Christchurch",
+      "destination": "Nelson",
+      "capacity": 40,
+      "length": 255.82,
+      "up": true
+    },
+    {
+      "origin": "Dunedin (2)",
+      "destination": "Dunedin",
+      "capacity": 40,
+      "length": 9.55,
+      "up": true
+    },
+    {
+      "origin": "Invercargill",
+      "destination": "Dunedin",
+      "capacity": 40,
+      "length": 175.83,
+      "up": true
+    },
+    {
+      "origin": "Pleasant Point",
+      "destination": "Christchurch",
+      "capacity": 40,
+      "length": 179.48,
+      "up": true
+    },
+    {
+      "origin": "Nelson",
+      "destination": "Wellington",
+      "capacity": 40,
+      "length": 125.34,
+      "up": true
+    },
+    {
+      "origin": "Nelson",
+      "destination": "Christchurch",
+      "capacity": 40,
+      "length": 255.82,
+      "up": true
+    },
+    {
+      "origin": "Auckland",
+      "destination": "Auckland (2)",
+      "capacity": 40,
+      "length": 4.58,
+      "up": true
+    },
+    {
+      "origin": "New Plymouth",
+      "destination": "Palmerston North",
+      "capacity": 40,
+      "length": 193.93,
+      "up": true
+    },
+    {
+      "origin": "Wanganui",
+      "destination": "Palmerston North",
+      "capacity": 40,
+      "length": 67.3,
+      "up": true
+    },
+    {
+      "origin": "North Shore",
+      "destination": "Warkworth",
+      "capacity": 40,
+      "length": 45.05,
+      "up": true
+    },
+    {
+      "origin": "North Shore",
+      "destination": "Auckland (2)",
+      "capacity": 40,
+      "length": 7.98,
+      "up": true
+    },
+    {
+      "origin": "Warkworth",
+      "destination": "North Shore",
+      "capacity": 40,
+      "length": 45.05,
+      "up": true
+    },
+    {
+      "origin": "Tauranga",
+      "destination": "Rotorua",
+      "capacity": 40,
+      "length": 50.53,
+      "up": true
+    },
+    {
+      "origin": "Gisborne",
+      "destination": "Napier",
+      "capacity": 40,
+      "length": 131.19,
+      "up": true
+    },
+    {
+      "origin": "Porirua",
+      "destination": "Lower Hutt",
+      "capacity": 40,
+      "length": 9.74,
+      "up": true
+    },
+    {
+      "origin": "Napier",
+      "destination": "Palmerston North",
+      "capacity": 40,
+      "length": 147.14,
+      "up": true
+    },
+    {
+      "origin": "Napier",
+      "destination": "Gisborne",
+      "capacity": 40,
+      "length": 131.19,
+      "up": true
+    },
+    {
+      "origin": "Napier",
+      "destination": "Rotorua",
+      "capacity": 40,
+      "length": 159.91,
+      "up": true
+    },
+    {
+      "origin": "Rotorua",
+      "destination": "Tauranga",
+      "capacity": 40,
+      "length": 50.53,
+      "up": true
+    },
+    {
+      "origin": "Rotorua",
+      "destination": "Napier",
+      "capacity": 40,
+      "length": 159.91,
+      "up": true
+    },
+    {
+      "origin": "Rotorua",
+      "destination": "Hamilton",
+      "capacity": 40,
+      "length": 93.99,
+      "up": true
+    },
+    {
+      "origin": "Hamilton",
+      "destination": "Rotorua",
+      "capacity": 40,
+      "length": 93.99,
+      "up": true
+    },
+    {
+      "origin": "Hamilton",
+      "destination": "Auckland (2)",
+      "capacity": 40,
+      "length": 110.78,
+      "up": true
+    },
+    {
+      "origin": "Auckland (2)",
+      "destination": "Palmerston North",
+      "capacity": 40,
+      "length": 393.94,
+      "up": true
+    },
+    {
+      "origin": "Auckland (2)",
+      "destination": "Auckland",
+      "capacity": 40,
+      "length": 4.58,
+      "up": true
+    },
+    {
+      "origin": "Auckland (2)",
+      "destination": "North Shore",
+      "capacity": 40,
+      "length": 7.98,
+      "up": true
+    },
+    {
+      "origin": "Auckland (2)",
+      "destination": "Hamilton",
+      "capacity": 40,
+      "length": 110.78,
+      "up": true
+    }
+  ]
+}

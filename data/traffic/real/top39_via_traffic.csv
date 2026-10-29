@@ -1,0 +1,21 @@
+# topology: VIA (real topology #39) (data/topologies/real/top39_via.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,London,Lisbon,4
+1,Barcelona,Paris,3
+2,Amsterdam,Paris,5
+3,Madrid,London,1
+4,Frankfurt,Madrid,6
+5,Munich,Paris,8
+6,Amsterdam,Madrid,4
+7,London,Frankfurt,8
+8,Lisbon,Frankfurt,7
+9,Lisbon,London,8
+10,Frankfurt,Berlin,1
+11,Munich,Barcelona,4
+12,Paris,Amsterdam,3
+13,Madrid,Munich,7
+14,Frankfurt,Barcelona,2
+15,Berlin,Munich,4
+16,Barcelona,London,7
+17,London,Madrid,6

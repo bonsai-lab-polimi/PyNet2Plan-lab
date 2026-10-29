@@ -1,0 +1,33 @@
+# topology: SPIRALIGHT (real topology #93) (data/topologies/real/top93_spiralight.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Oshkosh,Milwaukee,2
+1,Janesville,Green Bay,5
+2,Appleton,Fond du Lac,6
+3,Eau Claire,Janesville,2
+4,Waukesha,Milwaukee,8
+5,Wausau,Green Bay,4
+6,Green Bay,Appleton,3
+7,Beaver Dam,Janesville,1
+8,Madison,Fond du Lac,4
+9,Beaver Dam,Waukesha,2
+10,Eau Claire,New Lisbon,4
+11,Janesville,Fond du Lac,3
+12,Rockford,Kenosha,3
+13,Rockford,Madison,3
+14,Beaver Dam,New Lisbon,2
+15,Oshkosh,Wausau,3
+16,Madison,Oshkosh,4
+17,Kenosha,Oshkosh,1
+18,Madison,Waukesha,3
+19,Waukesha,Wausau,8
+20,Green Bay,Beaver Dam,8
+21,Janesville,Minneapolis,5
+22,Kenosha,Milwaukee,2
+23,Oshkosh,Minneapolis,6
+24,Fond du Lac,Beaver Dam,7
+25,Oshkosh,Beaver Dam,2
+26,Minneapolis,Wausau,6
+27,Waukesha,Eau Claire,7
+28,Rockford,Milwaukee,7
+29,Beaver Dam,Rockford,8

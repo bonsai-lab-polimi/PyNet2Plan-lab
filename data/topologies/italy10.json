@@ -1,0 +1,300 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "Italy-10",
+  "description": "Fictitious mesh network of the 10 largest Italian cities, 40 wavelengths per link.",
+  "nodes": [
+    {
+      "name": "Milan",
+      "lat": 45.4642,
+      "lon": 9.19,
+      "x": 1023026.120390184,
+      "y": 5694898.727635708,
+      "up": true
+    },
+    {
+      "name": "Turin",
+      "lat": 45.0703,
+      "lon": 7.6869,
+      "x": 855701.7937788145,
+      "y": 5632595.580347346,
+      "up": true
+    },
+    {
+      "name": "Genoa",
+      "lat": 44.4056,
+      "lon": 8.9463,
+      "x": 995897.5604838633,
+      "y": 5528425.7736206455,
+      "up": true
+    },
+    {
+      "name": "Venice",
+      "lat": 45.4408,
+      "lon": 12.3155,
+      "x": 1370955.1888645608,
+      "y": 5691185.4348157095,
+      "up": true
+    },
+    {
+      "name": "Bologna",
+      "lat": 44.4949,
+      "lon": 11.3426,
+      "x": 1262652.4562717848,
+      "y": 5542351.263844093,
+      "up": true
+    },
+    {
+      "name": "Florence",
+      "lat": 43.7696,
+      "lon": 11.2558,
+      "x": 1252989.9244709287,
+      "y": 5429856.207136513,
+      "up": true
+    },
+    {
+      "name": "Rome",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "x": 1391092.8847490638,
+      "y": 5146430.457427086,
+      "up": true
+    },
+    {
+      "name": "Naples",
+      "lat": 40.8518,
+      "lon": 14.2681,
+      "x": 1588317.6265875068,
+      "y": 4990506.711860526,
+      "up": true
+    },
+    {
+      "name": "Bari",
+      "lat": 41.1171,
+      "lon": 16.8719,
+      "x": 1878171.3167150323,
+      "y": 5029629.260550003,
+      "up": true
+    },
+    {
+      "name": "Palermo",
+      "lat": 38.1157,
+      "lon": 13.3615,
+      "x": 1487395.3762343249,
+      "y": 4595783.260441378,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "Milan",
+      "destination": "Turin",
+      "capacity": 40,
+      "length": 125.52,
+      "up": true
+    },
+    {
+      "origin": "Milan",
+      "destination": "Genoa",
+      "capacity": 40,
+      "length": 119.26,
+      "up": true
+    },
+    {
+      "origin": "Milan",
+      "destination": "Venice",
+      "capacity": 40,
+      "length": 243.8,
+      "up": true
+    },
+    {
+      "origin": "Milan",
+      "destination": "Bologna",
+      "capacity": 40,
+      "length": 200.7,
+      "up": true
+    },
+    {
+      "origin": "Turin",
+      "destination": "Milan",
+      "capacity": 40,
+      "length": 125.52,
+      "up": true
+    },
+    {
+      "origin": "Turin",
+      "destination": "Genoa",
+      "capacity": 40,
+      "length": 123.93,
+      "up": true
+    },
+    {
+      "origin": "Genoa",
+      "destination": "Milan",
+      "capacity": 40,
+      "length": 119.26,
+      "up": true
+    },
+    {
+      "origin": "Genoa",
+      "destination": "Turin",
+      "capacity": 40,
+      "length": 123.93,
+      "up": true
+    },
+    {
+      "origin": "Genoa",
+      "destination": "Florence",
+      "capacity": 40,
+      "length": 197.54,
+      "up": true
+    },
+    {
+      "origin": "Venice",
+      "destination": "Milan",
+      "capacity": 40,
+      "length": 243.8,
+      "up": true
+    },
+    {
+      "origin": "Venice",
+      "destination": "Bologna",
+      "capacity": 40,
+      "length": 130.08,
+      "up": true
+    },
+    {
+      "origin": "Venice",
+      "destination": "Bari",
+      "capacity": 40,
+      "length": 605.74,
+      "up": true
+    },
+    {
+      "origin": "Bologna",
+      "destination": "Milan",
+      "capacity": 40,
+      "length": 200.7,
+      "up": true
+    },
+    {
+      "origin": "Bologna",
+      "destination": "Venice",
+      "capacity": 40,
+      "length": 130.08,
+      "up": true
+    },
+    {
+      "origin": "Bologna",
+      "destination": "Florence",
+      "capacity": 40,
+      "length": 80.95,
+      "up": true
+    },
+    {
+      "origin": "Florence",
+      "destination": "Genoa",
+      "capacity": 40,
+      "length": 197.54,
+      "up": true
+    },
+    {
+      "origin": "Florence",
+      "destination": "Bologna",
+      "capacity": 40,
+      "length": 80.95,
+      "up": true
+    },
+    {
+      "origin": "Florence",
+      "destination": "Rome",
+      "capacity": 40,
+      "length": 230.91,
+      "up": true
+    },
+    {
+      "origin": "Rome",
+      "destination": "Florence",
+      "capacity": 40,
+      "length": 230.91,
+      "up": true
+    },
+    {
+      "origin": "Rome",
+      "destination": "Naples",
+      "capacity": 40,
+      "length": 188.43,
+      "up": true
+    },
+    {
+      "origin": "Rome",
+      "destination": "Bari",
+      "capacity": 40,
+      "length": 374.62,
+      "up": true
+    },
+    {
+      "origin": "Naples",
+      "destination": "Rome",
+      "capacity": 40,
+      "length": 188.43,
+      "up": true
+    },
+    {
+      "origin": "Naples",
+      "destination": "Bari",
+      "capacity": 40,
+      "length": 220.54,
+      "up": true
+    },
+    {
+      "origin": "Naples",
+      "destination": "Palermo",
+      "capacity": 40,
+      "length": 314.03,
+      "up": true
+    },
+    {
+      "origin": "Bari",
+      "destination": "Venice",
+      "capacity": 40,
+      "length": 605.74,
+      "up": true
+    },
+    {
+      "origin": "Bari",
+      "destination": "Rome",
+      "capacity": 40,
+      "length": 374.62,
+      "up": true
+    },
+    {
+      "origin": "Bari",
+      "destination": "Naples",
+      "capacity": 40,
+      "length": 220.54,
+      "up": true
+    },
+    {
+      "origin": "Bari",
+      "destination": "Palermo",
+      "capacity": 40,
+      "length": 449.14,
+      "up": true
+    },
+    {
+      "origin": "Palermo",
+      "destination": "Naples",
+      "capacity": 40,
+      "length": 314.03,
+      "up": true
+    },
+    {
+      "origin": "Palermo",
+      "destination": "Bari",
+      "capacity": 40,
+      "length": 449.14,
+      "up": true
+    }
+  ]
+}

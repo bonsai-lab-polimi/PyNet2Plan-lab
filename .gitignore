@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# run results (each user produces their own; share a run by zipping its folder)
+results/
+docs/lab/build/
+
+# operating system / editors
+.DS_Store
+Thumbs.db
+~$*
+.idea/
+
+# local folders that are not part of the project (add your own in .git/info/exclude)
+_old_version_backup/
+.venv*/

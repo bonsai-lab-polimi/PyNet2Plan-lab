@@ -1,0 +1,63 @@
+# topology: PALMETTO (real topology #59) (data/topologies/real/top59_palmetto.json)
+# synthetic traffic matrix (seeded by the topology name), wavelengths per demand
+id,origin,destination,traffic
+0,Greenville,Hickory,1
+1,Bishopville,Walterboro,8
+2,Toccoa,Raleigh,6
+3,Toccoa,Moncks Corner,1
+4,Walterboro,Savannah,3
+5,Clemson,Aiken,7
+6,Columbia,Beaufort,2
+7,Clemson,Georgetown,5
+8,Anderson,Aiken,5
+9,Orangeburg,Greenwood,1
+10,Lexington,Anderson,3
+11,Columbia,Yadkinville,4
+12,Saint George,Sumter,8
+13,Sumter,Walterboro,8
+14,Yemassee,Concord,8
+15,Raleigh,West Jefferson,7
+16,Georgetown,Yadkinville,3
+17,Lexington,Wilmington,1
+18,Beaufort,Sumter,7
+19,Concord,High Point,3
+20,Sumter,Yadkinville,6
+21,Lexington,Yadkinville,5
+22,Fayetteville,Wilmington,4
+23,Greenville,Yadkinville,1
+24,Lancaster,Raleigh,2
+25,Boone,Moncks Corner,6
+26,Greensboro,Granite Quarry,3
+27,Saint George,Rocky Mount,7
+28,Concord,Mount Airy,1
+29,Wilmington,Bishopville,2
+30,Lancaster,Yadkinville,5
+31,Hilton Head Island,Aiken,7
+32,Chester,Lancaster,7
+33,Georgetown,Bishopville,4
+34,West Jefferson,Spartanburg,8
+35,Moncks Corner,Clemson,2
+36,High Point,Granite Quarry,6
+37,Lexington,Greenwood,7
+38,Asheboro,Boone,2
+39,Lancaster,Fayetteville,2
+40,Spartanburg,Greensboro,2
+41,Lancaster,Due West,8
+42,Spartanburg,Yemassee,4
+43,Hilton Head Island,Charleston,2
+44,Lancaster,Yemassee,6
+45,Charleston,Raleigh,1
+46,Moncks Corner,Asheville,1
+47,High Point,Lancaster,6
+48,Georgetown,Moncks Corner,3
+49,Mount Airy,Savannah,8
+50,Granite Quarry,Concord,3
+51,High Point,Toccoa,8
+52,High Point,Due West,7
+53,Charleston,Sparta,7
+54,West Jefferson,Mount Airy,6
+55,Rock Hill,Hickory,7
+56,Greenwood,Anderson,3
+57,Yemassee,Toccoa,1
+58,Greenwood,Asheboro,7
+59,Yadkinville,Mount Airy,3

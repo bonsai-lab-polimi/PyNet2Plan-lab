@@ -1,0 +1,75 @@
+\documentclass[border=2pt]{standalone}
+% Computer Modern, the font of the handouts (pdflatex)
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{arrows.meta,calc}
+\definecolor{cA}{HTML}{2A78D6}
+\definecolor{cB}{HTML}{EB6834}
+\definecolor{cC}{HTML}{1BAF7A}
+\definecolor{cD}{HTML}{EDA100}
+\definecolor{cE}{HTML}{E87BA4}
+\definecolor{nodeblue}{HTML}{1565C0}
+\definecolor{linkgray}{HTML}{546E7A}
+\definecolor{lightgray}{HTML}{CFD8DC}
+\definecolor{txt}{HTML}{263238}
+\definecolor{band}{HTML}{EEEEEE}
+\definecolor{uUnused}{HTML}{BDBDBD}
+\definecolor{uLow}{HTML}{2E7D32}
+\definecolor{uMid}{HTML}{F9A825}
+\definecolor{uHigh}{HTML}{EF6C00}
+\definecolor{uFull}{HTML}{C62828}
+\definecolor{uOver}{HTML}{7B1FA2}
+\tikzset{
+  nd/.style={circle, fill=nodeblue, draw=white, line width=0.7pt, minimum size=#1, inner sep=0pt},
+  nd/.default=3.2mm,
+  nlab/.style={font=\footnotesize\bfseries, text=txt, inner sep=1pt},
+  lbl/.style={font=\scriptsize, text=txt, fill=white, fill opacity=0.85, text opacity=1, inner sep=0.7pt},
+  arr/.style={-{Stealth[length=1.9mm, width=1.5mm]}},
+}
+\pgfplotsset{
+  lab/.style={
+    scale only axis, axis lines*=left, grid=major, grid style={black!12},
+    tick label style={font=\small}, label style={font=\normalsize},
+    ylabel style={align=center},
+    legend style={draw=none, fill=none, font=\small},
+    legend cell align=left, tick align=outside, axis line style={black!60},
+    every axis plot/.append style={line width=1.1pt},
+  },
+  % the series differ in color, marker and line style (readable in black and white);
+  % the second series has hollow markers, visible where the two curves overlap
+  s1/.style={cA, solid, mark=*, mark size=1.7pt},
+  s2/.style={cB, densely dashed, mark=square*, mark size=1.6pt, mark options={solid, fill=white}},
+  s3/.style={cC, dashdotted, mark=diamond*, mark size=2.1pt, mark options={solid}},
+  s4/.style={cD, densely dotted, mark=triangle*, mark size=2.1pt, mark options={solid, fill=white}},
+  s5/.style={cE, dashed, mark=triangle*, mark size=2.1pt, mark options={solid, rotate=180}},
+  ebars/.style={error bars/.cd, y dir=both, y explicit,
+    error bar style={solid, line width=0.9pt}, error mark options={solid, rotate=90, mark size=2.2pt}},
+}
+\begin{document}
+\begin{tikzpicture}
+\coordinate (cn0) at (2.510,5.203);
+\coordinate (cn1) at (8.971,6.616);
+\coordinate (cn2) at (6.171,3.844);
+\coordinate (cn3) at (0.000,0.921);
+\coordinate (cn4) at (5.607,7.000);
+\coordinate (cn5) at (1.720,0.000);
+\coordinate (cn6) at (5.341,1.759);
+\draw[linkgray, line width=1.1pt] (cn0) -- node[lbl, midway] {273\,km} (cn4);
+\draw[linkgray, line width=1.1pt] (cn0) -- node[lbl, midway] {390\,km} (cn3);
+\draw[linkgray, line width=1.1pt] (cn0) -- node[lbl, midway] {303\,km} (cn2);
+\draw[linkgray, line width=1.1pt] (cn1) -- node[lbl, midway] {256\,km} (cn4);
+\draw[linkgray, line width=1.1pt] (cn1) -- node[lbl, midway] {303\,km} (cn2);
+\draw[linkgray, line width=1.1pt] (cn2) -- node[lbl, midway] {177\,km} (cn6);
+\draw[linkgray, line width=1.1pt] (cn3) -- node[lbl, midway] {157\,km} (cn5);
+\draw[linkgray, line width=1.1pt] (cn5) -- node[lbl, midway] {323\,km} (cn6);
+\node[nd=3.6mm, label={[nlab]135:Madrid}] (n0) at (2.510,5.203) {};
+\node[nd=3.6mm, label={[nlab]30:Barcelona}] (n1) at (8.971,6.616) {};
+\node[nd=3.6mm, label={[nlab]0:Valencia}] (n2) at (6.171,3.844) {};
+\node[nd=3.6mm, label={[nlab]-150:Sevilla}] (n3) at (0.000,0.921) {};
+\node[nd=3.6mm, label={[nlab]75:Zaragoza}] (n4) at (5.607,7.000) {};
+\node[nd=3.6mm, label={[nlab]-120:Malaga}] (n5) at (1.720,0.000) {};
+\node[nd=3.6mm, label={[nlab]-60:Murcia}] (n6) at (5.341,1.759) {};
+\end{tikzpicture}
+\end{document}
