@@ -1,6 +1,8 @@
 """GUI tests (need a display: on Linux run them with  xvfb-run python -m pytest)."""
 
 import os
+import subprocess
+import sys
 import time
 
 import pytest
@@ -9,12 +11,20 @@ tk = pytest.importorskip("tkinter")
 
 from conftest import DATA, ROOT, needs_solutions, write_formulation  # noqa: E402
 
-try:
-    _root = tk.Tk()
-    _root.destroy()
-    HAS_DISPLAY = True
-except tk.TclError:
-    HAS_DISPLAY = False
+
+def _display_available() -> bool:
+    """Whether Tk can open a window. The check runs in a separate Python: the tests must create
+    only one Tk root, because on macOS (Tk 8.6 and 9.0) destroying a root and creating another
+    one in the same process can crash Python at the next update()."""
+    try:
+        p = subprocess.run([sys.executable, "-c", "import tkinter; tkinter.Tk().destroy()"],
+                           capture_output=True, timeout=60)
+    except (OSError, subprocess.TimeoutExpired):
+        return False
+    return p.returncode == 0
+
+
+HAS_DISPLAY = _display_available()
 
 pytestmark = pytest.mark.skipif(not HAS_DISPLAY, reason="no display available for Tk")
 
