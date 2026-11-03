@@ -24,6 +24,9 @@ results as PyNet2Plan:
 
     python tools/make_notebook.py               # labs/lab1_exercises.ipynb
     python tools/make_notebook.py --solutions   # ... and the solved notebook
+
+A notebook edited by hand (metadata "pynet2plan": {"hand_edited": true}) is not overwritten
+unless --force is given.
 """
 
 from __future__ import annotations
@@ -475,6 +478,15 @@ def dumps(nb: dict) -> str:
     return json.dumps(nb, indent=1, ensure_ascii=False) + "\n"
 
 
+def hand_edited(path: str = NOTEBOOK) -> bool:
+    """True for a notebook edited by hand (metadata pynet2plan.hand_edited): it is not regenerated."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            return bool(json.load(fh).get("metadata", {}).get("pynet2plan", {}).get("hand_edited"))
+    except (OSError, ValueError, AttributeError):
+        return False
+
+
 def write(script: str, out: str, solved: bool = False) -> str:
     os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, "w", encoding="utf-8", newline="\n") as fh:
@@ -485,8 +497,12 @@ def write(script: str, out: str, solved: bool = False) -> str:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--solutions", action="store_true", help="also write the solved notebook")
+    ap.add_argument("--force", action="store_true", help="overwrite a notebook edited by hand")
     args = ap.parse_args(argv)
-    print("written:", os.path.relpath(write(SCRIPT, NOTEBOOK), ROOT))
+    if hand_edited(NOTEBOOK) and not args.force:
+        print("labs/lab1_exercises.ipynb is edited by hand: not overwritten (--force to regenerate it)")
+    else:
+        print("written:", os.path.relpath(write(SCRIPT, NOTEBOOK), ROOT))
     if args.solutions:
         if not os.path.isfile(SOLVED_SCRIPT):
             print("solutions/labs/lab1_exercises.py not found: solved notebook not written")

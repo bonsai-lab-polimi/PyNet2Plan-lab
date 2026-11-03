@@ -27,6 +27,8 @@ def code_cells(path):
 
 def test_notebook_is_up_to_date():
     """The notebook is made from the script, the data and the table of handout 2: regenerate it after changing them."""
+    if mn.hand_edited(mn.NOTEBOOK):
+        pytest.skip("labs/lab1_exercises.ipynb is edited by hand")
     with open(mn.NOTEBOOK, encoding="utf-8") as fh:
         assert fh.read() == mn.dumps(mn.notebook(mn.SCRIPT)), "run: python tools/make_notebook.py --solutions"
 
