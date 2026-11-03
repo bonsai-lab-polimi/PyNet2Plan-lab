@@ -27,6 +27,18 @@ import traceback
 from .loader import PROJECT_ROOT
 
 
+def default_use_process() -> bool:
+    """Whether jobs run in a separate process (True) or in a thread (False).
+
+    PYNET2PLAN_INPROCESS=1 forces a thread and PYNET2PLAN_INPROCESS=0 a process. Without it a
+    process is used, except on Windows: there the worker process did not complete the runs
+    in Lab 1 (November 2026), so a thread is used by default."""
+    flag = os.environ.get("PYNET2PLAN_INPROCESS", "").strip()
+    if flag:
+        return flag == "0"
+    return not sys.platform.startswith("win")
+
+
 class Job:
     """A running background job. Poll it with :meth:`poll` (non-blocking)."""
 
@@ -43,7 +55,7 @@ class Job:
         self._proc = None
         self._stderr_tail: list = []
         if use_process is None:
-            use_process = os.environ.get("PYNET2PLAN_INPROCESS", "") in ("", "0")
+            use_process = default_use_process()
         if use_process:
             try:
                 self._start_process()
