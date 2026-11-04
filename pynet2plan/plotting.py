@@ -406,11 +406,15 @@ def series_style(i: int) -> dict:
     The three change together, so that the series can be told apart also in a
     black-and-white print and by readers with a color vision deficiency; every
     second series has hollow markers, which stay visible where two curves overlap.
+    After the 8 colors, the colors start again with other markers and line styles,
+    so that no two of the first 64 series look the same.
     """
-    color = SERIES_COLORS[i % len(SERIES_COLORS)]
-    return dict(color=color, marker=SERIES_MARKERS[i % len(SERIES_MARKERS)],
-                linestyle=SERIES_LINESTYLES[i % len(SERIES_LINESTYLES)],
-                markerfacecolor=color if i % 2 == 0 else "white", markeredgecolor=color)
+    n = len(SERIES_COLORS)
+    turn = i // n
+    color = SERIES_COLORS[i % n]
+    return dict(color=color, marker=SERIES_MARKERS[(i + 3 * turn) % len(SERIES_MARKERS)],
+                linestyle=SERIES_LINESTYLES[(i + 5 * turn) % len(SERIES_LINESTYLES)],
+                markerfacecolor=color if (i + turn) % 2 == 0 else "white", markeredgecolor=color)
 
 
 def plot_sweep(ax_obj, ax_time, rows: list, metric: str = "wavelength_links",

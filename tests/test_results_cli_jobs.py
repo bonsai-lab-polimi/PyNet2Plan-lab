@@ -148,6 +148,16 @@ def test_sweep_repetitions(results_dir, spain, tmp_path):
     plt.close(fig)
 
 
+def test_series_styles_are_distinct():
+    """A sweep of all the algorithms has more than 8 series: none may look like another."""
+    from pynet2plan.plotting import series_style
+    styles = [series_style(i) for i in range(24)]
+    keys = {(s["color"], s["marker"], str(s["linestyle"])) for s in styles}
+    assert len(keys) == len(styles)
+    assert series_style(8)["color"] == series_style(0)["color"]
+    assert series_style(8)["marker"] != series_style(0)["marker"]
+
+
 def test_series_labels():
     """Legend labels: readable names, only the parameters that change, 'reference' only when needed."""
     from pynet2plan import plotting
