@@ -193,15 +193,17 @@ git pull
 
 The new files are added and the files you have modified, such as your solutions of the
 exercises, are kept: the material of a new lab never changes the exercises of a previous one.
-If git refuses to update because of local changes, save your work in a commit and repeat the
-command:
+If git refuses to update because of local changes, save your work in a commit and get the
+material with a slightly longer command:
 
 ```bash
 git add -A
 git commit -m "My work"
-git pull
+git pull --no-rebase --no-edit
 ```
 
+Once you have commits of your own, always use `git pull --no-rebase --no-edit`: a plain
+`git pull` stops with the message *Need to specify how to reconcile divergent branches*.
 The first commit may ask for your name and e-mail address; set them once with
 `git config --global user.name "Name Surname"` and
 `git config --global user.email "name.surname@mail.polimi.it"`. The virtual environment does not
@@ -215,7 +217,8 @@ need to be created again.
 | Windows on ARM processors: the solver packages cannot be installed | Install the 64-bit Intel version of Python, which Windows runs in emulation: `py install 3.14-64`, then create the environment with `py -V:3.14-64 -m venv .venv`. |
 | Windows: `py` is not recognized | The install manager is not installed, or PowerShell must be restarted. |
 | Windows: `git` is not recognized | git is not installed, or PowerShell was not restarted after installing it. |
-| `git pull` answers that local changes would be overwritten | Save your work with `git add -A` and `git commit -m "My work"`, then repeat `git pull`. |
+| `git pull` answers that local changes would be overwritten | Save your work with `git add -A` and `git commit -m "My work"`, then type `git pull --no-rebase --no-edit`. |
+| `git pull` answers *Need to specify how to reconcile divergent branches* | You have commits of your own: type `git pull --no-rebase --no-edit`. |
 | Windows: `Activate.ps1` cannot be loaded | Change the execution policy as explained in step 5, or do not activate the environment and type `.venv\Scripts\python` instead of `python`. |
 | `No module named pynet2plan` | The terminal is not in the lab folder; use `cd` first. |
 | `No module named networkx` (or `pulp`, `matplotlib`) | The virtual environment is not active: the prompt does not start with `(.venv)`. |

@@ -22,7 +22,9 @@ The handouts of the laboratory are in [`docs/lab/`](docs/lab/README.md):
 [installation](docs/lab/00_installation.pdf) on macOS and Windows,
 [tour of the tool](docs/lab/01_tool_overview.pdf),
 [networks as NetworkX graphs](docs/lab/02_networkx_backend.pdf),
-[the splittable flow formulation](docs/lab/03_first_ilp.pdf) (Lab 1). The
+[the splittable flow formulation](docs/lab/03_first_ilp.pdf) (Lab 1),
+[the unsplittable flow formulation](docs/lab/04_unsplittable_flow.pdf) and
+[the route formulation](docs/lab/05_route_formulation.pdf) (Lab 2). The
 material of each lab is added to the repository before the lab: get it with `git pull` (see
 below).
 
@@ -49,7 +51,9 @@ git pull
 
 which adds the new files and keeps your work: the files of the exercises of a previous lab are
 never changed. If git refuses because of local changes, save your work in a commit first
-(`git add -A`, then `git commit -m "My work"`) and repeat `git pull`.
+(`git add -A`, then `git commit -m "My work"`) and type `git pull --no-rebase --no-edit`. Once
+you have commits of your own, always use this form: a plain `git pull` stops with *Need to
+specify how to reconcile divergent branches*.
 
 The requirements are NetworkX, Matplotlib and PuLP with the CBC and HiGHS solvers; the first
 solver that works is used. Tkinter is part of the Python installers for Windows and macOS; on
@@ -103,6 +107,8 @@ size* enlarges all texts, which is useful on a projector. Further screenshots:
 | file | description | status |
 |---|---|---|
 | `splittable_flow.py` | link-flow ILP, demands may be split | complete |
+| `unsplittable_flow.py` | link-flow ILP, one path per demand | exercise |
+| `route_formulation_vwp.py` | route (path) ILP without wavelength continuity | exercise |
 | `_template.py` | starting point for new algorithms (not listed in the interface) | |
 
 Each exercise contains numbered lines of the form `raise NotCompletedError("TODO n: ...")`,
@@ -133,6 +139,39 @@ compare its results with known optimal values and with the complete formulations
 the unsplittable optimum cannot be smaller than the splittable one). The interface that an
 algorithm must implement is described in [`formulations/README.md`](formulations/README.md).
 
+### Example: splittable and unsplittable flow
+
+With the original traffic of Spain-7 the splittable and unsplittable formulations often reach
+the same optimum. The matrix `data/traffic/spain7_traffic_split_vs_unsplit.csv` (24 demands of
+4 to 16 wavelengths, 229 in total) was chosen so that the two differ: the unsplittable model
+cannot fill the scarce links exactly, so it needs more wavelengths, or has no solution, for
+most capacities between 34 and 56.
+
+![Splittable and unsplittable flow on Spain-7 for uniform capacities from 32 to 60](docs/example_split_vs_unsplit.png)
+
+| uniform capacity C | splittable | unsplittable |
+|---|---:|---:|
+| up to 33 | infeasible | infeasible |
+| 34 | 431 | infeasible |
+| 35 | 430 | 460 |
+| 36 to 40 | 429 to 425 | 443 |
+| 42, 44 to 56 | 423, 421 to 409 | 424, 422 |
+| 57 and above | 408 | 408 |
+
+The objective is the total number of wavelengths used on all links; for C = 41 and C = 43 the
+two formulations give the same value. The comparison can be repeated in the interface (*File >
+Open example > Spain-7: splittable vs unsplittable*, then *Compare (sweep)...* with
+`splittable_flow` and `unsplittable_flow` and capacities `32-60:2`) or from the command line:
+
+```bash
+python labs/lab1_comparison.py
+python -m pynet2plan sweep -t data/topologies/spain7.json \
+       -d data/traffic/spain7_traffic_split_vs_unsplit.csv \
+       -a splittable_flow -a unsplittable_flow -c 32-60:2
+```
+
+The unsplittable series appears once `formulations/unsplittable_flow.py` has been completed;
+before that its runs have status `NOT_COMPLETED`.
 
 ## 5. File formats
 
@@ -203,6 +242,16 @@ python labs/lab1_exercises.py                    # lab 1, exercises on NetworkX 
                                                  # (also as a notebook for Jupyter and Google Colab:
                                                  #  labs/lab1_exercises.ipynb)
 python labs/lab1_first_ilp.py                    # lab 1, splittable flow formulation (handout 3)
+```
+
+Lab 2:
+
+```bash
+python labs/lab2_unsplittable.py                 # unsplittable vs splittable (handout 4)
+python labs/lab2_route_formulation.py            # route vs flow formulation (handout 5)
+python labs/lab1_comparison.py                   # splittable/unsplittable and route/flow comparisons
+python -m pynet2plan sweep -t data/topologies/spain7.json -d data/traffic/spain7_traffic.csv \
+                          -a splittable_flow -a "route_formulation_vwp:k=1,2,3" -c 20-40:5 -r 5
 ```
 
 The library can also be used from Python or Jupyter:

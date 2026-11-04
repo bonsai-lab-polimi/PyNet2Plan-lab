@@ -1,0 +1,59 @@
+{
+ "size": [
+  1360,
+  720
+ ],
+ "text_scale": 1.25,
+ "facts": {
+  "lab2_demand": 9,
+  "lab2_origin": "Madrid",
+  "lab2_destination": "Malaga",
+  "lab2_traffic": 16,
+  "lab2_path": "Madrid > Valencia > Murcia > Malaga",
+  "lab2_objective": 443.0
+ },
+ "shots": [
+  {
+   "name": "30_sweep_two_formulations",
+   "title": "Sweep of the two formulations",
+   "size": [
+    1139,
+    396
+   ],
+   "callouts": []
+  },
+  {
+   "name": "31_sweep_results",
+   "title": "Sweep results",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2
+   ]
+  },
+  {
+   "name": "32_sweep_charts",
+   "title": "Sweep charts (large window)",
+   "size": [
+    1202,
+    562
+   ],
+   "callouts": []
+  },
+  {
+   "name": "33_unsplittable_routes",
+   "title": "Route of demand 9",
+   "size": [
+    1400,
+    797
+   ],
+   "callouts": [
+    1,
+    2
+   ]
+  }
+ ]
+}
