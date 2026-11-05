@@ -128,8 +128,8 @@ def _objective(name, G, D, **params):
 @pytest.mark.parametrize("name", ["splittable_flow", "solutions/route_formulation_vwp", "solutions/unsplittable_flow"])
 def test_flow_formulations_see_the_total_capacity(name):
     """2 fibers of C wavelengths are the same as 1 fiber of 2C for formulations without continuity."""
-    if name.startswith("solutions/") and not os.path.isdir(os.path.join(ROOT, "solutions")):
-        pytest.skip("solutions/ folder not present")
+    if name.startswith("solutions/") and not os.path.isfile(os.path.join(ROOT, name + ".py")):
+        pytest.skip(f"{name}.py not present")
     D = small_demands()
     two = small_network(capacity=2)
     network.set_uniform_fibers(two, 2)

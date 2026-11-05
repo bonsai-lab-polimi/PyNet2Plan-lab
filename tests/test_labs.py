@@ -263,15 +263,23 @@ def test_lab1_exercises_answers():
     G = network.load_topology(os.path.join(ROOT, "data", "topologies", "nsfnet14.json"))
     D = traffic.load_traffic(os.path.join(ROOT, "data", "traffic", "nsfnet14_traffic.csv"), G)
     r = runner.run_algorithm(G, D, "splittable_flow", save=False)
+    assert r.summary["objective"] == 216
     top = max(r.tables["links"], key=lambda l: l["used"])
-    # the optimum is unique, the most loaded link is not: it depends on the CBC version
-    cases = {("Pittsburgh", "Ithaca"): (19, 240), ("Salt Lake City", "Palo Alto"): (18, 236)}   # PuLP 4, PuLP 3
+    # the optimum is unique, the routing is not: the most loaded link and its load depend on the
+    # CBC version and even on the computer (LAB1_PLAN quotes Pittsburgh->Ithaca 19 with PuLP 4 and
+    # Salt Lake City->Palo Alto 18 with PuLP 3; GitHub's Linux machines gave Salt Lake City->Palo
+    # Alto 14). The optimum after failing a link depends only on the link.
     link = (top["origin"], top["destination"])
-    assert r.summary["objective"] == 216 and link in cases and top["used"] == cases[link][0]
+    assert 0 < top["used"] <= 40
+    after_failure = {("Pittsburgh", "Ithaca"): 240, ("Salt Lake City", "Palo Alto"): 236}
     H = G.copy()
     for e in (link, link[::-1]):
         network.set_link_up(H, *e, False)
-    assert runner.run_algorithm(H, D, "splittable_flow", save=False).summary["objective"] == cases[link][1]
+    res = runner.run_algorithm(H, D, "splittable_flow", save=False)
+    if link in after_failure:
+        assert res.summary["objective"] == after_failure[link]
+    else:
+        assert res.status == "OPTIMAL" and res.summary["objective"] >= 216
     assert runner.run_algorithm(at(G, 11), D, "splittable_flow", save=False).status == "INFEASIBLE"
     assert runner.run_algorithm(at(G, 12), D, "splittable_flow", save=False).status == "OPTIMAL"
     D7 = traffic.random_traffic(G, 30, 4, 16, seed=7)

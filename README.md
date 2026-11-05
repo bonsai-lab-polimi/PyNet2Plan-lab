@@ -107,7 +107,7 @@ size* enlarges all texts, which is useful on a projector. Further screenshots:
 | file | description | status |
 |---|---|---|
 | `splittable_flow.py` | link-flow ILP, demands may be split | complete |
-| `unsplittable_flow.py` | link-flow ILP, one path per demand | exercise |
+| `unsplittable_flow.py` | link-flow ILP, one path per demand | exercise (solution in `solutions/`) |
 | `route_formulation_vwp.py` | route (path) ILP without wavelength continuity | exercise |
 | `_template.py` | starting point for new algorithms (not listed in the interface) | |
 

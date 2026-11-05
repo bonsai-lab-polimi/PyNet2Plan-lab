@@ -68,7 +68,9 @@ def test_handout_sources_are_consistent():
             assert m.group(1) in build.VARIABLES, (f, m.group(1))
 
 
-@pytest.mark.skipif(not os.path.isdir(os.path.join(ROOT, "solutions")), reason="solutions/ folder not present")
+@pytest.mark.skipif(not all(os.path.isfile(os.path.join(ROOT, "solutions", f))
+                            for f in ("unsplittable_flow.py", "route_formulation_vwp.py")),
+                    reason="solutions of Lab 2 not present")
 def test_complete_exercise(tmp_path):
     """The build completes the exercise as a student would: hints kept, TODO lines replaced."""
     from pynet2plan import loader, network, runner, traffic
