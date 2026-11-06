@@ -225,7 +225,10 @@ and `example_cities`, each with a traffic matrix in `data/traffic/`
 `spain7_traffic_split_vs_unsplit.csv` is described in the example above and in
 `data/README.md`. The folder `data/topologies/real/` contains 105 real topologies (GEANT,
 ABILENE, CORONET, GERMANY50, ITALY and others, see `INDEX.md`), with synthetic traffic in
-`data/traffic/real/`.
+`data/traffic/real/`. They come from the Topology Bench dataset (R. Matzner et al., *Journal of
+Optical Communications and Networking*, vol. 17, no. 1, pp. 7-27, 2024,
+[doi:10.1364/JOCN.534477](https://doi.org/10.1364/JOCN.534477)), distributed under the
+CC BY 4.0 license; `data/README.md` gives the full reference and the changes made.
 
 ## 7. Command line and scripts
 

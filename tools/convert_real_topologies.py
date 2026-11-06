@@ -15,6 +15,11 @@ so a synthetic matrix is generated (10-60 demands depending on the size,
 1-8 wavelengths each), seeded by the topology name: the same as the first
 PyNet2Plan version.
 
+Source of the topologies (CC BY 4.0): R. Matzner et al., "Topology Bench: systematic
+graph-based benchmarking for core optical networks", Journal of Optical Communications and
+Networking, vol. 17, no. 1, pp. 7-27, 2024, https://doi.org/10.1364/JOCN.534477; dataset
+https://doi.org/10.5281/zenodo.13921775.
+
 Needs pandas + openpyxl (only for this tool):  pip install pandas openpyxl
 Run from the project root:  python tools/convert_real_topologies.py
 """
@@ -130,6 +135,10 @@ def main():
                 "(two fibers where the dataset lists two parallel edges); "
                 "its synthetic traffic matrix (seeded, 1-8 wavelengths per demand) is in "
                 "`data/traffic/real/<file>_traffic.csv`.\n\n"
+                "Source: Topology Bench dataset, R. Matzner et al., Journal of Optical Communications "
+                "and Networking, vol. 17, no. 1, pp. 7-27, 2024, https://doi.org/10.1364/JOCN.534477; "
+                "data: https://doi.org/10.5281/zenodo.13921775, license CC BY 4.0. The traffic "
+                "matrices are synthetic and are not part of the dataset.\n\n"
                 "| Topology | File | Nodes | Links | Demands | Traffic (λ) |\n"
                 "|---|---|---:|---:|---:|---:|\n")
         for name, stem, nn, nl, nd, tt, _ in index:

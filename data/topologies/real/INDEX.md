@@ -2,6 +2,8 @@
 
 Converted from `data/real_topologies_xlsx/` (Topology Bench dataset: node lat/lon and edge lengths of real optical/core networks) by `tools/convert_real_topologies.py`. Every link has one fiber of 40 wavelengths (two fibers where the dataset lists two parallel edges); its synthetic traffic matrix (seeded, 1-8 wavelengths per demand) is in `data/traffic/real/<file>_traffic.csv`.
 
+Source: Topology Bench dataset, R. Matzner et al., Journal of Optical Communications and Networking, vol. 17, no. 1, pp. 7-27, 2024, https://doi.org/10.1364/JOCN.534477; data: https://doi.org/10.5281/zenodo.13921775, license CC BY 4.0. The traffic matrices are synthetic and are not part of the dataset.
+
 | Topology | File | Nodes | Links | Demands | Traffic (λ) |
 |---|---|---:|---:|---:|---:|
 | ABILENE | `top57_abilene.json` | 11 | 28 | 22 | 87 |
