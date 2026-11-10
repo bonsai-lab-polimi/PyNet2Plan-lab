@@ -10,8 +10,11 @@ from tkinter import filedialog, ttk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
+from .. import analysis as ananmod
+from .. import network as netmod
 from .. import plotting
 from .. import results as resmod
+from ..solution import Solution
 from .canvas import NetworkView
 from .widgets import STATUS_COLORS, Table, error_dialog, info_dialog, open_figure_as_pdf, save_figure_as
 
@@ -21,6 +24,16 @@ warnings.filterwarnings("ignore", message="constrained_layout not applied")
 PLACEHOLDER = ("No results loaded.\n\nRun an algorithm in the 'Network & traffic' tab, or use "
                "'Open results folder...' / 'Browse...' above.\n\nEvery run is saved as CSV files "
                "in the results folder, so it can be re-opened here at any time.")
+
+#: (summary field, y-axis label) choices for the sweep chart
+SWEEP_METRICS = [
+    ("wavelength_links", "wavelengths used"),
+    ("blocked_traffic", "blocked wavelengths"),
+    ("blocked_demands", "blocked demands"),
+    ("served_after_cut", "demands served after the cut"),
+    ("cut_demands_down", "demands blocked after the cut"),
+    ("regenerators", "3R regenerators"),
+]
 
 
 class FigurePanel(ttk.Frame):
@@ -66,6 +79,9 @@ class ResultsTab(ttk.Frame):
         self.sweep = None            # results.SweepResults
         self.highlight_paths = []
         self.highlight_links = set()
+        self.backup_paths = []       # 1+1 backup paths of the selected demand(s)
+        self.down_paths = []         # working paths taken down by the selected fibre cut
+        self.cut_fibres = []         # fibres cut after planning (the demo of protection)
         self.selected_link = None
         self._build()
         self.clear()
@@ -77,6 +93,8 @@ class ResultsTab(ttk.Frame):
         ttk.Button(bar, text="Open results folder...", command=self.action_open).pack(side=tk.LEFT, padx=2)
         ttk.Button(bar, text="Browse...", command=self.app.action_browse_results).pack(side=tk.LEFT, padx=2)
         ttk.Button(bar, text="Latest", command=self.app.action_open_latest).pack(side=tk.LEFT, padx=2)
+        ttk.Button(bar, text="Cut / repair selected fibre",
+                   command=self.action_toggle_cut).pack(side=tk.LEFT, padx=(14, 2))
         ttk.Button(bar, text="Save map as...", command=self.action_save_map).pack(side=tk.RIGHT, padx=2)
         ttk.Button(bar, text="Edit these inputs", command=self.action_use_inputs).pack(side=tk.RIGHT, padx=2)
         head = ttk.Frame(self, padding=(4, 0))
@@ -114,7 +132,8 @@ class ResultsTab(ttk.Frame):
         self.routes_table = Table(nb, [("demand_id", "demand", 66), ("origin", "origin", 90, "w"),
                                        ("destination", "destination", 90, "w"), ("traffic", "λ", 40),
                                        ("hops", "hops", 40), ("length_km", "km", 60),
-                                       ("path", "path", 260, "w"), ("wavelengths", "wavelength ids", 110, "w")],
+                                       ("path", "path", 260, "w"), ("wavelengths", "wavelength ids", 110, "w"),
+                                       ("regenerators", "3R nodes", 120, "w")],
                                   on_select=self._routes_selected)
         nb.add(self.routes_table, text="Routes")
         self.demands_table = Table(nb, [("demand_id", "demand", 66), ("origin", "origin", 100, "w"),
@@ -129,6 +148,12 @@ class ResultsTab(ttk.Frame):
         nb.add(self.wl_panel, text="Wavelengths")
         self.validation_table = Table(nb, [("severity", "severity", 80), ("message", "message", 600, "w")])
         nb.add(self.validation_table, text="Validation")
+        self.cuts_table = Table(nb, [("fibre", "fibre (cut)", 150, "w"), ("length", "km", 60),
+                                     ("demands_hit", "hit", 50), ("demands_down", "DOWN", 60),
+                                     ("demands_switched", "to backup", 75)],
+                                on_select=self._cut_selected)
+        self.tab_cuts = self.cuts_table
+        nb.add(self.cuts_table, text="Fibre cuts")
 
         f = ttk.Frame(nb)
         self.sweep_table = Table(f, [("capacity", "C", 45), ("algorithm", "algorithm", 220, "w"),
@@ -144,6 +169,16 @@ class ResultsTab(ttk.Frame):
                    command=lambda: self._sweep_open_rows(self.sweep_table.selected_rows())).pack(side=tk.LEFT, pady=2)
         ttk.Label(b, text="(or double-click a row)", foreground="#666666").pack(side=tk.LEFT, padx=6)
         ttk.Button(b, text="Charts in a large window", command=self.action_sweep_window).pack(side=tk.RIGHT, pady=2)
+        self.sweep_metric = tk.StringVar(value=SWEEP_METRICS[0][1])
+        mc = ttk.Combobox(b, textvariable=self.sweep_metric, state="readonly", width=28,
+                          values=[lab for _, lab in SWEEP_METRICS])
+        mc.pack(side=tk.RIGHT)
+        mc.bind("<<ComboboxSelected>>", lambda e: self._apply_sweep_cut())
+        self.sweep_cut_label = ttk.Label(b, text="cut: none", foreground="#666666")
+        self.sweep_cut_label.pack(side=tk.RIGHT, padx=(10, 4))
+        ttk.Button(b, text="Update plot for the cut links",
+                   command=self._refresh_sweep).pack(side=tk.RIGHT, padx=(10, 2))
+        self._sweep_routes = {}      # run folder -> routes (lazy cache)
         self.sweep_panel = FigurePanel(f, 1, 1, figsize=(6, 4))
         self.sweep_panel.pack(fill=tk.BOTH, expand=True)
         nb.add(f, text="Sweep")
@@ -174,6 +209,7 @@ class ResultsTab(ttk.Frame):
         self.run = None
         self.sweep = None
         self.highlight_paths, self.highlight_links, self.selected_link = [], set(), None
+        self.backup_paths, self.cut_fibres, self.down_paths = [], [], []
         self.view.ax.clear()
         self.view.ax.set_axis_off()
         self.view.ax.text(0.5, 0.5, PLACEHOLDER, ha="center", va="center", fontsize=plotting.fs(10),
@@ -181,12 +217,14 @@ class ResultsTab(ttk.Frame):
         self.view.G = None
         self.view.canvas.draw_idle()
         self._set_report(PLACEHOLDER)
-        for t in (self.links_table, self.routes_table, self.demands_table, self.validation_table):
+        for t in (self.links_table, self.routes_table, self.demands_table, self.validation_table,
+                  self.cuts_table):
             t.set_rows([])
         self.status_badge.configure(text="", bg=self._badge_bg)
         self.title_label.configure(text="")
         self.folder_label.configure(text="")
         self._set_tab_state(self.wl_panel, False)
+        self._set_tab_state(self.tab_cuts, False)
         self._set_tab_state(self.tab_sweep, False)
 
     def _set_report(self, text):
@@ -255,6 +293,7 @@ class ResultsTab(ttk.Frame):
         if not keep_sweep:
             self.sweep = None
         self.highlight_paths, self.highlight_links, self.selected_link = [], set(), None
+        self.backup_paths, self.cut_fibres, self.down_paths = [], [], []
         s = run.summary
         st = str(s.get("status", ""))
         self.status_badge.configure(text=f" {st} ", bg=STATUS_COLORS.get(st, "#555555"))
@@ -263,23 +302,22 @@ class ResultsTab(ttk.Frame):
                                         + (f"  C={s['capacity']}" if s.get("capacity") not in ("", None) else ""))
         self.folder_label.configure(text=f"Folder: {run.folder}")
         self._set_report(run.report)
-        rows = []
-        for l in run.links:
-            u = l.get("utilization")
-            rows.append(dict(l, util=(round(100 * u, 1) if isinstance(u, (int, float)) else ""),
-                             state="UP" if l.get("up", True) else "DOWN"))
-        self.links_table.set_rows(rows, tags=lambda r: (
-            "muted" if r["state"] == "DOWN" else
-            "bad" if isinstance(r.get("util"), float) and r["util"] > 100.0001 else
-            "warn" if isinstance(r.get("util"), (int, float)) and r["util"] >= 99.9999 else None))
+        self._set_links_table()
         self.routes_table.set_rows(run.routes)
         self.demands_table.set_rows(run.demands_table, tags=lambda r: (
-            None if r.get("state") == "ROUTED" else "bad" if r.get("state") == "BLOCKED" else "warn"))
+            None if r.get("state") == "ROUTED"
+            else "bad" if r.get("state") in ("BLOCKED", "DOWN") else "warn"))
         self.validation_table.set_rows([dict(severity=i.severity.upper(), message=i.message)
                                         for i in run.issues] or
                                        [dict(severity="OK", message="The solution satisfies all the constraints.")],
                                        tags=lambda r: "bad" if r["severity"] == "ERROR" else
                                        ("warn" if r["severity"] == "WARNING" else None))
+        cut_rows = ananmod.fibre_cuts(run.G, [], self._cut_solution()) if run.G is not None else []
+        self.cuts_table.set_rows(
+            [dict(r, length=round(r["length"]) if isinstance(r.get("length"), (int, float)) else "")
+             for r in cut_rows],
+            tags=lambda r: "bad" if r.get("demands_down") else ("warn" if r.get("demands_switched") else None))
+        self._set_tab_state(self.tab_cuts, bool(cut_rows))
         plotting.plot_utilization_bars(self.util_panel.axes[0], run.links)
         self.util_panel.draw()
         if run.wavelengths:
@@ -288,6 +326,7 @@ class ResultsTab(ttk.Frame):
             self._set_tab_state(self.wl_panel, True)
         else:
             self._set_tab_state(self.wl_panel, False)
+        self.cut_fibres = []                                         # default: the full plan, no cut
         self.redraw()
 
     def refresh_charts(self):
@@ -299,8 +338,7 @@ class ResultsTab(ttk.Frame):
                 plotting.plot_wavelength_grid(self.wl_panel.axes[0], self.run.wavelengths, self.run.links)
                 self.wl_panel.draw()
         if self.sweep is not None:
-            plotting.plot_sweep(self.sweep_panel.axes[0], None, self.sweep.rows, compact=True)
-            self.sweep_panel.draw()
+            self._apply_sweep_cut()
         self.redraw()
 
     def _show_sweep(self):
@@ -316,9 +354,77 @@ class ResultsTab(ttk.Frame):
         self.sweep_table.set_rows(rows, tags=lambda r: None if r.get("status") in ("OPTIMAL", "FEASIBLE")
                                   else ("warn" if r.get("status") in ("BLOCKING", "INFEASIBLE", "TIME_LIMIT")
                                         else "bad"))
-        plotting.plot_sweep(self.sweep_panel.axes[0], None, self.sweep.rows, compact=True)
-        self.sweep_panel.draw()
+        self._populate_sweep_cuts()
+        self._apply_sweep_cut()
         self._set_tab_state(self.tab_sweep, True)
+
+    def _populate_sweep_cuts(self):
+        """Reset the per-sweep caches and default to the plain (no cut) chart."""
+        self._sweep_routes = {}
+        self.cut_fibres = []
+        self.sweep_metric.set(self._default_sweep_metric())
+        self.sweep_cut_label.configure(text="cut: none")
+
+    def _default_sweep_metric(self) -> str:
+        """The chart shown first (no cut): 'wavelengths used', or 'blocked demands' when some run
+        blocked demands - a blocking run uses fewer wavelengths only because it serves less, so
+        its wavelength count alone would be misleading."""
+        if self.sweep is not None and any(r.get("status") == "BLOCKING" for r in self.sweep.rows):
+            return "blocked demands"
+        return SWEEP_METRICS[0][1]                               # 'wavelengths used'
+
+    def _run_routes(self, row):
+        """The routes of a sweep run (cached)."""
+        folder = self.sweep.run_folder(row)
+        if folder is None:
+            return []
+        if folder not in self._sweep_routes:
+            try:
+                self._sweep_routes[folder] = resmod.load_run(folder).routes
+            except Exception:                                    # noqa: BLE001
+                self._sweep_routes[folder] = []
+        return self._sweep_routes[folder]
+
+    def _refresh_sweep(self):
+        """Keep the sweep chart in sync with the fibres the user has cut: a demand metric when
+        something is cut, the plain 'wavelengths used' plot when nothing is."""
+        if self.sweep is None:
+            return
+        cut_metric = self._sweep_metric_key() in ("served_after_cut", "cut_demands_down")
+        if self.cut_fibres and not cut_metric:
+            self.sweep_metric.set("demands served after the cut")
+        elif not self.cut_fibres and cut_metric:
+            self.sweep_metric.set(self._default_sweep_metric())
+        names = ", ".join(ananmod.cut_name(ananmod.fibre(e[0], e[1])) for e in self.cut_fibres)
+        self.sweep_cut_label.configure(text=f"cut: {names}" if names else "cut: none")
+        self._apply_sweep_cut()
+
+    def _apply_sweep_cut(self):
+        """Recompute 'served/down after the cut' for every sweep run using the fibres in
+        self.cut_fibres (none = the full plan), and redraw with the selected metric."""
+        if self.sweep is None:
+            return
+        cutset = ananmod.cut_links(self.cut_fibres) if self.cut_fibres else set()
+        for r in self.sweep.rows:
+            if not self.cut_fibres:
+                nd = resmod.to_number(r.get("num_demands"), 0) or 0
+                bl = resmod.to_number(r.get("blocked_demands"), 0) or 0
+                r["served_after_cut"] = nd - bl
+                r["cut_demands_down"] = 0
+                continue
+            routes = self._run_routes(r)
+            served = {str(rt.get("demand_id")) for rt in routes}
+            survivors = {str(rt.get("demand_id")) for rt in routes
+                         if not any(e in cutset for e in zip(resmod.parse_path(rt.get("path", ""))[:-1],
+                                                             resmod.parse_path(rt.get("path", ""))[1:]))}
+            r["cut_demands_down"] = len(served) - len(survivors)
+            r["served_after_cut"] = len(survivors)
+        names = ", ".join(ananmod.cut_name(ananmod.fibre(e[0], e[1])) for e in self.cut_fibres)
+        suffix = f"\n(cut {names})" if names else ""
+        plotting.plot_sweep(self.sweep_panel.axes[0], None, self.sweep.rows, compact=True,
+                            metric=self._sweep_metric_key(),
+                            metric_label=self.sweep_metric.get() + suffix)
+        self.sweep_panel.draw()
 
     def _show_sweep_only(self):
         self.run = None
@@ -364,7 +470,8 @@ class ResultsTab(ttk.Frame):
         bar.pack(side=tk.BOTTOM, fill=tk.X)          # packed first: always visible
         panel = FigurePanel(w, 1, 2, figsize=(13, 6))
         panel.pack(fill=tk.BOTH, expand=True)
-        plotting.plot_sweep(panel.axes[0], panel.axes[1], self.sweep.rows)
+        plotting.plot_sweep(panel.axes[0], panel.axes[1], self.sweep.rows,
+                            metric=self._sweep_metric_key(), metric_label=self.sweep_metric.get())
         panel.draw()
 
         w.save_as = lambda: save_figure_as(w, panel.fig, folder, "sweep")
@@ -375,21 +482,53 @@ class ResultsTab(ttk.Frame):
         return w
 
     # ------------------------------------------------------------------
+    def _sweep_metric_key(self) -> str:
+        """The summary field for the sweep y axis, from the chosen label."""
+        label = self.sweep_metric.get()
+        return next((k for k, lab in SWEEP_METRICS if lab == label), "wavelength_links")
+
+    def _postcut_occupancy(self, cut_links: set) -> dict:
+        """Wavelengths carried on each link AFTER the cut: a route survives only if its path
+        uses no cut link (a down demand carries nothing; a switched demand rides its backup)."""
+        occ: dict = {}
+        for r in self.run.routes:
+            p = resmod.parse_path(r.get("path", ""))
+            links = list(zip(p[:-1], p[1:]))
+            if any(e in cut_links for e in links):
+                continue                                  # this route is cut
+            t = resmod.to_number(r.get("traffic"), 0) or 0
+            for e in links:
+                occ[e] = occ.get(e, 0) + t
+        return occ
+
     def redraw(self):
         if self.run is None or self.run.G is None:
             return
-        self.view.draw(self.run.G, link_used=plotting.used_from_rows(self.run.links),
+        G = self.run.G
+        link_used = plotting.used_from_rows(self.run.links)
+        title = self.run.title
+        if self.cut_fibres:                               # show the plan AFTER the cut
+            cut_links = ananmod.cut_links(self.cut_fibres)
+            G = G.copy()
+            for (u, v) in cut_links:
+                if G.has_edge(u, v):
+                    G.edges[u, v]["up"] = False
+            link_used = self._postcut_occupancy(cut_links)
+            title = f"{self.run.title}\nafter cutting {', '.join(ananmod.cut_name(e) for e in self.cut_fibres)}"
+        self.view.draw(G, link_used=link_used,
                        highlight_paths=self.highlight_paths, highlight_links=self.highlight_links,
+                       backup_paths=self.backup_paths, down_paths=self.down_paths,
+                       cut_fibres=self.cut_fibres, regenerators=self.run.regenerator_counts(),
                        selected_link=self.selected_link, show_names=self.app.show_names.get(),
                        label_mode="util" if self.app.show_link_labels.get() else None,
-                       title=self.run.title, map_background=self.app.map_background.get())
+                       title=title, map_background=self.app.map_background.get())
 
     def _links_selected(self, rows):
         if self.run is None:
             return
         self.selected_link = (rows[0]["origin"], rows[0]["destination"]) if rows else None
         routes = self.run.routes_through(*self.selected_link) if self.selected_link else []
-        self.highlight_paths = [resmod.parse_path(r["path"]) for r in routes]
+        self.highlight_paths, self.backup_paths = self._split_paths(routes)
         self.highlight_links = set()
         if rows:
             r = rows[0]
@@ -399,9 +538,120 @@ class ResultsTab(ttk.Frame):
                                 + (f": {', '.join(str(i) for i in ids[:15])}" if ids else ""))
         self.redraw()
 
+    def _cut_solution(self) -> Solution:
+        """Rebuild a Solution (working/backup routes) from the shown run's route rows."""
+        sol = Solution()
+        for r in self.run.routes:
+            try:
+                sol.add_route(int(r["demand_id"]), resmod.parse_path(r["path"]),
+                              resmod.to_number(r.get("traffic"), 1) or 1,
+                              backup=(r.get("role") == "backup"))
+            except (TypeError, ValueError, KeyError):
+                continue
+        return sol
+
+    def _paths_by_demand(self, backup: bool) -> dict:
+        """{demand id (str): [node paths]} for the working (backup=False) or the backup routes."""
+        out: dict = {}
+        for r in self.run.routes:
+            if (r.get("role") == "backup") == backup:
+                out.setdefault(str(r["demand_id"]), []).append(resmod.parse_path(r["path"]))
+        return out
+
+    def _set_links_table(self):
+        """(Re)fill the Links table. With a cut active, the cut links show state CUT and the
+        used/utilization is recomputed on the network after the cut."""
+        cut_dir = ananmod.cut_links(self.cut_fibres) if self.cut_fibres else set()
+        occ = self._postcut_occupancy(cut_dir) if cut_dir else None
+        rows = []
+        for l in self.run.links:
+            o, d = l.get("origin"), l.get("destination")
+            cap = l.get("capacity") or 0
+            if (o, d) in cut_dir:
+                used, util, state = 0, (0.0 if cap else None), "CUT"
+            else:
+                used = occ.get((o, d), 0) if occ is not None else l.get("used", 0)
+                util = (used / cap) if cap else (l.get("utilization") if occ is None else None)
+                state = "UP" if l.get("up", True) else "DOWN"
+            rows.append(dict(l, used=used, free=(cap - used) if cap else l.get("free"),
+                             utilization=util,
+                             util=(round(100 * util, 1) if isinstance(util, (int, float)) else ""),
+                             state=state))
+        self.links_table.set_rows(rows, tags=lambda r: (
+            "bad" if r["state"] == "CUT" else
+            "muted" if r["state"] == "DOWN" else
+            "bad" if isinstance(r.get("util"), float) and r["util"] > 100.0001 else
+            "warn" if isinstance(r.get("util"), (int, float)) and r["util"] >= 99.9999 else None))
+
+    def _mark_demands_down(self, down_ids):
+        """Re-draw the Demands table with the cut's DOWN demands in red (ROUTED -> DOWN)."""
+        down = {str(i) for i in down_ids}
+        rows = [dict(r, state="DOWN" if str(r.get("demand_id")) in down and r.get("state") == "ROUTED"
+                     else r.get("state")) for r in self.run.demands_table]
+        self.demands_table.set_rows(rows, tags=lambda r: (
+            None if r.get("state") == "ROUTED"
+            else "bad" if r.get("state") in ("BLOCKED", "DOWN") else "warn"))
+
+    def _apply_cut(self):
+        """Show the plan AFTER the current cut: red X on the cut fibre(s), the working paths taken
+        DOWN in red, the backup paths of the switched demands in purple, the Demands table and the
+        title updated. Everything is recomputed live from the solution; the run is not re-run."""
+        if self.run is None or self.run.G is None:
+            return
+        if not self.cut_fibres:
+            self.highlight_paths, self.backup_paths, self.down_paths = [], [], []
+            self.demands_table.set_rows(self.run.demands_table, tags=lambda r: (
+                None if r.get("state") == "ROUTED"
+                else "bad" if r.get("state") in ("BLOCKED", "DOWN") else "warn"))
+            self._set_links_table()
+            self.app.set_status("All fibres repaired.")
+            self.redraw()
+            return
+        eff = ananmod.cut_effect(self.run.G, [], self._cut_solution(), self.cut_fibres)
+        work, back = self._paths_by_demand(False), self._paths_by_demand(True)
+        self.down_paths = [p for i in eff["down_ids"] for p in work.get(str(i), [])]
+        self.backup_paths = [p for i in eff["switched_ids"] for p in back.get(str(i), [])]
+        self.highlight_paths = []
+        self._mark_demands_down(eff["down_ids"])
+        self._set_links_table()
+        self.app.set_status(f"Cut {eff['fibres']}:  {eff['demands_hit']} demand(s) hit  ->  "
+                            f"{eff['demands_down']} DOWN (red), {eff['demands_switched']} switched to "
+                            f"their backup (purple).")
+        self.redraw()
+
+    def action_toggle_cut(self):
+        """Cut (or repair) the selected fibre AFTER planning and show the effect on the map."""
+        if self.run is None or self.run.G is None:
+            return
+        if not self.selected_link:
+            self.app.set_status("Select a link first (click it on the map or in the Links tab), "
+                                "then 'Cut / repair selected fibre'. Or click a row of the 'Fibre cuts' tab.")
+            return
+        u, v = self.selected_link
+        f = ananmod.fibre(u, v)
+        rest = [e for e in self.cut_fibres if ananmod.fibre(*e) != f]
+        self.cut_fibres = rest if len(rest) < len(self.cut_fibres) else rest + [(u, v)]
+        self._apply_cut()
+        self._refresh_sweep()                        # the sweep chart follows the cut links
+
+    def _cut_selected(self, rows):
+        """A row of the 'Fibre cuts' tab: cut exactly that fibre and show its effect."""
+        if self.run is None or not rows:
+            return
+        self.selected_link = None
+        self.cut_fibres = [(rows[0]["u"], rows[0]["v"])]
+        self._apply_cut()
+        self._refresh_sweep()
+
+    def _split_paths(self, rows):
+        """(working paths, backup paths) from route rows, by their 'role' column."""
+        working = [resmod.parse_path(r["path"]) for r in rows if r.get("role") != "backup"]
+        backup = [resmod.parse_path(r["path"]) for r in rows if r.get("role") == "backup"]
+        return working, backup
+
     def _routes_selected(self, rows):
         self.selected_link = None
-        self.highlight_paths = [resmod.parse_path(r["path"]) for r in rows]
+        self.highlight_paths, self.backup_paths = self._split_paths(rows)
         if rows:
             r = rows[0]
             self.app.set_status(f"Demand {r['demand_id']}: {r.get('traffic')} λ on {r['path']}"
@@ -412,10 +662,10 @@ class ResultsTab(ttk.Frame):
         if self.run is None:
             return
         self.selected_link = None
-        paths = []
+        route_rows = []
         for r in rows:
-            paths += [resmod.parse_path(x["path"]) for x in self.run.routes_of(r["demand_id"])]
-        self.highlight_paths = paths
+            route_rows += self.run.routes_of(r["demand_id"])
+        self.highlight_paths, self.backup_paths = self._split_paths(route_rows)
         if rows:
             r = rows[0]
             self.app.set_status(f"Demand {r['demand_id']} {r['origin']}->{r['destination']}: "
@@ -435,6 +685,7 @@ class ResultsTab(ttk.Frame):
             self.app.set_status(f"Node {node}: demands starting here are selected in the Demands tab.")
         else:
             self.highlight_paths, self.highlight_links, self.selected_link = [], set(), None
+            self.backup_paths, self.cut_fibres, self.down_paths = [], [], []
             self.redraw()
 
     # ------------------------------------------------------------------

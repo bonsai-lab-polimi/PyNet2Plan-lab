@@ -53,6 +53,7 @@ class FormulationInfo:
     splittable: bool = True
     allows_blocking: bool = False
     wavelength_continuity: bool = False
+    protection: bool = False              # every served demand needs a fibre-disjoint backup (1+1)
     origin: str = "formulations"          # formulations | solutions | imported
     todo_count: int = 0                   # 'raise NotCompletedError' lines left in the file
     order: int = 100                      # ORDER of the file: position in the lists
@@ -228,6 +229,7 @@ def load_formulation(path: str, origin: str = "formulations") -> FormulationInfo
     info.splittable = bool(getattr(module, "SPLITTABLE", True))
     info.allows_blocking = bool(getattr(module, "ALLOWS_BLOCKING", False))
     info.wavelength_continuity = bool(getattr(module, "WAVELENGTH_CONTINUITY", False))
+    info.protection = bool(getattr(module, "PROTECTION", False))
     try:
         info.order = int(getattr(module, "ORDER", 100))
     except (TypeError, ValueError):

@@ -9,6 +9,7 @@ import traceback
 from tkinter import filedialog, simpledialog, ttk
 
 from .. import __version__
+from .. import analysis as ananmod
 from .. import loader
 from .. import network as netmod
 from .. import results as resmod
@@ -35,6 +36,26 @@ EXAMPLES = [
     ("Spain-7: splittable vs unsplittable", "spain7.json", "spain7_traffic_split_vs_unsplit.csv",
      "Splitting matters here: try 'Compare (sweep)...' with splittable_flow and "
      "unsplittable_flow, capacities 32-60:2."),
+    ("Spain-7: 1+1 protection", "spain7.json", "spain7_protection.csv",
+     "Run 'greedy heuristic (no protection)' vs '(1+1 protection)' (and 'route formulation (1+1 "
+     "protection)'); in the Links tab cut Murcia-Valencia: 11 demands DOWN without protection, 0 with 1+1."),
+    ("Spain-7: heuristic vs route formulation", "spain7_tight.json", "spain7_tight.csv",
+     "Tight 10 lambda, 24 single-wavelength demands. Run all three: no protection serves 24 (no "
+     "backup), the 1+1 greedy heuristic 21, the route formulation (ILP) protects all 24. 'Compare "
+     "(sweep)...' over capacities 4-12: the ILP blocks fewer at every capacity and protects everything "
+     "from 10 lambda (the greedy needs 12). Cut Murcia-Valencia in the Links tab: 6 DOWN without "
+     "protection, 0 with 1+1."),
+    ("Italy-10: 1+1 protection example", "italy10_tight.json", "italy10_tight.csv",
+     "Tight 9 lambda, 30 single-wavelength demands. Run the three algorithms: no protection serves 30 "
+     "(no backup), the 1+1 greedy heuristic 26, the route formulation (ILP) protects all 30. 'Compare "
+     "(sweep)...' over capacities 5-13: the ILP blocks fewer at every capacity and protects everything "
+     "from 9 lambda (the greedy needs 13). Cut Bari-Venice in the Links tab: 8 DOWN without protection, "
+     "0 with 1+1."),
+    ("COST239: 3R regenerators (reach 800 km)", "cost239_3r.json", "cost239_traffic.csv",
+     "Optical reach 800 km (File > Limit the optical reach). Run 'greedy heuristic (no protection)': "
+     "the 9 demands farther than 800 km are blocked (16 of 25 served). Run 'greedy heuristic (no "
+     "protection, 3R regenerators)': all 25 served, with 42 3R regenerators in 5 nodes (orange squares "
+     "on the map, '3R nodes' in the Routes tab)."),
     ("NSFNET-14", "nsfnet14.json", "nsfnet14_traffic.csv", ""),
     ("COST239-11", "cost239.json", "cost239_traffic.csv", ""),
     ("Italy-10", "italy10.json", "italy10_traffic.csv", ""),
@@ -80,6 +101,10 @@ Quickest start: File > Open example loads a reference network with its traffic.
 
 Failures: select a node/link and 'Fail / repair selected': failed elements are
 removed from the network given to the algorithms.
+
+Optical reach: File > Limit the optical reach (no 3R regenerators) switches on a
+maximum lightpath length (File > Set the optical reach (km)...). Every path,
+working or backup, must then be at most that long; it is saved with the topology.
 
 Command line: python -m pynet2plan --help   (run, sweep, traffic, check, plot, ...)
 """
@@ -201,6 +226,8 @@ class App(tk.Tk):
         self.auto_open_results = tk.BooleanVar(value=False)
         self.include_solutions = tk.BooleanVar(value=True)
         self.solver = tk.StringVar(value="auto")
+        self.reach_on = tk.BooleanVar(value=False)   # File > optical reach: no 3R regenerators
+        self.reach_km = 1000.0                        # last reach entered (km)
 
         self.status_var = tk.StringVar(value="Ready")
         self.status_bar = ttk.Label(self, textvariable=self.status_var, relief=tk.SUNKEN, anchor=tk.W,
@@ -240,6 +267,10 @@ class App(tk.Tk):
         f.add_command(label="Random topology...", command=self.action_random_topology)
         f.add_command(label="Add cities...", command=self.action_add_cities)
         f.add_command(label="Rename network...", command=self.action_rename_network)
+        f.add_separator()
+        f.add_checkbutton(label="Limit the optical reach (no 3R regenerators)", variable=self.reach_on,
+                          command=self.action_toggle_reach)
+        f.add_command(label="Set the optical reach (km)...", command=self.action_set_reach)
         f.add_separator()
         f.add_command(label="Exit", command=self.on_close)
         m.add_cascade(label="File", menu=f)
@@ -396,6 +427,10 @@ class App(tk.Tk):
         self.topology_path = path
         self.dirty_topology = dirty
         self.design.selected_node = self.design.selected_link = self.design.pending = None
+        reach = netmod.optical_reach(G)              # the reach is saved with the topology
+        self.reach_on.set(reach is not None)
+        if reach is not None:
+            self.reach_km = reach
         bad = [d for d in self.demands if d.origin not in G or d.destination not in G]
         if bad and self.demands:
             self.set_status(f"Note: {len(bad)} demand(s) of the current traffic refer to nodes that "
@@ -529,6 +564,32 @@ class App(tk.Tk):
             self.G.graph["name"] = name
             self.topology_changed()
 
+    def action_toggle_reach(self):
+        """File > Limit the optical reach: switch the limit on (last value) or off."""
+        netmod.set_optical_reach(self.G, self.reach_km if self.reach_on.get() else None)
+        self.topology_changed()
+        self.set_status(f"Optical reach {self.reach_km:g} km: every lightpath (working or backup) must "
+                        f"be at most this long, there are no 3R regenerators." if self.reach_on.get()
+                        else "No optical reach limit: lightpaths of any length.")
+
+    def action_set_reach(self):
+        text = self.ask_string("Optical reach",
+                               "Maximum length of a lightpath in km, without 3R regenerators\n"
+                               "(every path, working or backup, must be at most this long):",
+                               f"{self.reach_km:g}")
+        if text in (None, ""):
+            return
+        try:
+            km = float(text)
+        except (TypeError, ValueError):
+            km = 0
+        if not km > 0:
+            error_dialog(self, "Optical reach", f"The reach must be a positive number of km, not {text!r}.")
+            return
+        self.reach_km = km
+        self.reach_on.set(True)
+        self.action_toggle_reach()
+
     # ------------------------------------------------------------------
     # Traffic
     # ------------------------------------------------------------------
@@ -565,10 +626,40 @@ class App(tk.Tk):
             return False
         self.generation_note = None
         self.set_demands(tf.demands, path)
+        cut = self._cut_in_comments(tf.comments)
+        ananmod.set_cut_fibres(self.G, cut)             # '# cut fibre: X-Y' lines (or clear if none)
         self.design.notebook.select(2)
+        extra = f"; fibre cut after planning: {', '.join(ananmod.cut_name(e) for e in cut)}" if cut else ""
         self.set_status(f"Loaded {len(tf.demands)} demands ({trafmod.total_traffic(tf.demands)} λ, "
-                        f"{tf.layout} layout) from {os.path.basename(path)}")
+                        f"{tf.layout} layout) from {os.path.basename(path)}{extra}")
         return True
+
+    def _cut_in_comments(self, comments):
+        """Fibres to cut after planning, from traffic-file comments like
+        '# cut fibre: Murcia-Valencia' or '# cut fibres: A-B, C-D' (node names may contain '-')."""
+        out = []
+        for line in comments or []:
+            low = line.strip().lower()
+            if not (low.startswith("cut fibre:") or low.startswith("cut fibres:")):
+                continue
+            body = line.split(":", 1)[1]
+            for entry in body.split(","):
+                f = self._fibre_from_text(entry, self.G)
+                if f:
+                    out.append(f)
+        return out
+
+    @staticmethod
+    def _fibre_from_text(text, G):
+        """Parse 'A-B' into the fibre (A, B), matching against the node names of G (a node name
+        may itself contain '-'); None if no split gives two existing nodes."""
+        text = text.strip()
+        for k in range(1, len(text)):
+            if text[k] == "-":
+                a, b = text[:k].strip(), text[k + 1:].strip()
+                if a in G and b in G:
+                    return (a, b)
+        return None
 
     def action_random_traffic(self):
         if self.G.number_of_nodes() < 2:
@@ -1089,3 +1180,7 @@ class App(tk.Tk):
 def main():
     app = App()
     app.mainloop()
+
+
+if __name__ == "__main__":
+    main()

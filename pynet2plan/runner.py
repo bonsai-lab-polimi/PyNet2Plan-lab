@@ -280,7 +280,8 @@ def run_algorithm(G: nx.DiGraph, demands: list, formulation, params: dict | None
     try:
         issues = validate_solution(H, routable, solution, splittable=info.splittable,
                                    allows_blocking=info.allows_blocking,
-                                   wavelength_continuity=info.wavelength_continuity)
+                                   wavelength_continuity=info.wavelength_continuity,
+                                   protection=info.protection)
     except Exception as e:  # noqa: BLE001 - malformed routes (e.g. unhashable nodes)
         short, details = describe_exception(e)
         return finish("INVALID", "The solution cannot be checked (malformed routes):\n" + short,

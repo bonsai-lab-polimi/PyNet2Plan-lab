@@ -161,8 +161,9 @@ class DesignTab(ttk.Frame):
     def _title(self):
         G = self.app.G
         name = G.graph.get("name", "")
+        reach = netmod.optical_reach(G)
         return f"{name}   ({G.number_of_nodes()} nodes, {G.number_of_edges()} links, " \
-               f"{len(self.app.demands)} demands)"
+               f"{len(self.app.demands)} demands" + (f", reach {reach:g} km" if reach else "") + ")"
 
     def _fill_tables(self):
         G = self.app.G
@@ -206,6 +207,8 @@ class DesignTab(ttk.Frame):
             f"Capacity:  {s['min_capacity']} - {s['max_capacity']} wavelengths per fiber",
             f"Fibers:    {s['min_fibers']} - {s['max_fibers']} per link "
             f"(total {s['total_capacity']} wavelengths on all links)",
+            f"Optical reach: " + (f"{netmod.optical_reach(G):g} km (no 3R regenerators: longer lightpaths "
+                                  f"are not allowed)" if netmod.optical_reach(G) else "no limit"),
             f"Mean out-degree: {s['avg_out_degree']:.2f}",
             f"Strongly connected (up elements): {'yes' if s['strongly_connected'] else 'NO'}",
             f"Geographic (lat/lon) nodes: {'yes' if s['geographic'] else 'no'}",

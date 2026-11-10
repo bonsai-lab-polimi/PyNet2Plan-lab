@@ -1,0 +1,35 @@
+# Spain-7 'heuristic vs route formulation' example: 24 single-wavelength demands, 10 wavelengths/link.
+# Run all three algorithms once (Results shows how many demands each serves):
+#   greedy heuristic (no protection)   -> 24 served (no backup).
+#   greedy heuristic (1+1 protection)  -> 21 served (blocks 3).
+#   route formulation (1+1 protection) -> 24 served (blocks 0): every demand protected.
+# The ILP (global optimum) protects 3 more demands than the greedy heuristic at the same capacity.
+# Compare (sweep)... over capacities 4-12: the route formulation blocks fewer demands than the greedy
+# at every capacity, and protects all 24 from 10 wavelengths (the greedy needs 12).
+# After planning, cutting Murcia-Valencia takes 6 demands DOWN without protection, 0 with 1+1.
+# cut fibre: Murcia-Valencia
+id,origin,destination,traffic
+0,Murcia,Valencia,1
+1,Malaga,Valencia,1
+2,Valencia,Madrid,1
+3,Madrid,Barcelona,1
+4,Zaragoza,Barcelona,1
+5,Sevilla,Valencia,1
+6,Barcelona,Zaragoza,1
+7,Murcia,Zaragoza,1
+8,Valencia,Zaragoza,1
+9,Madrid,Zaragoza,1
+10,Sevilla,Murcia,1
+11,Malaga,Murcia,1
+12,Valencia,Sevilla,1
+13,Madrid,Sevilla,1
+14,Sevilla,Barcelona,1
+15,Sevilla,Malaga,1
+16,Madrid,Murcia,1
+17,Valencia,Murcia,1
+18,Barcelona,Madrid,1
+19,Zaragoza,Madrid,1
+20,Malaga,Zaragoza,1
+21,Barcelona,Malaga,1
+22,Malaga,Sevilla,1
+23,Madrid,Malaga,1

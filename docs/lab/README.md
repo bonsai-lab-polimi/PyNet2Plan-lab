@@ -8,6 +8,7 @@
 | 3 | [`03_first_ilp.pdf`](03_first_ilp.pdf) | the splittable flow formulation on Spain-7: effect of the capacity, fibre cuts |
 | 4 | [`04_unsplittable_flow.pdf`](04_unsplittable_flow.pdf) | Lab 2: completing the unsplittable flow formulation and comparing it with the splittable one (`labs/lab2_unsplittable.py`) |
 | 5 | [`05_route_formulation.pdf`](05_route_formulation.pdf) | Lab 2: completing the route formulation and comparing it with the flow formulation (`labs/lab2_route_formulation.py`) |
+| 6 | [`06_protection_route_formulation.pdf`](06_protection_route_formulation.pdf) | Lab 3: the route formulation with 1+1 protection, one page (exercise `formulations/protection_route_formulation.py`) |
 
 The folder `screenshots/` contains the screenshots of the handouts with the numbered labels,
 and `screenshots/raw/` the same screenshots without them; those of handout 4 are in

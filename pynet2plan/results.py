@@ -10,7 +10,8 @@ or handed in::
         summary.csv        one row: algorithm, parameters, status, objective, time, ...
         links.csv          link occupancy: fibers, wavelengths per fiber, capacity
                            (= fibers x wavelengths per fiber), used, free, utilization
-        routes.csv         one row per route: demand, path, wavelengths carried
+        routes.csv         one row per route: demand, path, wavelengths carried,
+                           3R regenerators (nodes)
         demands.csv        per demand: offered, carried, blocked
         wavelengths.csv    (only with wavelength assignment) link, wavelength, demand
         validation.csv     problems found by the solution checker
@@ -40,6 +41,7 @@ from dataclasses import dataclass, field
 
 import networkx as nx
 
+from . import analysis as ananmod
 from . import network as netmod
 from . import traffic as trafmod
 from .errors import ResultsError
@@ -56,12 +58,15 @@ SUMMARY_FIELDS = [
     "blocked_demands", "unreachable_demands",
     "max_utilization", "avg_utilization", "saturated_links", "unused_links",
     "avg_hops", "max_hops", "avg_route_km", "split_demands", "wavelengths_needed",
+    "protected_demands", "demands_down_worst_cut", "wavelengths_down_worst_cut", "worst_cut",
+    "cut_after_planning", "cut_demands_down", "cut_demands_switched", "served_after_cut",
+    "optical_reach_km", "out_of_reach_demands", "regenerators", "regenerator_sites",
     "errors", "warnings", "solution_info", "pynet2plan_version", "run_folder",
 ]
 LINK_FIELDS = ["origin", "destination", "fibers", "wavelengths_per_fiber", "capacity", "used",
                "free", "utilization", "length", "up", "num_demands"]
-ROUTE_FIELDS = ["demand_id", "origin", "destination", "route_id", "traffic", "hops",
-                "length_km", "path", "wavelengths"]
+ROUTE_FIELDS = ["demand_id", "origin", "destination", "route_id", "role", "traffic", "hops",
+                "length_km", "path", "wavelengths", "regenerators"]
 DEMAND_FIELDS = ["demand_id", "origin", "destination", "offered", "carried", "blocked",
                  "num_routes", "state"]
 WAVELENGTH_FIELDS = ["origin", "destination", "wavelength", "demand_id"]
@@ -162,9 +167,11 @@ def build_tables(G: nx.DiGraph, demands: list, solution, unreachable: list = ())
                     km += float(G.edges[i, j].get("length") or 0)
             routes.append(dict(demand_id=r.demand_id,
                                origin=d.origin if d else "", destination=d.destination if d else "",
-                               route_id=k, traffic=r.traffic, hops=r.hops, length_km=round(km, 3),
-                               path=r.path_str(),
-                               wavelengths=";".join(str(w) for w in r.wavelengths) if r.wavelengths else ""))
+                               route_id=k, role="backup" if r.backup else "working",
+                               traffic=r.traffic, hops=r.hops, length_km=round(km, 3),
+                               path=r.path_str(), backup=r.backup,
+                               wavelengths=";".join(str(w) for w in r.wavelengths) if r.wavelengths else "",
+                               regenerators=";".join(str(n) for n in r.regenerators or [])))
             hops_w += r.traffic * r.hops
             km_w += r.traffic * km
             carried_total += r.traffic
@@ -179,7 +186,8 @@ def build_tables(G: nx.DiGraph, demands: list, solution, unreachable: list = ())
         paths: dict = {}
         for r in solution.routes:
             nroutes[r.demand_id] = nroutes.get(r.demand_id, 0) + 1
-            paths.setdefault(r.demand_id, set()).add(tuple(r.path))
+            if not r.backup:                       # a 1+1 backup is not a split of the traffic
+                paths.setdefault(r.demand_id, set()).add(tuple(r.path))
         split = sum(1 for p in paths.values() if len(p) > 1)
     unreachable = set(unreachable)
     dem_rows = []
@@ -228,7 +236,46 @@ def build_tables(G: nx.DiGraph, demands: list, solution, unreachable: list = ())
         split_demands=split,
         wavelengths_needed=max_wl if max_wl is not None else "",
     )
-    return dict(links=links, routes=routes, demands=dem_rows, wavelengths=wl_rows, metrics=metrics)
+
+    # ---- optical reach (no 3R): demands whose shortest path is already too long ----
+    reach = netmod.optical_reach(G)
+    if reach is not None:
+        H = netmod.working_graph(G)
+        far = 0
+        for d in demands:
+            if d.id in unreachable:
+                continue
+            try:
+                km = nx.shortest_path_length(H, d.origin, d.destination, weight="length")
+            except (nx.NetworkXNoPath, nx.NodeNotFound):
+                continue
+            if km > reach + 1e-9:
+                far += 1
+        metrics["optical_reach_km"] = G.graph["optical_reach_km"]
+        metrics["out_of_reach_demands"] = far
+    if solution is not None and (reach is not None or solution.num_regenerators()):
+        metrics["regenerators"] = solution.num_regenerators()
+        metrics["regenerator_sites"] = len({n for r in solution.routes for n in r.regenerators or []})
+
+    # ---- what a fibre cut AFTER planning does to this plan (only when it is
+    #      relevant: a 1+1 solution, or a fibre cut after planning is set) ----
+    cut_rows = []
+    protected = {r.demand_id for r in solution.routes if r.backup} if solution is not None else set()
+    cut_set = ananmod.cut_fibres(G)
+    if solution is not None and (protected or cut_set):
+        cut_rows = ananmod.fibre_cuts(G, demands, solution)
+        metrics.update(ananmod.cut_metrics(cut_rows))
+        metrics["protected_demands"] = len(protected)
+        if cut_set:
+            eff = ananmod.cut_effect(G, demands, solution, cut_set)
+            served = len(demands) - blocked_dem
+            metrics["cut_after_planning"] = eff["fibres"]
+            metrics["cut_demands_down"] = eff["demands_down"]
+            metrics["cut_demands_switched"] = eff["demands_switched"]
+            metrics["served_after_cut"] = served - eff["demands_down"]
+
+    return dict(links=links, routes=routes, demands=dem_rows, wavelengths=wl_rows,
+                fibre_cuts=cut_rows, metrics=metrics)
 
 
 # ----------------------------------------------------------------------
@@ -299,6 +346,26 @@ def format_report(summary: dict, issues: list | None = None) -> str:
         f"mean length {num('avg_route_km', '{:.1f}')} km, {s.get('split_demands', 0) or 0} demands split "
         f"over several paths",
     ]
+    prot = to_number(s.get("protected_demands"), 0) or 0
+    down = to_number(s.get("demands_down_worst_cut"), 0) or 0
+    if prot:
+        lines.append(f"1+1 protection:    {int(prot)} demand(s) carried on a working AND a backup path; "
+                     f"the worst single fibre cut takes {int(down)} down.")
+    if s.get("cut_after_planning"):
+        lines.append(f"Fibre cut now:     {s['cut_after_planning']}  ->  "
+                     f"{to_number(s.get('cut_demands_down'), 0) or 0:g} demand(s) DOWN, "
+                     f"{to_number(s.get('cut_demands_switched'), 0) or 0:g} switched to their backup.")
+    if s.get("optical_reach_km") not in ("", None):
+        far = int(to_number(s.get("out_of_reach_demands"), 0) or 0)
+        lines.append(f"Optical reach:     {num('optical_reach_km')} km: no stretch of a lightpath without "
+                     f"a 3R regenerator may be longer; {far} demand(s) are farther than that even on "
+                     f"their shortest path.")
+    if s.get("regenerators") not in ("", None):
+        regs = int(to_number(s.get("regenerators"), 0) or 0)
+        lines.append(f"3R regenerators:   {regs}" + (
+            f" (one per wavelength in every regeneration node), in "
+            f"{int(to_number(s.get('regenerator_sites'), 0) or 0)} node(s): see the Routes tab and the "
+            f"3R marks on the map." if regs else " (every path is within the reach)."))
     if s.get("wavelengths_needed") not in ("", None):
         lines.append(f"Wavelengths needed:  {s['wavelengths_needed']}  (indices 0..{int(s['wavelengths_needed']) - 1} used)")
     if issues:
@@ -397,6 +464,15 @@ class RunResults:
 
     def routes_of(self, demand_id) -> list:
         return [r for r in self.routes if str(r.get("demand_id")) == str(demand_id)]
+
+    def regenerator_counts(self) -> dict:
+        """{node: number of 3R regenerators in it} (one per wavelength of every regenerated route)."""
+        out: dict = {}
+        for r in self.routes:
+            for n in str(r.get("regenerators") or "").split(";"):
+                if n.strip():
+                    out[n.strip()] = out.get(n.strip(), 0) + int(to_number(r.get("traffic"), 0) or 0)
+        return out
 
     def routes_through(self, origin, destination) -> list:
         out = []
@@ -511,7 +587,7 @@ def list_runs(root: str, limit: int | None = None) -> list:
         try:
             if is_sweep_folder(p):
                 rows = read_csv(os.path.join(p, "sweep_summary.csv"))
-                ok = sum(1 for r in rows if r.get("status") in ("OPTIMAL", "FEASIBLE"))
+                ok = sum(1 for r in rows if r.get("status") in ("OPTIMAL", "FEASIBLE", "BLOCKING"))
                 first = rows[0] if rows else {}
                 algos = sorted({r.get("algorithm", "") for r in rows})
                 out.append(dict(kind="sweep", folder=p, date=first.get("date", ""),

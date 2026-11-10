@@ -476,3 +476,126 @@ def test_corrupted_results_folder(app, tmp_path):
     assert not app.results.open_folder(folder)
     assert app.last_dialog[0] == "error" and "missing column" in app.last_dialog[2]
     app.redraw_all()                                              # nothing half-loaded
+
+
+def test_protection_example_fibre_cuts(app):
+    """The protection example: the run is a clean plan (no cut by default); cutting a fibre in the
+    Results view is interactive. No protection loses 11 demands; 1+1 loses none."""
+    assert app.do_open_topology(os.path.join(DATA, "topologies", "spain7.json"))
+    assert app.do_open_traffic(os.path.join(DATA, "traffic", "spain7_protection.csv"))
+    app.update()
+
+    # no protection: clean FEASIBLE plan, nothing DOWN until the user cuts a fibre
+    res = run_selected(app, "greedy_no_protection")
+    assert res["status"] in ("FEASIBLE", "OPTIMAL") and res["summary"]["blocked_demands"] == 0
+    assert app.results.open_folder(res["folder"])
+    assert app.results.cut_fibres == [] and not app.results.down_paths          # default: no cut
+    assert not any(r.get("state") == "DOWN" for r in app.results.demands_table.rows)
+    rows = {r["fibre"]: r for r in app.results.cuts_table.rows}
+    assert rows["Murcia-Valencia"]["demands_down"] == 11                        # the tab still reports it
+    # cut the chosen link interactively: 11 demands go DOWN
+    app.results.selected_link = ("Murcia", "Valencia")
+    app.results.action_toggle_cut()
+    assert app.results.cut_fibres == [("Murcia", "Valencia")]
+    assert sum(1 for r in app.results.demands_table.rows if r.get("state") == "DOWN") == 11
+    assert app.results.down_paths and not app.results.backup_paths
+    cut_links = [r for r in app.results.links_table.rows if r.get("state") == "CUT"]
+    assert {(r["origin"], r["destination"]) for r in cut_links} == {("Murcia", "Valencia"),
+                                                                     ("Valencia", "Murcia")}
+    app.results.action_toggle_cut()                                             # repair
+    assert not any(r.get("state") == "DOWN" for r in app.results.demands_table.rows)
+    assert not any(r.get("state") == "CUT" for r in app.results.links_table.rows)
+
+    # 1+1: cutting the same fibre takes nothing down (demands switch to their backup)
+    res = run_selected(app, "greedy_1plus1_protection")
+    assert res["status"] in ("FEASIBLE", "OPTIMAL") and res["summary"]["blocked_demands"] == 0
+    assert app.results.open_folder(res["folder"])
+    rows = {r["fibre"]: r for r in app.results.cuts_table.rows}
+    assert rows["Murcia-Valencia"]["demands_down"] == 0
+    assert rows["Murcia-Valencia"]["demands_switched"] == 11
+    app.results.selected_link = ("Murcia", "Valencia")
+    app.results.action_toggle_cut()
+    assert not any(r.get("state") == "DOWN" for r in app.results.demands_table.rows)
+    assert app.results.backup_paths and not app.results.down_paths              # they switch to backup
+
+    # the sweep metric 'demands blocked after the cut' separates the two algorithms
+    app.results.sweep_metric.set("demands blocked after the cut")
+    assert app.results._sweep_metric_key() == "cut_demands_down"
+
+
+def test_sweep_cut_updates_plot(app):
+    """Compare (sweep) of the two heuristics; choosing a fibre to cut recomputes the
+    'served/down after the cut' metrics per run, separating protection from no protection."""
+    assert app.do_open_topology(os.path.join(DATA, "topologies", "spain7.json"))
+    assert app.do_open_traffic(os.path.join(DATA, "traffic", "spain7_protection.csv"))
+    app.update()
+    infos = {os.path.splitext(f.filename)[0]: f for f in app.formulations}
+    spec = dict(capacities=[24, 40],
+                algorithms=[(infos["greedy_no_protection"], {}),
+                            (infos["greedy_1plus1_protection"], {})])
+    app.do_sweep(spec)
+    assert app.wait_for_job(300)
+    assert app.results.open_folder(app.last_result["folder"])
+    r = app.results
+    # default: no cut; 1+1 blocks some demands at C=24, so the chart starts on 'blocked demands'
+    # (a blocking run uses fewer wavelengths only because it serves less)
+    assert any(row["status"] == "BLOCKING" for row in r.sweep.rows)
+    assert r.cut_fibres == [] and r._sweep_metric_key() == "blocked_demands"
+    # cut a link in the Results view: the sweep chart follows it
+    r.selected_link = ("Murcia", "Valencia")
+    r.action_toggle_cut()
+    assert r.cut_fibres == [("Murcia", "Valencia")]
+    assert r._sweep_metric_key() in ("served_after_cut", "cut_demands_down")    # auto demand metric
+    no = [row for row in r.sweep.rows if "no protection" in row["algorithm"]]
+    one = [row for row in r.sweep.rows if "1+1" in row["algorithm"]]
+    assert all(row["cut_demands_down"] == 11 for row in no)       # no protection loses 11 at any C
+    assert all(row["cut_demands_down"] == 0 for row in one)       # 1+1 loses none
+    assert max(row["served_after_cut"] for row in one) == 30      # 1+1 serves all after the cut
+    # repair it: the chart goes back to the plain plot
+    r.action_toggle_cut()
+    assert r.cut_fibres == [] and r._sweep_metric_key() == "blocked_demands"
+
+
+def test_optical_reach_switch(app):
+    """File > Limit the optical reach: the switch puts the reach on the network (so it reaches
+    the algorithms and is saved), 'Set the optical reach' changes it, opening a file syncs it."""
+    from pynet2plan import network as netmod
+    assert app.do_open_example("Spain-7: 1+1 protection")
+    app.update()
+    assert not app.reach_on.get() and netmod.optical_reach(app.G) is None
+    app.test_answers = ["1000"]
+    app.action_set_reach()
+    assert app.reach_on.get() and netmod.optical_reach(app.G) == 1000
+    assert "1000 km" in app.design.info_text.get("1.0", "end")
+    res = run_selected(app, "greedy_1plus1_protection")
+    assert res["status"] == "BLOCKING" and int(res["summary"]["blocked_demands"]) == 13
+    app.reach_on.set(False)                           # the menu check button
+    app.action_toggle_reach()
+    assert netmod.optical_reach(app.G) is None
+    app.reach_on.set(True)                            # back on: the last value is kept
+    app.action_toggle_reach()
+    assert netmod.optical_reach(app.G) == 1000
+    app.test_answers = ["abc"]                        # a wrong value changes nothing
+    app.action_set_reach()
+    assert netmod.optical_reach(app.G) == 1000
+    app.dirty_topology = False
+    assert app.do_open_example("Spain-7: 1+1 protection")   # a file without reach: switch off
+    assert not app.reach_on.get()
+
+
+def test_3r_example_in_the_gui(app):
+    """COST239 with reach 800 km: the switch is on after opening it, greedy with 3R serves all
+    25 demands and the map shows the 3R marks; the Routes tab lists the 3R nodes."""
+    app.dirty_topology = app.dirty_traffic = False
+    assert app.do_open_example("COST239: 3R regenerators (reach 800 km)")
+    app.update()
+    assert app.reach_on.get() and app.reach_km == 800
+    res = run_selected(app, "greedy_no_protection")
+    assert int(res["summary"]["blocked_demands"]) == 9
+    res = run_selected(app, "greedy_3r")
+    assert res["status"] == "FEASIBLE" and int(res["summary"]["regenerators"]) == 42
+    assert app.results.open_folder(res["folder"])
+    app.update()
+    texts = [t.get_text() for t in app.results.view.ax.texts]
+    assert sum(1 for t in texts if t.startswith("3R×")) == 5
+    assert any(r.get("regenerators") for r in app.results.routes_table.rows)

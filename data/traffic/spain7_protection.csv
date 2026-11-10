@@ -1,0 +1,39 @@
+# Spain-7 protection example: 30 demands, every link 40 wavelengths.
+# Both greedy heuristics (no protection / 1+1 protection) serve all 30 demands.
+# The line below cuts fibre Murcia-Valencia AFTER planning: without protection 11
+# demands go DOWN, with 1+1 all 0 (they switch to their backup path). See Results >
+# Fibre cuts, and 'Compare (sweep)...' with the metric 'demands blocked after the cut'.
+# 1+1 costs about 2.9x the wavelengths (321 vs 111 link-wavelengths).
+# Built with traffic.random_traffic(spain7, num_demands=30, max_traffic=3, seed=179).
+# cut fibre: Murcia-Valencia
+id,origin,destination,traffic
+0,Murcia,Barcelona,1
+1,Malaga,Zaragoza,1
+2,Sevilla,Malaga,2
+3,Madrid,Malaga,3
+4,Murcia,Zaragoza,1
+5,Zaragoza,Barcelona,1
+6,Madrid,Murcia,3
+7,Barcelona,Murcia,3
+8,Zaragoza,Malaga,2
+9,Valencia,Sevilla,1
+10,Sevilla,Barcelona,3
+11,Madrid,Valencia,1
+12,Malaga,Valencia,1
+13,Malaga,Sevilla,2
+14,Barcelona,Zaragoza,3
+15,Valencia,Murcia,2
+16,Murcia,Madrid,3
+17,Barcelona,Malaga,2
+18,Madrid,Sevilla,1
+19,Sevilla,Madrid,2
+20,Madrid,Zaragoza,2
+21,Barcelona,Valencia,2
+22,Zaragoza,Murcia,2
+23,Malaga,Barcelona,2
+24,Valencia,Madrid,3
+25,Murcia,Valencia,1
+26,Murcia,Sevilla,3
+27,Valencia,Zaragoza,3
+28,Zaragoza,Sevilla,1
+29,Sevilla,Valencia,3

@@ -1,0 +1,40 @@
+# Italy-10 1+1 protection example: 30 single-wavelength demands, 9 wavelengths/link.
+# Run the three algorithms (Results shows how many demands each serves):
+#   greedy heuristic (no protection)   -> 30 served (no backup).
+#   greedy heuristic (1+1 protection)  -> 26 served (blocks 4).
+#   route formulation (1+1 protection) -> 30 served (blocks 0): every demand protected.
+# Compare (sweep)... over capacities 5-13: the route formulation blocks fewer demands than the
+# greedy at every capacity, and protects all 30 from 9 wavelengths (the greedy needs 13).
+# After planning, cutting Bari-Venice takes 8 demands DOWN without protection, 0 with 1+1.
+# cut fibre: Bari-Venice
+id,origin,destination,traffic
+0,Venice,Rome,1
+1,Bologna,Genoa,1
+2,Milan,Genoa,1
+3,Genoa,Bari,1
+4,Milan,Florence,1
+5,Venice,Naples,1
+6,Naples,Florence,1
+7,Bari,Milan,1
+8,Venice,Turin,1
+9,Bari,Genoa,1
+10,Turin,Bologna,1
+11,Rome,Naples,1
+12,Venice,Genoa,1
+13,Milan,Turin,1
+14,Bologna,Florence,1
+15,Naples,Milan,1
+16,Bologna,Turin,1
+17,Palermo,Naples,1
+18,Turin,Milan,1
+19,Venice,Palermo,1
+20,Bologna,Rome,1
+21,Milan,Bologna,1
+22,Naples,Palermo,1
+23,Bari,Naples,1
+24,Palermo,Venice,1
+25,Bari,Bologna,1
+26,Naples,Genoa,1
+27,Milan,Palermo,1
+28,Bologna,Naples,1
+29,Florence,Naples,1

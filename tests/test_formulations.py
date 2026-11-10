@@ -10,7 +10,8 @@ from pynet2plan.traffic import Demand
 from conftest import DATA, FORMULATIONS, HAS_SOLUTIONS, SOLUTIONS, needs_solutions, small_demands, small_network
 
 GIVEN = ["splittable_flow"]
-EXERCISES = ["unsplittable_flow", "route_formulation_vwp", "ksp_first_fit", "route_formulation_wp"]
+EXERCISES = ["unsplittable_flow", "route_formulation_vwp", "ksp_first_fit", "route_formulation_wp",
+             "protection_route_formulation"]
 #: exercises released to the students for the first labs (see tools/make_student_version.py)
 FIRST_LABS = ["unsplittable_flow", "route_formulation_vwp"]
 

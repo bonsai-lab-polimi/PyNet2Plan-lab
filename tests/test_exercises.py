@@ -118,3 +118,21 @@ def test_ksp_first_fit(spain):
     assert r.summary["blocked_traffic"] > 0 and r.summary["max_utilization"] <= 1 + 1e-9
     r2 = run("ksp_first_fit", with_capacity(G, 15), D, k=3, order="largest_first")
     assert r2.status in ("FEASIBLE", "BLOCKING"), r2.message
+
+
+def test_protection_route_formulation():
+    """Lab 3: the route formulation with 1+1 protection (notation of slide 72 of the course)."""
+    completed("protection_route_formulation")
+    from pynet2plan import traffic
+    G = network.load_topology(os.path.join(DATA, "topologies", "spain7_tight.json"))
+    D = traffic.load_traffic(os.path.join(DATA, "traffic", "spain7_tight.csv"), G)
+    rf = run("protection_route_formulation", G, D)
+    assert rf.status == "OPTIMAL", rf.message                  # valid: disjoint backups, no clash
+    assert rf.summary["blocked_demands"] == 0                   # all 24 protected at 10 wavelengths
+    assert rf.summary["protected_demands"] == 24
+    greedy = run("greedy_1plus1_protection", G, D)
+    assert greedy.summary["blocked_demands"] == 3               # the greedy blocks 3
+    small = with_capacity(G, 6)                                 # scarce capacity: some are blocked,
+    rf6 = run("protection_route_formulation", small, D)         # but never more than the greedy
+    assert rf6.status == "BLOCKING", rf6.message
+    assert rf6.summary["blocked_demands"] <= run("greedy_1plus1_protection", small, D).summary["blocked_demands"]

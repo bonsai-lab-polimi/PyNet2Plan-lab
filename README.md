@@ -24,7 +24,8 @@ The handouts of the laboratory are in [`docs/lab/`](docs/lab/README.md):
 [networks as NetworkX graphs](docs/lab/02_networkx_backend.pdf),
 [the splittable flow formulation](docs/lab/03_first_ilp.pdf) (Lab 1),
 [the unsplittable flow formulation](docs/lab/04_unsplittable_flow.pdf) and
-[the route formulation](docs/lab/05_route_formulation.pdf) (Lab 2). The
+[the route formulation](docs/lab/05_route_formulation.pdf) (Lab 2),
+[the route formulation with 1+1 protection](docs/lab/06_protection_route_formulation.pdf) (Lab 3). The
 material of each lab is added to the repository before the lab: get it with `git pull` (see
 below).
 

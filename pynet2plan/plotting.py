@@ -54,7 +54,11 @@ DOWN_COLOR = "#9e9e9e"
 NODE_COLOR = "#1565c0"
 NODE_DOWN_COLOR = "#c62828"
 HIGHLIGHT_COLOR = "#00acc1"
+BACKUP_COLOR = "#7b3fa0"       # 1+1 backup paths (highlighted in purple)
+CUT_COLOR = "#d62728"         # a fibre cut after planning (red X)
+DOWN_PATH_COLOR = "#e53935"   # a working path taken down by a cut (red overlay)
 SELECT_COLOR = "#ffb300"
+REGEN_COLOR = "#e65100"       # nodes with 3R regenerators (orange square + "3R×n")
 
 
 def util_color(util) -> str:
@@ -100,7 +104,9 @@ def link_midpoint(G, u, v) -> tuple:
 
 
 def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list | None = None,
-                 highlight_links: set | None = None, selected_node=None, selected_link=None,
+                 highlight_links: set | None = None, backup_paths: list | None = None,
+                 down_paths: list | None = None, cut_fibres=None, regenerators: dict | None = None,
+                 selected_node=None, selected_link=None,
                  show_names: bool = True, label_mode: str | None = "util",
                  title: str | None = None, legend: bool = True, map_background: bool = False,
                  node_size: float | None = None) -> None:
@@ -108,7 +114,10 @@ def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list 
 
     link_used        {(u, v): wavelengths used}; if given, links are colored by
                      utilization (results view), otherwise in a neutral color
-    highlight_paths  list of node paths drawn as a thick colored overlay
+    highlight_paths  list of node paths drawn as a thick colored overlay (e.g. working paths)
+    backup_paths     list of node paths drawn as a thick purple overlay (1+1 backup paths)
+    cut_fibres       iterable of (u, v): fibres cut after planning, marked with a red X
+    regenerators     {node: number of 3R regenerators}: an orange square and "3R×n" on those nodes
     label_mode       "util" (percentage), "used" (used/capacity), "capacity" or None
                      ("capacity" shows "2×40" for a link with 2 fibers of 40 wavelengths)
     """
@@ -139,6 +148,12 @@ def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list 
     hl_path_links = set()
     for p in highlight_paths or []:
         hl_path_links.update(zip(p[:-1], p[1:]))
+    bk_path_links = set()
+    for p in backup_paths or []:
+        bk_path_links.update(zip(p[:-1], p[1:]))
+    down_path_links = set()
+    for p in down_paths or []:
+        down_path_links.update(zip(p[:-1], p[1:]))
 
     for u, v, a in G.edges(data=True):
         pu, pv = G.nodes[u], G.nodes[v]
@@ -156,6 +171,16 @@ def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list 
         else:
             color, lw, ls = DESIGN_LINK_COLOR, 1.4 + 1.2 * min(fibers - 1, 3), "-"
         rad = _curve(G, u, v)
+        if (u, v) in down_path_links:
+            ax.annotate("", xy=(pv["x"], pv["y"]), xytext=(pu["x"], pu["y"]),
+                        arrowprops=dict(arrowstyle="-", color=DOWN_PATH_COLOR, lw=lw + 6, alpha=0.6,
+                                        shrinkA=shrink, shrinkB=shrink,
+                                        connectionstyle=f"arc3,rad={rad}"), zorder=2)
+        if (u, v) in bk_path_links:
+            ax.annotate("", xy=(pv["x"], pv["y"]), xytext=(pu["x"], pu["y"]),
+                        arrowprops=dict(arrowstyle="-", color=BACKUP_COLOR, lw=lw + 6, alpha=0.5,
+                                        shrinkA=shrink, shrinkB=shrink, linestyle=(0, (4, 2)),
+                                        connectionstyle=f"arc3,rad={rad}"), zorder=2)
         if (u, v) in hl_path_links or (u, v) in highlight_links:
             ax.annotate("", xy=(pv["x"], pv["y"]), xytext=(pu["x"], pu["y"]),
                         arrowprops=dict(arrowstyle="-", color=HIGHLIGHT_COLOR, lw=lw + 6, alpha=0.55,
@@ -186,11 +211,21 @@ def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list 
                         zorder=4, bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="none",
                                             alpha=0.85))
 
+    for (u, v) in cut_fibres or []:
+        if G.has_node(u) and G.has_node(v):
+            mx, my = link_midpoint(G, u, v)
+            ax.plot(mx, my, "x", color=CUT_COLOR, markersize=14 if many else 18,
+                    markeredgewidth=3 if many else 4, zorder=7)
+
     colors, edgecolors, lws = [], [], []
     for name, a in G.nodes(data=True):
         colors.append(NODE_COLOR if a.get("up", True) else NODE_DOWN_COLOR)
         edgecolors.append(SELECT_COLOR if name == selected_node else "white")
         lws.append(3.0 if name == selected_node else 1.2)
+    regs = {n: c for n, c in (regenerators or {}).items() if c and G.has_node(n)}
+    if regs:
+        ax.scatter([G.nodes[n]["x"] for n in regs], [G.nodes[n]["y"] for n in regs], s=size * 2.6,
+                   marker="s", c="white", edgecolors=REGEN_COLOR, linewidths=3, zorder=4.5)
     ax.scatter(xs, ys, s=size, c=colors, edgecolors=edgecolors, linewidths=lws, zorder=5)
     if show_names:
         ax.margins(x=0.1, y=0.16)
@@ -204,6 +239,14 @@ def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list 
                         xytext=(0, offset), ha="center", fontsize=fs(7.5 if many else 9.5), zorder=6,
                         color=TEXT_COLOR, fontweight="bold" if not many else "normal",
                         bbox=dict(boxstyle="round,pad=0.12", fc="white", ec="none", alpha=0.7))
+
+    if regs:
+        right = math.sqrt(size * 2.6) / 2 + 2          # beside the square: the name is above the node
+        for n, c in regs.items():
+            ax.annotate(f"3R×{c}", (G.nodes[n]["x"], G.nodes[n]["y"]), textcoords="offset points",
+                        xytext=(right, 0), ha="left", va="center", fontsize=fs(8.5), zorder=6,
+                        color=REGEN_COLOR, fontweight="bold",
+                        bbox=dict(boxstyle="round,pad=0.12", fc="white", ec="none", alpha=0.8))
 
     if legend:
         handles = []
@@ -227,6 +270,22 @@ def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list 
                        Line2D([0], [0], marker="o", color="w", markerfacecolor=NODE_DOWN_COLOR,
                               markersize=8, label="node failed")]
             title_ = None
+        # 1+1 protection / fibre cut overlays: say what the colored paths and the red X are
+        if highlight_paths and backup_paths:
+            handles.append(Line2D([0], [0], color=HIGHLIGHT_COLOR, lw=6, alpha=0.55, label="working path"))
+        if backup_paths:
+            handles.append(Line2D([0], [0], color=BACKUP_COLOR, lw=6, alpha=0.5, ls=(0, (4, 2)),
+                                  label="backup path"))
+        if down_paths:
+            handles.append(Line2D([0], [0], color=DOWN_PATH_COLOR, lw=6, alpha=0.6,
+                                  label="working path DOWN"))
+        if cut_fibres:
+            handles.append(Line2D([0], [0], color=CUT_COLOR, marker="x", ls="none", ms=10, mew=3,
+                                  label="cut fibre"))
+        if regs:
+            handles.append(Line2D([0], [0], color=REGEN_COLOR, marker="s", ls="none", ms=11, mew=2.5,
+                                  markerfacecolor="white",
+                                  label=f"3R regenerators ({sum(regs.values())} in {len(regs)} nodes)"))
         if handles:
             # below the map, outside the drawing: it never hides nodes or links
             ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, -0.005),
@@ -366,9 +425,9 @@ def series_key(row: dict) -> str:
 
 def series_name(stem: str) -> str:
     """Readable name of an algorithm file: 'route_formulation_vwp' -> 'route formulation VWP'
-    (words without vowels, i.e. acronyms, in capitals)."""
+    (words without vowels, i.e. acronyms, in capitals); '1plus1' is shown as '1+1'."""
     return " ".join(w.upper() if w and not set(w.lower()) & set("aeiouy") else w
-                    for w in stem.split("_"))
+                    for w in stem.replace("1plus1", "1+1").split("_"))
 
 
 def series_labels(rows: list) -> dict:
@@ -418,7 +477,7 @@ def series_style(i: int) -> dict:
 
 
 def plot_sweep(ax_obj, ax_time, rows: list, metric: str = "wavelength_links",
-               compact: bool = False) -> None:
+               compact: bool = False, metric_label: str | None = None) -> None:
     """Objective vs capacity and computation time vs capacity: one curve per
     algorithm/parameters, × on the axis where there is no valid solution. The
     time is the mean of the repetitions of each run, with error bars of one
@@ -438,7 +497,10 @@ def plot_sweep(ax_obj, ax_time, rows: list, metric: str = "wavelength_links",
         cap = _num(r.get("capacity"))
         st = r.get("status")
         series.setdefault(key, [])
-        if st in ("OPTIMAL", "FEASIBLE") and cap is not None and r.get(metric) not in ("", None):
+        # BLOCKING is a valid solution (some demands blocked) - its metrics (blocked demands,
+        # wavelengths used, demands served after the cut) are exactly what the sweep compares,
+        # so it is a plotted point, not a "no valid solution" cross.
+        if st in ("OPTIMAL", "FEASIBLE", "BLOCKING") and cap is not None and r.get(metric) not in ("", None):
             series[key].append((cap, float(r[metric])))
             t = _num(r.get("time_s"))
             if t is not None:
@@ -477,7 +539,7 @@ def plot_sweep(ax_obj, ax_time, rows: list, metric: str = "wavelength_links",
         ax_obj.set_ylim(lo - span * band / (1 - band), hi + 0.06 * span)
     ax_obj.set_xlabel(xlabel, fontsize=f_label)
     if metric != "wavelength_links":
-        ylabel = metric
+        ylabel = metric_label or metric
     elif compact:                  # small panel of the GUI: a short label
         ylabel = "wavelengths used"
     else:
@@ -618,7 +680,8 @@ def save_run_figures(folder: str, dpi: int = 130) -> list:
         return [p]
     run = load_run(folder)
     fig, ax = plt.subplots(figsize=(9, 8))
-    draw_network(ax, run.G, link_used=used_from_rows(run.links), title=run.title)
+    draw_network(ax, run.G, link_used=used_from_rows(run.links), title=run.title,
+                 regenerators=run.regenerator_counts())
     p = os.path.join(folder, "map.png")
     fig.savefig(p, dpi=dpi, bbox_inches="tight")
     plt.close(fig)
