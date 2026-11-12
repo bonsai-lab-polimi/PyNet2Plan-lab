@@ -11,6 +11,7 @@ pynet2plan.cli -- command line interface
     python -m pynet2plan traffic -t TOPO -n 30 --min 1 --max 8 --seed 1 -o traffic.csv
     python -m pynet2plan report RESULT_FOLDER  print the report of a run
     python -m pynet2plan plot RESULT_FOLDER    save map.png / utilization.png (/ sweep.png)
+    python -m pynet2plan eon                   the elastic optical network (EON) window; eon-* commands below
 
 ALGORITHM is a file name of formulations/ ("splittable_flow"), a path, or
 "solutions/<name>" for the reference solutions.
@@ -285,6 +286,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("folder")
     p = sub.add_parser("plot", help="save figures of a result folder")
     p.add_argument("folder")
+    from .eon import cli as eon_cli          # elastic optical networks: eon, eon-run, eon-sweep, ...
+    eon_cli.add_parsers(sub)
     return ap
 
 
@@ -308,6 +311,8 @@ def main(argv=None) -> int:
         return 0
     handlers = dict(doctor=cmd_doctor, list=cmd_list, check=cmd_check, run=cmd_run,
                     sweep=cmd_sweep, traffic=cmd_traffic, report=cmd_report, plot=cmd_plot)
+    from .eon.cli import HANDLERS as eon_handlers
+    handlers.update(eon_handlers)
     from .errors import PyNet2PlanError
     try:
         return handlers[args.command](args)

@@ -48,13 +48,30 @@ class _Tee(io.TextIOBase):
         return t[-MAX_OUTPUT:]
 
 
+def _wait_for_gui_windows():
+    """Windows: wait until the GUI process ends. A thread blocked reading the input pipe is
+    not used there: on Windows a synchronous read on a pipe also blocks other operations on
+    the same handle in the whole process, and the run never completed (Lab 1, November 2026)."""
+    import _winapi
+    try:
+        pid = int(os.environ.get("PYNET2PLAN_GUI_PID") or os.getppid())
+        handle = _winapi.OpenProcess(0x00100000, False, pid)           # SYNCHRONIZE
+    except (OSError, ValueError):
+        threading.Event().wait()                                        # cannot watch: never stop
+        return
+    _winapi.WaitForSingleObject(handle, _winapi.INFINITE)
+
+
 def _watch_parent():
     """Stop everything (this process and the solver it started) when the GUI
     closes our input pipe -- e.g. because it was closed or crashed."""
-    try:
-        sys.stdin.read()
-    except Exception:  # noqa: BLE001
-        pass
+    if sys.platform.startswith("win"):
+        _wait_for_gui_windows()
+    else:
+        try:
+            sys.stdin.read()
+        except Exception:  # noqa: BLE001
+            pass
     if hasattr(os, "killpg") and os.getpgid(0) == os.getpid():   # we lead our own group
         import signal
         try:

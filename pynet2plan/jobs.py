@@ -73,6 +73,7 @@ class Job:
         env["PYTHONPATH"] = PROJECT_ROOT + (os.pathsep + env["PYTHONPATH"] if env.get("PYTHONPATH") else "")
         env["PYTHONIOENCODING"] = "utf-8"
         env.setdefault("MPLBACKEND", "Agg")
+        env["PYNET2PLAN_GUI_PID"] = str(os.getpid())       # the worker stops when this process ends
         kwargs = {}
         if sys.platform.startswith("win"):
             # own process group, so that Cancel can also stop the solver started by the worker

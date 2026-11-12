@@ -533,6 +533,9 @@ def _write_sweep_summary(sweep_dir: str, rows: list, retries: int = 1) -> bool:
 
 def payload_run(payload: dict, progress=None, should_stop=None, on_folder=None) -> dict:
     """Entry point used by background jobs (GUI): everything is plain data."""
+    if str(payload.get("kind", "")).startswith("eon_"):          # the EON window (pynet2plan.eon)
+        from .eon import runner as eon_runner
+        return eon_runner.payload_run(payload, progress, should_stop, on_folder)
     if payload.get("kind") == "check":
         res = check_formulation(payload["formulation"], solver=payload.get("solver"))
         out = res.to_dict()

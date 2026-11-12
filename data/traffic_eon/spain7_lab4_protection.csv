@@ -1,0 +1,49 @@
+# Lab 4, example 3 - no protection vs 1+1 protection on Spain-7: 40 demands, both serve all of them (fair comparison).
+# 1+1 needs 2.2x the transponders and 2.8x the spectrum, but no fibre cut takes a demand down (no protection: up to 17).
+# The EON window cuts fibre Murcia-Valencia AFTER planning (the line below): the results show 17 demands DOWN
+# without protection (rsa_greedy) and 17 demands switched to their backup path with 1+1.
+# cut fibre: Murcia-Valencia
+# spectrum unit: GHz
+# topology: Spain-7 (data/topologies/spain7.json)
+# Data rates in Gb/s; built by tools/build_eon_data.py (example_demands(spain7, 2)).
+id,origin,destination,traffic
+0,Malaga,Zaragoza,300
+1,Madrid,Barcelona,100
+2,Barcelona,Malaga,800
+3,Sevilla,Zaragoza,600
+4,Sevilla,Murcia,800
+5,Barcelona,Malaga,100
+6,Valencia,Murcia,100
+7,Zaragoza,Malaga,200
+8,Murcia,Madrid,500
+9,Valencia,Madrid,400
+10,Madrid,Valencia,100
+11,Madrid,Zaragoza,600
+12,Barcelona,Zaragoza,400
+13,Valencia,Murcia,800
+14,Valencia,Zaragoza,600
+15,Malaga,Zaragoza,400
+16,Malaga,Madrid,600
+17,Sevilla,Malaga,300
+18,Valencia,Sevilla,800
+19,Madrid,Murcia,300
+20,Murcia,Zaragoza,300
+21,Zaragoza,Murcia,300
+22,Valencia,Zaragoza,800
+23,Barcelona,Murcia,500
+24,Murcia,Madrid,700
+25,Malaga,Valencia,200
+26,Murcia,Zaragoza,100
+27,Zaragoza,Valencia,200
+28,Malaga,Sevilla,700
+29,Zaragoza,Barcelona,100
+30,Sevilla,Valencia,200
+31,Malaga,Madrid,500
+32,Malaga,Valencia,600
+33,Malaga,Barcelona,800
+34,Madrid,Valencia,100
+35,Sevilla,Zaragoza,800
+36,Sevilla,Valencia,800
+37,Sevilla,Barcelona,400
+38,Zaragoza,Malaga,800
+39,Murcia,Sevilla,400

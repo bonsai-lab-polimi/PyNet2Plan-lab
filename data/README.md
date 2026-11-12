@@ -7,6 +7,14 @@
 | `topologies/real/` | 105 topologies of real networks from the Topology Bench dataset (see *Source of the real topologies* below), listed in `INDEX.md` |
 | `traffic/real/` | a synthetic traffic matrix, generated with a fixed seed, for each real topology |
 | `real_topologies_xlsx/` | the original `.xlsx` files of Topology Bench |
+| `eon/transponders.csv` | the transponder table of the EON lab (lecture slide *"Amplification and 3R regeneration"*) |
+| `topologies/eon6.json` | the 6-node A-F network of the EON lab (7 bidirectional fibres, 100-800 km) |
+| `traffic_eon/` | EON demands in **Gb/s** (100-800), one file per network: `eon6_traffic.csv` (120), `eon6_slide_example.csv` (CR1, CR3, CR2), `<name>_eon_traffic.csv` for `nsfnet14`, `italy10`, `spain7`, `cost239`, `example_cities` (150 each) |
+| `traffic_eon/real/` | `top<N>_<name>_eon_traffic.csv`: EON demands for every real topology (8 per node, 150-400, seed N) |
+
+`traffic/` is in **wavelengths** (main window), `traffic_eon/` in **Gb/s** (EON
+window): a wavelength file loaded in the EON window would ask for 1-16 Gb/s
+per demand (every demand one 100G QPSK), so the EON window asks before loading it.
 
 All links have one fiber of 40 wavelengths, except a few links of six real topologies
 (`cernet`, `dt17`, `geant2`, `loni`, `pionier`, `redclara`), where the dataset lists two
@@ -68,3 +76,42 @@ For C of 57 or more every demand follows a path with the fewest hops. CBC and Hi
 same values. The comparison is plotted in [`docs/example_split_vs_unsplit.png`](../docs/example_split_vs_unsplit.png),
 and the data can be opened in the graphical interface with
 *File > Open example > Spain-7: splittable vs unsplittable*.
+
+## EON data (elastic optical networks)
+
+`tools/build_eon_data.py` rebuilds them (the other files are not touched).
+
+* `eon/transponders.csv`: one row per transponder type: `rate_gbps`,
+  `modulation`, `bits_per_symbol` (not used by the algorithms), `spacing_ghz`
+  (guard band included; slots = ⌈spacing / slot width⌉), `reach_km`, `cost`
+  (price of one transponder; a lightpath needs 2, a 3R = 2). Edit a copy to
+  try another table (exercise: a 100G QPSK at 37.5 GHz shows what the 12.5 GHz
+  grid buys over the fixed 50 GHz grid).
+* `topologies/eon6.json`: A-B 700, B-C 500, A-D 300, B-E 100, C-F 600, D-E 400,
+  E-F 800 km (both directions). A-B-C is the slide's 3R example; the longest
+  shortest path is A-F, 1500 km; C-D is the classic "shortest path has no
+  disjoint backup" trap (C-B-E-D, while C-B-A-D + C-F-E-D are disjoint).
+* EON traffic (`traffic_eon/`, rebuilt by `tools/build_eon_data.py`): data rates drawn uniformly among the rates of the table with
+  `pynet2plan.eon.traffic.random_eon_traffic` (numpy `default_rng(seed)`):
+  `eon6_traffic.csv` (seed 42) contains exactly the 120 demands of the EON
+  notebook, `nsfnet14_eon_traffic.csv` seed 14, `italy10_eon_traffic.csv`
+  seed 10. The first n demands of a seed do not depend on how many are drawn,
+  so a load sweep over "the first n demands" is consistent.
+
+Reference values with 320 slots per link (each direction has its own
+spectrum, so they differ from the notebook's, whose links are undirected):
+
+| network | algorithm | served | transponders | 3R | total slots used |
+|---|---|---:|---:|---:|---:|
+| EON-6 (120) | RSA | 120 | 310 | 0 | 1768 |
+| EON-6 (120) | RSA + 1+1 two-step | 77 (6 no disjoint path, 37 spectrum) | 418 | 0 | 3344 |
+| EON-6 (120) | RSA + 1+1 ILP, k = 4 | 90 (30 spectrum) | 470 | 0 | 3876 |
+| EON-6 (120) | RSA + 3R | 120 | 304 | 11 | 1636 |
+| NSFNET-14 (150) | RSA | 150 | 488 | 0 | 4660 |
+| NSFNET-14 (150) | RSA + 1+1 two-step | 100 (36 reach, 14 spectrum) | 684 | 0 | 7752 |
+| NSFNET-14 (150) | RSA + 3R | 150 | 436 | 89 | 3748 |
+| Italy-10 (150) | RSA | 149 | 366 | 0 | 3160 |
+| Italy-10 (150) | RSA + 1+1 two-step | 133 (17 spectrum) | 658 | 0 | 6188 |
+| Italy-10 (150) | RSA + 3R | 150 | 328 | 30 | 2704 |
+
+(one transponder type per demand: n lightpaths of the same type.)

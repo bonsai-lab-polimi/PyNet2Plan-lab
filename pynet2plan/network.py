@@ -592,6 +592,11 @@ def topology_from_dict(data: dict) -> nx.DiGraph:
         G = new_network(str(data.get("name", "Untitled network")))
         if data.get("description"):
             G.graph["description"] = data["description"]
+        cut = data.get("cut_after_planning")
+        if isinstance(cut, (list, tuple)) and cut and isinstance(cut[0], (list, tuple)):
+            G.graph["cut_after_planning"] = [tuple(str(x) for x in e) for e in cut]   # several, or one way
+        elif isinstance(cut, (list, tuple)) and len(cut) == 2:
+            G.graph["cut_after_planning"] = (str(cut[0]), str(cut[1]))
         for i, n in enumerate(data["nodes"]):
             if not isinstance(n, dict) or "name" not in n:
                 raise TopologyError(f"Node #{i + 1} has no 'name'.")

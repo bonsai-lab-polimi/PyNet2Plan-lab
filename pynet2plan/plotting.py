@@ -201,8 +201,9 @@ def draw_network(ax, G, *, link_used: dict | None = None, highlight_paths: list 
                 text = f"{100 * used / cap:.0f}%" if cap else "∞"
             elif label_mode == "used" and link_used is not None:
                 text = f"{used:g}/{cap}"
-            elif label_mode == "capacity":
-                text = f"{fibers}×{a.get('capacity', 0)}" if fibers > 1 else f"{cap}"
+            elif label_mode == "capacity":           # in wavelengths, as in the link table
+                w = a.get("capacity", 0)
+                text = f"{fibers}×{w}" if fibers > 1 else f"{w}"
             else:
                 text = ""
             if text:

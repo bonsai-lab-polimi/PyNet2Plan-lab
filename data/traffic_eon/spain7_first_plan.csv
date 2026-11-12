@@ -1,0 +1,37 @@
+# Lab 4, example 1 - RSA on the grid of slots, Spain-7: 30 demands, light load. rsa_greedy serves 30;
+# look at the Lightpaths tab: 7 transponder types, fast modulations on short paths, slow but far-reaching ones on long paths
+# (800G PCS 64QAM and 300G 64QAM reach 150 and 100 km: shorter than every link of Spain-7); a demand above
+# 800 Gb/s or beyond a reach needs several lightpaths.
+# topology: Spain-7 (data/topologies/spain7.json)
+# Data rates in Gb/s; built by tools/build_eon_data.py (example_demands(spain7, 1)).
+id,origin,destination,traffic
+0,Malaga,Zaragoza,300
+1,Madrid,Barcelona,100
+2,Barcelona,Malaga,800
+3,Sevilla,Zaragoza,600
+4,Sevilla,Murcia,800
+5,Barcelona,Malaga,100
+6,Valencia,Murcia,100
+7,Zaragoza,Malaga,200
+8,Murcia,Madrid,500
+9,Valencia,Madrid,400
+10,Madrid,Valencia,100
+11,Madrid,Zaragoza,600
+12,Barcelona,Zaragoza,400
+13,Valencia,Murcia,800
+14,Valencia,Zaragoza,600
+15,Malaga,Zaragoza,400
+16,Malaga,Madrid,600
+17,Sevilla,Malaga,300
+18,Valencia,Sevilla,800
+19,Madrid,Murcia,300
+20,Murcia,Zaragoza,300
+21,Zaragoza,Murcia,300
+22,Valencia,Zaragoza,800
+23,Barcelona,Murcia,500
+24,Murcia,Madrid,700
+25,Malaga,Valencia,200
+26,Murcia,Zaragoza,100
+27,Zaragoza,Valencia,200
+28,Malaga,Sevilla,700
+29,Zaragoza,Barcelona,100

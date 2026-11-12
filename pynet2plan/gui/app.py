@@ -333,6 +333,11 @@ class App(tk.Tk):
         v.add_cascade(label="Text size (projector)", menu=ts)
         m.add_cascade(label="View", menu=v)
 
+        e = tk.Menu(m, tearoff=0)                     # elastic optical networks: pynet2plan.eon
+        e.add_command(label="Elastic optical networks: RSA, 1+1, 3R (EON window)...",
+                      command=self.action_open_eon)
+        m.add_cascade(label="EON", menu=e)
+
         h = tk.Menu(m, tearoff=0)
         h.add_command(label="Quick guide", command=self.action_quick_guide)
         h.add_command(label="Check installation (solvers)", command=self.action_doctor)
@@ -1124,6 +1129,20 @@ class App(tk.Tk):
         if d:
             self.results_root = d
             self.set_status(f"Results will be saved in {d}")
+
+    def action_open_eon(self):
+        """The EON window (pynet2plan.eon), with a copy of the current network. Its traffic is in
+        wavelengths, EON traffic in Gb/s: the EON traffic of the network is loaded instead."""
+        from .eon_app import EON_TEACHING_EXAMPLES, EonWindow
+        G = self.G.copy() if self.G.number_of_edges() else None
+        win = EonWindow(self, G, headless=self.headless, use_process=self.use_process)
+        if G is None:
+            win.do_open_example(EON_TEACHING_EXAMPLES[0][0])      # Spain-7, as the wavelength labs
+        else:
+            note = win._load_matching_traffic(self.topology_path or "")
+            win.set_status("Network copied from the main window (its traffic is in wavelengths, EON "
+                           "traffic is in Gb/s). " + note)
+        return win
 
     # ------------------------------------------------------------------
     # Help

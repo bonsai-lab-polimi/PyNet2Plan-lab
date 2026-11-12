@@ -1,0 +1,144 @@
+{
+  "format": "pynet2plan-topology",
+  "version": 2,
+  "name": "EON-6",
+  "description": "The 6-node network of the EON lab (lecture 'Amplification and 3R regeneration'): 7 bidirectional fibres of 100-800 km. A-B-C (700 + 500 km) is the slide's 3R example.",
+  "nodes": [
+    {
+      "name": "A",
+      "x": 0.0,
+      "y": 1000.0,
+      "up": true
+    },
+    {
+      "name": "B",
+      "x": 1000.0,
+      "y": 1000.0,
+      "up": true
+    },
+    {
+      "name": "C",
+      "x": 2000.0,
+      "y": 1000.0,
+      "up": true
+    },
+    {
+      "name": "D",
+      "x": 0.0,
+      "y": 0.0,
+      "up": true
+    },
+    {
+      "name": "E",
+      "x": 1000.0,
+      "y": 0.0,
+      "up": true
+    },
+    {
+      "name": "F",
+      "x": 2000.0,
+      "y": 0.0,
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "origin": "A",
+      "destination": "B",
+      "capacity": 40,
+      "length": 700.0,
+      "up": true
+    },
+    {
+      "origin": "A",
+      "destination": "D",
+      "capacity": 40,
+      "length": 300.0,
+      "up": true
+    },
+    {
+      "origin": "B",
+      "destination": "A",
+      "capacity": 40,
+      "length": 700.0,
+      "up": true
+    },
+    {
+      "origin": "B",
+      "destination": "C",
+      "capacity": 40,
+      "length": 500.0,
+      "up": true
+    },
+    {
+      "origin": "B",
+      "destination": "E",
+      "capacity": 40,
+      "length": 100.0,
+      "up": true
+    },
+    {
+      "origin": "C",
+      "destination": "B",
+      "capacity": 40,
+      "length": 500.0,
+      "up": true
+    },
+    {
+      "origin": "C",
+      "destination": "F",
+      "capacity": 40,
+      "length": 600.0,
+      "up": true
+    },
+    {
+      "origin": "D",
+      "destination": "A",
+      "capacity": 40,
+      "length": 300.0,
+      "up": true
+    },
+    {
+      "origin": "D",
+      "destination": "E",
+      "capacity": 40,
+      "length": 400.0,
+      "up": true
+    },
+    {
+      "origin": "E",
+      "destination": "B",
+      "capacity": 40,
+      "length": 100.0,
+      "up": true
+    },
+    {
+      "origin": "E",
+      "destination": "D",
+      "capacity": 40,
+      "length": 400.0,
+      "up": true
+    },
+    {
+      "origin": "E",
+      "destination": "F",
+      "capacity": 40,
+      "length": 800.0,
+      "up": true
+    },
+    {
+      "origin": "F",
+      "destination": "C",
+      "capacity": 40,
+      "length": 600.0,
+      "up": true
+    },
+    {
+      "origin": "F",
+      "destination": "E",
+      "capacity": 40,
+      "length": 800.0,
+      "up": true
+    }
+  ]
+}

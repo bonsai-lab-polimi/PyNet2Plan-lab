@@ -1,0 +1,7 @@
+# The slide's example (Gb/s): CR1 (A,C) 100G QPSK reaches 3000 km;
+# CR3 (B,C) 600 Gb/s fills the bottom of the band on B-C;
+# CR2 (A,C) 200 Gb/s: 200G 16QAM reaches 900 km < 1200 km (the red X).
+id,origin,destination,traffic
+1,A,C,100
+3,B,C,600
+2,A,C,200

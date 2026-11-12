@@ -1,0 +1,50 @@
+# Lab 4, example 4 - no protection vs 1+1 heuristic vs 1+1 ILP on Spain-7: 40 demands, 1200 GHz per link (96 slots),
+# the fibre Murcia-Valencia cut after planning. No protection (rsa_greedy): 40 planned, 22 served after the cut.
+# 1+1 heuristic (rsa_1plus1_two_step), the demands one at a time: 25; 1+1 ILP (rsa_1plus1_ilp), all the demands together: 29.
+# Every protected demand is still served after the cut.
+# cut fibre: Murcia-Valencia
+# slots per link: 96
+# spectrum unit: GHz
+# topology: Spain-7 (data/topologies/spain7.json)
+# Data rates in Gb/s; built by tools/build_eon_data.py (example_demands(spain7, 6)).
+id,origin,destination,traffic
+0,Valencia,Malaga,600
+1,Barcelona,Malaga,100
+2,Malaga,Murcia,500
+3,Sevilla,Zaragoza,500
+4,Sevilla,Zaragoza,100
+5,Zaragoza,Valencia,600
+6,Zaragoza,Murcia,800
+7,Murcia,Zaragoza,100
+8,Malaga,Sevilla,600
+9,Murcia,Zaragoza,600
+10,Sevilla,Madrid,600
+11,Malaga,Murcia,100
+12,Madrid,Murcia,200
+13,Barcelona,Valencia,500
+14,Murcia,Zaragoza,500
+15,Madrid,Valencia,800
+16,Sevilla,Valencia,700
+17,Valencia,Malaga,600
+18,Zaragoza,Malaga,100
+19,Barcelona,Madrid,600
+20,Valencia,Madrid,100
+21,Malaga,Barcelona,400
+22,Zaragoza,Valencia,600
+23,Barcelona,Valencia,200
+24,Madrid,Murcia,100
+25,Madrid,Zaragoza,700
+26,Murcia,Valencia,300
+27,Valencia,Malaga,200
+28,Murcia,Zaragoza,800
+29,Barcelona,Murcia,600
+30,Zaragoza,Valencia,500
+31,Madrid,Valencia,600
+32,Barcelona,Sevilla,700
+33,Sevilla,Malaga,500
+34,Valencia,Sevilla,600
+35,Malaga,Zaragoza,600
+36,Malaga,Barcelona,300
+37,Zaragoza,Valencia,600
+38,Malaga,Zaragoza,600
+39,Murcia,Barcelona,100

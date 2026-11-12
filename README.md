@@ -25,7 +25,8 @@ The handouts of the laboratory are in [`docs/lab/`](docs/lab/README.md):
 [the splittable flow formulation](docs/lab/03_first_ilp.pdf) (Lab 1),
 [the unsplittable flow formulation](docs/lab/04_unsplittable_flow.pdf) and
 [the route formulation](docs/lab/05_route_formulation.pdf) (Lab 2),
-[the route formulation with 1+1 protection](docs/lab/06_protection_route_formulation.pdf) (Lab 3). The
+[the route formulation with 1+1 protection](docs/lab/06_protection_route_formulation.pdf) (Lab 3).
+Lab 4 (elastic optical networks) uses the EON window, `python -m pynet2plan eon` (section 4b). The
 material of each lab is added to the repository before the lab: get it with `git pull` (see
 below).
 
@@ -174,6 +175,111 @@ python -m pynet2plan sweep -t data/topologies/spain7.json \
 The unsplittable series appears once `formulations/unsplittable_flow.py` has been completed;
 before that its runs have status `NOT_COMPLETED`.
 
+## 4b. Elastic optical networks (EON): RSA, 1+1 protection, 3R
+
+A separate window for **elastic optical networks**, built from the same
+pieces (map, tables, background runs, CSV results) but independent of the
+wavelength algorithms above:
+
+```bash
+python -m pynet2plan eon
+```
+
+Every link has **4000 GHz** of spectrum (Lab 4, part 1), cut on the flexible grid into **slots of
+12.5 GHz** (320 slots, Lab 4), and a demand asks for a **data rate in Gb/s**. It is carried by one or more
+**lightpaths**, each with a **transponder type** of the table
+`data/eon/transponders.csv` (the lecture slide *"Amplification and 3R
+regeneration"*: rate, modulation, channel spacing → slots, **reach**, cost).
+RSA (Routing and Spectrum Assignment) must respect the **reach** (of the
+path, or of every segment with 3R), **contiguity** (adjacent slots),
+**continuity** (the same slots on every link) and **non-overlap**. Every
+unidirectional link has its own spectrum; a **fibre** is a pair of opposite
+links (what a cut takes down, what 1+1 must avoid).
+
+| lab | file (`formulations/eon/`) | what | status |
+|---|---|---|---|
+| 3 | `rsa_greedy.py` | no protection, no 3R: the greedy plan (Lab 4: greedy RSA, k shortest paths, fewest slots, first-fit) | **given** |
+| 3 | `rsa_1plus1_two_step.py` | 1+1 protection, two-step (shortest path, then backup) | **given** |
+| 3 | `rsa_1plus1_ilp.py` | 1+1 protection: route formulation (ILP), the pairs of all the demands together | **given** |
+| 4 | `rsa_3r.py` | 3R regeneration (reach per segment, spectrum per segment) | **exercise** |
+
+The solutions are checked independently (reach, contiguity, continuity,
+non-overlap, 1+1 disjointness, 3R only at intermediate nodes) and saved in
+`results/eon/`. The window shows the spectrum of every link, what each
+**fibre cut** takes down (or switches to the backup path), the **cost**
+(hardware + `C_SLOT` × slots, with the break-even price of a slot between two
+runs) and the comparisons of several runs. *Run → Fair comparison* compares no protection and
+1+1 on the same demands. *Cut / repair fibre* (Network tab) cuts a fibre
+**after planning** (several fibres can be cut; the button cuts or repairs the selected one; without
+*cut both directions* only the selected direction is cut, `D>E` in the results):
+the algorithms still plan on the whole network, and every result opens showing what the cuts do
+to the plan (demands DOWN in red, demands switched to their 1+1 backup in purple). To plan
+*without* a fibre, delete it. A traffic file can ask for cuts with a line `# cut fibre: D-E` or
+`# cut fibres: D-E, B-C` (`D>E`: only that direction; teaching example 3 of Lab 4 cuts Murcia-Valencia). The network and the demands can be edited on the
+map, as in the main window: modes *Add node*, *Add link* (two clicks, then the
+length in km — it decides which transponders reach), *Add demand* (two clicks,
+then the Gb/s), *Delete selected*, *Edit km…* in the Links tab. Any topology can be used (*File → Open topology…*,
+also the real ones of `data/topologies/real/`): its EON traffic is loaded with
+it. EON traffic (Gb/s, 100–800 per demand) has its own folder,
+**`data/traffic_eon/`**, with a file for every network (real ones in
+`data/traffic_eon/real/`); `data/traffic/` is in wavelengths, for the main
+window — loaded in the EON window it would make every demand a single 100G
+QPSK, so the window asks first. How to write an EON algorithm:
+[`formulations/eon/README.md`](formulations/eon/README.md).
+
+**Teaching examples** on Spain-7, the network of the wavelength labs (*File → Teaching
+examples*, files `data/traffic_eon/spain7_lab4_*.csv`, `spain7_first_plan.csv` and `spain7_lab4_3r.csv`), each
+built so that one comparison shows clearly (4000 GHz = 320 slots per link). Those of Lab 4, part 1 show the
+spectrum in GHz, those of Lab 4 in slots. The exercises and the lecture's examples use EON-6:
+
+| example | demands | no protection, no 3R (`rsa_greedy`) | 1+1 | 3R | what it shows |
+|---|---:|---|---|---|---|
+| Lab 4, 1: no protection vs 1+1 (fibre Murcia-Valencia cut after planning) | 40 | 40 served, 100 transp., 9700 GHz; cut: 17 DOWN | 40 served, 218 transp., 26750 GHz; cut: 0 down, 17 switched | | the price (2.2× transponders, 2.8× spectrum) and the gain of protection |
+| Lab 4, 2: no protection vs 1+1 heuristic vs 1+1 ILP (1200 GHz per link, Murcia-Valencia cut) | 40 | 40 planned, 22 after the cut | two-step 25, ILP (`rsa_1plus1_ilp`) 29, all still served after the cut | | the ILP chooses the pairs of all the demands together |
+| Lab 4, 3: one demand with 1+1 | 1 | 1 lightpath (700G), 2 transponders | 1 + 2 backup lightpaths (400G), 6 transponders | | Madrid → Valencia, 700 Gb/s: the backup detour (832 km) is too long for 700G |
+| Lab 4, 4: RSA on the grid of slots | 30 | 30 served, 512 slots | | | contiguity and continuity on the grid of slots; first-fit |
+| Lab 4, 5: no 3R vs 3R | 100 long, 500–800 Gb/s | 93 served, 3388 slots | | 100 served, 2696 slots, 63 × 3R | 3R lets the fast types go far: more demands in fewer slots, more hardware |
+
+A demand is carried by **n lightpaths of one transponder type** (e.g. 600 Gb/s
+over 1200 km = 2 × 300G PCS 16QAM), never by a mix such as 500G PCS 16QAM +
+100G QPSK; a 3R keeps the type (rate, modulation, slots) of its lightpath.
+`best_combination` chooses this way and the checker rejects a mix. In the
+Lightpaths table a 3R is written on the path and every segment shows its own
+spectrum, e.g. on EON-6 `A > D > E [3R] > F`, `A-D-E: 200-250 GHz | E-F: 200-250 GHz`.
+The window shows the spectrum in **GHz** by default (Lab 4, part 1: protection and 3R, before the slots);
+*View → Spectrum in slots* shows every spectrum quantity in slots of 12.5 GHz (Lab 4). The teaching
+examples switch to their unit by themselves (a traffic file can ask for one with
+`# spectrum unit: GHz` or `# spectrum unit: slots`).
+
+Reference values, EON-6 (*File → Open example*, the 6-node network of the
+lecture) with its 120 demands and 320 slots per link:
+
+| | RSA | RSA + 1+1 | RSA + 3R |
+|---|---:|---:|---:|
+| demands served | 120 | 78 (42 blocked: spectrum) | 120 |
+| lightpaths | 155 | 101 + 113 backup | 152 |
+| transponders / 3R | 310 / 0 | 428 / 0 | 304 / 11 |
+| total slots used (slots × links) | 1768 | 3564 | 1636 |
+| demands down, worst single fibre cut | 45 | 0 | 45 |
+
+On the 78 demands both serve, 1+1 needs 2.1× the transponders and 3.3× the
+spectrum of RSA, and no demand goes down whatever fibre is cut. RSA + 3R is
+the cheaper network once a slot costs more than 0.12 (hardware: a
+transponder = 1, a 3R = 2). The slide's example is reproduced exactly (A→C at
+200 Gb/s: 300G PCS 16QAM on 8 slots without 3R; 200G 16QAM with a 3R at B on
+slots 4–7 of A–B and 12–15 of B–C). These numbers differ from the EON
+notebook's, whose links share one spectrum for both directions.
+
+```bash
+python -m pynet2plan eon-run -t data/topologies/eon6.json -d data/traffic_eon/eon6_traffic.csv -a rsa_greedy --plot
+python -m pynet2plan eon-sweep -t data/topologies/eon6.json -d data/traffic_eon/eon6_traffic.csv \
+       -a rsa_greedy -a rsa_3r --axis num_demands --values 20-120:20
+python -m pynet2plan eon-protection -t data/topologies/eon6.json -d data/traffic_eon/eon6_traffic.csv
+python -m pynet2plan eon-traffic -t data/topologies/eon6.json -n 120 --seed 42 -o my_eon_traffic.csv
+python -m pynet2plan eon-cost --rate 1200 --span 200      # long reach or 3R? break-even price of a slot
+python -m pytest tests/test_eon_exercises.py -v           # tests of the EON algorithms
+```
+
 ## 5. File formats
 
 A topology file (`.json`) lists the nodes and the unidirectional links:
@@ -230,6 +336,8 @@ ABILENE, CORONET, GERMANY50, ITALY and others, see `INDEX.md`), with synthetic t
 Optical Communications and Networking*, vol. 17, no. 1, pp. 7-27, 2024,
 [doi:10.1364/JOCN.534477](https://doi.org/10.1364/JOCN.534477)), distributed under the
 CC BY 4.0 license; `data/README.md` gives the full reference and the changes made.
+The traffic of the EON window, in Gb/s, is in `data/traffic_eon/`, with one file for every
+network (section 4b).
 
 ## 7. Command line and scripts
 
@@ -274,10 +382,11 @@ run = results.load_run(res.folder)                                # the saved CS
 
 ```
 pynet2plan/        the library (network, traffic, solution, validation, runner, results, gui, ...)
+pynet2plan/eon/    elastic optical networks: transponders, spectrum, checker, runner, results, plotting
 formulations/     the algorithms: complete formulations and exercises
 data/             topologies and traffic matrices
 labs/             scripts used in the lab sessions
-results/          output of the runs (not under version control)
+results/          output of the runs (not under version control); EON runs in results/eon/
 tests/            tests, run with python -m pytest
 tools/            maintenance scripts (reference data, handouts)
 docs/             lab handouts (docs/lab), screenshots, example charts, Net2Plan user's guide
