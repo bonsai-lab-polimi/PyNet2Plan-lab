@@ -1,14 +1,15 @@
-# Transponder table of the lecture slide "Amplification and 3R regeneration".
+# Transponder table of the homework: the table of the lecture slide "Amplification and 3R regeneration"
+# with a cost that grows with the data rate: cost = 0.5 + rate_gbps / 200 (cost unit = one 100G transponder).
 # One row per transponder type. spacing_ghz includes the guard band;
 # slots = ceil(spacing_ghz / slot width) -> 50 GHz = 4 slots, 100 GHz = 8 slots (12.5 GHz grid).
 # cost = price of ONE transponder of this type (a lightpath needs 2, a 3R regenerator = 2 back to back).
 rate_gbps,modulation,bits_per_symbol,spacing_ghz,reach_km,cost
-800,PCS 64QAM,5.67,100,150,1
-700,PCS 64QAM,5.00,100,400,1
-600,16QAM,4.00,100,700,1
-500,PCS 16QAM,3.60,100,1300,1
-400,PCS 16QAM,3.00,100,2500,1
-300,PCS 16QAM,2.39,100,4700,1
-300,64QAM,6.00,50,100,1
-200,16QAM,4.00,50,900,1
+800,PCS 64QAM,5.67,100,150,4.5
+700,PCS 64QAM,5.00,100,400,4
+600,16QAM,4.00,100,700,3.5
+500,PCS 16QAM,3.60,100,1300,3
+400,PCS 16QAM,3.00,100,2500,2.5
+300,PCS 16QAM,2.39,100,4700,2
+300,64QAM,6.00,50,100,2
+200,16QAM,4.00,50,900,1.5
 100,QPSK,2.00,50,3000,1
